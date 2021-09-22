@@ -415,7 +415,7 @@
                 "length": 4,
                 "name": "pressure"
               }
-            ],
+            ]
           },
           {
             "name": "test_field_1",
