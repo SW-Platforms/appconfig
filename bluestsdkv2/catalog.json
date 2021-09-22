@@ -307,7 +307,7 @@
           },
           {
             "name": "humidity",
-                "format": [
+                "format_notify": [
                   {
                     "length": 2,
                     "name": "timestamp"
@@ -321,7 +321,7 @@
           },
           {
             "name": "pressure",
-                "format": [
+                "format_notify": [
                   {
                     "length": 2,
                     "name": "timestamp"
@@ -421,7 +421,7 @@
           },
           {
             "name": "humidity",
-                "format": [
+                "format_notify": [
                   {
                     "length": 2,
                     "name": "timestamp"
@@ -435,9 +435,7 @@
           },
           {
             "name": "pressure",
-            "properties": [
-              {
-                "format": [
+                "format_notify": [
                   {
                     "length": 2,
                     "name": "timestamp"
@@ -447,11 +445,55 @@
                     "name": "pressure"
                   }
                 ],
-                "length": 6
-              }
-            ],
             "uuid": "00100000-0001-11e1-ac36-0002a5d5c51b"
-          }
+          },
+          {
+            "name": "test_field_1",
+            "uuid": "00100000-0003-11e1-ac36-0002a5d5c51b",
+            "uuid_type": 3,
+            "format_notify": [
+              {
+                "length": 2,
+                "name": "timestamp"
+              },
+              {
+                "length": 2,
+                "name": "test_field_1",
+                "type": "Uint16",
+                "offset": 1.0,
+                "scalefactor": 2.0
+              }
+            ]
+          },
+          {
+            "name": "test_field_2",
+            "uuid": "00200000-0003-11e1-ac36-0002a5d5c51b",
+            "uuid_type": 3, 
+            "format_write": [
+             {
+               "length": 2,
+               "name": "test_field_1",
+               "type": "Uint16",
+               "offset": 1.0,
+               "scalefactor": 2.0
+             },
+             {
+               "length": 2,
+               "name": "test_field_2",
+               "type": "enum_string",
+               "string_values": [
+                 {
+                   "value": 0,
+                   "display_name": "string 0"
+                 },
+                 {
+                   "value": 1,
+                   "display_name": "string 1"
+                 }
+               ] 
+             }
+            ]
+         }
         ]
       }
     ],
