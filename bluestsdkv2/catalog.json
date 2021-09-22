@@ -307,8 +307,6 @@
           },
           {
             "name": "humidity",
-            "properties": [
-              {
                 "format": [
                   {
                     "length": 2,
@@ -319,15 +317,10 @@
                     "name": "humidity"
                   }
                 ],
-                "length": 4
-              }
-            ],
             "uuid": "00080000-0001-11e1-ac36-0002a5d5c51b"
           },
           {
             "name": "pressure",
-            "properties": [
-              {
                 "format": [
                   {
                     "length": 2,
@@ -338,9 +331,6 @@
                     "name": "pressure"
                   }
                 ],
-                "length": 6
-              }
-            ],
             "uuid": "00100000-0001-11e1-ac36-0002a5d5c51b"
           }
         ],
@@ -431,8 +421,6 @@
           },
           {
             "name": "humidity",
-            "properties": [
-              {
                 "format": [
                   {
                     "length": 2,
@@ -443,9 +431,6 @@
                     "name": "humidity"
                   }
                 ],
-                "length": 4
-              }
-            ],
             "uuid": "00080000-0001-11e1-ac36-0002a5d5c51b"
           },
           {
