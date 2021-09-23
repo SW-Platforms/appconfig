@@ -495,7 +495,7 @@
               {
                 "length": 1,
                 "name": "test_int8",
-                "type": "Int16",
+                "type": "Int8",
                 "offset": 16.0,
                 "scalefactor": 10.0
               },
