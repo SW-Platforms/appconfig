@@ -459,7 +459,7 @@
               {
                 "length": 2,
                 "name": "test_uint16",
-                "type": "Uint16",
+                "type": "UInt16",
                 "offset": 0.0,
                 "scalefactor": 1.0
               }
@@ -502,7 +502,7 @@
               {
                 "length": 4,
                 "name": "test_uint32",
-                "type": "Uint32",
+                "type": "UInt32",
                 "offset": 100.0,
                 "scalefactor": 100.0
               }
@@ -516,7 +516,7 @@
              {
                "length": 2,
                "name": "test_field_1",
-               "type": "Uint16",
+               "type": "UInt16",
                "offset": 1.0,
                "scalefactor": 2.0
              },
