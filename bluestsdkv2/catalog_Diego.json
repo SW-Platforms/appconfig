@@ -224,7 +224,7 @@
       ],
       "cloud_apps": [
         {
-          "dtmi": "dtmi:diegoDtdlv2:STEVALSTWINKT1B_HSD_STREDL;1",
+          "dtmi": "dtmi:diegoDtdlv2:STEVALSTWINKT1B_HSD_STREDL;1"
         }
       ],
       "fw_name": "FP-SNS-DATALOG1",
