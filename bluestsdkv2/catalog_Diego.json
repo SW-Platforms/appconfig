@@ -516,7 +516,197 @@
         {},
         {}
       ]
-    }
+    },
+    {
+        "ble_dev_id": "0x0F",
+        "ble_fw_id": "0x01",
+        "brd_name": "PROTEUS",
+        "fw_name": "Test Fw GP features",
+        "fw_version": "0.0.1",
+         "cloud_apps": [
+        {
+          "description": null,
+          "dtmi": "dtmi:stmicroelectronics:PROTEUS:standard_if;1",
+          "name": null,
+          "shareable_link": null,
+          "url": null
+        }
+      ],
+        "option_bytes": [
+          {
+            "format": "int",
+            "name": "battery",
+            "negative_offset": 0,
+            "scale_factor": 10,
+            "type": "%"
+          },
+          {
+            "format": "enum_string",
+            "name": "alarm",
+            "string_values": [
+              {
+                "display_name": "No Alarm",
+                "value": 0
+              },
+              {
+                "display_name": "Low Battery",
+                "value": 1
+              },
+              {
+                "display_name": "SD Full",
+                "value": 2
+              }
+            ],
+            "type": "string"
+          },
+          {
+            "format": "enum_icon",
+            "icon_values": [
+              {
+                "comment": "icon for Log on going",
+                "icon_code": 1,
+                "value": 0
+              },
+              {
+                "comment": "icon for low battery",
+                "icon_code": 4,
+                "value": 1
+              },
+              {
+                "comment": "icon for SD full",
+                "icon_code": 10,
+                "value": 2
+              }
+            ],
+            "name": "status",
+            "type": "icon"
+          }
+        ],
+        "characteristics": [
+          {
+            "name": "temperature",
+            "uuid": "00010000-0001-11e1-ac36-0002a5d5c51b"
+          },
+          {
+            "name": "humidity",
+                "format_notify": [
+                  {
+                    "length": 2,
+                    "name": "timestamp"
+                  },
+                  {
+                    "length": 2,
+                    "name": "humidity"
+                  }
+                ],
+            "uuid": "00080000-0001-11e1-ac36-0002a5d5c51b"
+          },
+          {
+            "name": "pressure",
+                "format_notify": [
+                  {
+                    "length": 2,
+                    "name": "timestamp"
+                  },
+                  {
+                    "length": 4,
+                    "name": "pressure"
+                  }
+                ],
+            "uuid": "00100000-0001-11e1-ac36-0002a5d5c51b"
+          },
+          {
+            "name": "test_uint16",
+            "uuid": "00100000-0003-11e1-ac36-0002a5d5c51b",
+            "uuid_type": 3,
+            "format_notify": [
+              {
+                "length": 2,
+                "name": "timestamp"
+              },
+              {
+                "length": 2,
+                "name": "test_uint16",
+                "type": "UInt16",
+                "offset": 0.0,
+                "scalefactor": 1.0
+              }
+            ]
+          },
+          {
+            "name": "test_int32",
+            "uuid": "00200000-0003-11e1-ac36-0002a5d5c51b",
+            "uuid_type": 3,
+            "format_notify": [
+              {
+                "length": 2,
+                "name": "timestamp"
+              },
+              {
+                "length": 4,
+                "name": "test_int32",
+                "type": "Int16",
+                "offset": -100.0,
+                "scalefactor": 0.02
+              }
+            ]
+          },
+          {
+            "name": "test_int8_uint32",
+            "uuid": "00300000-0003-11e1-ac36-0002a5d5c51b",
+            "uuid_type": 3,
+            "format_notify": [
+              {
+                "length": 2,
+                "name": "timestamp"
+              },
+              {
+                "length": 1,
+                "name": "test_int8",
+                "type": "Int8",
+                "offset": 16.0,
+                "scalefactor": 10.0
+              },
+              {
+                "length": 4,
+                "name": "test_uint32",
+                "type": "UInt32",
+                "offset": 100.0,
+                "scalefactor": 100.0
+              }
+            ]
+          },
+          {
+            "name": "test_field_2",
+            "uuid": "00F00000-0003-11e1-ac36-0002a5d5c51b",
+            "uuid_type": 3, 
+            "format_write": [
+             {
+               "length": 2,
+               "name": "test_field_1",
+               "type": "UInt16",
+               "offset": 1.0,
+               "scalefactor": 2.0
+             },
+             {
+               "length": 2,
+               "name": "test_field_2",
+               "type": "enum_string",
+               "string_values": [
+                 {
+                   "value": 0,
+                   "display_name": "string 0"
+                 },
+                 {
+                   "value": 1,
+                   "display_name": "string 1"
+                 }
+               ] 
+             }
+            ]
+         }
+        ]
+      }
   ],
   "characteristics": [
     {
