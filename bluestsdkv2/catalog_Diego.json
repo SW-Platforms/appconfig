@@ -59,15 +59,15 @@
           "description": "PoC for APAC region",
           "dtmi": "dtmi:diegoDtdlv2:PROTEUSdraftv16e0;1",
           "name": "Proteus PoC",
-          "shareable_link": https://apps.azureiotcentral.com/build/new/833f2c88-b5c5-402d-adfd-b81ed5dfed05,
-          "url": https://proteus-poc.azureiotcentral.com
+          "shareable_link": "https://apps.azureiotcentral.com/build/new/833f2c88-b5c5-402d-adfd-b81ed5dfed05",
+          "url": "https://proteus-poc.azureiotcentral.com"
         },
         {
           "description": "This app supports mobile and gateway access",
           "dtmi": "dtmi:diegoDtdlv2:PROTEUSdraftv16e0;1",
           "name": "Condition Based Monitoring",
           "shareable_link": null,
-          "url": https://cbm-web.azureiotcentral.com
+          "url": "https://cbm-web.azureiotcentral.com"
         }
       ],
       "fw_name": "Proteus",
