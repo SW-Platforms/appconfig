@@ -224,6 +224,7 @@
       ],
       "cloud_apps": [
         {
+          "description": "This app supports mobile and gateway access",
           "dtmi": "dtmi:diegoDtdlv2:STEVALSTWINKT1B_HSD_STREDL;1"
         }
       ],
@@ -457,7 +458,7 @@
       ],
       "cloud_apps": [
         {
-          "dtmi": "dtmi:diegoDtdlv2:STEVALSTWINKT1Draftv4;1",
+          "dtmi": "dtmi:diegoDtdlv2:STEVALSTWINKT1Draftv4;1"
         }
       ],
       "fw_name": "testSalvo",
