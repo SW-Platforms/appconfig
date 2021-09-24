@@ -224,7 +224,7 @@
       ],
       "cloud_apps": [
         {
-          "description": "This app supports mobile and gateway access",
+          "description": null,
           "dtmi": "dtmi:diegoDtdlv2:STEVALSTWINKT1B_HSD_STREDL;1"
         }
       ],
