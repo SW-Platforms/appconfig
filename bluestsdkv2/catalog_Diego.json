@@ -59,14 +59,15 @@
           "description": "PoC for APAC region",
           "dtmi": "dtmi:diegoDtdlv2:PROTEUSdraftv16e0;1",
           "name": "Proteus PoC",
-          "shareable_link": "https://apps.azureiotcentral.com/build/new/833f2c88-b5c5-402d-adfd-b81ed5dfed05",
-          "url": "https://proteus-poc.azureiotcentral.com"
+          "shareable_link": https://apps.azureiotcentral.com/build/new/833f2c88-b5c5-402d-adfd-b81ed5dfed05,
+          "url": https://proteus-poc.azureiotcentral.com
         },
         {
           "description": "This app supports mobile and gateway access",
           "dtmi": "dtmi:diegoDtdlv2:PROTEUSdraftv16e0;1",
           "name": "Condition Based Monitoring",
-          "url": "https://cbm-web.azureiotcentral.com"
+          "shareable_link": null,
+          "url": https://cbm-web.azureiotcentral.com
         }
       ],
       "fw_name": "Proteus",
@@ -118,7 +119,15 @@
           "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b"
         }
       ],
-
+      "cloud_apps": [
+        {
+          "description": null,
+          "dtmi": null,
+          "name": null,
+          "shareable_link": null,
+          "url": null
+        }
+      ],
       "fw_name": "Astra1 - Asset tracking",
       "fw_version": "1.0.0",
       "option_bytes": [
@@ -225,7 +234,10 @@
       "cloud_apps": [
         {
           "description": null,
-          "dtmi": "dtmi:diegoDtdlv2:STEVALSTWINKT1B_HSD_STREDL;1"
+          "dtmi": "dtmi:diegoDtdlv2:STEVALSTWINKT1B_HSD_STREDL;1",
+          "name": null,
+          "shareable_link": null,
+          "url": null
         }
       ],
       "fw_name": "FP-SNS-DATALOG1",
@@ -315,6 +327,15 @@
           "uuid": "00000009-0002-11e1-ac36-0002a5d5c51b"
         }
       ],
+      "cloud_apps": [
+        {
+          "description": null,
+          "dtmi": null,
+          "name": null,
+          "shareable_link": null,
+          "url": null
+        }
+      ],
       "fw_name": "FP-AI-PREDMNT2",
       "fw_version": "0.0.1"
     },
@@ -362,6 +383,15 @@
         {
           "name": "battery",
           "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b"
+        }
+      ],
+      "cloud_apps": [
+        {
+          "description": null,
+          "dtmi": null,
+          "name": null,
+          "shareable_link": null,
+          "url": null
         }
       ],
       "fw_name": "Astra1 - Asset tracking",
@@ -458,7 +488,11 @@
       ],
       "cloud_apps": [
         {
-          "dtmi": "dtmi:diegoDtdlv2:STEVALSTWINKT1Draftv4;1"
+          "description": null,
+          "dtmi": "dtmi:diegoDtdlv2:STEVALSTWINKT1Draftv4;1",
+          "name": null,
+         "shareable_link": null,
+          "url": null
         }
       ],
       "fw_name": "testSalvo",
@@ -488,255 +522,307 @@
     {
       "description": "TS, lat (4B - 10^7), long(4B - 10^7), elevation(4B - 10^3), num sat(1B), RSSI (1B)",
       "name": "GNSS",
+      "properties": null,
       "uuid": "00000018-0002-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "Cartesiam anomaly detection libraries",
       "name": "Cartesiam",
+      "properties": null,
       "uuid": "00000019-0002-11e1-ac36-0002a5d5c51b"
     },
     {
      "description": "STREDL configuration",
       "name": "STREDL",
+      "properties": null,
       "uuid": "00000017-0002-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "Debug console stderr",
+      "properties": null,
       "uuid": "00000002-000E-11e1-9ab4-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "Debug console stdin/stdout",
+      "properties": null,
       "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "Debug console",
+      "properties": null,
       "uuid": "00000000-000E-11e1-9ab4-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "QVAR",
+      "properties": null,
       "uuid": "00000016-0002-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "Color ambient light",
+      "properties": null,
       "uuid": "00000015-0002-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "Ext configuration",
+      "properties": null,
       "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "ToF multiobject",
+      "properties": null,
       "uuid": "00000013-0002-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "UNUSED",
+      "properties": null,
       "uuid": "00000012-0002-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "HS Datalog Config",
+      "properties": null,
       "uuid": "00000011-0002-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "Finite State Machine",
+      "properties": null,
       "uuid": "00000010-0002-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "Machine Learning Core",
+      "properties": null,
       "uuid": "0000000F-0002-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "Fitness Activity",
+      "properties": null,
       "uuid": "0000000E-0002-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "Euler Angle",
+      "properties": null,
       "uuid": "0000000D-0002-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "Motion Algorithm",
+      "properties": null,
       "uuid": "0000000A-0002-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "Predictive Frequency Domain Status",
+      "properties": null,
       "uuid": "00000009-0002-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "Predictive Acceleration Status",
+      "properties": null,
       "uuid": "00000008-0002-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "Predictive Speed Status",
+      "properties": null,
       "uuid": "00000007-0002-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "Motor Time Parameter",
+      "properties": null,
       "uuid": "00000006-0002-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "FFT Amplitude",
+      "properties": null,
       "uuid": "00000005-0002-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "AI logging",
+      "properties": null,
       "uuid": "00000004-0002-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "Audio Classification",
+      "properties": null,
       "uuid": "00000003-0002-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "Audio OPUS Conf",
+      "properties": null,
       "uuid": "00000002-0002-11e1-ac36-0002a5d5c51b"
     },
     {
+      "description": null,
       "name": "Audio OPUS",
+      "properties": null,
       "uuid": "00000001-0002-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "Pedometer",
+      "properties": null,
       "uuid": "00000001-0001-11e1-ac36-0002a5d5c5"
     },
     {
       "description": "",
       "name": "MEMS gesture",
+      "properties": null,
       "uuid": "00000002-0001-11e1-ac36-0002a5d5c5"
     },
     {
       "description": "",
       "name": "proximity gesture",
+      "properties": null,
       "uuid": "00000004-0001-11e1-ac36-0002a5d5c5"
     },
     {
       "description": "",
       "name": "carry position",
+      "properties": null,
       "uuid": "00000008-0001-11e1-ac36-0002a5d5c5"
     },
     {
       "description": "",
       "name": "compass",
+      "properties": null,
       "uuid": "00000040-0001-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "motion intensity",
+      "properties": null,
       "uuid": "00000020-0001-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "MEMS sensor fusion",
+      "properties": null,
       "uuid": "00000080-0001-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "MEMS sensor fusion compact",
+      "properties": null,
       "uuid": "00000100-0001-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "Free fall",
+      "properties": null,
       "uuid": "00000200-0001-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "Beam forming",
+      "properties": null,
       "uuid": "00000800-0001-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "SD logging",
+      "properties": null,
       "uuid": "00001000-0001-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "RFU (OTA reboot?)",
+      "properties": null,
       "uuid": "00002000-0001-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "RFU",
+      "properties": null,
       "uuid": "00004000-0001-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "CO sensor",
+      "properties": null,
       "uuid": "00008000-0001-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "temperature",
+      "properties": null,
       "uuid": "00010000-0001-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "battery",
+      "properties": null,
       "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "magnetometer",
+      "properties": null,
       "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "gyroscope",
+      "properties": null,
       "uuid": "00400000-0001-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "luminosity",
+      "properties": null,
       "uuid": "01000000-0001-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "proximity",
+      "properties": null,
       "uuid": "02000000-0001-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "Mic Level",
+      "properties": null,
       "uuid": "04000000-0001-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "Audio ADPCM",
+      "properties": null,
       "uuid": "08000000-0001-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "Direction of Arrival",
+      "properties": null,
       "uuid": "10000000-0001-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "Switch",
+      "properties": null,
       "uuid": "20000000-0001-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
       "name": "Audio ADPCM Sync",
+      "properties": null,
       "uuid": "40000000-0001-11e1-ac36-0002a5d5c51b"
     },
     {
