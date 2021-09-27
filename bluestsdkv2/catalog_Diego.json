@@ -70,8 +70,10 @@
           "url": "https://cbm-web.azureiotcentral.com"
         }
       ],
+      "fota": "no",
       "fw_name": "Proteus",
-      "fw_version": "0.1.0"
+      "fw_version": "0.1.0",
+      "partial_fota": "no"
     },
     {
       "ble_dev_id": "0x0C",
@@ -128,6 +130,7 @@
           "url": null
         }
       ],
+      "fota": "no",
       "fw_name": "Astra1 - Asset tracking",
       "fw_version": "1.0.0",
       "option_bytes": [
@@ -207,7 +210,8 @@
           "name": "status",
           "type": "icon"
         }
-      ]
+      ],
+      "partial_fota": "no"
     },
     {
       "ble_dev_id": "0x09",
@@ -240,6 +244,7 @@
           "url": null
         }
       ],
+      "fota": "yes",
       "fw_name": "FP-SNS-DATALOG1",
       "fw_version": "1.2.0",
       "option_bytes": [
@@ -291,7 +296,8 @@
           "name": "status",
           "type": "icon"
         }
-      ]
+      ],
+      "partial_fota": "no"
     },
     {
       "ble_dev_id": "0x09",
@@ -336,8 +342,10 @@
           "url": null
         }
       ],
+      "fota": "no",
       "fw_name": "FP-AI-PREDMNT2",
-      "fw_version": "0.0.1"
+      "fw_version": "0.0.1",
+      "partial_fota": "no"
     },
     {
       "ble_dev_id": "0x0C",
@@ -394,6 +402,7 @@
           "url": null
         }
       ],
+      "fota": "no",
       "fw_name": "Astra1 - Asset tracking",
       "fw_version": "0.1.0",
       "option_bytes": [
@@ -443,7 +452,7 @@
               "display_name": "LoRa joined, GPS FIX OK",
               "value": 1
             },
-           {
+            {
               "display_name": "LoRa joined, GPS NO FIX",
               "value": 2
             },
@@ -466,7 +475,8 @@
           ],
           "type": "string"
         }
-      ]
+      ],
+      "partial_fota": "no"
     },
     {
       "ble_dev_id": "0x09",
@@ -491,10 +501,11 @@
           "description": null,
           "dtmi": "dtmi:diegoDtdlv2:STEVALSTWINKT1Draftv4;1",
           "name": null,
-         "shareable_link": null,
+          "shareable_link": null,
           "url": null
         }
       ],
+      "fota": "no",
       "fw_name": "testSalvo",
       "fw_version": "0.0.1",
       "option_bytes": [
@@ -515,7 +526,8 @@
         },
         {},
         {}
-      ]
+      ],
+      "partial_fota": "no"
     }
   ],
   "characteristics": [
@@ -532,7 +544,7 @@
       "uuid": "00000019-0002-11e1-ac36-0002a5d5c51b"
     },
     {
-     "description": "STREDL configuration",
+      "description": "STREDL configuration",
       "name": "STREDL",
       "properties": null,
       "uuid": "00000017-0002-11e1-ac36-0002a5d5c51b"
@@ -984,7 +996,7 @@
       "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b"
     }
   ],
-  "checksum": "2f32e8e0b2bf69b070aced30fe909b6e",
-  "date": "2021-09-24T08:39:00.936191Z",
+  "checksum": "3d523acabe6025f2d729a9ba21f6d82c",
+  "date": "2021-09-27T10:55:01.675426Z",
   "version": "0.1.5"
 }
