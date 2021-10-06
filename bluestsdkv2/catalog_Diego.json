@@ -543,9 +543,7 @@
           "type": "UInt32",
           "length": 4,
           "offset": 0,
-          "scalefactor": 1,
-          "min": 0,
-          "max": "1<<32-1"
+          "scalefactor": 1
         },
         {
           "name": "Frequency",
@@ -553,9 +551,7 @@
           "type": "UInt16",
           "length": 2,
           "offset": 0,
-          "scalefactor": 1,
-          "min": 0,
-          "max": "1<<16-1"
+          "scalefactor": 1
         }
       ]
     },
@@ -657,8 +653,8 @@
           "length": 2,
           "offset": 0,
           "scalefactor": 0.01,
-          "min": "0,0",
-          "max": "360,0"
+          "min": 0,
+          "max": 360
         }
       ]
     },
@@ -675,8 +671,8 @@
           "length": 4,
           "offset": 0,
           "scalefactor": 1,
-          "min": "-1,0",
-          "max": "-1,0"
+          "min": -1,
+          "max": 1
         },
         {
           "name": "qj",
@@ -685,8 +681,8 @@
           "length": 4,
           "offset": 0,
           "scalefactor": 1,
-          "min": "-1,0",
-          "max": "1,0"
+          "min": -1,
+          "max": 1
         },
         {
           "name": "qk",
@@ -695,8 +691,8 @@
           "length": 4,
           "offset": 0,
           "scalefactor": 1,
-          "min": "-1,0",
-          "max": "1,0"
+          "min": -1,
+          "max": 1
         },
         {
           "name": "qs",
@@ -705,8 +701,8 @@
           "length": 4,
           "offset": 0,
           "scalefactor": 1,
-          "min": "-1,0",
-          "max": "1,0"
+          "min": -1,
+          "max": 1
         }
       ]
     },
@@ -811,9 +807,7 @@
           "type": "UInt16",
           "length": 2,
           "offset": 0,
-          "scalefactor": 1,
-          "min": 0,
-          "max": "1<<16-1"
+          "scalefactor": 1
         }
       ]
     },
@@ -875,9 +869,7 @@
           "type": "UInt16",
           "length": 2,
           "offset": 0,
-          "scalefactor": 1,
-          "min": 0,
-          "max": "1<<16-1"
+          "scalefactor": 1
         },
         {
           "name": "LogInterval",
@@ -885,9 +877,7 @@
           "type": "UInt16",
           "length": 2,
           "offset": 0,
-          "scalefactor": 1,
-          "min": 0,
-          "max": "1<<16-1"
+          "scalefactor": 1
         }
       ]
     },
@@ -985,8 +975,8 @@
           "length": 4,
           "offset": 0,
           "scalefactor": 0.01,
-          "min": "0,00",
-          "max": "1000000,00"
+          "min": 0,
+          "max": 1000000
         }
       ]
     },
@@ -1403,9 +1393,7 @@
           "type": "UInt8",
           "length": 1,
           "offset": 0,
-          "scalefactor": 1,
-          "min": "0x00",
-          "max": "0xFF"
+          "scalefactor": 1
         }
       ]
     },
