@@ -532,468 +532,1804 @@
   ],
   "characteristics": [
     {
-      "description": "TS, lat (4B - 10^7), long(4B - 10^7), elevation(4B - 10^3), num sat(1B), RSSI (1B)",
-      "name": "GNSS",
-      "properties": null,
-      "uuid": "00000018-0002-11e1-ac36-0002a5d5c51b"
+      "uuid": " 00000001-0001-11e1-ac36-0002a5d5c51b",
+      "name": " Pedometer",
+      "description": "Number of Steps and steps/min",
+      "uuid type": 1,
+      "format_notify": [
+        {
+          "name": "Steps",
+          "unit": "step",
+          "type": "UInt32",
+          "length": 4,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": "1<<32-1"
+        },
+        {
+          "name": "Frequency",
+          "unit": "Steps/min",
+          "type": "UInt16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": "1<<16-1"
+        }
+      ]
     },
     {
-      "description": "Cartesiam anomaly detection libraries",
-      "name": "Cartesiam",
-      "properties": null,
-      "uuid": "00000019-0002-11e1-ac36-0002a5d5c51b"
+      "uuid": " 00000002-0001-11e1-ac36-0002a5d5c51b",
+      "name": " MEMS gesture",
+      "description": "Unknow/PickUp/Glance/WakeUp",
+      "uuid type": 1,
+      "format_notify": [
+        {
+          "name": "Gesture",
+          "type": "Int8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": 3
+        }
+      ]
     },
     {
-      "description": "STREDL configuration",
-      "name": "STREDL",
-      "properties": null,
-      "uuid": "00000017-0002-11e1-ac36-0002a5d5c51b"
+      "uuid": " 00000004-0001-11e1-ac36-0002a5d5c51b",
+      "name": " proximity gesture",
+      "description": "Unknow/Tap/Left/Right",
+      "uuid type": 1,
+      "format_notify": [
+        {
+          "name": "Gesture",
+          "type": "Int8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": 3
+        }
+      ]
     },
     {
-      "description": "",
-      "name": "Debug console stderr",
-      "properties": null,
-      "uuid": "00000002-000E-11e1-9ab4-0002a5d5c51b"
+      "uuid": " 00000008-0001-11e1-ac36-0002a5d5c51b",
+      "name": " carry position",
+      "description": "Unknow/OnDesk/InHand/NearHead/ShirtPocket/TrousersPocket/ArmSwing",
+      "uuid type": 1,
+      "format_notify": [
+        {
+          "name": "Gesture",
+          "type": "Int8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": 6
+        }
+      ]
     },
     {
-      "description": "",
-      "name": "Debug console stdin/stdout",
-      "properties": null,
-      "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
+      "uuid": " 00000010-0001-11e1-ac36-0002a5d5c51b",
+      "name": " activity detection",
+      "description": "NoActivity/Stationary/Walking/FastWalking/Jogging/Biking/Driving/Stairs/AdultInCar",
+      "uuid type": 1,
+      "format_notify": [
+        {
+          "name": "Gesture",
+          "type": "Int8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": 8
+        }
+      ]
     },
     {
-      "description": "",
-      "name": "Debug console",
-      "properties": null,
-      "uuid": "00000000-000E-11e1-9ab4-0002a5d5c51b"
+      "uuid": " 00000020-0001-11e1-ac36-0002a5d5c51b",
+      "name": " motion intensity",
+      "description": "Vertical Motion Intensity",
+      "uuid type": 1,
+      "format_notify": [
+        {
+          "name": "Intensity",
+          "type": "Int8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": 10
+        }
+      ]
     },
     {
-      "description": "",
-      "name": "QVAR",
-      "properties": null,
-      "uuid": "00000016-0002-11e1-ac36-0002a5d5c51b"
+      "uuid": " 00000040-0001-11e1-ac36-0002a5d5c51b",
+      "name": " compass",
+      "description": "Compass",
+      "uuid type": 1,
+      "format_notify": [
+        {
+          "name": "Angle",
+          "unit": "degree",
+          "type": "UInt16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 0.01,
+          "min": "0,0",
+          "max": "360,0"
+        }
+      ]
     },
     {
-      "description": "",
-      "name": "Color ambient light",
-      "properties": null,
-      "uuid": "00000015-0002-11e1-ac36-0002a5d5c51b"
+      "uuid": " 00000080-0001-11e1-ac36-0002a5d5c51b",
+      "name": " MEMS sensor fusion",
+      "description": "MEMS Sensor Fusion",
+      "uuid type": 1,
+      "format_notify": [
+        {
+          "name": "qi",
+          "unit": "quaternion",
+          "type": "Float",
+          "length": 4,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": "-1,0",
+          "max": "-1,0"
+        },
+        {
+          "name": "qj",
+          "unit": "quaternion",
+          "type": "Float",
+          "length": 4,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": "-1,0",
+          "max": "1,0"
+        },
+        {
+          "name": "qk",
+          "unit": "quaternion",
+          "type": "Float",
+          "length": 4,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": "-1,0",
+          "max": "1,0"
+        },
+        {
+          "name": "qs",
+          "unit": "quaternion",
+          "type": "Float",
+          "length": 4,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": "-1,0",
+          "max": "1,0"
+        }
+      ]
     },
     {
-      "description": "",
-      "name": "Ext configuration",
-      "properties": null,
-      "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
+      "uuid": " 00000100-0001-11e1-ac36-0002a5d5c51b",
+      "name": " MEMS sensor fusion compact",
+      "description": "MEMS Sensor Fusion Compact",
+      "uuid type": 1,
+      "format_notify": [
+        {
+          "name": "qi",
+          "unit": "quaternion",
+          "type": "Int16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 0.00001
+        },
+        {
+          "name": "qj",
+          "unit": "quaternion",
+          "type": "Int16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 0.00001
+        },
+        {
+          "name": "qk",
+          "unit": "quaternion",
+          "type": "Int16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 0.00001
+        },
+        {
+          "name": "qj",
+          "unit": "quaternion",
+          "type": "Int16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 0.00001
+        },
+        {
+          "name": "qk",
+          "unit": "quaternion",
+          "type": "Int16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 0.00001
+        },
+        {
+          "name": "qj",
+          "unit": "quaternion",
+          "type": "Int16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 0.00001
+        },
+        {
+          "name": "qk",
+          "unit": "quaternion",
+          "type": "Int16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 0.00001
+        }
+      ]
     },
     {
-      "description": "",
-      "name": "ToF multiobject",
-      "properties": null,
-      "uuid": "00000013-0002-11e1-ac36-0002a5d5c51b"
+      "uuid": " 00000200-0001-11e1-ac36-0002a5d5c51b",
+      "name": " Free fall (deprecated)",
+      "description": "Free Fall detection",
+      "uuid type": 1,
+      "format_notify": [
+        {
+          "name": "FreeFall",
+          "unit": "bolean",
+          "type": "Int8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": 1
+        }
+      ]
     },
     {
-      "description": "",
-      "name": "UNUSED",
-      "properties": null,
-      "uuid": "00000012-0002-11e1-ac36-0002a5d5c51b"
+      "uuid": " 00000400-0001-11e1-ac36-0002a5d5c51b",
+      "name": " Acceleration event",
+      "description": " event detected by the accelerometer hardware can contain an event the number of steps or both",
+      "uuid type": 1,
+      "format_notify": [
+        {
+          "name": "AccEvent",
+          "unit": "Enum",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0
+        },
+        {
+          "name": "Steps",
+          "unit": "step",
+          "type": "UInt16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": "1<<16-1"
+        }
+      ]
     },
     {
-      "description": "",
-      "name": "HS Datalog Config",
-      "properties": null,
-      "uuid": "00000011-0002-11e1-ac36-0002a5d5c51b"
+      "uuid": " 00000800-0001-11e1-ac36-0002a5d5c51b",
+      "board_specific": "0x06",
+      "name": "Magnetometer Normalizaiont (RFU)",
+      "description": "Magnetometer Normalization",
+      "uuid type": 1,
+      "format_notify": [
+        {
+          "name": "Norm",
+          "type": "Int16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 0.1,
+          "min": 0,
+          "max": 2000
+        }
+      ]
     },
     {
-      "description": "",
-      "name": "Finite State Machine",
-      "properties": null,
-      "uuid": "00000010-0002-11e1-ac36-0002a5d5c51b"
+      "uuid": " 00000800-0001-11e1-ac36-0002a5d5c51b",
+      "name": " Beam forming",
+      "description": "Beam Forming Direction Top/TopRight/Right/BottomRight/Bottom/BottomLeft/Left/TopLeft",
+      "uuid type": 1,
+      "format_notify": [
+        {
+          "name": "BeamForming",
+          "unit": "direction",
+          "type": "Int8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": 7
+        }
+      ]
     },
     {
-      "description": "",
-      "name": "Machine Learning Core",
-      "properties": null,
-      "uuid": "0000000F-0002-11e1-ac36-0002a5d5c51b"
+      "uuid": " 00001000-0001-11e1-ac36-0002a5d5c51b",
+      "name": " SD logging",
+      "description": "SD  Log control (ALLMEMS1/ALLMEMS2)",
+      "uuid type": 1,
+      "format_notify": [
+        {
+          "name": "Enable",
+          "unit": "bolean",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": 1
+        },
+        {
+          "name": "LoggedFeatures",
+          "unit": "bit mask",
+          "type": "UInt16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": "1<<16-1"
+        },
+        {
+          "name": "LogInterval",
+          "unit": "seconds",
+          "type": "UInt16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": "1<<16-1"
+        }
+      ]
     },
     {
-      "description": "",
-      "name": "Fitness Activity",
-      "properties": null,
-      "uuid": "0000000E-0002-11e1-ac36-0002a5d5c51b"
+      "uuid": " 00002000-0001-11e1-ac36-0002a5d5c51b",
+      "board_specific": "0x06",
+      "name": " RFU (OTA reboot?)"
     },
     {
-      "description": "",
+      "uuid": " 00002000-0001-11e1-ac36-0002a5d5c51b",
+      "name": "Stepper Motor",
+      "description": "Stepper Motor Control",
+      "uuid type": 1,
+      "format_notify": [
+        {
+          "name": "State",
+          "unit": "bolean",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "uuid": " 00004000-0001-11e1-ac36-0002a5d5c51b",
+      "board_specific": "0x06",
       "name": "Euler Angle",
-      "properties": null,
-      "uuid": "0000000D-0002-11e1-ac36-0002a5d5c51b"
+      "description": "Euler Angle",
+      "uuid type": 1,
+      "format_notify": [
+        {
+          "name": "Yaw",
+          "type": "Float",
+          "length": 4,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": 360
+        },
+        {
+          "name": "Pitch",
+          "type": "Float",
+          "length": 4,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": -180,
+          "max": 180
+        },
+        {
+          "name": "Roll",
+          "type": "Float",
+          "length": 4,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": -90,
+          "max": 90
+        }
+      ]
     },
     {
-      "description": "",
-      "name": "Motion Algorithm",
-      "properties": null,
-      "uuid": "0000000A-0002-11e1-ac36-0002a5d5c51b"
+      "uuid": " 00004000-0001-11e1-ac36-0002a5d5c51b",
+      "name": " RFU"
     },
     {
-      "description": "",
-      "name": "Predictive Frequency Domain Status",
-      "properties": null,
-      "uuid": "00000009-0002-11e1-ac36-0002a5d5c51b"
+      "uuid": " 00008000-0001-11e1-ac36-0002a5d5c51b",
+      "board_specific": "0x06",
+      "name": "Gyroscope Normalization (RFU)",
+      "description": "Gyroscope Normalization",
+      "uuid type": 1,
+      "format_notify": [
+        {
+          "name": "Norm",
+          "type": "Int16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 0.1,
+          "min": 0,
+          "max": 2000
+        }
+      ]
     },
     {
-      "description": "",
-      "name": "Predictive Acceleration Status",
-      "properties": null,
-      "uuid": "00000008-0002-11e1-ac36-0002a5d5c51b"
+      "uuid": " 00008000-0001-11e1-ac36-0002a5d5c51b",
+      "name": " CO sensor",
+      "description": "CO concentration",
+      "uuid type": 1,
+      "format_notify": [
+        {
+          "name": "concentration",
+          "unit": "ppm",
+          "type": "Float",
+          "length": 4,
+          "offset": 0,
+          "scalefactor": 0.01,
+          "min": "0,00",
+          "max": "1000000,00"
+        }
+      ]
     },
     {
-      "description": "",
-      "name": "Predictive Speed Status",
-      "properties": null,
-      "uuid": "00000007-0002-11e1-ac36-0002a5d5c51b"
+      "uuid": " 00010000-0001-11e1-ac36-0002a5d5c51b",
+      "name": " temperature1",
+      "description": "temperature",
+      "uuid type": 1,
+      "format_notify": [
+        {
+          "name": "temperature",
+          "unit": "°C",
+          "type": "Int16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 0.1,
+          "min": 0,
+          "max": 100
+        }
+      ]
     },
     {
-      "description": "",
-      "name": "Motor Time Parameter",
-      "properties": null,
-      "uuid": "00000006-0002-11e1-ac36-0002a5d5c51b"
+      "uuid": " 00020000-0001-11e1-ac36-0002a5d5c51b",
+      "name": " battery",
+      "description": "Battery/Gas Gouge Level",
+      "uuid type": 1,
+      "format_notify": [
+        {
+          "name": "Level",
+          "unit": "%",
+          "type": "Int16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 0.1,
+          "min": 0,
+          "max": 100
+        },
+        {
+          "name": "Voltage",
+          "unit": "V",
+          "type": "Int16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 0.001
+        },
+        {
+          "name": "Current",
+          "unit": "mA",
+          "type": "Int16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 0.1
+        },
+        {
+          "name": "Status",
+          "unit": "Enum",
+          "type": "Int8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        }
+      ]
     },
     {
-      "description": "",
-      "name": "FFT Amplitude",
-      "properties": null,
-      "uuid": "00000005-0002-11e1-ac36-0002a5d5c51b"
+      "uuid": " 00040000-0001-11e1-ac36-0002a5d5c51b",
+      "name": " temperature2",
+      "description": " temperature",
+      "uuid type": 1,
+      "format_notify": [
+        {
+          "name": "temperature",
+          "unit": "°C",
+          "type": "Int16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 0.1,
+          "min": 0,
+          "max": 100
+        }
+      ]
     },
     {
-      "description": "",
-      "name": "AI logging",
-      "properties": null,
-      "uuid": "00000004-0002-11e1-ac36-0002a5d5c51b"
+      "uuid": " 00080000-0001-11e1-ac36-0002a5d5c51b",
+      "name": " humidity",
+      "description": " Relative humidity",
+      "uuid type": 1,
+      "format_notify": [
+        {
+          "name": "humidity",
+          "unit": "%",
+          "type": "UInt16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 0.1,
+          "min": 0,
+          "max": 100
+        }
+      ]
     },
     {
-      "description": "",
+      "uuid": " 00100000-0001-11e1-ac36-0002a5d5c51b",
+      "name": " pressure",
+      "description": " atmospheric pressure",
+      "uuid type": 1,
+      "format_notify": [
+        {
+          "name": "Pressure",
+          "unit": "mBar",
+          "type": "Int32",
+          "length": 4,
+          "offset": 0,
+          "scalefactor": 0.01,
+          "min": 0,
+          "max": 2000
+        }
+      ]
+    },
+    {
+      "uuid": " 00200000-0001-11e1-ac36-0002a5d5c51b",
+      "name": " magnetometer",
+      "description": "xyz magnetometer data",
+      "uuid type": 1,
+      "format_notify": [
+        {
+          "name": "X",
+          "unit": "mGa",
+          "type": "Int16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": -2000,
+          "max": 2000
+        },
+        {
+          "name": "Y",
+          "unit": "mGa",
+          "type": "Int16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": -2000,
+          "max": 2000
+        },
+        {
+          "name": "Z",
+          "unit": "mGa",
+          "type": "Int16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": -2000,
+          "max": 2000
+        }
+      ]
+    },
+    {
+      "uuid": " 00400000-0001-11e1-ac36-0002a5d5c51b",
+      "name": " gyroscope",
+      "description": "xyz gyroscope data",
+      "uuid type": 1,
+      "format_notify": [
+        {
+          "name": "X",
+          "unit": "dps",
+          "type": "Int16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 0.1
+        },
+        {
+          "name": "Y",
+          "unit": "dps",
+          "type": "Int16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 0.1
+        },
+        {
+          "name": "Z",
+          "unit": "dps",
+          "type": "Int16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 0.1
+        }
+      ]
+    },
+    {
+      "uuid": " 00800000-0001-11e1-ac36-0002a5d5c51b",
+      "name": " Accelerometer",
+      "description": " xyz accelerometer data",
+      "uuid type": 1,
+      "format_notify": [
+        {
+          "name": "X",
+          "unit": "mg",
+          "type": "Int16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": -2000,
+          "max": 2000
+        },
+        {
+          "name": "Y",
+          "unit": "mg",
+          "type": "Int16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": -2000,
+          "max": 2000
+        },
+        {
+          "name": "Z",
+          "unit": "mg",
+          "type": "Int16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": -2000,
+          "max": 2000
+        }
+      ]
+    },
+    {
+      "uuid": " 01000000-0001-11e1-ac36-0002a5d5c51b",
+      "name": " luminosity",
+      "description": "Luminosity",
+      "uuid type": 1,
+      "format_notify": [
+        {
+          "name": "Luminosity",
+          "unit": "Lux",
+          "type": "UInt16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": 1000
+        }
+      ]
+    },
+    {
+      "uuid": " 02000000-0001-11e1-ac36-0002a5d5c51b",
+      "board_specific": "0x06",
       "name": "Audio Classification",
-      "properties": null,
-      "uuid": "00000003-0002-11e1-ac36-0002a5d5c51b"
-    },
-    {
-      "description": "",
-      "name": "Audio OPUS Conf",
-      "properties": null,
-      "uuid": "00000002-0002-11e1-ac36-0002a5d5c51b"
-    },
-    {
-      "description": null,
-      "name": "Audio OPUS",
-      "properties": null,
-      "uuid": "00000001-0002-11e1-ac36-0002a5d5c51b"
-    },
-    {
-      "description": "",
-      "name": "Pedometer",
-      "properties": null,
-      "uuid": "00000001-0001-11e1-ac36-0002a5d5c5"
-    },
-    {
-      "description": "",
-      "name": "MEMS gesture",
-      "properties": null,
-      "uuid": "00000002-0001-11e1-ac36-0002a5d5c5"
-    },
-    {
-      "description": "",
-      "name": "proximity gesture",
-      "properties": null,
-      "uuid": "00000004-0001-11e1-ac36-0002a5d5c5"
-    },
-    {
-      "description": "",
-      "name": "carry position",
-      "properties": null,
-      "uuid": "00000008-0001-11e1-ac36-0002a5d5c5"
-    },
-    {
-      "description": "",
-      "name": "compass",
-      "properties": null,
-      "uuid": "00000040-0001-11e1-ac36-0002a5d5c51b"
-    },
-    {
-      "description": "",
-      "name": "motion intensity",
-      "properties": null,
-      "uuid": "00000020-0001-11e1-ac36-0002a5d5c51b"
-    },
-    {
-      "description": "",
-      "name": "MEMS sensor fusion",
-      "properties": null,
-      "uuid": "00000080-0001-11e1-ac36-0002a5d5c51b"
-    },
-    {
-      "description": "",
-      "name": "MEMS sensor fusion compact",
-      "properties": null,
-      "uuid": "00000100-0001-11e1-ac36-0002a5d5c51b"
-    },
-    {
-      "description": "",
-      "name": "Free fall",
-      "properties": null,
-      "uuid": "00000200-0001-11e1-ac36-0002a5d5c51b"
-    },
-    {
-      "description": "",
-      "name": "Beam forming",
-      "properties": null,
-      "uuid": "00000800-0001-11e1-ac36-0002a5d5c51b"
-    },
-    {
-      "description": "",
-      "name": "SD logging",
-      "properties": null,
-      "uuid": "00001000-0001-11e1-ac36-0002a5d5c51b"
-    },
-    {
-      "description": "",
-      "name": "RFU (OTA reboot?)",
-      "properties": null,
-      "uuid": "00002000-0001-11e1-ac36-0002a5d5c51b"
-    },
-    {
-      "description": "",
-      "name": "RFU",
-      "properties": null,
-      "uuid": "00004000-0001-11e1-ac36-0002a5d5c51b"
-    },
-    {
-      "description": "",
-      "name": "CO sensor",
-      "properties": null,
-      "uuid": "00008000-0001-11e1-ac36-0002a5d5c51b"
-    },
-    {
-      "description": "",
-      "name": "temperature",
-      "properties": null,
-      "uuid": "00010000-0001-11e1-ac36-0002a5d5c51b"
-    },
-    {
-      "description": "",
-      "name": "battery",
-      "properties": null,
-      "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b"
-    },
-    {
-      "description": "",
-      "name": "magnetometer",
-      "properties": null,
-      "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b"
-    },
-    {
-      "description": "",
-      "name": "gyroscope",
-      "properties": null,
-      "uuid": "00400000-0001-11e1-ac36-0002a5d5c51b"
-    },
-    {
-      "description": "",
-      "name": "luminosity",
-      "properties": null,
-      "uuid": "01000000-0001-11e1-ac36-0002a5d5c51b"
-    },
-    {
-      "description": "",
-      "name": "proximity",
-      "properties": null,
-      "uuid": "02000000-0001-11e1-ac36-0002a5d5c51b"
-    },
-    {
-      "description": "",
-      "name": "Mic Level",
-      "properties": null,
-      "uuid": "04000000-0001-11e1-ac36-0002a5d5c51b"
-    },
-    {
-      "description": "",
-      "name": "Audio ADPCM",
-      "properties": null,
-      "uuid": "08000000-0001-11e1-ac36-0002a5d5c51b"
-    },
-    {
-      "description": "",
-      "name": "Direction of Arrival",
-      "properties": null,
-      "uuid": "10000000-0001-11e1-ac36-0002a5d5c51b"
-    },
-    {
-      "description": "",
-      "name": "Switch",
-      "properties": null,
-      "uuid": "20000000-0001-11e1-ac36-0002a5d5c51b"
-    },
-    {
-      "description": "",
-      "name": "Audio ADPCM Sync",
-      "properties": null,
-      "uuid": "40000000-0001-11e1-ac36-0002a5d5c51b"
-    },
-    {
-      "description": "atmospheric pressure (value * 100)",
-      "name": "pressure",
-      "properties": [
+      "description": "Audio Scene Classification Unknown/Outdoor/Indoor/InCar/BabyIsCrying/ASC_On/ASC_Off",
+      "uuid type": 1,
+      "format_notify": [
         {
-          "format": [
-            {
-              "length": 2,
-              "name": "timestamp"
-            },
-            {
-              "length": 4,
-              "name": "pressure"
-            }
-          ],
-          "length": 6
-        }
-      ],
-      "uuid": "00100000-0001-11e1-ac36-0002a5d5c51b"
-    },
-    {
-      "description": "Relative humidity [%] (value * 10)",
-      "name": "humidity",
-      "properties": [
-        {
-          "format": [
-            {
-              "length": 2,
-              "name": "timestamp"
-            },
-            {
-              "length": 2,
-              "name": "humidity"
-            }
-          ],
-          "length": 4
-        }
-      ],
-      "uuid": "00080000-0001-11e1-ac36-0002a5d5c51b"
-    },
-    {
-      "description": "temperature (value * 10)",
-      "name": "temperature",
-      "properties": [
-        {
-          "format": [
-            {
-              "length": 2,
-              "name": "timestamp"
-            },
-            {
-              "length": 2,
-              "name": "temperature"
-            }
-          ],
-          "length": 4
-        }
-      ],
-      "uuid": "00040000-0001-11e1-ac36-0002a5d5c51b"
-    },
-    {
-      "description": "type of activity that the user is doing",
-      "name": "activity detection",
-      "properties": [
-        {
-          "format": [
-            {
-              "length": 2,
-              "name": "timestamp"
-            },
-            {
-              "length": 1,
-              "name": "activity"
-            }
-          ],
-          "length": 3
-        }
-      ],
-      "uuid": "00000010-0001-11e1-ac36-0002a5d5c51b"
-    },
-    {
-      "description": "event detected by the accelerometer hardware, can contain an event, the number of steps or both",
-      "name": "Acceleration event",
-      "properties": [
-        {
-          "format": [
-            {
-              "length": 2,
-              "name": "timestamp"
-            },
-            {
-              "length": 1,
-              "name": "event"
-            },
-            {
-              "length": 2,
-              "name": "steps"
-            }
-          ],
-          "length": 5
+          "name": "Audio Classification",
+          "unit": "Enum",
+          "type": "Int8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": 6
         },
         {
-          "format": [
-            {
-              "length": 2,
-              "name": "timestamp"
-            },
-            {
-              "length": 1,
-              "name": "event"
-            }
-          ],
-          "length": 3
-        },
-        {
-          "format": [
-            {
-              "length": 2,
-              "name": "timestamp"
-            },
-            {
-              "length": 2,
-              "name": "steps"
-            }
-          ],
-          "length": 4
+          "name": "Audio Algorithm",
+          "unit": "BabyCrying/Normal",
+          "type": "Int8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": 1
         }
-      ],
-      "uuid": "00000400-0001-11e1-ac36-0002a5d5c51b"
+      ]
     },
     {
-      "description": "x,y,z accelerometer data",
-      "name": "Accelerometer",
-      "properties": [
+      "uuid": " 02000000-0001-11e1-ac36-0002a5d5c51b",
+      "name": " proximity",
+      "description": "Proximity distance (value & ~0x8000)",
+      "uuid type": 1,
+      "format_notify": [
         {
-          "format": [
-            {
-              "length": 2,
-              "name": "timestamp"
-            },
-            {
-              "length": 2,
-              "name": "x"
-            },
-            {
-              "length": 2,
-              "name": "y"
-            },
-            {
-              "length": 2,
-              "name": "z"
-            }
-          ],
-          "length": 8
+          "name": "proximity",
+          "unit": "mm",
+          "type": "UInt16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 1
         }
-      ],
-      "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b"
+      ]
+    },
+    {
+      "uuid": " 04000000-0001-11e1-ac36-0002a5d5c51b",
+      "name": " Mic Level",
+      "description": "Microphone dB level",
+      "uuid type": 1,
+      "format_notify": [
+        {
+          "name": "Mic Level",
+          "unit": "dB",
+          "type": "Int8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": 128
+        },
+        {
+          "name": "Mic Level",
+          "unit": "dB",
+          "type": "Int8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": 128
+        },
+        {
+          "name": "Mic Level",
+          "unit": "dB",
+          "type": "Int8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": 128
+        },
+        {
+          "name": "Mic Level",
+          "unit": "dB",
+          "type": "Int8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": 128
+        },
+        {
+          "name": "Mic Level",
+          "unit": "dB",
+          "type": "Int8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": 128
+        },
+        {
+          "name": "Mic Level",
+          "unit": "dB",
+          "type": "Int8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": 128
+        }
+      ]
+    },
+    {
+      "uuid": " 08000000-0001-11e1-ac36-0002a5d5c51b",
+      "name": " Audio ADPCM",
+      "description": "Audio ADPCM",
+      "uuid type": 1,
+      "format_notify": [
+        {
+          "name": "RawData",
+          "type": "RawData"
+        }
+      ]
+    },
+    {
+      "uuid": " 10000000-0001-11e1-ac36-0002a5d5c51b",
+      "board_specific": "0x06",
+      "name": "Mems Normalization",
+      "description": "Mems Normalization",
+      "uuid type": 1,
+      "format_notify": [
+        {
+          "name": "Norm",
+          "type": "Int16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 0.1,
+          "min": 0,
+          "max": 2000
+        }
+      ]
+    },
+    {
+      "uuid": " 10000000-0001-11e1-ac36-0002a5d5c51b",
+      "name": " Direction of Arrival",
+      "description": "Sound Direction of Arrival",
+      "uuid type": 1,
+      "format_notify": [
+        {
+          "name": "Direction",
+          "unit": "°",
+          "type": "Int16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": 360
+        }
+      ]
+    },
+    {
+      "uuid": " 20000000-0001-11e1-ac36-0002a5d5c51b",
+      "name": " Switch",
+      "description": "Switch Status (mask of bit)",
+      "uuid type": 1,
+      "format_notify": [
+        {
+          "name": "Switch Status",
+          "unit": "MaskOfBits",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": "0x00",
+          "max": "0xFF"
+        }
+      ]
+    },
+    {
+      "uuid": " 40000000-0001-11e1-ac36-0002a5d5c51b",
+      "name": " Audio ADPCM Sync",
+      "description": "audio synchronization parameters necessary to ADPCM audio decompression",
+      "uuid type": 1,
+      "format_notify": [
+        {
+          "name": "ADPCM_index",
+          "type": "UInt16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "ADPCM_predSample",
+          "type": "UInt32",
+          "length": 4,
+          "offset": 0,
+          "scalefactor": 1
+        }
+      ]
+    },
+    {
+      "uuid": " 80000000-0001-11e1-ac36-0002a5d5c51b",
+      "board_specific": "0x06",
+      "name": "FFT Amplitude",
+      "description": "Header+RawData",
+      "uuid type": 1,
+      "format_notify": [
+        {
+          "name": "NumSample",
+          "type": "UInt16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "NumComponents",
+          "type": "UInt8",
+          "length": 1
+        },
+        {
+          "name": "FrequencyStep",
+          "type": "Float",
+          "length": 4
+        },
+        {
+          "name": "RawData",
+          "unit": "RawData"
+        }
+      ]
+    },
+    {
+      "uuid": " 80000000-0001-11e1-ac36-0002a5d5c51b",
+      "name": "RFU"
+    },
+    {
+      "uuid": " 00000001-0002-11e1-ac36-0002a5d5c51b",
+      "name": " Audio OPUS",
+      "description": "Audio Opus Data",
+      "uuid type": 2,
+      "format_notify": [
+        {
+          "name": "RawDataPacket",
+          "type": "RawData"
+        }
+      ]
+    },
+    {
+      "uuid": " 00000003-0002-11e1-ac36-0002a5d5c51b",
+      "name": " Audio Classification",
+      "description": "Audio Scene Classification Unknown/Outdoor/Indoor/InCar/BabyIsCrying/ASC_On/ASC_Off",
+      "uuid type": 2,
+      "format_notify": [
+        {
+          "name": "Audio Classification",
+          "unit": "Enum",
+          "type": "Int8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": 6
+        },
+        {
+          "name": "Audio Algorithm",
+          "unit": "BabyCrying/Normal",
+          "type": "Int8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "uuid": " 00000004-0002-11e1-ac36-0002a5d5c51b",
+      "name": " AI logging",
+      "description": "SD Log control (SENSING1)",
+      "uuid type": 2,
+      "format_notify": [
+        {
+          "name": "Log Status",
+          "unit": "Enum",
+          "type": "Int8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "uuid": " 00000005-0002-11e1-ac36-0002a5d5c51b",
+      "name": " FFT Amplitude",
+      "description": "Header+RawData",
+      "uuid type": 2,
+      "format_notify": [
+        {
+          "name": "NumSample",
+          "type": "UInt16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "NumComponents",
+          "type": "UInt8",
+          "length": 1
+        },
+        {
+          "name": "FrequencyStep",
+          "type": "Float",
+          "length": 4
+        },
+        {
+          "name": "RawData",
+          "unit": "RawData"
+        }
+      ]
+    },
+    {
+      "uuid": " 00000006-0002-11e1-ac36-0002a5d5c51b",
+      "name": " Motor Time Parameter",
+      "description": "Motion Time Parameter",
+      "uuid type": 2,
+      "format_notify": [
+        {
+          "name": "Acc X Peak",
+          "unit": "m/s2",
+          "type": "Float",
+          "length": 4,
+          "offset": 0,
+          "scalefactor": 0.01,
+          "min": -2000,
+          "max": 2000
+        },
+        {
+          "name": "Acc Y Peak",
+          "unit": "m/s2",
+          "type": "Float",
+          "length": 4,
+          "offset": 0,
+          "scalefactor": 0.01,
+          "min": -2000,
+          "max": 2000
+        },
+        {
+          "name": "Acc Z Peak",
+          "unit": "m/s2",
+          "type": "Float",
+          "length": 4,
+          "offset": 0,
+          "scalefactor": 0.01,
+          "min": -2000,
+          "max": 2000
+        },
+        {
+          "name": "RMS Speed X",
+          "unit": "mm/s",
+          "type": "Float",
+          "length": 4,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": 2000
+        },
+        {
+          "name": "RMS Speed Y",
+          "unit": "mm/s",
+          "type": "Float",
+          "length": 4,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": 2000
+        },
+        {
+          "name": "RMS Speed Z",
+          "unit": "mm/s",
+          "type": "Float",
+          "length": 4,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": 2000
+        }
+      ]
+    },
+    {
+      "uuid": " 00000007-0002-11e1-ac36-0002a5d5c51b",
+      "name": " Predictive Speed Status",
+      "description": "Predictive Speed Status",
+      "uuid type": 2,
+      "format_notify": [
+        {
+          "name": "time Status x/y/z",
+          "unit": "Enum packed 2 bits each",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 0
+        },
+        {
+          "name": "RMS Speed X",
+          "unit": "mm/s",
+          "type": "Float",
+          "length": 4,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "RMS Speed Y",
+          "unit": "mm/s",
+          "type": "Float",
+          "length": 4,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "RMS Speed Z",
+          "unit": "mm/s",
+          "type": "Float",
+          "length": 4,
+          "offset": 0,
+          "scalefactor": 1
+        }
+      ]
+    },
+    {
+      "uuid": " 00000008-0002-11e1-ac36-0002a5d5c51b",
+      "name": " Predictive Acceleration Status",
+      "description": "Predictive Acceleration Staus",
+      "uuid type": 2,
+      "format_notify": [
+        {
+          "name": "Acc Status x/y/z",
+          "unit": "Enum packed 2 bits each",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 0
+        },
+        {
+          "name": "Acc Peak X",
+          "unit": "m/S2",
+          "type": "Float",
+          "length": 4,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Acc Peak Y",
+          "unit": "m/S2",
+          "type": "Float",
+          "length": 4,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Acc Peak Z",
+          "unit": "m/S2",
+          "type": "Float",
+          "length": 4,
+          "offset": 0,
+          "scalefactor": 1
+        }
+      ]
+    },
+    {
+      "uuid": " 00000009-0002-11e1-ac36-0002a5d5c51b",
+      "name": " Predictive Frequency Domain Status",
+      "description": "Predictive Frequency domain status",
+      "uuid type": 2,
+      "format_notify": [
+        {
+          "name": "Status Freq  x/y/z",
+          "unit": "Enum packed 2 bits each",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 0
+        },
+        {
+          "name": "Freq X",
+          "unit": "Hz",
+          "type": "UInt16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 0.1
+        },
+        {
+          "name": "Max Amplitude X",
+          "unit": "m/S2",
+          "type": "Unit16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 0.01
+        },
+        {
+          "name": "Freq Y",
+          "unit": "Hz",
+          "type": "UInt16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 0.1
+        },
+        {
+          "name": "Max Amplitude Y",
+          "unit": "m/S2",
+          "type": "Unit16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 0.01
+        },
+        {
+          "name": "Freq Z",
+          "unit": "Hz",
+          "type": "UInt16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 0.1
+        },
+        {
+          "name": "Max Amplitude Z",
+          "unit": "m/S2",
+          "type": "Unit16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 0.01
+        }
+      ]
+    },
+    {
+      "uuid": " 0000000A-0002-11e1-ac36-0002a5d5c51b",
+      "name": " Motion Algorithm",
+      "description": "Motion Algorithm",
+      "uuid type": 2,
+      "format_notify": [
+        {
+          "name": "Algorithm Type",
+          "unit": "Enum",
+          "type": "Int8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": 3
+        },
+        {
+          "name": "Algorithm Results",
+          "unit": "Enum",
+          "type": "Int8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        }
+      ]
+    },
+    {
+      "uuid": " 0000000D-0002-11e1-ac36-0002a5d5c51b",
+      "name": " Euler Angle",
+      "description": "Euler Angle",
+      "uuid type": 1,
+      "format_notify": [
+        {
+          "name": "Yaw",
+          "type": "Float",
+          "length": 4,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": 360
+        },
+        {
+          "name": "Pitch",
+          "type": "Float",
+          "length": 4,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": -180,
+          "max": 180
+        },
+        {
+          "name": "Roll",
+          "type": "Float",
+          "length": 4,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": -90,
+          "max": 90
+        }
+      ]
+    },
+    {
+      "uuid": "0000000E-0002-11e1-ac36-0002a5d5c51b",
+      "name": " Fitness Activity",
+      "description": "Fitness Activity",
+      "uuid type": 2,
+      "format_notify": [
+        {
+          "name": "Fitness Actitity",
+          "unit": "Enum",
+          "type": "Int8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": 3
+        },
+        {
+          "name": "Activity Counter",
+          "type": "UInt16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 1
+        }
+      ]
+    },
+    {
+      "uuid": " 0000000F-0002-11e1-ac36-0002a5d5c51b",
+      "name": " Machine Learning Core",
+      "description": "Machine Learning Core's registers output",
+      "uuid type": 2,
+      "format_notify": [
+        {
+          "name": "Reg Out 0",
+          "unit": "Enum",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Reg Out 1",
+          "unit": "Enum",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Reg Out 2",
+          "unit": "Enum",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Reg Out 3",
+          "unit": "Enum",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Reg Out 4",
+          "unit": "Enum",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Reg Out 5",
+          "unit": "Enum",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Reg Out 6",
+          "unit": "Enum",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Reg Out 7",
+          "unit": "Enum",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Reg Out 8",
+          "unit": "Enum",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        }
+      ]
+    },
+    {
+      "uuid": " 00000010-0002-11e1-ac36-0002a5d5c51b",
+      "name": " Finite State Machine",
+      "description": "Finite State Machine's registers output",
+      "uuid type": 2,
+      "format_notify": [
+        {
+          "name": "Reg Out 0",
+          "unit": "Enum",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Reg Out 1",
+          "unit": "Enum",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Reg Out 2",
+          "unit": "Enum",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Reg Out 3",
+          "unit": "Enum",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Reg Out 4",
+          "unit": "Enum",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Reg Out 5",
+          "unit": "Enum",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Reg Out 6",
+          "unit": "Enum",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Reg Out 7",
+          "unit": "Enum",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Reg Out 8",
+          "unit": "Enum",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Reg Out 9",
+          "unit": "Enum",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Reg Out 10",
+          "unit": "Enum",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Reg Out 11",
+          "unit": "Enum",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Reg Out 12",
+          "unit": "Enum",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Reg Out 13",
+          "unit": "Enum",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Reg Out 14",
+          "unit": "Enum",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Reg Out 15",
+          "unit": "Enum",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Reg Out 16",
+          "unit": "Enum",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        }
+      ]
+    },
+    {
+      "uuid": " 00000012-0002-11e1-ac36-0002a5d5c51b",
+      "name": " UNUSED"
+    },
+    {
+      "uuid": " 00000013-0002-11e1-ac36-0002a5d5c51b",
+      "name": " ToF multiobject",
+      "description": "Time Of Flight Multi Objects Detection",
+      "uuid type": 2,
+      "format_notify": [
+        {
+          "name": "Distance Obj1",
+          "unit": "mm",
+          "type": "UInt16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Distance Obj2",
+          "unit": "mm",
+          "type": "UInt16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Distance Obj3",
+          "unit": "mm",
+          "type": "UInt16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Distance Obj4",
+          "unit": "mm",
+          "type": "UInt16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Presences number",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        }
+      ]
+    },
+    {
+      "uuid": " 00000015-0002-11e1-ac36-0002a5d5c51b",
+      "name": " Color ambient light",
+      "description": "Color Ambient Light",
+      "uuid type": 2,
+      "format_notify": [
+        {
+          "name": "Lux",
+          "unit": "Lux",
+          "type": "UInt32",
+          "length": 4,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": 400000
+        },
+        {
+          "name": "UV Index",
+          "type": "UInt16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": 12
+        },
+        {
+          "name": "Correlated Color Temperature",
+          "unit": "K",
+          "type": "UInt16",
+          "length": 2,
+          "offset": 0,
+          "scalefactor": 1,
+          "min": 0,
+          "max": 20000
+        }
+      ]
+    },
+    {
+      "uuid": " 00000016-0002-11e1-ac36-0002a5d5c51b",
+      "name": " QVAR",
+      "description": "Electric Charge Variation",
+      "uuid type": 2,
+      "format_notify": [
+        {
+          "name": "QVAR",
+          "type": "Int32",
+          "length": 4,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Flag not Specified",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "DQVAR",
+          "type": "Int32",
+          "length": 4,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Parameter not Specified",
+          "type": "UInt32",
+          "length": 4,
+          "offset": 0,
+          "scalefactor": 1
+        }
+      ]
+    },
+    {
+      "uuid": " 00000017-0002-11e1-ac36-0002a5d5c51b",
+      "name": " STREDL",
+      "description": "STRED-L's registers output",
+      "uuid type": 2,
+      "format_notify": [
+        {
+          "name": "Reg Out 0",
+          "unit": "Enum",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Reg Out 1",
+          "unit": "Enum",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Reg Out 2",
+          "unit": "Enum",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Reg Out 3",
+          "unit": "Enum",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Reg Out 4",
+          "unit": "Enum",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Reg Out 5",
+          "unit": "Enum",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Reg Out 6",
+          "unit": "Enum",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Reg Out 7",
+          "unit": "Enum",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Reg Out 8",
+          "unit": "Enum",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        }
+      ]
+    },
+    {
+      "uuid": " 00000018-0002-11e1-ac36-0002a5d5c51b",
+      "name": " GNSS",
+      "description": "Global Navigation Satellite System",
+      "uuid type": 2,
+      "format_notify": [
+        {
+          "name": "Latitude",
+          "unit": "Lat",
+          "type": "Int32",
+          "length": 4,
+          "offset": 0,
+          "scalefactor": "1,00E+07"
+        },
+        {
+          "name": "Longitude",
+          "unit": "Lon",
+          "type": "Int32",
+          "length": 4,
+          "offset": 0,
+          "scalefactor": "1,00E+07"
+        },
+        {
+          "name": "Altitude",
+          "unit": "m",
+          "type": "Int32",
+          "length": 4,
+          "offset": 0,
+          "scalefactor": "1,00E+03"
+        },
+        {
+          "name": "Number Satellites",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        },
+        {
+          "name": "Signal Quality",
+          "unit": "dB-Hz",
+          "type": "UInt8",
+          "length": 1,
+          "offset": 0,
+          "scalefactor": 1
+        }
+      ]
+    },
+    {
+      "uuid": " 00000019-0002-11e1-ac36-0002a5d5c51b",
+      "name": " Cartesiam",
+      "description": " Cartesiam anomaly detection libraries",
+      "uuid type": 2
     }
   ],
   "checksum": "3d523acabe6025f2d729a9ba21f6d82c",
