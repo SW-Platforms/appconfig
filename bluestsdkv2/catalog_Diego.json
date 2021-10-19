@@ -1,5 +1,5 @@
 {
-  "ble": [
+  "bluestsdk_v2": [
     {
       "ble_dev_id": "0x0F",
       "ble_fw_id": "0x01",
@@ -472,6 +472,228 @@
           "type": "string"
         }
       ],
+      "partial_fota": "no"
+    }
+  ],
+  "bluestsdk_v1": [
+    {
+      "ble_dev_id": "0x03",
+      "ble_fw_id": "F446_FP-SNS-ALLMEMS1_4.1.0",
+      "brd_name": "BlueCoin",
+      "characteristics": [
+        {
+          "name": "Pressure",
+          "uuid": "00100000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Temperature",
+          "uuid": "00010000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Accelerometer",
+          "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Gyroscope",
+          "uuid": "00400000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Magnetometer",
+          "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Acceleration event",
+          "uuid": "00000400-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Mic Level",
+          "uuid": "04000000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Battery",
+          "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "MEMS Sensor Fusion Compact",
+          "uuid": "00000100-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Compass",
+          "uuid": "00000040-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Activity Detection",
+          "uuid": "00000010-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Direction of Arrival",
+          "uuid": "10000000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Beam Forming",
+          "uuid": "00000800-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Audio ADPCM",
+          "uuid": "08000000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Audio ADPCM Sync",
+          "uuid": "40000000-0001-11e1-ac36-0002a5d5c51b"
+        },
+      ],
+      "cloud_apps": [
+        {
+          "description": "Default IoT Central Application for testing",
+          "dtmi": "dtmi:stDefaultPnpApp:DEFAULTdraftv1;1",
+          "name": "ST Default PnP App",
+          "shareable_link": "https://apps.azureiotcentral.com/build/new/43b0eb5e-dd28-44b7-b00c-8fe2cb91d87e",
+          "url": "https://st-default-pnp-app.azureiotcentral.com"
+        }
+      ],
+      "fota": "no",
+      "fw_name": "FP-SNS-ALLMEMS1",
+      "fw_version": "4.1.0",
+      "partial_fota": "no"
+    },
+    {
+      "ble_dev_id": "0x08",
+      "ble_fw_id": "L4R9_FP-IND-PREDMNT1_2.4.0",
+      "brd_name": "STWIN",
+      "characteristics": [
+        {
+          "name": "Ext Configuration",
+          "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Pressure",
+          "uuid": "00100000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Humidity",
+          "uuid": "00080000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Temperature",
+          "uuid": "00010000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Accelerometer",
+          "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Gyroscope",
+          "uuid": "00400000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Magnetometer",
+          "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Mic Level",
+          "uuid": "04000000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Battery",
+          "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "FFT Amplitude",
+          "uuid": "00000005-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Motor Time Parameter",
+          "uuid": "00000006-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Predictive Speed Status",
+          "uuid": "00000007-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Predictive Acceleration Status",
+          "uuid": "00000008-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Predictive Frequency Domain Status",
+          "uuid": "00000009-0002-11e1-ac36-0002a5d5c51b"
+        }
+      ],
+      "cloud_apps": [
+        {
+          "description": "Default IoT Central Application for testing",
+          "dtmi": "dtmi:stDefaultPnpApp:DEFAULTdraftv1;1",
+          "name": "ST Default PnP App",
+          "shareable_link": "https://apps.azureiotcentral.com/build/new/43b0eb5e-dd28-44b7-b00c-8fe2cb91d87e",
+          "url": "https://st-default-pnp-app.azureiotcentral.com"
+        }
+      ],
+      "fota": "no",
+      "fw_name": "FP-IND-PREDMNT1",
+      "fw_version": "2.4.0",
+      "partial_fota": "no"
+    },
+    {
+      "ble_dev_id": "0x06",
+      "ble_fw_id": "L4R9_BLELowPower_1.0.0",
+      "brd_name": "SensorTile.Box",
+      "characteristics": [
+        {
+          "name": "Pressure",
+          "uuid": "00100000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Humidity",
+          "uuid": "00080000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Temperature",
+          "uuid": "00010000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Accelerometer",
+          "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Gyroscope",
+          "uuid": "00400000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Magnetometer",
+          "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Battery",
+          "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Acceleration event",
+          "uuid": "00000400-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Activity Detection",
+          "uuid": "00000010-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Mic Level",
+          "uuid": "04000000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Audio Classification",
+          "uuid": "02000000-0001-11e1-ac36-0002a5d5c51b"
+        }
+      ],
+      "cloud_apps": [
+        {
+          "description": "Default IoT Central Application for testing",
+          "dtmi": "dtmi:stDefaultPnpApp:DEFAULTdraftv1;1",
+          "name": "ST Default PnP App",
+          "shareable_link": "https://apps.azureiotcentral.com/build/new/43b0eb5e-dd28-44b7-b00c-8fe2cb91d87e",
+          "url": "https://st-default-pnp-app.azureiotcentral.com"
+        }
+      ],
+      "fota": "no",
+      "fw_name": "FP-AI-CTXAWARE1",
+      "fw_version": "1.0.0",
       "partial_fota": "no"
     }
   ],
