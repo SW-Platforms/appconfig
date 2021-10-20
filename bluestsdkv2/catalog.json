@@ -920,7 +920,7 @@
           "length": 4,
           "name": "Latitude",
           "offset": 0,
-          "scalefactor": "1,00E+07",
+          "scalefactor": 10000000,
           "type": "Int32",
           "unit": "Lat"
         },
@@ -928,7 +928,7 @@
           "length": 4,
           "name": "Longitude",
           "offset": 0,
-          "scalefactor": "1,00E+07",
+          "scalefactor": 10000000,
           "type": "Int32",
           "unit": "Lon"
         },
@@ -936,7 +936,7 @@
           "length": 4,
           "name": "Altitude",
           "offset": 0,
-          "scalefactor": "1,00E+03",
+          "scalefactor": 1000,
           "type": "Int32",
           "unit": "m"
         },
