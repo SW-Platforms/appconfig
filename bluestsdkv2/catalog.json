@@ -576,7 +576,7 @@
       "cloud_apps": [
         {
           "description": "Main IoT Central app for Vespucci project.",
-          "dtmi": "dtmi:vespucci:steval_stwinkt1b:fp_sns_datalog1_1_3_0;1",
+          "dtmi": "dtmi:vespucci:steval_stwinkt1b:fp_sns_datalog1;1",
           "name": "vespucci",
           "shareable_link": null,
           "url": "https://vespucci.azureiotcentral.com/"
