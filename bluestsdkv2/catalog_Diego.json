@@ -935,7 +935,7 @@
           "length": 4,
           "name": "Altitude",
           "offset": 0,
-          "scalefactor": "1,00E+03",
+          "scalefactor": 1000,
           "type": "Int32",
           "unit": "m"
         },
