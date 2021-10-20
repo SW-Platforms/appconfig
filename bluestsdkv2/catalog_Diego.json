@@ -1,86 +1,6 @@
 {
   "bluestsdk_v1": [
     {
-      "ble_dev_id": "0x02",
-      "ble_fw_id": "0x02",
-      "brd_name": "SensorTile",
-      "characteristics": [
-        {
-          "name": "Pressure",
-          "uuid": "00100000-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Temperature",
-          "uuid": "00010000-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Accelerometer",
-          "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Gyroscope",
-          "uuid": "00400000-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Magnetometer",
-          "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Acceleration Event",
-          "uuid": "00000400-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Mic Level",
-          "uuid": "04000000-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Battery",
-          "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "MEMS Sensor Fusion Compact",
-          "uuid": "00000100-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Compass",
-          "uuid": "00000040-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Activity Detection",
-          "uuid": "00000010-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Direction of Arrival",
-          "uuid": "10000000-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Beam Forming",
-          "uuid": "00000800-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Audio ADPCM",
-          "uuid": "08000000-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Audio ADPCM Sync",
-          "uuid": "40000000-0001-11e1-ac36-0002a5d5c51b"
-        }
-      ],
-      "cloud_apps": [
-        {
-          "description": "",
-          "dtmi": "dtmi:stDefaultPnpApp:DEFAULTdraftv1;1",
-          "name": "ST Default PnP App",
-          "shareable_link": "https://apps.azureiotcentral.com/build/new/43b0eb5e-dd28-44b7-b00c-8fe2cb91d87e",
-          "url": "https://st-default-pnp-app.azureiotcentral.com"
-        }
-      ],
-      "fota": "no",
-      "fw_name": "FP-SNS-ALLMEMS1",
-      "fw_version": "4.1.0",
-      "partial_fota": "no"
-    },
-    {
       "ble_dev_id": "0x03",
       "ble_fw_id": "F446_FP-SNS-ALLMEMS1_4.1.0",
       "brd_name": "BlueCoin",
@@ -106,7 +26,7 @@
           "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b"
         },
         {
-          "name": "Acceleration Event",
+          "name": "Acceleration event",
           "uuid": "00000400-0001-11e1-ac36-0002a5d5c51b"
         },
         {
@@ -148,7 +68,7 @@
       ],
       "cloud_apps": [
         {
-          "description": "",
+          "description": "Default IoT Central Application for testing",
           "dtmi": "dtmi:stDefaultPnpApp:DEFAULTdraftv1;1",
           "name": "ST Default PnP App",
           "shareable_link": "https://apps.azureiotcentral.com/build/new/43b0eb5e-dd28-44b7-b00c-8fe2cb91d87e",
@@ -158,70 +78,6 @@
       "fota": "no",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.1.0",
-      "partial_fota": "no"
-    },
-    {
-      "ble_dev_id": "0x06",
-      "ble_fw_id": "L4R9_BLELowPower_1.0.0",
-      "brd_name": "Sensortile.box",
-      "characteristics": [
-        {
-          "name": "Pressure",
-          "uuid": "00100000-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Humidity",
-          "uuid": "00080000-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Temperature",
-          "uuid": "00010000-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Accelerometer",
-          "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Gyroscope",
-          "uuid": "00400000-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Magnetometer",
-          "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Battery",
-          "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Acceleration Event",
-          "uuid": "00000400-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Activity Detection",
-          "uuid": "00000010-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Mic Level",
-          "uuid": "04000000-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Audio Classification",
-          "uuid": "02000000-0001-11e1-ac36-0002a5d5c51b"
-        }
-      ],
-      "cloud_apps": [
-        {
-          "description": "",
-          "dtmi": "dtmi:stDefaultPnpApp:DEFAULTdraftv1;1",
-          "name": "ST Default PnP App",
-          "shareable_link": "https://apps.azureiotcentral.com/build/new/43b0eb5e-dd28-44b7-b00c-8fe2cb91d87e",
-          "url": "https://st-default-pnp-app.azureiotcentral.com"
-        }
-      ],
-      "fota": "no",
-      "fw_name": "FP-AI-CTXAWARE1",
-      "fw_version": "1.0.0",
       "partial_fota": "no"
     },
     {
@@ -288,7 +144,7 @@
       ],
       "cloud_apps": [
         {
-          "description": "",
+          "description": "Default IoT Central Application for testing",
           "dtmi": "dtmi:stDefaultPnpApp:DEFAULTdraftv1;1",
           "name": "ST Default PnP App",
           "shareable_link": "https://apps.azureiotcentral.com/build/new/43b0eb5e-dd28-44b7-b00c-8fe2cb91d87e",
@@ -298,6 +154,70 @@
       "fota": "no",
       "fw_name": "FP-IND-PREDMNT1",
       "fw_version": "2.4.0",
+      "partial_fota": "no"
+    },
+    {
+      "ble_dev_id": "0x06",
+      "ble_fw_id": "L4R9_BLELowPower_1.0.0",
+      "brd_name": "SensorTile.Box",
+      "characteristics": [
+        {
+          "name": "Pressure",
+          "uuid": "00100000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Humidity",
+          "uuid": "00080000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Temperature",
+          "uuid": "00010000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Accelerometer",
+          "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Gyroscope",
+          "uuid": "00400000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Magnetometer",
+          "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Battery",
+          "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Acceleration event",
+          "uuid": "00000400-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Activity Detection",
+          "uuid": "00000010-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Mic Level",
+          "uuid": "04000000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Audio Classification",
+          "uuid": "02000000-0001-11e1-ac36-0002a5d5c51b"
+        }
+      ],
+      "cloud_apps": [
+        {
+          "description": "Default IoT Central Application for testing",
+          "dtmi": "dtmi:stDefaultPnpApp:DEFAULTdraftv1;1",
+          "name": "ST Default PnP App",
+          "shareable_link": "https://apps.azureiotcentral.com/build/new/43b0eb5e-dd28-44b7-b00c-8fe2cb91d87e",
+          "url": "https://st-default-pnp-app.azureiotcentral.com"
+        }
+      ],
+      "fota": "no",
+      "fw_name": "FP-AI-CTXAWARE1",
+      "fw_version": "1.0.0",
       "partial_fota": "no"
     }
   ],
@@ -358,15 +278,15 @@
       ],
       "cloud_apps": [
         {
-          "description": "PoC",
-          "dtmi": "dtmi:proteusPoc:PROTEUSdraftv254f;1",
+          "description": "PoC for APAC region",
+          "dtmi": "dtmi:diegoDtdlv2:PROTEUSdraftv16e0;1",
           "name": "Proteus PoC",
           "shareable_link": "https://apps.azureiotcentral.com/build/new/833f2c88-b5c5-402d-adfd-b81ed5dfed05",
           "url": "https://proteus-poc.azureiotcentral.com"
         },
         {
           "description": "This app supports mobile and gateway access",
-          "dtmi": "dtmi:proteusPoc:PROTEUSdraftv254f;1",
+          "dtmi": "dtmi:diegoDtdlv2:PROTEUSdraftv16e0;1",
           "name": "Condition Based Monitoring",
           "shareable_link": null,
           "url": "https://cbm-web.azureiotcentral.com"
@@ -544,7 +464,57 @@
       ],
       "fota": "yes",
       "fw_name": "FP-SNS-DATALOG1",
-      "fw_version": "1.2.0-vespucci",
+      "fw_version": "1.2.0",
+      "option_bytes": [
+        {
+          "format": "int",
+          "name": "battery",
+          "negative_offset": 0,
+          "scale_factor": 10,
+          "type": "%"
+        },
+        {
+          "format": "enum_string",
+          "name": "alarm",
+          "string_values": [
+            {
+              "display_name": "No Alarm",
+              "value": 0
+            },
+            {
+              "display_name": "Low Battery",
+              "value": 1
+            },
+            {
+              "display_name": "SD Full",
+              "value": 2
+            }
+          ],
+          "type": "string"
+        },
+        {
+          "format": "enum_icon",
+          "icon_values": [
+            {
+              "comment": "icon for Log on going",
+              "icon_code": 1,
+              "value": 0
+            },
+            {
+              "comment": "icon for low battery",
+              "icon_code": 4,
+              "value": 1
+            },
+            {
+              "comment": "icon for SD full",
+              "icon_code": 10,
+              "value": 2
+            }
+          ],
+          "name": "status",
+          "type": "icon"
+        }
+      ],
       "partial_fota": "no"
     },
     {
@@ -593,30 +563,6 @@
       "fota": "no",
       "fw_name": "FP-AI-PREDMNT2",
       "fw_version": "0.0.1",
-      "partial_fota": "no"
-    },
-    {
-      "ble_dev_id": "0x09",
-      "ble_fw_id": "0x06",
-      "brd_name": "STWIN1B",
-      "characteristics": [
-        {
-          "name": "Ext Configuration",
-          "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
-        }
-      ],
-      "cloud_apps": [
-        {
-          "description": null,
-          "dtmi": null,
-          "name": null,
-          "shareable_link": null,
-          "url": null
-        }
-      ],
-      "fota": "fast",
-      "fw_name": "FP-SNS-DATALOG1",
-      "fw_version": "1.3.0",
       "partial_fota": "no"
     },
     {
@@ -919,7 +865,7 @@
           "length": 4,
           "name": "Latitude",
           "offset": 0,
-          "scalefactor": "1,00E+07",
+          "scalefactor": 10000000,
           "type": "Int32",
           "unit": "Lat"
         },
@@ -927,7 +873,7 @@
           "length": 4,
           "name": "Longitude",
           "offset": 0,
-          "scalefactor": "1,00E+07",
+          "scalefactor": 10000000,
           "type": "Int32",
           "unit": "Lon"
         },
@@ -935,7 +881,7 @@
           "length": 4,
           "name": "Altitude",
           "offset": 0,
-          "scalefactor": "1,00E+03",
+          "scalefactor": 1000,
           "type": "Int32",
           "unit": "m"
         },
@@ -1956,7 +1902,7 @@
           "length": 2,
           "name": "qi",
           "offset": 0,
-          "scalefactor": 1e-05,
+          "scalefactor": 0.00001,
           "type": "Int16",
           "unit": "quaternion"
         },
@@ -1964,7 +1910,7 @@
           "length": 2,
           "name": "qj",
           "offset": 0,
-          "scalefactor": 1e-05,
+          "scalefactor": 0.00001,
           "type": "Int16",
           "unit": "quaternion"
         },
@@ -1972,7 +1918,7 @@
           "length": 2,
           "name": "qk",
           "offset": 0,
-          "scalefactor": 1e-05,
+          "scalefactor": 0.00001,
           "type": "Int16",
           "unit": "quaternion"
         },
@@ -1980,7 +1926,7 @@
           "length": 2,
           "name": "qj",
           "offset": 0,
-          "scalefactor": 1e-05,
+          "scalefactor": 0.00001,
           "type": "Int16",
           "unit": "quaternion"
         },
@@ -1988,7 +1934,7 @@
           "length": 2,
           "name": "qk",
           "offset": 0,
-          "scalefactor": 1e-05,
+          "scalefactor": 0.00001,
           "type": "Int16",
           "unit": "quaternion"
         },
@@ -1996,7 +1942,7 @@
           "length": 2,
           "name": "qj",
           "offset": 0,
-          "scalefactor": 1e-05,
+          "scalefactor": 0.00001,
           "type": "Int16",
           "unit": "quaternion"
         },
@@ -2004,7 +1950,7 @@
           "length": 2,
           "name": "qk",
           "offset": 0,
-          "scalefactor": 1e-05,
+          "scalefactor": 0.00001,
           "type": "Int16",
           "unit": "quaternion"
         }
@@ -2113,13 +2059,13 @@
       "format_notify": [
         {
           "length": 2,
-          "max": 120,
-          "min": -40,
+          "max": 100,
+          "min": 0,
           "name": "temperature",
           "offset": 0,
           "scalefactor": 0.1,
           "type": "Int16",
-          "unit": "\u00b0C"
+          "unit": "°C"
         }
       ],
       "name": "Temperature",
@@ -2355,7 +2301,7 @@
           "offset": 0,
           "scalefactor": 1,
           "type": "Int16",
-          "unit": "\u00b0"
+          "unit": "°"
         }
       ],
       "name": "Direction of Arrival",
@@ -2442,7 +2388,7 @@
           "offset": 0,
           "scalefactor": 0.1,
           "type": "Int16",
-          "unit": "\u00b0C"
+          "unit": "°C"
         }
       ],
       "name": "Temperature",
@@ -2491,8 +2437,8 @@
       "format_notify": [
         {
           "length": 2,
-          "max": 16000,
-          "min": -16000,
+          "max": 2000,
+          "min": -2000,
           "name": "X",
           "offset": 0,
           "scalefactor": 1,
@@ -2524,7 +2470,7 @@
       "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b"
     }
   ],
-  "checksum": "692f91b15b6aa85dd975cfe92a26a37f",
-  "date": "2021-10-19T18:10:50.877977Z",
+  "checksum": "862e14d6ff50be965925d798d298a563",
+  "date": "2021-10-07T17:28:09.988440Z",
   "version": "0.2.0"
 }
