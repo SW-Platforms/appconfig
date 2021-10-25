@@ -68,7 +68,7 @@
       ],
       "cloud_apps": [
         {
-          "description": "",
+          "description": "Default IoT Central Application for testing",
           "dtmi": "dtmi:stDefaultPnpApp:DEFAULTdraftv1;1",
           "name": "ST Default PnP App",
           "shareable_link": "https://apps.azureiotcentral.com/build/new/43b0eb5e-dd28-44b7-b00c-8fe2cb91d87e",
@@ -148,7 +148,7 @@
       ],
       "cloud_apps": [
         {
-          "description": "",
+          "description": "Default IoT Central Application for testing",
           "dtmi": "dtmi:stDefaultPnpApp:DEFAULTdraftv1;1",
           "name": "ST Default PnP App",
           "shareable_link": "https://apps.azureiotcentral.com/build/new/43b0eb5e-dd28-44b7-b00c-8fe2cb91d87e",
@@ -212,7 +212,7 @@
       ],
       "cloud_apps": [
         {
-          "description": "",
+          "description": "Default IoT Central Application for testing",
           "dtmi": "dtmi:stDefaultPnpApp:DEFAULTdraftv1;1",
           "name": "ST Default PnP App",
           "shareable_link": "https://apps.azureiotcentral.com/build/new/43b0eb5e-dd28-44b7-b00c-8fe2cb91d87e",
@@ -288,7 +288,7 @@
       ],
       "cloud_apps": [
         {
-          "description": "",
+          "description": "Default IoT Central Application for testing",
           "dtmi": "dtmi:stDefaultPnpApp:DEFAULTdraftv1;1",
           "name": "ST Default PnP App",
           "shareable_link": "https://apps.azureiotcentral.com/build/new/43b0eb5e-dd28-44b7-b00c-8fe2cb91d87e",
