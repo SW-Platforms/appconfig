@@ -988,6 +988,7 @@
         }
       ],
       "name": "GNSS",
+      "dtmi_name": "gnss",
       "uuid": "00000018-0002-11e1-ac36-0002a5d5c51b"
     },
     {
@@ -1594,6 +1595,7 @@
         }
       ],
       "name": "Predictive Frequency Domain Status",
+      "dtmi_name": "predictivefrequencydomainstatus",
       "uuid": "00000009-0002-11e1-ac36-0002a5d5c51b"
     },
     {
@@ -1633,6 +1635,7 @@
         }
       ],
       "name": "Predictive Acceleration Status",
+      "dtmi_name": "predictiveaccelerationstatus",
       "uuid": "00000008-0002-11e1-ac36-0002a5d5c51b"
     },
     {
@@ -1672,6 +1675,7 @@
         }
       ],
       "name": "Predictive Speed Status",
+      "dtmi_name": "predictivespeedstatus",
       "uuid": "00000007-0002-11e1-ac36-0002a5d5c51b"
     },
     {
@@ -1739,6 +1743,7 @@
         }
       ],
       "name": "Motor Time Parameter",
+      "dtmi_name": "motortimeparameter",
       "uuid": "00000006-0002-11e1-ac36-0002a5d5c51b"
     },
     {
@@ -1851,6 +1856,7 @@
         }
       ],
       "name": "Pedometer",
+      "dtmi_name": "pedometer",
       "uuid": "00000001-0001-11e1-ac36-0002a5d5c5"
     },
     {
@@ -1916,6 +1922,7 @@
         }
       ],
       "name": "Compass",
+      "dtmi_name": "compass",
       "uuid": "00000040-0001-11e1-ac36-0002a5d5c51b"
     },
     {
@@ -1988,7 +1995,7 @@
           "length": 2,
           "name": "qi",
           "offset": 0,
-          "scalefactor": 1e-05,
+          "scalefactor": 0.00001,
           "type": "Int16",
           "unit": "quaternion"
         },
@@ -1996,7 +2003,7 @@
           "length": 2,
           "name": "qj",
           "offset": 0,
-          "scalefactor": 1e-05,
+          "scalefactor": 0.00001,
           "type": "Int16",
           "unit": "quaternion"
         },
@@ -2004,7 +2011,7 @@
           "length": 2,
           "name": "qk",
           "offset": 0,
-          "scalefactor": 1e-05,
+          "scalefactor": 0.00001,
           "type": "Int16",
           "unit": "quaternion"
         },
@@ -2012,7 +2019,7 @@
           "length": 2,
           "name": "qj",
           "offset": 0,
-          "scalefactor": 1e-05,
+          "scalefactor": 0.00001,
           "type": "Int16",
           "unit": "quaternion"
         },
@@ -2020,7 +2027,7 @@
           "length": 2,
           "name": "qk",
           "offset": 0,
-          "scalefactor": 1e-05,
+          "scalefactor": 0.00001,
           "type": "Int16",
           "unit": "quaternion"
         },
@@ -2028,7 +2035,7 @@
           "length": 2,
           "name": "qj",
           "offset": 0,
-          "scalefactor": 1e-05,
+          "scalefactor": 0.00001,
           "type": "Int16",
           "unit": "quaternion"
         },
@@ -2036,7 +2043,7 @@
           "length": 2,
           "name": "qk",
           "offset": 0,
-          "scalefactor": 1e-05,
+          "scalefactor": 0.00001,
           "type": "Int16",
           "unit": "quaternion"
         }
@@ -2151,10 +2158,11 @@
           "offset": 0,
           "scalefactor": 0.1,
           "type": "Int16",
-          "unit": "\u00b0C"
+          "unit": "°C"
         }
       ],
       "name": "Temperature",
+      "dtmi_name": "temperature",
       "uuid": "00010000-0001-11e1-ac36-0002a5d5c51b"
     },
     {
@@ -2196,6 +2204,7 @@
         }
       ],
       "name": "Battery",
+      "dtmi_name": "battery",
       "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b"
     },
     {
@@ -2233,6 +2242,7 @@
         }
       ],
       "name": "Magnetometer",
+      "dtmi_name": "magnetometer",
       "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b"
     },
     {
@@ -2264,6 +2274,7 @@
         }
       ],
       "name": "Gyroscope",
+      "dtmi_name": "gyroscope",
       "uuid": "00400000-0001-11e1-ac36-0002a5d5c51b"
     },
     {
@@ -2281,6 +2292,7 @@
         }
       ],
       "name": "Luminosity",
+      "dtmi_name": "luminosity",
       "uuid": "01000000-0001-11e1-ac36-0002a5d5c51b"
     },
     {
@@ -2296,6 +2308,7 @@
         }
       ],
       "name": "Proximity",
+      "dtmi_name": "proximity",
       "uuid": "02000000-0001-11e1-ac36-0002a5d5c51b"
     },
     {
@@ -2387,7 +2400,7 @@
           "offset": 0,
           "scalefactor": 1,
           "type": "Int16",
-          "unit": "\u00b0"
+          "unit": "°"
         }
       ],
       "name": "Direction of Arrival",
@@ -2444,6 +2457,7 @@
         }
       ],
       "name": "Pressure",
+      "dtmi_name": "pressure",
       "uuid": "00100000-0001-11e1-ac36-0002a5d5c51b"
     },
     {
@@ -2461,6 +2475,7 @@
         }
       ],
       "name": "Humidity",
+      "dtmi_name": "humidity",
       "uuid": "00080000-0001-11e1-ac36-0002a5d5c51b"
     },
     {
@@ -2474,10 +2489,11 @@
           "offset": 0,
           "scalefactor": 0.1,
           "type": "Int16",
-          "unit": "\u00b0C"
+          "unit": "°C"
         }
       ],
       "name": "Temperature",
+      "dtmi_name": "temperature2",
       "uuid": "00040000-0001-11e1-ac36-0002a5d5c51b"
     },
     {
@@ -2553,6 +2569,7 @@
         }
       ],
       "name": "Accelerometer",
+      "dtmi_name": "accelerometer",
       "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b"
     }
   ],
