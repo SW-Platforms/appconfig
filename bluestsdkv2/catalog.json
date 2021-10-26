@@ -68,7 +68,7 @@
       ],
       "cloud_apps": [
         {
-          "description": "",
+          "description": "Default IoT Central application for testing different ST sensor board types",
           "dtmi": "dtmi:stDefaultPnpApp:DEFAULTdraftv1;1",
           "name": "ST Default PnP App",
           "shareable_link": "https://apps.azureiotcentral.com/build/new/2e076a73-7fb9-46c4-b024-27f26d34ff84",
@@ -148,7 +148,7 @@
       ],
       "cloud_apps": [
         {
-          "description": "",
+          "description": "Default IoT Central application for testing different ST sensor board types",
           "dtmi": "dtmi:stDefaultPnpApp:DEFAULTdraftv1;1",
           "name": "ST Default PnP App",
           "shareable_link": "https://apps.azureiotcentral.com/build/new/2e076a73-7fb9-46c4-b024-27f26d34ff84",
@@ -212,7 +212,7 @@
       ],
       "cloud_apps": [
         {
-          "description": "",
+          "description": "Default IoT Central application for testing different ST sensor board types",
           "dtmi": "dtmi:stDefaultPnpApp:DEFAULTdraftv1;1",
           "name": "ST Default PnP App",
           "shareable_link": "https://apps.azureiotcentral.com/build/new/2e076a73-7fb9-46c4-b024-27f26d34ff84",
@@ -288,7 +288,7 @@
       ],
       "cloud_apps": [
         {
-          "description": "",
+          "description": "Default IoT Central application for testing different ST sensor board types",
           "dtmi": "dtmi:stDefaultPnpApp:DEFAULTdraftv1;1",
           "name": "ST Default PnP App",
           "shareable_link": "https://apps.azureiotcentral.com/build/new/2e076a73-7fb9-46c4-b024-27f26d34ff84",
@@ -372,7 +372,10 @@
           "url": "https://cbm-web.azureiotcentral.com"
         }
       ],
-       "option_bytes": [
+      "fota": "no",
+      "fw_name": "STSW-Proteus1",
+      "fw_version": "1.0.0",
+      "option_bytes": [
         {
           "format": "int",
           "name": "battery",
@@ -382,30 +385,27 @@
         },
         {
           "format": "enum_icon",
-          "name": "asset status",
           "icon_values": [
             {
-               "comment": "No Alarm",
-               "icon_code": 7,
+              "comment": "No Alarm",
+              "icon_code": 7,
               "value": 0
             },
             {
-               "comment": "Warning",
+              "comment": "Warning",
               "icon_code": 5,
               "value": 1
             },
             {
-               "comment": "Alarm",
-               "icon_code": 6,
+              "comment": "Alarm",
+              "icon_code": 6,
               "value": 2
             }
           ],
-    "type": "icon"
-             }
+          "name": "asset status",
+          "type": "icon"
+        }
       ],
-      "fota": "no",
-      "fw_name": "STSW-Proteus1",
-      "fw_version": "1.0.0",
       "partial_fota": "no"
     },
     {
@@ -2674,7 +2674,7 @@
       "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b"
     }
   ],
-  "checksum": "9ae7085ea4ca3deea1a090a5f31d5f48",
-  "date": "2021-10-26T09:06:08.688166Z",
+  "checksum": "3a7cd675de9c3aa1d6d2ce352853afd2",
+  "date": "2021-10-26T17:06:09.674916Z",
   "version": "0.2.1"
 }
