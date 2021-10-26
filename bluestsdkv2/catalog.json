@@ -372,9 +372,40 @@
           "url": "https://cbm-web.azureiotcentral.com"
         }
       ],
+       "option_bytes": [
+        {
+          "format": "int",
+          "name": "battery",
+          "negative_offset": 0,
+          "scale_factor": 10,
+          "type": "%"
+        },
+        {
+          "format": "enum_icon",
+          "name": "asset status",
+          "icon_values": [
+            {
+               "comment": "No Alarm",
+               "icon_code": 7,
+              "value": 0
+            },
+            {
+               "comment": "Warning",
+              "icon_code": 5,
+              "value": 1
+            },
+            {
+               "comment": "Alarm",
+               "icon_code": 6,
+              "value": 2
+            }
+          ],
+    "type": "icon"
+             }
+      ],
       "fota": "no",
-      "fw_name": "Proteus",
-      "fw_version": "0.1.0",
+      "fw_name": "STSW-Proteus1",
+      "fw_version": "1.0.0",
       "partial_fota": "no"
     },
     {
