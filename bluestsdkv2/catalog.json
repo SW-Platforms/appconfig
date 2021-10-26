@@ -602,16 +602,28 @@
               "value": 0
             },
             {
-              "display_name": "Logging Ongoing",
+              "display_name": "Battery Charging",
               "value": 1
             },
             {
-              "display_name": "Low Battery",
+              "display_name": "No Battery",
               "value": 2
             },
             {
-              "display_name": "SD Full",
+              "display_name": "Logging Ongoing",
               "value": 3
+            },
+            {
+              "display_name": "Low Battery",
+              "value": 4
+            },
+            {
+              "display_name": "Missing SD Card",
+              "value": 5
+            },
+            {
+              "display_name": "SD Card Full",
+              "value": 6
             }
           ],
           "type": "string"
@@ -620,29 +632,39 @@
           "format": "enum_icon",
           "icon_values": [
             {
-              "comment": "USB Plug",
-              "icon_code": 3,
+              "comment": "USB Plug, No Battery",
+              "icon_code": 18,
               "value": 0
+            },
+            {
+              "comment": "USB Plug, Battery in charge",
+              "icon_code": 3,
+              "value": 1
             },
             {
               "comment": "Battery",
               "icon_code": 1,
-              "value": 1
+              "value": 2
             },
             {
               "comment": "icon for Log ongoing",
               "icon_code": 10,
-              "value": 2
+              "value": 3
             },
             {
               "comment": "icon for low battery",
               "icon_code": 0,
-              "value": 3
+              "value": 4
             },
             {
-              "comment": "icon for SD full",
+              "comment": "icon for Missing SD Card",
+              "icon_code": 5,
+              "value": 5
+            },
+            {
+              "comment": "icon for SD Card full",
               "icon_code": 11,
-              "value": 4
+              "value": 6
             }
           ],
           "name": "status",
