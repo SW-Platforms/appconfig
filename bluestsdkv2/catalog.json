@@ -68,10 +68,10 @@
       ],
       "cloud_apps": [
         {
-          "description": "Default IoT Central Application for testing",
+          "description": "",
           "dtmi": "dtmi:stDefaultPnpApp:DEFAULTdraftv1;1",
           "name": "ST Default PnP App",
-          "shareable_link": "https://apps.azureiotcentral.com/build/new/43b0eb5e-dd28-44b7-b00c-8fe2cb91d87e",
+          "shareable_link": "https://apps.azureiotcentral.com/build/new/2e076a73-7fb9-46c4-b024-27f26d34ff84",
           "url": "https://st-default-pnp-app.azureiotcentral.com"
         }
       ],
@@ -148,10 +148,10 @@
       ],
       "cloud_apps": [
         {
-          "description": "Default IoT Central Application for testing",
+          "description": "",
           "dtmi": "dtmi:stDefaultPnpApp:DEFAULTdraftv1;1",
           "name": "ST Default PnP App",
-          "shareable_link": "https://apps.azureiotcentral.com/build/new/43b0eb5e-dd28-44b7-b00c-8fe2cb91d87e",
+          "shareable_link": "https://apps.azureiotcentral.com/build/new/2e076a73-7fb9-46c4-b024-27f26d34ff84",
           "url": "https://st-default-pnp-app.azureiotcentral.com"
         }
       ],
@@ -212,10 +212,10 @@
       ],
       "cloud_apps": [
         {
-          "description": "Default IoT Central Application for testing",
+          "description": "",
           "dtmi": "dtmi:stDefaultPnpApp:DEFAULTdraftv1;1",
           "name": "ST Default PnP App",
-          "shareable_link": "https://apps.azureiotcentral.com/build/new/43b0eb5e-dd28-44b7-b00c-8fe2cb91d87e",
+          "shareable_link": "https://apps.azureiotcentral.com/build/new/2e076a73-7fb9-46c4-b024-27f26d34ff84",
           "url": "https://st-default-pnp-app.azureiotcentral.com"
         }
       ],
@@ -288,10 +288,10 @@
       ],
       "cloud_apps": [
         {
-          "description": "Default IoT Central Application for testing",
+          "description": "",
           "dtmi": "dtmi:stDefaultPnpApp:DEFAULTdraftv1;1",
           "name": "ST Default PnP App",
-          "shareable_link": "https://apps.azureiotcentral.com/build/new/43b0eb5e-dd28-44b7-b00c-8fe2cb91d87e",
+          "shareable_link": "https://apps.azureiotcentral.com/build/new/2e076a73-7fb9-46c4-b024-27f26d34ff84",
           "url": "https://st-default-pnp-app.azureiotcentral.com"
         }
       ],
@@ -786,12 +786,14 @@
   "characteristics": [
     {
       "description": "",
+      "dtmi_name": null,
       "format_notify": null,
       "name": "RFU",
       "uuid": "80000000-0001-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "Header+RawData",
+      "dtmi_name": null,
       "format_notify": [
         {
           "length": 2,
@@ -820,6 +822,7 @@
     },
     {
       "description": "",
+      "dtmi_name": null,
       "format_notify": [
         {
           "length": 2,
@@ -836,6 +839,7 @@
     },
     {
       "description": "Audio Scene Classification Unknown/Outdoor/Indoor/InCar/BabyIsCrying/ASC_On/ASC_Off",
+      "dtmi_name": null,
       "format_notify": [
         {
           "length": 1,
@@ -863,6 +867,7 @@
     },
     {
       "description": "",
+      "dtmi_name": null,
       "format_notify": [
         {
           "length": 2,
@@ -879,6 +884,7 @@
     },
     {
       "description": "",
+      "dtmi_name": null,
       "format_notify": [
         {
           "length": 4,
@@ -913,6 +919,7 @@
     },
     {
       "description": "Stepper Motor Control",
+      "dtmi_name": null,
       "format_notify": [
         {
           "length": 1,
@@ -930,6 +937,7 @@
     },
     {
       "description": "Magnetometer Normalization",
+      "dtmi_name": null,
       "format_notify": [
         {
           "length": 2,
@@ -946,6 +954,7 @@
     },
     {
       "description": "TS, lat (4B - 10^7), long(4B - 10^7), elevation(4B - 10^3), num sat(1B), RSSI (1B)",
+      "dtmi_name": "gnss",
       "format_notify": [
         {
           "length": 4,
@@ -988,17 +997,18 @@
         }
       ],
       "name": "GNSS",
-      "dtmi_name": "gnss",
       "uuid": "00000018-0002-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "Cartesiam anomaly detection libraries",
+      "dtmi_name": null,
       "format_notify": null,
       "name": "Cartesiam",
       "uuid": "00000019-0002-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "STRED-L registers output",
+      "dtmi_name": null,
       "format_notify": [
         {
           "length": 1,
@@ -1078,24 +1088,28 @@
     },
     {
       "description": "",
+      "dtmi_name": null,
       "format_notify": null,
       "name": "Debug Console stderr",
       "uuid": "00000002-000E-11e1-9ab4-0002a5d5c51b"
     },
     {
       "description": "",
+      "dtmi_name": null,
       "format_notify": null,
       "name": "Debug Console stdin/stdout",
       "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
     },
     {
       "description": "",
+      "dtmi_name": null,
       "format_notify": null,
       "name": "Debug console",
       "uuid": "00000000-000E-11e1-9ab4-0002a5d5c51b"
     },
     {
       "description": "Electric Charge Variation",
+      "dtmi_name": null,
       "format_notify": [
         {
           "length": 4,
@@ -1131,6 +1145,7 @@
     },
     {
       "description": "",
+      "dtmi_name": null,
       "format_notify": [
         {
           "length": 4,
@@ -1167,12 +1182,14 @@
     },
     {
       "description": "",
+      "dtmi_name": null,
       "format_notify": null,
       "name": "Ext Configuration",
       "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "Time Of Flight Multi Objects Detection",
+      "dtmi_name": null,
       "format_notify": [
         {
           "length": 2,
@@ -1219,18 +1236,21 @@
     },
     {
       "description": "",
+      "dtmi_name": null,
       "format_notify": null,
       "name": "UNUSED",
       "uuid": "00000012-0002-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
+      "dtmi_name": null,
       "format_notify": null,
       "name": "HS Datalog Config",
       "uuid": "00000011-0002-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "Finite State Machine's registers output",
+      "dtmi_name": null,
       "format_notify": [
         {
           "length": 1,
@@ -1374,6 +1394,7 @@
     },
     {
       "description": "Machine Learning Core's registers output",
+      "dtmi_name": null,
       "format_notify": [
         {
           "length": 1,
@@ -1453,6 +1474,7 @@
     },
     {
       "description": "",
+      "dtmi_name": null,
       "format_notify": [
         {
           "length": 1,
@@ -1477,6 +1499,7 @@
     },
     {
       "description": "",
+      "dtmi_name": null,
       "format_notify": [
         {
           "length": 4,
@@ -1511,6 +1534,7 @@
     },
     {
       "description": "",
+      "dtmi_name": null,
       "format_notify": [
         {
           "length": 1,
@@ -1536,6 +1560,7 @@
     },
     {
       "description": "",
+      "dtmi_name": "predictivefrequencydomainstatus",
       "format_notify": [
         {
           "length": 1,
@@ -1595,11 +1620,11 @@
         }
       ],
       "name": "Predictive Frequency Domain Status",
-      "dtmi_name": "predictivefrequencydomainstatus",
       "uuid": "00000009-0002-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
+      "dtmi_name": "predictiveaccelerationstatus",
       "format_notify": [
         {
           "length": 1,
@@ -1635,11 +1660,11 @@
         }
       ],
       "name": "Predictive Acceleration Status",
-      "dtmi_name": "predictiveaccelerationstatus",
       "uuid": "00000008-0002-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
+      "dtmi_name": "predictivespeedstatus",
       "format_notify": [
         {
           "length": 1,
@@ -1675,11 +1700,11 @@
         }
       ],
       "name": "Predictive Speed Status",
-      "dtmi_name": "predictivespeedstatus",
       "uuid": "00000007-0002-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "Motion Time Parameter",
+      "dtmi_name": "motortimeparameter",
       "format_notify": [
         {
           "length": 4,
@@ -1743,11 +1768,11 @@
         }
       ],
       "name": "Motor Time Parameter",
-      "dtmi_name": "motortimeparameter",
       "uuid": "00000006-0002-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "Header+RawData",
+      "dtmi_name": null,
       "format_notify": [
         {
           "length": 2,
@@ -1776,6 +1801,7 @@
     },
     {
       "description": "SD Log control (SENSING1)",
+      "dtmi_name": null,
       "format_notify": [
         {
           "length": 1,
@@ -1793,6 +1819,7 @@
     },
     {
       "description": "Audio Scene Classification Unknown/Outdoor/Indoor/InCar/BabyIsCrying/ASC_On/ASC_Off",
+      "dtmi_name": null,
       "format_notify": [
         {
           "length": 1,
@@ -1820,12 +1847,14 @@
     },
     {
       "description": "",
+      "dtmi_name": null,
       "format_notify": null,
       "name": "Audio OPUS Conf",
       "uuid": "00000002-0002-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "Audio Opus Data",
+      "dtmi_name": null,
       "format_notify": [
         {
           "name": "RawDataPacket",
@@ -1837,6 +1866,7 @@
     },
     {
       "description": "",
+      "dtmi_name": "pedometer",
       "format_notify": [
         {
           "length": 4,
@@ -1856,11 +1886,11 @@
         }
       ],
       "name": "Pedometer",
-      "dtmi_name": "pedometer",
       "uuid": "00000001-0001-11e1-ac36-0002a5d5c5"
     },
     {
       "description": "Unknown/PickUp/Glance/WakeUp",
+      "dtmi_name": null,
       "format_notify": [
         {
           "length": 1,
@@ -1877,6 +1907,7 @@
     },
     {
       "description": "",
+      "dtmi_name": null,
       "format_notify": [
         {
           "length": 1,
@@ -1893,6 +1924,7 @@
     },
     {
       "description": "",
+      "dtmi_name": null,
       "format_notify": [
         {
           "length": 1,
@@ -1909,6 +1941,7 @@
     },
     {
       "description": "Compass",
+      "dtmi_name": "compass",
       "format_notify": [
         {
           "length": 2,
@@ -1922,11 +1955,11 @@
         }
       ],
       "name": "Compass",
-      "dtmi_name": "compass",
       "uuid": "00000040-0001-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
+      "dtmi_name": null,
       "format_notify": [
         {
           "length": 1,
@@ -1943,6 +1976,7 @@
     },
     {
       "description": "MEMS sensor fusion",
+      "dtmi_name": null,
       "format_notify": [
         {
           "length": 4,
@@ -1990,6 +2024,7 @@
     },
     {
       "description": "",
+      "dtmi_name": null,
       "format_notify": [
         {
           "length": 2,
@@ -2053,6 +2088,7 @@
     },
     {
       "description": "deprecated",
+      "dtmi_name": null,
       "format_notify": [
         {
           "length": 1,
@@ -2070,6 +2106,7 @@
     },
     {
       "description": "Beam Forming Direction Top/TopRight/Right/BottomRight/Bottom/BottomLeft/Left/TopLeft",
+      "dtmi_name": null,
       "format_notify": [
         {
           "length": 1,
@@ -2087,6 +2124,7 @@
     },
     {
       "description": "SD  Log control (ALLMEMS1/ALLMEMS2)",
+      "dtmi_name": null,
       "format_notify": [
         {
           "length": 1,
@@ -2120,18 +2158,21 @@
     },
     {
       "description": "",
+      "dtmi_name": null,
       "format_notify": null,
       "name": "RFU (OTA reboot?)",
       "uuid": "00002000-0001-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
+      "dtmi_name": null,
       "format_notify": null,
       "name": "RFU",
       "uuid": "00004000-0001-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "CO concentration",
+      "dtmi_name": null,
       "format_notify": [
         {
           "length": 4,
@@ -2149,6 +2190,7 @@
     },
     {
       "description": "Temperature 1",
+      "dtmi_name": "temperature",
       "format_notify": [
         {
           "length": 2,
@@ -2162,11 +2204,11 @@
         }
       ],
       "name": "Temperature",
-      "dtmi_name": "temperature",
       "uuid": "00010000-0001-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
+      "dtmi_name": "battery",
       "format_notify": [
         {
           "length": 2,
@@ -2204,11 +2246,11 @@
         }
       ],
       "name": "Battery",
-      "dtmi_name": "battery",
       "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "xyz magnetometer data",
+      "dtmi_name": "magnetometer",
       "format_notify": [
         {
           "length": 2,
@@ -2242,11 +2284,11 @@
         }
       ],
       "name": "Magnetometer",
-      "dtmi_name": "magnetometer",
       "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "xyz gyroscope data",
+      "dtmi_name": "gyroscope",
       "format_notify": [
         {
           "length": 2,
@@ -2274,11 +2316,11 @@
         }
       ],
       "name": "Gyroscope",
-      "dtmi_name": "gyroscope",
       "uuid": "00400000-0001-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "",
+      "dtmi_name": "luminosity",
       "format_notify": [
         {
           "length": 2,
@@ -2292,11 +2334,11 @@
         }
       ],
       "name": "Luminosity",
-      "dtmi_name": "luminosity",
       "uuid": "01000000-0001-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "Proximity distance (value & ~0x8000)",
+      "dtmi_name": "proximity",
       "format_notify": [
         {
           "length": 2,
@@ -2308,11 +2350,11 @@
         }
       ],
       "name": "Proximity",
-      "dtmi_name": "proximity",
       "uuid": "02000000-0001-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "Microphone dB level",
+      "dtmi_name": null,
       "format_notify": [
         {
           "length": 1,
@@ -2380,6 +2422,7 @@
     },
     {
       "description": "",
+      "dtmi_name": null,
       "format_notify": [
         {
           "name": "RawData",
@@ -2391,6 +2434,7 @@
     },
     {
       "description": "Sound arrival direction",
+      "dtmi_name": null,
       "format_notify": [
         {
           "length": 2,
@@ -2408,6 +2452,7 @@
     },
     {
       "description": "bitmask",
+      "dtmi_name": null,
       "format_notify": [
         {
           "length": 1,
@@ -2423,6 +2468,7 @@
     },
     {
       "description": "audio synchronization parameters necessary to ADPCM audio decompression",
+      "dtmi_name": null,
       "format_notify": [
         {
           "length": 2,
@@ -2444,6 +2490,7 @@
     },
     {
       "description": "atmospheric pressure (value * 100)",
+      "dtmi_name": "pressure",
       "format_notify": [
         {
           "length": 4,
@@ -2457,11 +2504,11 @@
         }
       ],
       "name": "Pressure",
-      "dtmi_name": "pressure",
       "uuid": "00100000-0001-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "Relative humidity [%] (value * 10)",
+      "dtmi_name": "humidity",
       "format_notify": [
         {
           "length": 2,
@@ -2475,11 +2522,11 @@
         }
       ],
       "name": "Humidity",
-      "dtmi_name": "humidity",
       "uuid": "00080000-0001-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "temperature2 (value * 10)",
+      "dtmi_name": "temperature2",
       "format_notify": [
         {
           "length": 2,
@@ -2493,11 +2540,11 @@
         }
       ],
       "name": "Temperature",
-      "dtmi_name": "temperature2",
       "uuid": "00040000-0001-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "NoActivity/Stationary/Walking/FastWalking/Jogging/Biking/Driving/Stairs/AdultInCar",
+      "dtmi_name": null,
       "format_notify": [
         {
           "length": 1,
@@ -2514,6 +2561,7 @@
     },
     {
       "description": "event detected by the accelerometer hardware, can contain an event, the number of steps or both",
+      "dtmi_name": null,
       "format_notify": [
         {
           "length": 1,
@@ -2536,6 +2584,7 @@
     },
     {
       "description": "x,y,z accelerometer data",
+      "dtmi_name": "accelerometer",
       "format_notify": [
         {
           "length": 2,
@@ -2569,11 +2618,10 @@
         }
       ],
       "name": "Accelerometer",
-      "dtmi_name": "accelerometer",
       "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b"
     }
   ],
-  "checksum": "aeb8a946993fc40255c7ad9a937e35bb",
-  "date": "2021-10-20T17:58:07.613640Z",
-  "version": "0.2.0"
+  "checksum": "9ae7085ea4ca3deea1a090a5f31d5f48",
+  "date": "2021-10-26T09:06:08.688166Z",
+  "version": "0.2.1"
 }
