@@ -308,7 +308,7 @@
       "brd_name": "Proteus",
       "fota": "wb_ready",
       "fw_name": "FOTA-Mode",
-      "fw_version": "1.0.0",
+      "fw_version": "1.0.0"
     },
     {
       "ble_dev_id": "0x0F",
@@ -422,7 +422,7 @@
       "brd_name": "Polaris",
       "fota": "wb_ready",
       "fw_name": "FOTA-Mode",
-      "fw_version": "1.0.0",
+      "fw_version": "1.0.0"
     },
     {
       "ble_dev_id": "0x0C",
