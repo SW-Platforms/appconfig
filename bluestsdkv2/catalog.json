@@ -26,7 +26,7 @@
     }
   ],
   "bluestsdk_v2": [
-    {
+    
       "ble_dev_id": "0x0F",
       "ble_fw_id": "0x01",
       "brd_name": "Proteus",
