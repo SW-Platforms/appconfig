@@ -532,10 +532,6 @@
       "brd_name": "STEVAL-PROTEUS",
       "characteristics": [
         {
-          "name": "Temperature",
-          "uuid": "00010000-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
           "name": "Ext Configuration",
           "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
         },
@@ -590,6 +586,10 @@
         {
           "name": "RebootOTAModeFeature",
           "uuid": "0000fe11-8e22-4541-9d4c-21edae82ed19"
+        },
+        {
+          "name": "Temperature",
+          "uuid": "00010000-0001-11e1-ac36-0002a5d5c51b"
         }
       ],
       "cloud_apps": [
@@ -609,12 +609,14 @@
         }
       ],
       "fota": "wb_mode",
-      "fw_name": "STSW-Proteus1",
+      "fw_name": "STSW-PROTEUS",
       "fw_version": "1.0.0",
       "option_bytes": [
         {
+          "escape_message": "",
+          "escape_value": 255,
           "format": "int",
-          "name": "battery",
+          "name": "Battery Level: ",
           "negative_offset": 0,
           "scale_factor": 10,
           "type": "%"
@@ -638,8 +640,35 @@
               "value": 2
             }
           ],
-          "name": "asset status",
+          "name": "Equipment Status",
           "type": "icon"
+        },
+        {
+          "format": "enum_string",
+          "name": "Battery Status: ",
+          "string_values": [
+            {
+              "display_name": "Low Battery",
+              "value": 0
+            },
+            {
+              "display_name": "Discharging",
+              "value": 1
+            },
+            {
+              "display_name": "End of Charging",
+              "value": 2
+            },
+            {
+              "display_name": "Charging",
+              "value": 3
+            },
+            {
+              "display_name": "Not Plugged",
+              "value": 4
+            }
+          ],
+          "type": "string"
         }
       ],
       "partial_fota": "no"
@@ -3016,7 +3045,7 @@
       "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b"
     }
   ],
-  "checksum": "29eb23c25ea4416cd54db02203ad690b",
-  "date": "2022-01-12T14:46:23.012848Z",
+  "checksum": "0e1c29f20128970543f6de9d472a8c3b",
+  "date": "2022-01-12T14:49:45.646244Z",
   "version": "0.2.4"
 }
