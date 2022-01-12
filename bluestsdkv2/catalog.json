@@ -529,7 +529,7 @@
     {
       "ble_dev_id": "0x0F",
       "ble_fw_id": "0x01",
-      "brd_name": "Proteus",
+      "brd_name": "STEVAL-PROTEUS",
       "characteristics": [
         {
           "name": "Temperature",
@@ -975,7 +975,7 @@
     {
       "ble_dev_id": "0x0F",
       "ble_fw_id": "0xFE",
-      "brd_name": "Proteus",
+      "brd_name": "STEVAL-PROTEUS",
       "characteristics": [
         {
           "name": "OTAControlFeature",
@@ -3016,7 +3016,7 @@
       "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b"
     }
   ],
-  "checksum": "8553daf685c14983059040aaff1e367a",
-  "date": "2022-01-11T18:12:41.167846Z",
+  "checksum": "29eb23c25ea4416cd54db02203ad690b",
+  "date": "2022-01-12T14:46:23.012848Z",
   "version": "0.2.4"
 }
