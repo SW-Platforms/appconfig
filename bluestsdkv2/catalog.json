@@ -372,15 +372,6 @@
           "uuid": "00000040-0001-11e1-ac36-0002a5d5c51b"
         }
       ],
-      "cloud_apps": [
-        {
-          "description": null,
-          "dtmi": null,
-          "name": null,
-          "shareable_link": null,
-          "url": null
-        }
-      ],
       "fota": "fast",
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.2.0",
@@ -456,15 +447,6 @@
           "uuid": "00000040-0001-11e1-ac36-0002a5d5c51b"
         }
       ],
-      "cloud_apps": [
-        {
-          "description": null,
-          "dtmi": null,
-          "name": null,
-          "shareable_link": null,
-          "url": null
-        }
-      ],
       "fota": "fast",
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.2.0",
@@ -510,15 +492,6 @@
         {
           "name": "Switch",
           "uuid": "20000000-0001-11e1-ac36-0002a5d5c51b"
-        }
-      ],
-      "cloud_apps": [
-        {
-          "description": null,
-          "dtmi": null,
-          "name": null,
-          "shareable_link": null,
-          "url": null
         }
       ],
       "fota": "no",
@@ -717,15 +690,6 @@
         {
           "name": "Battery",
           "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b"
-        }
-      ],
-      "cloud_apps": [
-        {
-          "description": null,
-          "dtmi": null,
-          "name": null,
-          "shareable_link": null,
-          "url": null
         }
       ],
       "fota": "wb_mode",
@@ -970,6 +934,24 @@
       "partial_fota": "no"
     },
     {
+      "ble_dev_id": "0x09",
+      "ble_fw_id": "0x07",
+      "brd_name": "STWIN1B",
+      "cloud_apps": [
+        {
+          "description": "Show digital twin usage; support for gateways; export data to 3D viz service",
+          "dtmi": "dtmi:quasar:...",
+          "name": "quasar",
+          "shareable_link": null,
+          "url": "https://quasar.azureiotcentral.com/"
+        }
+      ],
+      "fota": "no",
+      "fw_name": "quasar",
+      "fw_version": "1.0.0",
+      "partial_fota": "no"
+    },
+    {
       "ble_dev_id": "0x0C",
       "ble_fw_id": "0xFD",
       "brd_name": "Astra",
@@ -985,15 +967,6 @@
         {
           "name": "OTAFileUpload",
           "uuid": "0000fe24-8e22-4541-9d4c-21edae82ed19"
-        }
-      ],
-      "cloud_apps": [
-        {
-          "description": null,
-          "dtmi": null,
-          "name": null,
-          "shareable_link": null,
-          "url": null
         }
       ],
       "fota": "wb_ready",
@@ -1017,15 +990,6 @@
         {
           "name": "OTAFileUpload",
           "uuid": "0000fe24-8e22-4541-9d4c-21edae82ed19"
-        }
-      ],
-      "cloud_apps": [
-        {
-          "description": null,
-          "dtmi": null,
-          "name": null,
-          "shareable_link": null,
-          "url": null
         }
       ],
       "fota": "wb_ready",
@@ -1077,15 +1041,6 @@
         {
           "name": "Battery",
           "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b"
-        }
-      ],
-      "cloud_apps": [
-        {
-          "description": null,
-          "dtmi": null,
-          "name": null,
-          "shareable_link": null,
-          "url": null
         }
       ],
       "fota": "no",
@@ -3045,7 +3000,7 @@
       "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b"
     }
   ],
-  "checksum": "0e1c29f20128970543f6de9d472a8c3b",
-  "date": "2022-01-12T14:49:45.646244Z",
+  "checksum": "c3f499778fc4f40c8cc00ce697904ad5",
+  "date": "2022-01-16T18:56:42.456971Z",
   "version": "0.2.4"
 }
