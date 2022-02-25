@@ -1187,10 +1187,6 @@
         {
           "name": "HS Datalog Config",
           "uuid": "00000011-0002-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": null,
-          "uuid": null
         }
       ],
       "cloud_apps": [
@@ -3510,7 +3506,7 @@
       "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b"
     }
   ],
-  "checksum": "792c40dd1b687eaeb0c97ebe2db72e0a",
-  "date": "2022-02-25T13:53:40.518229Z",
+  "checksum": "a1d9207966ef0737424b81d9c237d8e6",
+  "date": "2022-02-25T14:43:41.809693Z",
   "version": "0.2.5"
 }
