@@ -1041,6 +1041,52 @@
       "partial_fota": "no"
     },
     {
+      "ble_dev_id": "0x7F",
+      "ble_fw_id": "0x03",
+      "brd_name": "Nucleo STM32F401RE",
+      "characteristics": [
+        {
+          "name": "ToF Multiobject",
+          "uuid": "00000013-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Switch",
+          "uuid": "20000000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Ext Configuration",
+          "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
+        }
+      ],
+      "fota": "yes",
+      "fw_name": "FP-SNS-FLIGHT1",
+      "fw_version": "4.2.0",
+      "partial_fota": "no"
+    },
+    {
+      "ble_dev_id": "0x7E",
+      "ble_fw_id": "0x03",
+      "brd_name": "Nucleo STM32L476RG",
+      "characteristics": [
+        {
+          "name": "ToF Multiobject",
+          "uuid": "00000013-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Switch",
+          "uuid": "20000000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Ext Configuration",
+          "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
+        }
+      ],
+      "fota": "yes",
+      "fw_name": "FP-SNS-FLIGHT1",
+      "fw_version": "4.2.0",
+      "partial_fota": "no"
+    },
+    {
       "ble_dev_id": "0x09",
       "ble_fw_id": "0x04",
       "brd_name": "STWIN1B",
@@ -3506,7 +3552,7 @@
       "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b"
     }
   ],
-  "checksum": "a1d9207966ef0737424b81d9c237d8e6",
-  "date": "2022-02-25T14:43:41.809693Z",
+  "checksum": "f0434457eea84032523e3bed82891bd5",
+  "date": "2022-03-10T16:10:51.288880Z",
   "version": "0.2.5"
 }
