@@ -25,7 +25,7 @@
       "fota": "fast",
       "fw_desc": "High Speed Data Log on SD-card configured by Bluetooth",
       "fw_name": "FP-SNS-DATALOG1",
-      "fw_url": "https://github.com/SW-Platforms/appconfig/bluestsdkv2_fota/bin/SensorTile.box-Pro/datalog1_3_0.bin",
+      "fw_url": "https://github.com/SW-Platforms/appconfig/bluestsdkv2_fota/bin/SensorTile.box-Pro/datalog1_v1_3_0.bin",
       "fw_version": "1.3.0",
       "partial_fota": "no"
     },
