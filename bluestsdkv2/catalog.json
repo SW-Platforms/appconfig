@@ -76,9 +76,11 @@
         }
       ],
       "fota": "no",
+      "fw_desc": "",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.1.0",
-      "partial_fota": "no"
+      "option_bytes": [],
+      "partial_fota": 0
     },
     {
       "ble_dev_id": "0x02",
@@ -156,9 +158,11 @@
         }
       ],
       "fota": "no",
+      "fw_desc": "",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.1.0",
-      "partial_fota": "no"
+      "option_bytes": [],
+      "partial_fota": 0
     },
     {
       "ble_dev_id": "0x06",
@@ -223,7 +227,8 @@
       "fw_desc": "New RPN (Link) - STM32Cube function pack for ultra-low power context awareness with distributed artificial intelligence (AI): acoustic analysis with NN on MCU and motion analysis with ML on IMU",
       "fw_name": "FP-AI-CTXAWARE1",
       "fw_version": "1.0.0",
-      "partial_fota": "no"
+      "option_bytes": [],
+      "partial_fota": 0
     },
     {
       "ble_dev_id": "0x08",
@@ -300,7 +305,8 @@
       "fw_desc": "Acc FFT, Acc time stats (RMS, peaks) streaming over Wi-Fi",
       "fw_name": "FP-IND-PREDMNT1",
       "fw_version": "2.4.0",
-      "partial_fota": "no"
+      "option_bytes": [],
+      "partial_fota": 0
     }
   ],
   "bluestsdk_v2": [
@@ -374,11 +380,13 @@
           "uuid": "00000040-0001-11e1-ac36-0002a5d5c51b"
         }
       ],
+      "cloud_apps": [],
       "fota": "fast",
       "fw_desc": "Fast FOTA, BlueST SDK v2",
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.2.0",
-      "partial_fota": "no"
+      "option_bytes": [],
+      "partial_fota": 0
     },
     {
       "ble_dev_id": "0x7E",
@@ -450,11 +458,13 @@
           "uuid": "00000040-0001-11e1-ac36-0002a5d5c51b"
         }
       ],
+      "cloud_apps": [],
       "fota": "fast",
       "fw_desc": "Fast FOTA, BlueST SDK v2",
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.2.0",
-      "partial_fota": "no"
+      "option_bytes": [],
+      "partial_fota": 0
     },
     {
       "ble_dev_id": "0x7D",
@@ -498,11 +508,13 @@
           "uuid": "20000000-0001-11e1-ac36-0002a5d5c51b"
         }
       ],
+      "cloud_apps": [],
       "fota": "no",
       "fw_desc": "Fast FOTA, BlueST SDK v2",
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.2.0",
-      "partial_fota": "no"
+      "option_bytes": [],
+      "partial_fota": 0
     },
     {
       "ble_dev_id": "0x7C",
@@ -562,7 +574,9 @@
           "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
         }
       ],
+      "cloud_apps": [],
       "fota": "fast",
+      "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.2.0",
       "option_bytes": [
@@ -581,7 +595,7 @@
           ]
         }
       ],
-      "partial_fota": "no"
+      "partial_fota": 0
     },
     {
       "ble_dev_id": "0x0F",
@@ -730,7 +744,36 @@
           "type": "string"
         }
       ],
-      "partial_fota": "no"
+      "partial_fota": 0
+    },
+    {
+      "ble_dev_id": "0x0E",
+      "ble_fw_id": "0x01",
+      "brd_name": "STWIN.BOX",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": "fast",
+      "fw_desc": "Firmware for all box boards",
+      "fw_name": "BleDualProgram_FP-SNS-STBOX1",
+      "fw_version": "1.0.0",
+      "option_bytes": [
+        {
+          "format": "enum_string",
+          "name": "Running on: ",
+          "string_values": [
+            {
+              "display_name": "Bank 1",
+              "value": 1
+            },
+            {
+              "display_name": "Bank 2",
+              "value": 2
+            }
+          ],
+          "type": "string"
+        }
+      ],
+      "partial_fota": 0
     },
     {
       "ble_dev_id": "0x0C",
@@ -778,6 +821,7 @@
           "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b"
         }
       ],
+      "cloud_apps": [],
       "fota": "wb_mode",
       "fw_desc": "Polaris firmware (official one)",
       "fw_name": "Astra1 - Asset tracking",
@@ -861,7 +905,7 @@
           "type": "icon"
         }
       ],
-      "partial_fota": "no"
+      "partial_fota": 0
     },
     {
       "ble_dev_id": "0x7F",
@@ -921,7 +965,9 @@
           "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
         }
       ],
+      "cloud_apps": [],
       "fota": "fast",
+      "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.2.0",
       "option_bytes": [
@@ -940,7 +986,7 @@
           ]
         }
       ],
-      "partial_fota": "no"
+      "partial_fota": 0
     },
     {
       "ble_dev_id": "0x7E",
@@ -1028,7 +1074,9 @@
           "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
         }
       ],
+      "cloud_apps": [],
       "fota": "fast",
+      "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.2.0",
       "option_bytes": [
@@ -1047,7 +1095,36 @@
           ]
         }
       ],
-      "partial_fota": "no"
+      "partial_fota": 0
+    },
+    {
+      "ble_dev_id": "0x0E",
+      "ble_fw_id": "0x02",
+      "brd_name": "STWIN.BOX",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": "fast",
+      "fw_desc": "Firmware for all box boards",
+      "fw_name": "BLESensors_FP-SNS-STBOX1",
+      "fw_version": "1.0.0",
+      "option_bytes": [
+        {
+          "format": "enum_string",
+          "name": "Running on: ",
+          "string_values": [
+            {
+              "display_name": "Bank 1",
+              "value": 1
+            },
+            {
+              "display_name": "Bank 2",
+              "value": 2
+            }
+          ],
+          "type": "string"
+        }
+      ],
+      "partial_fota": 0
     },
     {
       "ble_dev_id": "0x7F",
@@ -1067,11 +1144,13 @@
           "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
         }
       ],
+      "cloud_apps": [],
       "fota": "yes",
       "fw_desc": "candidate release",
       "fw_name": "FP-SNS-FLIGHT1",
       "fw_version": "4.2.0",
-      "partial_fota": "no"
+      "option_bytes": [],
+      "partial_fota": 0
     },
     {
       "ble_dev_id": "0x7E",
@@ -1091,11 +1170,71 @@
           "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
         }
       ],
+      "cloud_apps": [],
       "fota": "yes",
       "fw_desc": "candidate release",
       "fw_name": "FP-SNS-FLIGHT1",
       "fw_version": "4.2.0",
-      "partial_fota": "no"
+      "option_bytes": [],
+      "partial_fota": 0
+    },
+    {
+      "ble_dev_id": "0x0E",
+      "ble_fw_id": "0x03",
+      "brd_name": "STWIN.BOX",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": "fast",
+      "fw_desc": "Firmware for all box boards",
+      "fw_name": "BLEMLC_FP-SNS-STBOX1",
+      "fw_version": "1.0.0",
+      "option_bytes": [
+        {
+          "format": "enum_string",
+          "name": "Running on: ",
+          "string_values": [
+            {
+              "display_name": "Bank 1",
+              "value": 1
+            },
+            {
+              "display_name": "Bank 2",
+              "value": 2
+            }
+          ],
+          "type": "string"
+        }
+      ],
+      "partial_fota": 0
+    },
+    {
+      "ble_dev_id": "0x0E",
+      "ble_fw_id": "0x04",
+      "brd_name": "STWIN.BOX",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": "fast",
+      "fw_desc": "Firmware for all box boards",
+      "fw_name": "BLEDefaultFw_FP-SNS-STBOX1",
+      "fw_version": "1.0.0",
+      "option_bytes": [
+        {
+          "format": "enum_string",
+          "name": "Running on: ",
+          "string_values": [
+            {
+              "display_name": "Bank 1",
+              "value": 1
+            },
+            {
+              "display_name": "Bank 2",
+              "value": 2
+            }
+          ],
+          "type": "string"
+        }
+      ],
+      "partial_fota": 0
     },
     {
       "ble_dev_id": "0x09",
@@ -1132,7 +1271,8 @@
       "fw_desc": "HSD with STREDL support",
       "fw_name": "FP-SNS-DATALOG1",
       "fw_version": "1.2.0-vespucci",
-      "partial_fota": "no"
+      "option_bytes": [],
+      "partial_fota": 0
     },
     {
       "ble_dev_id": "0x06",
@@ -1220,10 +1360,42 @@
           "uuid": "00080000-0001-11e1-ac36-0002a5d5c51b"
         }
       ],
+      "cloud_apps": [],
       "fota": "fast",
+      "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.2.0",
-      "partial_fota": "no"
+      "option_bytes": [],
+      "partial_fota": 0
+    },
+    {
+      "ble_dev_id": "0x0E",
+      "ble_fw_id": "0x05",
+      "brd_name": "STWIN.BOX",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": "fast",
+      "fw_desc": "Firmware for all box boards",
+      "fw_name": "BLEGpEx_FP-SNS-STBOX1",
+      "fw_version": "1.0.0",
+      "option_bytes": [
+        {
+          "format": "enum_string",
+          "name": "Running on: ",
+          "string_values": [
+            {
+              "display_name": "Bank 1",
+              "value": 1
+            },
+            {
+              "display_name": "Bank 2",
+              "value": 2
+            }
+          ],
+          "type": "string"
+        }
+      ],
+      "partial_fota": 0
     },
     {
       "ble_dev_id": "0x09",
@@ -1347,7 +1519,7 @@
           "type": "icon"
         }
       ],
-      "partial_fota": "no"
+      "partial_fota": 0
     },
     {
       "ble_dev_id": "0x03",
@@ -1403,15 +1575,19 @@
           "uuid": "00100000-0001-11e1-ac36-0002a5d5c51b"
         }
       ],
+      "cloud_apps": [],
       "fota": "yes",
+      "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.2.0",
-      "partial_fota": "no"
+      "option_bytes": [],
+      "partial_fota": 0
     },
     {
       "ble_dev_id": "0x09",
       "ble_fw_id": "0x07",
       "brd_name": "STWIN1B",
+      "characteristics": [],
       "cloud_apps": [
         {
           "description": "Show digital twin usage; support for gateways; export data to 3D viz service",
@@ -1425,7 +1601,8 @@
       "fw_desc": "low power firmware for Quasar demo; uses STREDL and sends events on BLE advertisements",
       "fw_name": "quasar",
       "fw_version": "1.0.0",
-      "partial_fota": "no"
+      "option_bytes": [],
+      "partial_fota": 0
     },
     {
       "ble_dev_id": "0x02",
@@ -1513,10 +1690,13 @@
           "uuid": "00001000-0001-11e1-ac36-0002a5d5c51b"
         }
       ],
+      "cloud_apps": [],
       "fota": "yes",
+      "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.2.0",
-      "partial_fota": "no"
+      "option_bytes": [],
+      "partial_fota": 0
     },
     {
       "ble_dev_id": "0x0C",
@@ -1536,11 +1716,13 @@
           "uuid": "0000fe24-8e22-4541-9d4c-21edae82ed19"
         }
       ],
+      "cloud_apps": [],
       "fota": "wb_ready",
       "fw_desc": "STM32WB temporary stub to enable firmware update ",
       "fw_name": "FOTA-mode",
       "fw_version": "1.0.0",
-      "partial_fota": "no"
+      "option_bytes": [],
+      "partial_fota": 0
     },
     {
       "ble_dev_id": "0x0F",
@@ -1560,11 +1742,13 @@
           "uuid": "0000fe24-8e22-4541-9d4c-21edae82ed19"
         }
       ],
+      "cloud_apps": [],
       "fota": "wb_ready",
       "fw_desc": "STM32WB temporary stub to enable firmware update ",
       "fw_name": "FOTA-mode",
       "fw_version": "1.0.0",
-      "partial_fota": "no"
+      "option_bytes": [],
+      "partial_fota": 0
     },
     {
       "ble_dev_id": "0x0C",
@@ -1612,6 +1796,7 @@
           "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b"
         }
       ],
+      "cloud_apps": [],
       "fota": "no",
       "fw_desc": "Polaris firmware (testing one)",
       "fw_name": "Astra1 - Asset tracking",
@@ -1687,7 +1872,7 @@
           "type": "string"
         }
       ],
-      "partial_fota": "no"
+      "partial_fota": 0
     }
   ],
   "characteristics": [
@@ -2532,7 +2717,7 @@
           "name": "Max Amplitude X",
           "offset": 0,
           "scalefactor": 0.01,
-          "type": "Unit16",
+          "type": "UInt16",
           "unit": "m/S2"
         },
         {
@@ -2548,7 +2733,7 @@
           "name": "Max Amplitude Y",
           "offset": 0,
           "scalefactor": 0.01,
-          "type": "Unit16",
+          "type": "UInt16",
           "unit": "m/S2"
         },
         {
@@ -2564,7 +2749,7 @@
           "name": "Max Amplitude Z",
           "offset": 0,
           "scalefactor": 0.01,
-          "type": "Unit16",
+          "type": "UInt16",
           "unit": "m/S2"
         }
       ],
@@ -3570,7 +3755,7 @@
       "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b"
     }
   ],
-  "checksum": "3805aa3824c6deb33a274a84b3d5ff58",
-  "date": "2022-03-15T16:25:39.060514Z",
-  "version": "0.2.6"
+  "checksum": "5cd80f553fe55e92fa0bbfc02fc3c7b0",
+  "date": "2022-04-01T17:58:16.852333Z",
+  "version": "0.2.7"
 }
