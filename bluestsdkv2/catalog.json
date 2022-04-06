@@ -76,6 +76,8 @@
         }
       ],
       "fota": "no",
+      "fota_max_chunk_length": 0,
+      "fota_max_divisor_constraint": 0,
       "fw_desc": "",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.1.0",
@@ -158,6 +160,8 @@
         }
       ],
       "fota": "no",
+      "fota_max_chunk_length": 0,
+      "fota_max_divisor_constraint": 0,
       "fw_desc": "",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.1.0",
@@ -224,6 +228,8 @@
         }
       ],
       "fota": "no",
+      "fota_max_chunk_length": 0,
+      "fota_max_divisor_constraint": 0,
       "fw_desc": "New RPN (Link) - STM32Cube function pack for ultra-low power context awareness with distributed artificial intelligence (AI): acoustic analysis with NN on MCU and motion analysis with ML on IMU",
       "fw_name": "FP-AI-CTXAWARE1",
       "fw_version": "1.0.0",
@@ -302,6 +308,8 @@
         }
       ],
       "fota": "no",
+      "fota_max_chunk_length": 0,
+      "fota_max_divisor_constraint": 0,
       "fw_desc": "Acc FFT, Acc time stats (RMS, peaks) streaming over Wi-Fi",
       "fw_name": "FP-IND-PREDMNT1",
       "fw_version": "2.4.0",
@@ -382,6 +390,8 @@
       ],
       "cloud_apps": [],
       "fota": "fast",
+      "fota_max_chunk_length": 0,
+      "fota_max_divisor_constraint": 8,
       "fw_desc": "Fast FOTA, BlueST SDK v2",
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.2.0",
@@ -460,6 +470,8 @@
       ],
       "cloud_apps": [],
       "fota": "fast",
+      "fota_max_chunk_length": 0,
+      "fota_max_divisor_constraint": 8,
       "fw_desc": "Fast FOTA, BlueST SDK v2",
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.2.0",
@@ -510,6 +522,8 @@
       ],
       "cloud_apps": [],
       "fota": "no",
+      "fota_max_chunk_length": 0,
+      "fota_max_divisor_constraint": 0,
       "fw_desc": "Fast FOTA, BlueST SDK v2",
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.2.0",
@@ -520,6 +534,7 @@
       "ble_dev_id": "0x7C",
       "ble_fw_id": "0x01",
       "brd_name": "Nucleo STM32F446RE",
+      "changelog": "Source Code Refactoring according to STM32CubeMX code generation using .ioc file; Added header license neutral; Added license files; Updated STM32CubeL0 Firmware Package; Updated X-CUBE-MEMS1 Firmware Package",
       "characteristics": [
         {
           "name": "Temperature",
@@ -576,6 +591,8 @@
       ],
       "cloud_apps": [],
       "fota": "fast",
+      "fota_max_chunk_length": 0,
+      "fota_max_divisor_constraint": 8,
       "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.2.0",
@@ -680,6 +697,8 @@
         }
       ],
       "fota": "wb_mode",
+      "fota_max_chunk_length": 0,
+      "fota_max_divisor_constraint": 0,
       "fw_desc": "STM32WB predictive maintenance applications",
       "fw_name": "STSW-PROTEUS",
       "fw_url": "https://github.com/stmicroelectronics/appconfig/bluestsdkv2/bin/proteus1_0_0.bin",
@@ -750,9 +769,49 @@
       "ble_dev_id": "0x0E",
       "ble_fw_id": "0x01",
       "brd_name": "STWIN.BOX",
-      "characteristics": [],
+      "changelog": "This is an initial draft release",
+      "characteristics": [
+        {
+          "name": "Debug Console stdin/stdout",
+          "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
+        },
+        {
+          "name": "Ext Configuration",
+          "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "MEMS Sensor Fusion Compact",
+          "uuid": "00000100-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Accelerometer",
+          "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Gyroscope",
+          "uuid": "00400000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Magnetometer",
+          "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Pressure",
+          "uuid": "00100000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Humidity",
+          "uuid": "00080000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Temperature",
+          "uuid": "00010000-0001-11e1-ac36-0002a5d5c51b"
+        }
+      ],
       "cloud_apps": [],
       "fota": "fast",
+      "fota_max_chunk_length": 0,
+      "fota_max_divisor_constraint": 0,
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BleDualProgram_FP-SNS-STBOX1",
       "fw_version": "1.0.0",
@@ -823,6 +882,8 @@
       ],
       "cloud_apps": [],
       "fota": "wb_mode",
+      "fota_max_chunk_length": 0,
+      "fota_max_divisor_constraint": 0,
       "fw_desc": "Polaris firmware (official one)",
       "fw_name": "Astra1 - Asset tracking",
       "fw_url": "https://github.com/stmicroelectronics/appconfig/bluestsdkv2/bin/astra1_0_0.bin",
@@ -911,6 +972,7 @@
       "ble_dev_id": "0x7F",
       "ble_fw_id": "0x02",
       "brd_name": "Nucleo STM32F401RE",
+      "changelog": "Source Code Refactoring according to STM32CubeMX code generation using .ioc file; Added header license neutral; Added license files; Updated STM32CubeL0 Firmware Package; Updated X-CUBE-MEMS1 Firmware Package",
       "characteristics": [
         {
           "name": "Temperature",
@@ -967,6 +1029,8 @@
       ],
       "cloud_apps": [],
       "fota": "fast",
+      "fota_max_chunk_length": 0,
+      "fota_max_divisor_constraint": 8,
       "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.2.0",
@@ -992,6 +1056,7 @@
       "ble_dev_id": "0x7E",
       "ble_fw_id": "0x02",
       "brd_name": "Nucleo STM32L476RG",
+      "changelog": "Source Code Refactoring according to STM32CubeMX code generation using .ioc file; Added header license neutral; Added license files; Updated STM32CubeL0 Firmware Package; Updated X-CUBE-MEMS1 Firmware Package",
       "characteristics": [
         {
           "name": "Temperature",
@@ -1076,6 +1141,8 @@
       ],
       "cloud_apps": [],
       "fota": "fast",
+      "fota_max_chunk_length": 0,
+      "fota_max_divisor_constraint": 8,
       "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.2.0",
@@ -1101,9 +1168,49 @@
       "ble_dev_id": "0x0E",
       "ble_fw_id": "0x02",
       "brd_name": "STWIN.BOX",
-      "characteristics": [],
+      "changelog": "This is an initial draft release",
+      "characteristics": [
+        {
+          "name": "Debug Console stdin/stdout",
+          "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
+        },
+        {
+          "name": "Ext Configuration",
+          "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Accelerometer",
+          "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Gyroscope",
+          "uuid": "00400000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Magnetometer",
+          "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Pressure",
+          "uuid": "00100000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Humidity",
+          "uuid": "00080000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Temperature",
+          "uuid": "00010000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Battery",
+          "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b"
+        }
+      ],
       "cloud_apps": [],
       "fota": "fast",
+      "fota_max_chunk_length": 0,
+      "fota_max_divisor_constraint": 0,
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BLESensors_FP-SNS-STBOX1",
       "fw_version": "1.0.0",
@@ -1146,6 +1253,8 @@
       ],
       "cloud_apps": [],
       "fota": "yes",
+      "fota_max_chunk_length": 0,
+      "fota_max_divisor_constraint": 8,
       "fw_desc": "candidate release",
       "fw_name": "FP-SNS-FLIGHT1",
       "fw_version": "4.2.0",
@@ -1172,6 +1281,8 @@
       ],
       "cloud_apps": [],
       "fota": "yes",
+      "fota_max_chunk_length": 0,
+      "fota_max_divisor_constraint": 8,
       "fw_desc": "candidate release",
       "fw_name": "FP-SNS-FLIGHT1",
       "fw_version": "4.2.0",
@@ -1182,9 +1293,33 @@
       "ble_dev_id": "0x0E",
       "ble_fw_id": "0x03",
       "brd_name": "STWIN.BOX",
-      "characteristics": [],
+      "changelog": "This is an initial draft release",
+      "characteristics": [
+        {
+          "name": "Debug Console stdin/stdout",
+          "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
+        },
+        {
+          "name": "Ext Configuration",
+          "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Activity Detection",
+          "uuid": "00000010-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "HS Datalog Config",
+          "uuid": "00000011-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Machine Learning Core",
+          "uuid": "0000000F-0002-11e1-ac36-0002a5d5c51b"
+        }
+      ],
       "cloud_apps": [],
       "fota": "fast",
+      "fota_max_chunk_length": 0,
+      "fota_max_divisor_constraint": 0,
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BLEMLC_FP-SNS-STBOX1",
       "fw_version": "1.0.0",
@@ -1211,9 +1346,45 @@
       "ble_dev_id": "0x0E",
       "ble_fw_id": "0x04",
       "brd_name": "STWIN.BOX",
-      "characteristics": [],
+      "changelog": "This is an initial draft release",
+      "characteristics": [
+        {
+          "name": "Debug Console stdin/stdout",
+          "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
+        },
+        {
+          "name": "Ext Configuration",
+          "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Accelerometer",
+          "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Gyroscope",
+          "uuid": "00400000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Magnetometer",
+          "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Pressure",
+          "uuid": "00100000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Humidity",
+          "uuid": "00080000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Temperature",
+          "uuid": "00010000-0001-11e1-ac36-0002a5d5c51b"
+        }
+      ],
       "cloud_apps": [],
       "fota": "fast",
+      "fota_max_chunk_length": 0,
+      "fota_max_divisor_constraint": 0,
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BLEDefaultFw_FP-SNS-STBOX1",
       "fw_version": "1.0.0",
@@ -1268,6 +1439,8 @@
         }
       ],
       "fota": "yes",
+      "fota_max_chunk_length": 0,
+      "fota_max_divisor_constraint": 8,
       "fw_desc": "HSD with STREDL support",
       "fw_name": "FP-SNS-DATALOG1",
       "fw_version": "1.2.0-vespucci",
@@ -1278,6 +1451,7 @@
       "ble_dev_id": "0x06",
       "ble_fw_id": "0x04",
       "brd_name": "Sensortile.box",
+      "changelog": "Source Code Refactoring according to STM32CubeMX code generation using .ioc file; Added header license neutral; Added license files; Updated STM32CubeL0 Firmware Package; Updated X-CUBE-MEMS1 Firmware Package",
       "characteristics": [
         {
           "name": "Accelerometer",
@@ -1362,6 +1536,8 @@
       ],
       "cloud_apps": [],
       "fota": "fast",
+      "fota_max_chunk_length": 0,
+      "fota_max_divisor_constraint": 8,
       "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.2.0",
@@ -1372,9 +1548,21 @@
       "ble_dev_id": "0x0E",
       "ble_fw_id": "0x05",
       "brd_name": "STWIN.BOX",
-      "characteristics": [],
+      "changelog": "This is an initial draft release",
+      "characteristics": [
+        {
+          "name": "Debug Console stdin/stdout",
+          "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
+        },
+        {
+          "name": "Ext Configuration",
+          "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
+        }
+      ],
       "cloud_apps": [],
       "fota": "fast",
+      "fota_max_chunk_length": 0,
+      "fota_max_divisor_constraint": 0,
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BLEGpEx_FP-SNS-STBOX1",
       "fw_version": "1.0.0",
@@ -1400,23 +1588,23 @@
     {
       "ble_dev_id": "0x09",
       "ble_fw_id": "0x06",
-      "brd_name": "STWIN1B",
+      "brd_name": "STWIN",
       "characteristics": [
         {
-          "name": "Debug Console stdin/stdout",
-          "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
-        },
-        {
-          "name": "Debug Console stderr",
-          "uuid": "00000002-000E-11e1-9ab4-0002a5d5c51b"
+          "name": "HS Datalog Config",
+          "uuid": "00000011-0002-11e1-ac36-0002a5d5c51b"
         },
         {
           "name": "Machine Learning Core",
           "uuid": "0000000F-0002-11e1-ac36-0002a5d5c51b"
         },
         {
-          "name": "HS Datalog Config",
-          "uuid": "00000011-0002-11e1-ac36-0002a5d5c51b"
+          "name": "Debug Console stderr",
+          "uuid": "00000002-000E-11e1-9ab4-0002a5d5c51b"
+        },
+        {
+          "name": "Debug Console stdin/stdout",
+          "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
         }
       ],
       "cloud_apps": [
@@ -1429,6 +1617,8 @@
         }
       ],
       "fota": "fast",
+      "fota_max_chunk_length": 0,
+      "fota_max_divisor_constraint": 8,
       "fw_desc": "fast fota\r\nbluest sdkv2 support\r\nFOTA size limitation 1MB",
       "fw_name": "FP-SNS-DATALOG1",
       "fw_url": "https://github.com/stmicroelectronics/appconfig/bluestsdkv2/bin/datalog1_3_0.bin",
@@ -1525,6 +1715,7 @@
       "ble_dev_id": "0x03",
       "ble_fw_id": "0x06",
       "brd_name": "BlueCoin",
+      "changelog": "Source Code Refactoring according to STM32CubeMX code generation using .ioc file; Added header license neutral; Added license files; Updated STM32CubeL0 Firmware Package; Updated X-CUBE-MEMS1 Firmware Package",
       "characteristics": [
         {
           "name": "Accelerometer",
@@ -1577,6 +1768,8 @@
       ],
       "cloud_apps": [],
       "fota": "yes",
+      "fota_max_chunk_length": 0,
+      "fota_max_divisor_constraint": 8,
       "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.2.0",
@@ -1587,6 +1780,7 @@
       "ble_dev_id": "0x09",
       "ble_fw_id": "0x07",
       "brd_name": "STWIN1B",
+      "changelog": "Dec 2021 demo",
       "characteristics": [],
       "cloud_apps": [
         {
@@ -1598,6 +1792,8 @@
         }
       ],
       "fota": "no",
+      "fota_max_chunk_length": 0,
+      "fota_max_divisor_constraint": 0,
       "fw_desc": "low power firmware for Quasar demo; uses STREDL and sends events on BLE advertisements",
       "fw_name": "quasar",
       "fw_version": "1.0.0",
@@ -1608,6 +1804,7 @@
       "ble_dev_id": "0x02",
       "ble_fw_id": "0x08",
       "brd_name": "SensorTile",
+      "changelog": "Source Code Refactoring according to STM32CubeMX code generation using .ioc file; Added header license neutral; Added license files; Updated STM32CubeL0 Firmware Package; Updated X-CUBE-MEMS1 Firmware Package",
       "characteristics": [
         {
           "name": "Accelerometer",
@@ -1692,6 +1889,8 @@
       ],
       "cloud_apps": [],
       "fota": "yes",
+      "fota_max_chunk_length": 0,
+      "fota_max_divisor_constraint": 8,
       "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.2.0",
@@ -1718,6 +1917,8 @@
       ],
       "cloud_apps": [],
       "fota": "wb_ready",
+      "fota_max_chunk_length": 0,
+      "fota_max_divisor_constraint": 0,
       "fw_desc": "STM32WB temporary stub to enable firmware update ",
       "fw_name": "FOTA-mode",
       "fw_version": "1.0.0",
@@ -1744,6 +1945,8 @@
       ],
       "cloud_apps": [],
       "fota": "wb_ready",
+      "fota_max_chunk_length": 0,
+      "fota_max_divisor_constraint": 0,
       "fw_desc": "STM32WB temporary stub to enable firmware update ",
       "fw_name": "FOTA-mode",
       "fw_version": "1.0.0",
@@ -1798,6 +2001,8 @@
       ],
       "cloud_apps": [],
       "fota": "no",
+      "fota_max_chunk_length": 0,
+      "fota_max_divisor_constraint": 0,
       "fw_desc": "Polaris firmware (testing one)",
       "fw_name": "Astra1 - Asset tracking",
       "fw_version": "0.1.0",
@@ -1876,6 +2081,27 @@
     }
   ],
   "characteristics": [
+    {
+      "description": "Luca's piano",
+      "dtmi_name": null,
+      "format_notify": null,
+      "name": "Piano",
+      "uuid": "0000001c-0002-11e1-ac36-0002a5d5c51b"
+    },
+    {
+      "description": "Cartesiam N-class classification",
+      "dtmi_name": null,
+      "format_notify": null,
+      "name": "Cartesiam NC",
+      "uuid": "0000001b-0002-11e1-ac36-0002a5d5c51b"
+    },
+    {
+      "description": "Cartesiam 1-class classification",
+      "dtmi_name": null,
+      "format_notify": null,
+      "name": "Cartesiam 1C",
+      "uuid": "0000001a-0002-11e1-ac36-0002a5d5c51b"
+    },
     {
       "description": null,
       "dtmi_name": null,
@@ -2137,7 +2363,7 @@
       "description": "Cartesiam anomaly detection libraries",
       "dtmi_name": null,
       "format_notify": null,
-      "name": "Cartesiam",
+      "name": "Cartesiam AD",
       "uuid": "00000019-0002-11e1-ac36-0002a5d5c51b"
     },
     {
@@ -3755,7 +3981,7 @@
       "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b"
     }
   ],
-  "checksum": "5cd80f553fe55e92fa0bbfc02fc3c7b0",
-  "date": "2022-04-01T17:58:16.852333Z",
+  "checksum": "9cc72c0aaa50ddf15260aa228e24135b",
+  "date": "2022-04-06T09:38:05.514212Z",
   "version": "0.2.7"
 }
