@@ -2920,7 +2920,7 @@
     },
     {
       "description": "",
-      "dtmi_name": "predictivefrequencydomainstatus",
+      "dtmi_name": "predictiveFrequencyDomainStatus",
       "format_notify": [
         {
           "length": 1,
@@ -2984,7 +2984,7 @@
     },
     {
       "description": "",
-      "dtmi_name": "predictiveaccelerationstatus",
+      "dtmi_name": "predictiveAccelerationStatus",
       "format_notify": [
         {
           "length": 1,
@@ -3024,7 +3024,7 @@
     },
     {
       "description": "",
-      "dtmi_name": "predictivespeedstatus",
+      "dtmi_name": "predictiveSpeedStatus",
       "format_notify": [
         {
           "length": 1,
@@ -3064,7 +3064,7 @@
     },
     {
       "description": "Motion Time Parameter",
-      "dtmi_name": "motortimeparameter",
+      "dtmi_name": "motorTimeParameter",
       "format_notify": [
         {
           "length": 4,
