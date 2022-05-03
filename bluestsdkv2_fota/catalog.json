@@ -235,7 +235,8 @@
       "fw_name": "FP-SNS-Fake",
       "fw_version": "1.3.0",
       "partial_fota": 0,
-      "cloud_apps": []
+      "cloud_apps": [],
+      "option_bytes": []
     }
   ],
   "checksum": "3805aa3824c6deb33a274a84b3d5ff58",
