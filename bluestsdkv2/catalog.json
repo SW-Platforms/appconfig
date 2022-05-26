@@ -394,7 +394,7 @@
       "fota_max_divisor_constraint": 8,
       "fw_desc": "Fast FOTA, BlueST SDK v2",
       "fw_name": "FP-SNS-MOTENV1",
-      "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-stm32f401re/motenv1_iks01a3_4_2_0..bin",
+      "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-stm32f401re/motenv1_iks01a3_4_2_0.bin",
       "fw_version": "4.2.0",
       "option_bytes": [],
       "partial_fota": 0
@@ -951,6 +951,7 @@
       "ble_dev_id": "0x0C",
       "ble_fw_id": "0x01",
       "brd_name": "Astra",
+      "changelog": "New RPN",
       "characteristics": [
         {
           "name": "Ext Configuration",
@@ -997,8 +998,8 @@
       "fota": "wb_mode",
       "fota_max_chunk_length": 0,
       "fota_max_divisor_constraint": 0,
-      "fw_desc": "Astra firmware (official one)",
-      "fw_name": "Astra1 - Asset tracking",
+      "fw_desc": "STM32Cube function pack for the STEVAL-ASTRA1B multi-connectivity asset tracking reference design",
+      "fw_name": "FP-ATR-ASTRA1",
       "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-astra1/astra1_1_0_0.bin",
       "fw_version": "1.0.0",
       "option_bytes": [
@@ -1352,6 +1353,7 @@
       "ble_dev_id": "0x7F",
       "ble_fw_id": "0x03",
       "brd_name": "Nucleo STM32F401RE",
+      "changelog": "Maintenance release; STM32Cube middleware and HAL drivers update; code rebasing on latest available X-CUBEs; IDEs update; ",
       "characteristics": [
         {
           "name": "ToF Multiobject",
@@ -1381,6 +1383,7 @@
       "ble_dev_id": "0x7E",
       "ble_fw_id": "0x03",
       "brd_name": "Nucleo STM32L476RG",
+      "changelog": "Maintenance release; STM32Cube middleware and HAL drivers update; code rebasing on latest available X-CUBEs; IDEs update; ",
       "characteristics": [
         {
           "name": "ToF Multiobject",
@@ -1704,25 +1707,144 @@
       "partial_fota": 0
     },
     {
-      "ble_dev_id": "0x09",
-      "ble_fw_id": "0x06",
-      "brd_name": "STWIN",
+      "ble_dev_id": "0x06",
+      "ble_fw_id": "0x05",
+      "brd_name": "Sensortile.box",
+      "changelog": "RC",
       "characteristics": [
         {
-          "name": "HS Datalog Config",
-          "uuid": "00000011-0002-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Machine Learning Core",
-          "uuid": "0000000F-0002-11e1-ac36-0002a5d5c51b"
+          "name": "Debug Console stdin/stdout",
+          "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
         },
         {
           "name": "Debug Console stderr",
           "uuid": "00000002-000E-11e1-9ab4-0002a5d5c51b"
         },
         {
+          "name": "Machine Learning Core",
+          "uuid": "0000000F-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "HS Datalog Config",
+          "uuid": "00000011-0002-11e1-ac36-0002a5d5c51b"
+        }
+      ],
+      "cloud_apps": [],
+      "fota": "fast",
+      "fota_max_chunk_length": 0,
+      "fota_max_divisor_constraint": 8,
+      "fw_desc": "STM32Cube High Speed Datalog function pack for STWIN evaluation kits",
+      "fw_name": "FP-SNS-DATALOG1",
+      "fw_url": "",
+      "fw_version": "1.4.0",
+      "option_bytes": [
+        {
+          "format": "int",
+          "name": "battery:",
+          "negative_offset": 0,
+          "scale_factor": 1,
+          "type": "%"
+        },
+        {
+          "format": "enum_string",
+          "name": "alarm:",
+          "string_values": [
+            {
+              "display_name": "No Alarm",
+              "value": 0
+            },
+            {
+              "display_name": "Battery Charging",
+              "value": 1
+            },
+            {
+              "display_name": "No Battery",
+              "value": 2
+            },
+            {
+              "display_name": "Logging Ongoing",
+              "value": 3
+            },
+            {
+              "display_name": "Low Battery",
+              "value": 4
+            },
+            {
+              "display_name": "Missing SD Card",
+              "value": 5
+            },
+            {
+              "display_name": "SD Card Full",
+              "value": 6
+            }
+          ],
+          "type": "string"
+        },
+        {
+          "format": "enum_icon",
+          "icon_values": [
+            {
+              "comment": "USB Plug, No Battery",
+              "icon_code": 18,
+              "value": 0
+            },
+            {
+              "comment": "USB Plug, Battery in charge",
+              "icon_code": 3,
+              "value": 1
+            },
+            {
+              "comment": "Battery",
+              "icon_code": 1,
+              "value": 2
+            },
+            {
+              "comment": "icon for Log ongoing",
+              "icon_code": 10,
+              "value": 3
+            },
+            {
+              "comment": "icon for low battery",
+              "icon_code": 0,
+              "value": 4
+            },
+            {
+              "comment": "icon for Missing SD Card",
+              "icon_code": 5,
+              "value": 5
+            },
+            {
+              "comment": "icon for SD Card full",
+              "icon_code": 11,
+              "value": 6
+            }
+          ],
+          "name": "status",
+          "type": "icon"
+        }
+      ],
+      "partial_fota": 0
+    },
+    {
+      "ble_dev_id": "0x09",
+      "ble_fw_id": "0x06",
+      "brd_name": "STWIN1B",
+      "characteristics": [
+        {
           "name": "Debug Console stdin/stdout",
           "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
+        },
+        {
+          "name": "Debug Console stderr",
+          "uuid": "00000002-000E-11e1-9ab4-0002a5d5c51b"
+        },
+        {
+          "name": "Machine Learning Core",
+          "uuid": "0000000F-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "HS Datalog Config",
+          "uuid": "00000011-0002-11e1-ac36-0002a5d5c51b"
         }
       ],
       "cloud_apps": [
@@ -1739,7 +1861,7 @@
       "fota_max_divisor_constraint": 8,
       "fw_desc": "fast fota\r\nbluest sdkv2 support\r\nFOTA size limitation 1MB",
       "fw_name": "FP-SNS-DATALOG1",
-      "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinkt1b/HSDatalog_1_3_0.bin",
+      "fw_url": "https://github.com/stmicroelectronics/appconfig/bluestsdkv2/bin/datalog1_3_0.bin",
       "fw_version": "1.3.0",
       "option_bytes": [
         {
@@ -1917,6 +2039,124 @@
       "fw_name": "quasar",
       "fw_version": "1.0.0",
       "option_bytes": [],
+      "partial_fota": 0
+    },
+    {
+      "ble_dev_id": "0x09",
+      "ble_fw_id": "0x08",
+      "brd_name": "STWIN1B",
+      "changelog": "RC",
+      "characteristics": [
+        {
+          "name": "Debug Console stdin/stdout",
+          "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
+        },
+        {
+          "name": "Debug Console stderr",
+          "uuid": "00000002-000E-11e1-9ab4-0002a5d5c51b"
+        },
+        {
+          "name": "Machine Learning Core",
+          "uuid": "0000000F-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "HS Datalog Config",
+          "uuid": "00000011-0002-11e1-ac36-0002a5d5c51b"
+        }
+      ],
+      "cloud_apps": [],
+      "fota": "fast",
+      "fota_max_chunk_length": 0,
+      "fota_max_divisor_constraint": 0,
+      "fw_desc": "STM32Cube High Speed Datalog function pack for STWIN evaluation kits",
+      "fw_name": "FP-SNS-DATALOG1",
+      "fw_version": "1.4.0",
+      "option_bytes": [
+        {
+          "format": "int",
+          "name": "battery:",
+          "negative_offset": 0,
+          "scale_factor": 1,
+          "type": "%"
+        },
+        {
+          "format": "enum_string",
+          "name": "alarm:",
+          "string_values": [
+            {
+              "display_name": "No Alarm",
+              "value": 0
+            },
+            {
+              "display_name": "Battery Charging",
+              "value": 1
+            },
+            {
+              "display_name": "No Battery",
+              "value": 2
+            },
+            {
+              "display_name": "Logging Ongoing",
+              "value": 3
+            },
+            {
+              "display_name": "Low Battery",
+              "value": 4
+            },
+            {
+              "display_name": "Missing SD Card",
+              "value": 5
+            },
+            {
+              "display_name": "SD Card Full",
+              "value": 6
+            }
+          ],
+          "type": "string"
+        },
+        {
+          "format": "enum_icon",
+          "icon_values": [
+            {
+              "comment": "USB Plug, No Battery",
+              "icon_code": 18,
+              "value": 0
+            },
+            {
+              "comment": "USB Plug, Battery in charge",
+              "icon_code": 3,
+              "value": 1
+            },
+            {
+              "comment": "Battery",
+              "icon_code": 1,
+              "value": 2
+            },
+            {
+              "comment": "icon for Log ongoing",
+              "icon_code": 10,
+              "value": 3
+            },
+            {
+              "comment": "icon for low battery",
+              "icon_code": 0,
+              "value": 4
+            },
+            {
+              "comment": "icon for Missing SD Card",
+              "icon_code": 5,
+              "value": 5
+            },
+            {
+              "comment": "icon for SD Card full",
+              "icon_code": 11,
+              "value": 6
+            }
+          ],
+          "name": "status",
+          "type": "icon"
+        }
+      ],
       "partial_fota": 0
     },
     {
@@ -4114,7 +4354,7 @@
       "uuid": "00000012-0002-11e1-ac36-0002a5d5c51b"
     }
   ],
-  "checksum": "cfc6d345fa5496e610f19315dafed68e",
-  "date": "2022-05-06T18:57:04.334299Z",
+  "checksum": "33d014f55d62694f0fbe6a3ffaec7266",
+  "date": "2022-05-26T14:46:35.466799Z",
   "version": "0.2.8"
 }
