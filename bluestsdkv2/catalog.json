@@ -536,7 +536,7 @@
       "ble_dev_id": "0x7C",
       "ble_fw_id": "0x01",
       "brd_name": "Nucleo STM32F446RE",
-      "changelog": "Source Code Refactoring according to STM32CubeMX code generation using .ioc file; Added header license neutral; Added license files; Updated STM32CubeL0 Firmware Package; Updated X-CUBE-MEMS1 Firmware Package",
+      "changelog": "ATTENTION: firmware update for Nucleo boards is only available when using expansion IKS01A3.\r\n\r\nSource Code Refactoring according to STM32CubeMX code generation using .ioc file; Added header license neutral; Added license files; Updated X-CUBE-MEMS1 Firmware Package",
       "characteristics": [
         {
           "name": "Temperature",
@@ -1086,7 +1086,7 @@
       "ble_dev_id": "0x7F",
       "ble_fw_id": "0x02",
       "brd_name": "Nucleo STM32F401RE",
-      "changelog": "Source Code Refactoring according to STM32CubeMX code generation using .ioc file; Added header license neutral; Added license files; Updated STM32CubeL0 Firmware Package; Updated X-CUBE-MEMS1 Firmware Package",
+      "changelog": "ATTENTION: firmware update for Nucleo boards is only available when using expansion IKS01A3.\r\n\r\nSource Code Refactoring according to STM32CubeMX code generation using .ioc file; Added header license neutral; Added license files; Updated X-CUBE-MEMS1 Firmware Package",
       "characteristics": [
         {
           "name": "Temperature",
@@ -1171,7 +1171,7 @@
       "ble_dev_id": "0x7E",
       "ble_fw_id": "0x02",
       "brd_name": "Nucleo STM32L476RG",
-      "changelog": "Source Code Refactoring according to STM32CubeMX code generation using .ioc file; Added header license neutral; Added license files; Updated STM32CubeL0 Firmware Package; Updated X-CUBE-MEMS1 Firmware Package",
+      "changelog": "ATTENTION: firmware update for Nucleo boards is only available when using expansion IKS01A3.\r\n\r\nSource Code Refactoring according to STM32CubeMX code generation using .ioc file; Added header license neutral; Added license files; Updated X-CUBE-MEMS1 Firmware Package",
       "characteristics": [
         {
           "name": "Temperature",
@@ -1571,7 +1571,7 @@
       "ble_dev_id": "0x06",
       "ble_fw_id": "0x04",
       "brd_name": "Sensortile.box",
-      "changelog": "Source Code Refactoring according to STM32CubeMX code generation using .ioc file; Added header license neutral; Added license files; Updated STM32CubeL0 Firmware Package; Updated X-CUBE-MEMS1 Firmware Package",
+      "changelog": "ATTENTION: firmware update for Nucleo boards is only available when using expansion IKS01A3.\r\n\r\nSource Code Refactoring according to STM32CubeMX code generation using .ioc file; Added header license neutral; Added license files; Updated X-CUBE-MEMS1 Firmware Package",
       "characteristics": [
         {
           "name": "Accelerometer",
@@ -1955,7 +1955,7 @@
       "ble_dev_id": "0x03",
       "ble_fw_id": "0x06",
       "brd_name": "BlueCoin",
-      "changelog": "Source Code Refactoring according to STM32CubeMX code generation using .ioc file; Added header license neutral; Added license files; Updated STM32CubeL0 Firmware Package; Updated X-CUBE-MEMS1 Firmware Package",
+      "changelog": "ATTENTION: firmware update for Nucleo boards is only available when using expansion IKS01A3.\r\n\r\nSource Code Refactoring according to STM32CubeMX code generation using .ioc file; Added header license neutral; Added license files; Updated X-CUBE-MEMS1 Firmware Package",
       "characteristics": [
         {
           "name": "Accelerometer",
@@ -2163,7 +2163,7 @@
       "ble_dev_id": "0x02",
       "ble_fw_id": "0x08",
       "brd_name": "SensorTile",
-      "changelog": "Source Code Refactoring according to STM32CubeMX code generation using .ioc file; Added header license neutral; Added license files; Updated STM32CubeL0 Firmware Package; Updated X-CUBE-MEMS1 Firmware Package",
+      "changelog": "ATTENTION: firmware update for Nucleo boards is only available when using expansion IKS01A3.\r\n\r\nSource Code Refactoring according to STM32CubeMX code generation using .ioc file; Added header license neutral; Added license files; Updated X-CUBE-MEMS1 Firmware Package",
       "characteristics": [
         {
           "name": "Accelerometer",
@@ -4354,7 +4354,7 @@
       "uuid": "00000012-0002-11e1-ac36-0002a5d5c51b"
     }
   ],
-  "checksum": "33d014f55d62694f0fbe6a3ffaec7266",
-  "date": "2022-05-26T14:46:35.466799Z",
+  "checksum": "3c2cd2f7b321f69e852b60466973eef3",
+  "date": "2022-05-29T17:07:57.564278Z",
   "version": "0.2.8"
 }
