@@ -239,7 +239,7 @@
           "format": "int",
           "bit_length": 25,
           "negative_offset": 0,
-          "scale_factor": 1000,
+          "scale_factor": 0.001,
           "min": 0,
           "max": 30720,
           "unit": "Lux"
