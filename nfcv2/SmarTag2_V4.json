@@ -48,7 +48,7 @@
             "bit_length": 9,
             "negative_offset": 10,
             "scale_factor": 0.2,
-            "unit": "'C"
+            "unit": "°C"
           }
         },
         {
@@ -74,7 +74,7 @@
             "bit_length": 9,
             "negative_offset": 10,
             "scale_factor": 0.2,
-            "unit": "'C"
+            "unit": "°C"
           }
         }
       ],
@@ -105,7 +105,7 @@
             "bit_length": 9,
             "negative_offset": 10,
             "scale_factor": 0.2,
-            "unit": "'C"
+            "unit": "°C"
           }
         }
       ]
@@ -258,7 +258,7 @@
             "format_type": "int",
             "bit_length": 25,
             "negative_offset": 0,
-            "scale_factor": 1000,
+            "scale_factor": 0.001,
             "unit": "Lux"
           }
         }
@@ -289,7 +289,7 @@
             "format_type": "int",
             "bit_length": 25,
             "negative_offset": 0,
-            "scale_factor": 1000,
+            "scale_factor": 0.001,
             "unit": "Lux"
           }
         }
@@ -500,7 +500,7 @@
             "bit_length": 8,
             "negative_offset": 0,
             "scale_factor": 1,
-            "unit": "'Tilt"
+            "unit": "'Acc. Tilt 35°"
           }
         }
       ]
