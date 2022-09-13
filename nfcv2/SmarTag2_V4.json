@@ -14,25 +14,20 @@
       "threshold": {
         "length_id": 3,
         "length_mod": 2,
+        "negative_offset": 10,
+        "scale_factor": 0.2,
+        "min": -10,
+        "max": 60,
+        "unit": "°C",
         "th_low": {
           "display_name": "Temp Th Low",
           "format": "int",
-          "bit_length": 9,
-          "negative_offset": 10,
-          "scale_factor": 0.2,
-          "min": -10,
-          "max": 60,
-          "unit": "'C'"
+          "bit_length": 9
         },
         "th_high": {
           "display_name": "Temp Th High",
           "format": "int",
-          "bit_length": 9,
-          "negative_offset": 10,
-          "scale_factor": 0.2,
-          "min": -10,
-          "max": 60,
-          "unit": "'C'"
+          "bit_length": 9
         }
       },
       "max_min_format": [
@@ -124,25 +119,20 @@
       "threshold": {
         "length_id": 3,
         "length_mod": 2,
+        "negative_offset": -260,
+        "scale_factor": 0.5,
+        "min": 260,
+        "max": 1260,
+        "unit": "hPa",
         "th_low": {
           "display_name": "Press Th Low",
           "format": "int",
-          "bit_length": 11,
-          "negative_offset": -260,
-          "scale_factor": 0.5,
-          "min": 260,
-          "max": 1260,
-          "unit": "hPa"
+          "bit_length": 11
         },
         "th_high": {
           "display_name": "Press Th High",
           "format": "int",
-          "bit_length": 11,
-          "negative_offset": -260,
-          "scale_factor": 0.5,
-          "min": 260,
-          "max": 1260,
-          "unit": "hPa"
+          "bit_length": 11
         }
       },
       "max_min_format": [
@@ -234,15 +224,15 @@
       "threshold": {
         "length_id": 3,
         "length_mod": 2,
+        "negative_offset": 0,
+        "scale_factor": 0.001,
+        "min": 0,
+        "max": 30720,
+        "unit": "Lux",
         "th_low": {
           "display_name": "Lux Th Low",
           "format": "int",
-          "bit_length": 25,
-          "negative_offset": 0,
-          "scale_factor": 0.001,
-          "min": 0,
-          "max": 30720,
-          "unit": "Lux"
+          "bit_length": 25
         }
       },
       "max_min_format": [
@@ -318,15 +308,15 @@
       "threshold": {
         "length_id": 3,
         "length_mod": 2,
+        "negative_offset": 0,
+        "scale_factor": 1,
+        "min": 0,
+        "max": 32000,
+        "unit": "mg",
         "th_low": {
           "display_name": "Acc Th Low",
           "format": "int",
-          "bit_length": 15,
-          "negative_offset": 0,
-          "scale_factor": 1,
-          "min": 0,
-          "max": 32000,
-          "unit": "mg"
+          "bit_length": 15
         }
       },
       "max_min_format": [
@@ -402,25 +392,20 @@
       "threshold": {
         "length_id": 3,
         "length_mod": 2,
+        "negative_offset": 0,
+        "scale_factor": 1,
+        "min": 0,
+        "max": 6,
+        "unit": "6DPosition",
         "th_low": {
           "display_name": "6D Th Low",
           "format": "int",
-          "bit_length": 8,
-          "negative_offset": 0,
-          "scale_factor": 1,
-          "min": 0,
-          "max": 6,
-          "unit": "6DPosition"
+          "bit_length": 8
         },
         "th_high": {
           "display_name": "6D Th High",
           "format": "int",
-          "bit_length": 8,
-          "negative_offset": 0,
-          "scale_factor": 1,
-          "min": 0,
-          "max": 6,
-          "unit": "6DPosition"
+          "bit_length": 8
         }
       },
       "max_min_format": [],
@@ -472,25 +457,20 @@
       "threshold": {
         "length_id": 3,
         "length_mod": 2,
+        "negative_offset": 0,
+        "scale_factor": 1,
+        "min": 0,
+        "max": 90,
+        "unit": "'Tilt'",
         "th_low": {
           "display_name": "Tilt Th Low",
           "format": "int",
-          "bit_length": 8,
-          "negative_offset": 0,
-          "scale_factor": 1,
-          "min": 0,
-          "max": 90,
-          "unit": "'Tilt'"
+          "bit_length": 8
         },
         "th_high": {
           "display_name": "Tilt Th High",
           "format": "int",
-          "bit_length": 8,
-          "negative_offset": 0,
-          "scale_factor": 1,
-          "min": 0,
-          "max": 90,
-          "unit": "'Tilt"
+          "bit_length": 8
         }
       },
       "sample_format": [
