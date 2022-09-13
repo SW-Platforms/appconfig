@@ -461,7 +461,7 @@
         "scale_factor": 1,
         "min": 0,
         "max": 90,
-        "unit": "'Tilt'",
+        "unit": "Acc. Tilt 35°",
         "th_low": {
           "display_name": "Tilt Th Low",
           "format": "int",
