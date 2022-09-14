@@ -7,7 +7,7 @@
   "virtual_sensors": [
     {
       "sensor_name": "STS22H",
-      "type": "Temp",
+      "type": "temp",
       "display_name": "Temperature",
       "id": 0,
       "incompatibility": [],
@@ -37,11 +37,11 @@
             "display_name": "Temp Min DeltaTime",
             "format_type": "short_delta_time",
             "bit_length": 20,
-            "comment": "day 5bits, month 4bits, hour 5bits, minute 6bits"
+            "comment": "Unix Timestamp expressed in minute"
           }
         },
         {
-          "type": "Min",
+          "type": "min",
           "format": {
             "display_name": "Temp Min Value",
             "format_type": "int",
@@ -52,7 +52,7 @@
           }
         },
         {
-          "type": "pad",
+          "type": "padding",
           "format": {
             "bit_length": 3
           }
@@ -63,11 +63,11 @@
             "display_name": "Temp Max DeltaTime",
             "format_type": "short_delta_time",
             "bit_length": 20,
-            "comment": "day 5bits, month 4bits, hour 5bits, minute 6bits"
+            "comment": "Unix Timestamp expressed in minute"
           }
         },
         {
-          "type": "Max",
+          "type": "max",
           "format": {
             "display_name": "Temp Max Value",
             "format_type": "int",
@@ -88,11 +88,11 @@
           "format": {
             "format_type": "delta_time",
             "bit_length": 26,
-            "comment": "day 5bits, month 4bits, hour 5bits, minute 6bits, second 6bits"
+            "comment": "Unix Timestamp expressed in seconds"
           }
         },
         {
-          "type": "pad",
+          "type": "padding",
           "format": {
             "bit_length": 3
           }
@@ -112,7 +112,7 @@
     },
     {
       "sensor_name": "LPS22DF",
-      "type": "Press",
+      "type": "press",
       "display_name": "Pressure",
       "id": 1,
       "incompatibility": [],
@@ -142,11 +142,11 @@
             "display_name": "Press Min DeltaTime",
             "format_type": "short_delta_time",
             "bit_length": 20,
-            "comment": "day 5bits, month 4bits, hour 5bits, minute 6bits"
+            "comment": "Unix Timestamp expressed in minute"
           }
         },
         {
-          "type": "Min",
+          "type": "min",
           "format": {
             "display_name": "Press Min Value",
             "format_type": "int",
@@ -168,11 +168,11 @@
             "display_name": "Press Max DeltaTime",
             "format_type": "short_delta_time",
             "bit_length": 20,
-            "comment": "day 5bits, month 4bits, hour 5bits, minute 6bits"
+            "comment": "Unix Timestamp expressed in minute"
           }
         },
         {
-          "type": "Max",
+          "type": "max",
           "format": {
             "display_name": "Press Max Value",
             "format_type": "int",
@@ -193,7 +193,7 @@
           "format": {
             "format_type": "delta_time",
             "bit_length": 26,
-            "comment": "day 5bits, month 4bits, hour 5bits, minute 6bits, second 6bits"
+            "comment": "Unix Timestamp expressed in seconds"
           }
         },
         {
@@ -217,7 +217,7 @@
     },
     {
       "sensor_name": "VD6283_Lux",
-      "type": "Lux",
+      "type": "lux",
       "display_name": "Luminosity",
       "id": 2,
       "incompatibility": [],
@@ -242,7 +242,7 @@
             "display_name": "Lux Min DeltaTime",
             "format_type": "short_delta_time",
             "bit_length": 20,
-            "comment": "day 5bits, month 4bits, hour 5bits, minute 6bits"
+            "comment": "Unix Timestamp expressed in minute"
           }
         },
         {
@@ -252,7 +252,7 @@
           }
         },
         {
-          "type": "Max",
+          "type": "max",
           "format": {
             "display_name": "Lux Max Value",
             "format_type": "int",
@@ -273,7 +273,7 @@
           "format": {
             "format_type": "delta_time",
             "bit_length": 26,
-            "comment": "day 5bits, month 4bits, hour 5bits, minute 6bits, second 6bits"
+            "comment": "Unix Timestamp expressed in seconds"
           }
         },
         {
@@ -297,7 +297,7 @@
     },
     {
       "sensor_name": "LSM6DSO32X",
-      "type": "Acc/Gyro",
+      "type": "acc/gyro",
       "display_name": "IMU Acc",
       "id": 4,
       "incompatibility": [
@@ -326,7 +326,7 @@
             "display_name": "Acc Max DeltaTime",
             "format_type": "short_delta_time",
             "bit_length": 20,
-            "comment": "day 5bits, month 4bits, hour 5bits, minute 6bits"
+            "comment": "Unix Timestamp expressed in minute"
           }
         },
         {
@@ -336,7 +336,7 @@
           }
         },
         {
-          "type": "Max",
+          "type": "max",
           "format": {
             "display_name": "Acc Max Value",
             "format_type": "int",
@@ -357,7 +357,7 @@
           "format": {
             "format_type": "delta_time",
             "bit_length": 26,
-            "comment": "day 5bits, month 4bits, hour 5bits, minute 6bits, second 6bits"
+            "comment": "Unix Timestamp expressed in seconds"
           }
         },
         {
@@ -381,7 +381,7 @@
     },
     {
       "sensor_name": "LSM6DSO32X 6D",
-      "type": "Acc/Gyro",
+      "type": "acc/gyro",
       "display_name": "6D Orientation",
       "id": 5,
       "incompatibility": [
@@ -419,7 +419,7 @@
           "format": {
             "format_type": "delta_time",
             "bit_length": 26,
-            "comment": "day 5bits, month 4bits, hour 5bits, minute 6bits, second 6bits"
+            "comment": "Unix Timestamp expressed in seconds"
           }
         },
         {
@@ -443,7 +443,7 @@
     },
     {
       "sensor_name": "LSM6DSO32X MLC",
-      "type": "Acc/Gyro",
+      "type": "acc/gyro",
       "display_name": "Tilt 0 90' Rec",
       "id": 6,
       "incompatibility": [
@@ -483,7 +483,7 @@
           "format": {
             "format_type": "delta_time",
             "bit_length": 26,
-            "comment": "day 5bits, month 4bits, hour 5bits, minute 6bits, second 6bits"
+            "comment": "Unix Timestamp expressed in seconds"
           }
         },
         {
