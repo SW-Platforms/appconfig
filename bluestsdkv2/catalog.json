@@ -79,7 +79,10 @@
       "fw_desc": "",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.1.0",
+<<<<<<< HEAD
       "id": 14,
+=======
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
       "option_bytes": []
     },
     {
@@ -161,7 +164,10 @@
       "fw_desc": "",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.1.0",
+<<<<<<< HEAD
       "id": 15,
+=======
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
       "option_bytes": []
     },
     {
@@ -227,7 +233,10 @@
       "fw_desc": "New RPN (Link) - STM32Cube function pack for ultra-low power context awareness with distributed artificial intelligence (AI): acoustic analysis with NN on MCU and motion analysis with ML on IMU",
       "fw_name": "FP-AI-CTXAWARE1",
       "fw_version": "1.0.0",
+<<<<<<< HEAD
       "id": 39,
+=======
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
       "option_bytes": []
     },
     {
@@ -305,7 +314,10 @@
       "fw_desc": "Acc FFT, Acc time stats (RMS, peaks) streaming over Wi-Fi",
       "fw_name": "FP-IND-PREDMNT1",
       "fw_version": "2.4.0",
+<<<<<<< HEAD
       "id": 38,
+=======
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
       "option_bytes": []
     }
   ],
@@ -392,7 +404,10 @@
       "fw_desc": "Fast FOTA, BlueST SDK v2",
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.2.0",
+<<<<<<< HEAD
       "id": 42,
+=======
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
       "option_bytes": []
     },
     {
@@ -477,7 +492,10 @@
       "fw_desc": "Fast FOTA, BlueST SDK v2",
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.2.0",
+<<<<<<< HEAD
       "id": 43,
+=======
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
       "option_bytes": []
     },
     {
@@ -527,13 +545,20 @@
       "fw_desc": "Fast FOTA, BlueST SDK v2",
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.2.0",
+<<<<<<< HEAD
       "id": 44,
+=======
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
       "option_bytes": []
     },
     {
       "ble_dev_id": "0x7C",
       "ble_fw_id": "0x01",
+<<<<<<< HEAD
       "brd_name": "NUCLEO-STM32F446RE",
+=======
+      "brd_name": "Nucleo STM32F446RE",
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
       "changelog": "ATTENTION: firmware update for Nucleo boards is only available when using expansion IKS01A3.\r\n\r\nSource Code Refactoring according to STM32CubeMX code generation using .ioc file; Added header license neutral; Added license files; Updated X-CUBE-MEMS1 Firmware Package",
       "characteristics": [
         {
@@ -622,7 +647,11 @@
     {
       "ble_dev_id": "0x10",
       "ble_fw_id": "0X01",
+<<<<<<< HEAD
       "brd_name": "STDES-CBMLoRaBLE",
+=======
+      "brd_name": "STSYS-SBU06",
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
       "changelog": "Initial version",
       "characteristics": [
         {
@@ -684,9 +713,14 @@
         "type": "wb_mode"
       },
       "fw_desc": "Predictive Maintenance over LoRa",
+<<<<<<< HEAD
       "fw_name": "STDES-CBMLoRaBLE",
       "fw_version": "1.0.0",
       "id": 66,
+=======
+      "fw_name": "STSYS-SBU06",
+      "fw_version": "1.0.0",
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
       "option_bytes": [
         {
           "format": "int",
@@ -888,6 +922,156 @@
           "type": "string"
         }
       ]
+<<<<<<< HEAD
+=======
+    },
+    {
+      "ble_dev_id": "0x0F",
+      "ble_fw_id": "0x11",
+      "brd_name": "STEVAL-PROTEUS",
+      "characteristics": [
+        {
+          "name": "Ext Configuration",
+          "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Predictive Frequency Domain Status",
+          "uuid": "00000009-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Predictive Acceleration Status",
+          "uuid": "00000008-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Predictive Speed Status",
+          "uuid": "00000007-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "FFT Amplitude",
+          "uuid": "00000005-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Acceleration event",
+          "uuid": "00000400-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Battery",
+          "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Accelerometer",
+          "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Gyroscope",
+          "uuid": "00400000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Switch",
+          "uuid": "20000000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Motor Time Parameter",
+          "uuid": "00000006-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "FeatureSwitchStatus",
+          "uuid": "0000fe42-8e22-4541-9d4c-21edae82ed19"
+        },
+        {
+          "name": "FeatureControlLed",
+          "uuid": "0000fe41-8e22-4541-9d4c-21edae82ed19"
+        },
+        {
+          "name": "RebootOTAModeFeature",
+          "uuid": "0000fe11-8e22-4541-9d4c-21edae82ed19"
+        },
+        {
+          "name": "Temperature",
+          "uuid": "00010000-0001-11e1-ac36-0002a5d5c51b"
+        }
+      ],
+      "cloud_apps": [
+        {
+          "description": "PoC",
+          "dtmi": "dtmi:proteusPoc:PROTEUSdraftv254f;1",
+          "name": "Proteus PoC",
+          "shareable_link": "https://apps.azureiotcentral.com/build/new/833f2c88-b5c5-402d-adfd-b81ed5dfed05",
+          "url": "https://proteus-poc.azureiotcentral.com"
+        }
+      ],
+      "fota": {
+        "bootloader_type": "wb",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-proteus/stsw_proteus_1_0_0.bin",
+        "max_chunk_length": 0,
+        "max_divisor_constraint": 0,
+        "partial_fota": 0,
+        "type": "wb_mode"
+      },
+      "fw_desc": "FAKE STM32WB predictive maintenance applications",
+      "fw_name": "FAKE-PROTEUS",
+      "fw_version": "1.3.0",
+      "option_bytes": [
+        {
+          "escape_message": "",
+          "escape_value": 255,
+          "format": "int",
+          "name": "Battery Level: ",
+          "negative_offset": 0,
+          "scale_factor": 10,
+          "type": "%"
+        },
+        {
+          "format": "enum_icon",
+          "icon_values": [
+            {
+              "comment": "No Alarm",
+              "icon_code": 7,
+              "value": 0
+            },
+            {
+              "comment": "Warning",
+              "icon_code": 5,
+              "value": 1
+            },
+            {
+              "comment": "Alarm",
+              "icon_code": 6,
+              "value": 2
+            }
+          ],
+          "name": "Equipment Status",
+          "type": "icon"
+        },
+        {
+          "format": "enum_string",
+          "name": "Battery Status: ",
+          "string_values": [
+            {
+              "display_name": "Low Battery",
+              "value": 0
+            },
+            {
+              "display_name": "Discharging",
+              "value": 1
+            },
+            {
+              "display_name": "End of Charging",
+              "value": 2
+            },
+            {
+              "display_name": "Charging",
+              "value": 3
+            },
+            {
+              "display_name": "Not Plugged",
+              "value": 4
+            }
+          ],
+          "type": "string"
+        }
+      ]
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
     },
     {
       "ble_dev_id": "0x0E",
@@ -966,7 +1150,11 @@
     {
       "ble_dev_id": "0x0C",
       "ble_fw_id": "0x01",
+<<<<<<< HEAD
       "brd_name": "STEVAL-ASTRA1B",
+=======
+      "brd_name": "Astra",
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
       "changelog": "New RPN",
       "characteristics": [
         {
@@ -1105,7 +1293,11 @@
     {
       "ble_dev_id": "0x7F",
       "ble_fw_id": "0x02",
+<<<<<<< HEAD
       "brd_name": "NUCLEO-STM32F401RE",
+=======
+      "brd_name": "Nucleo STM32F401RE",
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
       "changelog": "ATTENTION: firmware update for Nucleo boards is only available when using expansion IKS01A3.\r\n\r\nSource Code Refactoring according to STM32CubeMX code generation using .ioc file; Added header license neutral; Added license files; Updated X-CUBE-MEMS1 Firmware Package",
       "characteristics": [
         {
@@ -1194,7 +1386,11 @@
     {
       "ble_dev_id": "0x7E",
       "ble_fw_id": "0x02",
+<<<<<<< HEAD
       "brd_name": "NUCLEO-STM32L476RG",
+=======
+      "brd_name": "Nucleo STM32L476RG",
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
       "changelog": "ATTENTION: firmware update for Nucleo boards is only available when using expansion IKS01A3.\r\n\r\nSource Code Refactoring according to STM32CubeMX code generation using .ioc file; Added header license neutral; Added license files; Updated X-CUBE-MEMS1 Firmware Package",
       "characteristics": [
         {
@@ -1307,6 +1503,7 @@
           ]
         }
       ]
+<<<<<<< HEAD
     },
     {
       "ble_dev_id": "0x0F",
@@ -1399,11 +1596,109 @@
           "type": "%"
         }
       ]
+=======
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
+    },
+    {
+      "ble_dev_id": "0x0F",
+      "ble_fw_id": "0x02",
+<<<<<<< HEAD
+      "brd_name": "STEVAL-STWINBX1",
+      "changelog": "This is an initial draft release",
+=======
+      "brd_name": "STEVAL-PROTEUS",
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
+      "characteristics": [
+        {
+          "name": "NEAI AD",
+          "uuid": "00000019-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Ext Configuration",
+          "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Battery",
+          "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "RebootOTAModeFeature",
+          "uuid": "0000fe11-8e22-4541-9d4c-21edae82ed19"
+        }
+      ],
+      "cloud_apps": [],
+      "fota": {
+        "bootloader_type": "wb",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-proteus/fp-ai-pdmwbsoc_1_0_0.bin",
+        "max_chunk_length": 0,
+        "max_divisor_constraint": 0,
+        "partial_fota": 0,
+        "type": "wb_mode"
+      },
+      "fw_desc": "Anomaly detection by NanoEdge AI",
+      "fw_name": "FP-AI-PDMWBSOC",
+      "fw_version": "1.0.0",
+      "option_bytes": [
+        {
+          "format": "enum_string",
+          "name": " Neai Phase  :",
+          "string_values": [
+            {
+              "display_name": "Idle",
+              "value": 0
+            },
+            {
+              "display_name": "Learning",
+              "value": 1
+            },
+            {
+              "display_name": "Detecting",
+              "value": 2
+            },
+            {
+              "display_name": "Idle Trained",
+              "value": 3
+            }
+          ],
+          "type": "string"
+        },
+        {
+          "format": "enum_icon",
+          "icon_values": [
+            {
+              "comment": "Normal",
+              "icon_code": 7,
+              "value": 0
+            },
+            {
+              "comment": "Anomaly",
+              "icon_code": 5,
+              "value": 1
+            },
+            {
+              "comment": "Detection Pause",
+              "icon_code": 31,
+              "value": 2
+            }
+          ],
+          "name": "Neai Status",
+          "type": "icon"
+        },
+        {
+          "escape_message": "",
+          "escape_value": 255,
+          "format": "int",
+          "name": "Battery Level: ",
+          "negative_offset": 0,
+          "scale_factor": 1,
+          "type": "%"
+        }
+      ]
     },
     {
       "ble_dev_id": "0x0E",
       "ble_fw_id": "0x02",
-      "brd_name": "STEVAL-STWINBX1",
+      "brd_name": "STWIN.BOX",
       "changelog": "This is an initial draft release",
       "characteristics": [
         {
@@ -1473,11 +1768,19 @@
           "type": "string"
         }
       ]
+<<<<<<< HEAD
     },
     {
       "ble_dev_id": "0x0C",
       "ble_fw_id": "0x02",
       "brd_name": "STEVAL-ASTRA1B",
+      "changelog": "V1.1.0 / 03-Jun-2022 -> Firmware package compatible with CubeMX CMSIS pack structure\r\nV1.0.1 / 09-May-2022 -> Bugfix on temperature reading, GNSS and power management data acquisition and LoRa configuration",
+=======
+    },
+    {
+      "ble_dev_id": "0x0C",
+      "ble_fw_id": "0x02",
+      "brd_name": "Astra",
       "changelog": "V1.1.0 / 03-Jun-2022 -> Firmware package compatible with CubeMX CMSIS pack structure\r\nV1.0.1 / 09-May-2022 -> Bugfix on temperature reading, GNSS and power management data acquisition and LoRa configuration",
       "characteristics": [
         {
@@ -1533,7 +1836,216 @@
       "fw_desc": "STM32Cube function pack for the STEVAL-ASTRA1B multi-connectivity asset tracking reference design",
       "fw_name": "FP-ATR-ASTRA1",
       "fw_version": "1.1.0",
+      "option_bytes": [
+        {
+          "format": "int",
+          "name": "battery",
+          "negative_offset": 0,
+          "scale_factor": 1,
+          "type": "%"
+        },
+        {
+          "format": "enum_string",
+          "name": "Use case",
+          "string_values": [
+            {
+              "display_name": "FLEET_MNG",
+              "value": 0
+            },
+            {
+              "display_name": "LIVESTOCK_MON",
+              "value": 1
+            },
+            {
+              "display_name": "GOODS_MONITORING",
+              "value": 2
+            },
+            {
+              "display_name": "LOGISTICS",
+              "value": 3
+            },
+            {
+              "display_name": "CUSTOM",
+              "value": 4
+            }
+          ],
+          "type": "string"
+        },
+        {
+          "format": "enum_icon",
+          "icon_values": [
+            {
+              "comment": "LoRa joined",
+              "icon_code": 20,
+              "value": 1
+            },
+            {
+              "comment": "LoRa NOT joined",
+              "icon_code": 21,
+              "value": 2
+            },
+            {
+              "comment": "GPS fix OK",
+              "icon_code": 15,
+              "value": 3
+            },
+            {
+              "comment": "GPS no fix",
+              "icon_code": 16,
+              "value": 4
+            },
+            {
+              "comment": "GPS disabled",
+              "icon_code": 17,
+              "value": 5
+            },
+            {
+              "comment": "System in low power",
+              "icon_code": 26,
+              "value": 6
+            },
+            {
+              "comment": "NFC enabled",
+              "icon_code": 10,
+              "value": 7
+            }
+          ],
+          "name": "status",
+          "type": "icon"
+        }
+      ]
+    },
+    {
+      "ble_dev_id": "0x7F",
+      "ble_fw_id": "0x03",
+      "brd_name": "Nucleo STM32F401RE",
+      "changelog": "Maintenance release; STM32Cube middleware and HAL drivers update; code rebasing on latest available X-CUBEs; IDEs update; ",
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
+      "characteristics": [
+        {
+          "name": "Battery",
+          "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Magnetometer",
+          "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+<<<<<<< HEAD
+          "name": "Gyroscope",
+          "uuid": "00400000-0001-11e1-ac36-0002a5d5c51b"
+=======
+          "name": "Ext Configuration",
+          "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
+        }
+      ],
+      "cloud_apps": [],
+      "fota": {
+        "bootloader_type": "custom",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-stm32f401re/flight1_4_2_0.bin",
+        "max_chunk_length": 0,
+        "max_divisor_constraint": 8,
+        "partial_fota": 0,
+        "type": "yes"
+      },
+      "fw_desc": "candidate release",
+      "fw_name": "FP-SNS-FLIGHT1",
+      "fw_version": "4.2.0",
+      "option_bytes": []
+    },
+    {
+      "ble_dev_id": "0x7E",
+      "ble_fw_id": "0x03",
+      "brd_name": "Nucleo STM32L476RG",
+      "changelog": "Maintenance release; STM32Cube middleware and HAL drivers update; code rebasing on latest available X-CUBEs; IDEs update; ",
+      "characteristics": [
+        {
+          "name": "ToF Multiobject",
+          "uuid": "00000013-0002-11e1-ac36-0002a5d5c51b"
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
+        },
+        {
+          "name": "Accelerometer",
+          "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+<<<<<<< HEAD
+          "name": "Temperature",
+          "uuid": "00010000-0001-11e1-ac36-0002a5d5c51b"
+        },
+=======
+          "name": "Ext Configuration",
+          "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
+        }
+      ],
+      "cloud_apps": [],
+      "fota": {
+        "bootloader_type": "custom",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-stm32l476rg/flight1_4_2_0.bin",
+        "max_chunk_length": 0,
+        "max_divisor_constraint": 8,
+        "partial_fota": 0,
+        "type": "yes"
+      },
+      "fw_desc": "candidate release",
+      "fw_name": "FP-SNS-FLIGHT1",
+      "fw_version": "4.2.0",
+      "option_bytes": []
+    },
+    {
+      "ble_dev_id": "0x0E",
+      "ble_fw_id": "0x03",
+      "brd_name": "STWIN.BOX",
+      "changelog": "This is an initial draft release",
+      "characteristics": [
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
+        {
+          "name": "Temperature(2)",
+          "uuid": "00040000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Humidity",
+          "uuid": "00080000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Pressure",
+          "uuid": "00100000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "GNSS",
+          "uuid": "00000018-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Ext Configuration",
+          "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
+        }
+      ],
+      "cloud_apps": [],
+      "fota": {
+<<<<<<< HEAD
+        "bootloader_type": "wb",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-astra1/fp-atr-astra1_1_1_0.bin",
+        "max_chunk_length": 0,
+        "max_divisor_constraint": 0,
+        "partial_fota": 0,
+        "type": "wb_mode"
+      },
+      "fw_desc": "STM32Cube function pack for the STEVAL-ASTRA1B multi-connectivity asset tracking reference design",
+      "fw_name": "FP-ATR-ASTRA1",
+      "fw_version": "1.1.0",
       "id": 69,
+=======
+        "bootloader_type": "none",
+        "fw_url": null,
+        "max_chunk_length": 0,
+        "max_divisor_constraint": 0,
+        "partial_fota": 0,
+        "type": "fast"
+      },
+      "fw_desc": "Firmware for all box boards",
+      "fw_name": "BLEMLC_FP-SNS-STBOX1",
+      "fw_version": "1.0.0",
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
       "option_bytes": [
         {
           "format": "int",
@@ -1783,6 +2295,7 @@
           "name": "Machine Learning Core",
           "uuid": "0000000F-0002-11e1-ac36-0002a5d5c51b"
         }
+<<<<<<< HEAD
       ],
       "cloud_apps": [],
       "fota": {
@@ -1813,6 +2326,8 @@
           ],
           "type": "string"
         }
+=======
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
       ]
     },
     {
@@ -1920,13 +2435,20 @@
       "fw_desc": "HSD with STREDL support",
       "fw_name": "FP-SNS-DATALOG1",
       "fw_version": "1.2.0-vespucci",
+<<<<<<< HEAD
       "id": 27,
+=======
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
       "option_bytes": []
     },
     {
       "ble_dev_id": "0x06",
       "ble_fw_id": "0x04",
+<<<<<<< HEAD
       "brd_name": "STEVAL-MKSBOX1V1",
+=======
+      "brd_name": "Sensortile.box",
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
       "changelog": "ATTENTION: firmware update for Nucleo boards is only available when using expansion IKS01A3.\r\n\r\nSource Code Refactoring according to STM32CubeMX code generation using .ioc file; Added header license neutral; Added license files; Updated X-CUBE-MEMS1 Firmware Package",
       "characteristics": [
         {
@@ -2022,7 +2544,10 @@
       "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.2.0",
+<<<<<<< HEAD
       "id": 51,
+=======
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
       "option_bytes": []
     },
     {
@@ -2074,7 +2599,11 @@
     {
       "ble_dev_id": "0x06",
       "ble_fw_id": "0x05",
+<<<<<<< HEAD
       "brd_name": "STEVAL-MKSBOX1V1",
+=======
+      "brd_name": "Sensortile.box",
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
       "changelog": "RC",
       "characteristics": [
         {
@@ -2106,7 +2635,10 @@
       "fw_desc": "STM32Cube High Speed Datalog function pack for STWIN evaluation kits",
       "fw_name": "FP-SNS-DATALOG1",
       "fw_version": "1.4.0",
+<<<<<<< HEAD
       "id": 67,
+=======
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
       "option_bytes": [
         {
           "format": "int",
@@ -2197,6 +2729,7 @@
     {
       "ble_dev_id": "0x09",
       "ble_fw_id": "0x06",
+<<<<<<< HEAD
       "brd_name": "STEVAL-STWINKT1B",
       "characteristics": [
         {
@@ -2341,6 +2874,151 @@
         {
           "name": "Magnetometer",
           "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b"
+=======
+      "brd_name": "STWIN1B",
+      "characteristics": [
+        {
+          "name": "Debug Console stdin/stdout",
+          "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
+        },
+        {
+          "name": "Debug Console stderr",
+          "uuid": "00000002-000E-11e1-9ab4-0002a5d5c51b"
+        },
+        {
+          "name": "Machine Learning Core",
+          "uuid": "0000000F-0002-11e1-ac36-0002a5d5c51b"
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
+        },
+        {
+          "name": "HS Datalog Config",
+          "uuid": "00000011-0002-11e1-ac36-0002a5d5c51b"
+        }
+      ],
+      "cloud_apps": [
+        {
+          "description": "Main IoT Central app for Vespucci project.",
+          "dtmi": "dtmi:vespucci:steval_stwinkt1b:fp_sns_datalog1;1",
+          "name": "vespucci",
+          "shareable_link": null,
+          "url": "https://vespucci.azureiotcentral.com/"
+        }
+      ],
+      "fota": {
+        "bootloader_type": "none",
+        "fw_url": "https://github.com/stmicroelectronics/appconfig/bluestsdkv2/bin/datalog1_3_0.bin",
+        "max_chunk_length": 0,
+        "max_divisor_constraint": 8,
+        "partial_fota": 0,
+        "type": "fast"
+      },
+      "fw_desc": "fast fota\r\nbluest sdkv2 support\r\nFOTA size limitation 1MB",
+      "fw_name": "FP-SNS-DATALOG1",
+      "fw_version": "1.3.0",
+      "option_bytes": [
+        {
+          "format": "int",
+          "name": "battery:",
+          "negative_offset": 0,
+          "scale_factor": 1,
+          "type": "%"
+        },
+        {
+          "format": "enum_string",
+          "name": "alarm:",
+          "string_values": [
+            {
+              "display_name": "No Alarm",
+              "value": 0
+            },
+            {
+              "display_name": "Battery Charging",
+              "value": 1
+            },
+            {
+              "display_name": "No Battery",
+              "value": 2
+            },
+            {
+              "display_name": "Logging Ongoing",
+              "value": 3
+            },
+            {
+              "display_name": "Low Battery",
+              "value": 4
+            },
+            {
+              "display_name": "Missing SD Card",
+              "value": 5
+            },
+            {
+              "display_name": "SD Card Full",
+              "value": 6
+            }
+          ],
+          "type": "string"
+        },
+        {
+          "format": "enum_icon",
+          "icon_values": [
+            {
+              "comment": "USB Plug, No Battery",
+              "icon_code": 18,
+              "value": 0
+            },
+            {
+              "comment": "USB Plug, Battery in charge",
+              "icon_code": 3,
+              "value": 1
+            },
+            {
+              "comment": "Battery",
+              "icon_code": 1,
+              "value": 2
+            },
+            {
+              "comment": "icon for Log ongoing",
+              "icon_code": 10,
+              "value": 3
+            },
+            {
+              "comment": "icon for low battery",
+              "icon_code": 0,
+              "value": 4
+            },
+            {
+              "comment": "icon for Missing SD Card",
+              "icon_code": 5,
+              "value": 5
+            },
+            {
+              "comment": "icon for SD Card full",
+              "icon_code": 11,
+              "value": 6
+            }
+          ],
+          "name": "status",
+          "type": "icon"
+        }
+      ]
+    },
+    {
+      "ble_dev_id": "0x03",
+      "ble_fw_id": "0x06",
+      "brd_name": "BlueCoin",
+      "changelog": "ATTENTION: firmware update for Nucleo boards is only available when using expansion IKS01A3.\r\n\r\nSource Code Refactoring according to STM32CubeMX code generation using .ioc file; Added header license neutral; Added license files; Updated X-CUBE-MEMS1 Firmware Package",
+      "characteristics": [
+        {
+          "name": "Accelerometer",
+          "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Gyroscope",
+          "uuid": "00400000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Magnetometer",
+          "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b"
         },
         {
           "name": "Mic Level",
@@ -2391,7 +3069,10 @@
       "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.2.0",
+<<<<<<< HEAD
       "id": 49,
+=======
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
       "option_bytes": []
     },
     {
@@ -2413,13 +3094,20 @@
       "fw_desc": "low power firmware for Quasar demo; uses STREDL and sends events on BLE advertisements",
       "fw_name": "quasar",
       "fw_version": "1.0.0",
+<<<<<<< HEAD
       "id": 45,
+=======
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
       "option_bytes": []
     },
     {
       "ble_dev_id": "0x09",
       "ble_fw_id": "0x08",
+<<<<<<< HEAD
       "brd_name": "STEVAL-STWINKT1B",
+=======
+      "brd_name": "STWIN1B",
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
       "changelog": "RC",
       "characteristics": [
         {
@@ -2451,7 +3139,10 @@
       "fw_desc": "STM32Cube High Speed Datalog function pack for STWIN evaluation kits",
       "fw_name": "FP-SNS-DATALOG1",
       "fw_version": "1.4.0",
+<<<<<<< HEAD
       "id": 68,
+=======
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
       "option_bytes": [
         {
           "format": "int",
@@ -2542,7 +3233,11 @@
     {
       "ble_dev_id": "0x02",
       "ble_fw_id": "0x08",
+<<<<<<< HEAD
       "brd_name": "STEVAL-STLKT01V1",
+=======
+      "brd_name": "SensorTile",
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
       "changelog": "ATTENTION: firmware update for Nucleo boards is only available when using expansion IKS01A3.\r\n\r\nSource Code Refactoring according to STM32CubeMX code generation using .ioc file; Added header license neutral; Added license files; Updated X-CUBE-MEMS1 Firmware Package",
       "characteristics": [
         {
@@ -2638,7 +3333,10 @@
       "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.2.0",
+<<<<<<< HEAD
       "id": 50,
+=======
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
       "option_bytes": []
     },
     {
@@ -2671,7 +3369,10 @@
       "fw_desc": "STM32WB temporary stub to enable firmware update ",
       "fw_name": "FOTA-mode",
       "fw_version": "1.0.0",
+<<<<<<< HEAD
       "id": 41,
+=======
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
       "option_bytes": []
     },
     {
@@ -2704,7 +3405,10 @@
       "fw_desc": "STM32WB temporary stub to enable firmware update ",
       "fw_name": "FOTA-mode",
       "fw_version": "1.0.0",
+<<<<<<< HEAD
       "id": 40,
+=======
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
       "option_bytes": []
     },
     {
@@ -3686,6 +4390,7 @@
       "format_notify": null,
       "name": "HS Datalog Config",
       "uuid": "00000011-0002-11e1-ac36-0002a5d5c51b"
+<<<<<<< HEAD
     },
     {
       "description": "Relative humidity [%] (value * 10)",
@@ -3860,10 +4565,52 @@
     },
     {
       "description": "Unknown/PickUp/Glance/WakeUp",
+=======
+    },
+    {
+      "description": "Relative humidity [%] (value * 10)",
+      "dtmi_name": "humidity",
+      "format_notify": [
+        {
+          "length": 2,
+          "max": 100,
+          "min": 0,
+          "name": "humidity",
+          "offset": 0,
+          "scalefactor": 0.1,
+          "type": "UInt16",
+          "unit": "%"
+        }
+      ],
+      "name": "Humidity",
+      "uuid": "00080000-0001-11e1-ac36-0002a5d5c51b"
+    },
+    {
+      "description": "",
+      "dtmi_name": "luminosity",
+      "format_notify": [
+        {
+          "length": 2,
+          "max": 1000,
+          "min": 0,
+          "name": "Luminosity",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "UInt16",
+          "unit": "Lux"
+        }
+      ],
+      "name": "Luminosity",
+      "uuid": "01000000-0001-11e1-ac36-0002a5d5c51b"
+    },
+    {
+      "description": "Machine Learning Core's registers output",
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
       "dtmi_name": null,
       "format_notify": [
         {
           "length": 1,
+<<<<<<< HEAD
           "max": 3,
           "min": 0,
           "name": "Gesture",
@@ -4114,14 +4861,558 @@
       ],
       "name": "Motion Intensity",
       "uuid": "00000020-0001-11e1-ac36-0002a5d5c51b"
+=======
+          "name": "Reg Out 0",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "UInt8",
+          "unit": "Enum"
+        },
+        {
+          "length": 1,
+          "name": "Reg Out 1",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "UInt8",
+          "unit": "Enum"
+        },
+        {
+          "length": 1,
+          "name": "Reg Out 2",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "UInt8",
+          "unit": "Enum"
+        },
+        {
+          "length": 1,
+          "name": "Reg Out 3",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "UInt8",
+          "unit": "Enum"
+        },
+        {
+          "length": 1,
+          "name": "Reg Out 4",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "UInt8",
+          "unit": "Enum"
+        },
+        {
+          "length": 1,
+          "name": "Reg Out 5",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "UInt8",
+          "unit": "Enum"
+        },
+        {
+          "length": 1,
+          "name": "Reg Out 6",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "UInt8",
+          "unit": "Enum"
+        },
+        {
+          "length": 1,
+          "name": "Reg Out 7",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "UInt8",
+          "unit": "Enum"
+        },
+        {
+          "length": 1,
+          "name": "Reg Out 8",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "UInt8",
+          "unit": "Enum"
+        }
+      ],
+      "name": "Machine Learning Core",
+      "uuid": "0000000F-0002-11e1-ac36-0002a5d5c51b"
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
+    },
+    {
+      "description": "xyz magnetometer data",
+      "dtmi_name": "magnetometer",
+      "format_notify": [
+        {
+          "length": 2,
+          "max": 2000,
+          "min": -2000,
+          "name": "X",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "Int16",
+          "unit": "mGa"
+        },
+        {
+          "length": 2,
+          "max": 2000,
+          "min": -2000,
+          "name": "Y",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "Int16",
+          "unit": "mGa"
+        },
+        {
+          "length": 2,
+          "max": 2000,
+          "min": -2000,
+          "name": "Z",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "Int16",
+          "unit": "mGa"
+        }
+      ],
+      "name": "Magnetometer",
+      "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b"
+    },
+    {
+      "description": "Magnetometer Normalization",
+      "dtmi_name": null,
+      "format_notify": [
+        {
+          "length": 2,
+          "max": 2000,
+          "min": 0,
+          "name": "Norm",
+          "offset": 0,
+<<<<<<< HEAD
+          "scalefactor": 1,
+          "type": "Float",
+          "unit": "mm/s"
+        }
+      ],
+      "name": "Motor Time Parameter",
+      "uuid": "00000006-0002-11e1-ac36-0002a5d5c51b"
+    },
+    {
+      "description": "NanoEdge AI anomaly detection libraries",
+      "dtmi_name": null,
+      "format_notify": null,
+      "name": "NEAI AD",
+      "uuid": "00000019-0002-11e1-ac36-0002a5d5c51b"
+    },
+    {
+      "description": "NanoEdge AI classification",
+      "dtmi_name": null,
+      "format_notify": null,
+      "name": "NEAI Classification",
+      "uuid": "0000001a-0002-11e1-ac36-0002a5d5c51b"
+    },
+    {
+      "description": null,
+      "dtmi_name": null,
+      "format_notify": [],
+      "name": "OTABoardWillRebootFeature",
+      "uuid": "0000fe23-8e22-4541-9d4c-21edae82ed19"
+    },
+    {
+      "description": null,
+      "dtmi_name": null,
+      "format_notify": [],
+      "name": "OTAControlFeature",
+      "uuid": "0000fe22-8e22-4541-9d4c-21edae82ed19"
+    },
+    {
+      "description": null,
+      "dtmi_name": null,
+      "format_notify": [],
+      "name": "OTAFileUpload",
+      "uuid": "0000fe24-8e22-4541-9d4c-21edae82ed19"
+    },
+    {
+      "description": "",
+      "dtmi_name": "pedometer",
+      "format_notify": [
+        {
+          "length": 4,
+          "name": "Steps",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "UInt32",
+          "unit": "step"
+        },
+        {
+          "length": 2,
+          "name": "Frequency",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "UInt16",
+          "unit": "Steps/min"
+        }
+      ],
+      "name": "Pedometer",
+      "uuid": "00000001-0001-11e1-ac36-0002a5d5c5"
+    },
+    {
+      "description": "Luca's piano",
+      "dtmi_name": null,
+      "format_notify": null,
+      "name": "Piano",
+      "uuid": "0000001c-0002-11e1-ac36-0002a5d5c51b"
+    },
+    {
+      "description": "Vespucci PnP-like messages",
+      "dtmi_name": null,
+      "format_notify": null,
+      "name": "PnPLike",
+      "uuid": "0000001b-0002-11e1-ac36-0002a5d5c51b"
+    },
+    {
+      "description": "",
+      "dtmi_name": "predictiveAccelerationStatus",
+      "format_notify": [
+        {
+          "length": 1,
+          "name": "Acc Status x/y/z",
+=======
+          "scalefactor": 0.1,
+          "type": "Int16"
+        }
+      ],
+      "name": "Magnetometer Normalization (RFU)",
+      "uuid": "00000800-0001-11e1-ac36-0002a5d5c51b"
+    },
+    {
+      "description": "Unknown/PickUp/Glance/WakeUp",
+      "dtmi_name": null,
+      "format_notify": [
+        {
+          "length": 1,
+          "max": 3,
+          "min": 0,
+          "name": "Gesture",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "Int8"
+        }
+      ],
+      "name": "MEMS Gesture",
+      "uuid": "00000002-0001-11e1-ac36-0002a5d5c5"
+    },
+    {
+      "description": "",
+      "dtmi_name": null,
+      "format_notify": [
+        {
+          "length": 2,
+          "max": 2000,
+          "min": 0,
+          "name": "Norm",
+          "offset": 0,
+          "scalefactor": 0.1,
+          "type": "Int16"
+        }
+      ],
+      "name": "MEMS Normalization",
+      "uuid": "10000000-0001-11e1-ac36-0002a5d5c51b"
+    },
+    {
+      "description": "MEMS sensor fusion",
+      "dtmi_name": null,
+      "format_notify": [
+        {
+          "length": 4,
+          "max": 1,
+          "min": -1,
+          "name": "qi",
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
+          "offset": 0,
+          "scalefactor": 0,
+          "type": "UInt8",
+          "unit": "Enum packed 2 bits each"
+        },
+        {
+          "length": 4,
+          "name": "Acc Peak X",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "Float",
+          "unit": "m/S2"
+        },
+        {
+          "length": 4,
+          "name": "Acc Peak Y",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "Float",
+          "unit": "m/S2"
+        },
+        {
+          "length": 4,
+          "name": "Acc Peak Z",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "Float",
+          "unit": "m/S2"
+        }
+      ],
+      "name": "Predictive Acceleration Status",
+      "uuid": "00000008-0002-11e1-ac36-0002a5d5c51b"
+    },
+    {
+      "description": "",
+      "dtmi_name": "predictiveFrequencyDomainStatus",
+      "format_notify": [
+        {
+          "length": 1,
+          "name": "Status Freq  x/y/z",
+          "offset": 0,
+          "scalefactor": 0,
+          "type": "UInt8",
+          "unit": "Enum packed 2 bits each"
+        },
+        {
+          "length": 2,
+          "name": "Freq X",
+          "offset": 0,
+          "scalefactor": 0.1,
+          "type": "UInt16",
+          "unit": "Hz"
+        },
+        {
+          "length": 2,
+          "name": "Max Amplitude X",
+          "offset": 0,
+          "scalefactor": 0.01,
+          "type": "UInt16",
+          "unit": "m/S2"
+        },
+        {
+          "length": 2,
+          "name": "Freq Y",
+          "offset": 0,
+          "scalefactor": 0.1,
+          "type": "UInt16",
+          "unit": "Hz"
+        },
+        {
+          "length": 2,
+          "name": "Max Amplitude Y",
+          "offset": 0,
+          "scalefactor": 0.01,
+          "type": "UInt16",
+          "unit": "m/S2"
+        },
+        {
+          "length": 2,
+          "name": "Freq Z",
+          "offset": 0,
+          "scalefactor": 0.1,
+          "type": "UInt16",
+          "unit": "Hz"
+        },
+        {
+          "length": 2,
+<<<<<<< HEAD
+          "name": "Max Amplitude Z",
+          "offset": 0,
+          "scalefactor": 0.01,
+          "type": "UInt16",
+          "unit": "m/S2"
+        }
+      ],
+      "name": "Predictive Frequency Domain Status",
+      "uuid": "00000009-0002-11e1-ac36-0002a5d5c51b"
+    },
+    {
+      "description": "",
+      "dtmi_name": "predictiveSpeedStatus",
+      "format_notify": [
+        {
+          "length": 1,
+          "name": "time Status x/y/z",
+          "offset": 0,
+          "scalefactor": 0,
+          "type": "UInt8",
+          "unit": "Enum packed 2 bits each"
+        },
+        {
+          "length": 4,
+          "name": "RMS Speed X",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "Float",
+          "unit": "mm/s"
+        },
+        {
+          "length": 4,
+          "name": "RMS Speed Y",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "Float",
+          "unit": "mm/s"
+        },
+        {
+          "length": 4,
+          "name": "RMS Speed Z",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "Float",
+          "unit": "mm/s"
+        }
+      ],
+      "name": "Predictive Speed Status",
+      "uuid": "00000007-0002-11e1-ac36-0002a5d5c51b"
+    },
+    {
+      "description": "atmospheric pressure (value * 100)",
+      "dtmi_name": "pressure",
+=======
+          "name": "qk",
+          "offset": 0,
+          "scalefactor": 1e-05,
+          "type": "Int16",
+          "unit": "quaternion"
+        }
+      ],
+      "name": "MEMS Sensor Fusion Compact",
+      "uuid": "00000100-0001-11e1-ac36-0002a5d5c51b"
+    },
+    {
+      "description": "Microphone dB level",
+      "dtmi_name": null,
+      "format_notify": [
+        {
+          "length": 1,
+          "max": 128,
+          "min": 0,
+          "name": "Mic Level",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "Int8",
+          "unit": "dB"
+        },
+        {
+          "length": 1,
+          "max": 128,
+          "min": 0,
+          "name": "Mic Level",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "Int8",
+          "unit": "dB"
+        },
+        {
+          "length": 1,
+          "max": 128,
+          "min": 0,
+          "name": "Mic Level",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "Int8",
+          "unit": "dB"
+        },
+        {
+          "length": 1,
+          "max": 128,
+          "min": 0,
+          "name": "Mic Level",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "Int8",
+          "unit": "dB"
+        },
+        {
+          "length": 1,
+          "max": 128,
+          "min": 0,
+          "name": "Mic Level",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "Int8",
+          "unit": "dB"
+        },
+        {
+          "length": 1,
+          "max": 128,
+          "min": 0,
+          "name": "Mic Level",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "Int8",
+          "unit": "dB"
+        }
+      ],
+      "name": "Mic Level",
+      "uuid": "04000000-0001-11e1-ac36-0002a5d5c51b"
+    },
+    {
+      "description": "",
+      "dtmi_name": null,
+      "format_notify": [
+        {
+          "length": 1,
+          "max": 3,
+          "min": 0,
+          "name": "Algorithm Type",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "Int8",
+          "unit": "Enum"
+        },
+        {
+          "length": 1,
+          "name": "Algorithm Results",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "Int8",
+          "unit": "Enum"
+        }
+      ],
+      "name": "Motion Algorithm",
+      "uuid": "0000000A-0002-11e1-ac36-0002a5d5c51b"
+    },
+    {
+      "description": "",
+      "dtmi_name": null,
+      "format_notify": [
+        {
+          "length": 1,
+          "max": 10,
+          "min": 0,
+          "name": "Intensity",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "Int8"
+        }
+      ],
+      "name": "Motion Intensity",
+      "uuid": "00000020-0001-11e1-ac36-0002a5d5c51b"
     },
     {
       "description": "Motion Time Parameter",
       "dtmi_name": "motorTimeParameter",
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
       "format_notify": [
         {
           "length": 4,
           "max": 2000,
+<<<<<<< HEAD
+          "min": 0,
+          "name": "Pressure",
+          "offset": 0,
+          "scalefactor": 0.01,
+          "type": "Int32",
+          "unit": "mBar"
+        }
+      ],
+      "name": "Pressure",
+      "uuid": "00100000-0001-11e1-ac36-0002a5d5c51b"
+    },
+    {
+      "description": "Proximity distance (value & ~0x8000)",
+      "dtmi_name": "proximity",
+=======
           "min": -2000,
           "name": "Acc X Peak",
           "offset": 0,
@@ -4221,6 +5512,7 @@
     {
       "description": "",
       "dtmi_name": "pedometer",
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
       "format_notify": [
         {
           "length": 4,
@@ -4232,6 +5524,134 @@
         },
         {
           "length": 2,
+<<<<<<< HEAD
+          "name": "proximity",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "UInt16",
+          "unit": "mm"
+        }
+      ],
+      "name": "Proximity",
+      "uuid": "02000000-0001-11e1-ac36-0002a5d5c51b"
+    },
+    {
+      "description": "",
+      "dtmi_name": null,
+      "format_notify": [
+        {
+          "length": 1,
+          "max": 3,
+          "min": 0,
+          "name": "Gesture",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "Int8"
+        }
+      ],
+      "name": "Proximity Gesture",
+      "uuid": "00000004-0001-11e1-ac36-0002a5d5c5"
+    },
+    {
+      "description": "Quasar events",
+      "dtmi_name": null,
+      "format_notify": null,
+      "name": "Quasar",
+      "uuid": "0000001e-0002-11e1-ac36-0002a5d5c51b"
+    },
+    {
+      "description": "Electric Charge Variation",
+      "dtmi_name": null,
+      "format_notify": [
+        {
+          "length": 4,
+          "name": "QVAR",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "Int32"
+        },
+        {
+          "length": 1,
+          "name": "Flag not Specified",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "UInt8"
+        },
+        {
+          "length": 4,
+          "name": "DQVAR",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "Int32"
+        },
+        {
+          "length": 4,
+          "name": "Parameter not Specified",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "UInt32"
+        }
+      ],
+      "name": "QVAR",
+      "uuid": "00000016-0002-11e1-ac36-0002a5d5c51b"
+    },
+    {
+      "description": null,
+      "dtmi_name": null,
+      "format_notify": [],
+      "name": "RebootOTAModeFeature",
+      "uuid": "0000fe11-8e22-4541-9d4c-21edae82ed19"
+    },
+    {
+      "description": "",
+      "dtmi_name": null,
+      "format_notify": null,
+      "name": "RFU",
+      "uuid": "00004000-0001-11e1-ac36-0002a5d5c51b"
+    },
+    {
+      "description": "",
+      "dtmi_name": null,
+      "format_notify": null,
+      "name": "RFU (OTA reboot?)",
+      "uuid": "00002000-0001-11e1-ac36-0002a5d5c51b"
+    },
+    {
+      "description": "",
+      "dtmi_name": null,
+      "format_notify": null,
+      "name": "RFU(2)",
+      "uuid": "80000000-0001-11e1-ac36-0002a5d5c51b"
+    },
+    {
+      "description": "SD  Log control (ALLMEMS1/ALLMEMS2)",
+      "dtmi_name": null,
+      "format_notify": [
+        {
+          "length": 1,
+          "max": 1,
+          "min": 0,
+          "name": "Enable",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "UInt8",
+          "unit": "bolean"
+        },
+        {
+          "length": 2,
+          "name": "LoggedFeatures",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "UInt16",
+          "unit": "bit mask"
+        },
+        {
+          "length": 2,
+          "name": "LogInterval",
+          "offset": 0,
+          "scalefactor": 1,
+          "type": "UInt16",
+=======
           "name": "Frequency",
           "offset": 0,
           "scalefactor": 1,
@@ -4550,6 +5970,7 @@
           "offset": 0,
           "scalefactor": 1,
           "type": "UInt16",
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
           "unit": "seconds"
         }
       ],
@@ -4761,7 +6182,13 @@
       "uuid": "00000012-0002-11e1-ac36-0002a5d5c51b"
     }
   ],
+<<<<<<< HEAD
   "checksum": "2448abaa50016056c214dae527faddce",
   "date": "2022-10-06T13:43:42.547810Z",
   "version": "0.3.0"
+=======
+ "checksum": "b9f69db6283691042072a00cebd1063b",
+  "date": "2022-10-05T16:23:08.869843Z",
+  "version": "0.2.10"
+>>>>>>> 808383244985eb291e46db041c710483c28f81ac
 }
