@@ -4,6 +4,7 @@
   "brd_name": "STEVAL-SMARTAG2",
   "fw_name": "FP-SNS-SMARTAG2",
   "fw_version": "1.0.0",
+  "bit_length_virtual_sensors_id": "3",
   "virtual_sensors": [
     {
       "sensor_name": "STS22H",
@@ -81,7 +82,9 @@
       "sample_format": [
         {
           "type": "id",
-          "bit_length": 3
+          "format": {
+            "bit_length": 3
+          }
         },
         {
           "type": "delta_time",
@@ -186,7 +189,9 @@
       "sample_format": [
         {
           "type": "id",
-          "bit_length": 3
+          "format": {
+            "bit_length": 3
+          }
         },
         {
           "type": "delta_time",
@@ -266,7 +271,9 @@
       "sample_format": [
         {
           "type": "id",
-          "bit_length": 3
+          "format": {
+            "bit_length": 3
+          }
         },
         {
           "type": "delta_time",
@@ -350,7 +357,9 @@
       "sample_format": [
         {
           "type": "id",
-          "bit_length": 3
+          "format": {
+            "bit_length": 3
+          }
         },
         {
           "type": "delta_time",
@@ -412,7 +421,9 @@
       "sample_format": [
         {
           "type": "id",
-          "bit_length": 3
+          "format": {
+            "bit_length": 3
+          }
         },
         {
           "type": "delta_time",
@@ -476,7 +487,9 @@
       "sample_format": [
         {
           "type": "id",
-          "bit_length": 3
+          "format": {
+            "bit_length": 3
+          }
         },
         {
           "type": "delta_time",
