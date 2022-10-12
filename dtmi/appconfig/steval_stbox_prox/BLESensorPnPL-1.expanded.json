@@ -136,6 +136,19 @@
     "@type": "Interface",
     "contents": [
       {
+            "@id": "dtmi:appconfig:steval_stbox_prox:BLESensorPnPL:other:control:control:test_fw;1",
+            "@type": [
+                "Property",
+                "StringValue"
+            ],
+            "displayName": {
+                "en": "Test Fw"
+            },
+            "name": "test_fw",
+            "schema": "string",
+            "writable": false
+        },
+      {
         "@id": "dtmi:appconfig:steval_stbox_prox:BLESensorPnPL:other:control:control:pause_resume;1",
         "@type": "Command",
         "commandType": "synchronous",
