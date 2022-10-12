@@ -120,6 +120,14 @@
               },
               "name": "inertial",
               "schema": "string"
+            },
+            {
+              "@id": "dtmi:appconfig:steval_stbox_prox:BLESensorPnPL:other:applications_stblesensor:environmental:schema:environmental;1",
+              "displayName": {
+                "en": "Environmental"
+              },
+              "name": "environmental",
+              "schema": "string"
             }
           ]
         },
