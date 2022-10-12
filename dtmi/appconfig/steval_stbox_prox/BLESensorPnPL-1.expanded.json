@@ -120,14 +120,6 @@
               },
               "name": "inertial",
               "schema": "string"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stbox_prox:BLESensorPnPL:other:applications_stblesensor:environmental:schema:environmental;1",
-              "displayName": {
-                "en": "Environmental"
-              },
-              "name": "environmental",
-              "schema": "string"
             }
           ]
         },
@@ -151,7 +143,20 @@
           "en": "Pause/Resume"
         },
         "name": "pause_resume"
-      }
+      },
+      {
+            "@id": "dtmi:appconfig:steval_stbox_prox:BLESensorPnPL:other:control:control:version_fw;1",
+            "@type": [
+                "Property",
+                "StringValue"
+            ],
+            "displayName": {
+                "en": "Version Fw"
+            },
+            "name": "version_fw",
+            "schema": "string",
+            "writable": false
+        },
     ],
     "displayName": {
       "en": "Control"
