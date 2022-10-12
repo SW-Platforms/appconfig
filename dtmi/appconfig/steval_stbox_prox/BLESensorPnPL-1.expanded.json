@@ -136,15 +136,15 @@
     "@type": "Interface",
     "contents": [
       {
-            "@id": "dtmi:appconfig:steval_stbox_prox:BLESensorPnPL:other:control:control:test_fw;1",
+            "@id": "dtmi:appconfig:steval_stbox_prox:BLESensorPnPL:other:control:control:fw_status;1",
             "@type": [
                 "Property",
                 "StringValue"
             ],
             "displayName": {
-                "en": "Test Fw"
+                "en": "Fw Status"
             },
-            "name": "test_fw",
+            "name": "fw_status",
             "schema": "string",
             "writable": false
         },
