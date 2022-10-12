@@ -36,7 +36,7 @@
         "displayName": {
           "en": "Control"
         },
-        "name": "Control",
+        "name": "control",
         "schema": "dtmi:appconfig:steval_stbox_prox:BLESensorPnPL:other:control:control;1"
       },
 	  {
@@ -45,7 +45,7 @@
         "displayName": {
           "en": "Configuration"
         },
-        "name": "Configuration",
+        "name": "configuration",
         "schema": "dtmi:appconfig:steval_stbox_prox:BLESensorPnPL:other:configuration:configuration;1"
       }
     ],
@@ -198,7 +198,7 @@
         }
     ],
     "displayName": {
-      "en": "Control"
+      "en": "Configuration"
     }
   },
   {
