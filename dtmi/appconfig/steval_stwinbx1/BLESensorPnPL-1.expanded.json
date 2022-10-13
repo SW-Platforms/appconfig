@@ -333,12 +333,12 @@
               "name": "ISM330DHCX"
             },
             {
-              "@id": "dtmi:appconfig:steval_stbox_pro:ble_sensors_pnpl:v1_0_0:other:inertial:inertial:change_acc:schema:IIS3DWB;1",
+              "@id": "dtmi:appconfig:steval_stbox_pro:ble_sensors_pnpl:v1_0_0:other:inertial:inertial:change_acc:schema:IIS2DLPC;1",
               "displayName": {
-                "en": "IIS3DWB"
+                "en": "IIS2DLPC"
               },
               "enumValue": 1,
-              "name": "IIS3DWB"
+              "name": "IIS2DLPC"
             }
           ],
           "valueSchema": "integer"
