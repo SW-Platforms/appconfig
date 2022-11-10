@@ -655,19 +655,19 @@
             "bit_length_id": 3,
             "bit_length_mod": 2,
             "offset": 0,
-            "scale_factor": 2,
+            "scale_factor":10,
             "min": 0,
-            "max": 8192,
+            "max": 8190,
             "unit": "mV",
             "th_low": {
               "display_name": "Battery V Th Low",
               "format": "voltage",
-              "bit_length": 12
+              "bit_length": 10
             },
             "th_high": {
               "display_name": "Battery V Th High",
               "format": "voltage",
-              "bit_length": 12
+              "bit_length": 10
             }
           },
           "max_min_format": [
@@ -685,9 +685,9 @@
               "format": {
                 "display_name": "Battery V Min Value",
                 "format_type": "voltage",
-                "bit_length": 12,
+                "bit_length": 10,
                 "offset": 0,
-                "scale_factor": 2,
+                "scale_factor": 10,
                 "unit": "mV"
               }
             },
@@ -711,9 +711,9 @@
               "format": {
                 "display_name": "Battery V Max Value",
                 "format_type": "voltage",
-                "bit_length": 12,
+                "bit_length": 10,
                 "offset": 0,
-                "scale_factor": 2,
+                "scale_factor": 10,
                 "unit": "mV"
               }
             }
@@ -744,9 +744,9 @@
               "format": {
                 "display_name": "Temperature Value",
                 "format_type": "int",
-                "bit_length": 12,
+                "bit_length": 10,
                 "offset": 0,
-                "scale_factor": 2,
+                "scale_factor": 10,
                 "unit": "mV"
               }
             }
@@ -979,19 +979,19 @@
             "bit_length_id": 3,
             "bit_length_mod": 2,
             "offset": 20,
-            "scale_factor": 3.5,
+            "scale_factor": 1,
             "min": 20,
             "max": 80,
             "unit": "%",
             "th_low": {
               "display_name": "Hum Th Low",
               "format": "int",
-              "bit_length": 5
+              "bit_length": 7
             },
             "th_high": {
               "display_name": "Hum Th High",
               "format": "int",
-              "bit_length": 5
+              "bit_length": 7
             }
           },
           "max_min_format": [
@@ -1009,9 +1009,9 @@
               "format": {
                 "display_name": "Hum Min Value",
                 "format_type": "int",
-                "bit_length": 5,
+                "bit_length": 7,
                 "offset": 20,
-                "scale_factor": 3.5,
+                "scale_factor": 1,
                 "unit": "%"
               }
             },
@@ -1035,9 +1035,9 @@
               "format": {
                 "display_name": "Hum Max Value",
                 "format_type": "int",
-                "bit_length": 5,
+                "bit_length": 7,
                 "offset": 20,
-                "scale_factor": 3.5,
+                "scale_factor": 1,
                 "unit": "%"
               }
             }
@@ -1068,9 +1068,9 @@
               "format": {
                 "display_name": "Humidity Value",
                 "format_type": "int",
-                "bit_length": 5,
+                "bit_length":7,
                 "offset": 20,
-                "scale_factor": 3.5,
+                "scale_factor": 1,
                 "unit": "%"
               }
             }
@@ -1440,19 +1440,19 @@
             "bit_length_id": 3,
             "bit_length_mod": 2,
             "offset": 0,
-            "scale_factor": 2,
+            "scale_factor":10,
             "min": 0,
-            "max": 8192,
+            "max": 8190,
             "unit": "mV",
             "th_low": {
               "display_name": "Battery V Th Low",
               "format": "voltage",
-              "bit_length": 12
+              "bit_length": 10
             },
             "th_high": {
               "display_name": "Battery V Th High",
               "format": "voltage",
-              "bit_length": 12
+              "bit_length": 10
             }
           },
           "max_min_format": [
@@ -1470,9 +1470,9 @@
               "format": {
                 "display_name": "Battery V Min Value",
                 "format_type": "voltage",
-                "bit_length": 12,
+                "bit_length": 10,
                 "offset": 0,
-                "scale_factor": 2,
+                "scale_factor": 10,
                 "unit": "mV"
               }
             },
@@ -1496,9 +1496,9 @@
               "format": {
                 "display_name": "Battery V Max Value",
                 "format_type": "voltage",
-                "bit_length": 12,
+                "bit_length": 10,
                 "offset": 0,
-                "scale_factor": 2,
+                "scale_factor": 10,
                 "unit": "mV"
               }
             }
@@ -1529,9 +1529,9 @@
               "format": {
                 "display_name": "Temperature Value",
                 "format_type": "int",
-                "bit_length": 12,
+                "bit_length": 10,
                 "offset": 0,
-                "scale_factor": 2,
+                "scale_factor": 10,
                 "unit": "mV"
               }
             }
@@ -1764,19 +1764,19 @@
             "bit_length_id": 3,
             "bit_length_mod": 2,
             "offset": 20,
-            "scale_factor": 3.5,
+            "scale_factor": 1,
             "min": 20,
             "max": 80,
             "unit": "%",
             "th_low": {
               "display_name": "Hum Th Low",
               "format": "int",
-              "bit_length": 5
+              "bit_length": 7
             },
             "th_high": {
               "display_name": "Hum Th High",
               "format": "int",
-              "bit_length": 5
+              "bit_length": 7
             }
           },
           "max_min_format": [
@@ -1794,9 +1794,9 @@
               "format": {
                 "display_name": "Hum Min Value",
                 "format_type": "int",
-                "bit_length": 5,
+                "bit_length": 7,
                 "offset": 20,
-                "scale_factor": 3.5,
+                "scale_factor": 1,
                 "unit": "%"
               }
             },
@@ -1820,9 +1820,9 @@
               "format": {
                 "display_name": "Hum Max Value",
                 "format_type": "int",
-                "bit_length": 5,
+                "bit_length": 7,
                 "offset": 20,
-                "scale_factor": 3.5,
+                "scale_factor": 1,
                 "unit": "%"
               }
             }
@@ -1853,9 +1853,9 @@
               "format": {
                 "display_name": "Humidity Value",
                 "format_type": "int",
-                "bit_length": 5,
+                "bit_length":7,
                 "offset": 20,
-                "scale_factor": 3.5,
+                "scale_factor": 1,
                 "unit": "%"
               }
             }
