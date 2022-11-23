@@ -455,6 +455,21 @@
           "en": "Pause/Resume Log"
         },
         "name": "pause_resume_log"
+      },
+      {
+        "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:control:SampleInterval;1",
+        "@type": [
+          "Property",
+          "TimeSpan",
+          "NumberValue"
+        ],
+        "displayName": {
+          "en": "SampleInterval"
+        },
+        "name": "SampleInterval",
+        "schema": "integer",
+        "unit": "second",
+        "writable": false
       }
     ]
   }
