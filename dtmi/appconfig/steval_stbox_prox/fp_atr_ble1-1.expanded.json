@@ -124,14 +124,14 @@
         "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:stts22h_vs:threshold_low;1",
         "@type": [
           "Property",
-          "NumberValue",
-          "Temperature"
+          "Temperature",
+          "NumberValue"
         ],
         "displayName": {
           "en": "Threshold Low"
         },
         "name": "threshold_low",
-        "schema": "integer",
+        "schema": "double",
         "unit": "degreeCelsius",
         "writable": true,
         "decimalPlaces": 0,
@@ -143,14 +143,14 @@
         "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:stts22h_vs:threshold_high;1",
         "@type": [
           "Property",
-          "NumberValue",
-          "Temperature"
+          "Temperature",
+          "NumberValue"
         ],
         "displayName": {
           "en": "Threshold High"
         },
         "name": "threshold_high",
-        "schema": "integer",
+        "schema": "double",
         "unit": "degreeCelsius",
         "writable": true,
         "decimalPlaces": 0,
@@ -239,14 +239,14 @@
         "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:lps22df_vs:threshold_low;1",
         "@type": [
           "Property",
-          "NumberValue",
-          "Pressure"
+          "Pressure",
+          "NumberValue"
         ],
         "displayName": {
           "en": "Threshold Low"
         },
         "name": "threshold_low",
-        "schema": "integer",
+        "schema": "double",
         "unit": "millibar",
         "writable": true,
         "decimalPlaces": 0,
@@ -258,14 +258,14 @@
         "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:lps22df_vs:threshold_high;1",
         "@type": [
           "Property",
-          "NumberValue",
-          "Pressure"
+          "Pressure",
+          "NumberValue"
         ],
         "displayName": {
           "en": "Threshold High"
         },
         "name": "threshold_high",
-        "schema": "integer",
+        "schema": "double",
         "unit": "millibar",
         "writable": true,
         "decimalPlaces": 0,
@@ -382,7 +382,7 @@
         "name": "threshold_high",
         "schema": "double",
         "unit": "degreeOfArc",
-        "writable": false,
+        "writable": true,
         "decimalPlaces": 0,
         "displayUnit": {
           "en": "Degree"
