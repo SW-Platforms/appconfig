@@ -73,7 +73,7 @@
         "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:stts22h_vs:thresholds_usage;1",
         "@type": "Property",
         "displayName": {
-          "en": "thresholds Usage"
+          "en": "Thresholds Usage"
         },
         "name": "thresholds_usage",
         "schema": {
@@ -86,7 +86,7 @@
             {
               "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:stts22h_vs:thresholds_usage:schema:external_range;1",
               "displayName": {
-                "en": "<Th Low ; >Th High"
+                "en": "External Range"
               },
               "enumValue": 0,
               "name": "external_range"
@@ -94,7 +94,7 @@
             {
               "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:stts22h_vs:thresholds_usage:schema:internal_range;1",
               "displayName": {
-                "en": ">Th Low ; <Th High"
+                "en": "Internal Range"
               },
               "enumValue": 1,
               "name": "internal_range"
@@ -102,7 +102,7 @@
             {
               "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:stts22h_vs:thresholds_usage:schema:less_than;1",
               "displayName": {
-                "en": "<Th Low"
+                "en": "Less Than"
               },
               "enumValue": 2,
               "name": "less_than"
@@ -110,7 +110,7 @@
             {
               "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:stts22h_vs:thresholds_usage:schema:bigger_than;1",
               "displayName": {
-                "en": ">Th Low"
+                "en": "Bigger Than"
               },
               "enumValue": 3,
               "name": "bigger_than"
@@ -124,35 +124,39 @@
         "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:stts22h_vs:threshold_low;1",
         "@type": [
           "Property",
-          "NumberValue"
+          "NumberValue",
+          "Temperature"
         ],
         "displayName": {
           "en": "Threshold Low"
         },
         "name": "threshold_low",
-        "schema": "double",
+        "schema": "integer",
         "unit": "degreeCelsius",
         "writable": true,
         "decimalPlaces": 0,
-        "maxValue": 60,
-        "minValue": -10
+        "displayUnit": {
+          "en": "'C"
+        }
       },
       {
         "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:stts22h_vs:threshold_high;1",
         "@type": [
           "Property",
-          "NumberValue"
+          "NumberValue",
+          "Temperature"
         ],
         "displayName": {
           "en": "Threshold High"
         },
         "name": "threshold_high",
-        "schema": "double",
+        "schema": "integer",
         "unit": "degreeCelsius",
         "writable": true,
         "decimalPlaces": 0,
-        "maxValue": 60,
-        "minValue": -10
+        "displayUnit": {
+          "en": "'C"
+        }
       }
     ],
     "displayName": {
@@ -197,7 +201,7 @@
             {
               "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:lps22df_vs:thresholds_usage:schema:external_range;1",
               "displayName": {
-                "en": "<Th Low ; >Th High"
+                "en": "External Range"
               },
               "enumValue": 0,
               "name": "external_range"
@@ -205,7 +209,7 @@
             {
               "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:lps22df_vs:thresholds_usage:schema:internal_range;1",
               "displayName": {
-                "en": ">Th Low ; <Th High"
+                "en": "Internal Range"
               },
               "enumValue": 1,
               "name": "internal_range"
@@ -213,7 +217,7 @@
             {
               "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:lps22df_vs:thresholds_usage:schema:less_than;1",
               "displayName": {
-                "en": "<Th Low"
+                "en": "Less Than"
               },
               "enumValue": 2,
               "name": "less_than"
@@ -221,7 +225,7 @@
             {
               "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:lps22df_vs:thresholds_usage:schema:bigger_than;1",
               "displayName": {
-                "en": ">Th Low"
+                "en": "Bigger Than"
               },
               "enumValue": 3,
               "name": "bigger_than"
@@ -229,49 +233,45 @@
           ],
           "valueSchema": "integer"
         },
-        "writable": false
+        "writable": true
       },
       {
         "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:lps22df_vs:threshold_low;1",
         "@type": [
           "Property",
-          "Pressure",
-          "NumberValue"
+          "NumberValue",
+          "Pressure"
         ],
         "displayName": {
           "en": "Threshold Low"
         },
         "name": "threshold_low",
-        "schema": "double",
-        "unit": "millibar",
-        "writable": false,
-        "decimalPlaces": 0,
-        "displayUnit": {
-          "en": "hPa"
-        },
-        "maxValue": 1260,
-        "minValue": 260
-      },
-      {
-        "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:lps22df_vs:threshold_high;1",
-        "@type": [
-          "Property",
-          "Pressure",
-          "NumberValue"
-        ],
-        "displayName": {
-          "en": "Threshold High"
-        },
-        "name": "threshold_high",
-        "schema": "double",
+        "schema": "integer",
         "unit": "millibar",
         "writable": true,
         "decimalPlaces": 0,
         "displayUnit": {
           "en": "hPa"
+        }
+      },
+      {
+        "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:lps22df_vs:threshold_high;1",
+        "@type": [
+          "Property",
+          "NumberValue",
+          "Pressure"
+        ],
+        "displayName": {
+          "en": "Threshold High"
         },
-        "maxValue": 1260,
-        "minValue": 260
+        "name": "threshold_high",
+        "schema": "integer",
+        "unit": "millibar",
+        "writable": true,
+        "decimalPlaces": 0,
+        "displayUnit": {
+          "en": "hPa"
+        }
       }
     ],
     "displayName": {
@@ -316,7 +316,7 @@
             {
               "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:lsm6dsv16x_mlc_vs:thresholds_usage:schema:external_range;1",
               "displayName": {
-                "en": "<Th Low ; >Th High"
+                "en": "External Range"
               },
               "enumValue": 0,
               "name": "external_range"
@@ -324,7 +324,7 @@
             {
               "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:lsm6dsv16x_mlc_vs:thresholds_usage:schema:internal_range;1",
               "displayName": {
-                "en": ">Th Low ; <Th High"
+                "en": "Internal Range"
               },
               "enumValue": 1,
               "name": "internal_range"
@@ -332,7 +332,7 @@
             {
               "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:lsm6dsv16x_mlc_vs:thresholds_usage:schema:less_than;1",
               "displayName": {
-                "en": "<Th Low"
+                "en": "Less Than"
               },
               "enumValue": 2,
               "name": "less_than"
@@ -340,7 +340,7 @@
             {
               "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:lsm6dsv16x_mlc_vs:thresholds_usage:schema:bigger_than;1",
               "displayName": {
-                "en": ">Th Low"
+                "en": "Bigger Than"
               },
               "enumValue": 3,
               "name": "bigger_than"
@@ -354,8 +354,8 @@
         "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:lsm6dsv16x_mlc_vs:threshold_low;1",
         "@type": [
           "Property",
-          "Angle",
-          "NumberValue"
+          "NumberValue",
+          "Angle"
         ],
         "displayName": {
           "en": "Threshold Low"
@@ -367,16 +367,14 @@
         "decimalPlaces": 0,
         "displayUnit": {
           "en": "Degree"
-        },
-        "maxValue": 90,
-        "minValue": 0
+        }
       },
       {
         "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:lsm6dsv16x_mlc_vs:threshold_high;1",
         "@type": [
           "Property",
-          "Angle",
-          "NumberValue"
+          "NumberValue",
+          "Angle"
         ],
         "displayName": {
           "en": "Threshold High"
@@ -388,9 +386,7 @@
         "decimalPlaces": 0,
         "displayUnit": {
           "en": "Degree"
-        },
-        "maxValue": 90,
-        "minValue": 0
+        }
       }
     ]
   },
@@ -440,45 +436,15 @@
       },
       {
         "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:control:log_status;1",
-        "@type": "Property",
+        "@type": [
+          "Property",
+          "StringValue"
+        ],
         "displayName": {
           "en": "Log Status"
         },
         "name": "log_status",
-        "schema": {
-          "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:control:log_status:schema;1",
-          "@type": "Enum",
-          "displayName": {
-            "en": "Enum"
-          },
-          "enumValues": [
-            {
-              "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:control:log_status:schema:stop;1",
-              "displayName": {
-                "en": "Stop"
-              },
-              "enumValue": 0,
-              "name": "stop"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:control:log_status:schema:running;1",
-              "displayName": {
-                "en": "Running"
-              },
-              "enumValue": 1,
-              "name": "running"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:control:log_status:schema:paused;1",
-              "displayName": {
-                "en": "Paused"
-              },
-              "enumValue": 2,
-              "name": "paused"
-            }
-          ],
-          "valueSchema": "integer"
-        },
+        "schema": "string",
         "writable": false
       },
       {
