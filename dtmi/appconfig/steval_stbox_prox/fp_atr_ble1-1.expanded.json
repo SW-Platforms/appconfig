@@ -405,7 +405,15 @@
         "displayName": {
           "en": "Start Log"
         },
-        "name": "start_log"
+        "name": "start_log",
+        "request": {
+          "@type": "CommandPayload",
+          "displayName": {
+            "en": "Epoc Time"
+          },
+          "name": "epoc_time",
+          "schema": "integer"
+        }
       },
       {
         "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:control:stop_log;1",
