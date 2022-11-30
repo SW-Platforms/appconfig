@@ -1,6 +1,6 @@
 [
   {
-    "@id": "dtmi:appconfig:steval_stbox_pro:BLESensorPnPL;1",
+    "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL;1",
     "@type": "Interface",
     "contents": [
       {
