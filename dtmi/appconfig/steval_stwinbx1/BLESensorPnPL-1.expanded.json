@@ -19,7 +19,7 @@
           "en": "Environmental"
         },
         "name": "environmental",
-        "schema": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:environmental;1"
+        "schema": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:environmental:environmental;1"
       },
       {
         "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:inertial;1",
@@ -28,7 +28,7 @@
           "en": "Inertial"
         },
         "name": "inertial",
-        "schema": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:inertial;1"
+        "schema": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:inertial:inertial;1"
       },
       {
         "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:control;1",
@@ -37,7 +37,7 @@
           "en": "Control"
         },
         "name": "control",
-        "schema": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:control;1"
+        "schema": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:control:control;1"
       },
       {
         "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:configuration;1",
@@ -46,7 +46,7 @@
           "en": "Configuration"
         },
         "name": "configuration",
-        "schema": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:configuration;1"
+        "schema": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:configuration:configuration;1"
       },
       {
         "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:device_information;1",
@@ -134,35 +134,32 @@
         },
         "writable": false
       }
-    ],
-    "displayName": {
-      "en": "Applications ST BLE Sensor"
-    }
+    ]
   },
   {
     "@context": [
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:environmental;1",
+    "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:environmental:environmental;1",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:environmental:samplerate;1",
+        "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:environmental:environmental:samplerate;1",
         "@type": "Property",
         "displayName": {
           "en": "Sample Rate"
         },
         "name": "samplerate",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:environmental:samplerate:schema;1",
+          "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:environmental:environmental:samplerate:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:environmental:samplerate:schema:n1;1",
+              "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:environmental:environmental:samplerate:schema:n1;1",
               "displayName": {
                 "en": "1"
               },
@@ -170,7 +167,7 @@
               "name": "n1"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:environmental:samplerate:schema:n10;1",
+              "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:environmental:environmental:samplerate:schema:n10;1",
               "displayName": {
                 "en": "10"
               },
@@ -178,7 +175,7 @@
               "name": "n10"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:environmental:samplerate:schema:n20;1",
+              "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:environmental:environmental:samplerate:schema:n20;1",
               "displayName": {
                 "en": "20"
               },
@@ -201,60 +198,25 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:inertial;1",
+    "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:inertial:inertial;1",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stbox_pro:ble_sensors_pnpl:v1_0_0:other:inertial:inertial:change_acc;1",
-        "@type": "Property",
-        "displayName": {
-          "en": "change Acc"
-        },
-        "name": "change_acc",
-        "schema": {
-          "@id": "dtmi:appconfig:steval_stbox_pro:ble_sensors_pnpl:v1_0_0:other:inertial:inertial:change_acc:schema;1",
-          "@type": "Enum",
-          "displayName": {
-            "en": "Enum"
-          },
-          "enumValues": [
-            {
-              "@id": "dtmi:appconfig:steval_stbox_pro:ble_sensors_pnpl:v1_0_0:other:inertial:inertial:change_acc:schema:LSM6DSV16X;1",
-              "displayName": {
-                "en": "LSM6DSV16X"
-              },
-              "enumValue": "0",
-              "name": "LSM6DSV16X"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stbox_pro:ble_sensors_pnpl:v1_0_0:other:inertial:inertial:change_acc:schema:LIS2DU12;1",
-              "displayName": {
-                "en": "LIS2DU12"
-              },
-              "enumValue": "1",
-              "name": "LIS2DU12"
-            }
-          ],
-          "valueSchema": "string"
-        },
-        "writable": true
-      },
-      {
-        "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:inertial:samplerate;1",
+        "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:inertial:inertial:samplerate;1",
         "@type": "Property",
         "displayName": {
           "en": "Sample Rate"
         },
         "name": "samplerate",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:inertial:samplerate:schema;1",
+          "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:inertial:inertial:samplerate:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:inertial:samplerate:schema:n10;1",
+              "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:inertial:inertial:samplerate:schema:n1;1",
               "displayName": {
                 "en": "10"
               },
@@ -262,7 +224,7 @@
               "name": "n10"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:inertial:samplerate:schema:n20;1",
+              "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:inertial:inertial:samplerate:schema:n10;1",
               "displayName": {
                 "en": "20"
               },
@@ -270,7 +232,7 @@
               "name": "n20"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:inertial:samplerate:schema:n30;1",
+              "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:inertial:inertial:samplerate:schema:n20;1",
               "displayName": {
                 "en": "30"
               },
@@ -281,6 +243,41 @@
           "valueSchema": "integer"
         },
         "unit": "hertz",
+        "writable": true
+      },
+      {
+        "@id": "dtmi:appconfig:steval_stwinbx1:ble_sensors_pnpl:v1_0_0:other:inertial:inertial:change_acc;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "change Acc"
+        },
+        "name": "change_acc",
+        "schema": {
+          "@id": "dtmi:appconfig:steval_stwinbx1:ble_sensors_pnpl:v1_0_0:other:inertial:inertial:change_acc:schema;1",
+          "@type": "Enum",
+          "displayName": {
+            "en": "Enum"
+          },
+          "enumValues": [
+            {
+              "@id": "dtmi:appconfig:steval_stwinbx1:ble_sensors_pnpl:v1_0_0:other:inertial:inertial:change_acc:schema:LSM6DSV16X;1",
+              "displayName": {
+                "en": "LSM6DSV16X"
+              },
+              "enumValue": 0,
+              "name": "LSM6DSV16X"
+            },
+            {
+              "@id": "dtmi:appconfig:steval_stwinbx1:ble_sensors_pnpl:v1_0_0:other:inertial:inertial:change_acc:schema:LIS2DU12;1",
+              "displayName": {
+                "en": "LIS2DU12"
+              },
+              "enumValue": 1,
+              "name": "LIS2DU12"
+            }
+          ],
+          "valueSchema": "integer"
+        },
         "writable": true
       }
     ],
@@ -293,11 +290,11 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:control;1",
+    "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:control:control;1",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:control:fw_status;1",
+        "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:control:control:fw_status;1",
         "@type": [
           "Property",
           "StringValue"
@@ -310,7 +307,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:control:pause_resume;1",
+        "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:control:control:pause_resume;1",
         "@type": "Command",
         "commandType": "synchronous",
         "displayName": {
@@ -328,11 +325,11 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:configuration;1",
+    "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:configuration:configuration;1",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:configuration:version_fw;1",
+        "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:configuration:configuration:version_fw;1",
         "@type": [
           "Property",
           "StringValue"
@@ -345,7 +342,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:configuration:board_name;1",
+        "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:configuration:configuration:board_name;1",
         "@type": [
           "Property",
           "StringValue"
