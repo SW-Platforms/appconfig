@@ -49,12 +49,12 @@
         "schema": "dtmi:appconfig:steval_stbox_pro:BLESensorPnPL:other:configuration:configuration;1"
       },
       {
-        "@id": "dtmi:appconfig:steval_stbox_pro:BLESensorPnPL:device_information;1",
+        "@id": "dtmi:appconfig:steval_stbox_pro:BLESensorPnPL:DeviceInformation;1",
         "@type": "Component",
         "displayName": {
           "en": "Device Information"
         },
-        "name": "device_information",
+        "name": "DeviceInformation",
         "schema": "dtmi:azure:DeviceManagement:DeviceInformation;1"
       }
     ],

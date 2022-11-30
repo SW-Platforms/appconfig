@@ -1,6 +1,6 @@
 [
   {
-    "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL;1",
+    "@id": "dtmi:appconfig:steval_stbox_pro:BLESensorPnPL;1",
     "@type": "Interface",
     "contents": [
       {
@@ -49,12 +49,12 @@
         "schema": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:other:configuration:configuration;1"
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:device_information;1",
+        "@id": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL:DeviceInformation;1",
         "@type": "Component",
         "displayName": {
           "en": "Device Information"
         },
-        "name": "device_information",
+        "name": "DeviceInformation",
         "schema": "dtmi:azure:DeviceManagement:DeviceInformation;1"
       }
     ],
@@ -260,20 +260,20 @@
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:ble_sensors_pnpl:v1_0_0:other:inertial:inertial:change_acc:schema:LSM6DSV16X;1",
+              "@id": "dtmi:appconfig:steval_stwinbx1:ble_sensors_pnpl:v1_0_0:other:inertial:inertial:change_acc:schema:ISM330DHCX;1",
               "displayName": {
-                "en": "LSM6DSV16X"
+                "en": "ISM330DHCX"
               },
               "enumValue": 0,
-              "name": "LSM6DSV16X"
+              "name": "ISM330DHCX"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:ble_sensors_pnpl:v1_0_0:other:inertial:inertial:change_acc:schema:LIS2DU12;1",
+              "@id": "dtmi:appconfig:steval_stwinbx1:ble_sensors_pnpl:v1_0_0:other:inertial:inertial:change_acc:schema:IIS2DLPC;1",
               "displayName": {
-                "en": "LIS2DU12"
+                "en": "IIS2DLPC"
               },
               "enumValue": 1,
-              "name": "LIS2DU12"
+              "name": "IIS2DLPC"
             }
           ],
           "valueSchema": "integer"
