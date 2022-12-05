@@ -2407,7 +2407,28 @@
       "ble_fw_id": "0x06",
       "brd_name": "STEVAL-MKSBOX1V1",
       "changelog": "This is an initial draft release",
-      "characteristics": [],
+      "characteristics": [
+        {
+          "name": "Debug console stdin/stdout",
+          "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
+        },
+        {
+          "name": "Debug Console stderr",
+          "uuid": "00000002-000E-11e1-9ab4-0002a5d5c51b"
+        },
+        {
+          "name": "Ext Configuration",
+          "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "MEMS Sensor Fusion",
+          "uuid": "00000080-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Battery",
+          "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b"
+        }
+      ],
       "cloud_apps": [],
       "fota": {
         "bootloader_type": "none",
@@ -2568,6 +2589,14 @@
         {
           "name": "Humidity",
           "uuid": "00080000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Mic Level",
+          "uuid": "04000000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Acceleration Event",
+          "uuid": "00000400-0001-11e1-ac36-0002a5d5c51b"
         }
       ],
       "cloud_apps": [],
@@ -2715,8 +2744,8 @@
       "changelog": "This is an initial draft release",
       "characteristics": [
         {
-          "name": "Debug console",
-          "uuid": "00000000-000E-11e1-9ab4-0002a5d5c51b"
+          "name": "Debug console stdin/stdout",
+          "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
         },
         {
           "name": "Ext Configuration",
@@ -2741,6 +2770,10 @@
         {
           "name": "Battery",
           "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Debug Console stderr",
+          "uuid": "00000002-000E-11e1-9ab4-0002a5d5c51b"
         }
       ],
       "cloud_apps": [],
@@ -2917,8 +2950,8 @@
       "changelog": "This is an initial draft release",
       "characteristics": [
         {
-          "name": "Debug console",
-          "uuid": "00000000-000E-11e1-9ab4-0002a5d5c51b"
+          "name": "Debug console stdin/stdout",
+          "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
         },
         {
           "name": "Ext Configuration",
@@ -2951,6 +2984,10 @@
         {
           "name": "Battery",
           "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Debug Console stderr",
+          "uuid": "00000002-000E-11e1-9ab4-0002a5d5c51b"
         }
       ],
       "cloud_apps": [],
@@ -5184,7 +5221,7 @@
       "uuid": "00000012-0002-11e1-ac36-0002a5d5c51b"
     }
   ],
-  "checksum": "ae7e9db96942447893815087bed554c0",
-  "date": "2022-12-05T13:18:14.923215Z",
+  "checksum": "5a2b2d0c9a6abe51906a6b7869038d35",
+  "date": "2022-12-05T13:43:54.498087Z",
   "version": "0.3.0"
 }
