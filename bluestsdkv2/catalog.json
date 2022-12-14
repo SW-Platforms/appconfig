@@ -79,7 +79,6 @@
       "fw_desc": "",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.1.0",
-      "id": 14,
       "option_bytes": []
     },
     {
@@ -161,7 +160,6 @@
       "fw_desc": "",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.1.0",
-      "id": 15,
       "option_bytes": []
     },
     {
@@ -227,7 +225,6 @@
       "fw_desc": "New RPN (Link) - STM32Cube function pack for ultra-low power context awareness with distributed artificial intelligence (AI): acoustic analysis with NN on MCU and motion analysis with ML on IMU",
       "fw_name": "FP-AI-CTXAWARE1",
       "fw_version": "1.0.0",
-      "id": 39,
       "option_bytes": []
     },
     {
@@ -305,7 +302,6 @@
       "fw_desc": "Acc FFT, Acc time stats (RMS, peaks) streaming over Wi-Fi",
       "fw_name": "FP-IND-PREDMNT1",
       "fw_version": "2.4.0",
-      "id": 38,
       "option_bytes": []
     }
   ],
@@ -392,7 +388,6 @@
       "fw_desc": "Fast FOTA, BlueST SDK v2",
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.2.0",
-      "id": 42,
       "option_bytes": []
     },
     {
@@ -477,7 +472,6 @@
       "fw_desc": "Fast FOTA, BlueST SDK v2",
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.2.0",
-      "id": 43,
       "option_bytes": []
     },
     {
@@ -527,7 +521,6 @@
       "fw_desc": "Fast FOTA, BlueST SDK v2",
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.2.0",
-      "id": 44,
       "option_bytes": []
     },
     {
@@ -601,7 +594,6 @@
       "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.2.0",
-      "id": 47,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -686,7 +678,6 @@
       "fw_desc": "Predictive Maintenance over LoRa",
       "fw_name": "STDES-CBMLoRaBLE",
       "fw_version": "1.0.0",
-      "id": 66,
       "option_bytes": [
         {
           "format": "int",
@@ -827,7 +818,6 @@
       "fw_desc": "STM32WB predictive maintenance applications",
       "fw_name": "STSW-PROTEUS",
       "fw_version": "1.0.0",
-      "id": 36,
       "option_bytes": [
         {
           "escape_message": "",
@@ -944,7 +934,6 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BleDualProgram_FP-SNS-STBOX1",
       "fw_version": "1.4.0",
-      "id": 55,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -1022,7 +1011,6 @@
       "fw_desc": "STM32Cube function pack for the STEVAL-ASTRA1B multi-connectivity asset tracking reference design",
       "fw_name": "FP-ATR-ASTRA1",
       "fw_version": "1.0.0",
-      "id": 34,
       "option_bytes": [
         {
           "format": "int",
@@ -1173,7 +1161,6 @@
       "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.2.0",
-      "id": 46,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -1290,7 +1277,6 @@
       "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.2.0",
-      "id": 48,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -1342,7 +1328,6 @@
       "fw_desc": "Anomaly detection by NanoEdge AI",
       "fw_name": "FP-AI-PDMWBSOC",
       "fw_version": "1.0.0",
-      "id": 70,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -1455,7 +1440,6 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BLESensors_FP-SNS-STBOX1",
       "fw_version": "1.4.0",
-      "id": 56,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -1533,7 +1517,6 @@
       "fw_desc": "STM32Cube function pack for the STEVAL-ASTRA1B multi-connectivity asset tracking reference design",
       "fw_name": "FP-ATR-ASTRA1",
       "fw_version": "1.1.0",
-      "id": 69,
       "option_bytes": [
         {
           "format": "int",
@@ -1644,7 +1627,6 @@
       "fw_desc": "candidate release",
       "fw_name": "FP-SNS-FLIGHT1",
       "fw_version": "4.2.0",
-      "id": 53,
       "option_bytes": []
     },
     {
@@ -1678,7 +1660,6 @@
       "fw_desc": "candidate release",
       "fw_name": "FP-SNS-FLIGHT1",
       "fw_version": "4.2.0",
-      "id": 54,
       "option_bytes": []
     },
     {
@@ -1699,7 +1680,6 @@
       "fw_desc": "Anomaly detection by NanoEdge AI",
       "fw_name": "FP-AI-PDMWBSOC",
       "fw_version": "1.1.0",
-      "id": 71,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -1796,7 +1776,6 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BLEMLC_FP-SNS-STBOX1",
       "fw_version": "1.4.0",
-      "id": 57,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -1866,7 +1845,6 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BLEDefaultFw_FP-SNS-STBOX1",
       "fw_version": "1.4.0",
-      "id": 58,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -1920,7 +1898,6 @@
       "fw_desc": "HSD with STREDL support",
       "fw_name": "FP-SNS-DATALOG1",
       "fw_version": "1.2.0-vespucci",
-      "id": 27,
       "option_bytes": []
     },
     {
@@ -2022,7 +1999,6 @@
       "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.2.0",
-      "id": 51,
       "option_bytes": []
     },
     {
@@ -2052,7 +2028,6 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BLEGpEx_FP-SNS-STBOX1",
       "fw_version": "1.4.0",
-      "id": 59,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -2106,7 +2081,6 @@
       "fw_desc": "STM32Cube High Speed Datalog function pack for STWIN evaluation kits",
       "fw_name": "FP-SNS-DATALOG1",
       "fw_version": "1.4.0",
-      "id": 67,
       "option_bytes": [
         {
           "format": "int",
@@ -2241,7 +2215,15 @@
           "uuid": "0000001b-0002-11e1-ac36-0002a5d5c51b"
         }
       ],
-      "cloud_apps": [],
+      "cloud_apps": [
+        {
+          "description": "device models published on appconfig can work with any customer application",
+          "dtmi": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL;1",
+          "name": "none",
+          "shareable_link": null,
+          "url": ""
+        }
+      ],
       "fota": {
         "bootloader_type": "none",
         "fw_url": null,
@@ -2253,7 +2235,6 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BLESensorsPnPL_FP-SNS-STBOX1",
       "fw_version": "1.4.0",
-      "id": 85,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -2314,7 +2295,6 @@
       "fw_desc": "fast fota\r\nbluest sdkv2 support\r\nFOTA size limitation 1MB",
       "fw_name": "FP-SNS-DATALOG1",
       "fw_version": "1.3.0",
-      "id": 52,
       "option_bytes": [
         {
           "format": "int",
@@ -2441,7 +2421,6 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BleDualProgram_FP-SNS-STBOX1",
       "fw_version": "1.4.0",
-      "id": 86,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -2527,7 +2506,6 @@
       "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.2.0",
-      "id": 49,
       "option_bytes": []
     },
     {
@@ -2549,7 +2527,6 @@
       "fw_desc": "low power firmware for Quasar demo; uses STREDL and sends events on BLE advertisements",
       "fw_name": "quasar",
       "fw_version": "1.0.0",
-      "id": 45,
       "option_bytes": []
     },
     {
@@ -2611,7 +2588,6 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BLELowPowerRTOS_FP-SNS-STBOX1",
       "fw_version": "1.4.0",
-      "id": 87,
       "option_bytes": []
     },
     {
@@ -2649,7 +2625,6 @@
       "fw_desc": "STM32Cube High Speed Datalog function pack for STWIN evaluation kits",
       "fw_name": "FP-SNS-DATALOG1",
       "fw_version": "1.4.0",
-      "id": 68,
       "option_bytes": [
         {
           "format": "int",
@@ -2788,7 +2763,6 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BLEMLC_FP-SNS-STBOX1",
       "fw_version": "1.4.0",
-      "id": 88,
       "option_bytes": []
     },
     {
@@ -2890,7 +2864,6 @@
       "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.2.0",
-      "id": 50,
       "option_bytes": []
     },
     {
@@ -2924,7 +2897,6 @@
       "fw_desc": "DB insertion test",
       "fw_name": "myTest",
       "fw_version": "0.1.3",
-      "id": 82,
       "option_bytes": [
         {
           "format": "int",
@@ -3002,7 +2974,6 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BLESensors_FP-SNS-STBOX1",
       "fw_version": "1.4.0",
-      "id": 89,
       "option_bytes": []
     },
     {
@@ -3036,7 +3007,6 @@
       "fw_desc": "DB insertion test",
       "fw_name": "myTest",
       "fw_version": "0.1.4",
-      "id": 83,
       "option_bytes": [
         {
           "format": "int",
@@ -3082,7 +3052,6 @@
       "fw_desc": "Testing submission from FE",
       "fw_name": "myFirmware",
       "fw_version": "0.0.1",
-      "id": 84,
       "option_bytes": [
         {
           "format": "int",
@@ -3131,7 +3100,6 @@
       "fw_desc": "STM32WB temporary stub to enable firmware update ",
       "fw_name": "FOTA-mode",
       "fw_version": "1.0.0",
-      "id": 41,
       "option_bytes": []
     },
     {
@@ -3164,7 +3132,6 @@
       "fw_desc": "STM32WB temporary stub to enable firmware update ",
       "fw_name": "FOTA-mode",
       "fw_version": "1.0.0",
-      "id": 40,
       "option_bytes": []
     },
     {
@@ -3218,7 +3185,6 @@
       "fw_desc": "Polaris firmware (testing one)",
       "fw_name": "Astra1 - Asset tracking",
       "fw_version": "0.1.0",
-      "id": 35,
       "option_bytes": [
         {
           "format": "int",
@@ -5221,7 +5187,7 @@
       "uuid": "00000012-0002-11e1-ac36-0002a5d5c51b"
     }
   ],
-  "checksum": "5a2b2d0c9a6abe51906a6b7869038d35",
-  "date": "2022-12-05T13:43:54.498087Z",
+  "checksum": "818fb896dd5508399d09530a622a16c9",
+  "date": "2022-12-14T08:51:38.905931Z",
   "version": "0.3.0"
 }
