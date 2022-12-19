@@ -2176,16 +2176,7 @@
           "uuid": "0000001b-0002-11e1-ac36-0002a5d5c51b"
         }
       ],
-      "cloud_apps": [
-        {
-          "description": "device models published on appconfig can work with any customer application",
-          "dtmi": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL;1",
-          "dtmi_type": "appconfig",
-          "name": "none",
-          "shareable_link": null,
-          "url": ""
-        }
-      ],
+      "cloud_apps": [],
       "device_model": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL;1",
       "fota": {
         "bootloader_type": "none",
@@ -2519,16 +2510,95 @@
       "option_bytes": [
         {
           "format": "int",
-          "name": "battery",
+          "name": "battery:",
+          "negative_offset": 0,
+          "scale_factor": 1,
           "type": "%"
         },
         {
           "format": "enum_string",
-          "name": "alarm",
+          "name": "alarm:",
+          "string_values": [
+            {
+              "display_name": "No Alarm",
+              "value": 0
+            },
+            {
+              "display_name": "Battery Charging",
+              "value": 1
+            },
+            {
+              "display_name": "No Battery",
+              "value": 2
+            },
+            {
+              "display_name": "Logging Ongoing",
+              "value": 3
+            },
+            {
+              "display_name": "Low Battery",
+              "value": 4
+            },
+            {
+              "display_name": "Missing SD Card",
+              "value": 5
+            },
+            {
+              "display_name": "SD Card Full",
+              "value": 6
+            }
+          ],
           "type": "string"
         },
         {
           "format": "enum_icon",
+          "icon_values": [
+            {
+              "comment": "USB Plug, No Battery",
+              "icon_code": 18,
+              "value": 0
+            },
+            {
+              "comment": "USB Plug, Battery in charge",
+              "icon_code": 3,
+              "value": 1
+            },
+            {
+              "comment": "Battery",
+              "icon_code": 1,
+              "value": 2
+            },
+            {
+              "comment": "icon for Log ongoing",
+              "icon_code": 10,
+              "value": 3
+            },
+            {
+              "comment": "icon for low battery",
+              "icon_code": 0,
+              "value": 4
+            },
+            {
+              "comment": "icon for Missing SD Card",
+              "icon_code": 5,
+              "value": 5
+            },
+            {
+              "comment": "icon for SD Card full",
+              "icon_code": 11,
+              "value": 6
+            },
+            {
+              "comment": "icon for full battery",
+              "icon_code": 2,
+              "value": 7
+            },
+            {
+              "comment": "icon for error",
+              "icon_code": 6,
+              "value": 8
+            }
+          ],
           "name": "status",
           "type": "icon"
         }
@@ -2664,16 +2734,95 @@
       "option_bytes": [
         {
           "format": "int",
-          "name": "battery",
+          "name": "battery:",
+          "negative_offset": 0,
+          "scale_factor": 1,
           "type": "%"
         },
         {
           "format": "enum_string",
-          "name": "alarm",
+          "name": "alarm:",
+          "string_values": [
+            {
+              "display_name": "No Alarm",
+              "value": 0
+            },
+            {
+              "display_name": "Battery Charging",
+              "value": 1
+            },
+            {
+              "display_name": "No Battery",
+              "value": 2
+            },
+            {
+              "display_name": "Logging Ongoing",
+              "value": 3
+            },
+            {
+              "display_name": "Low Battery",
+              "value": 4
+            },
+            {
+              "display_name": "Missing SD Card",
+              "value": 5
+            },
+            {
+              "display_name": "SD Card Full",
+              "value": 6
+            }
+          ],
           "type": "string"
         },
         {
           "format": "enum_icon",
+          "icon_values": [
+            {
+              "comment": "USB Plug, No Battery",
+              "icon_code": 18,
+              "value": 0
+            },
+            {
+              "comment": "USB Plug, Battery in charge",
+              "icon_code": 3,
+              "value": 1
+            },
+            {
+              "comment": "Battery",
+              "icon_code": 1,
+              "value": 2
+            },
+            {
+              "comment": "icon for Log ongoing",
+              "icon_code": 10,
+              "value": 3
+            },
+            {
+              "comment": "icon for low battery",
+              "icon_code": 0,
+              "value": 4
+            },
+            {
+              "comment": "icon for Missing SD Card",
+              "icon_code": 5,
+              "value": 5
+            },
+            {
+              "comment": "icon for SD Card full",
+              "icon_code": 11,
+              "value": 6
+            },
+            {
+              "comment": "icon for full battery",
+              "icon_code": 2,
+              "value": 7
+            },
+            {
+              "comment": "icon for error",
+              "icon_code": 6,
+              "value": 8
+            }
+          ],
           "name": "status",
           "type": "icon"
         }
@@ -5167,7 +5316,7 @@
       "uuid": "00000012-0002-11e1-ac36-0002a5d5c51b"
     }
   ],
-  "checksum": "014a2fe57fcd1d96a5c9362b9cebbbd7",
-  "date": "2022-12-19T09:46:49.034901Z",
+  "checksum": "47cb4d917a7a779165b44b6f210ae3bb",
+  "date": "2022-12-19T10:06:21.049549Z",
   "version": "0.3.1"
 }
