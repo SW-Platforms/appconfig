@@ -1719,25 +1719,16 @@
       ],
       "cloud_apps": [
         {
-          "description": null,
-          "dtmi": "dtmi:appconfig:STEVAL-PROTEUS1:FP-AI-PDMWBSOC;1",
-          "dtmi_type": "appconfig",
-          "name": null,
-          "shareable_link": null,
-          "url": null
-        },
-        {
-          "description": "",
-          "dtmi": "dtmi:Device model:FP-AI-PDMWBSOC;1",
-          "dtmi_type": "iotc",
-          "name": "Device model",
-          "shareable_link": "",
-          "url": ""
-        }
+          "description": "PROTEUS-POC2",
+          "dtmi": "dtmi:proteusPoc2:pdmwbsoc_v2_0_0_Cloud;1",
+          "name": "PROTEUS Development",
+          "shareable_link": "https://apps.azureiotcentral.com/build/new/454952ac-8d93-4606-88e2-803aaefb4f9b",
+          "url": "https://proteus-poc2.azureiotcentral.com"
+        } 
       ],
       "fota": {
         "bootloader_type": "wb",
-        "fw_url": "",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-proteus/fp-ai-pdmwbsoc_2_0_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -1750,8 +1741,8 @@
       "option_bytes": [
         {
           "format": "enum_string",
-          "name": "Neai Phase:",
-          "string_values": [
+          "name": "Neai Phase  :",
+      "string_values": [
             {
               "display_name": "Idle",
               "value": 0
@@ -1764,7 +1755,7 @@
               "display_name": "Detecting",
               "value": 2
             },
-            {
+      {
               "display_name": "Idle Trained",
               "value": 3
             },
@@ -1772,9 +1763,10 @@
               "display_name": "Classifying",
               "value": 4
             }
-          ]
-        },
-        {
+          ],
+          "type": "string"
+    },
+    {
           "format": "enum_icon",
           "icon_values": [
             {
@@ -1786,19 +1778,27 @@
               "comment": "Anomaly",
               "icon_code": 5,
               "value": 1
+            },
+      {
+              "comment": "Hidden",
+              "icon_code": 255,
+              "value": 255
             }
           ],
-          "name": "Neai Status"
+          "name": "Neai Status",
+          "type": "icon"
         },
-        {
-          "escape_message": " ",
-          "escape_value": 255,
+    {
           "format": "int",
-          "name": "Battery level:",
-          "offset": 0,
-          "scale": 1
+          "name": "Battery Level: ",
+          "negative_offset": 0,
+          "scale_factor": 1,
+          "type": "%",
+          "escape_value": 255,
+          "escape_message": ""
         }
-      ]
+      ],
+      "dtmi": "dtmi:appconfig:steval-proteus1:pdmwbsoc;1",
     },
     {
       "ble_dev_id": "0x0E",
