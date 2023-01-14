@@ -1,169 +1,160 @@
 [
   {
-    "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2;1",
+    "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0;1",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:iis3dwb_acc;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:iis3dwb_acc;1",
         "@type": "Component",
         "displayName": {
           "en": "IIS3DWB_ACC"
         },
         "name": "iis3dwb_acc",
-        "schema": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis3dwb_acc;1"
+        "schema": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis3dwb_acc;1"
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:iis2mdc_mag;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:iis2mdc_mag;1",
         "@type": "Component",
         "displayName": {
           "en": "IIS2MDC_MAG"
         },
         "name": "iis2mdc_mag",
-        "schema": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2mdc_mag;1"
+        "schema": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2mdc_mag;1"
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:imp23absu_mic;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:imp23absu_mic;1",
         "@type": "Component",
         "displayName": {
           "en": "IMP23ABSU_MIC"
         },
         "name": "imp23absu_mic",
-        "schema": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp23absu_mic;1"
+        "schema": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp23absu_mic;1"
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:ism330dhcx_acc;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:ism330dhcx_acc;1",
         "@type": "Component",
         "displayName": {
           "en": "ISM330DHCX_ACC"
         },
         "name": "ism330dhcx_acc",
-        "schema": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_acc;1"
+        "schema": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_acc;1"
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:ism330dhcx_gyro;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:ism330dhcx_gyro;1",
         "@type": "Component",
         "displayName": {
           "en": "ISM330DHCX_GYRO"
         },
         "name": "ism330dhcx_gyro",
-        "schema": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_gyro;1"
+        "schema": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_gyro;1"
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:ism330dhcx_mlc;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:ism330dhcx_mlc;1",
         "@type": "Component",
         "displayName": {
           "en": "ISM330DHCX_MLC"
         },
         "name": "ism330dhcx_mlc",
-        "schema": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_mlc;1"
+        "schema": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_mlc;1"
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:iis2dlpc_acc;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:iis2dlpc_acc;1",
         "@type": "Component",
         "displayName": {
           "en": "IIS2DLPC_ACC"
         },
         "name": "iis2dlpc_acc",
-        "schema": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2dlpc_acc;1"
+        "schema": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2dlpc_acc;1"
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:stts22h_temp;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:stts22h_temp;1",
         "@type": "Component",
         "displayName": {
           "en": "STTS22H_TEMP"
         },
         "name": "stts22h_temp",
-        "schema": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:stts22h_temp;1"
+        "schema": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:stts22h_temp;1"
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:ilps22qs_press;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:ilps22qs_press;1",
         "@type": "Component",
         "displayName": {
           "en": "ILPS22QS_PRESS"
         },
         "name": "ilps22qs_press",
-        "schema": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ilps22qs_press;1"
+        "schema": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ilps22qs_press;1"
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:imp34dt05_mic;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:imp34dt05_mic;1",
         "@type": "Component",
         "displayName": {
           "en": "IMP34DT05_MIC"
         },
         "name": "imp34dt05_mic",
-        "schema": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp34dt05_mic;1"
+        "schema": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp34dt05_mic;1"
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:iis2iclx_acc;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:iis2iclx_acc;1",
         "@type": "Component",
         "displayName": {
           "en": "IIS2ICLX_ACC"
         },
         "name": "iis2iclx_acc",
-        "schema": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2iclx_acc;1"
+        "schema": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2iclx_acc;1"
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:automode;1",
-        "@type": "Component",
-        "displayName": {
-          "en": "AutoMode"
-        },
-        "name": "automode",
-        "schema": "dtmi:vespucci:other:automode;1"
-      },
-      {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:log_controller;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:log_controller;1",
         "@type": "Component",
         "displayName": {
           "en": "Log Controller"
         },
         "name": "log_controller",
-        "schema": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:log_controller;1"
+        "schema": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:log_controller;1"
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:tags_info;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:deviceinfo;1",
+        "@type": "Component",
+        "displayName": {
+          "en": "Device Information"
+        },
+        "name": "deviceinfo",
+        "schema": "dtmi:azure:DeviceManagement:DeviceInformation;1"
+      },
+      {
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:tags_info;1",
         "@type": "Component",
         "displayName": {
           "en": "Tags Information"
         },
         "name": "tags_info",
-        "schema": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:tags_info;1"
+        "schema": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info;1"
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:acquisition_info;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:acquisition_info;1",
         "@type": "Component",
         "displayName": {
           "en": "Acquisition Information"
         },
         "name": "acquisition_info",
-        "schema": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:acquisition_info;1"
+        "schema": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:acquisition_info;1"
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:firmware_info;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:firmware_info;1",
         "@type": "Component",
         "displayName": {
           "en": "Firmware Information"
         },
         "name": "firmware_info",
-        "schema": "dtmi:vespucci:other:firmware_info;1"
+        "schema": "dtmi:stmicroelectronics:other:firmware_info;1"
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:DeviceInformation;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:demos;1",
         "@type": "Component",
         "displayName": {
-          "en": "Device Information"
+          "en": "Demos"
         },
-        "name": "DeviceInformation",
-        "schema": "dtmi:azure:DeviceManagement:DeviceInformation;1"
-      },
-      {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:applications_stblesensor;1",
-        "@type": "Component",
-        "displayName": {
-          "en": "Applications ST BLE Sensor"
-        },
-        "name": "applications_stblesensor",
-        "schema": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:applications_stblesensor;1"
+        "name": "demos",
+        "schema": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:demos;1"
       }
     ],
     "displayName": {
@@ -179,25 +170,25 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis3dwb_acc;1",
+    "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis3dwb_acc;1",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis3dwb_acc:odr;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis3dwb_acc:odr;1",
         "@type": "Property",
         "displayName": {
           "en": "ODR"
         },
         "name": "odr",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis3dwb_acc:odr:schema;1",
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis3dwb_acc:odr:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis3dwb_acc:odr:schema:hz26667;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis3dwb_acc:odr:schema:hz26667;1",
               "displayName": {
                 "en": "26667"
               },
@@ -211,21 +202,21 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis3dwb_acc:fs;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis3dwb_acc:fs;1",
         "@type": "Property",
         "displayName": {
           "en": "FS"
         },
         "name": "fs",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis3dwb_acc:fs:schema;1",
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis3dwb_acc:fs:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis3dwb_acc:fs:schema:g2;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis3dwb_acc:fs:schema:g2;1",
               "displayName": {
                 "en": "2"
               },
@@ -233,7 +224,7 @@
               "name": "g2"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis3dwb_acc:fs:schema:g4;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis3dwb_acc:fs:schema:g4;1",
               "displayName": {
                 "en": "4"
               },
@@ -241,7 +232,7 @@
               "name": "g4"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis3dwb_acc:fs:schema:g8;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis3dwb_acc:fs:schema:g8;1",
               "displayName": {
                 "en": "8"
               },
@@ -249,7 +240,7 @@
               "name": "g8"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis3dwb_acc:fs:schema:g16;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis3dwb_acc:fs:schema:g16;1",
               "displayName": {
                 "en": "16"
               },
@@ -263,11 +254,8 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis3dwb_acc:enable;1",
-        "@type": [
-          "Property",
-          "BooleanValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis3dwb_acc:enable;1",
+        "@type": "Property",
         "displayName": {
           "en": "Enabled"
         },
@@ -276,21 +264,21 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis3dwb_acc:samples_per_ts;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis3dwb_acc:samples_per_ts;1",
         "@type": "Property",
         "displayName": {
           "en": "Samples per Timestamp"
         },
         "name": "samples_per_ts",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis3dwb_acc:samples_per_ts:schema;1",
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis3dwb_acc:samples_per_ts:schema;1",
           "@type": "Object",
           "displayName": {
             "en": "Object"
           },
           "fields": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis3dwb_acc:samples_per_ts:schema:val;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis3dwb_acc:samples_per_ts:schema:val;1",
               "displayName": {
                 "en": "Value"
               },
@@ -298,7 +286,7 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis3dwb_acc:samples_per_ts:schema:min;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis3dwb_acc:samples_per_ts:schema:min;1",
               "displayName": {
                 "en": "Min"
               },
@@ -306,7 +294,7 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis3dwb_acc:samples_per_ts:schema:max;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis3dwb_acc:samples_per_ts:schema:max;1",
               "displayName": {
                 "en": "Max"
               },
@@ -319,11 +307,8 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis3dwb_acc:dim;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis3dwb_acc:dim;1",
+        "@type": "Property",
         "displayName": {
           "en": "Dimensions"
         },
@@ -332,11 +317,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis3dwb_acc:ioffset;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis3dwb_acc:ioffset;1",
+        "@type": "Property",
         "displayName": {
           "en": "Initial Offset"
         },
@@ -345,11 +327,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis3dwb_acc:measodr;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis3dwb_acc:measodr;1",
+        "@type": "Property",
         "displayName": {
           "en": "Measured ODR"
         },
@@ -358,11 +337,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis3dwb_acc:usb_dps;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis3dwb_acc:usb_dps;1",
+        "@type": "Property",
         "displayName": {
           "en": "USB Data Packet Size"
         },
@@ -371,11 +347,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis3dwb_acc:sd_dps;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis3dwb_acc:sd_dps;1",
+        "@type": "Property",
         "displayName": {
           "en": "SD Data Packet Size"
         },
@@ -384,11 +357,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis3dwb_acc:sensitivity;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis3dwb_acc:sensitivity;1",
+        "@type": "Property",
         "displayName": {
           "en": "Sensitivity"
         },
@@ -397,11 +367,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis3dwb_acc:data_type;1",
-        "@type": [
-          "Property",
-          "StringValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis3dwb_acc:data_type;1",
+        "@type": "Property",
         "displayName": {
           "en": "Data Type"
         },
@@ -411,7 +378,7 @@
       }
     ],
     "displayName": {
-      "en": "IIS3DWB_ACC"
+      "en": "iis3dwb_acc"
     }
   },
   {
@@ -419,25 +386,25 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2mdc_mag;1",
+    "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2mdc_mag;1",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2mdc_mag:odr;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2mdc_mag:odr;1",
         "@type": "Property",
         "displayName": {
           "en": "ODR"
         },
         "name": "odr",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2mdc_mag:odr:schema;1",
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2mdc_mag:odr:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2mdc_mag:odr:schema:hz10;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2mdc_mag:odr:schema:hz10;1",
               "displayName": {
                 "en": "10"
               },
@@ -445,7 +412,7 @@
               "name": "hz10"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2mdc_mag:odr:schema:hz20;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2mdc_mag:odr:schema:hz20;1",
               "displayName": {
                 "en": "20"
               },
@@ -453,7 +420,7 @@
               "name": "hz20"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2mdc_mag:odr:schema:hz50;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2mdc_mag:odr:schema:hz50;1",
               "displayName": {
                 "en": "50"
               },
@@ -461,7 +428,7 @@
               "name": "hz50"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2mdc_mag:odr:schema:hz100;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2mdc_mag:odr:schema:hz100;1",
               "displayName": {
                 "en": "100"
               },
@@ -475,21 +442,21 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2mdc_mag:fs;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2mdc_mag:fs;1",
         "@type": "Property",
         "displayName": {
           "en": "FS"
         },
         "name": "fs",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2mdc_mag:fs:schema;1",
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2mdc_mag:fs:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2mdc_mag:fs:schema:g50;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2mdc_mag:fs:schema:g50;1",
               "displayName": {
                 "en": "50"
               },
@@ -499,17 +466,12 @@
           ],
           "valueSchema": "integer"
         },
-        "writable": false,
-        "displayUnit": {
-          "en": "gauss"
-        }
+        "unit": "gForce",
+        "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2mdc_mag:enable;1",
-        "@type": [
-          "Property",
-          "BooleanValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2mdc_mag:enable;1",
+        "@type": "Property",
         "displayName": {
           "en": "Enabled"
         },
@@ -518,21 +480,21 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2mdc_mag:samples_per_ts;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2mdc_mag:samples_per_ts;1",
         "@type": "Property",
         "displayName": {
           "en": "Samples per Timestamp"
         },
         "name": "samples_per_ts",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2mdc_mag:samples_per_ts:schema;1",
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2mdc_mag:samples_per_ts:schema;1",
           "@type": "Object",
           "displayName": {
             "en": "Object"
           },
           "fields": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2mdc_mag:samples_per_ts:schema:val;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2mdc_mag:samples_per_ts:schema:val;1",
               "displayName": {
                 "en": "Value"
               },
@@ -540,7 +502,7 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2mdc_mag:samples_per_ts:schema:min;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2mdc_mag:samples_per_ts:schema:min;1",
               "displayName": {
                 "en": "Min"
               },
@@ -548,7 +510,7 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2mdc_mag:samples_per_ts:schema:max;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2mdc_mag:samples_per_ts:schema:max;1",
               "displayName": {
                 "en": "Max"
               },
@@ -561,11 +523,8 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2mdc_mag:dim;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2mdc_mag:dim;1",
+        "@type": "Property",
         "displayName": {
           "en": "Dimensions"
         },
@@ -574,11 +533,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2mdc_mag:ioffset;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2mdc_mag:ioffset;1",
+        "@type": "Property",
         "displayName": {
           "en": "Initial Offset"
         },
@@ -587,11 +543,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2mdc_mag:measodr;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2mdc_mag:measodr;1",
+        "@type": "Property",
         "displayName": {
           "en": "Measured ODR"
         },
@@ -600,11 +553,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2mdc_mag:usb_dps;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2mdc_mag:usb_dps;1",
+        "@type": "Property",
         "displayName": {
           "en": "USB Data Packet Size"
         },
@@ -613,11 +563,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2mdc_mag:sd_dps;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2mdc_mag:sd_dps;1",
+        "@type": "Property",
         "displayName": {
           "en": "SD Data Packet Size"
         },
@@ -626,11 +573,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2mdc_mag:sensitivity;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2mdc_mag:sensitivity;1",
+        "@type": "Property",
         "displayName": {
           "en": "Sensitivity"
         },
@@ -639,11 +583,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2mdc_mag:data_type;1",
-        "@type": [
-          "Property",
-          "StringValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2mdc_mag:data_type;1",
+        "@type": "Property",
         "displayName": {
           "en": "Data Type"
         },
@@ -661,25 +602,25 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp23absu_mic;1",
+    "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp23absu_mic;1",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp23absu_mic:odr;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp23absu_mic:odr;1",
         "@type": "Property",
         "displayName": {
           "en": "ODR"
         },
         "name": "odr",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp23absu_mic:odr:schema;1",
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp23absu_mic:odr:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp23absu_mic:odr:schema:hz16000;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp23absu_mic:odr:schema:hz16000;1",
               "displayName": {
                 "en": "16000"
               },
@@ -687,7 +628,7 @@
               "name": "hz16000"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp23absu_mic:odr:schema:hz32000;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp23absu_mic:odr:schema:hz32000;1",
               "displayName": {
                 "en": "32000"
               },
@@ -695,7 +636,7 @@
               "name": "hz32000"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp23absu_mic:odr:schema:hz48000;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp23absu_mic:odr:schema:hz48000;1",
               "displayName": {
                 "en": "48000"
               },
@@ -703,7 +644,7 @@
               "name": "hz48000"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp23absu_mic:odr:schema:hz96000;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp23absu_mic:odr:schema:hz96000;1",
               "displayName": {
                 "en": "96000"
               },
@@ -711,7 +652,7 @@
               "name": "hz96000"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp23absu_mic:odr:schema:hz192000;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp23absu_mic:odr:schema:hz192000;1",
               "displayName": {
                 "en": "192000"
               },
@@ -725,21 +666,21 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp23absu_mic:aop;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp23absu_mic:aop;1",
         "@type": "Property",
         "displayName": {
           "en": "AOP"
         },
         "name": "aop",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp23absu_mic:aop:schema;1",
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp23absu_mic:aop:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp23absu_mic:aop:schema:dbspl130;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp23absu_mic:aop:schema:dbspl130;1",
               "displayName": {
                 "en": "130"
               },
@@ -749,17 +690,12 @@
           ],
           "valueSchema": "integer"
         },
-        "writable": false,
-        "displayUnit": {
-          "en": "Waveform"
-        }
+        "unit": "decibel",
+        "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp23absu_mic:enable;1",
-        "@type": [
-          "Property",
-          "BooleanValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp23absu_mic:enable;1",
+        "@type": "Property",
         "displayName": {
           "en": "Enabled"
         },
@@ -768,21 +704,21 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp23absu_mic:samples_per_ts;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp23absu_mic:samples_per_ts;1",
         "@type": "Property",
         "displayName": {
           "en": "Samples per Timestamp"
         },
         "name": "samples_per_ts",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp23absu_mic:samples_per_ts:schema;1",
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp23absu_mic:samples_per_ts:schema;1",
           "@type": "Object",
           "displayName": {
             "en": "Object"
           },
           "fields": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp23absu_mic:samples_per_ts:schema:val;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp23absu_mic:samples_per_ts:schema:val;1",
               "displayName": {
                 "en": "Value"
               },
@@ -790,7 +726,7 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp23absu_mic:samples_per_ts:schema:min;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp23absu_mic:samples_per_ts:schema:min;1",
               "displayName": {
                 "en": "Min"
               },
@@ -798,7 +734,7 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp23absu_mic:samples_per_ts:schema:max;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp23absu_mic:samples_per_ts:schema:max;1",
               "displayName": {
                 "en": "Max"
               },
@@ -811,11 +747,8 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp23absu_mic:dim;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp23absu_mic:dim;1",
+        "@type": "Property",
         "displayName": {
           "en": "Dimensions"
         },
@@ -824,11 +757,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp23absu_mic:ioffset;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp23absu_mic:ioffset;1",
+        "@type": "Property",
         "displayName": {
           "en": "Initial Offset"
         },
@@ -837,11 +767,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp23absu_mic:measodr;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp23absu_mic:measodr;1",
+        "@type": "Property",
         "displayName": {
           "en": "Measured ODR"
         },
@@ -850,11 +777,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp23absu_mic:usb_dps;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp23absu_mic:usb_dps;1",
+        "@type": "Property",
         "displayName": {
           "en": "USB Data Packet Size"
         },
@@ -863,11 +787,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp23absu_mic:sd_dps;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp23absu_mic:sd_dps;1",
+        "@type": "Property",
         "displayName": {
           "en": "SD Data Packet Size"
         },
@@ -876,11 +797,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp23absu_mic:sensitivity;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp23absu_mic:sensitivity;1",
+        "@type": "Property",
         "displayName": {
           "en": "Sensitivity"
         },
@@ -889,11 +807,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp23absu_mic:data_type;1",
-        "@type": [
-          "Property",
-          "StringValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp23absu_mic:data_type;1",
+        "@type": "Property",
         "displayName": {
           "en": "Data Type"
         },
@@ -911,25 +826,25 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_acc;1",
+    "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_acc;1",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_acc:odr;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_acc:odr;1",
         "@type": "Property",
         "displayName": {
           "en": "ODR"
         },
         "name": "odr",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_acc:odr:schema;1",
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_acc:odr:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_acc:odr:schema:hz12_5;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_acc:odr:schema:hz12_5;1",
               "displayName": {
                 "en": "12.5"
               },
@@ -937,7 +852,7 @@
               "name": "hz12_5"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_acc:odr:schema:hz26;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_acc:odr:schema:hz26;1",
               "displayName": {
                 "en": "26"
               },
@@ -945,7 +860,7 @@
               "name": "hz26"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_acc:odr:schema:hz52;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_acc:odr:schema:hz52;1",
               "displayName": {
                 "en": "52"
               },
@@ -953,7 +868,7 @@
               "name": "hz52"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_acc:odr:schema:hz104;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_acc:odr:schema:hz104;1",
               "displayName": {
                 "en": "104"
               },
@@ -961,7 +876,7 @@
               "name": "hz104"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_acc:odr:schema:hz208;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_acc:odr:schema:hz208;1",
               "displayName": {
                 "en": "208"
               },
@@ -969,15 +884,15 @@
               "name": "hz208"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_acc:odr:schema:hz416;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_acc:odr:schema:hz417;1",
               "displayName": {
-                "en": "416"
+                "en": "417"
               },
               "enumValue": 5,
-              "name": "hz416"
+              "name": "hz417"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_acc:odr:schema:hz833;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_acc:odr:schema:hz833;1",
               "displayName": {
                 "en": "833"
               },
@@ -985,23 +900,23 @@
               "name": "hz833"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_acc:odr:schema:hz1666;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_acc:odr:schema:hz1667;1",
               "displayName": {
-                "en": "1666"
+                "en": "1667"
               },
               "enumValue": 7,
-              "name": "hz1666"
+              "name": "hz1667"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_acc:odr:schema:hz3332;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_acc:odr:schema:hz3333;1",
               "displayName": {
-                "en": "3332"
+                "en": "3333"
               },
               "enumValue": 8,
-              "name": "hz3332"
+              "name": "hz3333"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_acc:odr:schema:hz6667;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_acc:odr:schema:hz6667;1",
               "displayName": {
                 "en": "6667"
               },
@@ -1015,21 +930,21 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_acc:fs;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_acc:fs;1",
         "@type": "Property",
         "displayName": {
           "en": "FS"
         },
         "name": "fs",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_acc:fs:schema;1",
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_acc:fs:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_acc:fs:schema:g2;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_acc:fs:schema:g2;1",
               "displayName": {
                 "en": "2"
               },
@@ -1037,7 +952,7 @@
               "name": "g2"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_acc:fs:schema:g4;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_acc:fs:schema:g4;1",
               "displayName": {
                 "en": "4"
               },
@@ -1045,7 +960,7 @@
               "name": "g4"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_acc:fs:schema:g8;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_acc:fs:schema:g8;1",
               "displayName": {
                 "en": "8"
               },
@@ -1053,7 +968,7 @@
               "name": "g8"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_acc:fs:schema:g16;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_acc:fs:schema:g16;1",
               "displayName": {
                 "en": "16"
               },
@@ -1067,11 +982,8 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_acc:enable;1",
-        "@type": [
-          "Property",
-          "BooleanValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_acc:enable;1",
+        "@type": "Property",
         "displayName": {
           "en": "Enabled"
         },
@@ -1080,21 +992,21 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_acc:samples_per_ts;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_acc:samples_per_ts;1",
         "@type": "Property",
         "displayName": {
           "en": "Samples per Timestamp"
         },
         "name": "samples_per_ts",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_acc:samples_per_ts:schema;1",
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_acc:samples_per_ts:schema;1",
           "@type": "Object",
           "displayName": {
             "en": "Object"
           },
           "fields": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_acc:samples_per_ts:schema:val;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_acc:samples_per_ts:schema:val;1",
               "displayName": {
                 "en": "Value"
               },
@@ -1102,7 +1014,7 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_acc:samples_per_ts:schema:min;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_acc:samples_per_ts:schema:min;1",
               "displayName": {
                 "en": "Min"
               },
@@ -1110,7 +1022,7 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_acc:samples_per_ts:schema:max;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_acc:samples_per_ts:schema:max;1",
               "displayName": {
                 "en": "Max"
               },
@@ -1123,11 +1035,8 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_acc:dim;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_acc:dim;1",
+        "@type": "Property",
         "displayName": {
           "en": "Dimensions"
         },
@@ -1136,11 +1045,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_acc:ioffset;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_acc:ioffset;1",
+        "@type": "Property",
         "displayName": {
           "en": "Initial Offset"
         },
@@ -1149,11 +1055,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_acc:measodr;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_acc:measodr;1",
+        "@type": "Property",
         "displayName": {
           "en": "Measured ODR"
         },
@@ -1162,11 +1065,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_acc:usb_dps;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_acc:usb_dps;1",
+        "@type": "Property",
         "displayName": {
           "en": "USB Data Packet Size"
         },
@@ -1175,11 +1075,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_acc:sd_dps;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_acc:sd_dps;1",
+        "@type": "Property",
         "displayName": {
           "en": "SD Data Packet Size"
         },
@@ -1188,11 +1085,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_acc:sensitivity;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_acc:sensitivity;1",
+        "@type": "Property",
         "displayName": {
           "en": "Sensitivity"
         },
@@ -1201,11 +1095,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_acc:data_type;1",
-        "@type": [
-          "Property",
-          "StringValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_acc:data_type;1",
+        "@type": "Property",
         "displayName": {
           "en": "Data Type"
         },
@@ -1213,35 +1104,32 @@
         "schema": "string",
         "writable": false
       }
-    ],
-    "displayName": {
-      "en": "ISM330DHCX_ACC"
-    }
+    ]
   },
   {
     "@context": [
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_gyro;1",
+    "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_gyro;1",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_gyro:odr;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_gyro:odr;1",
         "@type": "Property",
         "displayName": {
           "en": "ODR"
         },
         "name": "odr",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_gyro:odr:schema;1",
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_gyro:odr:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_gyro:odr:schema:hz12_5;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_gyro:odr:schema:hz12_5;1",
               "displayName": {
                 "en": "12.5"
               },
@@ -1249,7 +1137,7 @@
               "name": "hz12_5"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_gyro:odr:schema:hz26;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_gyro:odr:schema:hz26;1",
               "displayName": {
                 "en": "26"
               },
@@ -1257,7 +1145,7 @@
               "name": "hz26"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_gyro:odr:schema:hz52;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_gyro:odr:schema:hz52;1",
               "displayName": {
                 "en": "52"
               },
@@ -1265,7 +1153,7 @@
               "name": "hz52"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_gyro:odr:schema:hz104;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_gyro:odr:schema:hz104;1",
               "displayName": {
                 "en": "104"
               },
@@ -1273,7 +1161,7 @@
               "name": "hz104"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_gyro:odr:schema:hz208;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_gyro:odr:schema:hz208;1",
               "displayName": {
                 "en": "208"
               },
@@ -1281,15 +1169,15 @@
               "name": "hz208"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_gyro:odr:schema:hz416;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_gyro:odr:schema:hz417;1",
               "displayName": {
-                "en": "416"
+                "en": "417"
               },
               "enumValue": 5,
-              "name": "hz416"
+              "name": "hz417"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_gyro:odr:schema:hz833;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_gyro:odr:schema:hz833;1",
               "displayName": {
                 "en": "833"
               },
@@ -1297,23 +1185,23 @@
               "name": "hz833"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_gyro:odr:schema:hz1666;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_gyro:odr:schema:hz1667;1",
               "displayName": {
-                "en": "1666"
+                "en": "1667"
               },
               "enumValue": 7,
-              "name": "hz1666"
+              "name": "hz1667"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_gyro:odr:schema:hz3332;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_gyro:odr:schema:hz3333;1",
               "displayName": {
-                "en": "3332"
+                "en": "3333"
               },
               "enumValue": 8,
-              "name": "hz3332"
+              "name": "hz3333"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_gyro:odr:schema:hz6667;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_gyro:odr:schema:hz6667;1",
               "displayName": {
                 "en": "6667"
               },
@@ -1327,21 +1215,21 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_gyro:fs;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_gyro:fs;1",
         "@type": "Property",
         "displayName": {
           "en": "FS"
         },
         "name": "fs",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_gyro:fs:schema;1",
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_gyro:fs:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_gyro:fs:schema:dps125;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_gyro:fs:schema:dps125;1",
               "displayName": {
                 "en": "125"
               },
@@ -1349,7 +1237,7 @@
               "name": "dps125"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_gyro:fs:schema:dps250;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_gyro:fs:schema:dps250;1",
               "displayName": {
                 "en": "250"
               },
@@ -1357,7 +1245,7 @@
               "name": "dps250"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_gyro:fs:schema:dps500;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_gyro:fs:schema:dps500;1",
               "displayName": {
                 "en": "500"
               },
@@ -1365,7 +1253,7 @@
               "name": "dps500"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_gyro:fs:schema:dps1000;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_gyro:fs:schema:dps1000;1",
               "displayName": {
                 "en": "1000"
               },
@@ -1373,7 +1261,7 @@
               "name": "dps1000"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_gyro:fs:schema:dps2000;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_gyro:fs:schema:dps2000;1",
               "displayName": {
                 "en": "2000"
               },
@@ -1381,7 +1269,7 @@
               "name": "dps2000"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_gyro:fs:schema:dps4000;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_gyro:fs:schema:dps4000;1",
               "displayName": {
                 "en": "4000"
               },
@@ -1391,17 +1279,12 @@
           ],
           "valueSchema": "integer"
         },
-        "writable": true,
-        "displayUnit": {
-          "en": "mdps"
-        }
+        "unit": "degreePerSecond",
+        "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_gyro:enable;1",
-        "@type": [
-          "Property",
-          "BooleanValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_gyro:enable;1",
+        "@type": "Property",
         "displayName": {
           "en": "Enabled"
         },
@@ -1410,21 +1293,21 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_gyro:samples_per_ts;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_gyro:samples_per_ts;1",
         "@type": "Property",
         "displayName": {
           "en": "Samples per Timestamp"
         },
         "name": "samples_per_ts",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_gyro:samples_per_ts:schema;1",
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_gyro:samples_per_ts:schema;1",
           "@type": "Object",
           "displayName": {
             "en": "Object"
           },
           "fields": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_gyro:samples_per_ts:schema:val;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_gyro:samples_per_ts:schema:val;1",
               "displayName": {
                 "en": "Value"
               },
@@ -1432,7 +1315,7 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_gyro:samples_per_ts:schema:min;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_gyro:samples_per_ts:schema:min;1",
               "displayName": {
                 "en": "Min"
               },
@@ -1440,7 +1323,7 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_gyro:samples_per_ts:schema:max;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_gyro:samples_per_ts:schema:max;1",
               "displayName": {
                 "en": "Max"
               },
@@ -1453,11 +1336,8 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_gyro:dim;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_gyro:dim;1",
+        "@type": "Property",
         "displayName": {
           "en": "Dimensions"
         },
@@ -1466,11 +1346,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_gyro:ioffset;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_gyro:ioffset;1",
+        "@type": "Property",
         "displayName": {
           "en": "Initial Offset"
         },
@@ -1479,11 +1356,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_gyro:measodr;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_gyro:measodr;1",
+        "@type": "Property",
         "displayName": {
           "en": "Measured ODR"
         },
@@ -1492,11 +1366,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_gyro:usb_dps;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_gyro:usb_dps;1",
+        "@type": "Property",
         "displayName": {
           "en": "USB Data Packet Size"
         },
@@ -1505,11 +1376,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_gyro:sd_dps;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_gyro:sd_dps;1",
+        "@type": "Property",
         "displayName": {
           "en": "SD Data Packet Size"
         },
@@ -1518,11 +1386,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_gyro:sensitivity;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_gyro:sensitivity;1",
+        "@type": "Property",
         "displayName": {
           "en": "Sensitivity"
         },
@@ -1531,11 +1396,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_gyro:data_type;1",
-        "@type": [
-          "Property",
-          "StringValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_gyro:data_type;1",
+        "@type": "Property",
         "displayName": {
           "en": "Data Type"
         },
@@ -1553,15 +1415,12 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_mlc;1",
+    "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_mlc;1",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_mlc:enable;1",
-        "@type": [
-          "Property",
-          "BooleanValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_mlc:enable;1",
+        "@type": "Property",
         "displayName": {
           "en": "MLC Enable"
         },
@@ -1570,21 +1429,21 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_mlc:samples_per_ts;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_mlc:samples_per_ts;1",
         "@type": "Property",
         "displayName": {
           "en": "Samples per Timestamp"
         },
         "name": "samples_per_ts",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_mlc:samples_per_ts:schema;1",
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_mlc:samples_per_ts:schema;1",
           "@type": "Object",
           "displayName": {
             "en": "Object"
           },
           "fields": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_mlc:samples_per_ts:schema:val;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_mlc:samples_per_ts:schema:val;1",
               "displayName": {
                 "en": "Value"
               },
@@ -1592,7 +1451,7 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_mlc:samples_per_ts:schema:min;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_mlc:samples_per_ts:schema:min;1",
               "displayName": {
                 "en": "Min"
               },
@@ -1600,7 +1459,7 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_mlc:samples_per_ts:schema:max;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_mlc:samples_per_ts:schema:max;1",
               "displayName": {
                 "en": "Max"
               },
@@ -1613,7 +1472,7 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_mlc:load_file;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_mlc:load_file;1",
         "@type": "Command",
         "commandType": "synchronous",
         "displayName": {
@@ -1634,17 +1493,17 @@
             "fields": [
               {
                 "displayName": {
-                  "en": "UCF Data"
-                },
-                "name": "data",
-                "schema": "string"
-              },
-              {
-                "displayName": {
-                  "en": "UCF Size"
+                  "en": "size"
                 },
                 "name": "size",
                 "schema": "integer"
+              },
+              {
+                "displayName": {
+                  "en": "data"
+                },
+                "name": "data",
+                "schema": "string"
               }
             ]
           }
@@ -1659,81 +1518,13 @@
         }
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_mlc:ucf_status;1",
-        "@type": [
-          "Property",
-          "BooleanValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ism330dhcx_mlc:ucf_status;1",
+        "@type": "Property",
         "displayName": {
           "en": "UCF Loaded"
         },
         "name": "ucf_status",
         "schema": "boolean",
-        "writable": false
-      },
-      {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_mlc:dim;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
-        "displayName": {
-          "en": "Dimensions"
-        },
-        "name": "dim",
-        "schema": "integer",
-        "writable": false
-      },
-      {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_mlc:ioffset;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
-        "displayName": {
-          "en": "Initial Offset"
-        },
-        "name": "ioffset",
-        "schema": "double",
-        "writable": false
-      },
-      {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_mlc:data_type;1",
-        "@type": [
-          "Property",
-          "StringValue"
-        ],
-        "displayName": {
-          "en": "Data Type"
-        },
-        "name": "data_type",
-        "schema": "string",
-        "writable": false
-      },
-      {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_mlc:usb_dps;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
-        "displayName": {
-          "en": "USB Data Packet Size"
-        },
-        "name": "usb_dps",
-        "schema": "integer",
-        "writable": false
-      },
-      {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ism330dhcx_mlc:sd_dps;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
-        "displayName": {
-          "en": "SD Data Packet Size"
-        },
-        "name": "sd_dps",
-        "schema": "integer",
         "writable": false
       }
     ],
@@ -1746,85 +1537,93 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2dlpc_acc;1",
+    "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2dlpc_acc;1",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2dlpc_acc:odr;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2dlpc_acc:odr;1",
         "@type": "Property",
         "displayName": {
           "en": "ODR"
         },
         "name": "odr",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2dlpc_acc:odr:schema;1",
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2dlpc_acc:odr:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2dlpc_acc:odr:schema:hz12_5;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2dlpc_acc:odr:schema:hz1_6;1",
+              "displayName": {
+                "en": "1,6"
+              },
+              "enumValue": 0,
+              "name": "hz1_6"
+            },
+            {
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2dlpc_acc:odr:schema:hz12_5;1",
               "displayName": {
                 "en": "12,5"
               },
-              "enumValue": 0,
+              "enumValue": 1,
               "name": "hz12_5"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2dlpc_acc:odr:schema:hz25;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2dlpc_acc:odr:schema:hz25;1",
               "displayName": {
                 "en": "25"
               },
-              "enumValue": 1,
+              "enumValue": 2,
               "name": "hz25"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2dlpc_acc:odr:schema:hz50;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2dlpc_acc:odr:schema:hz50;1",
               "displayName": {
                 "en": "50"
               },
-              "enumValue": 2,
+              "enumValue": 3,
               "name": "hz50"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2dlpc_acc:odr:schema:hz100;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2dlpc_acc:odr:schema:hz100;1",
               "displayName": {
                 "en": "100"
               },
-              "enumValue": 3,
+              "enumValue": 4,
               "name": "hz100"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2dlpc_acc:odr:schema:hz200;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2dlpc_acc:odr:schema:hz200;1",
               "displayName": {
                 "en": "200"
               },
-              "enumValue": 4,
+              "enumValue": 5,
               "name": "hz200"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2dlpc_acc:odr:schema:hz400;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2dlpc_acc:odr:schema:hz400;1",
               "displayName": {
                 "en": "400"
               },
-              "enumValue": 5,
+              "enumValue": 6,
               "name": "hz400"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2dlpc_acc:odr:schema:hz800;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2dlpc_acc:odr:schema:hz800;1",
               "displayName": {
                 "en": "800"
               },
-              "enumValue": 6,
+              "enumValue": 7,
               "name": "hz800"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2dlpc_acc:odr:schema:hz1600;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2dlpc_acc:odr:schema:hz1600;1",
               "displayName": {
                 "en": "1600"
               },
-              "enumValue": 7,
+              "enumValue": 8,
               "name": "hz1600"
             }
           ],
@@ -1834,21 +1633,21 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2dlpc_acc:fs;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2dlpc_acc:fs;1",
         "@type": "Property",
         "displayName": {
           "en": "FS"
         },
         "name": "fs",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2dlpc_acc:fs:schema;1",
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2dlpc_acc:fs:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2dlpc_acc:fs:schema:g2;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2dlpc_acc:fs:schema:g2;1",
               "displayName": {
                 "en": "2"
               },
@@ -1856,7 +1655,7 @@
               "name": "g2"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2dlpc_acc:fs:schema:g4;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2dlpc_acc:fs:schema:g4;1",
               "displayName": {
                 "en": "4"
               },
@@ -1864,7 +1663,7 @@
               "name": "g4"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2dlpc_acc:fs:schema:g8;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2dlpc_acc:fs:schema:g8;1",
               "displayName": {
                 "en": "8"
               },
@@ -1872,7 +1671,7 @@
               "name": "g8"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2dlpc_acc:fs:schema:g16;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2dlpc_acc:fs:schema:g16;1",
               "displayName": {
                 "en": "16"
               },
@@ -1886,11 +1685,8 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2dlpc_acc:enable;1",
-        "@type": [
-          "Property",
-          "BooleanValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2dlpc_acc:enable;1",
+        "@type": "Property",
         "displayName": {
           "en": "Enabled"
         },
@@ -1899,21 +1695,21 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2dlpc_acc:samples_per_ts;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2dlpc_acc:samples_per_ts;1",
         "@type": "Property",
         "displayName": {
           "en": "Samples per Timestamp"
         },
         "name": "samples_per_ts",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2dlpc_acc:samples_per_ts:schema;1",
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2dlpc_acc:samples_per_ts:schema;1",
           "@type": "Object",
           "displayName": {
             "en": "Object"
           },
           "fields": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2dlpc_acc:samples_per_ts:schema:val;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2dlpc_acc:samples_per_ts:schema:val;1",
               "displayName": {
                 "en": "Value"
               },
@@ -1921,7 +1717,7 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2dlpc_acc:samples_per_ts:schema:min;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2dlpc_acc:samples_per_ts:schema:min;1",
               "displayName": {
                 "en": "Min"
               },
@@ -1929,7 +1725,7 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2dlpc_acc:samples_per_ts:schema:max;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2dlpc_acc:samples_per_ts:schema:max;1",
               "displayName": {
                 "en": "Max"
               },
@@ -1942,11 +1738,8 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2dlpc_acc:dim;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2dlpc_acc:dim;1",
+        "@type": "Property",
         "displayName": {
           "en": "Dimensions"
         },
@@ -1955,11 +1748,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2dlpc_acc:ioffset;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2dlpc_acc:ioffset;1",
+        "@type": "Property",
         "displayName": {
           "en": "Initial Offset"
         },
@@ -1968,11 +1758,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2dlpc_acc:measodr;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2dlpc_acc:measodr;1",
+        "@type": "Property",
         "displayName": {
           "en": "Measured ODR"
         },
@@ -1981,11 +1768,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2dlpc_acc:usb_dps;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2dlpc_acc:usb_dps;1",
+        "@type": "Property",
         "displayName": {
           "en": "USB Data Packet Size"
         },
@@ -1994,11 +1778,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2dlpc_acc:sd_dps;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2dlpc_acc:sd_dps;1",
+        "@type": "Property",
         "displayName": {
           "en": "SD Data Packet Size"
         },
@@ -2007,11 +1788,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2dlpc_acc:sensitivity;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2dlpc_acc:sensitivity;1",
+        "@type": "Property",
         "displayName": {
           "en": "Sensitivity"
         },
@@ -2020,11 +1798,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2dlpc_acc:data_type;1",
-        "@type": [
-          "Property",
-          "StringValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2dlpc_acc:data_type;1",
+        "@type": "Property",
         "displayName": {
           "en": "Data Type"
         },
@@ -2042,25 +1817,25 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:stts22h_temp;1",
+    "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:stts22h_temp;1",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:stts22h_temp:odr;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:stts22h_temp:odr;1",
         "@type": "Property",
         "displayName": {
           "en": "ODR"
         },
         "name": "odr",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:stts22h_temp:odr:schema;1",
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:stts22h_temp:odr:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:stts22h_temp:odr:schema:hz1;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:stts22h_temp:odr:schema:hz1;1",
               "displayName": {
                 "en": "1"
               },
@@ -2068,7 +1843,7 @@
               "name": "hz1"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:stts22h_temp:odr:schema:hz25;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:stts22h_temp:odr:schema:hz25;1",
               "displayName": {
                 "en": "25"
               },
@@ -2076,7 +1851,7 @@
               "name": "hz25"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:stts22h_temp:odr:schema:hz50;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:stts22h_temp:odr:schema:hz50;1",
               "displayName": {
                 "en": "50"
               },
@@ -2084,7 +1859,7 @@
               "name": "hz50"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:stts22h_temp:odr:schema:hz100;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:stts22h_temp:odr:schema:hz100;1",
               "displayName": {
                 "en": "100"
               },
@@ -2092,7 +1867,7 @@
               "name": "hz100"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:stts22h_temp:odr:schema:hz200;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:stts22h_temp:odr:schema:hz200;1",
               "displayName": {
                 "en": "200"
               },
@@ -2106,21 +1881,21 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:stts22h_temp:fs;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:stts22h_temp:fs;1",
         "@type": "Property",
         "displayName": {
           "en": "FS"
         },
         "name": "fs",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:stts22h_temp:fs:schema;1",
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:stts22h_temp:fs:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:stts22h_temp:fs:schema:cdeg100;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:stts22h_temp:fs:schema:cdeg100;1",
               "displayName": {
                 "en": "100"
               },
@@ -2134,11 +1909,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:stts22h_temp:enable;1",
-        "@type": [
-          "Property",
-          "BooleanValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:stts22h_temp:enable;1",
+        "@type": "Property",
         "displayName": {
           "en": "Enabled"
         },
@@ -2147,21 +1919,21 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:stts22h_temp:samples_per_ts;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:stts22h_temp:samples_per_ts;1",
         "@type": "Property",
         "displayName": {
           "en": "Samples per Timestamp"
         },
         "name": "samples_per_ts",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:stts22h_temp:samples_per_ts:schema;1",
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:stts22h_temp:samples_per_ts:schema;1",
           "@type": "Object",
           "displayName": {
             "en": "Object"
           },
           "fields": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:stts22h_temp:samples_per_ts:schema:val;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:stts22h_temp:samples_per_ts:schema:val;1",
               "displayName": {
                 "en": "Value"
               },
@@ -2169,7 +1941,7 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:stts22h_temp:samples_per_ts:schema:min;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:stts22h_temp:samples_per_ts:schema:min;1",
               "displayName": {
                 "en": "Min"
               },
@@ -2177,7 +1949,7 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:stts22h_temp:samples_per_ts:schema:max;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:stts22h_temp:samples_per_ts:schema:max;1",
               "displayName": {
                 "en": "Max"
               },
@@ -2190,11 +1962,8 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:stts22h_temp:dim;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:stts22h_temp:dim;1",
+        "@type": "Property",
         "displayName": {
           "en": "Dimensions"
         },
@@ -2203,11 +1972,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:stts22h_temp:ioffset;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:stts22h_temp:ioffset;1",
+        "@type": "Property",
         "displayName": {
           "en": "Initial Offset"
         },
@@ -2216,11 +1982,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:stts22h_temp:measodr;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:stts22h_temp:measodr;1",
+        "@type": "Property",
         "displayName": {
           "en": "Measured ODR"
         },
@@ -2229,11 +1992,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:stts22h_temp:usb_dps;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:stts22h_temp:usb_dps;1",
+        "@type": "Property",
         "displayName": {
           "en": "USB Data Packet Size"
         },
@@ -2242,11 +2002,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:stts22h_temp:sd_dps;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:stts22h_temp:sd_dps;1",
+        "@type": "Property",
         "displayName": {
           "en": "SD Data Packet Size"
         },
@@ -2255,11 +2012,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:stts22h_temp:sensitivity;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:stts22h_temp:sensitivity;1",
+        "@type": "Property",
         "displayName": {
           "en": "Sensitivity"
         },
@@ -2268,11 +2022,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:stts22h_temp:data_type;1",
-        "@type": [
-          "Property",
-          "StringValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:stts22h_temp:data_type;1",
+        "@type": "Property",
         "displayName": {
           "en": "Data Type"
         },
@@ -2290,25 +2041,25 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ilps22qs_press;1",
+    "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ilps22qs_press;1",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ilps22qs_press:odr;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ilps22qs_press:odr;1",
         "@type": "Property",
         "displayName": {
           "en": "ODR"
         },
         "name": "odr",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ilps22qs_press:odr:schema;1",
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ilps22qs_press:odr:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ilps22qs_press:odr:schema:hz1;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ilps22qs_press:odr:schema:hz1;1",
               "displayName": {
                 "en": "1"
               },
@@ -2316,7 +2067,7 @@
               "name": "hz1"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ilps22qs_press:odr:schema:hz4;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ilps22qs_press:odr:schema:hz4;1",
               "displayName": {
                 "en": "4"
               },
@@ -2324,7 +2075,7 @@
               "name": "hz4"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ilps22qs_press:odr:schema:hz10;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ilps22qs_press:odr:schema:hz10;1",
               "displayName": {
                 "en": "10"
               },
@@ -2332,7 +2083,7 @@
               "name": "hz10"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ilps22qs_press:odr:schema:hz25;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ilps22qs_press:odr:schema:hz25;1",
               "displayName": {
                 "en": "25"
               },
@@ -2340,7 +2091,7 @@
               "name": "hz25"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ilps22qs_press:odr:schema:hz50;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ilps22qs_press:odr:schema:hz50;1",
               "displayName": {
                 "en": "50"
               },
@@ -2348,7 +2099,7 @@
               "name": "hz50"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ilps22qs_press:odr:schema:hz75;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ilps22qs_press:odr:schema:hz75;1",
               "displayName": {
                 "en": "75"
               },
@@ -2356,7 +2107,7 @@
               "name": "hz75"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ilps22qs_press:odr:schema:hz100;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ilps22qs_press:odr:schema:hz100;1",
               "displayName": {
                 "en": "100"
               },
@@ -2364,7 +2115,7 @@
               "name": "hz100"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ilps22qs_press:odr:schema:hz200;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ilps22qs_press:odr:schema:hz200;1",
               "displayName": {
                 "en": "200"
               },
@@ -2378,31 +2129,31 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ilps22qs_press:fs;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ilps22qs_press:fs;1",
         "@type": "Property",
         "displayName": {
           "en": "FS"
         },
         "name": "fs",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ilps22qs_press:fs:schema;1",
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ilps22qs_press:fs:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ilps22qs_press:fs:schema:hpa1260;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ilps22qs_press:fs:schema:hpa1260;1",
               "displayName": {
-                "en": "1260"
+                "en": "126000"
               },
               "enumValue": 0,
               "name": "hpa1260"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ilps22qs_press:fs:schema:hpa4060;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ilps22qs_press:fs:schema:hpa4060;1",
               "displayName": {
-                "en": "4060"
+                "en": "406000"
               },
               "enumValue": 1,
               "name": "hpa4060"
@@ -2410,17 +2161,12 @@
           ],
           "valueSchema": "integer"
         },
-        "writable": true,
-        "displayUnit": {
-          "en": "hPa"
-        }
+        "unit": "pascal",
+        "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ilps22qs_press:enable;1",
-        "@type": [
-          "Property",
-          "BooleanValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ilps22qs_press:enable;1",
+        "@type": "Property",
         "displayName": {
           "en": "Enabled"
         },
@@ -2429,21 +2175,21 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ilps22qs_press:samples_per_ts;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ilps22qs_press:samples_per_ts;1",
         "@type": "Property",
         "displayName": {
           "en": "Samples per Timestamp"
         },
         "name": "samples_per_ts",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ilps22qs_press:samples_per_ts:schema;1",
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ilps22qs_press:samples_per_ts:schema;1",
           "@type": "Object",
           "displayName": {
             "en": "Object"
           },
           "fields": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ilps22qs_press:samples_per_ts:schema:val;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ilps22qs_press:samples_per_ts:schema:val;1",
               "displayName": {
                 "en": "Value"
               },
@@ -2451,7 +2197,7 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ilps22qs_press:samples_per_ts:schema:min;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ilps22qs_press:samples_per_ts:schema:min;1",
               "displayName": {
                 "en": "Min"
               },
@@ -2459,7 +2205,7 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ilps22qs_press:samples_per_ts:schema:max;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ilps22qs_press:samples_per_ts:schema:max;1",
               "displayName": {
                 "en": "Max"
               },
@@ -2472,11 +2218,8 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ilps22qs_press:dim;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ilps22qs_press:dim;1",
+        "@type": "Property",
         "displayName": {
           "en": "Dimensions"
         },
@@ -2485,11 +2228,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ilps22qs_press:ioffset;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ilps22qs_press:ioffset;1",
+        "@type": "Property",
         "displayName": {
           "en": "Initial Offset"
         },
@@ -2498,11 +2238,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ilps22qs_press:measodr;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ilps22qs_press:measodr;1",
+        "@type": "Property",
         "displayName": {
           "en": "Measured ODR"
         },
@@ -2511,11 +2248,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ilps22qs_press:usb_dps;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ilps22qs_press:usb_dps;1",
+        "@type": "Property",
         "displayName": {
           "en": "USB Data Packet Size"
         },
@@ -2524,11 +2258,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ilps22qs_press:sd_dps;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ilps22qs_press:sd_dps;1",
+        "@type": "Property",
         "displayName": {
           "en": "SD Data Packet Size"
         },
@@ -2537,11 +2268,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ilps22qs_press:sensitivity;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ilps22qs_press:sensitivity;1",
+        "@type": "Property",
         "displayName": {
           "en": "Sensitivity"
         },
@@ -2550,11 +2278,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:ilps22qs_press:data_type;1",
-        "@type": [
-          "Property",
-          "StringValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:ilps22qs_press:data_type;1",
+        "@type": "Property",
         "displayName": {
           "en": "Data Type"
         },
@@ -2572,25 +2297,25 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp34dt05_mic;1",
+    "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp34dt05_mic;1",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp34dt05_mic:odr;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp34dt05_mic:odr;1",
         "@type": "Property",
         "displayName": {
           "en": "ODR"
         },
         "name": "odr",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp34dt05_mic:odr:schema;1",
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp34dt05_mic:odr:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp34dt05_mic:odr:schema:hz16000;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp34dt05_mic:odr:schema:hz16000;1",
               "displayName": {
                 "en": "16000"
               },
@@ -2598,7 +2323,7 @@
               "name": "hz16000"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp34dt05_mic:odr:schema:hz32000;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp34dt05_mic:odr:schema:hz32000;1",
               "displayName": {
                 "en": "32000"
               },
@@ -2606,7 +2331,7 @@
               "name": "hz32000"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp34dt05_mic:odr:schema:hz48000;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp34dt05_mic:odr:schema:hz48000;1",
               "displayName": {
                 "en": "48000"
               },
@@ -2620,21 +2345,21 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp34dt05_mic:aop;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp34dt05_mic:aop;1",
         "@type": "Property",
         "displayName": {
           "en": "AOP"
         },
         "name": "aop",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp34dt05_mic:aop:schema;1",
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp34dt05_mic:aop:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp34dt05_mic:aop:schema:dbspl130;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp34dt05_mic:aop:schema:dbspl130;1",
               "displayName": {
                 "en": "130"
               },
@@ -2644,17 +2369,11 @@
           ],
           "valueSchema": "integer"
         },
-        "writable": false,
-        "displayUnit": {
-          "en": "Waveform"
-        }
+        "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp34dt05_mic:enable;1",
-        "@type": [
-          "Property",
-          "BooleanValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp34dt05_mic:enable;1",
+        "@type": "Property",
         "displayName": {
           "en": "Enabled"
         },
@@ -2663,21 +2382,21 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp34dt05_mic:samples_per_ts;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp34dt05_mic:samples_per_ts;1",
         "@type": "Property",
         "displayName": {
           "en": "Samples per Timestamp"
         },
         "name": "samples_per_ts",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp34dt05_mic:samples_per_ts:schema;1",
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp34dt05_mic:samples_per_ts:schema;1",
           "@type": "Object",
           "displayName": {
             "en": "Object"
           },
           "fields": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp34dt05_mic:samples_per_ts:schema:val;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp34dt05_mic:samples_per_ts:schema:val;1",
               "displayName": {
                 "en": "Value"
               },
@@ -2685,7 +2404,7 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp34dt05_mic:samples_per_ts:schema:min;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp34dt05_mic:samples_per_ts:schema:min;1",
               "displayName": {
                 "en": "Min"
               },
@@ -2693,7 +2412,7 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp34dt05_mic:samples_per_ts:schema:max;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp34dt05_mic:samples_per_ts:schema:max;1",
               "displayName": {
                 "en": "Max"
               },
@@ -2706,11 +2425,8 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp34dt05_mic:dim;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp34dt05_mic:dim;1",
+        "@type": "Property",
         "displayName": {
           "en": "Dimensions"
         },
@@ -2719,11 +2435,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp34dt05_mic:ioffset;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp34dt05_mic:ioffset;1",
+        "@type": "Property",
         "displayName": {
           "en": "Initial Offset"
         },
@@ -2732,11 +2445,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp34dt05_mic:measodr;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp34dt05_mic:measodr;1",
+        "@type": "Property",
         "displayName": {
           "en": "Measured ODR"
         },
@@ -2745,11 +2455,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp34dt05_mic:usb_dps;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp34dt05_mic:usb_dps;1",
+        "@type": "Property",
         "displayName": {
           "en": "USB Data Packet Size"
         },
@@ -2758,11 +2465,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp34dt05_mic:sd_dps;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp34dt05_mic:sd_dps;1",
+        "@type": "Property",
         "displayName": {
           "en": "SD Data Packet Size"
         },
@@ -2771,11 +2475,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp34dt05_mic:sensitivity;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp34dt05_mic:sensitivity;1",
+        "@type": "Property",
         "displayName": {
           "en": "Sensitivity"
         },
@@ -2784,11 +2485,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:imp34dt05_mic:data_type;1",
-        "@type": [
-          "Property",
-          "StringValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:imp34dt05_mic:data_type;1",
+        "@type": "Property",
         "displayName": {
           "en": "Data Type"
         },
@@ -2806,25 +2504,25 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2iclx_acc;1",
+    "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2iclx_acc;1",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2iclx_acc:odr;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2iclx_acc:odr;1",
         "@type": "Property",
         "displayName": {
           "en": "ODR"
         },
         "name": "odr",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2iclx_acc:odr:schema;1",
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2iclx_acc:odr:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2iclx_acc:odr:schema:hz12_5;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2iclx_acc:odr:schema:hz12_5;1",
               "displayName": {
                 "en": "12.5"
               },
@@ -2832,7 +2530,7 @@
               "name": "hz12_5"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2iclx_acc:odr:schema:hz26;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2iclx_acc:odr:schema:hz26;1",
               "displayName": {
                 "en": "26"
               },
@@ -2840,7 +2538,7 @@
               "name": "hz26"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2iclx_acc:odr:schema:hz52;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2iclx_acc:odr:schema:hz52;1",
               "displayName": {
                 "en": "52"
               },
@@ -2848,7 +2546,7 @@
               "name": "hz52"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2iclx_acc:odr:schema:hz104;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2iclx_acc:odr:schema:hz104;1",
               "displayName": {
                 "en": "104"
               },
@@ -2856,7 +2554,7 @@
               "name": "hz104"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2iclx_acc:odr:schema:hz208;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2iclx_acc:odr:schema:hz208;1",
               "displayName": {
                 "en": "208"
               },
@@ -2864,7 +2562,7 @@
               "name": "hz208"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2iclx_acc:odr:schema:hz416;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2iclx_acc:odr:schema:hz416;1",
               "displayName": {
                 "en": "416"
               },
@@ -2872,7 +2570,7 @@
               "name": "hz416"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2iclx_acc:odr:schema:hz833;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2iclx_acc:odr:schema:hz833;1",
               "displayName": {
                 "en": "833"
               },
@@ -2886,21 +2584,21 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2iclx_acc:fs;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2iclx_acc:fs;1",
         "@type": "Property",
         "displayName": {
           "en": "FS"
         },
         "name": "fs",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2iclx_acc:fs:schema;1",
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2iclx_acc:fs:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2iclx_acc:fs:schema:g0_5;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2iclx_acc:fs:schema:g0_5;1",
               "displayName": {
                 "en": "0.5"
               },
@@ -2908,7 +2606,7 @@
               "name": "g0_5"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2iclx_acc:fs:schema:g1;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2iclx_acc:fs:schema:g1;1",
               "displayName": {
                 "en": "1"
               },
@@ -2916,7 +2614,7 @@
               "name": "g1"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2iclx_acc:fs:schema:g2;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2iclx_acc:fs:schema:g2;1",
               "displayName": {
                 "en": "2"
               },
@@ -2924,7 +2622,7 @@
               "name": "g2"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2iclx_acc:fs:schema:g3;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2iclx_acc:fs:schema:g3;1",
               "displayName": {
                 "en": "3"
               },
@@ -2938,11 +2636,8 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2iclx_acc:enable;1",
-        "@type": [
-          "Property",
-          "BooleanValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2iclx_acc:enable;1",
+        "@type": "Property",
         "displayName": {
           "en": "Enabled"
         },
@@ -2951,21 +2646,21 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2iclx_acc:samples_per_ts;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2iclx_acc:samples_per_ts;1",
         "@type": "Property",
         "displayName": {
           "en": "Samples per Timestamp"
         },
         "name": "samples_per_ts",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2iclx_acc:samples_per_ts:schema;1",
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2iclx_acc:samples_per_ts:schema;1",
           "@type": "Object",
           "displayName": {
             "en": "Object"
           },
           "fields": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2iclx_acc:samples_per_ts:schema:val;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2iclx_acc:samples_per_ts:schema:val;1",
               "displayName": {
                 "en": "Value"
               },
@@ -2973,7 +2668,7 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2iclx_acc:samples_per_ts:schema:min;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2iclx_acc:samples_per_ts:schema:min;1",
               "displayName": {
                 "en": "Min"
               },
@@ -2981,7 +2676,7 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2iclx_acc:samples_per_ts:schema:max;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2iclx_acc:samples_per_ts:schema:max;1",
               "displayName": {
                 "en": "Max"
               },
@@ -2994,11 +2689,8 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2iclx_acc:dim;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2iclx_acc:dim;1",
+        "@type": "Property",
         "displayName": {
           "en": "Dimensions"
         },
@@ -3007,11 +2699,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2iclx_acc:ioffset;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2iclx_acc:ioffset;1",
+        "@type": "Property",
         "displayName": {
           "en": "Initial Offset"
         },
@@ -3020,11 +2709,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2iclx_acc:measodr;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2iclx_acc:measodr;1",
+        "@type": "Property",
         "displayName": {
           "en": "Measured ODR"
         },
@@ -3033,11 +2719,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2iclx_acc:usb_dps;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2iclx_acc:usb_dps;1",
+        "@type": "Property",
         "displayName": {
           "en": "USB Data Packet Size"
         },
@@ -3046,11 +2729,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2iclx_acc:sd_dps;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2iclx_acc:sd_dps;1",
+        "@type": "Property",
         "displayName": {
           "en": "SD Data Packet Size"
         },
@@ -3059,11 +2739,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2iclx_acc:sensitivity;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2iclx_acc:sensitivity;1",
+        "@type": "Property",
         "displayName": {
           "en": "Sensitivity"
         },
@@ -3072,11 +2749,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:sensors:iis2iclx_acc:data_type;1",
-        "@type": [
-          "Property",
-          "StringValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:sensors:iis2iclx_acc:data_type;1",
+        "@type": "Property",
         "displayName": {
           "en": "Data Type"
         },
@@ -3094,101 +2768,96 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:vespucci:other:automode;1",
+    "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:log_controller;1",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:vespucci:other:automode:enabled;1",
-        "@type": [
-          "Property",
-          "BooleanValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:log_controller:set_usb_ep;1",
+        "@type": "Command",
+        "commandType": "synchronous",
         "displayName": {
-          "en": "Enabled"
+          "en": "Set USB Endpoint"
         },
-        "name": "enabled",
-        "schema": "boolean",
-        "writable": true
-      },
-      {
-        "@id": "dtmi:vespucci:other:automode:nof_acquisitions;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
-        "displayName": {
-          "en": "Number of acquisitions"
-        },
-        "name": "nof_acquisitions",
-        "schema": "integer",
-        "writable": true
-      },
-      {
-        "@id": "dtmi:vespucci:other:automode:start_delay_ms;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
-        "displayName": {
-          "en": "Start delay"
-        },
-        "name": "start_delay_ms",
-        "schema": "integer",
-        "unit": "millisecond",
-        "writable": true,
-        "displayUnit": {
-          "en": "ms"
+        "name": "set_usb_ep",
+        "request": {
+          "@type": "CommandPayload",
+          "displayName": {
+            "en": "Set Endpoint"
+          },
+          "name": "set_ep",
+          "schema": {
+            "@type": "Object",
+            "displayName": {
+              "en": "Object"
+            },
+            "fields": [
+              {
+                "displayName": {
+                  "en": "Component Name"
+                },
+                "name": "comp_name",
+                "schema": "string"
+              },
+              {
+                "displayName": {
+                  "en": "USB Endpoint"
+                },
+                "name": "usb_ep",
+                "schema": "integer"
+              }
+            ]
+          }
         }
       },
       {
-        "@id": "dtmi:vespucci:other:automode:datalog_time_length;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:log_controller:set_stream;1",
+        "@type": "Command",
+        "commandType": "synchronous",
         "displayName": {
-          "en": "Datalog time length"
+          "en": "Set Stream ID"
         },
-        "name": "datalog_time_length",
-        "schema": "integer",
-        "unit": "millisecond",
-        "writable": true,
-        "displayUnit": {
-          "en": "ms"
+        "name": "set_stream",
+        "request": {
+          "@type": "CommandPayload",
+          "displayName": {
+            "en": "Set ID"
+          },
+          "name": "set_id",
+          "schema": {
+            "@type": "Object",
+            "displayName": {
+              "en": "Object"
+            },
+            "fields": [
+              {
+                "displayName": {
+                  "en": "Component Name"
+                },
+                "name": "comp_name",
+                "schema": "string"
+              },
+              {
+                "displayName": {
+                  "en": "Stream Value ID"
+                },
+                "name": "stream_id",
+                "schema": "integer"
+              }
+            ]
+          }
         }
       },
       {
-        "@id": "dtmi:vespucci:other:automode:idle_time_length;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:log_controller:compute_stream_ids;1",
+        "@type": "Command",
+        "commandType": "synchronous",
         "displayName": {
-          "en": "Idle time length"
+          "en": "Compute Stream IDs"
         },
-        "name": "idle_time_length",
-        "schema": "integer",
-        "unit": "millisecond",
-        "writable": true,
-        "displayUnit": {
-          "en": "ms"
-        }
-      }
-    ],
-    "displayName": {
-      "en": "AutoMode"
-    }
-  },
-  {
-    "@context": [
-      "dtmi:iotcentral:context;2",
-      "dtmi:dtdl:context;2"
-    ],
-    "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:log_controller;1",
-    "@type": "Interface",
-    "contents": [
+        "name": "compute_stream_ids"
+      },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:log_controller:save_config;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:log_controller:save_config;1",
         "@type": "Command",
         "commandType": "synchronous",
         "displayName": {
@@ -3197,11 +2866,8 @@
         "name": "save_config"
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:log_controller:log_status;1",
-        "@type": [
-          "Property",
-          "BooleanValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:log_controller:log_status;1",
+        "@type": "Property",
         "displayName": {
           "en": "Log Status"
         },
@@ -3210,11 +2876,8 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:log_controller:sd_mounted;1",
-        "@type": [
-          "Property",
-          "BooleanValue"
-        ],
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:log_controller:sd_mounted;1",
+        "@type": "Property",
         "displayName": {
           "en": "SD Card Mounted"
         },
@@ -3223,7 +2886,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:log_controller:start_log;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:log_controller:start_log;1",
         "@type": "Command",
         "commandType": "synchronous",
         "displayName": {
@@ -3262,7 +2925,7 @@
         }
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:log_controller:stop_log;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:log_controller:stop_log;1",
         "@type": "Command",
         "commandType": "synchronous",
         "displayName": {
@@ -3271,7 +2934,7 @@
         "name": "stop_log"
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:log_controller:set_time;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:log_controller:set_time;1",
         "@type": "Command",
         "commandType": "synchronous",
         "displayName": {
@@ -3280,28 +2943,12 @@
         "name": "set_time",
         "request": {
           "@type": "CommandPayload",
-          "description": {
-            "en": "yyyyMMdd_hh_mm_ss"
-          },
           "displayName": {
             "en": "datetime"
           },
           "name": "datetime",
           "schema": "string"
         }
-      },
-      {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:log_controller:controller_type;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
-        "displayName": {
-          "en": "Controller Type"
-        },
-        "name": "controller_type",
-        "schema": "integer",
-        "writable": false
       }
     ],
     "displayName": {
@@ -3313,504 +2960,11 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:tags_info;1",
-    "@type": "Interface",
-    "contents": [
-      {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:tags_info:max_tags_num;1",
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
-        "displayName": {
-          "en": "Maximum Tag number per acquisition"
-        },
-        "name": "max_tags_num",
-        "schema": "integer",
-        "writable": false
-      },
-      {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:tags_info:sw_tag0;1",
-        "@type": "Property",
-        "displayName": {
-          "en": "SW Tag Class 0"
-        },
-        "name": "sw_tag0",
-        "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:tags_info:sw_tag0:schema;1",
-          "@type": "Object",
-          "displayName": {
-            "en": "Object"
-          },
-          "fields": [
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:tags_info:sw_tag0:schema:label;1",
-              "displayName": {
-                "en": "Label"
-              },
-              "name": "label",
-              "schema": "string"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:tags_info:sw_tag0:schema:enabled;1",
-              "displayName": {
-                "en": "Enabled"
-              },
-              "name": "enabled",
-              "schema": "boolean"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:tags_info:sw_tag0:schema:status;1",
-              "displayName": {
-                "en": "Status"
-              },
-              "name": "status",
-              "schema": "boolean"
-            }
-          ]
-        },
-        "writable": true
-      },
-      {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:tags_info:sw_tag1;1",
-        "@type": "Property",
-        "displayName": {
-          "en": "SW Tag Class 1"
-        },
-        "name": "sw_tag1",
-        "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:tags_info:sw_tag1:schema;1",
-          "@type": "Object",
-          "displayName": {
-            "en": "Object"
-          },
-          "fields": [
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:tags_info:sw_tag1:schema:label;1",
-              "displayName": {
-                "en": "Label"
-              },
-              "name": "label",
-              "schema": "string"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:tags_info:sw_tag1:schema:enabled;1",
-              "displayName": {
-                "en": "Enabled"
-              },
-              "name": "enabled",
-              "schema": "boolean"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:tags_info:sw_tag1:schema:status;1",
-              "displayName": {
-                "en": "Status"
-              },
-              "name": "status",
-              "schema": "boolean"
-            }
-          ]
-        },
-        "writable": true
-      },
-      {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:tags_info:sw_tag2;1",
-        "@type": "Property",
-        "displayName": {
-          "en": "SW Tag Class 2"
-        },
-        "name": "sw_tag2",
-        "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:tags_info:sw_tag2:schema;1",
-          "@type": "Object",
-          "displayName": {
-            "en": "Object"
-          },
-          "fields": [
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:tags_info:sw_tag2:schema:label;1",
-              "displayName": {
-                "en": "Label"
-              },
-              "name": "label",
-              "schema": "string"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:tags_info:sw_tag2:schema:enabled;1",
-              "displayName": {
-                "en": "Enabled"
-              },
-              "name": "enabled",
-              "schema": "boolean"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:tags_info:sw_tag2:schema:status;1",
-              "displayName": {
-                "en": "Status"
-              },
-              "name": "status",
-              "schema": "boolean"
-            }
-          ]
-        },
-        "writable": true
-      },
-      {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:tags_info:sw_tag3;1",
-        "@type": "Property",
-        "displayName": {
-          "en": "SW Tag Class 3"
-        },
-        "name": "sw_tag3",
-        "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:tags_info:sw_tag3:schema;1",
-          "@type": "Object",
-          "displayName": {
-            "en": "Object"
-          },
-          "fields": [
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:tags_info:sw_tag3:schema:label;1",
-              "displayName": {
-                "en": "Label"
-              },
-              "name": "label",
-              "schema": "string"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:tags_info:sw_tag3:schema:enabled;1",
-              "displayName": {
-                "en": "Enabled"
-              },
-              "name": "enabled",
-              "schema": "boolean"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:tags_info:sw_tag3:schema:status;1",
-              "displayName": {
-                "en": "Status"
-              },
-              "name": "status",
-              "schema": "boolean"
-            }
-          ]
-        },
-        "writable": true
-      },
-      {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:tags_info:sw_tag4;1",
-        "@type": "Property",
-        "displayName": {
-          "en": "SW Tag Class 4"
-        },
-        "name": "sw_tag4",
-        "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:tags_info:sw_tag4:schema;1",
-          "@type": "Object",
-          "displayName": {
-            "en": "Object"
-          },
-          "fields": [
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:tags_info:sw_tag4:schema:label;1",
-              "displayName": {
-                "en": "Label"
-              },
-              "name": "label",
-              "schema": "string"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:tags_info:sw_tag4:schema:enabled;1",
-              "displayName": {
-                "en": "Enabled"
-              },
-              "name": "enabled",
-              "schema": "boolean"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:tags_info:sw_tag4:schema:status;1",
-              "displayName": {
-                "en": "Status"
-              },
-              "name": "status",
-              "schema": "boolean"
-            }
-          ]
-        },
-        "writable": true
-      }
-    ],
-    "displayName": {
-      "en": "Tags Information"
-    }
-  },
-  {
-    "@context": [
-      "dtmi:iotcentral:context;2",
-      "dtmi:dtdl:context;2"
-    ],
-    "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:acquisition_info;1",
-    "@type": "Interface",
-    "contents": [
-      {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:acquisition_info:name;1",
-        "@type": [
-          "Property",
-          "StringValue"
-        ],
-        "displayName": {
-          "en": "Acquisition Name"
-        },
-        "name": "name",
-        "schema": "string",
-        "writable": true
-      },
-      {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:acquisition_info:description;1",
-        "@type": [
-          "Property",
-          "StringValue"
-        ],
-        "displayName": {
-          "en": "Acquisition Description"
-        },
-        "name": "description",
-        "schema": "string",
-        "writable": true
-      },
-      {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:acquisition_info:uuid;1",
-        "@type": [
-          "Property",
-          "StringValue"
-        ],
-        "displayName": {
-          "en": "Acquisition UUID"
-        },
-        "name": "uuid",
-        "schema": "string",
-        "writable": false
-      },
-      {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:acquisition_info:start_time;1",
-        "@type": [
-          "Property",
-          "StringValue"
-        ],
-        "displayName": {
-          "en": "Acquisition Start Time"
-        },
-        "name": "start_time",
-        "schema": "string",
-        "writable": false
-      },
-      {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:acquisition_info:end_time;1",
-        "@type": [
-          "Property",
-          "StringValue"
-        ],
-        "displayName": {
-          "en": "Acquisition End Time"
-        },
-        "name": "end_time",
-        "schema": "string",
-        "writable": false
-      },
-      {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:acquisition_info:data_ext;1",
-        "@type": [
-          "Property",
-          "StringValue"
-        ],
-        "displayName": {
-          "en": "Exported Data Extension"
-        },
-        "name": "data_ext",
-        "schema": "string",
-        "writable": false
-      },
-      {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:acquisition_info:data_fmt;1",
-        "@type": [
-          "Property",
-          "StringValue"
-        ],
-        "displayName": {
-          "en": "Exported Data Format"
-        },
-        "name": "data_fmt",
-        "schema": "string",
-        "writable": false
-      },
-      {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:acquisition_info:tags;1",
-        "@type": "Property",
-        "comment": "JSON Value",
-        "displayName": {
-          "en": "Tag List"
-        },
-        "name": "tags",
-        "schema": "vector",
-        "writable": false
-      },
-      {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:acquisition_info:interface;1",
-        "@type": "Property",
-        "displayName": {
-          "en": "Acquisition Interface"
-        },
-        "name": "interface",
-        "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:acquisition_info:interface:schema;1",
-          "@type": "Enum",
-          "displayName": {
-            "en": "Enum"
-          },
-          "enumValues": [
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:acquisition_info:interface:schema:sd;1",
-              "displayName": {
-                "en": "SD Card"
-              },
-              "enumValue": "0",
-              "name": "sd"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:acquisition_info:interface:schema:usb;1",
-              "displayName": {
-                "en": "USB"
-              },
-              "enumValue": "1",
-              "name": "usb"
-            }
-          ],
-          "valueSchema": "string"
-        },
-        "writable": false
-      },
-      {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:acquisition_info:schema_version;1",
-        "@type": [
-          "Property",
-          "StringValue"
-        ],
-        "displayName": {
-          "en": "Schema Version"
-        },
-        "name": "schema_version",
-        "schema": "string",
-        "writable": false
-      }
-    ],
-    "displayName": {
-      "en": "Acquisition Information"
-    }
-  },
-  {
-    "@context": [
-      "dtmi:iotcentral:context;2",
-      "dtmi:dtdl:context;2"
-    ],
-    "@id": "dtmi:vespucci:other:firmware_info;1",
-    "@type": "Interface",
-    "contents": [
-      {
-        "@id": "dtmi:vespucci:other:firmware_info:alias;1",
-        "@type": [
-          "Property",
-          "StringValue"
-        ],
-        "displayName": {
-          "en": "Alias"
-        },
-        "name": "alias",
-        "schema": "string",
-        "writable": true
-      },
-      {
-        "@id": "dtmi:vespucci:other:firmware_info:fw_name;1",
-        "@type": [
-          "Property",
-          "StringValue"
-        ],
-        "displayName": {
-          "en": "Firmware Name"
-        },
-        "name": "fw_name",
-        "schema": "string",
-        "writable": false
-      },
-      {
-        "@id": "dtmi:vespucci:other:firmware_info:fw_version;1",
-        "@type": [
-          "Property",
-          "StringValue"
-        ],
-        "displayName": {
-          "en": "Firmware Version"
-        },
-        "name": "fw_version",
-        "schema": "string",
-        "writable": false
-      },
-      {
-        "@id": "dtmi:vespucci:other:firmware_info:serial_number;1",
-        "@type": [
-          "Property",
-          "StringValue"
-        ],
-        "displayName": {
-          "en": "Serial Number"
-        },
-        "name": "serial_number",
-        "schema": "string",
-        "writable": false
-      },
-      {
-        "@id": "dtmi:vespucci:other:firmware_info:device_url;1",
-        "@type": [
-          "Property",
-          "StringValue"
-        ],
-        "displayName": {
-          "en": "Device URL"
-        },
-        "name": "device_url",
-        "schema": "string",
-        "writable": false
-      },
-      {
-        "@id": "dtmi:vespucci:other:firmware_info:fw_url;1",
-        "@type": [
-          "Property",
-          "StringValue"
-        ],
-        "displayName": {
-          "en": "Firmware URL"
-        },
-        "name": "fw_url",
-        "schema": "string",
-        "writable": false
-      }
-    ],
-    "displayName": {
-      "en": "Firmware Information"
-    }
-  },
-  {
-    "@context": [
-      "dtmi:iotcentral:context;2",
-      "dtmi:dtdl:context;2"
-    ],
     "@id": "dtmi:azure:DeviceManagement:DeviceInformation;1",
     "@type": "Interface",
     "contents": [
       {
-        "@type": [
-          "Property",
-          "StringValue"
-        ],
+        "@type": "Property",
         "description": {
           "en": "Company name of the device manufacturer. This could be the same as the name of the original equipment manufacturer (OEM). Ex. Contoso."
         },
@@ -3822,10 +2976,7 @@
         "writable": false
       },
       {
-        "@type": [
-          "Property",
-          "StringValue"
-        ],
+        "@type": "Property",
         "description": {
           "en": "Device model name or ID. Ex. Surface Book 2."
         },
@@ -3837,10 +2988,7 @@
         "writable": false
       },
       {
-        "@type": [
-          "Property",
-          "StringValue"
-        ],
+        "@type": "Property",
         "description": {
           "en": "Version of the software on your device. This could be the version of your firmware. Ex. 1.3.45"
         },
@@ -3852,10 +3000,7 @@
         "writable": false
       },
       {
-        "@type": [
-          "Property",
-          "StringValue"
-        ],
+        "@type": "Property",
         "description": {
           "en": "Name of the operating system on the device. Ex. Windows 10 IoT Core."
         },
@@ -3867,10 +3012,7 @@
         "writable": false
       },
       {
-        "@type": [
-          "Property",
-          "StringValue"
-        ],
+        "@type": "Property",
         "description": {
           "en": "Architecture of the processor on the device. Ex. x64 or ARM."
         },
@@ -3882,10 +3024,7 @@
         "writable": false
       },
       {
-        "@type": [
-          "Property",
-          "StringValue"
-        ],
+        "@type": "Property",
         "description": {
           "en": "Name of the manufacturer of the processor on the device. Ex. Intel."
         },
@@ -3897,10 +3036,7 @@
         "writable": false
       },
       {
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@type": "Property",
         "description": {
           "en": "Total available storage on the device in kilobytes. Ex. 2048000 kilobytes."
         },
@@ -3912,10 +3048,7 @@
         "writable": false
       },
       {
-        "@type": [
-          "Property",
-          "NumberValue"
-        ],
+        "@type": "Property",
         "description": {
           "en": "Total available memory on the device in kilobytes. Ex. 256000 kilobytes."
         },
@@ -3936,149 +3069,640 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:applications_stblesensor;1",
+    "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info;1",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:applications_stblesensor:hsdatalog2;1",
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:max_tags_num;1",
         "@type": "Property",
         "displayName": {
-          "en": "HS Datalog 2"
+          "en": "Maximum Tag number per acquisition"
         },
-        "name": "hsdatalog2",
+        "name": "max_tags_num",
+        "schema": "integer",
+        "writable": false
+      },
+      {
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:sw_tag0;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "SW Tag Class 0"
+        },
+        "name": "sw_tag0",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:applications_stblesensor:hsdatalog2:schema;1",
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:sw_tag0:schema;1",
           "@type": "Object",
           "displayName": {
             "en": "Object"
           },
           "fields": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:applications_stblesensor:hsdatalog2:schema:iis3dwb_acc;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:sw_tag0:schema:label;1",
               "displayName": {
-                "en": "IIS3DWB_ACC"
+                "en": "Label"
+              },
+              "name": "label",
+              "schema": "string"
+            },
+            {
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:sw_tag0:schema:enabled;1",
+              "displayName": {
+                "en": "Enabled"
+              },
+              "name": "enabled",
+              "schema": "boolean"
+            },
+            {
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:sw_tag0:schema:status;1",
+              "displayName": {
+                "en": "Status"
+              },
+              "name": "status",
+              "schema": "boolean"
+            }
+          ]
+        },
+        "writable": true
+      },
+      {
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:sw_tag1;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "SW Tag Class 1"
+        },
+        "name": "sw_tag1",
+        "schema": {
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:sw_tag1:schema;1",
+          "@type": "Object",
+          "displayName": {
+            "en": "Object"
+          },
+          "fields": [
+            {
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:sw_tag1:schema:label;1",
+              "displayName": {
+                "en": "Label"
+              },
+              "name": "label",
+              "schema": "string"
+            },
+            {
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:sw_tag1:schema:enabled;1",
+              "displayName": {
+                "en": "Enabled"
+              },
+              "name": "enabled",
+              "schema": "boolean"
+            },
+            {
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:sw_tag1:schema:status;1",
+              "displayName": {
+                "en": "Status"
+              },
+              "name": "status",
+              "schema": "boolean"
+            }
+          ]
+        },
+        "writable": true
+      },
+      {
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:sw_tag2;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "SW Tag Class 2"
+        },
+        "name": "sw_tag2",
+        "schema": {
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:sw_tag2:schema;1",
+          "@type": "Object",
+          "displayName": {
+            "en": "Object"
+          },
+          "fields": [
+            {
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:sw_tag2:schema:label;1",
+              "displayName": {
+                "en": "Label"
+              },
+              "name": "label",
+              "schema": "string"
+            },
+            {
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:sw_tag2:schema:enabled;1",
+              "displayName": {
+                "en": "Enabled"
+              },
+              "name": "enabled",
+              "schema": "boolean"
+            },
+            {
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:sw_tag2:schema:status;1",
+              "displayName": {
+                "en": "Status"
+              },
+              "name": "status",
+              "schema": "boolean"
+            }
+          ]
+        },
+        "writable": true
+      },
+      {
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:sw_tag3;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "SW Tag Class 3"
+        },
+        "name": "sw_tag3",
+        "schema": {
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:sw_tag3:schema;1",
+          "@type": "Object",
+          "displayName": {
+            "en": "Object"
+          },
+          "fields": [
+            {
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:sw_tag3:schema:label;1",
+              "displayName": {
+                "en": "Label"
+              },
+              "name": "label",
+              "schema": "string"
+            },
+            {
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:sw_tag3:schema:enabled;1",
+              "displayName": {
+                "en": "Enabled"
+              },
+              "name": "enabled",
+              "schema": "boolean"
+            },
+            {
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:sw_tag3:schema:status;1",
+              "displayName": {
+                "en": "Status"
+              },
+              "name": "status",
+              "schema": "boolean"
+            }
+          ]
+        },
+        "writable": true
+      },
+      {
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:sw_tag4;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "SW Tag Class 4"
+        },
+        "name": "sw_tag4",
+        "schema": {
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:sw_tag4:schema;1",
+          "@type": "Object",
+          "displayName": {
+            "en": "Object"
+          },
+          "fields": [
+            {
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:sw_tag4:schema:label;1",
+              "displayName": {
+                "en": "Label"
+              },
+              "name": "label",
+              "schema": "string"
+            },
+            {
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:sw_tag4:schema:enabled;1",
+              "displayName": {
+                "en": "Enabled"
+              },
+              "name": "enabled",
+              "schema": "boolean"
+            },
+            {
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:sw_tag4:schema:status;1",
+              "displayName": {
+                "en": "Status"
+              },
+              "name": "status",
+              "schema": "boolean"
+            }
+          ]
+        },
+        "writable": true
+      },
+      {
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:hw_tag0;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "HW Tag Class 0"
+        },
+        "name": "hw_tag0",
+        "schema": {
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:hw_tag0:schema;1",
+          "@type": "Object",
+          "displayName": {
+            "en": "Object"
+          },
+          "fields": [
+            {
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:hw_tag0:schema:label;1",
+              "displayName": {
+                "en": "Label"
+              },
+              "name": "label",
+              "schema": "string"
+            },
+            {
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:hw_tag0:schema:enable;1",
+              "displayName": {
+                "en": "Enabled"
+              },
+              "name": "enable",
+              "schema": "boolean"
+            }
+          ]
+        },
+        "writable": true
+      },
+      {
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:hw_tag1;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "HW Tag Class 1"
+        },
+        "name": "hw_tag1",
+        "schema": {
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:hw_tag1:schema;1",
+          "@type": "Object",
+          "displayName": {
+            "en": "Object"
+          },
+          "fields": [
+            {
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:hw_tag1:schema:label;1",
+              "displayName": {
+                "en": "Label"
+              },
+              "name": "label",
+              "schema": "string"
+            },
+            {
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:hw_tag1:schema:enabled;1",
+              "displayName": {
+                "en": "Enabled"
+              },
+              "name": "enabled",
+              "schema": "boolean"
+            }
+          ]
+        },
+        "writable": true
+      },
+      {
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:hw_tag2;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "HW Tag Class 2"
+        },
+        "name": "hw_tag2",
+        "schema": {
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:hw_tag2:schema;1",
+          "@type": "Object",
+          "displayName": {
+            "en": "Object"
+          },
+          "fields": [
+            {
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:hw_tag2:schema:label;1",
+              "displayName": {
+                "en": "Label"
+              },
+              "name": "label",
+              "schema": "string"
+            },
+            {
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:hw_tag2:schema:enabled;1",
+              "displayName": {
+                "en": "Enabled"
+              },
+              "name": "enabled",
+              "schema": "boolean"
+            }
+          ]
+        },
+        "writable": true
+      },
+      {
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:hw_tag3;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "HW Tag Class 3"
+        },
+        "name": "hw_tag3",
+        "schema": {
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:hw_tag3:schema;1",
+          "@type": "Object",
+          "displayName": {
+            "en": "Object"
+          },
+          "fields": [
+            {
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:hw_tag3:schema:label;1",
+              "displayName": {
+                "en": "Label"
+              },
+              "name": "label",
+              "schema": "string"
+            },
+            {
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:hw_tag3:schema:enabled;1",
+              "displayName": {
+                "en": "Enabled"
+              },
+              "name": "enabled",
+              "schema": "boolean"
+            }
+          ]
+        },
+        "writable": true
+      },
+      {
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:hw_tag4;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "HW Tag Class 4"
+        },
+        "name": "hw_tag4",
+        "schema": {
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:hw_tag4:schema;1",
+          "@type": "Object",
+          "displayName": {
+            "en": "Object"
+          },
+          "fields": [
+            {
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:hw_tag4:schema:label;1",
+              "displayName": {
+                "en": "Label"
+              },
+              "name": "label",
+              "schema": "string"
+            },
+            {
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:tags_info:hw_tag4:schema:enabled;1",
+              "displayName": {
+                "en": "Enabled"
+              },
+              "name": "enabled",
+              "schema": "boolean"
+            }
+          ]
+        },
+        "writable": true
+      }
+    ],
+    "displayName": {
+      "en": "Tags Information"
+    }
+  },
+  {
+    "@context": [
+      "dtmi:iotcentral:context;2",
+      "dtmi:dtdl:context;2"
+    ],
+    "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:acquisition_info;1",
+    "@type": "Interface",
+    "contents": [
+      {
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:acquisition_info:name;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "Acquisition Name"
+        },
+        "name": "name",
+        "schema": "string",
+        "writable": true
+      },
+      {
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:acquisition_info:description;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "Acquisition Description"
+        },
+        "name": "description",
+        "schema": "string",
+        "writable": true
+      },
+      {
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:acquisition_info:uuid;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "Acquisition UUID"
+        },
+        "name": "uuid",
+        "schema": "string",
+        "writable": false
+      },
+      {
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:acquisition_info:start_time;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "Acquisition Start Time"
+        },
+        "name": "start_time",
+        "schema": "string",
+        "writable": false
+      },
+      {
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:acquisition_info:end_time;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "Acquisition End Time"
+        },
+        "name": "end_time",
+        "schema": "string",
+        "writable": false
+      },
+      {
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:acquisition_info:data_ext;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "Exported Data Extension"
+        },
+        "name": "data_ext",
+        "schema": "string",
+        "writable": false
+      },
+      {
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:acquisition_info:tags;1",
+        "@type": "Property",
+        "comment": "JSON Value",
+        "displayName": {
+          "en": "Tag List"
+        },
+        "name": "tags",
+        "schema": "vector",
+        "writable": true
+      },
+      {
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:acquisition_info:interface;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "Acquisition Interface"
+        },
+        "name": "interface",
+        "schema": {
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:acquisition_info:interface:schema;1",
+          "@type": "Enum",
+          "displayName": {
+            "en": "Enum"
+          },
+          "enumValues": [
+            {
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:acquisition_info:interface:schema:sd;1",
+              "displayName": {
+                "en": "SD Card"
+              },
+              "enumValue": 0,
+              "name": "sd"
+            },
+            {
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:acquisition_info:interface:schema:usb;1",
+              "displayName": {
+                "en": "USB"
+              },
+              "enumValue": 1,
+              "name": "usb"
+            }
+          ],
+          "valueSchema": "integer"
+        },
+        "writable": false
+      }
+    ],
+    "displayName": {
+      "en": "Acquisition Information"
+    }
+  },
+  {
+    "@context": [
+      "dtmi:iotcentral:context;2",
+      "dtmi:dtdl:context;2"
+    ],
+    "@id": "dtmi:stmicroelectronics:other:firmware_info;1",
+    "@type": "Interface",
+    "contents": [
+      {
+        "@id": "dtmi:stmicroelectronics:other:firmware_info:alias;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "Alias"
+        },
+        "name": "alias",
+        "schema": "string",
+        "writable": true
+      },
+      {
+        "@id": "dtmi:stmicroelectronics:other:firmware_info:fw_name;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "Firmware Name"
+        },
+        "name": "fw_name",
+        "schema": "string",
+        "writable": false
+      },
+      {
+        "@id": "dtmi:stmicroelectronics:other:firmware_info:fw_version;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "Firmware Version"
+        },
+        "name": "fw_version",
+        "schema": "string",
+        "writable": false
+      },
+      {
+        "@id": "dtmi:stmicroelectronics:other:firmware_info:serial_number;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "Serial Number"
+        },
+        "name": "serial_number",
+        "schema": "string",
+        "writable": false
+      },
+      {
+        "@id": "dtmi:stmicroelectronics:other:firmware_info:device_url;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "Device URL"
+        },
+        "name": "device_url",
+        "schema": "string",
+        "writable": false
+      },
+      {
+        "@id": "dtmi:stmicroelectronics:other:firmware_info:fw_url;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "Firmware URL"
+        },
+        "name": "fw_url",
+        "schema": "string",
+        "writable": false
+      }
+    ],
+    "displayName": {
+      "en": "Firmware Information"
+    }
+  },
+  {
+    "@context": [
+      "dtmi:iotcentral:context;2",
+      "dtmi:dtdl:context;2"
+    ],
+    "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:demos;1",
+    "@type": "Interface",
+    "contents": [
+      {
+        "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:demos:hsdatalog_components;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "HS Datalog 2"
+        },
+        "name": "hsdatalog_components",
+        "schema": {
+          "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:demos:hsdatalog_components:schema;1",
+          "@type": "Object",
+          "displayName": {
+            "en": "Object"
+          },
+          "fields": [
+            {
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:demos:hsdatalog_components:schema:iis3dwb_acc;1",
+              "displayName": {
+                "en": "Component_1"
               },
               "name": "iis3dwb_acc",
               "schema": "string"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:applications_stblesensor:hsdatalog2:schema:iis2mdc_mag;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:demos:hsdatalog_components:schema:iis2mdc_mag;1",
               "displayName": {
-                "en": "IIS2MDC_MAG"
+                "en": "Component_2"
               },
               "name": "iis2mdc_mag",
               "schema": "string"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:applications_stblesensor:hsdatalog2:schema:imp23absu_mic;1",
+              "@id": "dtmi:stmicroelectronics:steval_stwinbx1:fp_sns_datalog2:v1_0_0:other:demos:hsdatalog_components:schema:imp23absu_mic;1",
               "displayName": {
-                "en": "IMP23ABSU_MIC"
+                "en": "Component_3"
               },
               "name": "imp23absu_mic",
-              "schema": "string"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:applications_stblesensor:hsdatalog2:schema:ism330dhcx_acc;1",
-              "displayName": {
-                "en": "ISM330DHCX_ACC"
-              },
-              "name": "ism330dhcx_acc",
-              "schema": "string"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:applications_stblesensor:hsdatalog2:schema:ism330dhcx_gyro;1",
-              "displayName": {
-                "en": "ISM330DHCX_GYRO"
-              },
-              "name": "ism330dhcx_gyro",
-              "schema": "string"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:applications_stblesensor:hsdatalog2:schema:ism330dhcx_mlc;1",
-              "displayName": {
-                "en": "ISM330DHCX_MLC"
-              },
-              "name": "ism330dhcx_mlc",
-              "schema": "string"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:applications_stblesensor:hsdatalog2:schema:iis2dlpc_acc;1",
-              "displayName": {
-                "en": "IIS2DLPC_ACC"
-              },
-              "name": "iis2dlpc_acc",
-              "schema": "string"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:applications_stblesensor:hsdatalog2:schema:stts22h_temp;1",
-              "displayName": {
-                "en": "STTS22H_TEMP"
-              },
-              "name": "stts22h_temp",
-              "schema": "string"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:applications_stblesensor:hsdatalog2:schema:ilps22qs_press;1",
-              "displayName": {
-                "en": "ILPS22QS_PRESS"
-              },
-              "name": "ilps22qs_press",
-              "schema": "string"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:applications_stblesensor:hsdatalog2:schema:imp34dt05_mic;1",
-              "displayName": {
-                "en": "IMP34DT05_MIC"
-              },
-              "name": "imp34dt05_mic",
-              "schema": "string"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:applications_stblesensor:hsdatalog2:schema:iis2iclx_acc;1",
-              "displayName": {
-                "en": "IIS2ICLX_ACC"
-              },
-              "name": "iis2iclx_acc",
-              "schema": "string"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:applications_stblesensor:hsdatalog2:schema:log_controller;1",
-              "displayName": {
-                "en": "Log Controller"
-              },
-              "name": "log_controller",
-              "schema": "string"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:applications_stblesensor:hsdatalog2:schema:deviceinfo;1",
-              "displayName": {
-                "en": "Device Information"
-              },
-              "name": "deviceinfo",
-              "schema": "string"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:applications_stblesensor:hsdatalog2:schema:tags_info;1",
-              "displayName": {
-                "en": "Tags Information"
-              },
-              "name": "tags_info",
-              "schema": "string"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:applications_stblesensor:hsdatalog2:schema:acquisition_info;1",
-              "displayName": {
-                "en": "Acquisition Information"
-              },
-              "name": "acquisition_info",
-              "schema": "string"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fp_sns_datalog2:other:applications_stblesensor:hsdatalog2:schema:firmware_info;1",
-              "displayName": {
-                "en": "Firmware Information"
-              },
-              "name": "firmware_info",
               "schema": "string"
             }
           ]
@@ -4087,7 +3711,7 @@
       }
     ],
     "displayName": {
-      "en": "Applications ST BLE Sensor"
+      "en": "Component"
     }
   }
 ]
