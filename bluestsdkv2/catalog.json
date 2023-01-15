@@ -1721,14 +1721,16 @@
         {
           "description": "PROTEUS-POC2",
           "dtmi": "dtmi:proteusPoc2:pdmwbsoc_v2_0_0_Cloud;1",
-          "name": "PROTEUS Development",
+          "dtmi_type": "iotc",
+          "name": "Proteus development",
           "shareable_link": "https://apps.azureiotcentral.com/build/new/454952ac-8d93-4606-88e2-803aaefb4f9b",
           "url": "https://proteus-poc2.azureiotcentral.com"
-        } 
+        }
       ],
+      "dtmi": "dtmi:appconfig:steval_proteus:fpAiPdmwbsoc;1",
       "fota": {
         "bootloader_type": "wb",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-proteus/fp-ai-pdmwbsoc_2_0_0.bin",
+        "fw_url": "",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -1741,8 +1743,8 @@
       "option_bytes": [
         {
           "format": "enum_string",
-          "name": "Neai Phase  :",
-      "string_values": [
+          "name": "Neai Phase:",
+          "string_values": [
             {
               "display_name": "Idle",
               "value": 0
@@ -1755,7 +1757,7 @@
               "display_name": "Detecting",
               "value": 2
             },
-      {
+            {
               "display_name": "Idle Trained",
               "value": 3
             },
@@ -1763,10 +1765,9 @@
               "display_name": "Classifying",
               "value": 4
             }
-          ],
-          "type": "string"
-    },
-    {
+          ]
+        },
+        {
           "format": "enum_icon",
           "icon_values": [
             {
@@ -1778,27 +1779,19 @@
               "comment": "Anomaly",
               "icon_code": 5,
               "value": 1
-            },
-      {
-              "comment": "Hidden",
-              "icon_code": 255,
-              "value": 255
             }
           ],
-          "name": "Neai Status",
-          "type": "icon"
+          "name": "Neai Status"
         },
-    {
-          "format": "int",
-          "name": "Battery Level: ",
-          "negative_offset": 0,
-          "scale_factor": 1,
-          "type": "%",
+        {
+          "escape_message": " ",
           "escape_value": 255,
-          "escape_message": ""
+          "format": "int",
+          "name": "Battery level:",
+          "offset": 0,
+          "scale": 1
         }
-      ],
-      "dtmi": "dtmi:appconfig:steval-proteus1:pdmwbsoc;1"
+      ]
     },
     {
       "ble_dev_id": "0x0E",
@@ -3212,72 +3205,6 @@
       "fw_version": "1.0.0",
       "id": 92,
       "option_bytes": []
-    },
-    {
-      "ble_dev_id": "0x09",
-      "ble_fw_id": "0x09",
-      "brd_name": "STEVAL-STWINKT1B",
-      "changelog": "",
-      "characteristics": [
-        {
-          "name": "CUBE.AI NC",
-          "uuid": "00000020-0002-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Battery",
-          "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b"
-        }
-      ],
-      "cloud_apps": [],
-      "fota": {
-        "bootloader_type": "none",
-        "fw_url": "",
-        "max_chunk_length": 0,
-        "max_divisor_constraint": 0,
-        "partial_fota": 0,
-        "type": "fast"
-      },
-      "fw_desc": "",
-      "fw_name": "FP_GNOCCA",
-      "fw_version": "0.0.1",
-      "id": 115,
-      "option_bytes": [
-        {
-          "escape_message": "Vaffanculo",
-          "escape_value": 255,
-          "format": "int",
-          "name": "Primo",
-          "offset": -10,
-          "scale": 2
-        },
-        {
-          "format": "enum_string",
-          "string_values": [
-            {
-              "display_name": "Giuseppe",
-              "value": 0
-            },
-            {
-              "display_name": "Luca",
-              "value": 1
-            },
-            {
-              "display_name": "Pippo",
-              "value": 2
-            }
-          ]
-        },
-        {
-          "format": "enum_icon",
-          "icon_values": [
-            {
-              "comment": "uno",
-              "icon_code": 8,
-              "value": 0
-            }
-          ]
-        }
-      ]
     },
     {
       "ble_dev_id": "0x06",
@@ -5461,7 +5388,7 @@
       "uuid": "00000012-0002-11e1-ac36-0002a5d5c51b"
     }
   ],
-  "checksum": "4d1da599de72c46ae5c7a0e8200a5e12",
-  "date": "2023-01-11T21:50:23.146618Z",
+  "checksum": "995a6dba57b0f0712a3cb14aa2c5a381",
+  "date": "2023-01-15T12:43:11.248494Z",
   "version": "0.3.1"
 }
