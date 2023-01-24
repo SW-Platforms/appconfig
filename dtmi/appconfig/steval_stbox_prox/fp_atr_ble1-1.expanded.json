@@ -667,30 +667,6 @@
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:lsm6dsv16x_wu_vs:thresholds_usage:schema:external_range;1",
-              "displayName": {
-                "en": "External Range"
-              },
-              "enumValue": 0,
-              "name": "external_range"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:lsm6dsv16x_wu_vs:thresholds_usage:schema:internal_range;1",
-              "displayName": {
-                "en": "Internal Range"
-              },
-              "enumValue": 1,
-              "name": "internal_range"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:lsm6dsv16x_wu_vs:thresholds_usage:schema:less_than;1",
-              "displayName": {
-                "en": "Less Than"
-              },
-              "enumValue": 2,
-              "name": "less_than"
-            },
-            {
               "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:lsm6dsv16x_wu_vs:thresholds_usage:schema:bigger_than;1",
               "displayName": {
                 "en": "Bigger Than"
@@ -707,31 +683,13 @@
         "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:lsm6dsv16x_wu_vs:threshold_low;1",
         "@type": [
           "Property",
-          "Acceleration",
-          "NumberValue"
+          "NumberValue",
+          "Acceleration"
         ],
         "displayName": {
           "en": "Threshold Low"
         },
         "name": "threshold_low",
-        "schema": "double",
-        "unit": "gForce",
-        "writable": true,
-        "displayUnit": {
-          "en": "mg"
-        }
-      },
-      {
-        "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:lsm6dsv16x_wu_vs:threshold_high;1",
-        "@type": [
-          "Property",
-          "Acceleration",
-          "NumberValue"
-        ],
-        "displayName": {
-          "en": "Threshold High"
-        },
-        "name": "threshold_high",
         "schema": "double",
         "unit": "gForce",
         "writable": true,
