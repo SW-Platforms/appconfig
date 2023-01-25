@@ -677,7 +677,7 @@
           ],
           "valueSchema": "integer"
         },
-        "writable": true
+        "writable": false
       },
       {
         "@id": "dtmi:appconfig:steval_stbox_prox:fp_atr_ble1:sensors:lsm6dsv16x_wu_vs:threshold_low;1",
