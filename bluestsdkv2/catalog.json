@@ -1708,10 +1708,10 @@
           "url": "https://proteus-poc2.azureiotcentral.com"
         }
       ],
-      "dtmi": "dtmi:appconfig:steval_proteus:fpAiPdmwbsoc;1",
+      "dtmi": "dtmi:appconfig:steval_proteus:pdmwbsoc;1",
       "fota": {
         "bootloader_type": "wb",
-        "fw_url": "",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-proteus/fp-ai-pdmwbsoc_2_0_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -1723,7 +1723,7 @@
       "option_bytes": [
         {
           "format": "enum_string",
-          "name": "Neai Phase:",
+          "name": "Neai Phase  :",
           "string_values": [
             {
               "display_name": "Idle",
@@ -1759,17 +1759,24 @@
               "comment": "Anomaly",
               "icon_code": 5,
               "value": 1
+            },
+            {
+              "comment": "Hidden",
+              "icon_code": 255,
+              "value": 255
             }
           ],
-          "name": "Neai Status"
+          "name": "Neai Status",
+          "type": "icon"
         },
         {
-          "escape_message": " ",
+          "escape_message": "",
           "escape_value": 255,
           "format": "int",
-          "name": "Battery level:",
-          "offset": 0,
-          "scale": 1
+          "name": "Battery Level: ",
+          "negative_offset": 0,
+          "scale_factor": 1,
+          "type": "%"
         }
       ]
     },
@@ -5663,7 +5670,7 @@
       "uuid": "00000012-0002-11e1-ac36-0002a5d5c51b"
     }
   ],
-  "checksum": "bb1ada539ab3ea76d345c789b9b1b392",
-  "date": "2023-02-17T14:47:24.000315Z",
+  "checksum": "7d2c2ac1feb7084c6e5baeae99591a46",
+  "date": "2023-02-17T15:08:01.421042Z",
   "version": "0.3.2"
 }
