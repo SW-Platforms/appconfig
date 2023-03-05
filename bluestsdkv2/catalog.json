@@ -1708,7 +1708,7 @@
           "url": "https://proteus-poc2.azureiotcentral.com"
         }
       ],
-      "dtmi": "dtmi:appconfig:steval_proteus1:pdmwbsoc;1",
+      "dtmi": "dtmi:appconfig:steval_proteus:pdmwbsoc;1",
       "fota": {
         "bootloader_type": "wb",
         "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-proteus/fp-ai-pdmwbsoc_2_0_0.bin",
@@ -2536,7 +2536,7 @@
       "dtmi": "dtmi:appconfig:steval_stwinbx1:datalog2_fpSnsDatalog2;1",
       "fota": {
         "bootloader_type": "none",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/Datalog2_FP-SNS-DATALOG2_1_0_0.bin",
+        "fw_url": null,
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -2760,7 +2760,7 @@
       "dtmi": "dtmi:appconfig:steval_stwinbx1:datalog2Ispu_fpSnsDatalog2;1",
       "fota": {
         "bootloader_type": "none",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/Datalog2-ISPU_FP-SNS-DATALOG2_1_0_0.bin",
+        "fw_url": null,
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -3165,7 +3165,7 @@
       "dtmi": "dtmi:appconfig:steval_stwinbx1:ultrasoundFft_fpSnsDatalog2;1",
       "fota": {
         "bootloader_type": "none",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/Ultrasound-FFT_FP-SNS-DATALOG2_1_0_0.bin",
+        "fw_url": null,
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -5670,7 +5670,7 @@
       "uuid": "00000012-0002-11e1-ac36-0002a5d5c51b"
     }
   ],
-  "checksum": "7d2c2ac1feb7084c6e5baeae99591a46",
-  "date": "2023-02-22T08:49:01.800235Z",
-  "version": "0.3.3"
+  "checksum": "453ddbea699b0ec5d115e46cb18a3ccd",
+  "date": "2023-03-05T09:57:09.775269Z",
+  "version": "0.3.2"
 }
