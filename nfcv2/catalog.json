@@ -2154,19 +2154,19 @@
               "format": "enum_string",
               "string_values": [
                 {
-                  "display_name": "Stationary - Upright",
+                  "display_name": "0. Stationary - Upright",
                   "value": 0
                 },
                 {
-                  "display_name": "Stationary - Not upright",
+                  "display_name": "4. Stationary - Not upright",
                   "value": 4
                 },
                 {
-                  "display_name": "In motion",
+                  "display_name": "8. In motion",
                   "value": 8
                 },
                 {
-                  "display_name": "Shaken",
+                  "display_name": "12. Shaken",
                   "value": 12
                 }
               ]
