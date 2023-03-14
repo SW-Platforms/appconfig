@@ -969,6 +969,80 @@
       ]
     },
     {
+      "ble_dev_id": "0x0D",
+      "ble_fw_id": "0x01",
+      "brd_name": "STEVAL-MKBOXPRO",
+      "changelog": "This is an initial draft release",
+      "characteristics": [
+        {
+          "name": "Debug Console stdin/stdout",
+          "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
+        },
+        {
+          "name": "Ext Configuration",
+          "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "MEMS Sensor Fusion Compact",
+          "uuid": "00000100-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Accelerometer",
+          "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Gyroscope",
+          "uuid": "00400000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Magnetometer",
+          "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Pressure",
+          "uuid": "00100000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Humidity",
+          "uuid": "00080000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Temperature",
+          "uuid": "00010000-0001-11e1-ac36-0002a5d5c51b"
+        }
+      ],
+      "cloud_apps": [],
+      "fota": {
+        "bootloader_type": "none",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/BLEDualProgram_FP-SNS-STBOX1_1_5_0.bin",
+        "max_chunk_length": 0,
+        "max_divisor_constraint": 0,
+        "partial_fota": 0,
+        "type": "fast"
+      },
+      "fw_desc": "Firmware for all box boards",
+      "fw_name": "BleDualProgram_FP-SNS-STBOX1",
+      "fw_version": "1.5.0",
+      "id": 134,
+      "option_bytes": [
+        {
+          "format": "enum_string",
+          "name": "Running on: ",
+          "string_values": [
+            {
+              "display_name": "Bank 1",
+              "value": 1
+            },
+            {
+              "display_name": "Bank 2",
+              "value": 2
+            }
+          ],
+          "type": "string"
+        }
+      ]
+    },
+    {
       "ble_dev_id": "0x0C",
       "ble_fw_id": "0x01",
       "brd_name": "STEVAL-ASTRA1B",
@@ -1104,80 +1178,6 @@
           ],
           "name": "status",
           "type": "icon"
-        }
-      ]
-    },
-    {
-      "ble_dev_id": "0x00",
-      "ble_fw_id": "0x01",
-      "brd_name": "STEVAL-MKBOXPRO",
-      "changelog": "This is an initial draft release",
-      "characteristics": [
-        {
-          "name": "Debug Console stdin/stdout",
-          "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
-        },
-        {
-          "name": "Ext Configuration",
-          "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "MEMS Sensor Fusion Compact",
-          "uuid": "00000100-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Accelerometer",
-          "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Gyroscope",
-          "uuid": "00400000-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Magnetometer",
-          "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Pressure",
-          "uuid": "00100000-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Humidity",
-          "uuid": "00080000-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Temperature",
-          "uuid": "00010000-0001-11e1-ac36-0002a5d5c51b"
-        }
-      ],
-      "cloud_apps": [],
-      "fota": {
-        "bootloader_type": "none",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/BLEDualProgram_FP-SNS-STBOX1_1_5_0.bin",
-        "max_chunk_length": 0,
-        "max_divisor_constraint": 0,
-        "partial_fota": 0,
-        "type": "fast"
-      },
-      "fw_desc": "Firmware for all box boards",
-      "fw_name": "BleDualProgram_FP-SNS-STBOX1",
-      "fw_version": "1.5.0",
-      "id": 134,
-      "option_bytes": [
-        {
-          "format": "enum_string",
-          "name": "Running on: ",
-          "string_values": [
-            {
-              "display_name": "Bank 1",
-              "value": 1
-            },
-            {
-              "display_name": "Bank 2",
-              "value": 2
-            }
-          ],
-          "type": "string"
         }
       ]
     },
@@ -1554,6 +1554,80 @@
       ]
     },
     {
+      "ble_dev_id": "0x0D",
+      "ble_fw_id": "0x02",
+      "brd_name": "STEVAL-MKBOXPRO",
+      "changelog": "This is an initial draft release",
+      "characteristics": [
+        {
+          "name": "Debug Console stdin/stdout",
+          "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
+        },
+        {
+          "name": "Ext Configuration",
+          "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Accelerometer",
+          "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Gyroscope",
+          "uuid": "00400000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Magnetometer",
+          "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Pressure",
+          "uuid": "00100000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Humidity",
+          "uuid": "00080000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Temperature",
+          "uuid": "00010000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Battery",
+          "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b"
+        }
+      ],
+      "cloud_apps": [],
+      "fota": {
+        "bootloader_type": "none",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/BLESensors_FP-SNS-STBOX1_1_5_0.bin",
+        "max_chunk_length": 0,
+        "max_divisor_constraint": 0,
+        "partial_fota": 0,
+        "type": "fast"
+      },
+      "fw_desc": "Firmware for all box boards",
+      "fw_name": "BLESensors_FP-SNS-STBOX1",
+      "fw_version": "1.5.0",
+      "id": 135,
+      "option_bytes": [
+        {
+          "format": "enum_string",
+          "name": "Running on: ",
+          "string_values": [
+            {
+              "display_name": "Bank 1",
+              "value": 1
+            },
+            {
+              "display_name": "Bank 2",
+              "value": 2
+            }
+          ],
+          "type": "string"
+        }
+      ]
+    },
+    {
       "ble_dev_id": "0x0C",
       "ble_fw_id": "0x02",
       "brd_name": "STEVAL-ASTRA1B",
@@ -1689,80 +1763,6 @@
           ],
           "name": "status",
           "type": "icon"
-        }
-      ]
-    },
-    {
-      "ble_dev_id": "0x00",
-      "ble_fw_id": "0x02",
-      "brd_name": "STEVAL-MKBOXPRO",
-      "changelog": "This is an initial draft release",
-      "characteristics": [
-        {
-          "name": "Debug Console stdin/stdout",
-          "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
-        },
-        {
-          "name": "Ext Configuration",
-          "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Accelerometer",
-          "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Gyroscope",
-          "uuid": "00400000-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Magnetometer",
-          "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Pressure",
-          "uuid": "00100000-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Humidity",
-          "uuid": "00080000-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Temperature",
-          "uuid": "00010000-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Battery",
-          "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b"
-        }
-      ],
-      "cloud_apps": [],
-      "fota": {
-        "bootloader_type": "none",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/BLESensors_FP-SNS-STBOX1_1_5_0.bin",
-        "max_chunk_length": 0,
-        "max_divisor_constraint": 0,
-        "partial_fota": 0,
-        "type": "fast"
-      },
-      "fw_desc": "Firmware for all box boards",
-      "fw_name": "BLESensors_FP-SNS-STBOX1",
-      "fw_version": "1.5.0",
-      "id": 135,
-      "option_bytes": [
-        {
-          "format": "enum_string",
-          "name": "Running on: ",
-          "string_values": [
-            {
-              "display_name": "Bank 1",
-              "value": 1
-            },
-            {
-              "display_name": "Bank 2",
-              "value": 2
-            }
-          ],
-          "type": "string"
         }
       ]
     },
@@ -2007,6 +2007,60 @@
       ]
     },
     {
+      "ble_dev_id": "0x0D",
+      "ble_fw_id": "0x03",
+      "brd_name": "STEVAL-MKBOXPRO",
+      "changelog": "This is an initial draft release",
+      "characteristics": [
+        {
+          "name": "Debug Console stdin/stdout",
+          "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
+        },
+        {
+          "name": "Ext Configuration",
+          "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Finite State Machine",
+          "uuid": "00000010-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Machine Learning Core",
+          "uuid": "0000000F-0002-11e1-ac36-0002a5d5c51b"
+        }
+      ],
+      "cloud_apps": [],
+      "fota": {
+        "bootloader_type": "none",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/BLEMLC_FP-SNS-STBOX1_1_5_0.bin",
+        "max_chunk_length": 0,
+        "max_divisor_constraint": 0,
+        "partial_fota": 0,
+        "type": "fast"
+      },
+      "fw_desc": "Firmware for all box boards",
+      "fw_name": "BLEMLC_FP-SNS-STBOX1",
+      "fw_version": "1.5.0",
+      "id": 136,
+      "option_bytes": [
+        {
+          "format": "enum_string",
+          "name": "Running on: ",
+          "string_values": [
+            {
+              "display_name": "Bank 1",
+              "value": 1
+            },
+            {
+              "display_name": "Bank 2",
+              "value": 2
+            }
+          ],
+          "type": "string"
+        }
+      ]
+    },
+    {
       "ble_dev_id": "0x0C",
       "ble_fw_id": "0x03",
       "brd_name": "STEVAL-ASTRA1B",
@@ -2146,60 +2200,6 @@
       ]
     },
     {
-      "ble_dev_id": "0x00",
-      "ble_fw_id": "0x03",
-      "brd_name": "STEVAL-MKBOXPRO",
-      "changelog": "This is an initial draft release",
-      "characteristics": [
-        {
-          "name": "Debug Console stdin/stdout",
-          "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
-        },
-        {
-          "name": "Ext Configuration",
-          "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Finite State Machine",
-          "uuid": "00000010-0002-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Machine Learning Core",
-          "uuid": "0000000F-0002-11e1-ac36-0002a5d5c51b"
-        }
-      ],
-      "cloud_apps": [],
-      "fota": {
-        "bootloader_type": "none",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/BLEMLC_FP-SNS-STBOX1_1_5_0.bin",
-        "max_chunk_length": 0,
-        "max_divisor_constraint": 0,
-        "partial_fota": 0,
-        "type": "fast"
-      },
-      "fw_desc": "Firmware for all box boards",
-      "fw_name": "BLEMLC_FP-SNS-STBOX1",
-      "fw_version": "1.5.0",
-      "id": 136,
-      "option_bytes": [
-        {
-          "format": "enum_string",
-          "name": "Running on: ",
-          "string_values": [
-            {
-              "display_name": "Bank 1",
-              "value": 1
-            },
-            {
-              "display_name": "Bank 2",
-              "value": 2
-            }
-          ],
-          "type": "string"
-        }
-      ]
-    },
-    {
       "ble_dev_id": "0x0E",
       "ble_fw_id": "0x04",
       "brd_name": "STEVAL-STWINBX1",
@@ -2251,6 +2251,56 @@
       "fw_name": "BLEDefaultFw_FP-SNS-STBOX1",
       "fw_version": "1.4.0",
       "id": 58,
+      "option_bytes": [
+        {
+          "format": "enum_string",
+          "name": "Running on: ",
+          "string_values": [
+            {
+              "display_name": "Bank 1",
+              "value": 1
+            },
+            {
+              "display_name": "Bank 2",
+              "value": 2
+            }
+          ],
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "ble_dev_id": "0x0D",
+      "ble_fw_id": "0x04",
+      "brd_name": "STEVAL-MKBOXPRO",
+      "changelog": "This is an initial draft release",
+      "characteristics": [
+        {
+          "name": "Debug Console stdin/stdout",
+          "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
+        },
+        {
+          "name": "Ext Configuration",
+          "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Piano",
+          "uuid": "0000001c-0002-11e1-ac36-0002a5d5c51b"
+        }
+      ],
+      "cloud_apps": [],
+      "fota": {
+        "bootloader_type": "none",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mksboxpro/BLEPiano_FP-SNS-STBOX1_1_5_0.bin",
+        "max_chunk_length": 0,
+        "max_divisor_constraint": 0,
+        "partial_fota": 0,
+        "type": "fast"
+      },
+      "fw_desc": "Firmware for all box boards",
+      "fw_name": "BLEPiano_FP-SNS-STBOX1",
+      "fw_version": "1.5.0",
+      "id": 137,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -2411,8 +2461,8 @@
       "option_bytes": []
     },
     {
-      "ble_dev_id": "0x00",
-      "ble_fw_id": "0x04",
+      "ble_dev_id": "0x0D",
+      "ble_fw_id": "0x05",
       "brd_name": "STEVAL-MKBOXPRO",
       "changelog": "This is an initial draft release",
       "characteristics": [
@@ -2425,23 +2475,47 @@
           "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
         },
         {
-          "name": "Piano",
-          "uuid": "0000001c-0002-11e1-ac36-0002a5d5c51b"
+          "name": "Accelerometer",
+          "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Gyroscope",
+          "uuid": "00400000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Magnetometer",
+          "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Pressure",
+          "uuid": "00100000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Temperature",
+          "uuid": "00010000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Battery",
+          "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "PnPLike",
+          "uuid": "0000001b-0002-11e1-ac36-0002a5d5c51b"
         }
       ],
       "cloud_apps": [],
       "fota": {
         "bootloader_type": "none",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mksboxpro/BLEPiano_FP-SNS-STBOX1_1_5_0.bin",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/BLESensorsPnPL_FP-SNS-STBOX1_1_5_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
         "type": "fast"
       },
       "fw_desc": "Firmware for all box boards",
-      "fw_name": "BLEPiano_FP-SNS-STBOX1",
+      "fw_name": "BLESensorsPnPL_FP-SNS-STBOX1",
       "fw_version": "1.5.0",
-      "id": 137,
+      "id": 138,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -2580,80 +2654,6 @@
           ],
           "name": "status",
           "type": "icon"
-        }
-      ]
-    },
-    {
-      "ble_dev_id": "0x00",
-      "ble_fw_id": "0x05",
-      "brd_name": "STEVAL-MKBOXPRO",
-      "changelog": "This is an initial draft release",
-      "characteristics": [
-        {
-          "name": "Debug Console stdin/stdout",
-          "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
-        },
-        {
-          "name": "Ext Configuration",
-          "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Accelerometer",
-          "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Gyroscope",
-          "uuid": "00400000-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Magnetometer",
-          "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Pressure",
-          "uuid": "00100000-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Temperature",
-          "uuid": "00010000-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "Battery",
-          "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b"
-        },
-        {
-          "name": "PnPLike",
-          "uuid": "0000001b-0002-11e1-ac36-0002a5d5c51b"
-        }
-      ],
-      "cloud_apps": [],
-      "fota": {
-        "bootloader_type": "none",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/BLESensorsPnPL_FP-SNS-STBOX1_1_5_0.bin",
-        "max_chunk_length": 0,
-        "max_divisor_constraint": 0,
-        "partial_fota": 0,
-        "type": "fast"
-      },
-      "fw_desc": "Firmware for all box boards",
-      "fw_name": "BLESensorsPnPL_FP-SNS-STBOX1",
-      "fw_version": "1.5.0",
-      "id": 138,
-      "option_bytes": [
-        {
-          "format": "enum_string",
-          "name": "Running on: ",
-          "string_values": [
-            {
-              "display_name": "Bank 1",
-              "value": 1
-            },
-            {
-              "display_name": "Bank 2",
-              "value": 2
-            }
-          ],
-          "type": "string"
         }
       ]
     },
@@ -4142,7 +4142,7 @@
       "fw_name": "BLELowPowerRTOS_FP-SNS-STBOX1",
       "fw_version": "1.5.0",
       "id": 131,
-      "option_bytes": "[]"
+      "option_bytes": []
     },
     {
       "ble_dev_id": "0x0E",
@@ -4231,7 +4231,7 @@
       "fw_name": "BLEMLC_FP-SNS-STBOX1",
       "fw_version": "1.5.0",
       "id": 132,
-      "option_bytes": "[]"
+      "option_bytes": []
     },
     {
       "ble_dev_id": "0x0E",
@@ -4367,7 +4367,7 @@
       "fw_name": "BLESensors_FP-SNS-STBOX1",
       "fw_version": "1.5.0",
       "id": 133,
-      "option_bytes": "[]"
+      "option_bytes": []
     },
     {
       "ble_dev_id": "0x0E",
@@ -6761,7 +6761,7 @@
       "uuid": "00000012-0002-11e1-ac36-0002a5d5c51b"
     }
   ],
-  "checksum": "a91d40a86b922f9b74a49842ea86dd0c",
-  "date": "2023-03-13T13:31:03.099252Z",
+  "checksum": "021566c92f7c0b29f93b710677751b65",
+  "date": "2023-03-14T07:13:51.596723Z",
   "version": "0.4.0"
 }
