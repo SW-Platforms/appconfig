@@ -2504,6 +2504,7 @@
         }
       ],
       "cloud_apps": [],
+      "dtmi": "dtmi:appconfig:steval_mkboxpro:BLESensorPnPL;1",
       "fota": {
         "bootloader_type": "none",
         "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/BLESensorsPnPL_FP-SNS-STBOX1_1_5_0.bin",
@@ -4611,6 +4612,7 @@
         }
       ],
       "cloud_apps": [],
+      "dtmi": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL;1",
       "fota": {
         "bootloader_type": "none",
         "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/BLESensorsPnPL_FP-SNS-STBOX1_1_5_0.bin",
@@ -6761,7 +6763,7 @@
       "uuid": "00000012-0002-11e1-ac36-0002a5d5c51b"
     }
   ],
-  "checksum": "021566c92f7c0b29f93b710677751b65",
-  "date": "2023-03-14T07:13:51.596723Z",
+  "checksum": "c149e4f0f3bbf1cdee0ce2197da0f62a",
+  "date": "2023-03-14T07:57:23.700375Z",
   "version": "0.4.0"
 }
