@@ -3393,7 +3393,7 @@
         "bootloader_type": "none",
         "fw_url": null,
         "max_chunk_length": 0,
-        "max_divisor_constraint": 0,
+        "max_divisor_constraint": 8,
         "partial_fota": 0,
         "type": "fast"
       },
