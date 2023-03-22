@@ -4832,6 +4832,79 @@
           "type": "string"
         }
       ]
+    },
+    {
+      "ble_dev_id": "0x0D",
+      "ble_fw_id": "0x07",
+      "brd_name": "SensorTile.Box-Pro",
+      "fw_name": "FP-ATR-BLE1",
+      "fw_version": "2.0.0", 
+      "fota" : {
+          "partial_fota": 0,
+          "type": "fast",
+          "max_chunk_length": 0,
+          "max_divisor_constraint": 0
+          },
+      "option_bytes": [
+      {
+            "format": "enum_string",
+            "name": "Running on: ",
+            "string_values": [
+              {
+                "display_name": "Bank 1",
+                "value": 1
+              },
+              {
+                "display_name": "Bank 2",
+                "value": 2
+              }
+            ],
+            "type": "string"
+          },
+          {
+          "format": "enum_icon",
+          "icon_values": [
+            {
+              "comment": "Stop",
+              "icon_code": 32,
+              "value": 0
+            },
+            {
+              "comment": "Logging",
+              "icon_code": 30,
+              "value": 1
+            },
+            {
+              "comment": "Paused",
+              "icon_code": 31,
+              "value": 2
+            }
+          ],
+          "name": "Log status",
+          "type": "icon"
+        }
+      ],
+      "cloud_apps": [],
+       "characteristics": [
+        {
+          "name": "Debug Console stdin/stdout",
+          "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
+        },
+        {
+          "name": "Ext Configuration",
+          "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Binary Content",
+          "uuid": "00000022-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "PnPLike",
+          "uuid": "0000001b-0002-11e1-ac36-0002a5d5c51b"
+        }
+      ],
+      "fw_desc": "Asset tracking using BLE/NFC connectivity",
+      "dtmi": "dtmi:appconfig:steval_mkboxpro:fp_atr_ble1;1"
     }
   ],
   "characteristics": [
@@ -6764,6 +6837,6 @@
     }
   ],
   "checksum": "c149e4f0f3bbf1cdee0ce2197da0f62a",
-  "date": "2023-03-14T07:57:23.700375Z",
-  "version": "0.4.0"
+  "date": "2023-03-22T07:57:23.700375Z",
+  "version": "0.4.1"
 }
