@@ -2381,7 +2381,7 @@
       "cloud_apps": [],
       "fota": {
         "bootloader_type": "none",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mksboxpro/BLEPiano_FP-SNS-STBOX1_1_5_0.bin",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/BLEPiano_FP-SNS-STBOX1_1_5_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -2859,6 +2859,7 @@
         }
       ],
       "cloud_apps": [],
+      "dtmi": "dtmi:appconfig:steval_mkboxpro:datalog2_fpSnsDatalog2;1",
       "fota": {
         "bootloader_type": "none",
         "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/Datalog2_FP-SNS-DATALOG2_1_1_0.bin",
@@ -3396,7 +3397,7 @@
       "dtmi": "dtmi:appconfig:steval_mkboxpro:fpAtrBle1;1",
       "fota": {
         "bootloader_type": "none",
-        "fw_url": "",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/AtrBle1_FP-ATR-BLE1_2_0_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -3699,7 +3700,7 @@
         "bootloader_type": "none",
         "fw_url": null,
         "max_chunk_length": 0,
-        "max_divisor_constraint": 0,
+        "max_divisor_constraint": 8,
         "partial_fota": 0,
         "type": "fast"
       },
@@ -4981,6 +4982,7 @@
         }
       ],
       "cloud_apps": [],
+      "dtmi": "dtmi:appconfig:steval_stwinbx1:datalog2_fpSnsDatalog2;2",
       "fota": {
         "bootloader_type": "none",
         "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/Datalog2_FP-SNS-DATALOG2_1_1_0.bin",
@@ -5122,6 +5124,7 @@
         }
       ],
       "cloud_apps": [],
+      "dtmi": "dtmi:appconfig:steval_stwinbx1:datalog2Ispu_fpSnsDatalog2;2",
       "fota": {
         "bootloader_type": "none",
         "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/Datalog2-ISPU_FP-SNS-DATALOG2_1_1_0.bin",
@@ -5251,6 +5254,7 @@
         }
       ],
       "cloud_apps": [],
+      "dtmi": "dtmi:appconfig:steval_stwinbx1:ultrasoundFft_fpSnsDatalog2;2",
       "fota": {
         "bootloader_type": "none",
         "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/Ultrasound-FFT_FP-SNS-DATALOG2_1_1_0.bin",
@@ -7392,7 +7396,7 @@
       "uuid": "00000012-0002-11e1-ac36-0002a5d5c51b"
     }
   ],
-  "checksum": "304edaf1ce3f05be92a712ac6ea4dceb",
-  "date": "2023-03-26T16:14:39.997083Z",
+  "checksum": "2d4804e0894369ca8a342422ac907ba3",
+  "date": "2023-03-31T07:30:55.205621Z",
   "version": "0.4.0"
 }
