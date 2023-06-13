@@ -7986,8 +7986,8 @@
       "unique_dev_id": 1,
       "brd_name": "STEVAL-STWINKT1B",
       "friendly_name" : "STWIN",
-      "description" : "STWIN SensorTile Wireless Industrial Node development kit and reference design for industrial IoT applications",
       "status" : "ACTIVE",
+      "description" : "STWIN SensorTile Wireless Industrial Node development kit and reference design for industrial IoT applications",
       "documentation_url": "https://www.st.com/en/evaluation-tools/steval-stwinkt1b.html#documentation",
       "order_url": "https://www.st.com/en/evaluation-tools/steval-stwinkt1b.html#sample-buy",
       "video_url": "https://www.youtube.com/watch?v=J3M0_9EdOqU"
@@ -8011,8 +8011,8 @@
       "unique_dev_id": 3,
       "brd_name": "STEVAL-BCNKT01V1",
       "friendly_name" : "BlueCoin",
-      "description" : "BlueCoin Starter kit",
       "status" : "ACTIVE",
+      "description" : "BlueCoin Starter kit",
       "documentation_url": "https://www.st.com/en/evaluation-tools/steval-bcnkt01v1.html#documentation",
       "order_url": "https://www.st.com/en/evaluation-tools/steval-bcnkt01v1.html#sample-buy",
       "video_url": "https://www.youtube.com/watch?v=JJOvbyOZarg"
@@ -8023,9 +8023,9 @@
       "usb_dev_id": null,
       "unique_dev_id": 4,
       "brd_name": "STEVAL-ASTRA1B",
-      "description" : "Multiconnectivity asset tracking reference design based on STM32WB5MMG and STM32WL55JC",
       "friendly_name" : "ASTRA1",
       "status" : "NRND",
+      "description" : "Multiconnectivity asset tracking reference design based on STM32WB5MMG and STM32WL55JC",
       "documentation_url": "https://www.st.com/en/evaluation-tools/steval-astra1b.html#documentation",
       "order_url": null,
       "video_url": null
