@@ -8024,7 +8024,7 @@
       "unique_dev_id": 4,
       "brd_name": "STEVAL-ASTRA1B",
       "description" : "Multiconnectivity asset tracking reference design based on STM32WB5MMG and STM32WL55JC",
-      "friendly_name" : "Multiconnectivity asset tracking reference design",
+      "friendly_name" : "ASTRA1",
       "status" : "NRND",
       "documentation_url": "https://www.st.com/en/evaluation-tools/steval-astra1b.html#documentation",
       "order_url": null,
