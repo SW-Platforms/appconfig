@@ -7986,7 +7986,7 @@
       "unique_dev_id": 1,
       "brd_name": "STEVAL-STWINKT1B",
       "friendly_name" : "STWIN SensorTile",
-      "status" : "Active",
+      "status" : "ACTIVE",
       "documentation_url": "https://www.st.com/en/evaluation-tools/steval-stwinkt1b.html#documentation",
       "order_url": "https://www.st.com/en/evaluation-tools/steval-stwinkt1b.html#sample-buy",
       "video_url": "https://www.youtube.com/watch?v=J3M0_9EdOqU"
@@ -8010,7 +8010,7 @@
       "unique_dev_id": 3,
       "brd_name": "STEVAL-BCNKT01V1",
       "friendly_name" : "BlueCoin Starter kit",
-      "status" : "Active",
+      "status" : "ACTIVE",
       "documentation_url": "https://www.st.com/en/evaluation-tools/steval-bcnkt01v1.html#documentation",
       "order_url": "https://www.st.com/en/evaluation-tools/steval-bcnkt01v1.html#sample-buy",
       "video_url": "https://www.youtube.com/watch?v=JJOvbyOZarg"
