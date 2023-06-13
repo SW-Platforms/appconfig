@@ -1431,14 +1431,7 @@
         }
       ],
       "cloud_apps": [],
-      "fota": {
-        "bootloader_type": "",
-        "fw_url": null,
-        "max_chunk_length": 0,
-        "max_divisor_constraint": 0,
-        "partial_fota": 0,
-        "type": ""
-      },
+      "fota": {},
       "fw_desc": "Fast FOTA, BlueST SDK v2",
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.3.0",
