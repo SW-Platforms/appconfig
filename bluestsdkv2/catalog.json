@@ -7999,7 +7999,7 @@
       "video_url": "https://www.youtube.com/watch?v=J3M0_9EdOqU"
     },
     {
-      "ble_dev_id": null,
+      "ble_dev_id": "0x01",
       "nfc_dev_id": null,
       "usb_dev_id": "0x04",
       "unique_dev_id": 2,
