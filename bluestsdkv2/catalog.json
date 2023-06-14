@@ -1391,7 +1391,7 @@
       "ble_dev_id": "0x7D",
       "ble_fw_id": "0x02",
       "brd_name": "NUCLEO-STM32L053R8",
-      "changelog": "",
+      "changelog": "BlueST SDK v2",
       "characteristics": [
         {
           "name": "Temperature",
@@ -1431,8 +1431,15 @@
         }
       ],
       "cloud_apps": [],
-      "fota": {},
-      "fw_desc": "Fast FOTA, BlueST SDK v2",
+      "fota": {
+        "bootloader_type": "",
+        "fw_url": null,
+        "max_chunk_length": 0,
+        "max_divisor_constraint": 0,
+        "partial_fota": 0,
+        "type": ""
+      },
+      "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.3.0",
       "id": 154,
@@ -2278,7 +2285,7 @@
       "ble_dev_id": "0x7F",
       "ble_fw_id": "0x04",
       "brd_name": "NUCLEO-STM32F401RE",
-      "changelog": "",
+      "changelog": "BlueST SDK v2",
       "characteristics": [
         {
           "name": "Temperature",
@@ -2354,7 +2361,7 @@
         "partial_fota": 0,
         "type": "fast"
       },
-      "fw_desc": "Fast FOTA, BlueST SDK v2",
+      "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.3.0",
       "id": 152,
@@ -2379,7 +2386,7 @@
       "ble_dev_id": "0x7E",
       "ble_fw_id": "0x04",
       "brd_name": "NUCLEO-STM32L476RG",
-      "changelog": "",
+      "changelog": "BlueST SDK v2",
       "characteristics": [
         {
           "name": "Temperature",
@@ -2455,7 +2462,7 @@
         "partial_fota": 0,
         "type": "fast"
       },
-      "fw_desc": "Fast FOTA, BlueST SDK v2",
+      "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.3.0",
       "id": 153,
@@ -7978,60 +7985,7 @@
       "uuid": "00000012-0002-11e1-ac36-0002a5d5c51b"
     }
   ],
-"boards": [
-    {
-      "ble_dev_id": "0x09",
-      "nfc_dev_id": "0x02",
-      "usb_dev_id": "0x01",
-      "unique_dev_id": 1,
-      "brd_name": "STEVAL-STWINKT1B",
-      "friendly_name" : "STWIN",
-      "status" : "ACTIVE",
-      "description" : "STWIN SensorTile Wireless Industrial Node development kit and reference design for industrial IoT applications",
-      "documentation_url": "https://www.st.com/en/evaluation-tools/steval-stwinkt1b.html#documentation",
-      "order_url": "https://www.st.com/en/evaluation-tools/steval-stwinkt1b.html#sample-buy",
-      "video_url": "https://www.youtube.com/watch?v=J3M0_9EdOqU"
-    },
-    {
-      "ble_dev_id": "0x01",
-      "nfc_dev_id": null,
-      "usb_dev_id": "0x04",
-      "unique_dev_id": 2,
-      "brd_name": "STEVAL-WESU1",
-      "friendly_name" : "Wearable sensor unit",
-      "status" : "NRND",
-      "documentation_url": null,
-      "order_url": null,
-      "video_url": null
-    },
-     {
-      "ble_dev_id": "0x04",
-      "nfc_dev_id": null,
-      "usb_dev_id": "0x05",
-      "unique_dev_id": 3,
-      "brd_name": "STEVAL-BCNKT01V1",
-      "friendly_name" : "BlueCoin",
-      "status" : "ACTIVE",
-      "description" : "BlueCoin Starter kit",
-      "documentation_url": "https://www.st.com/en/evaluation-tools/steval-bcnkt01v1.html#documentation",
-      "order_url": "https://www.st.com/en/evaluation-tools/steval-bcnkt01v1.html#sample-buy",
-      "video_url": "https://www.youtube.com/watch?v=JJOvbyOZarg"
-    },
-    {
-      "ble_dev_id": "0x0C",
-      "nfc_dev_id": null,
-      "usb_dev_id": null,
-      "unique_dev_id": 4,
-      "brd_name": "STEVAL-ASTRA1B",
-      "friendly_name" : "ASTRA1",
-      "status" : "NRND",
-      "description" : "Multiconnectivity asset tracking reference design based on STM32WB5MMG and STM32WL55JC",
-      "documentation_url": "https://www.st.com/en/evaluation-tools/steval-astra1b.html#documentation",
-      "order_url": null,
-      "video_url": null
-    }
-  ],
-  "checksum": "9359adfd5be7bf885d62d393d190a77c",
-  "date": "2023-06-13T08:29:02.751595Z",
+  "checksum": "964ac8f2262a4e1baa29d92ae5d9dbdf",
+  "date": "2023-06-14T08:03:28.755775Z",
   "version": "0.4.1"
 }
