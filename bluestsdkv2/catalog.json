@@ -6364,7 +6364,7 @@
       "status" : "ACTIVE",
       "description" : "STM32 Nucleo-64 development board with STM32L053R8 MCU, supports Arduino and ST morpho connectivity",
       "documentation_url": "https://www.st.com/en/evaluation-tools/nucleo-l053r8.html#documentation",
-      "order_url": "https://www.st.com/en/evaluation-tools/nucleo-l053r8.html#sample-buy",
+      "order_url": "https://estore.st.com/en/nucleo-l053r8-cpn.html",
       "video_url": "https://www.youtube.com/watch?v=m94CCYyX5DM"
     },
     {
@@ -6377,7 +6377,7 @@
       "status" : "ACTIVE",
       "description" : "STM32 Nucleo-64 development board with STM32L476RG MCU, supports Arduino and ST morpho connectivity",
       "documentation_url": "https://www.st.com/en/evaluation-tools/nucleo-l476rg.html#documentation",
-      "order_url": "https://www.st.com/en/evaluation-tools/nucleo-l476rg.html#sample-buy",
+      "order_url": "https://estore.st.com/en/nucleo-l476rg-cpn.html",
       "video_url": "https://www.youtube.com/watch?v=m94CCYyX5DM"
     },
     {
@@ -6390,7 +6390,7 @@
       "status" : "ACTIVE",
       "description" : "STM32 Nucleo-64 development board with STM32F401RE MCU, supports Arduino and ST morpho connectivity",
       "documentation_url": "https://www.st.com/en/evaluation-tools/nucleo-f401re.html#documentation",
-      "order_url": "https://www.st.com/en/evaluation-tools/nucleo-f401re.html#sample-buy",
+      "order_url": "https://estore.st.com/en/nucleo-f401re-cpn.html",
       "video_url": "https://www.youtube.com/watch?v=m94CCYyX5DM"
     }
   ],
