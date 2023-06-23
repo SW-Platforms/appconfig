@@ -1416,14 +1416,7 @@
         }
       ],
       "cloud_apps": [],
-      "fota": {
-        "bootloader_type": "",
-        "fw_url": null,
-        "max_chunk_length": 0,
-        "max_divisor_constraint": 0,
-        "partial_fota": 0,
-        "type": ""
-      },
+      "fota": {},
       "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.3.0",
@@ -1901,14 +1894,7 @@
       "changelog": "",
       "characteristics": [],
       "cloud_apps": [],
-      "fota": {
-        "bootloader_type": "",
-        "fw_url": null,
-        "max_chunk_length": 0,
-        "max_divisor_constraint": 0,
-        "partial_fota": 0,
-        "type": "no"
-      },
+      "fota": {},
       "fw_desc": "",
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.3.2",
@@ -8147,7 +8133,7 @@
       "uuid": "00000012-0002-11e1-ac36-0002a5d5c51b"
     }
   ],
-  "checksum": "458a4fc8960f3c93a2792436305a03a5",
-  "date": "2023-06-22T15:33:57.292344Z",
+  "checksum": "b50970a3940da9942a3baf17ebf8eaff",
+  "date": "2023-06-23T07:54:18.867671Z",
   "version": "0.5.1"
 }
