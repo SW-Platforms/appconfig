@@ -80,6 +80,7 @@
       "fw_desc": "",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.1.0",
+      "id": 14,
       "option_bytes": []
     },
     {
@@ -162,6 +163,7 @@
       "fw_desc": "",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.1.0",
+      "id": 15,
       "option_bytes": []
     },
     {
@@ -228,6 +230,7 @@
       "fw_desc": "New RPN (Link) - STM32Cube function pack for ultra-low power context awareness with distributed artificial intelligence (AI): acoustic analysis with NN on MCU and motion analysis with ML on IMU",
       "fw_name": "FP-AI-CTXAWARE1",
       "fw_version": "1.0.0",
+      "id": 39,
       "option_bytes": []
     },
     {
@@ -306,6 +309,7 @@
       "fw_desc": "Acc FFT, Acc time stats (RMS, peaks) streaming over Wi-Fi",
       "fw_name": "FP-IND-PREDMNT1",
       "fw_version": "2.4.0",
+      "id": 38,
       "option_bytes": []
     }
   ],
@@ -392,6 +396,7 @@
       "fw_desc": "Fast FOTA, BlueST SDK v2",
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.2.0",
+      "id": 42,
       "option_bytes": []
     },
     {
@@ -476,6 +481,7 @@
       "fw_desc": "Fast FOTA, BlueST SDK v2",
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.2.0",
+      "id": 43,
       "option_bytes": []
     },
     {
@@ -525,6 +531,7 @@
       "fw_desc": "Fast FOTA, BlueST SDK v2",
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.2.0",
+      "id": 44,
       "option_bytes": []
     },
     {
@@ -598,6 +605,7 @@
       "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.2.0",
+      "id": 47,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -682,6 +690,7 @@
       "fw_desc": "Predictive Maintenance over LoRa",
       "fw_name": "STDES-CBMLoRaBLE",
       "fw_version": "1.0.0",
+      "id": 66,
       "option_bytes": [
         {
           "format": "int",
@@ -823,6 +832,7 @@
       "fw_desc": "STM32WB predictive maintenance applications",
       "fw_name": "STSW-PROTEUS",
       "fw_version": "1.0.0",
+      "id": 36,
       "option_bytes": [
         {
           "escape_message": "",
@@ -939,6 +949,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BleDualProgram_FP-SNS-STBOX1",
       "fw_version": "1.4.0",
+      "id": 55,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -1012,6 +1023,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BleDualProgram_FP-SNS-STBOX1",
       "fw_version": "1.5.0",
+      "id": 134,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -1089,6 +1101,7 @@
       "fw_desc": "STM32Cube function pack for the STEVAL-ASTRA1B multi-connectivity asset tracking reference design",
       "fw_name": "FP-ATR-ASTRA1",
       "fw_version": "1.0.0",
+      "id": 34,
       "option_bytes": [
         {
           "format": "int",
@@ -1239,6 +1252,7 @@
       "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.2.0",
+      "id": 46,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -1355,6 +1369,7 @@
       "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.2.0",
+      "id": 48,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -1420,6 +1435,7 @@
       "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.3.0",
+      "id": 154,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -1471,6 +1487,7 @@
       "fw_desc": "Anomaly detection by NanoEdge AI",
       "fw_name": "FP-AI-PDMWBSOC",
       "fw_version": "1.0.0",
+      "id": 70,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -1583,6 +1600,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BLESensors_FP-SNS-STBOX1",
       "fw_version": "1.4.0",
+      "id": 56,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -1665,6 +1683,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BLESensors_FP-SNS-STBOX1",
       "fw_version": "1.5.0",
+      "id": 135,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -1742,6 +1761,7 @@
       "fw_desc": "STM32Cube function pack for the STEVAL-ASTRA1B multi-connectivity asset tracking reference design",
       "fw_name": "FP-ATR-ASTRA1",
       "fw_version": "1.1.0",
+      "id": 69,
       "option_bytes": [
         {
           "format": "int",
@@ -1852,6 +1872,7 @@
       "fw_desc": "candidate release",
       "fw_name": "FP-SNS-FLIGHT1",
       "fw_version": "4.2.0",
+      "id": 53,
       "option_bytes": []
     },
     {
@@ -1885,6 +1906,7 @@
       "fw_desc": "candidate release",
       "fw_name": "FP-SNS-FLIGHT1",
       "fw_version": "4.2.0",
+      "id": 54,
       "option_bytes": []
     },
     {
@@ -1898,6 +1920,7 @@
       "fw_desc": "",
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.3.2",
+      "id": 162,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -1969,6 +1992,7 @@
       "fw_desc": "Anomaly detection and Classification by NEAI",
       "fw_name": "FP-AI-PDMWBSOC",
       "fw_version": "2.0.0",
+      "id": 116,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -2068,6 +2092,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BLEMLC_FP-SNS-STBOX1",
       "fw_version": "1.4.0",
+      "id": 57,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -2121,6 +2146,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BLEMLC_FP-SNS-STBOX1",
       "fw_version": "1.5.0",
+      "id": 136,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -2198,6 +2224,7 @@
       "fw_desc": "STM32Cube function pack for the STEVAL-ASTRA1B multi-connectivity asset tracking reference design",
       "fw_name": "FP-ATR-ASTRA1",
       "fw_version": "2.0.0",
+      "id": 124,
       "option_bytes": [
         {
           "format": "int",
@@ -2360,6 +2387,7 @@
       "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.3.0",
+      "id": 152,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -2460,6 +2488,7 @@
       "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.3.0",
+      "id": 153,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -2526,6 +2555,7 @@
       "fw_desc": "Anomaly detection and Classification by NEAI based on ThreadX OS",
       "fw_name": "FP-AI-PDMWBSOCX",
       "fw_version": "1.0.0",
+      "id": 157,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -2638,6 +2668,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BLEDefaultFw_FP-SNS-STBOX1",
       "fw_version": "1.4.0",
+      "id": 58,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -2687,6 +2718,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BLEPiano_FP-SNS-STBOX1",
       "fw_version": "1.5.0",
+      "id": 137,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -2741,6 +2773,7 @@
       "fw_desc": "HSD with STREDL support",
       "fw_name": "FP-SNS-DATALOG1",
       "fw_version": "1.2.0-vespucci",
+      "id": 27,
       "option_bytes": []
     },
     {
@@ -2842,6 +2875,7 @@
       "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.2.0",
+      "id": 51,
       "option_bytes": []
     },
     {
@@ -2875,6 +2909,7 @@
       "fw_desc": "The FP-SNS-FLIGHT1 is an STM32Cube function pack, which lets your IoT node connect to a smartphone via BLE and uses a suitable Android\u2122 or iOS\u2122 application like the STBLESensor app to view real-time object distance data read by the Time-of-Flight sensor.",
       "fw_name": "FP-SNS-FLIGHT1",
       "fw_version": "5.0.0",
+      "id": 155,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -2919,6 +2954,7 @@
       "fw_desc": "The FP-SNS-FLIGHT1 is an STM32Cube function pack, which lets your IoT node connect to a smartphone via BLE and uses a suitable Android\u2122 or iOS\u2122 application like the STBLESensor app to view real-time object distance data read by the Time-of-Flight sensor.",
       "fw_name": "FP-SNS-FLIGHT1",
       "fw_version": "5.0.0",
+      "id": 156,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -2988,6 +3024,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BLESensorsPnPL_FP-SNS-STBOX1",
       "fw_version": "1.5.0",
+      "id": 138,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -3041,6 +3078,7 @@
       "fw_desc": "STM32Cube High Speed Datalog function pack for STWIN evaluation kits",
       "fw_name": "FP-SNS-DATALOG1",
       "fw_version": "1.4.0",
+      "id": 67,
       "option_bytes": [
         {
           "format": "int",
@@ -3146,6 +3184,7 @@
       "fw_desc": "",
       "fw_name": "FP-SNS-FLIGHT1",
       "fw_version": "5.0.2",
+      "id": 158,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -3178,6 +3217,7 @@
       "fw_desc": "",
       "fw_name": "FP-SNS-FLIGHT1",
       "fw_version": "5.0.2",
+      "id": 159,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -3252,6 +3292,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BLESensorsPnPL_FP-SNS-STBOX1",
       "fw_version": "1.4.0",
+      "id": 85,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -3314,6 +3355,7 @@
       "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
       "fw_name": "Datalog2_FP-SNS-DATALOG2",
       "fw_version": "1.1.0",
+      "id": 145,
       "option_bytes": [
         {
           "format": "int",
@@ -3454,6 +3496,7 @@
       "fw_desc": "fast fota\r\nbluest sdkv2 support\r\nFOTA size limitation 1MB",
       "fw_name": "FP-SNS-DATALOG1",
       "fw_version": "1.3.0",
+      "id": 37,
       "option_bytes": [
         {
           "format": "int",
@@ -3580,6 +3623,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BleDualProgram_FP-SNS-STBOX1",
       "fw_version": "1.4.0",
+      "id": 86,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -3665,6 +3709,7 @@
       "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.2.0",
+      "id": 49,
       "option_bytes": []
     },
     {
@@ -3685,6 +3730,7 @@
       "fw_desc": "",
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.3.2",
+      "id": 160,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -3721,6 +3767,7 @@
       "fw_desc": "",
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.3.2",
+      "id": 161,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -3783,6 +3830,7 @@
       "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
       "fw_name": "Datalog2_FP-SNS-DATALOG2",
       "fw_version": "1.0.0",
+      "id": 90,
       "option_bytes": [
         {
           "format": "int",
@@ -3916,6 +3964,7 @@
       "fw_desc": "Asset tracking using BLE/NFC connectivity",
       "fw_name": "FP-ATR-BLE1",
       "fw_version": "2.0.0",
+      "id": 146,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -3974,6 +4023,7 @@
       "fw_desc": "low power firmware for Quasar demo; uses STREDL and sends events on BLE advertisements",
       "fw_name": "quasar",
       "fw_version": "1.0.0",
+      "id": 45,
       "option_bytes": []
     },
     {
@@ -4035,6 +4085,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BLELowPowerRTOS_FP-SNS-STBOX1",
       "fw_version": "1.4.0",
+      "id": 87,
       "option_bytes": []
     },
     {
@@ -4081,6 +4132,7 @@
       "fw_desc": "Comprehensive solution for saving data from any combination of sensors plus external ISPU expansion board",
       "fw_name": "Datalog2-ISPU_FP-SNS-DATALOG2",
       "fw_version": "1.0.0",
+      "id": 91,
       "option_bytes": [
         {
           "format": "int",
@@ -4213,6 +4265,7 @@
       "fw_desc": "STM32Cube High Speed Datalog function pack for STWIN evaluation kits",
       "fw_name": "FP-SNS-DATALOG1",
       "fw_version": "1.4.0",
+      "id": 68,
       "option_bytes": [
         {
           "format": "int",
@@ -4351,6 +4404,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BLEMLC_FP-SNS-STBOX1",
       "fw_version": "1.4.0",
+      "id": 88,
       "option_bytes": []
     },
     {
@@ -4452,6 +4506,7 @@
       "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.2.0",
+      "id": 50,
       "option_bytes": []
     },
     {
@@ -4477,6 +4532,7 @@
       "fw_desc": "deleteme",
       "fw_name": "Diegotest",
       "fw_version": "0.0.1",
+      "id": 148,
       "option_bytes": []
     },
     {
@@ -4538,6 +4594,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BLESensors_FP-SNS-STBOX1",
       "fw_version": "1.4.0",
+      "id": 89,
       "option_bytes": []
     },
     {
@@ -4584,6 +4641,7 @@
       "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
       "fw_name": "Datalog2_FP-SNS-DATALOG2",
       "fw_version": "1.0.1",
+      "id": 121,
       "option_bytes": [
         {
           "format": "int",
@@ -4716,6 +4774,7 @@
       "fw_desc": "STM32Cube High Speed Datalog function pack for STWIN evaluation kits",
       "fw_name": "FP-SNS-DATALOG1",
       "fw_version": "1.5.0",
+      "id": 149,
       "option_bytes": [
         {
           "format": "int",
@@ -4842,6 +4901,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BleDualProgram_FP-SNS-STBOX1",
       "fw_version": "1.5.0",
+      "id": 130,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -4904,6 +4964,7 @@
       "fw_desc": "Comprehensive solution for saving data from any combination of sensors plus external ISPU expansion board",
       "fw_name": "Datalog2-ISPU_FP-SNS-DATALOG2",
       "fw_version": "1.0.1",
+      "id": 122,
       "option_bytes": [
         {
           "format": "int",
@@ -5060,6 +5121,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BLELowPowerRTOS_FP-SNS-STBOX1",
       "fw_version": "1.5.0",
+      "id": 131,
       "option_bytes": []
     },
     {
@@ -5113,6 +5175,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BLEMLC_FP-SNS-STBOX1",
       "fw_version": "1.5.0",
+      "id": 132,
       "option_bytes": []
     },
     {
@@ -5170,6 +5233,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BleDualProgram_FP-SNS-STBOX1",
       "fw_version": "1.5.0",
+      "id": 125,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -5256,6 +5320,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BLESensors_FP-SNS-STBOX1",
       "fw_version": "1.5.0",
+      "id": 133,
       "option_bytes": []
     },
     {
@@ -5322,6 +5387,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BLESensors_FP-SNS-STBOX1",
       "fw_version": "1.5.0",
+      "id": 126,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -5375,6 +5441,7 @@
       "fw_desc": "STM32Cube High Speed Datalog function pack for STWIN evaluation kits",
       "fw_name": "FP-SNS-DATALOG1",
       "fw_version": "1.5.0",
+      "id": 150,
       "option_bytes": [
         {
           "format": "int",
@@ -5501,6 +5568,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BLEMLC_FP-SNS-STBOX1",
       "fw_version": "1.5.0",
+      "id": 127,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -5575,6 +5643,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BLEDefaultFw_FP-SNS-STBOX1",
       "fw_version": "1.5.0",
+      "id": 128,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -5649,6 +5718,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "BLESensorsPnPL_FP-SNS-STBOX1",
       "fw_version": "1.5.0",
+      "id": 129,
       "option_bytes": [
         {
           "format": "enum_string",
@@ -5711,6 +5781,7 @@
       "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
       "fw_name": "Datalog2_FP-SNS-DATALOG2",
       "fw_version": "1.1.0",
+      "id": 142,
       "option_bytes": [
         {
           "format": "int",
@@ -5852,6 +5923,7 @@
       "fw_desc": "Comprehensive solution for saving data from any combination of sensors plus external ISPU expansion board",
       "fw_name": "Datalog2-ISPU_FP-SNS-DATALOG2",
       "fw_version": "1.1.0",
+      "id": 143,
       "option_bytes": [
         {
           "format": "int",
@@ -5979,6 +6051,7 @@
       "fw_desc": "STM32WB temporary stub to enable firmware update ",
       "fw_name": "FOTA-mode",
       "fw_version": "1.0.0",
+      "id": 41,
       "option_bytes": []
     },
     {
@@ -6011,6 +6084,7 @@
       "fw_desc": "STM32WB temporary stub to enable firmware update ",
       "fw_name": "FOTA-mode",
       "fw_version": "1.0.0",
+      "id": 40,
       "option_bytes": []
     },
     {
@@ -6064,6 +6138,7 @@
       "fw_desc": "Polaris firmware (testing one)",
       "fw_name": "Astra1 - Asset tracking",
       "fw_version": "0.1.0",
+      "id": 35,
       "option_bytes": [
         {
           "format": "int",
@@ -6140,257 +6215,271 @@
   "boards": [
     {
       "ble_dev_id": "0x01",
-      "nfc_dev_id": null,
-      "usb_dev_id": null,
-      "unique_dev_id": 1,
       "brd_name": "STEVAL-WESU1",
-      "friendly_name" : "WESU",
-      "status" : "NRND",
+      "components": [],
       "description": "Wearable sensor unit reference design for fast time to market",
       "documentation_url": "https://www.st.com/en/evaluation-tools/steval-wesu1.html#documentation",
+      "friendly_name": "WESU",
+      "nfc_dev_id": null,
       "order_url": null,
+      "status": "NRND",
+      "unique_dev_id": 4,
+      "usb_dev_id": null,
+      "video_url": null
+    },
+    {
+      "ble_dev_id": "0x09",
+      "brd_name": "STEVAL-STWINKT1B",
+      "components": [
+        "Sunchon",
+        "IIS3DWB",
+        "ISM330DHCX",
+        "IIS2DH",
+        "IIS2MDC",
+        "LPS22HH",
+        "STTS751",
+        "IMP34DT05",
+        "IMP23ABSU",
+        "STM32L4R9"
+      ],
+      "description": "SensorTile Wireless Industrial Node development kit and reference design for industrial IoT applications",
+      "documentation_url": "https://www.st.com/en/evaluation-tools/steval-stwinkt1b.html#documentation",
+      "friendly_name": "STWIN",
+      "nfc_dev_id": null,
+      "order_url": "https://estore.st.com/en/steval-stwinkt1b-cpn.html",
+      "status": "ACTIVE",
+      "unique_dev_id": 1,
+      "usb_dev_id": null,
+      "video_url": "https://www.youtube.com/watch?v=J3M0_9EdOqU"
+    },
+    {
+      "ble_dev_id": "0x08",
+      "brd_name": "STEVAL-STWINKT1",
+      "components": [],
+      "description": "SensorTile Wireless Industrial Node development kit and reference design for industrial IoT applications",
+      "documentation_url": "https://www.st.com/en/evaluation-tools/steval-stwinkt1.html#documentation",
+      "friendly_name": "STWIN",
+      "nfc_dev_id": null,
+      "order_url": null,
+      "status": "NRND",
+      "unique_dev_id": 8,
+      "usb_dev_id": null,
+      "video_url": "https://www.youtube.com/watch?v=J3M0_9EdOqU"
+    },
+    {
+      "ble_dev_id": "0x12",
+      "brd_name": "STEVAL-STWINBX1B",
+      "components": [],
+      "description": "SensorTile Wireless Industrial Node Development Kit",
+      "documentation_url": "https://www.st.com/en/evaluation-tools/steval-stwinbx1.html#documentation",
+      "friendly_name": "STWIN.box",
+      "nfc_dev_id": null,
+      "order_url": "https://www.st.com/en/evaluation-tools/steval-stwinbx1.html#sample-buy",
+      "status": "ACTIVE",
+      "unique_dev_id": 16,
+      "usb_dev_id": null,
+      "video_url": null
+    },
+    {
+      "ble_dev_id": "0x0E",
+      "brd_name": "STEVAL-STWINBX1",
+      "components": [
+        "ISM330DHCX",
+        "IIS3DWB",
+        "IIS2DLPC",
+        "IIS2MDC",
+        "IIS2ICLX",
+        "ILPS22QS",
+        "STTS22H",
+        "IMP34DT05",
+        "IMP23ABSU",
+        "ISM330IS",
+        "STM32U585AI"
+      ],
+      "description": "SensorTile Wireless Industrial Node Development Kit",
+      "documentation_url": "https://www.st.com/en/evaluation-tools/steval-stwinbx1.html#documentation",
+      "friendly_name": "STWIN.box",
+      "nfc_dev_id": null,
+      "order_url": "https://estore.st.com/en/steval-stwinbx1-cpn.html",
+      "status": "ACTIVE",
+      "unique_dev_id": 2,
+      "usb_dev_id": null,
       "video_url": null
     },
     {
       "ble_dev_id": "0x02",
-      "nfc_dev_id": null,
-      "usb_dev_id": null,
-      "unique_dev_id": 2,
       "brd_name": "STEVAL-STLKT01V1",
-      "friendly_name" : "SensorTile",
-      "status" : "ACTIVE",
-      "description" : "SensorTile development kit",
+      "components": [],
+      "description": "SensorTile development kit",
       "documentation_url": "https://www.st.com/en/evaluation-tools/steval-stlkt01v1.html#documentation",
+      "friendly_name": "SensorTile",
+      "nfc_dev_id": null,
       "order_url": "https://estore.st.com/en/steval-stlkt01v1-cpn.html",
+      "status": "ACTIVE",
+      "unique_dev_id": 5,
+      "usb_dev_id": null,
       "video_url": "https://www.youtube.com/watch?v=C9cuRzYCiAs"
     },
     {
-      "ble_dev_id": "0x03",
+      "ble_dev_id": "0x0F",
+      "brd_name": "STEVAL-PROTEUS1",
+      "components": [],
+      "description": "Industrial sensor evaluation kit for condition monitoring based on the 2.4 GHz STM32WB5MMG module",
+      "documentation_url": "https://www.st.com/en/evaluation-tools/steval-proteus1.html#documentation",
+      "friendly_name": "Proteus",
       "nfc_dev_id": null,
+      "order_url": "https://estore.st.com/en/steval-proteus1-cpn.html",
+      "status": "ACTIVE",
+      "unique_dev_id": 13,
       "usb_dev_id": null,
-      "unique_dev_id": 3,
-      "brd_name": "STEVAL-BCNKT01V1",
-      "friendly_name" : "BlueCoin",
-      "status" : "ACTIVE",
-      "description" : "BlueCoin Starter kit",
-      "documentation_url": "https://www.st.com/en/evaluation-tools/steval-bcnkt01v1.html#documentation",
-      "order_url": "https://estore.st.com/en/steval-bcnkt01v1-cpn.html",
-      "video_url": "https://www.youtube.com/watch?v=JJOvbyOZarg&t=12s"
+      "video_url": null
     },
     {
       "ble_dev_id": "0x06",
-      "nfc_dev_id": null,
-      "usb_dev_id": null,
-      "unique_dev_id": 4,
       "brd_name": "STEVAL-MKSBOX1V1",
-      "friendly_name" : "SensorTile.box",
-      "status" : "ACTIVE",
-      "description" : "SensorTile.box wireless multi sensor development kit with user friendly app for IoT and wearable sensor applications",
+      "components": [],
+      "description": "SensorTile.box wireless multi sensor development kit with user friendly app for IoT and wearable sensor applications",
       "documentation_url": "https://www.st.com/en/evaluation-tools/steval-mksbox1v1.html#documentation",
+      "friendly_name": "SensorTile.box",
+      "nfc_dev_id": null,
       "order_url": "https://estore.st.com/en/steval-mksbox1v1-cpn.html",
+      "status": "ACTIVE",
+      "unique_dev_id": 7,
+      "usb_dev_id": null,
       "video_url": "https://www.youtube.com/watch?v=jJZNMsNRG1U"
     },
     {
-      "ble_dev_id": "0x08",
+      "ble_dev_id": "0x11",
+      "brd_name": "STEVAL-MKBOXPROB",
+      "components": [],
+      "description": "multi-sensors and wireless connectivity for any intelligent IoT node",
+      "documentation_url": "https://www.st.com/en/evaluation-tools/steval-mkboxpro.html#documentation",
+      "friendly_name": "SensorTile.box-Pro",
       "nfc_dev_id": null,
+      "order_url": "https://www.st.com/en/evaluation-tools/steval-mkboxpro.html#sample-buy",
+      "status": "ACTIVE",
+      "unique_dev_id": 15,
       "usb_dev_id": null,
-      "unique_dev_id": 5,
-      "brd_name": "STEVAL-STWINKT1",
-      "friendly_name" : "STWIN",
-      "status" : "NRND",
-      "description" : "SensorTile Wireless Industrial Node development kit and reference design for industrial IoT applications",
-      "documentation_url": "https://www.st.com/en/evaluation-tools/steval-stwinkt1.html#documentation",
-      "order_url": null,
-      "video_url": "https://www.youtube.com/watch?v=J3M0_9EdOqU"
-    },
-    {
-      "ble_dev_id": "0x09",
-      "nfc_dev_id": null,
-      "usb_dev_id": null,
-      "unique_dev_id": 6,
-      "brd_name": "STEVAL-STWINKT1B",
-      "friendly_name" : "STWIN",
-      "status" : "ACTIVE",
-      "components": [
-          "Sunchon",
-          "IIS3DWB",
-          "ISM330DHCX",
-          "IIS2DH",
-          "IIS2MDC",
-          "LPS22HH",
-          "STTS751",
-          "IMP34DT05",
-          "IMP23ABSU",
-          "STM32L4R9"
-        ],
-      "description" : "SensorTile Wireless Industrial Node development kit and reference design for industrial IoT applications",
-      "documentation_url": "https://www.st.com/en/evaluation-tools/steval-stwinkt1b.html#documentation",
-      "order_url": "https://estore.st.com/en/steval-stwinkt1b-cpn.html",
-      "video_url": "https://www.youtube.com/watch?v=J3M0_9EdOqU"
-    },
-    {
-      "ble_dev_id": "0x0C",
-      "nfc_dev_id": "0x02",
-      "usb_dev_id": null,
-      "unique_dev_id": 7,
-      "brd_name": "STEVAL-ASTRA1B",
-      "friendly_name" : "Astra",
-      "status" : "ACTIVE",
-      "description" : "Multiconnectivity asset tracking reference design based on STM32WB5MMG and STM32WL55JC",
-      "documentation_url": "https://www.st.com/en/evaluation-tools/steval-astra1b.html#documentation",
-      "order_url": "https://estore.st.com/en/steval-astra1b-cpn.html",
-      "video_url": "https://www.youtube.com/watch?v=ZUi4LOi2gic"
+      "video_url": "https://www.youtube.com/watch?v=F4c9V1791Vw"
     },
     {
       "ble_dev_id": "0x0D",
-      "nfc_dev_id": "0x03",
-      "usb_dev_id": null,
-      "unique_dev_id": 8,
       "brd_name": "STEVAL-MKBOXPRO",
-      "friendly_name" : "SensorTile.box-Pro",
-      "status" : "ACTIVE",
-      "description" : "multi-sensors and wireless connectivity for any intelligent IoT node",
+      "components": [
+        "STTS22H",
+        "LSM6DSV16X",
+        "LIS2DU12",
+        "LIS2MDL",
+        "LPS22DF",
+        "MP23DB01HP",
+        "STM32U585AI"
+      ],
+      "description": "multi-sensors and wireless connectivity for any intelligent IoT node",
       "documentation_url": "https://www.st.com/en/evaluation-tools/steval-mkboxpro.html#documentation",
+      "friendly_name": "SensorTile.box-Pro",
+      "nfc_dev_id": "0x03",
       "order_url": "https://www.st.com/en/evaluation-tools/steval-mkboxpro.html#sample-buy",
+      "status": "ACTIVE",
+      "unique_dev_id": 3,
+      "usb_dev_id": null,
       "video_url": "https://www.youtube.com/watch?v=F4c9V1791Vw"
     },
     {
-      "ble_dev_id": "0x0E",
+      "ble_dev_id": "0x03",
+      "brd_name": "STEVAL-BCNKT01V1",
+      "components": [],
+      "description": "BlueCoin Starter kit",
+      "documentation_url": "https://www.st.com/en/evaluation-tools/steval-bcnkt01v1.html#documentation",
+      "friendly_name": "BlueCoin",
       "nfc_dev_id": null,
+      "order_url": "https://estore.st.com/en/steval-bcnkt01v1-cpn.html",
+      "status": "ACTIVE",
+      "unique_dev_id": 6,
       "usb_dev_id": null,
-      "unique_dev_id": 9,
-      "brd_name": "STEVAL-STWINBX1",
-      "friendly_name" : "STWIN.box",
-      "status" : "ACTIVE",
-      "components": [
-          "ISM330DHCX",
-          "IIS3DWB",
-          "IIS2DLPC",
-          "IIS2MDC",
-          "IIS2ICLX",
-          "ILPS22QS",
-          "STTS22H",
-          "IMP34DT05",
-          "IMP23ABSU",
-          "ISM330IS",
-          "STM32U585AI"
-        ],
-      "description" : "SensorTile Wireless Industrial Node Development Kit",
-      "documentation_url": "https://www.st.com/en/evaluation-tools/steval-stwinbx1.html#documentation",
-      "order_url": "https://estore.st.com/en/steval-stwinbx1-cpn.html",
-      "video_url": null
+      "video_url": "https://www.youtube.com/watch?v=JJOvbyOZarg"
     },
     {
-      "ble_dev_id": "0x0F",
-      "nfc_dev_id": null,
-      "usb_dev_id": null,
+      "ble_dev_id": "0x0C",
+      "brd_name": "STEVAL-ASTRA1B",
+      "components": [],
+      "description": "Multiconnectivity asset tracking reference design based on STM32WB5MMG and STM32WL55JC",
+      "documentation_url": "https://www.st.com/en/evaluation-tools/steval-astra1b.html#documentation",
+      "friendly_name": "Astra",
+      "nfc_dev_id": "0x02",
+      "order_url": "https://estore.st.com/en/steval-astra1b-cpn.html",
+      "status": "ACTIVE",
       "unique_dev_id": 10,
-      "brd_name": "STEVAL-PROTEUS1",
-      "friendly_name" : "Proteus",
-      "status" : "ACTIVE",
-      "description" : "Industrial sensor evaluation kit for condition monitoring based on the 2.4 GHz STM32WB5MMG module",
-      "documentation_url": "https://www.st.com/en/evaluation-tools/steval-proteus1.html#documentation",
-      "order_url": "https://estore.st.com/en/steval-proteus1-cpn.html",
-      "video_url": null
+      "usb_dev_id": null,
+      "video_url": "https://www.youtube.com/watch?v=ZUi4LOi2gic"
     },
     {
       "ble_dev_id": "0x10",
-      "nfc_dev_id": null,
-      "usb_dev_id": null,
-      "unique_dev_id": 11,
       "brd_name": "STDES-CBMLoRaBLE",
-      "friendly_name" : "CBMLoRaBLE",
-      "status" : "ACTIVE",
-      "description" : "System platform with multiconnectivity and multisensors for IIoT application",
+      "components": [],
+      "description": "System platform with multiconnectivity and multisensors for IIoT application",
       "documentation_url": "https://www.st.com/en/evaluation-tools/stdes-cbmlorable.html#documentation",
+      "friendly_name": "CBMLoRaBLE",
+      "nfc_dev_id": null,
       "order_url": null,
+      "status": "ACTIVE",
+      "unique_dev_id": 14,
+      "usb_dev_id": null,
       "video_url": null
     },
     {
-      "ble_dev_id": "0x11",
+      "ble_dev_id": "0x7E",
+      "brd_name": "NUCLEO-STM32L476RG",
+      "components": [],
+      "description": "STM32 Nucleo-64 development board with STM32L476RG MCU, supports Arduino and ST morpho connectivity",
+      "documentation_url": "https://www.st.com/en/evaluation-tools/nucleo-l476rg.html#documentation",
+      "friendly_name": "Nucleo L476RG",
       "nfc_dev_id": null,
+      "order_url": "https://estore.st.com/en/nucleo-l476rg-cpn.html",
+      "status": "ACTIVE",
+      "unique_dev_id": 19,
       "usb_dev_id": null,
-      "unique_dev_id": 8,
-      "brd_name": "STEVAL-MKBOXPROB",
-      "friendly_name" : "SensorTile.box-Pro",
-      "status" : "ACTIVE",
-      "components": [
-          "STTS22H",
-          "LSM6DSV16X",
-          "LIS2DU12",
-          "LIS2MDL",
-          "LPS22DF",
-          "MP23DB01HP",
-          "STM32U585AI"
-        ],
-      "description" : "multi-sensors and wireless connectivity for any intelligent IoT node",
-      "documentation_url": "https://www.st.com/en/evaluation-tools/steval-mkboxpro.html#documentation",
-      "order_url": "https://www.st.com/en/evaluation-tools/steval-mkboxpro.html#sample-buy",
-      "video_url": "https://www.youtube.com/watch?v=F4c9V1791Vw"
-    },
-    {
-      "ble_dev_id": "0x12",
-      "nfc_dev_id": null,
-      "usb_dev_id": null,
-      "unique_dev_id": 9,
-      "brd_name": "STEVAL-STWINBX1B",
-      "friendly_name" : "STWIN.box",
-      "status" : "ACTIVE",
-      "description" : "SensorTile Wireless Industrial Node Development Kit",
-      "documentation_url": "https://www.st.com/en/evaluation-tools/steval-stwinbx1.html#documentation",
-      "order_url": "https://www.st.com/en/evaluation-tools/steval-stwinbx1.html#sample-buy",
-      "video_url": null
-    },
-    {
-      "ble_dev_id": "0x7C",
-      "nfc_dev_id": null,
-      "usb_dev_id": null,
-      "unique_dev_id": 1,
-      "brd_name": "NUCLEO-STM32F446RE",
-      "friendly_name" : "Nucleo F446RE",
-      "status" : "ACTIVE",
-      "description" : "STM32 Nucleo-64 development board with STM32F446RE MCU, supports Arduino and ST morpho connectivity",
-      "documentation_url": "https://www.st.com/en/evaluation-tools/nucleo-f446re.html#documentation",
-      "order_url": "https://www.st.com/en/evaluation-tools/nucleo-f446re.html#sample-buy",
       "video_url": "https://www.youtube.com/watch?v=m94CCYyX5DM"
     },
     {
       "ble_dev_id": "0x7D",
-      "nfc_dev_id": null,
-      "usb_dev_id": null,
-      "unique_dev_id": 1,
       "brd_name": "NUCLEO-STM32L053R8",
-      "friendly_name" : "Nucleo L053R8",
-      "status" : "ACTIVE",
-      "description" : "STM32 Nucleo-64 development board with STM32L053R8 MCU, supports Arduino and ST morpho connectivity",
+      "components": [],
+      "description": "STM32 Nucleo-64 development board with STM32L053R8 MCU, supports Arduino and ST morpho connectivity",
       "documentation_url": "https://www.st.com/en/evaluation-tools/nucleo-l053r8.html#documentation",
+      "friendly_name": "Nucleo L053R8",
+      "nfc_dev_id": null,
       "order_url": "https://estore.st.com/en/nucleo-l053r8-cpn.html",
+      "status": "ACTIVE",
+      "unique_dev_id": 18,
+      "usb_dev_id": null,
       "video_url": "https://www.youtube.com/watch?v=m94CCYyX5DM"
     },
     {
-      "ble_dev_id": "0x7E",
+      "ble_dev_id": "0x7C",
+      "brd_name": "NUCLEO-STM32F446RE",
+      "components": [],
+      "description": "STM32 Nucleo-64 development board with STM32F446RE MCU, supports Arduino and ST morpho connectivity",
+      "documentation_url": "https://www.st.com/en/evaluation-tools/nucleo-f446re.html#documentation",
+      "friendly_name": "Nucleo F446RE",
       "nfc_dev_id": null,
+      "order_url": "https://www.st.com/en/evaluation-tools/nucleo-f446re.html#sample-buy",
+      "status": "ACTIVE",
+      "unique_dev_id": 17,
       "usb_dev_id": null,
-      "unique_dev_id": 1,
-      "brd_name": "NUCLEO-STM32L476RG",
-      "friendly_name" : "Nucleo L476RG",
-      "status" : "ACTIVE",
-      "description" : "STM32 Nucleo-64 development board with STM32L476RG MCU, supports Arduino and ST morpho connectivity",
-      "documentation_url": "https://www.st.com/en/evaluation-tools/nucleo-l476rg.html#documentation",
-      "order_url": "https://estore.st.com/en/nucleo-l476rg-cpn.html",
       "video_url": "https://www.youtube.com/watch?v=m94CCYyX5DM"
     },
     {
       "ble_dev_id": "0x7F",
-      "nfc_dev_id": null,
-      "usb_dev_id": null,
-      "unique_dev_id": 1,
       "brd_name": "NUCLEO-STM32F401RE",
-      "friendly_name" : "Nucleo F401RE",
-      "status" : "ACTIVE",
-      "description" : "STM32 Nucleo-64 development board with STM32F401RE MCU, supports Arduino and ST morpho connectivity",
+      "components": [],
+      "description": "STM32 Nucleo-64 development board with STM32F401RE MCU, supports Arduino and ST morpho connectivity",
       "documentation_url": "https://www.st.com/en/evaluation-tools/nucleo-f401re.html#documentation",
+      "friendly_name": "Nucleo F401RE",
+      "nfc_dev_id": null,
       "order_url": "https://estore.st.com/en/nucleo-f401re-cpn.html",
+      "status": "ACTIVE",
+      "unique_dev_id": 20,
+      "usb_dev_id": null,
       "video_url": "https://www.youtube.com/watch?v=m94CCYyX5DM"
     }
   ],
@@ -8330,7 +8419,7 @@
       "uuid": "00000012-0002-11e1-ac36-0002a5d5c51b"
     }
   ],
-  "checksum": "b50970a3940da9942a3baf17ebf8eaff",
-  "date": "2023-06-23T07:54:18.867671Z",
+  "checksum": "8724c5ab4f4aa070174d874282377df8",
+  "date": "2023-06-27T08:22:13.133964Z",
   "version": "0.5.1"
 }
