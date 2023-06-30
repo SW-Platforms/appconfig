@@ -1941,19 +1941,23 @@
         {
           "name": "RebootOTAModeFeature",
           "uuid": "0000fe11-8e22-4541-9d4c-21edae82ed19"
+        },
+        {
+          "name": "PnPLike",
+          "uuid": "0000001b-0002-11e1-ac36-0002a5d5c51b"
         }
       ],
       "cloud_apps": [
         {
           "description": "PROTEUS-POC2",
-          "dtmi": "dtmi:proteusPoc2:pdmwbsoc_v2_0_0_Cloud;1",
+          "dtmi": "dtmi:proteusPoc2:pdmwbsoc_cloud;1",
           "dtmi_type": "iotc",
           "name": "Proteus development",
-          "shareable_link": "https://apps.azureiotcentral.com/build/new/c7f61b2c-b1a3-4d09-8704-59a5ff55b4f5",
+         "shareable_link": "https://apps.azureiotcentral.com/build/new/963412e1-0394-4a6b-b22e-b266dcb9e4cc",
           "url": "https://proteus-poc2.azureiotcentral.com"
         }
       ],
-      "dtmi": "dtmi:proteusPoc2:pdmwbsoc_cloud;1",
+      "dtmi": "dtmi:appconfig:steval_proteus1:pdmwbsoc;1",
       "fota": {
         "bootloader_type": "wb",
         "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-proteus1/fp-ai-pdmwbsoc_2_0_0.bin",
@@ -2499,22 +2503,26 @@
         {
           "name": "RebootOTAModeFeature",
           "uuid": "0000fe11-8e22-4541-9d4c-21edae82ed19"
+        },
+        {
+          "name": "PnPLike",
+          "uuid": "0000001b-0002-11e1-ac36-0002a5d5c51b"
         }
       ],
       "cloud_apps": [
         {
           "description": "PROTEUS-POC2",
-          "dtmi": "dtmi:proteusPoc2:pdmwbsocx_cloud;1",
+          "dtmi": "dtmi:proteusPoc2:pdmwbsoc2_cloud;1",
           "dtmi_type": "iotc",
           "name": "Proteus development",
-          "shareable_link": "https://apps.azureiotcentral.com/build/new/c7f61b2c-b1a3-4d09-8704-59a5ff55b4f5",
+          "shareable_link": "https://apps.azureiotcentral.com/build/new/963412e1-0394-4a6b-b22e-b266dcb9e4cc",
           "url": "https://proteus-poc2.azureiotcentral.com"
         }
       ],
-      "dtmi": "dtmi:proteusPoc2:pdmwbsoc2_cloud;1",
+      "dtmi": "dtmi:appconfig:steval_proteus1:pdmwbsoc2;1",
       "fota": {
         "bootloader_type": "wb",
-        "fw_url": null,
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-proteus1/fp-ai-pdmwbsoc2_1_0_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -2863,7 +2871,7 @@
       "cloud_apps": [],
       "fota": {
         "bootloader_type": "custom",
-        "fw_url": null,
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-stm32f401re/flight1_5_0_0.bin",
         "max_chunk_length": 220,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -2907,7 +2915,7 @@
       "cloud_apps": [],
       "fota": {
         "bootloader_type": "custom",
-        "fw_url": null,
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-stm32l476rg/flight1_5_0_0.bin",
         "max_chunk_length": 220,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -3134,7 +3142,7 @@
       "cloud_apps": [],
       "fota": {
         "bootloader_type": "custom",
-        "fw_url": null,
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-stm32f401re/flight1_5_0_2.bin",
         "max_chunk_length": 220,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -3166,7 +3174,7 @@
       "cloud_apps": [],
       "fota": {
         "bootloader_type": "custom",
-        "fw_url": null,
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-stm32l476rg/flight1_5_0_2.bin",
         "max_chunk_length": 220,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -3952,28 +3960,6 @@
       ]
     },
     {
-      "ble_dev_id": "0x09",
-      "ble_fw_id": "0x07",
-      "brd_name": "STEVAL-STWINKT1B",
-      "changelog": "Dec 2021 demo",
-      "characteristics": [],
-      "cloud_apps": [
-        {
-          "description": "Show digital twin usage; support for gateways; export data to 3D viz service",
-          "dtmi": "dtmi:quasar:...",
-          "dtmi_type": "iotc",
-          "name": "quasar",
-          "shareable_link": null,
-          "url": "https://quasar.azureiotcentral.com/"
-        }
-      ],
-      "fota": {},
-      "fw_desc": "low power firmware for Quasar demo; uses STREDL and sends events on BLE advertisements",
-      "fw_name": "quasar",
-      "fw_version": "1.0.0",
-      "option_bytes": []
-    },
-    {
       "ble_dev_id": "0x06",
       "ble_fw_id": "0x07",
       "brd_name": "STEVAL-MKSBOX1V1",
@@ -4449,31 +4435,6 @@
       "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.2.0",
-      "option_bytes": []
-    },
-    {
-      "ble_dev_id": "0x09",
-      "ble_fw_id": "0x09",
-      "brd_name": "STEVAL-STWINKT1B",
-      "changelog": "",
-      "characteristics": [
-        {
-          "name": "Acceleration Event",
-          "uuid": "00000400-0001-11e1-ac36-0002a5d5c51b"
-        }
-      ],
-      "cloud_apps": [],
-      "fota": {
-        "bootloader_type": "none",
-        "fw_url": "",
-        "max_chunk_length": 0,
-        "max_divisor_constraint": 0,
-        "partial_fota": 0,
-        "type": "fast"
-      },
-      "fw_desc": "deleteme",
-      "fw_name": "Diegotest",
-      "fw_version": "0.0.1",
       "option_bytes": []
     },
     {
