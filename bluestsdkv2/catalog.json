@@ -6230,7 +6230,7 @@
       "status": "ACTIVE",
       "unique_dev_id": 16,
       "usb_dev_id": null,
-      "video_url": null
+      "video_url": "https://www.youtube.com/watch?v=GGRZAxo2P88"
     },
     {
       "ble_dev_id": "0x0E",
@@ -6257,7 +6257,7 @@
       "status": "ACTIVE",
       "unique_dev_id": 2,
       "usb_dev_id": null,
-      "video_url": null
+      "video_url": "https://www.youtube.com/watch?v=GGRZAxo2P88"
     },
     {
       "ble_dev_id": "0x02",
