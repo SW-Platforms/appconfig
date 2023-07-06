@@ -1,10 +1,10 @@
 [
   {
-    "@id": "dtmi:appconfig:steval_stwinbx1:fft_ultrasound_dpu;1",
+    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_UltrasoundFft;1",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fft_ultrasound_dpu:firmware_info;1",
+        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_UltrasoundFft:firmware_info;1",
         "@type": "Component",
         "displayName": {
           "en": "Firmware Information"
@@ -13,7 +13,7 @@
         "schema": "dtmi:appconfig:steval_stwinbx1:ultrasoundFFT_DPU:other:firmware_info;1"
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fft_ultrasound_dpu:fft_dpu;1",
+        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_UltrasoundFft:fft_dpu;1",
         "@type": "Component",
         "displayName": {
           "en": "Ultrasound FFT"
@@ -22,7 +22,7 @@
         "schema": "dtmi:appconfig:steval_stwinbx1:ultrasoundFFT_DPU:algorithms:fft_dpu;1"
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fft_ultrasound_dpu:log_controller;1",
+        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_UltrasoundFft:log_controller;1",
         "@type": "Component",
         "displayName": {
           "en": "Log Controller"
@@ -31,7 +31,7 @@
         "schema": "dtmi:appconfig:steval_stwinbx1:ultrasoundFFT_DPU:other:log_controller;1"
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fft_ultrasound_dpu:imp23absu_mic;1",
+        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_UltrasoundFft:imp23absu_mic;1",
         "@type": "Component",
         "displayName": {
           "en": "IMP23ABSU_MIC"
@@ -40,7 +40,7 @@
         "schema": "dtmi:appconfig:steval_stwinbx1:ultrasoundFFT_DPU:sensors:imp23absu_mic;1"
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fft_ultrasound_dpu:DeviceInformation;1",
+        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_UltrasoundFft:DeviceInformation;1",
         "@type": "Component",
         "displayName": {
           "en": "Device Information"
@@ -49,7 +49,7 @@
         "schema": "dtmi:azure:DeviceManagement:DeviceInformation;1"
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:fft_ultrasound_dpu:acquisition_info;1",
+        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_UltrasoundFft:acquisition_info;1",
         "@type": "Component",
         "displayName": {
           "en": "Acquisition Information"
