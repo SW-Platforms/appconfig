@@ -930,7 +930,7 @@
       "cloud_apps": [],
       "fota": {
         "bootloader_type": "none",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/BLEDualProgram_FP-SNS-STBOX1_1_4_0.bin",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-STBOX1_BLEDualProgram_1_4_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -1003,7 +1003,7 @@
       "cloud_apps": [],
       "fota": {
         "bootloader_type": "none",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/BLEDualProgram_FP-SNS-STBOX1_1_5_0.bin",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-STBOX1_BLEDualProgram_1_5_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -1574,7 +1574,7 @@
       "cloud_apps": [],
       "fota": {
         "bootloader_type": "none",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/BLESensors_FP-SNS-STBOX1_1_4_0.bin",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-STBOX1_BLESensors_1_4_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -1656,7 +1656,7 @@
       ],
       "fota": {
         "bootloader_type": "none",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/BLESensors_FP-SNS-STBOX1_1_5_0.bin",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-STBOX1_BLESensors_1_5_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -1895,7 +1895,7 @@
       "characteristics": [],
       "cloud_apps": [],
       "fota": {},
-      "fw_desc": "",
+      "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.3.2",
       "option_bytes": [
@@ -1953,7 +1953,7 @@
           "dtmi": "dtmi:proteusPoc2:pdmwbsoc_cloud;1",
           "dtmi_type": "iotc",
           "name": "Proteus development",
-         "shareable_link": "https://apps.azureiotcentral.com/build/new/963412e1-0394-4a6b-b22e-b266dcb9e4cc",
+          "shareable_link": "https://apps.azureiotcentral.com/build/new/963412e1-0394-4a6b-b22e-b266dcb9e4cc",
           "url": "https://proteus-poc2.azureiotcentral.com"
         }
       ],
@@ -2060,7 +2060,7 @@
       "cloud_apps": [],
       "fota": {
         "bootloader_type": "none",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/BLEMLC_FP-SNS-STBOX1_1_4_0.bin",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-STBOX1_BLEMLC_1_4_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -2113,7 +2113,7 @@
       "cloud_apps": [],
       "fota": {
         "bootloader_type": "none",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/BLEMLC_FP-SNS-STBOX1_1_5_0.bin",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-STBOX1_BLEMLC_1_5_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -2634,7 +2634,7 @@
       "cloud_apps": [],
       "fota": {
         "bootloader_type": "none",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/BLEDefaultFw_FP-SNS-STBOX1_1_4_0.bin",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-STBOX1_BLEDefaultFw_1_4_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -2683,7 +2683,7 @@
       "cloud_apps": [],
       "fota": {
         "bootloader_type": "none",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/BLEPiano_FP-SNS-STBOX1_1_5_0.bin",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-STBOX1_BLEPiano_1_5_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -2984,7 +2984,7 @@
       "dtmi": "dtmi:appconfig:steval_mkboxpro:BLESensorPnPL;1",
       "fota": {
         "bootloader_type": "none",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/BLESensorsPnPL_FP-SNS-STBOX1_1_5_0.bin",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-STBOX1_BLESensorsPnPL_1_5_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -3148,7 +3148,7 @@
         "partial_fota": 0,
         "type": "fast"
       },
-      "fw_desc": "",
+      "fw_desc": "The FP-SNS-FLIGHT1 is an STM32Cube function pack, which lets your IoT node connect to a smartphone via BLE and uses a suitable Android\u2122 or iOS\u2122 application like the STBLESensor app to view real-time object distance data read by the Time-of-Flight sensor.",
       "fw_name": "FP-SNS-FLIGHT1",
       "fw_version": "5.0.2",
       "option_bytes": [
@@ -3180,7 +3180,7 @@
         "partial_fota": 0,
         "type": "fast"
       },
-      "fw_desc": "",
+      "fw_desc": "The FP-SNS-FLIGHT1 is an STM32Cube function pack, which lets your IoT node connect to a smartphone via BLE and uses a suitable Android\u2122 or iOS\u2122 application like the STBLESensor app to view real-time object distance data read by the Time-of-Flight sensor.",
       "fw_name": "FP-SNS-FLIGHT1",
       "fw_version": "5.0.2",
       "option_bytes": [
@@ -3248,7 +3248,7 @@
       "dtmi": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL;1",
       "fota": {
         "bootloader_type": "none",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/BLESensorsPnPL_FP-SNS-STBOX1_1_4_0.bin",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-STBOX1_BLESensorsPnPL_1_4_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -3310,7 +3310,7 @@
       "dtmi": "dtmi:appconfig:steval_mkboxpro:datalog2_fpSnsDatalog2;1",
       "fota": {
         "bootloader_type": "none",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/Datalog2_FP-SNS-DATALOG2_1_1_0.bin",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-DATALOG2_Datalog2_1_1_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -3687,7 +3687,7 @@
         "partial_fota": 0,
         "type": "fast"
       },
-      "fw_desc": "",
+      "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.3.2",
       "option_bytes": [
@@ -3723,7 +3723,7 @@
         "partial_fota": 0,
         "type": "fast"
       },
-      "fw_desc": "",
+      "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.3.2",
       "option_bytes": [
@@ -3889,7 +3889,7 @@
       "ble_dev_id": "0x0D",
       "ble_fw_id": "0x07",
       "brd_name": "STEVAL-MKBOXPRO",
-      "changelog": "New RPN",
+      "changelog": "Added support for SensorTile.box PRO evaluation board; Removed support for SensorTile.box evaluation board; Added the capability to control the Tracking using NFC connectivity; Added the capability to read the Maximum&Minium samples values; Added the capability to make Firmware Over the Air Update (FoTA)",
       "characteristics": [
         {
           "name": "Debug Console stdin/stdout",
@@ -3912,7 +3912,7 @@
       "dtmi": "dtmi:appconfig:steval_mkboxpro:fpAtrBle1;1",
       "fota": {
         "bootloader_type": "none",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/AtrBle1_FP-ATR-BLE1_2_0_0.bin",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/fp-atr-ble1_2_0_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -3958,6 +3958,28 @@
           "name": "Log status"
         }
       ]
+    },
+    {
+      "ble_dev_id": "0x09",
+      "ble_fw_id": "0x07",
+      "brd_name": "STEVAL-STWINKT1B",
+      "changelog": "Dec 2021 demo",
+      "characteristics": [],
+      "cloud_apps": [
+        {
+          "description": "Show digital twin usage; support for gateways; export data to 3D viz service",
+          "dtmi": "dtmi:quasar:...",
+          "dtmi_type": "iotc",
+          "name": "quasar",
+          "shareable_link": null,
+          "url": "https://quasar.azureiotcentral.com/"
+        }
+      ],
+      "fota": {},
+      "fw_desc": "low power firmware for Quasar demo; uses STREDL and sends events on BLE advertisements",
+      "fw_name": "quasar",
+      "fw_version": "1.0.0",
+      "option_bytes": []
     },
     {
       "ble_dev_id": "0x06",
@@ -4438,6 +4460,88 @@
       "option_bytes": []
     },
     {
+      "ble_dev_id": "0x0D",
+      "ble_fw_id": "0x09",
+      "brd_name": "STEVAL-MKBOXPRO",
+      "changelog": "Maintenance release and bug fixes, BLE, USB and SD class redesign, automode redesign, DTMI and app_model update",
+      "characteristics": [],
+      "cloud_apps": [],
+      "dtmi": "dtmi:appconfig:steval_mkboxpro:fpSnsDatalog2_datalog2;2",
+      "fota": {
+        "bootloader_type": "none",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-DATALOG2_Datalog2_1_2_0.bin",
+        "max_chunk_length": 0,
+        "max_divisor_constraint": 0,
+        "partial_fota": 0,
+        "type": "fast"
+      },
+      "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
+      "fw_name": "Datalog2_FP-SNS-DATALOG2",
+      "fw_version": "1.2.0",
+      "option_bytes": [
+        {
+          "format": "enum_string",
+          "name": "Running on: ",
+          "string_values": [
+            {
+              "display_name": "Bank 1",
+              "value": 1
+            },
+            {
+              "display_name": "Bank 2",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "format": "enum_icon",
+          "icon_values": [
+            {
+              "comment": "Stop",
+              "icon_code": 32,
+              "value": 0
+            },
+            {
+              "comment": "Logging",
+              "icon_code": 30,
+              "value": 1
+            },
+            {
+              "comment": "Paused",
+              "icon_code": 31,
+              "value": 2
+            }
+          ],
+          "name": "Log status"
+        }
+      ]
+    },
+    {
+      "ble_dev_id": "0x09",
+      "ble_fw_id": "0x09",
+      "brd_name": "STEVAL-STWINKT1B",
+      "changelog": "",
+      "characteristics": [
+        {
+          "name": "Acceleration Event",
+          "uuid": "00000400-0001-11e1-ac36-0002a5d5c51b"
+        }
+      ],
+      "cloud_apps": [],
+      "fota": {
+        "bootloader_type": "none",
+        "fw_url": "",
+        "max_chunk_length": 0,
+        "max_divisor_constraint": 0,
+        "partial_fota": 0,
+        "type": "fast"
+      },
+      "fw_desc": "deleteme",
+      "fw_name": "Diegotest",
+      "fw_version": "0.0.1",
+      "option_bytes": []
+    },
+    {
       "ble_dev_id": "0x06",
       "ble_fw_id": "0x09",
       "brd_name": "STEVAL-MKSBOX1V1",
@@ -4533,7 +4637,7 @@
       "dtmi": "dtmi:appconfig:steval_stwinbx1:datalog2_fpSnsDatalog2;1",
       "fota": {
         "bootloader_type": "none",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/Datalog2_FP-SNS-DATALOG2_1_0_1.bin",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_Datalog2_1_0_1.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -4853,7 +4957,7 @@
       "dtmi": "dtmi:appconfig:steval_stwinbx1:datalog2Ispu_fpSnsDatalog2;1",
       "fota": {
         "bootloader_type": "none",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/Datalog2-ISPU_FP-SNS-DATALOG2_1_0_1.bin",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_Datalog2-ISPU_1_0_1.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -5119,7 +5223,7 @@
       "cloud_apps": [],
       "fota": {
         "bootloader_type": "none",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/BLEDualProgram_FP-SNS-STBOX1_1_5_0.bin",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-STBOX1_BLEDualProgram_1_5_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -5271,7 +5375,7 @@
       ],
       "fota": {
         "bootloader_type": "none",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/BLESensors_FP-SNS-STBOX1_1_5_0.bin",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-STBOX1_BLESensors_1_5_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -5450,7 +5554,7 @@
       "cloud_apps": [],
       "fota": {
         "bootloader_type": "none",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/BLEMLC_FP-SNS-STBOX1_1_5_0.bin",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-STBOX1_BLEMLC_1_5_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -5524,7 +5628,7 @@
       ],
       "fota": {
         "bootloader_type": "none",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/BLEDefaultFw_FP-SNS-STBOX1_1_5_0.bin",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-STBOX1_BLEDefaultFw_1_5_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -5598,7 +5702,7 @@
       "dtmi": "dtmi:appconfig:steval_stwinbx1:BLESensorPnPL;1",
       "fota": {
         "bootloader_type": "none",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/BLESensorsPnPL_FP-SNS-STBOX1_1_5_0.bin",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-STBOX1_BLESensorsPnPL_1_5_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -5660,7 +5764,7 @@
       "dtmi": "dtmi:appconfig:steval_stwinbx1:datalog2_fpSnsDatalog2;2",
       "fota": {
         "bootloader_type": "none",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/Datalog2_FP-SNS-DATALOG2_1_1_0.bin",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_Datalog2_1_1_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -5801,7 +5905,7 @@
       "dtmi": "dtmi:appconfig:steval_stwinbx1:datalog2Ispu_fpSnsDatalog2;2",
       "fota": {
         "bootloader_type": "none",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/Datalog2-ISPU_FP-SNS-DATALOG2_1_1_0.bin",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_Datalog2-ISPU_1_1_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -5810,6 +5914,238 @@
       "fw_desc": "Comprehensive solution for saving data from any combination of sensors plus external ISPU expansion board",
       "fw_name": "Datalog2-ISPU_FP-SNS-DATALOG2",
       "fw_version": "1.1.0",
+      "option_bytes": [
+        {
+          "format": "int",
+          "name": "battery:",
+          "negative_offset": 0,
+          "scale_factor": 1,
+          "type": "%"
+        },
+        {
+          "format": "enum_string",
+          "name": "alarm:",
+          "string_values": [
+            {
+              "display_name": "No Alarm",
+              "value": 0
+            },
+            {
+              "display_name": "Battery Charging",
+              "value": 1
+            },
+            {
+              "display_name": "No Battery",
+              "value": 2
+            },
+            {
+              "display_name": "Logging Ongoing",
+              "value": 3
+            },
+            {
+              "display_name": "Low Battery",
+              "value": 4
+            },
+            {
+              "display_name": "Missing SD Card",
+              "value": 5
+            },
+            {
+              "display_name": "SD Card Full",
+              "value": 6
+            }
+          ],
+          "type": "string"
+        },
+        {
+          "format": "enum_icon",
+          "icon_values": [
+            {
+              "comment": "USB Plug, No Battery",
+              "icon_code": 18,
+              "value": 0
+            },
+            {
+              "comment": "USB Plug, Battery in charge",
+              "icon_code": 3,
+              "value": 1
+            },
+            {
+              "comment": "Battery",
+              "icon_code": 1,
+              "value": 2
+            },
+            {
+              "comment": "icon for Log ongoing",
+              "icon_code": 10,
+              "value": 3
+            },
+            {
+              "comment": "icon for low battery",
+              "icon_code": 0,
+              "value": 4
+            },
+            {
+              "comment": "icon for Missing SD Card",
+              "icon_code": 5,
+              "value": 5
+            },
+            {
+              "comment": "icon for SD Card full",
+              "icon_code": 11,
+              "value": 6
+            },
+            {
+              "comment": "icon for full battery",
+              "icon_code": 2,
+              "value": 7
+            },
+            {
+              "comment": "icon for error",
+              "icon_code": 6,
+              "value": 8
+            }
+          ],
+          "name": "status",
+          "type": "icon"
+        }
+      ]
+    },
+    {
+      "ble_dev_id": "0x0E",
+      "ble_fw_id": "0x15",
+      "brd_name": "STEVAL-STWINBX1",
+      "changelog": "Maintenance release and bug fixes, BLE, USB and SD class redesign, automode redesign, DTMI and app_model update",
+      "characteristics": [],
+      "cloud_apps": [],
+      "dtmi": "dtmi:appconfig:steval_stwinbx1:fpSnsDatalog2_datalog2;3",
+      "fota": {
+        "bootloader_type": "none",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_Datalog2_1_2_0.bin",
+        "max_chunk_length": 0,
+        "max_divisor_constraint": 0,
+        "partial_fota": 0,
+        "type": "fast"
+      },
+      "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
+      "fw_name": "Datalog2_FP-SNS-DATALOG2",
+      "fw_version": "1.2.0",
+      "option_bytes": [
+        {
+          "format": "int",
+          "name": "battery:",
+          "negative_offset": 0,
+          "scale_factor": 1,
+          "type": "%"
+        },
+        {
+          "format": "enum_string",
+          "name": "alarm:",
+          "string_values": [
+            {
+              "display_name": "No Alarm",
+              "value": 0
+            },
+            {
+              "display_name": "Battery Charging",
+              "value": 1
+            },
+            {
+              "display_name": "No Battery",
+              "value": 2
+            },
+            {
+              "display_name": "Logging Ongoing",
+              "value": 3
+            },
+            {
+              "display_name": "Low Battery",
+              "value": 4
+            },
+            {
+              "display_name": "Missing SD Card",
+              "value": 5
+            },
+            {
+              "display_name": "SD Card Full",
+              "value": 6
+            }
+          ],
+          "type": "string"
+        },
+        {
+          "format": "enum_icon",
+          "icon_values": [
+            {
+              "comment": "USB Plug, No Battery",
+              "icon_code": 18,
+              "value": 0
+            },
+            {
+              "comment": "USB Plug, Battery in charge",
+              "icon_code": 3,
+              "value": 1
+            },
+            {
+              "comment": "Battery",
+              "icon_code": 1,
+              "value": 2
+            },
+            {
+              "comment": "icon for Log ongoing",
+              "icon_code": 10,
+              "value": 3
+            },
+            {
+              "comment": "icon for low battery",
+              "icon_code": 0,
+              "value": 4
+            },
+            {
+              "comment": "icon for Missing SD Card",
+              "icon_code": 5,
+              "value": 5
+            },
+            {
+              "comment": "icon for SD Card full",
+              "icon_code": 11,
+              "value": 6
+            },
+            {
+              "comment": "icon for full battery",
+              "icon_code": 2,
+              "value": 7
+            },
+            {
+              "comment": "icon for error",
+              "icon_code": 6,
+              "value": 8
+            }
+          ],
+          "name": "status",
+          "type": "icon"
+        }
+      ]
+    },
+    {
+      "ble_dev_id": "0x0E",
+      "ble_fw_id": "0x16",
+      "brd_name": "STEVAL-STWINBX1",
+      "changelog": "Maintenance release and bug fixes, fixed SPI issue while using external add-on, BLE, USB and SD class redesign, automode redesign, DTMI and app_model update",
+      "characteristics": [],
+      "cloud_apps": [],
+      "dtmi": "dtmi:appconfig:steval_stwinbx1:fpSnsDatalog2_datalog2Ispu;3",
+      "fota": {
+        "bootloader_type": "none",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_Datalog2Ispu_1_2_0.bin",
+        "max_chunk_length": 0,
+        "max_divisor_constraint": 0,
+        "partial_fota": 0,
+        "type": "fast"
+      },
+      "fw_desc": "Comprehensive solution for saving data from any combination of sensors plus external ISPU expansion board",
+      "fw_name": "Datalog2-ISPU_FP-SNS-DATALOG2",
+      "fw_version": "1.2.0",
       "option_bytes": [
         {
           "format": "int",
@@ -6099,13 +6435,7 @@
     {
       "ble_dev_id": "0x01",
       "brd_name": "STEVAL-WESU1",
-      "components": [
-        "STM32L151VEY6",
-        "LSM6DS3",
-        "LIS3MDL",
-        "LPS25HB",
-        "STC3115"
-      ],
+      "components": [],
       "description": "Wearable sensor unit reference design for fast time to market",
       "documentation_url": "https://www.st.com/en/evaluation-tools/steval-wesu1.html#documentation",
       "friendly_name": "WESU",
@@ -6120,6 +6450,7 @@
       "ble_dev_id": "0x09",
       "brd_name": "STEVAL-STWINKT1B",
       "components": [
+        "Sunchon",
         "IIS3DWB",
         "ISM330DHCX",
         "IIS2DH",
@@ -6128,8 +6459,7 @@
         "STTS751",
         "IMP34DT05",
         "IMP23ABSU",
-        "STM32L4R9",
-        "STSAFE-A110"
+        "STM32L4R9"
       ],
       "description": "SensorTile Wireless Industrial Node development kit and reference design for industrial IoT applications",
       "documentation_url": "https://www.st.com/en/evaluation-tools/steval-stwinkt1b.html#documentation",
@@ -6144,18 +6474,7 @@
     {
       "ble_dev_id": "0x08",
       "brd_name": "STEVAL-STWINKT1",
-      "components": [
-        "STM32L4R9",
-        "IIS3DWB",
-        "ISM330DHCX",
-        "IIS2DH",
-        "IIS2MDC",
-        "LPS22HH",
-        "HTS221",
-        "STTS751",
-        "IMP34DT05",
-        "MP23ABS1"
-      ],
+      "components": [],
       "description": "SensorTile Wireless Industrial Node development kit and reference design for industrial IoT applications",
       "documentation_url": "https://www.st.com/en/evaluation-tools/steval-stwinkt1.html#documentation",
       "friendly_name": "STWIN",
@@ -6169,20 +6488,7 @@
     {
       "ble_dev_id": "0x12",
       "brd_name": "STEVAL-STWINBX1B",
-      "components": [
-        "ISM330DHCX",
-        "IIS3DWB",
-        "IIS2DLPC",
-        "IIS2MDC",
-        "IIS2ICLX",
-        "ILPS22QS",
-        "STTS22H",
-        "IMP34DT05",
-        "IMP23ABSU",
-        "STM32U585AI",
-        "ST25DV64KC",
-        "STSAFE-A110"
-      ],
+      "components": [],
       "description": "SensorTile Wireless Industrial Node Development Kit",
       "documentation_url": "https://www.st.com/en/evaluation-tools/steval-stwinbx1.html#documentation",
       "friendly_name": "STWIN.box",
@@ -6191,7 +6497,7 @@
       "status": "ACTIVE",
       "unique_dev_id": 16,
       "usb_dev_id": null,
-      "video_url": "https://www.youtube.com/watch?v=GGRZAxo2P88"
+      "video_url": "https://youtu.be/GGRZAxo2P88"
     },
     {
       "ble_dev_id": "0x0E",
@@ -6206,9 +6512,8 @@
         "STTS22H",
         "IMP34DT05",
         "IMP23ABSU",
-        "STM32U585AI",
-        "ST25DV64K",
-        "STSAFE-A110"
+        "ISM330IS",
+        "STM32U585AI"
       ],
       "description": "SensorTile Wireless Industrial Node Development Kit",
       "documentation_url": "https://www.st.com/en/evaluation-tools/steval-stwinbx1.html#documentation",
@@ -6217,19 +6522,13 @@
       "order_url": "https://estore.st.com/en/steval-stwinbx1-cpn.html",
       "status": "ACTIVE",
       "unique_dev_id": 2,
-      "usb_dev_id": null,
-      "video_url": "https://www.youtube.com/watch?v=GGRZAxo2P88"
+      "usb_dev_id": "0x0E",
+      "video_url": "https://youtu.be/GGRZAxo2P88"
     },
     {
       "ble_dev_id": "0x02",
       "brd_name": "STEVAL-STLKT01V1",
-      "components": [
-        "STM32L476JG",
-        "LSM6DSM",
-        "LSM303AGR",
-        "LPS22HB",
-        "MP34DT05-A"
-      ],
+      "components": [],
       "description": "SensorTile development kit",
       "documentation_url": "https://www.st.com/en/evaluation-tools/steval-stlkt01v1.html#documentation",
       "friendly_name": "SensorTile",
@@ -6243,14 +6542,7 @@
     {
       "ble_dev_id": "0x0F",
       "brd_name": "STEVAL-PROTEUS1",
-      "components": [
-        "STM32WB5MMG",
-        "IIS3DWB",
-        "ISM330DHCX",
-        "IIS2DLPC",
-        "STTS22H",
-        "STSAFE-A110"
-      ],
+      "components": [],
       "description": "Industrial sensor evaluation kit for condition monitoring based on the 2.4 GHz STM32WB5MMG module",
       "documentation_url": "https://www.st.com/en/evaluation-tools/steval-proteus1.html#documentation",
       "friendly_name": "Proteus",
@@ -6264,17 +6556,7 @@
     {
       "ble_dev_id": "0x06",
       "brd_name": "STEVAL-MKSBOX1V1",
-      "components": [
-        "STM32L4R9",
-        "STTS751",
-        "LSM6DSOX",
-        "LIS2DW12",
-        "LIS3DHH",
-        "LIS2MDL",
-        "LPS22HH",
-        "MP23ABS1",
-        "HTS221"
-      ],
+      "components": [],
       "description": "SensorTile.box wireless multi sensor development kit with user friendly app for IoT and wearable sensor applications",
       "documentation_url": "https://www.st.com/en/evaluation-tools/steval-mksbox1v1.html#documentation",
       "friendly_name": "SensorTile.box",
@@ -6288,16 +6570,7 @@
     {
       "ble_dev_id": "0x11",
       "brd_name": "STEVAL-MKBOXPROB",
-      "components": [
-        "STTS22H",
-        "LSM6DSV16X",
-        "LIS2DU12",
-        "LIS2MDL",
-        "LPS22DF",
-        "MP23DB01HP",
-        "STM32U585AI",
-        "ST25DV04KC"
-      ],
+      "components": [],
       "description": "multi-sensors and wireless connectivity for any intelligent IoT node",
       "documentation_url": "https://www.st.com/en/evaluation-tools/steval-mkboxpro.html#documentation",
       "friendly_name": "SensorTile.box-Pro",
@@ -6318,8 +6591,7 @@
         "LIS2MDL",
         "LPS22DF",
         "MP23DB01HP",
-        "STM32U585AI",
-        "ST25DV04K"
+        "STM32U585AI"
       ],
       "description": "multi-sensors and wireless connectivity for any intelligent IoT node",
       "documentation_url": "https://www.st.com/en/evaluation-tools/steval-mkboxpro.html#documentation",
@@ -6328,20 +6600,13 @@
       "order_url": "https://www.st.com/en/evaluation-tools/steval-mkboxpro.html#sample-buy",
       "status": "ACTIVE",
       "unique_dev_id": 3,
-      "usb_dev_id": null,
+      "usb_dev_id": "0x0D",
       "video_url": "https://www.youtube.com/watch?v=F4c9V1791Vw"
     },
     {
       "ble_dev_id": "0x03",
       "brd_name": "STEVAL-BCNKT01V1",
-      "components": [
-        "STM32F446",
-        "LSM6DSM",
-        "LSM303AGR",
-        "LPS22HB",
-        "MP34DT06J",
-        "STBC03JR"
-      ],
+      "components": [],
       "description": "BlueCoin Starter kit",
       "documentation_url": "https://www.st.com/en/evaluation-tools/steval-bcnkt01v1.html#documentation",
       "friendly_name": "BlueCoin",
@@ -6355,16 +6620,7 @@
     {
       "ble_dev_id": "0x0C",
       "brd_name": "STEVAL-ASTRA1B",
-      "components": [
-        "STM32WB5MMG",
-        "STTS22H",
-        "LPS22HH",
-        "HTS221",
-        "LIS2DTW12",
-        "LSM6DSO32X",
-        "STSAFE-A110",
-        "STBC03"
-      ],
+      "components": [],
       "description": "Multiconnectivity asset tracking reference design based on STM32WB5MMG and STM32WL55JC",
       "documentation_url": "https://www.st.com/en/evaluation-tools/steval-astra1b.html#documentation",
       "friendly_name": "Astra",
@@ -6378,14 +6634,7 @@
     {
       "ble_dev_id": "0x10",
       "brd_name": "STDES-CBMLoRaBLE",
-      "components": [
-        "STM32WB5MMG",
-        "IIS3DWB",
-        "ISM330DHCX",
-        "IIS2ICLX",
-        "STTS22H",
-        "ILPS22QS"
-      ],
+      "components": [],
       "description": "System platform with multiconnectivity and multisensors for IIoT application",
       "documentation_url": "https://www.st.com/en/evaluation-tools/stdes-cbmlorable.html#documentation",
       "friendly_name": "CBMLoRaBLE",
@@ -6397,11 +6646,23 @@
       "video_url": null
     },
     {
+      "ble_dev_id": "0x00",
+      "brd_name": "OPENMV-CAM-H7-PLUS",
+      "components": [],
+      "description": "OpenMV board with camera for imaging applications",
+      "documentation_url": null,
+      "friendly_name": "OpenMV Image Recognition",
+      "nfc_dev_id": null,
+      "order_url": null,
+      "status": "ACTIVE",
+      "unique_dev_id": 21,
+      "usb_dev_id": null,
+      "video_url": null
+    },
+    {
       "ble_dev_id": "0x7E",
       "brd_name": "NUCLEO-STM32L476RG",
-      "components": [
-        "STM32L476RG"
-      ],
+      "components": [],
       "description": "STM32 Nucleo-64 development board with STM32L476RG MCU, supports Arduino and ST morpho connectivity",
       "documentation_url": "https://www.st.com/en/evaluation-tools/nucleo-l476rg.html#documentation",
       "friendly_name": "Nucleo L476RG",
@@ -6415,9 +6676,7 @@
     {
       "ble_dev_id": "0x7D",
       "brd_name": "NUCLEO-STM32L053R8",
-      "components": [
-        "STM32L053R8"
-      ],
+      "components": [],
       "description": "STM32 Nucleo-64 development board with STM32L053R8 MCU, supports Arduino and ST morpho connectivity",
       "documentation_url": "https://www.st.com/en/evaluation-tools/nucleo-l053r8.html#documentation",
       "friendly_name": "Nucleo L053R8",
@@ -6431,9 +6690,7 @@
     {
       "ble_dev_id": "0x7C",
       "brd_name": "NUCLEO-STM32F446RE",
-      "components": [
-        "STM32F446RE"
-      ],
+      "components": [],
       "description": "STM32 Nucleo-64 development board with STM32F446RE MCU, supports Arduino and ST morpho connectivity",
       "documentation_url": "https://www.st.com/en/evaluation-tools/nucleo-f446re.html#documentation",
       "friendly_name": "Nucleo F446RE",
@@ -6447,9 +6704,7 @@
     {
       "ble_dev_id": "0x7F",
       "brd_name": "NUCLEO-STM32F401RE",
-      "components": [
-        "STM32F401RE"
-      ],
+      "components": [],
       "description": "STM32 Nucleo-64 development board with STM32F401RE MCU, supports Arduino and ST morpho connectivity",
       "documentation_url": "https://www.st.com/en/evaluation-tools/nucleo-f401re.html#documentation",
       "friendly_name": "Nucleo F401RE",
@@ -8397,7 +8652,7 @@
       "uuid": "00000012-0002-11e1-ac36-0002a5d5c51b"
     }
   ],
-  "checksum": "ad4dbd1cb8cef2244fc1a8d824a9fd03",
-  "date": "2023-06-27T11:28:27.598243Z",
+  "checksum": "30609986465af9e84bedade63855579d",
+  "date": "2023-07-06T07:47:47.848023Z",
   "version": "0.5.1"
 }
