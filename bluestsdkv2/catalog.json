@@ -6404,7 +6404,7 @@
       "unique_dev_id": 4,
       "usb_dev_id": null,
       "video_url": null,
-      "release_date" : "2021_Q1"
+      "release_date" : "2016_Q1"
     },
     {
       "ble_dev_id": "0x09",
@@ -6430,7 +6430,7 @@
       "unique_dev_id": 1,
       "usb_dev_id": null,
       "video_url": "https://www.youtube.com/watch?v=J3M0_9EdOqU",
-      "release_date" : "2021_Q1"
+      "release_date" : "2020_Q4"
     },
     {
       "ble_dev_id": "0x08",
@@ -6456,7 +6456,7 @@
       "unique_dev_id": 8,
       "usb_dev_id": null,
       "video_url": "https://www.youtube.com/watch?v=J3M0_9EdOqU",
-      "release_date" : "2021_Q1"
+      "release_date" : "2019_Q2"
     },
     {
       "ble_dev_id": "0x12",
@@ -6484,7 +6484,7 @@
       "unique_dev_id": 16,
       "usb_dev_id": null,
       "video_url": "https://www.youtube.com/watch?v=GGRZAxo2P88",
-      "release_date" : "2021_Q1"
+      "release_date" : "2024_Q1"
     },
     {
       "ble_dev_id": "0x0E",
@@ -6512,7 +6512,7 @@
       "unique_dev_id": 2,
       "usb_dev_id": null,
       "video_url": "https://www.youtube.com/watch?v=GGRZAxo2P88",
-      "release_date" : "2021_Q1"
+      "release_date" : "2022_Q4"
     },
     {
       "ble_dev_id": "0x02",
@@ -6533,7 +6533,7 @@
       "unique_dev_id": 5,
       "usb_dev_id": null,
       "video_url": "https://www.youtube.com/watch?v=C9cuRzYCiAs",
-      "release_date" : "2021_Q1"
+      "release_date" : "2016_Q2"
     },
     {
       "ble_dev_id": "0x0F",
@@ -6555,7 +6555,7 @@
       "unique_dev_id": 13,
       "usb_dev_id": null,
       "video_url": null,
-      "release_date" : "2021_Q1"
+      "release_date" : "2022_Q2"
     },
     {
       "ble_dev_id": "0x06",
@@ -6604,7 +6604,7 @@
       "unique_dev_id": 15,
       "usb_dev_id": null,
       "video_url": "https://www.youtube.com/watch?v=F4c9V1791Vw",
-      "release_date" : "2021_Q1"
+      "release_date" : "2023_Q4"
     },
     {
       "ble_dev_id": "0x0D",
@@ -6628,7 +6628,7 @@
       "unique_dev_id": 3,
       "usb_dev_id": null,
       "video_url": "https://www.youtube.com/watch?v=F4c9V1791Vw",
-      "release_date" : "2021_Q1"
+      "release_date" : "2023_Q2"
     },
     {
       "ble_dev_id": "0x03",
@@ -6650,7 +6650,7 @@
       "unique_dev_id": 6,
       "usb_dev_id": null,
       "video_url": "https://www.youtube.com/watch?v=JJOvbyOZarg",
-      "release_date" : "2021_Q1"
+      "release_date" : "2017_Q2"
     },
     {
       "ble_dev_id": "0x0C",
@@ -6674,7 +6674,7 @@
       "unique_dev_id": 10,
       "usb_dev_id": null,
       "video_url": "https://www.youtube.com/watch?v=ZUi4LOi2gic",
-      "release_date" : "2021_Q1"
+      "release_date" : "2022_Q1"
     },
     {
       "ble_dev_id": "0x10",
@@ -6696,7 +6696,7 @@
       "unique_dev_id": 14,
       "usb_dev_id": null,
       "video_url": null,
-      "release_date" : "2021_Q1"
+      "release_date" : "2022_Q4"
     },
     {
       "ble_dev_id": "0x7E",
@@ -6713,7 +6713,7 @@
       "unique_dev_id": 19,
       "usb_dev_id": null,
       "video_url": "https://www.youtube.com/watch?v=m94CCYyX5DM",
-      "release_date" : "2021_Q1"
+      "release_date" : "2014_Q4"
     },
     {
       "ble_dev_id": "0x7D",
@@ -6729,7 +6729,8 @@
       "status": "ACTIVE",
       "unique_dev_id": 18,
       "usb_dev_id": null,
-      "video_url": "https://www.youtube.com/watch?v=m94CCYyX5DM"
+      "video_url": "https://www.youtube.com/watch?v=m94CCYyX5DM",
+      "release_date" : "2014_Q2"
     },
     {
       "ble_dev_id": "0x7C",
@@ -6746,7 +6747,7 @@
       "unique_dev_id": 17,
       "usb_dev_id": null,
       "video_url": "https://www.youtube.com/watch?v=m94CCYyX5DM",
-      "release_date" : "2021_Q1"
+      "release_date" : "2015_Q2"
     },
     {
       "ble_dev_id": "0x7F",
@@ -6763,7 +6764,7 @@
       "unique_dev_id": 20,
       "usb_dev_id": null,
       "video_url": "https://www.youtube.com/watch?v=m94CCYyX5DM",
-      "release_date" : "2021_Q1"
+      "release_date" : "2014_Q2"
     }
   ],
   "characteristics": [
