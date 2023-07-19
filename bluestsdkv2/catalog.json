@@ -618,7 +618,7 @@
     {
       "ble_dev_id": "0x11",
       "ble_fw_id": "0x01",
-      "brd_name": "STEVAL-MKBOXPROB",
+      "brd_name": "STEVAL-MKBOXPRO",
       "changelog": "New release",
       "characteristics": [
         {
@@ -6864,7 +6864,8 @@
     },
     {
       "ble_dev_id": "0x12",
-      "brd_name": "STEVAL-STWINBX1B",
+      "brd_name": "STEVAL-STWINBX1",
+      "brd_variant" : "STEVAL$STWINBX1B",
       "components": [
         "ISM330DHCX",
         "IIS3DWB",
@@ -6893,6 +6894,7 @@
     {
       "ble_dev_id": "0x0E",
       "brd_name": "STEVAL-STWINBX1",
+      "brd_variant" : "STEVAL$STWINBX1A",
       "components": [
         "ISM330DHCX",
         "IIS3DWB",
@@ -6988,7 +6990,8 @@
     },
     {
       "ble_dev_id": "0x11",
-      "brd_name": "STEVAL-MKBOXPROB",
+      "brd_name": "STEVAL-MKBOXPRO",
+      "brd_variant" : "STEVAL$MKBOXPROB",
       "components": [
         "STTS22H",
         "LSM6DSV16X",
@@ -7013,6 +7016,7 @@
     {
       "ble_dev_id": "0x0D",
       "brd_name": "STEVAL-MKBOXPRO",
+      "brd_variant" : "STEVAL$MKBOXPROA",
       "components": [
         "STTS22H",
         "LSM6DSV16X",
