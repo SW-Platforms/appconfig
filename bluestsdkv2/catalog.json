@@ -6786,9 +6786,553 @@
           "type": "string"
         }
       ]
+    },
+        {
+      "ble_dev_id": "0x81",
+      "ble_fw_id": "0x83",
+      "brd_name": "NUCLEO-WB55",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": {},
+      "fw_desc": "P2P Server example running on NUCLEO-WB55",
+      "fw_name": "P2P Server",
+      "fw_version": "",
+      "option_bytes": []
+    },
+    {
+      "ble_dev_id": "0x82",
+      "ble_fw_id": "0x83",
+      "brd_name": "DiscoveryKit-WB5M",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": {},
+      "fw_desc": "P2P Server example running on DiscoveryKit-WB5M",
+      "fw_name": "P2P Server",
+      "fw_version": "",
+      "option_bytes": []
+    },
+    {
+      "ble_dev_id": "0x83",
+      "ble_fw_id": "0x83",
+      "brd_name": "USB-Dongle-WB55",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": {},
+      "fw_desc": "P2P Server example running on USB-Dongle-WB55",
+      "fw_name": "P2P Server",
+      "fw_version": "",
+      "option_bytes": []
+    },
+    {
+      "ble_dev_id": "0x84",
+      "ble_fw_id": "0x83",
+      "brd_name": "NUCLEO-WB15",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": {},
+      "fw_desc": "P2P Server example running on NUCLEO-WB15",
+      "fw_name": "P2P Server",
+      "fw_version": "",
+      "option_bytes": []
+    },
+    {
+      "ble_dev_id": "0x85",
+      "ble_fw_id": "0x83",
+      "brd_name": "DiscoveryKit-WB1M",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": {},
+      "fw_desc": "P2P Server example running on DiscoveryKit-WB1M",
+      "fw_name": "P2P Server",
+      "fw_version": "",
+      "option_bytes": []
+    },
+    {
+      "ble_dev_id": "0x8B",
+      "ble_fw_id": "0x83",
+      "brd_name": "NUCLEO-WBA5x",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": {},
+      "fw_desc": "P2P Server example running on NUCLEO-WBA5x",
+      "fw_name": "P2P Server",
+      "fw_version": "",
+      "option_bytes": []
+    },
+    {
+      "ble_dev_id": "0x8C",
+      "ble_fw_id": "0x83",
+      "brd_name": "DiscoveryKit-WBA",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": {},
+      "fw_desc": "P2P Server example running on DiscoveryKit-WBA",
+      "fw_name": "P2P Server",
+      "fw_version": "",
+      "option_bytes": []
+    },
+
+
+
+    {
+      "ble_dev_id": "0x81",
+      "ble_fw_id": "0x85",
+      "brd_name": "NUCLEO-WB55",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": {},
+      "fw_desc": "P2P Router example running on NUCLEO-WB55",
+      "fw_name": "P2P Router",
+      "fw_version": "",
+      "option_bytes": []
+    },
+    {
+      "ble_dev_id": "0x82",
+      "ble_fw_id": "0x85",
+      "brd_name": "DiscoveryKit-WB5M",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": {},
+      "fw_desc": "P2P Router example running on DiscoveryKit-WB5M",
+      "fw_name": "P2P Router",
+      "fw_version": "",
+      "option_bytes": []
+    },
+    {
+      "ble_dev_id": "0x83",
+      "ble_fw_id": "0x85",
+      "brd_name": "USB-Dongle-WB55",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": {},
+      "fw_desc": "P2P Router example running on USB-Dongle-WB55",
+      "fw_name": "P2P Router",
+      "fw_version": "",
+      "option_bytes": []
+    },
+    {
+      "ble_dev_id": "0x84",
+      "ble_fw_id": "0x85",
+      "brd_name": "NUCLEO-WB15",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": {},
+      "fw_desc": "P2P Router example running on NUCLEO-WB15",
+      "fw_name": "P2P Router",
+      "fw_version": "",
+      "option_bytes": []
+    },
+    {
+      "ble_dev_id": "0x85",
+      "ble_fw_id": "0x85",
+      "brd_name": "DiscoveryKit-WB1M",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": {},
+      "fw_desc": "P2P Router example running on DiscoveryKit-WB1M",
+      "fw_name": "P2P Router",
+      "fw_version": "",
+      "option_bytes": []
+    },
+    {
+      "ble_dev_id": "0x8B",
+      "ble_fw_id": "0x85",
+      "brd_name": "NUCLEO-WBA5x",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": {},
+      "fw_desc": "P2P Router example running on NUCLEO-WBA5x",
+      "fw_name": "P2P Router",
+      "fw_version": "",
+      "option_bytes": []
+    },
+    {
+      "ble_dev_id": "0x8C",
+      "ble_fw_id": "0x85",
+      "brd_name": "DiscoveryKit-WBA",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": {},
+      "fw_desc": "P2P Router example running on DiscoveryKit-WBA",
+      "fw_name": "P2P Router",
+      "fw_version": "",
+      "option_bytes": []
+    },
+
+
+
+    {
+      "ble_dev_id": "0x81",
+      "ble_fw_id": "0x87",
+      "brd_name": "NUCLEO-WB55",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": {},
+      "fw_desc": "SerialCom Peripheral example running on NUCLEO-WB55",
+      "fw_name": "SerialCom Peripheral",
+      "fw_version": "",
+      "option_bytes": []
+    },
+    {
+      "ble_dev_id": "0x82",
+      "ble_fw_id": "0x87",
+      "brd_name": "DiscoveryKit-WB5M",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": {},
+      "fw_desc": "SerialCom Peripheral example running on DiscoveryKit-WB5M",
+      "fw_name": "SerialCom Peripheral",
+      "fw_version": "",
+      "option_bytes": []
+    },
+    {
+      "ble_dev_id": "0x83",
+      "ble_fw_id": "0x87",
+      "brd_name": "USB-Dongle-WB55",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": {},
+      "fw_desc": "SerialCom Peripheral example running on USB-Dongle-WB55",
+      "fw_name": "SerialCom Peripheral",
+      "fw_version": "",
+      "option_bytes": []
+    },
+    {
+      "ble_dev_id": "0x84",
+      "ble_fw_id": "0x87",
+      "brd_name": "NUCLEO-WB15",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": {},
+      "fw_desc": "SerialCom Peripheral example running on NUCLEO-WB15",
+      "fw_name": "SerialCom Peripheral",
+      "fw_version": "",
+      "option_bytes": []
+    },
+    {
+      "ble_dev_id": "0x85",
+      "ble_fw_id": "0x87",
+      "brd_name": "DiscoveryKit-WB1M",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": {},
+      "fw_desc": "SerialCom Peripheral example running on DiscoveryKit-WB1M",
+      "fw_name": "SerialCom Peripheral",
+      "fw_version": "",
+      "option_bytes": []
+    },
+    {
+      "ble_dev_id": "0x8B",
+      "ble_fw_id": "0x87",
+      "brd_name": "NUCLEO-WBA5x",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": {},
+      "fw_desc": "SerialCom Peripheral example running on NUCLEO-WBA5x",
+      "fw_name": "SerialCom Peripheral",
+      "fw_version": "",
+      "option_bytes": []
+    },
+    {
+      "ble_dev_id": "0x8C",
+      "ble_fw_id": "0x87",
+      "brd_name": "DiscoveryKit-WBA",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": {},
+      "fw_desc": "SerialCom Peripheral example running on DiscoveryKit-WBA",
+      "fw_name": "SerialCom Peripheral",
+      "fw_version": "",
+      "option_bytes": []
+    },
+
+
+    {
+      "ble_dev_id": "0x81",
+      "ble_fw_id": "0x88",
+      "brd_name": "NUCLEO-WB55",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": {},
+      "fw_desc": "Data Throughput Server example running on NUCLEO-WB55",
+      "fw_name": "Data Throughput Server",
+      "fw_version": "",
+      "option_bytes": []
+    },
+    {
+      "ble_dev_id": "0x82",
+      "ble_fw_id": "0x88",
+      "brd_name": "DiscoveryKit-WB5M",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": {},
+      "fw_desc": "Data Throughput Server example running on DiscoveryKit-WB5M",
+      "fw_name": "Data Throughput Server",
+      "fw_version": "",
+      "option_bytes": []
+    },
+    {
+      "ble_dev_id": "0x83",
+      "ble_fw_id": "0x88",
+      "brd_name": "USB-Dongle-WB55",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": {},
+      "fw_desc": "Data Throughput Server example running on USB-Dongle-WB55",
+      "fw_name": "Data Throughput Server",
+      "fw_version": "",
+      "option_bytes": []
+    },
+    {
+      "ble_dev_id": "0x84",
+      "ble_fw_id": "0x88",
+      "brd_name": "NUCLEO-WB15",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": {},
+      "fw_desc": "Data Throughput Server example running on NUCLEO-WB15",
+      "fw_name": "Data Throughput Server",
+      "fw_version": "",
+      "option_bytes": []
+    },
+    {
+      "ble_dev_id": "0x85",
+      "ble_fw_id": "0x88",
+      "brd_name": "DiscoveryKit-WB1M",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": {},
+      "fw_desc": "Data Throughput Server example running on DiscoveryKit-WB1M",
+      "fw_name": "Data Throughput Server",
+      "fw_version": "",
+      "option_bytes": []
+    },
+    {
+      "ble_dev_id": "0x8B",
+      "ble_fw_id": "0x88",
+      "brd_name": "NUCLEO-WBA5x",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": {},
+      "fw_desc": "Data Throughput Server example running on NUCLEO-WBA5x",
+      "fw_name": "Data Throughput Server",
+      "fw_version": "",
+      "option_bytes": []
+    },
+    {
+      "ble_dev_id": "0x8C",
+      "ble_fw_id": "0x88",
+      "brd_name": "DiscoveryKit-WBA",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": {},
+      "fw_desc": "Data Throughput Server example running on DiscoveryKit-WBA",
+      "fw_name": "Data Throughput Server",
+      "fw_version": "",
+      "option_bytes": []
+    },
+
+
+     {
+      "ble_dev_id": "0x81",
+      "ble_fw_id": "0x89",
+      "brd_name": "NUCLEO-WB55",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": {},
+      "fw_desc": "Heart Rate example running on NUCLEO-WB55",
+      "fw_name": "Heart Rate",
+      "fw_version": "",
+      "option_bytes": []
+    },
+    {
+      "ble_dev_id": "0x82",
+      "ble_fw_id": "0x89",
+      "brd_name": "DiscoveryKit-WB5M",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": {},
+      "fw_desc": "Heart Rate example running on DiscoveryKit-WB5M",
+      "fw_name": "Heart Rate",
+      "fw_version": "",
+      "option_bytes": []
+    },
+    {
+      "ble_dev_id": "0x83",
+      "ble_fw_id": "0x89",
+      "brd_name": "USB-Dongle-WB55",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": {},
+      "fw_desc": "Heart Rate example running on USB-Dongle-WB55",
+      "fw_name": "Heart Rate",
+      "fw_version": "",
+      "option_bytes": []
+    },
+    {
+      "ble_dev_id": "0x84",
+      "ble_fw_id": "0x89",
+      "brd_name": "NUCLEO-WB15",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": {},
+      "fw_desc": "Heart Rate example running on NUCLEO-WB15",
+      "fw_name": "Heart Rate",
+      "fw_version": "",
+      "option_bytes": []
+    },
+    {
+      "ble_dev_id": "0x85",
+      "ble_fw_id": "0x89",
+      "brd_name": "DiscoveryKit-WB1M",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": {},
+      "fw_desc": "Heart Rate example running on DiscoveryKit-WB1M",
+      "fw_name": "Heart Rate",
+      "fw_version": "",
+      "option_bytes": []
+    },
+    {
+      "ble_dev_id": "0x8B",
+      "ble_fw_id": "0x89",
+      "brd_name": "NUCLEO-WBA5x",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": {},
+      "fw_desc": "Heart Rate example running on NUCLEO-WBA5x",
+      "fw_name": "Heart Rate",
+      "fw_version": "",
+      "option_bytes": []
+    },
+    {
+      "ble_dev_id": "0x8C",
+      "ble_fw_id": "0x89",
+      "brd_name": "DiscoveryKit-WBA",
+      "characteristics": [],
+      "cloud_apps": [],
+      "fota": {},
+      "fw_desc": "Heart Rate example running on DiscoveryKit-WBA",
+      "fw_name": "Heart Rate",
+      "fw_version": "",
+      "option_bytes": []
     }
+
   ],
   "boards": [
+   {
+      "ble_dev_id": "0x81",
+      "brd_name": "P-NUCLEO-WB55",
+      "components": [
+        "STM32WB55RG"
+      ],
+      "description": "Bluetooth 5 and 802.15.4 Nucleo with STM32WB55 MCUs",
+      "documentation_url": "https://www.st.com/en/evaluation-tools/p-nucleo-wb55.html#documentation",
+      "friendly_name": "WB55",
+      "nfc_dev_id": null,
+      "order_url": null,
+      "status": "ACTIVE",
+      "unique_dev_id": 120,
+      "usb_dev_id": null,
+      "video_url": null,
+      "release_date" : "2018_Q2"
+    },
+    {
+      "ble_dev_id": "0x82",
+      "brd_name": "DiscoveryKit-WB5M",
+      "components": [],
+      "description": " Discovery Kit WB5M",
+      "documentation_url": null,
+      "friendly_name": "WB5M",
+      "nfc_dev_id": null,
+      "order_url": null,
+      "status": "ACTIVE",
+      "unique_dev_id": 121,
+      "usb_dev_id": null,
+      "video_url": null,
+      "release_date" : "2018_Q2"
+    },
+    {
+      "ble_dev_id": "0x83",
+      "brd_name": "USB-Dongle-WB55",
+      "components": [
+        "STM32WB55CG"
+      ],
+      "description": "Bluetooth 5 and 802.15.4 USB Dongle STM32WB55 MCUs",
+      "documentation_url": "https://www.st.com/en/evaluation-tools/p-nucleo-wb55.html#documentation",
+      "friendly_name": "Dongle-WB55",
+      "nfc_dev_id": null,
+      "order_url": null,
+      "status": "ACTIVE",
+      "unique_dev_id": 122,
+      "usb_dev_id": null,
+      "video_url": null,
+      "release_date" : "2018_Q2"
+    },
+    {
+      "ble_dev_id": "0x84",
+      "brd_name": "NUCLEO-WB15",
+      "components": [
+        "STM32WB15CC"
+      ],
+      "description": "Bluetooth 5 and 802.15.4 USB Dongle STM32WB15 MCUs",
+      "documentation_url": "https://www.st.com/en/evaluation-tools/nucleo-wb15cc.html#documentation",
+      "friendly_name": "WB15",
+      "nfc_dev_id": null,
+      "order_url": null,
+      "status": "ACTIVE",
+      "unique_dev_id": 122,
+      "usb_dev_id": null,
+      "video_url": null,
+      "release_date" : "2021_Q1"
+    },
+    {
+      "ble_dev_id": "0x85",
+      "brd_name": "DiscoveryKit-WB1M",
+      "components": [],
+      "description": "Discovery Kit WB1M",
+      "documentation_url": null,
+      "friendly_name": "WB1M",
+      "nfc_dev_id": null,
+      "order_url": null,
+      "status": "ACTIVE",
+      "unique_dev_id": 123,
+      "usb_dev_id": null,
+      "video_url": null,
+      "release_date" : "2021_Q1"
+    },
+    {
+      "ble_dev_id": "0x8B",
+      "brd_name": "NUCLEO-WBA5x",
+      "components": [
+        "STM32WBA52CG"
+      ],
+      "description": "STM32 Nucleo-64 development board with STM32WBA52CG MCU",
+      "documentation_url": "https://www.st.com/en/evaluation-tools/nucleo-wba52cg.html#documentation",
+      "friendly_name": "WBA5x",
+      "nfc_dev_id": null,
+      "order_url": null,
+      "status": "ACTIVE",
+      "unique_dev_id": 124,
+      "usb_dev_id": null,
+      "video_url": null,
+      "release_date" : "2023_Q1"
+    },
+    {
+      "ble_dev_id": "0x8C",
+      "brd_name": "DiscoveryKit-WBA",
+      "components": [],
+      "description": "Discovery Kit WBA",
+      "documentation_url": null,
+      "friendly_name": "WBA",
+      "nfc_dev_id": null,
+      "order_url": null,
+      "status": "ACTIVE",
+      "unique_dev_id": 125,
+      "usb_dev_id": null,
+      "video_url": null,
+      "release_date" : "2024_Q1"
+    },
     {
       "ble_dev_id": "0x01",
       "brd_name": "STEVAL-WESU1",
