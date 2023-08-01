@@ -723,7 +723,6 @@
         }
       ],
       "cloud_apps": [],
-      "dtmi": "",
       "fota": {
         "bootloader_type": "none",
         "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxprob/STSW-MKBOXPRO_1_0_0.bin",
@@ -4446,7 +4445,6 @@
         }
       ],
       "cloud_apps": [],
-      "dtmi": "",
       "fota": {
         "bootloader_type": "none",
         "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/STSW-MKBOXPRO_1_0_0.bin",
