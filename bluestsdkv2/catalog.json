@@ -7173,18 +7173,6 @@
       "option_bytes": []
     },
     {
-      "ble_dev_id": "0x85",
-      "ble_fw_id": "0x83",
-      "brd_name": "DiscoveryKit-WB1M",
-      "characteristics": [],
-      "cloud_apps": [],
-      "fota": {},
-      "fw_desc": "P2P Server example running on DiscoveryKit-WB1M",
-      "fw_name": "P2P Server",
-      "fw_version": "",
-      "option_bytes": []
-    },
-    {
       "ble_dev_id": "0x8B",
       "ble_fw_id": "0x83",
       "brd_name": "NUCLEO-WBA5x",
@@ -7192,18 +7180,6 @@
       "cloud_apps": [],
       "fota": {},
       "fw_desc": "P2P Server example running on NUCLEO-WBA5x",
-      "fw_name": "P2P Server",
-      "fw_version": "",
-      "option_bytes": []
-    },
-    {
-      "ble_dev_id": "0x8C",
-      "ble_fw_id": "0x83",
-      "brd_name": "DiscoveryKit-WBA",
-      "characteristics": [],
-      "cloud_apps": [],
-      "fota": {},
-      "fw_desc": "P2P Server example running on DiscoveryKit-WBA",
       "fw_name": "P2P Server",
       "fw_version": "",
       "option_bytes": []
@@ -7221,18 +7197,6 @@
       "option_bytes": []
     },
     {
-      "ble_dev_id": "0x82",
-      "ble_fw_id": "0x85",
-      "brd_name": "DiscoveryKit-WB5M",
-      "characteristics": [],
-      "cloud_apps": [],
-      "fota": {},
-      "fw_desc": "P2P Router example running on DiscoveryKit-WB5M",
-      "fw_name": "P2P Router",
-      "fw_version": "",
-      "option_bytes": []
-    },
-    {
       "ble_dev_id": "0x83",
       "ble_fw_id": "0x85",
       "brd_name": "USB-Dongle-WB55",
@@ -7240,30 +7204,6 @@
       "cloud_apps": [],
       "fota": {},
       "fw_desc": "P2P Router example running on USB-Dongle-WB55",
-      "fw_name": "P2P Router",
-      "fw_version": "",
-      "option_bytes": []
-    },
-    {
-      "ble_dev_id": "0x84",
-      "ble_fw_id": "0x85",
-      "brd_name": "NUCLEO-WB15",
-      "characteristics": [],
-      "cloud_apps": [],
-      "fota": {},
-      "fw_desc": "P2P Router example running on NUCLEO-WB15",
-      "fw_name": "P2P Router",
-      "fw_version": "",
-      "option_bytes": []
-    },
-    {
-      "ble_dev_id": "0x85",
-      "ble_fw_id": "0x85",
-      "brd_name": "DiscoveryKit-WB1M",
-      "characteristics": [],
-      "cloud_apps": [],
-      "fota": {},
-      "fw_desc": "P2P Router example running on DiscoveryKit-WB1M",
       "fw_name": "P2P Router",
       "fw_version": "",
       "option_bytes": []
@@ -7281,78 +7221,6 @@
       "option_bytes": []
     },
     {
-      "ble_dev_id": "0x8C",
-      "ble_fw_id": "0x85",
-      "brd_name": "DiscoveryKit-WBA",
-      "characteristics": [],
-      "cloud_apps": [],
-      "fota": {},
-      "fw_desc": "P2P Router example running on DiscoveryKit-WBA",
-      "fw_name": "P2P Router",
-      "fw_version": "",
-      "option_bytes": []
-    },
-    {
-      "ble_dev_id": "0x81",
-      "ble_fw_id": "0x87",
-      "brd_name": "NUCLEO-WB55",
-      "characteristics": [],
-      "cloud_apps": [],
-      "fota": {},
-      "fw_desc": "SerialCom Peripheral example running on NUCLEO-WB55",
-      "fw_name": "SerialCom Peripheral",
-      "fw_version": "",
-      "option_bytes": []
-    },
-    {
-      "ble_dev_id": "0x82",
-      "ble_fw_id": "0x87",
-      "brd_name": "DiscoveryKit-WB5M",
-      "characteristics": [],
-      "cloud_apps": [],
-      "fota": {},
-      "fw_desc": "SerialCom Peripheral example running on DiscoveryKit-WB5M",
-      "fw_name": "SerialCom Peripheral",
-      "fw_version": "",
-      "option_bytes": []
-    },
-    {
-      "ble_dev_id": "0x83",
-      "ble_fw_id": "0x87",
-      "brd_name": "USB-Dongle-WB55",
-      "characteristics": [],
-      "cloud_apps": [],
-      "fota": {},
-      "fw_desc": "SerialCom Peripheral example running on USB-Dongle-WB55",
-      "fw_name": "SerialCom Peripheral",
-      "fw_version": "",
-      "option_bytes": []
-    },
-    {
-      "ble_dev_id": "0x84",
-      "ble_fw_id": "0x87",
-      "brd_name": "NUCLEO-WB15",
-      "characteristics": [],
-      "cloud_apps": [],
-      "fota": {},
-      "fw_desc": "SerialCom Peripheral example running on NUCLEO-WB15",
-      "fw_name": "SerialCom Peripheral",
-      "fw_version": "",
-      "option_bytes": []
-    },
-    {
-      "ble_dev_id": "0x85",
-      "ble_fw_id": "0x87",
-      "brd_name": "DiscoveryKit-WB1M",
-      "characteristics": [],
-      "cloud_apps": [],
-      "fota": {},
-      "fw_desc": "SerialCom Peripheral example running on DiscoveryKit-WB1M",
-      "fw_name": "SerialCom Peripheral",
-      "fw_version": "",
-      "option_bytes": []
-    },
-    {
       "ble_dev_id": "0x8B",
       "ble_fw_id": "0x87",
       "brd_name": "NUCLEO-WBA5x",
@@ -7360,18 +7228,6 @@
       "cloud_apps": [],
       "fota": {},
       "fw_desc": "SerialCom Peripheral example running on NUCLEO-WBA5x",
-      "fw_name": "SerialCom Peripheral",
-      "fw_version": "",
-      "option_bytes": []
-    },
-    {
-      "ble_dev_id": "0x8C",
-      "ble_fw_id": "0x87",
-      "brd_name": "DiscoveryKit-WBA",
-      "characteristics": [],
-      "cloud_apps": [],
-      "fota": {},
-      "fw_desc": "SerialCom Peripheral example running on DiscoveryKit-WBA",
       "fw_name": "SerialCom Peripheral",
       "fw_version": "",
       "option_bytes": []
@@ -7389,30 +7245,6 @@
       "option_bytes": []
     },
     {
-      "ble_dev_id": "0x82",
-      "ble_fw_id": "0x88",
-      "brd_name": "DiscoveryKit-WB5M",
-      "characteristics": [],
-      "cloud_apps": [],
-      "fota": {},
-      "fw_desc": "Data Throughput Server example running on DiscoveryKit-WB5M",
-      "fw_name": "Data Throughput Server",
-      "fw_version": "",
-      "option_bytes": []
-    },
-    {
-      "ble_dev_id": "0x83",
-      "ble_fw_id": "0x88",
-      "brd_name": "USB-Dongle-WB55",
-      "characteristics": [],
-      "cloud_apps": [],
-      "fota": {},
-      "fw_desc": "Data Throughput Server example running on USB-Dongle-WB55",
-      "fw_name": "Data Throughput Server",
-      "fw_version": "",
-      "option_bytes": []
-    },
-    {
       "ble_dev_id": "0x84",
       "ble_fw_id": "0x88",
       "brd_name": "NUCLEO-WB15",
@@ -7425,18 +7257,6 @@
       "option_bytes": []
     },
     {
-      "ble_dev_id": "0x85",
-      "ble_fw_id": "0x88",
-      "brd_name": "DiscoveryKit-WB1M",
-      "characteristics": [],
-      "cloud_apps": [],
-      "fota": {},
-      "fw_desc": "Data Throughput Server example running on DiscoveryKit-WB1M",
-      "fw_name": "Data Throughput Server",
-      "fw_version": "",
-      "option_bytes": []
-    },
-    {
       "ble_dev_id": "0x8B",
       "ble_fw_id": "0x88",
       "brd_name": "NUCLEO-WBA5x",
@@ -7444,18 +7264,6 @@
       "cloud_apps": [],
       "fota": {},
       "fw_desc": "Data Throughput Server example running on NUCLEO-WBA5x",
-      "fw_name": "Data Throughput Server",
-      "fw_version": "",
-      "option_bytes": []
-    },
-    {
-      "ble_dev_id": "0x8C",
-      "ble_fw_id": "0x88",
-      "brd_name": "DiscoveryKit-WBA",
-      "characteristics": [],
-      "cloud_apps": [],
-      "fota": {},
-      "fw_desc": "Data Throughput Server example running on DiscoveryKit-WBA",
       "fw_name": "Data Throughput Server",
       "fw_version": "",
       "option_bytes": []
@@ -7509,18 +7317,6 @@
       "option_bytes": []
     },
     {
-      "ble_dev_id": "0x85",
-      "ble_fw_id": "0x89",
-      "brd_name": "DiscoveryKit-WB1M",
-      "characteristics": [],
-      "cloud_apps": [],
-      "fota": {},
-      "fw_desc": "Heart Rate example running on DiscoveryKit-WB1M",
-      "fw_name": "Heart Rate",
-      "fw_version": "",
-      "option_bytes": []
-    },
-    {
       "ble_dev_id": "0x8B",
       "ble_fw_id": "0x89",
       "brd_name": "NUCLEO-WBA5x",
@@ -7528,18 +7324,6 @@
       "cloud_apps": [],
       "fota": {},
       "fw_desc": "Heart Rate example running on NUCLEO-WBA5x",
-      "fw_name": "Heart Rate",
-      "fw_version": "",
-      "option_bytes": []
-    },
-    {
-      "ble_dev_id": "0x8C",
-      "ble_fw_id": "0x89",
-      "brd_name": "DiscoveryKit-WBA",
-      "characteristics": [],
-      "cloud_apps": [],
-      "fota": {},
-      "fw_desc": "Heart Rate example running on DiscoveryKit-WBA",
       "fw_name": "Heart Rate",
       "fw_version": "",
       "option_bytes": []
