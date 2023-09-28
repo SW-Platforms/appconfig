@@ -734,6 +734,7 @@
       "fw_desc": "Fw supporting app creation with ST BLE Sensor app",
       "fw_name": "STSW-MKBOXPRO Entry/Expert Mode",
       "fw_version": "1.0.0",
+      "flow_enable": 1,
       "option_bytes": [
         {
           "format": "enum_icon",
@@ -4456,6 +4457,7 @@
       "fw_desc": "Fw supporting app creation with ST BLE Sensor app",
       "fw_name": "STSW-MKBOXPRO Entry/Expert Mode",
       "fw_version": "1.0.0",
+      "flow_enable": 1,
       "option_bytes": [
         {
           "format": "enum_icon",
