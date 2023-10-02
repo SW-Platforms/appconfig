@@ -7712,12 +7712,12 @@
       "ble_dev_id": "0x82",
       "brd_name": "DiscoveryKit-WB5M",
       "components": [
-      "STM32W5MMG",
+        "STM32W5MMG",
         "ISM330DHCX",
         "STTS22H",
         "VL53L0CXV0DH",
         "IMP34DT05",
-        "TSCG4/G6" 
+        "TSCG4/G6"
       ],
       "description": " Discovery Kit WB5M",
       "documentation_url": "https://www.st.com/en/evaluation-tools/stm32wb5mm-dk.html#documentation",
@@ -7740,7 +7740,7 @@
       "documentation_url": "https://www.st.com/en/evaluation-tools/p-nucleo-wb55.html#documentation",
       "friendly_name": "USB-Dongle-WB55",
       "nfc_dev_id": null,
-      "order_url":  "https://estore.st.com/en/p-nucleo-wb55-cpn.html",
+      "order_url": "https://estore.st.com/en/p-nucleo-wb55-cpn.html",
       "status": "ACTIVE",
       "unique_dev_id": 122,
       "usb_dev_id": null,
@@ -10137,6 +10137,223 @@
       "format_notify": null,
       "name": "RFU(2)",
       "uuid": "80000000-0001-11e1-ac36-0002a5d5c51b"
+    }
+  ],
+  "sensor_adapters": [
+    {
+      "universal_id": 1,
+      "id": "S1",
+      "description": "Temperature sensor",
+      "icon": "ic_termometer",
+      "model": "STTS751",
+      "board_compatibility": [],
+      "output": "Temperature",
+      "outputs": [
+        "O1",
+        "O2",
+        "O3"
+      ],
+      "um": "degC",
+      "datasheetLink": "https://www.st.com/resource/en/datasheet/stts751.pdf",
+      "notes": "use max bit resolution for each ODR",
+      "dataType": "Float scalar",
+      "powerModes": [
+        {
+          "mode": "NONE",
+          "label": "Power Mode",
+          "odrs": [
+            0.0625,
+            0.125,
+            0.25,
+            0.5,
+            1,
+            2,
+            4,
+            8
+          ],
+          "minCustomOdr": 17
+        }
+      ],
+      "acquisitionTime": 0,
+      "configuration": {
+        "powerMode": "NONE",
+        "odr": 1,
+        "acquisitionTime": 0
+      }
+    },
+    {
+      "universal_id": 2,
+      "id": "S1",
+      "description": "Temperature sensor",
+      "icon": "ic_termometer",
+      "model": "STTS22H",
+      "board_compatibility": [],
+      "output": "Temperature",
+      "outputs": [
+        "O1",
+        "O2",
+        "O3"
+      ],
+      "um": "degC",
+      "datasheetLink": "https://www.st.com/resource/en/datasheet/stts22h.pdf",
+      "dataType": "Float scalar",
+      "powerModes": [
+        {
+          "mode": "NONE",
+          "label": "Power Mode",
+          "odrs": [
+            1,
+            25,
+            50,
+            100
+          ],
+          "minCustomOdr": 1
+        }
+      ],
+      "acquisitionTime": 0,
+      "configuration": {
+        "powerMode": "NONE",
+        "odr": 1,
+        "acquisitionTime": 0
+      }
+    },
+    {
+      "universal_id": 3,
+      "id": "S2",
+      "description": "Humidity sensor",
+      "icon": "ic_humidity",
+      "model": "HTS221",
+      "board_compatibility": [],
+      "output": "Humidity",
+      "outputs": [
+        "O1",
+        "O2",
+        "O3"
+      ],
+      "dataType": "Float scalar",
+      "um": "% RH",
+      "datasheetLink": "https://www.st.com/resource/en/datasheet/hts221.pdf",
+      "powerModes": [
+        {
+          "mode": "NONE",
+          "label": "Power Mode",
+          "odrs": [
+            1,
+            7,
+            12.5
+          ],
+          "minCustomOdr": 2
+        }
+      ],
+      "acquisitionTime": 0,
+      "configuration": {
+        "powerMode": "NONE",
+        "odr": 1,
+        "acquisitionTime": 0
+      }
+    },
+    {
+      "universal_id": 4,
+      "id": "S3",
+      "description": "Pressure sensor",
+      "icon": "ic_pressure",
+      "model": "LPS22HH",
+      "board_compatibility": [],
+      "output": "Pressure",
+      "outputs": [
+        "O1",
+        "O2",
+        "O3"
+      ],
+      "um": "hPa",
+      "datasheetLink": "https://www.st.com/resource/en/datasheet/lps22hh.pdf",
+      "dataType": "Float scalar",
+      "powerModes": [
+        {
+          "mode": "LOW_NOISE",
+          "label": "Low noise",
+          "odrs": [
+            1,
+            10,
+            25,
+            50,
+            75
+          ],
+          "minCustomOdr": 2
+        },
+        {
+          "mode": "LOW_CURRENT",
+          "label": "Low current",
+          "odrs": [
+            1,
+            10,
+            25,
+            50,
+            75,
+            100,
+            200
+          ],
+          "minCustomOdr": 2
+        }
+      ],
+      "acquisitionTime": 0,
+      "bleMaxOdr": 50,
+      "configuration": {
+        "powerMode": "LOW_NOISE",
+        "odr": 1,
+        "filters": {
+          "lowPass": {
+            "label": "ODR/2",
+            "value": 1
+          }
+        },
+        "acquisitionTime": 0
+      }
+    },
+    {
+      "universal_id": 5,
+      "id": "S3",
+      "description": "Pressure sensor",
+      "icon": "ic_pressure",
+      "model": "LPS22DF",
+      "board_compatibility": [],
+      "output": "Pressure",
+      "outputs": [
+        "O1",
+        "O2",
+        "O3"
+      ],
+      "um": "hPa",
+      "datasheetLink": "https://www.st.com/resource/en/datasheet/lps22df.pdf",
+      "dataType": "Float scalar",
+      "powerModes": [
+        {
+          "mode": "NONE",
+          "label": "Power Mode",
+          "odrs": [
+            1,
+            4,
+            10,
+            25,
+            50,
+            75
+          ],
+          "minCustomOdr": 2
+        }
+      ],
+      "acquisitionTime": 0,
+      "bleMaxOdr": 50,
+      "configuration": {
+        "powerMode": "NONE",
+        "odr": 1,
+        "filters": {
+          "lowPass": {
+            "label": "ODR/2",
+            "value": 1
+          }
+        },
+        "acquisitionTime": 0
+      }
     }
   ],
   "checksum": "8129c9a85f56331f22f516517cec3e9a",
