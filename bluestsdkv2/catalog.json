@@ -10143,7 +10143,7 @@
     {
       "unique_id": 1,
       "id": "S1",
-      "description": "Temperature sensor",
+      "description": "DIL 24Temperature sensor",
       "icon": "ic_termometer",
       "model": "STTS751",
       "board_compatibility": [],
@@ -10184,7 +10184,7 @@
     {
       "unique_id": 2,
       "id": "S1",
-      "description": "Temperature sensor",
+      "description": "DIL 24 Temperature sensor",
       "icon": "ic_termometer",
       "model": "STTS22H",
       "board_compatibility": [],
@@ -10220,7 +10220,7 @@
     {
       "unique_id": 3,
       "id": "S2",
-      "description": "Humidity sensor",
+      "description": "DIL 24 Humidity sensor",
       "icon": "ic_humidity",
       "model": "HTS221",
       "board_compatibility": [],
@@ -10255,7 +10255,7 @@
     {
       "unique_id": 4,
       "id": "S3",
-      "description": "Pressure sensor",
+      "description": "DIL24 Pressure sensor",
       "icon": "ic_pressure",
       "model": "LPS22HH",
       "board_compatibility": [],
@@ -10313,7 +10313,7 @@
     {
       "unique_id": 5,
       "id": "S3",
-      "description": "Pressure sensor",
+      "description": "DIL24 Pressure Sensor",
       "icon": "ic_pressure",
       "model": "LPS22DF",
       "board_compatibility": [],
