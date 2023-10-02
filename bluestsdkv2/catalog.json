@@ -10141,7 +10141,7 @@
   ],
   "sensor_adapters": [
     {
-      "universal_id": 1,
+      "unique_id": 1,
       "id": "S1",
       "description": "Temperature sensor",
       "icon": "ic_termometer",
@@ -10182,7 +10182,7 @@
       }
     },
     {
-      "universal_id": 2,
+      "unique_id": 2,
       "id": "S1",
       "description": "Temperature sensor",
       "icon": "ic_termometer",
@@ -10218,7 +10218,7 @@
       }
     },
     {
-      "universal_id": 3,
+      "unique_id": 3,
       "id": "S2",
       "description": "Humidity sensor",
       "icon": "ic_humidity",
@@ -10253,7 +10253,7 @@
       }
     },
     {
-      "universal_id": 4,
+      "unique_id": 4,
       "id": "S3",
       "description": "Pressure sensor",
       "icon": "ic_pressure",
@@ -10311,7 +10311,7 @@
       }
     },
     {
-      "universal_id": 5,
+      "unique_id": 5,
       "id": "S3",
       "description": "Pressure sensor",
       "icon": "ic_pressure",
