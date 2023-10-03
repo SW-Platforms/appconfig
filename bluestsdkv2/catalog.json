@@ -10142,10 +10142,10 @@
   "sensor_adapters": [
     {
       "unique_id": 1,
-      "id": "S1",
-      "description": "DIL 24Temperature sensor",
+      "id": "DIL1",
+      "description": "Temperature sensor",
       "icon": "ic_termometer",
-      "model": "STTS751",
+      "model": "SHT40AD1B",
       "board_compatibility": [],
       "output": "Temperature",
       "outputs": [
@@ -10154,24 +10154,21 @@
         "O3"
       ],
       "um": "degC",
-      "datasheetLink": "https://www.st.com/resource/en/datasheet/stts751.pdf",
-      "notes": "use max bit resolution for each ODR",
+      "datasheetLink": "https://sensirion.com/media/documents/33FD6951/63E1087C/Datasheet_SHT4x_1.pdf",
+      "notes": "the sensor works only with single reads, the odr is managed by the firmware",
       "dataType": "Float scalar",
       "powerModes": [
         {
           "mode": "NONE",
           "label": "Power Mode",
           "odrs": [
-            0.0625,
-            0.125,
             0.25,
             0.5,
             1,
             2,
-            4,
-            8
+            4
           ],
-          "minCustomOdr": 17
+          "minCustomOdr": 10
         }
       ],
       "acquisitionTime": 0,
@@ -10183,175 +10180,165 @@
     },
     {
       "unique_id": 2,
-      "id": "S1",
-      "description": "DIL 24 Temperature sensor",
-      "icon": "ic_termometer",
-      "model": "STTS22H",
+      "id": "DIL2",
+      "description": "TMOS IR presence motion sensor",
+      "icon": "ic_infrared",
+      "model": "STHS34PF80",
       "board_compatibility": [],
-      "output": "Temperature",
+      "output": "TMOS output",
       "outputs": [
         "O1",
         "O2",
         "O3"
       ],
-      "um": "degC",
-      "datasheetLink": "https://www.st.com/resource/en/datasheet/stts22h.pdf",
-      "dataType": "Float scalar",
+      "dataType": "int scalar",
+      "um": "[LSB]",
+      "datasheetLink": "https://www.st.com/resource/en/datasheet/sths34pf80.pdf",
       "powerModes": [
         {
           "mode": "NONE",
           "label": "Power Mode",
           "odrs": [
+            0.25,
+            0.5,
             1,
-            25,
-            50,
-            100
+            2,
+            4,
+            8,
+            15,
+            30
           ],
-          "minCustomOdr": 1
+          "minCustomOdr": 0.2
         }
       ],
       "acquisitionTime": 0,
       "configuration": {
         "powerMode": "NONE",
-        "odr": 1,
+        "odr": 8,
         "acquisitionTime": 0
       }
     },
     {
       "unique_id": 3,
-      "id": "S2",
-      "description": "DIL 24 Humidity sensor",
-      "icon": "ic_humidity",
-      "model": "HTS221",
-      "board_compatibility": [],
-      "output": "Humidity",
+      "id": "DIL3",
+      "description": "IMU Accelerometer sensor",
+      "icon": "ic_inemo",
+      "output": "Acceleration",
       "outputs": [
         "O1",
         "O2",
         "O3"
       ],
-      "dataType": "Float scalar",
-      "um": "% RH",
-      "datasheetLink": "https://www.st.com/resource/en/datasheet/hts221.pdf",
+      "model": "LSM6DSO32",
+      "board_compatibility": [],
+      "um": "mg",
+      "fullScaleUm": "g",
+      "datasheetLink": "https://www.st.com/resource/en/datasheet/lsm6dso32.pdf",
+      "dataType": "Float vector x3",
+      "fullScales": [
+        4,
+        8,
+        16,
+        32
+      ],
       "powerModes": [
         {
-          "mode": "NONE",
-          "label": "Power Mode",
+          "mode": "LOW_POWER",
+          "label": "Low power",
           "odrs": [
-            1,
-            7,
-            12.5
-          ],
-          "minCustomOdr": 2
+            1.6,
+            12.5,
+            26,
+            52,
+            104,
+            208
+          ]
+        },
+        {
+          "mode": "HIGH_PERFORMANCE",
+          "label": "High performance",
+          "odrs": [
+            12.5,
+            26,
+            52,
+            104,
+            208,
+            416,
+            833,
+            1666,
+            3333,
+            6666
+          ]
         }
       ],
       "acquisitionTime": 0,
+      "bleMaxOdr": 52,
       "configuration": {
-        "powerMode": "NONE",
-        "odr": 1,
-        "acquisitionTime": 0
-      }
+        "powerMode": "LOW_POWER",
+        "odr": 52
+      },
+      "fullScale": 32
     },
     {
       "unique_id": 4,
-      "id": "S3",
-      "description": "DIL24 Pressure sensor",
-      "icon": "ic_pressure",
-      "model": "LPS22HH",
-      "board_compatibility": [],
-      "output": "Pressure",
+      "id": "DIL4",
+      "description": "IMU Gyroscope sensor",
+      "output": "Angular rate",
       "outputs": [
         "O1",
         "O2",
         "O3"
       ],
-      "um": "hPa",
-      "datasheetLink": "https://www.st.com/resource/en/datasheet/lps22hh.pdf",
-      "dataType": "Float scalar",
+      "icon": "ic_inemo",
+      "model": "LSM6DSO32",
+      "board_compatibility": [
+        "SENSOR_TILE_BOX"
+      ],
+      "um": "mdps",
+      "fullScaleUm": "dps",
+      "datasheetLink": "https://www.st.com/resource/en/datasheet/lsm6dso32.pdf",
+      "dataType": "Float vector x3",
+      "fullScales": [
+        250,
+        500,
+        1000,
+        2000
+      ],
       "powerModes": [
         {
-          "mode": "LOW_NOISE",
-          "label": "Low noise",
+          "mode": "LOW_POWER",
+          "label": "Low power",
           "odrs": [
-            1,
-            10,
-            25,
-            50,
-            75
-          ],
-          "minCustomOdr": 2
+            12.5,
+            26,
+            52,
+            104,
+            208
+          ]
         },
         {
-          "mode": "LOW_CURRENT",
-          "label": "Low current",
+          "mode": "HIGH_PERFORMANCE",
+          "label": "High performance",
           "odrs": [
-            1,
-            10,
-            25,
-            50,
-            75,
-            100,
-            200
-          ],
-          "minCustomOdr": 2
+            12.5,
+            26,
+            52,
+            104,
+            208,
+            416,
+            833,
+            1666,
+            3333,
+            6666
+          ]
         }
       ],
       "acquisitionTime": 0,
-      "bleMaxOdr": 50,
+      "bleMaxOdr": 52,
       "configuration": {
-        "powerMode": "LOW_NOISE",
-        "odr": 1,
-        "filters": {
-          "lowPass": {
-            "label": "ODR/2",
-            "value": 1
-          }
-        },
-        "acquisitionTime": 0
-      }
-    },
-    {
-      "unique_id": 5,
-      "id": "S3",
-      "description": "DIL24 Pressure Sensor",
-      "icon": "ic_pressure",
-      "model": "LPS22DF",
-      "board_compatibility": [],
-      "output": "Pressure",
-      "outputs": [
-        "O1",
-        "O2",
-        "O3"
-      ],
-      "um": "hPa",
-      "datasheetLink": "https://www.st.com/resource/en/datasheet/lps22df.pdf",
-      "dataType": "Float scalar",
-      "powerModes": [
-        {
-          "mode": "NONE",
-          "label": "Power Mode",
-          "odrs": [
-            1,
-            4,
-            10,
-            25,
-            50,
-            75
-          ],
-          "minCustomOdr": 2
-        }
-      ],
-      "acquisitionTime": 0,
-      "bleMaxOdr": 50,
-      "configuration": {
-        "powerMode": "NONE",
-        "odr": 1,
-        "filters": {
-          "lowPass": {
-            "label": "ODR/2",
-            "value": 1
-          }
-        },
+        "powerMode": "LOW_POWER",
+        "odr": 52,
+        "fullScale": 2000,
         "acquisitionTime": 0
       }
     }
