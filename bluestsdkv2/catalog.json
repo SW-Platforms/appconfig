@@ -10142,7 +10142,7 @@
   "sensor_adapters": [
     {
       "unique_id": 1,
-      "id": "DIL1",
+      "id": "D1",
       "description": "Temperature sensor",
       "icon": "ic_termometer",
       "model": "SHT40AD1B",
@@ -10180,7 +10180,7 @@
     },
     {
       "unique_id": 2,
-      "id": "DIL2",
+      "id": "D2",
       "description": "TMOS IR presence motion sensor",
       "icon": "ic_infrared",
       "model": "STHS34PF80",
@@ -10220,7 +10220,7 @@
     },
     {
       "unique_id": 3,
-      "id": "DIL3",
+      "id": "D3",
       "description": "IMU Accelerometer sensor",
       "icon": "ic_inemo",
       "output": "Acceleration",
@@ -10281,7 +10281,7 @@
     },
     {
       "unique_id": 4,
-      "id": "DIL4",
+      "id": "D4",
       "description": "IMU Gyroscope sensor",
       "output": "Angular rate",
       "outputs": [
