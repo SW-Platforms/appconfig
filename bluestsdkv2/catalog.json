@@ -975,7 +975,7 @@
         "bootloader_type": "none",
         "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mksbox1v1/FP-SNS-STBOX1_BLEDualProgram_1_5_0.bin",
         "max_chunk_length": 0,
-        "max_divisor_constraint": 0,
+        "max_divisor_constraint": 8,
         "partial_fota": 0,
         "type": "fast"
       },
