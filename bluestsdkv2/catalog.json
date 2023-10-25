@@ -6577,6 +6577,7 @@
       "changelog": "INTERNAL USE ONLY - WiFi and FTP support",
       "characteristics": [],
       "cloud_apps": [],
+      "dtmi": "dtmi:appconfig:steval_stwinbx1:fpSnsDatalog2WiFi_datalog2;1",
       "fota": {
         "bootloader_type": "none",
         "fw_url": null,
@@ -7810,6 +7811,7 @@
       "changelog": "INTERNAL USE ONLY - WiFi and FTP support",
       "characteristics": [],
       "cloud_apps": [],
+      "dtmi": "dtmi:appconfig:steval_stwinbx1:fpSnsDatalog2WiFi_datalog2;1",
       "fota": {
         "bootloader_type": "none",
         "fw_url": null,
