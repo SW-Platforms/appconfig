@@ -1328,7 +1328,7 @@
       "cloud_apps": [],
       "fota": {
         "bootloader_type": "none",
-        "fw_url": null,
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mksbox1v1/FP-SNS-STBOX1_BLEDualProgram_1_6_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 8,
         "partial_fota": 0,
@@ -3666,7 +3666,7 @@
       "cloud_apps": [],
       "fota": {
         "bootloader_type": "none",
-        "fw_url": null,
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-STBOX1_BLEDualProgram_1_6_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -3748,7 +3748,7 @@
       ],
       "fota": {
         "bootloader_type": "none",
-        "fw_url": null,
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-STBOX1_BLESensors_1_6_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -3801,7 +3801,7 @@
       "cloud_apps": [],
       "fota": {
         "bootloader_type": "none",
-        "fw_url": null,
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-STBOX1_BLEMLC_1_6_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -3850,7 +3850,7 @@
       "cloud_apps": [],
       "fota": {
         "bootloader_type": "none",
-        "fw_url": null,
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-STBOX1_BLEPiano_1_6_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -3923,7 +3923,7 @@
       "cloud_apps": [],
       "fota": {
         "bootloader_type": "none",
-        "fw_url": null,
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-STBOX1_BLESensorsPnPL_1_6_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -6257,7 +6257,7 @@
       "cloud_apps": [],
       "fota": {
         "bootloader_type": "none",
-        "fw_url": null,
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-STBOX1_BLEDualProgram_1_6_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -6314,7 +6314,7 @@
       "cloud_apps": [],
       "fota": {
         "bootloader_type": "none",
-        "fw_url": null,
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-STBOX1_BLEMLC_1_6_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -6388,7 +6388,7 @@
       ],
       "fota": {
         "bootloader_type": "none",
-        "fw_url": null,
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-STBOX1_BLEDefaultFw_1_6_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -6461,7 +6461,7 @@
       "cloud_apps": [],
       "fota": {
         "bootloader_type": "none",
-        "fw_url": null,
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-STBOX1_BLESensorsPnPL_1_6_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -6543,7 +6543,7 @@
       ],
       "fota": {
         "bootloader_type": "none",
-        "fw_url": null,
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-STBOX1_BLESensors_1_6_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -6569,27 +6569,6 @@
           "type": "string"
         }
       ]
-    },
-    {
-      "ble_dev_id": "0x0E",
-      "ble_fw_id": "0x1F",
-      "brd_name": "STEVAL-STWINBX1",
-      "changelog": "INTERNAL USE ONLY - WiFi and FTP support",
-      "characteristics": [],
-      "cloud_apps": [],
-      "dtmi": "dtmi:appconfig:steval_stwinbx1:fpSnsDatalog2WiFi_datalog2;1",
-      "fota": {
-        "bootloader_type": "none",
-        "fw_url": null,
-        "max_chunk_length": 0,
-        "max_divisor_constraint": 0,
-        "partial_fota": 0,
-        "type": "fast"
-      },
-      "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
-      "fw_name": "FP-SNS-DATALOG2_Datalog2",
-      "fw_version": "2.1.0",
-      "option_bytes": []
     },
     {
       "ble_dev_id": "0x0F",
@@ -7290,11 +7269,48 @@
       "ble_fw_id": "0x02",
       "brd_name": "STEVAL-MKBOXPRO",
       "changelog": "Add Support to ST25KC, Drivers and HAL update",
-      "characteristics": [],
+      "characteristics": [
+        {
+          "name": "Debug Console stdin/stdout",
+          "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
+        },
+        {
+          "name": "Ext Configuration",
+          "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Accelerometer",
+          "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Gyroscope",
+          "uuid": "00400000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Magnetometer",
+          "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Pressure",
+          "uuid": "00100000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Temperature",
+          "uuid": "00010000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Battery",
+          "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "PnPLike",
+          "uuid": "0000001b-0002-11e1-ac36-0002a5d5c51b"
+        }
+      ],
       "cloud_apps": [],
       "fota": {
         "bootloader_type": "none",
-        "fw_url": null,
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-STBOX1_BLESensorsPnPL_1_6_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -7303,18 +7319,47 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "FP-SNS-STBOX1_BLESensorsPnPL",
       "fw_version": "1.6.0",
-      "option_bytes": []
+      "option_bytes": [
+        {
+          "format": "enum_string",
+          "name": "Running on: ",
+          "string_values": [
+            {
+              "display_name": "Bank 1",
+              "value": 1
+            },
+            {
+              "display_name": "Bank 2",
+              "value": 2
+            }
+          ],
+          "type": "string"
+        }
+      ]
     },
     {
       "ble_dev_id": "0x11",
       "ble_fw_id": "0x03",
       "brd_name": "STEVAL-MKBOXPRO",
       "changelog": "Add Support to ST25KC, Drivers and HAL update",
-      "characteristics": [],
+      "characteristics": [
+        {
+          "name": "Debug Console stdin/stdout",
+          "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
+        },
+        {
+          "name": "Ext Configuration",
+          "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Piano",
+          "uuid": "0000001c-0002-11e1-ac36-0002a5d5c51b"
+        }
+      ],
       "cloud_apps": [],
       "fota": {
         "bootloader_type": "none",
-        "fw_url": null,
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-STBOX1_BLEPiano_1_6_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -7323,18 +7368,51 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "FP-SNS-STBOX1_BLEPiano",
       "fw_version": "1.6.0",
-      "option_bytes": []
+      "option_bytes": [
+        {
+          "format": "enum_string",
+          "name": "Running on: ",
+          "string_values": [
+            {
+              "display_name": "Bank 1",
+              "value": 1
+            },
+            {
+              "display_name": "Bank 2",
+              "value": 2
+            }
+          ],
+          "type": "string"
+        }
+      ]
     },
     {
       "ble_dev_id": "0x11",
       "ble_fw_id": "0x04",
       "brd_name": "STEVAL-MKBOXPRO",
       "changelog": "Add Support to ST25KC, Drivers and HAL update",
-      "characteristics": [],
+      "characteristics": [
+        {
+          "name": "Debug Console stdin/stdout",
+          "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
+        },
+        {
+          "name": "Ext Configuration",
+          "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Finite State Machine",
+          "uuid": "00000010-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Machine Learning Core",
+          "uuid": "0000000f-0002-11e1-ac36-0002a5d5c51b"
+        }
+      ],
       "cloud_apps": [],
       "fota": {
         "bootloader_type": "none",
-        "fw_url": null,
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-STBOX1_BLEMLC_1_6_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -7343,14 +7421,67 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "FP-SNS-STBOX1_BLEMLC",
       "fw_version": "1.6.0",
-      "option_bytes": []
+      "option_bytes": [
+        {
+          "format": "enum_string",
+          "name": "Running on: ",
+          "string_values": [
+            {
+              "display_name": "Bank 1",
+              "value": 1
+            },
+            {
+              "display_name": "Bank 2",
+              "value": 2
+            }
+          ],
+          "type": "string"
+        }
+      ]
     },
     {
       "ble_dev_id": "0x11",
       "ble_fw_id": "0x05",
       "brd_name": "STEVAL-MKBOXPRO",
       "changelog": "Add Support to ST25KC, Drivers and HAL update",
-      "characteristics": [],
+      "characteristics": [
+        {
+          "name": "Debug Console stdin/stdout",
+          "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
+        },
+        {
+          "name": "Ext Configuration",
+          "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Accelerometer",
+          "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Gyroscope",
+          "uuid": "00400000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Magnetometer",
+          "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Pressure",
+          "uuid": "00100000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Humidity",
+          "uuid": "00080000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Temperature",
+          "uuid": "00010000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Battery",
+          "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b"
+        }
+      ],
       "cloud_apps": [
         {
           "description": "",
@@ -7363,7 +7494,7 @@
       ],
       "fota": {
         "bootloader_type": "none",
-        "fw_url": null,
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-STBOX1_BLESensors_1_6_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -7372,18 +7503,71 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "FP-SNS-STBOX1_BLESensors",
       "fw_version": "1.6.0",
-      "option_bytes": []
+      "option_bytes": [
+        {
+          "format": "enum_string",
+          "name": "Running on: ",
+          "string_values": [
+            {
+              "display_name": "Bank 1",
+              "value": 1
+            },
+            {
+              "display_name": "Bank 2",
+              "value": 2
+            }
+          ],
+          "type": "string"
+        }
+      ]
     },
     {
       "ble_dev_id": "0x11",
       "ble_fw_id": "0x06",
       "brd_name": "STEVAL-MKBOXPRO",
       "changelog": "Add Support to ST25KC, Drivers and HAL update",
-      "characteristics": [],
+      "characteristics": [
+        {
+          "name": "Debug Console stdin/stdout",
+          "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
+        },
+        {
+          "name": "Ext Configuration",
+          "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "MEMS Sensor Fusion Compact",
+          "uuid": "00000100-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Accelerometer",
+          "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Gyroscope",
+          "uuid": "00400000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Magnetometer",
+          "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Pressure",
+          "uuid": "00100000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Humidity",
+          "uuid": "00080000-0001-11e1-ac36-0002a5d5c51b"
+        },
+        {
+          "name": "Temperature",
+          "uuid": "00010000-0001-11e1-ac36-0002a5d5c51b"
+        }
+      ],
       "cloud_apps": [],
       "fota": {
         "bootloader_type": "none",
-        "fw_url": null,
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-STBOX1_BLEDualProgram_1_6_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -7392,7 +7576,23 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "FP-SNS-STBOX1_BleDualProgram",
       "fw_version": "1.6.0",
-      "option_bytes": []
+      "option_bytes": [
+        {
+          "format": "enum_string",
+          "name": "Running on: ",
+          "string_values": [
+            {
+              "display_name": "Bank 1",
+              "value": 1
+            },
+            {
+              "display_name": "Bank 2",
+              "value": 2
+            }
+          ],
+          "type": "string"
+        }
+      ]
     },
     {
       "ble_dev_id": "0x11",
@@ -7803,27 +8003,6 @@
           "type": "icon"
         }
       ]
-    },
-    {
-      "ble_dev_id": "0x12",
-      "ble_fw_id": "0x02",
-      "brd_name": "STEVAL-STWINBX1",
-      "changelog": "INTERNAL USE ONLY - WiFi and FTP support",
-      "characteristics": [],
-      "cloud_apps": [],
-      "dtmi": "dtmi:appconfig:steval_stwinbx1:fpSnsDatalog2WiFi_datalog2;1",
-      "fota": {
-        "bootloader_type": "none",
-        "fw_url": null,
-        "max_chunk_length": 0,
-        "max_divisor_constraint": 0,
-        "partial_fota": 0,
-        "type": "fast"
-      },
-      "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
-      "fw_name": "FP-SNS-DATALOG2_Datalog2",
-      "fw_version": "2.1.0",
-      "option_bytes": []
     },
     {
       "ble_dev_id": "0x7C",
