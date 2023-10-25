@@ -206,11 +206,11 @@
           },
           "fields": [
             {
-              "@id": "dtmi:vespucci:steval_stwinbx1:fpSnsDatalog2_datalog2WiFi:other:applications_stblesensor:highspeed_datalog2:schema:wifi_connect;1",
+              "@id": "dtmi:vespucci:steval_stwinbx1:fpSnsDatalog2_datalog2WiFi:other:applications_stblesensor:highspeed_datalog2:schema:wifi_config;1",
               "displayName": {
-                "en": "Wi-Fi configuration"
+                "en": "Wi-Fi Configuration"
               },
-              "name": "wifi_connect",
+              "name": "wifi_config",
               "schema": "string"
             }
           ]
