@@ -216,6 +216,32 @@
           ]
         },
         "writable": false
+      },
+      {
+        "@id": "dtmi:vespucci:steval_stwinbx1:fpSnsDatalog2_datalog2WiFi:other:applications_stblesensor:textual_monitor;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "Textual monitor"
+        },
+        "name": "textual_monitor",
+        "schema": {
+          "@id": "dtmi:vespucci:steval_stwinbx1:fpSnsDatalog2_datalog2WiFi:other:applications_stblesensor:textual_monitor:schema;1",
+          "@type": "Object",
+          "displayName": {
+            "en": "Object"
+          },
+          "fields": [
+            {
+              "@id": "dtmi:vespucci:steval_stwinbx1:fpSnsDatalog2_datalog2WiFi:other:applications_stblesensor:textual_monitor:schema:wifi_config;1",
+              "displayName": {
+                "en": "Wi-Fi Configuration"
+              },
+              "name": "wifi_config",
+              "schema": "string"
+            }
+          ]
+        },
+        "writable": false
       }
     ]
   },
