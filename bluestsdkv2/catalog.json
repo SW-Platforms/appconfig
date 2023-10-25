@@ -9096,6 +9096,48 @@
           "type": "string"
         }
       ]
+    },
+    {
+      "ble_dev_id": "0x0E",
+      "ble_fw_id": "0x1F",
+      "brd_name": "STEVAL-STWINBX1",
+      "changelog": "INTERNAL USE ONLY - WiFi and FTP support",
+      "characteristics": [],
+      "cloud_apps": [],
+      "dtmi": "dtmi:appconfig:steval_stwinbx1:fpSnsDatalog2WiFi_datalog2;1",
+      "fota": {
+        "bootloader_type": "none",
+        "fw_url": null,
+        "max_chunk_length": 0,
+        "max_divisor_constraint": 0,
+        "partial_fota": 0,
+        "type": "fast"
+      },
+        "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
+      "fw_name": "FP-SNS-DATALOG2_Datalog2",
+      "fw_version": "2.1.0",
+      "option_bytes": []
+    },
+    {
+      "ble_dev_id": "0x12",
+      "ble_fw_id": "0x02",
+      "brd_name": "STEVAL-STWINBX1",
+      "changelog": "INTERNAL USE ONLY - WiFi and FTP support",
+      "characteristics": [],
+      "cloud_apps": [],
+      "dtmi": "dtmi:appconfig:steval_stwinbx1:fpSnsDatalog2WiFi_datalog2;1",
+      "fota": {
+        "bootloader_type": "none",
+        "fw_url": null,
+        "max_chunk_length": 0,
+        "max_divisor_constraint": 0,
+        "partial_fota": 0,
+        "type": "fast"
+      },
+      "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
+      "fw_name": "FP-SNS-DATALOG2_Datalog2",
+      "fw_version": "2.1.0",
+      "option_bytes": []
     }
   ],
   "boards": [
