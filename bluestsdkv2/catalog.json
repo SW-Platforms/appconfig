@@ -4156,7 +4156,7 @@
         "partial_fota": 0,
         "type": "fast"
       },
-      "dtmi": "dtmi:appconfig:steval_mkboxpro: STSW_MKBOXPRO;1",
+      "dtmi": "dtmi:appconfig:steval_mkboxpro:STSW_MKBOXPRO;1",
       "fw_desc": "Fw supporting app creation with ST BLE Sensor app",
       "fw_name": "STSW-MKBOXPRO Entry/Expert Mode",
       "fw_version": "1.0.7",
@@ -8438,7 +8438,7 @@
         "partial_fota": 0,
         "type": "fast"
       },
-      "dtmi": "dtmi:appconfig:steval_mkboxpro: STSW_MKBOXPRO;1",
+      "dtmi": "dtmi:appconfig:steval_mkboxpro:STSW_MKBOXPRO;1",
       "fw_desc": "Fw supporting app creation with ST BLE Sensor app",
       "fw_name": "STSW-MKBOXPRO Entry/Expert Mode",
       "fw_version": "1.0.7",
