@@ -4212,7 +4212,7 @@
               "value": 6
             },
             {
-              "display_name": "data_recorder",
+              "display_name": "control",
               "value": 7
             },
             {
@@ -8494,7 +8494,7 @@
               "value": 6
             },
             {
-              "display_name": "data_recorder",
+              "display_name": "control",
               "value": 7
             },
             {
