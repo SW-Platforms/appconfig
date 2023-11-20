@@ -57,7 +57,7 @@
               "displayName": {
                 "en": "Control"
               },
-              "name": "control",
+              "name": "data_recorder",
               "schema": "string"
             }
           ]
