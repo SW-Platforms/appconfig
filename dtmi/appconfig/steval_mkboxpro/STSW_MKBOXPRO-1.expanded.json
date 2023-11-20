@@ -9,7 +9,7 @@
         "displayName": {
           "en": "Control"
         },
-        "name": "control",
+        "name": "data_recorder",
         "schema": "dtmi:appconfig:steval_stbox_pro:STBProPnPL:other:control:control;1"
       },
       {
