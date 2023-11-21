@@ -6868,7 +6868,7 @@
         }
       ],
       "cloud_apps": [],
-      "dtmi": "dtmi:appconfig:steval-stwinbx1:FP_SNS_STBOX1_BLESensorPnPL;1",
+      "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_STBOX1_BLESensorPnPL;1",
       "flow_enable": 0,
       "fota": {
         "bootloader_type": "none",
