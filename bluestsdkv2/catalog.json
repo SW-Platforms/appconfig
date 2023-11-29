@@ -3827,7 +3827,8 @@
         "add": [
           "Flow"
         ],
-        "remove": ["PnPL"]
+        "remove": ["STSW-MKBOXPRO Entry/Expert Mode"],
+        "rename" : []
       },
       "option_bytes": [
         {
@@ -4682,7 +4683,8 @@
         "add": [
           "Flow"
         ],
-        "remove": ["PnPL"]
+        "remove": ["STSW-MKBOXPRO Entry/Expert Mode"],
+        "rename" : []
       },
       "option_bytes": [
         {
@@ -7779,8 +7781,9 @@
         "add": [],
         "remove": [
           "Raw PnPL Controlled",
-          "PnPL"
-        ]
+          "FP-IND-DATALOGMC"
+        ],
+        "rename" : []
       },
       "option_bytes": [
         {
@@ -8992,7 +8995,8 @@
         "add": [
           "Flow"
         ],
-        "remove": ["PnPL"]
+        "remove": ["STSW-MKBOXPRO Entry/Expert Mode"],
+        "rename" : []
       },
       "option_bytes": [
         {
@@ -9257,7 +9261,8 @@
         "add": [
           "Flow"
         ],
-        "remove": ["PnPL"]
+        "remove": ["STSW-MKBOXPRO Entry/Expert Mode"],
+        "rename" : []
       },
       "option_bytes": [
         {
@@ -9849,8 +9854,9 @@
         "add": [],
         "remove": [
           "Raw PnPL Controlled",
-          "PnPL"
-        ]
+          "FP-IND-DATALOGMC"
+        ],
+        "rename" : []
       },
       "option_bytes": [
         {
@@ -14011,7 +14017,7 @@
       }
     }
   ],
-  "checksum": "7449fbb89fdf7fee00ca56577eb34a58",
-  "date": "2023-11-24T14:50:10.582473Z",
+  "checksum": "2449fbb89fdf7fee00ca56577eb34a58",
+  "date": "2023-11-29T14:50:10.582473Z",
   "version": "0.5.11"
 }
