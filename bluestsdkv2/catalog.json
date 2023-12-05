@@ -7770,21 +7770,21 @@
       "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_IND_DATALOGMC;1",
       "fota": {
         "bootloader_type": "none",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-IND-DATALOGMC_1_0_0.bin",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-IND-DATALOGMC_DatalogMC_1_0_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
         "type": "fast"
       },
       "fw_desc": "High-speed datalogging of sensors data and motor control telemetries",
-      "fw_name": "FP-IND-DATALOGMC",
+      "fw_name": "FP-IND-DATALOGMC_DatalogMC",
       "fw_version": "1.0.0",
       "id": 213,
       "demo_decorator": {
         "add": [],
         "remove": [
           "Raw PnPL Controlled",
-          "FP-IND-DATALOGMC"
+          "FP-IND-DATALOGMC_DatalogMC"
         ],
         "rename" : []
       },
@@ -9977,21 +9977,21 @@
       "dtmi": "dtmi:appconfig:steval_stwinbx1b:FP_IND_DATALOGMC;1",
       "fota": {
         "bootloader_type": "none",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-IND-DATALOGMC_1_0_0.bin",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-IND-DATALOGMC_DatalogMC_1_0_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
         "type": "fast"
       },
       "fw_desc": "High-speed datalogging of sensors data and motor control telemetries",
-      "fw_name": "FP-IND-DATALOGMC",
+      "fw_name": "FP-IND-DATALOGMC_DatalogMC",
       "fw_version": "1.0.0",
       "id": 214,
       "demo_decorator": {
         "add": [],
         "remove": [
           "Raw PnPL Controlled",
-          "FP-IND-DATALOGMC"
+          "FP-IND-DATALOGMC_DatalogMC"
         ],
         "rename" : []
       },
@@ -14155,7 +14155,7 @@
       }
     }
   ],
-  "checksum": "4f71e0f8a8f5a7ade763a023baa8d2d1",
-  "date": "2023-11-30T13:12:07.495702Z",
+  "checksum": "4471e0f8a8f5a7ade763a023baa8d2d1",
+  "date": "2023-12-05T13:12:07.495702Z",
   "version": "0.5.11"
 }
