@@ -2318,6 +2318,11 @@
       "fw_name": "FP-SNS-DATALOG2_Datalog2",
       "fw_version": "2.0.0",
       "id": 174,
+      "demo_decorator": {
+        "add": [],
+        "remove": ["FP-SNS-DATALOG2_Datalog2"],
+        "rename" : []
+      },
       "option_bytes": [
         {
           "format": "enum_string",
@@ -2407,6 +2412,11 @@
       "fw_name": "FP-SNS-DATALOG2_Datalog2",
       "fw_version": "2.0.1",
       "id": 210,
+      "demo_decorator": {
+        "add": [],
+        "remove": ["FP-SNS-DATALOG2_Datalog2"],
+        "rename" : []
+      },
       "option_bytes": [
         {
           "format": "int",
@@ -3582,6 +3592,11 @@
       "fw_name": "FP-SNS-DATALOG2_Datalog2",
       "fw_version": "1.1.0",
       "id": 145,
+      "demo_decorator": {
+        "add": [],
+        "remove": ["FP-SNS-DATALOG2_Datalog2"],
+        "rename" : []
+      },
       "option_bytes": [
         {
           "format": "enum_string",
@@ -3934,6 +3949,11 @@
       "fw_name": "FP-SNS-DATALOG2_Datalog2",
       "fw_version": "1.2.0",
       "id": 164,
+      "demo_decorator": {
+        "add": [],
+        "remove": ["FP-SNS-DATALOG2_Datalog2"],
+        "rename" : []
+      },
       "option_bytes": [
         {
           "format": "enum_string",
@@ -4023,6 +4043,11 @@
       "fw_name": "FP-SNS-DATALOG2_Datalog2",
       "fw_version": "1.2.1",
       "id": 171,
+      "demo_decorator": {
+        "add": [],
+        "remove": ["FP-SNS-DATALOG2_Datalog2"],
+        "rename" : []
+      },
       "option_bytes": [
         {
           "format": "enum_string",
@@ -4112,6 +4137,11 @@
       "fw_name": "FP-SNS-DATALOG2_Datalog2",
       "fw_version": "2.0.0",
       "id": 175,
+      "demo_decorator": {
+        "add": [],
+        "remove": ["FP-SNS-DATALOG2_Datalog2"],
+        "rename" : []
+      },
       "option_bytes": [
         {
           "format": "enum_string",
@@ -4883,6 +4913,11 @@
       "fw_name": "FP-SNS-DATALOG2_Datalog2",
       "fw_version": "2.0.1",
       "id": 208,
+      "demo_decorator": {
+        "add": [],
+        "remove": ["FP-SNS-DATALOG2_Datalog2"],
+        "rename" : []
+      },
       "option_bytes": [
         {
           "format": "enum_string",
@@ -5327,6 +5362,11 @@
       "fw_name": "FP-SNS-DATALOG2_Datalog2",
       "fw_version": "1.0.0",
       "id": 90,
+      "demo_decorator": {
+        "add": [],
+        "remove": ["FP-SNS-DATALOG2_Datalog2"],
+        "rename" : []
+      },
       "option_bytes": [
         {
           "format": "int",
@@ -5469,6 +5509,11 @@
       "fw_name": "FP-SNS-DATALOG2_Datalog2-ISPU",
       "fw_version": "1.0.0",
       "id": 91,
+      "demo_decorator": {
+        "add": [],
+        "remove": ["FP-SNS-DATALOG2_Datalog2-ISPU"],
+        "rename" : []
+      },
       "option_bytes": [
         {
           "format": "int",
@@ -5611,6 +5656,11 @@
       "fw_name": "FP-SNS-DATALOG2_Datalog2",
       "fw_version": "1.0.1",
       "id": 121,
+      "demo_decorator": {
+        "add": [],
+        "remove": ["FP-SNS-DATALOG2_Datalog2"],
+        "rename" : []
+      },
       "option_bytes": [
         {
           "format": "int",
@@ -5753,6 +5803,11 @@
       "fw_name": "FP-SNS-DATALOG2_Datalog2-ISPU",
       "fw_version": "1.0.1",
       "id": 122,
+      "demo_decorator": {
+        "add": [],
+        "remove": ["FP-SNS-DATALOG2_Datalog2-ISPU"],
+        "rename" : []
+      },
       "option_bytes": [
         {
           "format": "int",
@@ -6260,6 +6315,11 @@
       "fw_name": "FP-SNS-DATALOG2_Datalog2",
       "fw_version": "1.1.0",
       "id": 142,
+      "demo_decorator": {
+        "add": [],
+        "remove": ["FP-SNS-DATALOG2_Datalog2"],
+        "rename" : []
+      },
       "option_bytes": [
         {
           "format": "int",
@@ -6402,6 +6462,11 @@
       "fw_name": "FP-SNS-DATALOG2_Datalog2-ISPU",
       "fw_version": "1.1.0",
       "id": 143,
+      "demo_decorator": {
+        "add": [],
+        "remove": ["FP-SNS-DATALOG2_Datalog2-ISPU"],
+        "rename" : []
+      },
       "option_bytes": [
         {
           "format": "int",
@@ -6544,6 +6609,11 @@
       "fw_name": "FP-SNS-DATALOG2_Datalog2",
       "fw_version": "1.2.0",
       "id": 163,
+      "demo_decorator": {
+        "add": [],
+        "remove": ["FP-SNS-DATALOG2_Datalog2"],
+        "rename" : []
+      },
       "option_bytes": [
         {
           "format": "int",
@@ -6686,6 +6756,11 @@
       "fw_name": "FP-SNS-DATALOG2_Datalog2-ISPU",
       "fw_version": "1.2.0",
       "id": 165,
+      "demo_decorator": {
+        "add": [],
+        "remove": ["FP-SNS-DATALOG2_Datalog2-ISPU"],
+        "rename" : []
+      },
       "option_bytes": [
         {
           "format": "int",
@@ -6828,6 +6903,11 @@
       "fw_name": "FP-SNS-DATALOG2_Datalog2",
       "fw_version": "1.2.1",
       "id": 172,
+      "demo_decorator": {
+        "add": [],
+        "remove": ["FP-SNS-DATALOG2_Datalog2"],
+        "rename" : []
+      },
       "option_bytes": [
         {
           "format": "int",
@@ -6970,6 +7050,11 @@
       "fw_name": "FP-SNS-DATALOG2_Datalog2-ISPU",
       "fw_version": "1.2.1",
       "id": 173,
+      "demo_decorator": {
+        "add": [],
+        "remove": ["FP-SNS-DATALOG2_Datalog2-ISPU"],
+        "rename" : []
+      },
       "option_bytes": [
         {
           "format": "int",
@@ -7112,6 +7197,11 @@
       "fw_name": "FP-SNS-DATALOG2_Datalog2",
       "fw_version": "2.0.0",
       "id": 177,
+      "demo_decorator": {
+        "add": [],
+        "remove": ["FP-SNS-DATALOG2_Datalog2"],
+        "rename" : []
+      },
       "option_bytes": [
         {
           "format": "int",
@@ -7642,6 +7732,11 @@
       "fw_name": "FP-SNS-DATALOG2_Datalog2",
       "fw_version": "2.0.1",
       "id": 206,
+      "demo_decorator": {
+        "add": [],
+        "remove": ["FP-SNS-DATALOG2_Datalog2"],
+        "rename" : []
+      },
       "option_bytes": [
         {
           "format": "int",
@@ -9236,6 +9331,11 @@
       "fw_name": "FP-SNS-DATALOG2_Datalog2",
       "fw_version": "2.0.0",
       "id": 176,
+      "demo_decorator": {
+        "add": [],
+        "remove": ["FP-SNS-DATALOG2_Datalog2"],
+        "rename" : []
+      },
       "option_bytes": [
         {
           "format": "enum_string",
@@ -9595,6 +9695,11 @@
       "fw_name": "FP-SNS-DATALOG2_Datalog2",
       "fw_version": "2.0.1",
       "id": 209,
+      "demo_decorator": {
+        "add": [],
+        "remove": ["FP-SNS-DATALOG2_Datalog2"],
+        "rename" : []
+      },
       "option_bytes": [
         {
           "format": "enum_string",
@@ -9684,6 +9789,11 @@
       "fw_name": "FP-SNS-DATALOG2_Datalog2",
       "fw_version": "2.0.0",
       "id": 178,
+      "demo_decorator": {
+        "add": [],
+        "remove": ["FP-SNS-DATALOG2_Datalog2"],
+        "rename" : []
+      },
       "option_bytes": [
         {
           "format": "int",
@@ -9849,6 +9959,11 @@
       "fw_name": "FP-SNS-DATALOG2_Datalog2",
       "fw_version": "2.0.1",
       "id": 207,
+      "demo_decorator": {
+        "add": [],
+        "remove": ["FP-SNS-DATALOG2_Datalog2"],
+        "rename" : []
+      },
       "option_bytes": [
         {
           "format": "int",
