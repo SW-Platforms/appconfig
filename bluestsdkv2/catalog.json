@@ -7678,7 +7678,7 @@
         "type": "fast"
       },
       "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
-      "fw_name": "FP-SNS-DATALOG2_Datalog2",
+      "fw_name": "FP-SNS-DATALOG2_Datalog2 Wi-Fi",
       "fw_version": "2.1.0",
       "id": 201,
       "option_bytes": []
@@ -9902,7 +9902,7 @@
         "type": "fast"
       },
       "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
-      "fw_name": "FP-SNS-DATALOG2_Datalog2",
+      "fw_name": "FP-SNS-DATALOG2_Datalog2 Wi-Fi",
       "fw_version": "2.1.0",
       "id": 202,
       "option_bytes": []
