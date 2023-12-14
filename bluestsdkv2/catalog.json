@@ -1859,7 +1859,7 @@
       "ble_dev_id": "0x09",
       "ble_fw_id": "0x04",
       "brd_name": "STEVAL-STWINKT1B",
-      "beta" : true,
+      "maturity" : "beta",
       "characteristics": [
         {
           "name": "HS Datalog Config",
@@ -1899,7 +1899,7 @@
       "ble_dev_id": "0x09",
       "ble_fw_id": "0x06",
       "brd_name": "STEVAL-STWINKT1B",
-      "beta": true,
+      "maturity" : "beta",
       "characteristics": [
         {
           "name": "Debug Console stdin/stdout",
@@ -7665,7 +7665,7 @@
       "ble_fw_id": "0x1F",
       "brd_name": "STEVAL-STWINBX1",
       "changelog": "INTERNAL USE ONLY - WiFi and FTP support",
-      "beta" : true,
+      "maturity" : "beta",
       "characteristics": [],
       "cloud_apps": [],
       "dtmi": "dtmi:appconfig:steval_stwinbx1:fpSnsDatalog2WiFi_datalog2;1",
@@ -7928,7 +7928,7 @@
       "ble_fw_id": "0x22",
       "brd_name": "STEVAL-STWINBX1",
       "changelog": "New application",
-      "beta" : true,
+      "maturity" : "beta",
       "characteristics": [
         {
           "name": "Debug Console stderr",
@@ -9889,7 +9889,7 @@
       "ble_fw_id": "0x02",
       "brd_name": "STEVAL-STWINBX1",
       "changelog": "INTERNAL USE ONLY - WiFi and FTP support",
-      "beta" : true,
+      "maturity" : "beta",
       "characteristics": [],
       "cloud_apps": [],
       "dtmi": "dtmi:appconfig:steval_stwinbx1:fpSnsDatalog2WiFi_datalog2;1",
@@ -10152,7 +10152,7 @@
       "ble_fw_id": "0x05",
       "brd_name": "STEVAL-STWINBX1",
       "changelog": "New application",
-      "beta" : true,
+      "maturity" : "beta",
       "characteristics": [
         {
           "name": "Debug Console stderr",
@@ -14263,7 +14263,7 @@
       }
     }
   ],
-  "checksum": "4471e0f8a8f5a7ade763a023baa8d2d1",
-  "date": "2023-12-05T13:12:07.495702Z",
-  "version": "0.5.11"
+  "checksum": "4571e0f8a8f5a7ade763a023baa8d2d1",
+  "date": "2023-12-14T13:12:07.495702Z",
+  "version": "0.5.12"
 }
