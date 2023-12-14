@@ -81,6 +81,7 @@
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.1.0",
       "id": 15,
+      "maturity": "release",
       "option_bytes": []
     },
     {
@@ -164,6 +165,7 @@
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.1.0",
       "id": 14,
+      "maturity": "release",
       "option_bytes": []
     },
     {
@@ -231,6 +233,7 @@
       "fw_name": "FP-AI-CTXAWARE1",
       "fw_version": "1.0.0",
       "id": 39,
+      "maturity": "release",
       "option_bytes": []
     },
     {
@@ -310,6 +313,7 @@
       "fw_name": "FP-IND-PREDMNT1",
       "fw_version": "2.4.0",
       "id": 38,
+      "maturity": "release",
       "option_bytes": []
     }
   ],
@@ -414,6 +418,7 @@
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.2.0",
       "id": 50,
+      "maturity": "release",
       "option_bytes": []
     },
     {
@@ -484,6 +489,7 @@
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.2.0",
       "id": 49,
+      "maturity": "release",
       "option_bytes": []
     },
     {
@@ -554,6 +560,7 @@
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.3.0",
       "id": 220,
+      "maturity": "release",
       "option_bytes": []
     },
     {
@@ -656,6 +663,7 @@
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.2.0",
       "id": 51,
+      "maturity": "release",
       "option_bytes": []
     },
     {
@@ -694,6 +702,7 @@
       "fw_name": "FP-SNS-DATALOG1",
       "fw_version": "1.4.0",
       "id": 67,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "int",
@@ -821,6 +830,7 @@
       "fw_name": "FP-SNS-STBOX1_BleDualProgram",
       "fw_version": "1.4.0",
       "id": 86,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -899,6 +909,7 @@
       "fw_name": "FP-SNS-STBOX1_BLELowPowerRTOS",
       "fw_version": "1.4.0",
       "id": 87,
+      "maturity": "release",
       "option_bytes": []
     },
     {
@@ -953,6 +964,7 @@
       "fw_name": "FP-SNS-STBOX1_BLEMLC",
       "fw_version": "1.4.0",
       "id": 88,
+      "maturity": "release",
       "option_bytes": []
     },
     {
@@ -1015,6 +1027,7 @@
       "fw_name": "FP-SNS-STBOX1_BLESensors",
       "fw_version": "1.4.0",
       "id": 89,
+      "maturity": "release",
       "option_bytes": []
     },
     {
@@ -1057,6 +1070,7 @@
       "fw_name": "FP-SNS-STBOX1_BleDualProgram",
       "fw_version": "1.5.0",
       "id": 130,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -1135,6 +1149,7 @@
       "fw_name": "FP-SNS-STBOX1_BLELowPowerRTOS",
       "fw_version": "1.5.0",
       "id": 131,
+      "maturity": "release",
       "option_bytes": []
     },
     {
@@ -1189,6 +1204,7 @@
       "fw_name": "FP-SNS-STBOX1_BLEMLC",
       "fw_version": "1.5.0",
       "id": 132,
+      "maturity": "release",
       "option_bytes": []
     },
     {
@@ -1260,6 +1276,7 @@
       "fw_name": "FP-SNS-STBOX1_BLESensors",
       "fw_version": "1.5.0",
       "id": 133,
+      "maturity": "release",
       "option_bytes": []
     },
     {
@@ -1298,6 +1315,7 @@
       "fw_name": "FP-SNS-DATALOG1",
       "fw_version": "1.5.0",
       "id": 150,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "int",
@@ -1425,6 +1443,7 @@
       "fw_name": "FP-SNS-STBOX1_BleDualProgram",
       "fw_version": "1.6.0",
       "id": 182,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -1503,6 +1522,7 @@
       "fw_name": "FP-SNS-STBOX1_BLELowPowerRTOS",
       "fw_version": "1.6.0",
       "id": 183,
+      "maturity": "release",
       "option_bytes": []
     },
     {
@@ -1557,6 +1577,7 @@
       "fw_name": "FP-SNS-STBOX1_BLEMLC",
       "fw_version": "1.6.0",
       "id": 184,
+      "maturity": "release",
       "option_bytes": []
     },
     {
@@ -1628,6 +1649,7 @@
       "fw_name": "FP-SNS-STBOX1_BLESensors",
       "fw_version": "1.6.0",
       "id": 185,
+      "maturity": "release",
       "option_bytes": []
     },
     {
@@ -1666,6 +1688,7 @@
       "fw_name": "FP-SNS-DATALOG1",
       "fw_version": "1.5.1",
       "id": 212,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "int",
@@ -1853,13 +1876,13 @@
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.3.0",
       "id": 219,
+      "maturity": "release",
       "option_bytes": []
     },
     {
       "ble_dev_id": "0x09",
       "ble_fw_id": "0x04",
       "brd_name": "STEVAL-STWINKT1B",
-      "maturity" : "demo",
       "characteristics": [
         {
           "name": "HS Datalog Config",
@@ -1893,13 +1916,13 @@
       "fw_name": "FP-SNS-DATALOG1",
       "fw_version": "1.2.0-vespucci",
       "id": 27,
+      "maturity": "demo",
       "option_bytes": []
     },
     {
       "ble_dev_id": "0x09",
       "ble_fw_id": "0x06",
       "brd_name": "STEVAL-STWINKT1B",
-      "maturity" : "demo",
       "characteristics": [
         {
           "name": "Debug Console stdin/stdout",
@@ -1940,6 +1963,7 @@
       "fw_name": "FP-SNS-DATALOG1",
       "fw_version": "1.3.0",
       "id": 37,
+      "maturity": "demo",
       "option_bytes": [
         {
           "format": "int",
@@ -2063,6 +2087,7 @@
       "fw_name": "FP-SNS-DATALOG1",
       "fw_version": "1.4.0",
       "id": 68,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "int",
@@ -2186,6 +2211,7 @@
       "fw_name": "FP-SNS-DATALOG1",
       "fw_version": "1.5.0",
       "id": 149,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "int",
@@ -2320,9 +2346,12 @@
       "id": 174,
       "demo_decorator": {
         "add": [],
-        "remove": ["FP-SNS-DATALOG2_Datalog2"],
-        "rename" : []
+        "remove": [
+          "FP-SNS-DATALOG2_Datalog2"
+        ],
+        "rename": []
       },
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -2414,9 +2443,12 @@
       "id": 210,
       "demo_decorator": {
         "add": [],
-        "remove": ["FP-SNS-DATALOG2_Datalog2"],
-        "rename" : []
+        "remove": [
+          "FP-SNS-DATALOG2_Datalog2"
+        ],
+        "rename": []
       },
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "int",
@@ -2550,6 +2582,7 @@
       "fw_name": "FP-SNS-DATALOG1",
       "fw_version": "1.5.1",
       "id": 211,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "int",
@@ -2697,6 +2730,7 @@
       "fw_name": "FP-ATR-ASTRA1",
       "fw_version": "1.0.0",
       "id": 34,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "int",
@@ -2836,6 +2870,7 @@
       "fw_name": "FP-ATR-ASTRA1",
       "fw_version": "1.1.0",
       "id": 69,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "int",
@@ -2975,6 +3010,7 @@
       "fw_name": "FP-ATR-ASTRA1",
       "fw_version": "2.0.0",
       "id": 124,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "int",
@@ -3085,6 +3121,7 @@
       "fw_name": "FOTA-mode",
       "fw_version": "1.0.0",
       "id": 41,
+      "maturity": "release",
       "option_bytes": []
     },
     {
@@ -3139,6 +3176,7 @@
       "fw_name": "Astra1 - Asset tracking",
       "fw_version": "0.1.0",
       "id": 35,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "int",
@@ -3267,6 +3305,7 @@
       "fw_name": "FP-SNS-STBOX1_BleDualProgram",
       "fw_version": "1.5.0",
       "id": 134,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -3350,6 +3389,7 @@
       "fw_name": "FP-SNS-STBOX1_BLESensors",
       "fw_version": "1.5.0",
       "id": 135,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -3404,6 +3444,7 @@
       "fw_name": "FP-SNS-STBOX1_BLEMLC",
       "fw_version": "1.5.0",
       "id": 136,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -3454,6 +3495,7 @@
       "fw_name": "FP-SNS-STBOX1_BLEPiano",
       "fw_version": "1.5.0",
       "id": 137,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -3529,6 +3571,7 @@
       "fw_name": "FP-SNS-STBOX1_BLESensorsPnPL",
       "fw_version": "1.5.0",
       "id": 138,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -3594,9 +3637,12 @@
       "id": 145,
       "demo_decorator": {
         "add": [],
-        "remove": ["FP-SNS-DATALOG2_Datalog2"],
-        "rename" : []
+        "remove": [
+          "FP-SNS-DATALOG2_Datalog2"
+        ],
+        "rename": []
       },
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -3678,6 +3724,7 @@
       "fw_name": "FP-ATR-BLE1",
       "fw_version": "2.0.0",
       "id": 146,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -3844,9 +3891,12 @@
         "add": [
           "Flow"
         ],
-        "remove": ["STSW-MKBOXPRO Entry/Expert Mode"],
-        "rename" : []
+        "remove": [
+          "STSW-MKBOXPRO Entry/Expert Mode"
+        ],
+        "rename": []
       },
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_icon",
@@ -3951,9 +4001,12 @@
       "id": 164,
       "demo_decorator": {
         "add": [],
-        "remove": ["FP-SNS-DATALOG2_Datalog2"],
-        "rename" : []
+        "remove": [
+          "FP-SNS-DATALOG2_Datalog2"
+        ],
+        "rename": []
       },
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -4045,9 +4098,12 @@
       "id": 171,
       "demo_decorator": {
         "add": [],
-        "remove": ["FP-SNS-DATALOG2_Datalog2"],
-        "rename" : []
+        "remove": [
+          "FP-SNS-DATALOG2_Datalog2"
+        ],
+        "rename": []
       },
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -4139,9 +4195,12 @@
       "id": 175,
       "demo_decorator": {
         "add": [],
-        "remove": ["FP-SNS-DATALOG2_Datalog2"],
-        "rename" : []
+        "remove": [
+          "FP-SNS-DATALOG2_Datalog2"
+        ],
+        "rename": []
       },
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -4223,6 +4282,7 @@
       "fw_name": "FP-ATR-BLE1",
       "fw_version": "2.1.0",
       "id": 179,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -4317,6 +4377,7 @@
       "fw_name": "FP-SNS-STBOX1_BleDualProgram",
       "fw_version": "1.6.0",
       "id": 190,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -4400,6 +4461,7 @@
       "fw_name": "FP-SNS-STBOX1_BLESensors",
       "fw_version": "1.6.0",
       "id": 191,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -4455,6 +4517,7 @@
       "fw_name": "FP-SNS-STBOX1_BLEMLC",
       "fw_version": "1.6.0",
       "id": 192,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -4505,6 +4568,7 @@
       "fw_name": "FP-SNS-STBOX1_BLEPiano",
       "fw_version": "1.6.0",
       "id": 193,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -4580,6 +4644,7 @@
       "fw_name": "FP-SNS-STBOX1_BLESensorsPnPL",
       "fw_version": "1.6.0",
       "id": 194,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -4711,9 +4776,12 @@
         "add": [
           "Flow"
         ],
-        "remove": ["STSW-MKBOXPRO Entry/Expert Mode"],
-        "rename" : []
+        "remove": [
+          "STSW-MKBOXPRO Entry/Expert Mode"
+        ],
+        "rename": []
       },
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_icon",
@@ -4911,9 +4979,12 @@
       "id": 208,
       "demo_decorator": {
         "add": [],
-        "remove": ["FP-SNS-DATALOG2_Datalog2"],
-        "rename" : []
+        "remove": [
+          "FP-SNS-DATALOG2_Datalog2"
+        ],
+        "rename": []
       },
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -5014,6 +5085,7 @@
       "fw_name": "FP-SNS-STBOX1_BleDualProgram",
       "fw_version": "1.4.0",
       "id": 55,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -5088,6 +5160,7 @@
       "fw_name": "FP-SNS-STBOX1_BLESensors",
       "fw_version": "1.4.0",
       "id": 56,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -5146,6 +5219,7 @@
       "fw_name": "FP-SNS-STBOX1_BLEMLC",
       "fw_version": "1.4.0",
       "id": 57,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -5216,6 +5290,7 @@
       "fw_name": "FP-SNS-STBOX1_BLEDefaultFw",
       "fw_version": "1.4.0",
       "id": 58,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -5295,6 +5370,7 @@
       "fw_name": "FP-SNS-STBOX1_BLESensorsPnPL",
       "fw_version": "1.4.0",
       "id": 85,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -5360,9 +5436,12 @@
       "id": 90,
       "demo_decorator": {
         "add": [],
-        "remove": ["FP-SNS-DATALOG2_Datalog2"],
-        "rename" : []
+        "remove": [
+          "FP-SNS-DATALOG2_Datalog2"
+        ],
+        "rename": []
       },
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "int",
@@ -5507,9 +5586,12 @@
       "id": 91,
       "demo_decorator": {
         "add": [],
-        "remove": ["FP-SNS-DATALOG2_Datalog2-ISPU"],
-        "rename" : []
+        "remove": [
+          "FP-SNS-DATALOG2_Datalog2-ISPU"
+        ],
+        "rename": []
       },
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "int",
@@ -5654,9 +5736,12 @@
       "id": 121,
       "demo_decorator": {
         "add": [],
-        "remove": ["FP-SNS-DATALOG2_Datalog2"],
-        "rename" : []
+        "remove": [
+          "FP-SNS-DATALOG2_Datalog2"
+        ],
+        "rename": []
       },
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "int",
@@ -5801,9 +5886,12 @@
       "id": 122,
       "demo_decorator": {
         "add": [],
-        "remove": ["FP-SNS-DATALOG2_Datalog2-ISPU"],
-        "rename" : []
+        "remove": [
+          "FP-SNS-DATALOG2_Datalog2-ISPU"
+        ],
+        "rename": []
       },
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "int",
@@ -5957,6 +6045,7 @@
       "fw_name": "FP-SNS-STBOX1_BleDualProgram",
       "fw_version": "1.5.0",
       "id": 125,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -6040,6 +6129,7 @@
       "fw_name": "FP-SNS-STBOX1_BLESensors",
       "fw_version": "1.5.0",
       "id": 126,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -6098,6 +6188,7 @@
       "fw_name": "FP-SNS-STBOX1_BLEMLC",
       "fw_version": "1.5.0",
       "id": 127,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -6173,6 +6264,7 @@
       "fw_name": "FP-SNS-STBOX1_BLEDefaultFw",
       "fw_version": "1.5.0",
       "id": 128,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -6248,6 +6340,7 @@
       "fw_name": "FP-SNS-STBOX1_BLESensorsPnPL",
       "fw_version": "1.5.0",
       "id": 129,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -6313,9 +6406,12 @@
       "id": 142,
       "demo_decorator": {
         "add": [],
-        "remove": ["FP-SNS-DATALOG2_Datalog2"],
-        "rename" : []
+        "remove": [
+          "FP-SNS-DATALOG2_Datalog2"
+        ],
+        "rename": []
       },
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "int",
@@ -6460,9 +6556,12 @@
       "id": 143,
       "demo_decorator": {
         "add": [],
-        "remove": ["FP-SNS-DATALOG2_Datalog2-ISPU"],
-        "rename" : []
+        "remove": [
+          "FP-SNS-DATALOG2_Datalog2-ISPU"
+        ],
+        "rename": []
       },
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "int",
@@ -6607,9 +6706,12 @@
       "id": 163,
       "demo_decorator": {
         "add": [],
-        "remove": ["FP-SNS-DATALOG2_Datalog2"],
-        "rename" : []
+        "remove": [
+          "FP-SNS-DATALOG2_Datalog2"
+        ],
+        "rename": []
       },
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "int",
@@ -6754,9 +6856,12 @@
       "id": 165,
       "demo_decorator": {
         "add": [],
-        "remove": ["FP-SNS-DATALOG2_Datalog2-ISPU"],
-        "rename" : []
+        "remove": [
+          "FP-SNS-DATALOG2_Datalog2-ISPU"
+        ],
+        "rename": []
       },
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "int",
@@ -6901,9 +7006,12 @@
       "id": 172,
       "demo_decorator": {
         "add": [],
-        "remove": ["FP-SNS-DATALOG2_Datalog2"],
-        "rename" : []
+        "remove": [
+          "FP-SNS-DATALOG2_Datalog2"
+        ],
+        "rename": []
       },
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "int",
@@ -7048,9 +7156,12 @@
       "id": 173,
       "demo_decorator": {
         "add": [],
-        "remove": ["FP-SNS-DATALOG2_Datalog2-ISPU"],
-        "rename" : []
+        "remove": [
+          "FP-SNS-DATALOG2_Datalog2-ISPU"
+        ],
+        "rename": []
       },
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "int",
@@ -7195,9 +7306,12 @@
       "id": 177,
       "demo_decorator": {
         "add": [],
-        "remove": ["FP-SNS-DATALOG2_Datalog2"],
-        "rename" : []
+        "remove": [
+          "FP-SNS-DATALOG2_Datalog2"
+        ],
+        "rename": []
       },
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "int",
@@ -7351,6 +7465,7 @@
       "fw_name": "FP-SNS-STBOX1_BleDualProgram",
       "fw_version": "1.6.0",
       "id": 186,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -7409,6 +7524,7 @@
       "fw_name": "FP-SNS-STBOX1_BLEMLC",
       "fw_version": "1.6.0",
       "id": 187,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -7484,6 +7600,7 @@
       "fw_name": "FP-SNS-STBOX1_BLEDefaultFw",
       "fw_version": "1.6.0",
       "id": 188,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -7559,6 +7676,7 @@
       "fw_name": "FP-SNS-STBOX1_BLESensorsPnPL",
       "fw_version": "1.6.0",
       "id": 189,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -7642,6 +7760,7 @@
       "fw_name": "FP-SNS-STBOX1_BLESensors",
       "fw_version": "1.6.0",
       "id": 200,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -7665,7 +7784,6 @@
       "ble_fw_id": "0x1F",
       "brd_name": "STEVAL-STWINBX1",
       "changelog": "INTERNAL USE ONLY - WiFi and FTP support",
-      "maturity" : "demo",
       "characteristics": [],
       "cloud_apps": [],
       "dtmi": "dtmi:appconfig:steval_stwinbx1:fpSnsDatalog2WiFi_datalog2;1",
@@ -7681,6 +7799,7 @@
       "fw_name": "FP-SNS-DATALOG2_Datalog2 Wi-Fi",
       "fw_version": "2.1.0",
       "id": 201,
+      "maturity": "demo",
       "option_bytes": []
     },
     {
@@ -7730,9 +7849,12 @@
       "id": 206,
       "demo_decorator": {
         "add": [],
-        "remove": ["FP-SNS-DATALOG2_Datalog2"],
-        "rename" : []
+        "remove": [
+          "FP-SNS-DATALOG2_Datalog2"
+        ],
+        "rename": []
       },
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "int",
@@ -7877,8 +7999,9 @@
           "Raw PnPL Controlled",
           "FP-IND-DATALOGMC_DatalogMC"
         ],
-        "rename" : []
+        "rename": []
       },
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -7928,7 +8051,6 @@
       "ble_fw_id": "0x22",
       "brd_name": "STEVAL-STWINBX1",
       "changelog": "New application",
-      "maturity" : "draft",
       "characteristics": [
         {
           "name": "Debug Console stderr",
@@ -7969,6 +8091,7 @@
       "fw_name": "FP-SNS-DATALOG2_Datalog2PDETECT",
       "fw_version": "2.1.0",
       "id": 216,
+      "maturity": "draft",
       "option_bytes": [
         {
           "format": "int",
@@ -8154,6 +8277,7 @@
       "fw_name": "STSW-PROTEUS",
       "fw_version": "1.0.0",
       "id": 36,
+      "maturity": "release",
       "option_bytes": [
         {
           "escape_message": "",
@@ -8250,6 +8374,7 @@
       "fw_name": "FP-AI-PDMWBSOC",
       "fw_version": "1.0.0",
       "id": 70,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -8361,6 +8486,7 @@
       "fw_name": "FP-AI-PDMWBSOC",
       "fw_version": "2.0.0",
       "id": 116,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -8476,6 +8602,7 @@
       "fw_name": "FP-AI-PDMWBSOC2",
       "fw_version": "1.0.0",
       "id": 157,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -8590,6 +8717,7 @@
       "fw_name": "FP-SNS-DATAPRO1",
       "fw_version": "1.0.0",
       "id": 221,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "int",
@@ -8701,6 +8829,7 @@
       "fw_name": "FOTA-mode",
       "fw_version": "1.0.0",
       "id": 40,
+      "maturity": "release",
       "option_bytes": []
     },
     {
@@ -8771,6 +8900,7 @@
       "fw_name": "STDES-CBMLoRaBLE",
       "fw_version": "1.0.0",
       "id": 66,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "int",
@@ -8862,6 +8992,7 @@
       "fw_name": "FP-ATR-BLE1",
       "fw_version": "2.1.0",
       "id": 181,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -8920,6 +9051,7 @@
       "fw_name": "FP-SNS-STBOX1_BLESensorsPnPL",
       "fw_version": "1.6.0",
       "id": 195,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -8957,6 +9089,7 @@
       "fw_name": "FP-SNS-STBOX1_BLEPiano",
       "fw_version": "1.6.0",
       "id": 196,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -8994,6 +9127,7 @@
       "fw_name": "FP-SNS-STBOX1_BLEMLC",
       "fw_version": "1.6.0",
       "id": 197,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -9040,6 +9174,7 @@
       "fw_name": "FP-SNS-STBOX1_BLESensors",
       "fw_version": "1.6.0",
       "id": 198,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -9077,6 +9212,7 @@
       "fw_name": "FP-SNS-STBOX1_BleDualProgram",
       "fw_version": "1.6.0",
       "id": 199,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -9223,9 +9359,12 @@
         "add": [
           "Flow"
         ],
-        "remove": ["STSW-MKBOXPRO Entry/Expert Mode"],
-        "rename" : []
+        "remove": [
+          "STSW-MKBOXPRO Entry/Expert Mode"
+        ],
+        "rename": []
       },
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_icon",
@@ -9330,9 +9469,12 @@
       "id": 176,
       "demo_decorator": {
         "add": [],
-        "remove": ["FP-SNS-DATALOG2_Datalog2"],
-        "rename" : []
+        "remove": [
+          "FP-SNS-DATALOG2_Datalog2"
+        ],
+        "rename": []
       },
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -9490,9 +9632,12 @@
         "add": [
           "Flow"
         ],
-        "remove": ["STSW-MKBOXPRO Entry/Expert Mode"],
-        "rename" : []
+        "remove": [
+          "STSW-MKBOXPRO Entry/Expert Mode"
+        ],
+        "rename": []
       },
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_icon",
@@ -9690,9 +9835,12 @@
       "id": 209,
       "demo_decorator": {
         "add": [],
-        "remove": ["FP-SNS-DATALOG2_Datalog2"],
-        "rename" : []
+        "remove": [
+          "FP-SNS-DATALOG2_Datalog2"
+        ],
+        "rename": []
       },
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -9784,9 +9932,12 @@
       "id": 178,
       "demo_decorator": {
         "add": [],
-        "remove": ["FP-SNS-DATALOG2_Datalog2"],
-        "rename" : []
+        "remove": [
+          "FP-SNS-DATALOG2_Datalog2"
+        ],
+        "rename": []
       },
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "int",
@@ -9889,7 +10040,6 @@
       "ble_fw_id": "0x02",
       "brd_name": "STEVAL-STWINBX1",
       "changelog": "INTERNAL USE ONLY - WiFi and FTP support",
-      "maturity" : "demo",
       "characteristics": [],
       "cloud_apps": [],
       "dtmi": "dtmi:appconfig:steval_stwinbx1:fpSnsDatalog2WiFi_datalog2;1",
@@ -9905,6 +10055,7 @@
       "fw_name": "FP-SNS-DATALOG2_Datalog2 Wi-Fi",
       "fw_version": "2.1.0",
       "id": 202,
+      "maturity": "demo",
       "option_bytes": []
     },
     {
@@ -9954,9 +10105,12 @@
       "id": 207,
       "demo_decorator": {
         "add": [],
-        "remove": ["FP-SNS-DATALOG2_Datalog2"],
-        "rename" : []
+        "remove": [
+          "FP-SNS-DATALOG2_Datalog2"
+        ],
+        "rename": []
       },
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "int",
@@ -10101,8 +10255,9 @@
           "Raw PnPL Controlled",
           "FP-IND-DATALOGMC_DatalogMC"
         ],
-        "rename" : []
+        "rename": []
       },
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -10152,7 +10307,6 @@
       "ble_fw_id": "0x05",
       "brd_name": "STEVAL-STWINBX1",
       "changelog": "New application",
-      "maturity" : "draft",
       "characteristics": [
         {
           "name": "Debug Console stderr",
@@ -10193,6 +10347,7 @@
       "fw_name": "FP-SNS-DATALOG2_Datalog2PDETECT",
       "fw_version": "2.1.0",
       "id": 215,
+      "maturity": "draft",
       "option_bytes": [
         {
           "format": "int",
@@ -10362,6 +10517,7 @@
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.2.0",
       "id": 47,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -10451,6 +10607,7 @@
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.3.0",
       "id": 217,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -10517,6 +10674,7 @@
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.2.0",
       "id": 44,
+      "maturity": "release",
       "option_bytes": []
     },
     {
@@ -10568,6 +10726,7 @@
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.3.0",
       "id": 154,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -10597,6 +10756,7 @@
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.3.2",
       "id": 162,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -10698,6 +10858,7 @@
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.2.0",
       "id": 43,
+      "maturity": "release",
       "option_bytes": []
     },
     {
@@ -10800,6 +10961,7 @@
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.2.0",
       "id": 48,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -10849,6 +11011,7 @@
       "fw_name": "FP-SNS-FLIGHT1",
       "fw_version": "4.2.0",
       "id": 54,
+      "maturity": "release",
       "option_bytes": []
     },
     {
@@ -10935,6 +11098,7 @@
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.3.0",
       "id": 153,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -10984,6 +11148,7 @@
       "fw_name": "FP-SNS-FLIGHT1",
       "fw_version": "5.0.0",
       "id": 156,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -11016,6 +11181,7 @@
       "fw_name": "FP-SNS-FLIGHT1",
       "fw_version": "5.0.2",
       "id": 159,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -11049,6 +11215,7 @@
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.3.2",
       "id": 161,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -11167,6 +11334,7 @@
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.3.0",
       "id": 218,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -11268,6 +11436,7 @@
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.2.0",
       "id": 42,
+      "maturity": "release",
       "option_bytes": []
     },
     {
@@ -11342,6 +11511,7 @@
       "fw_name": "FP-SNS-ALLMEMS1",
       "fw_version": "4.2.0",
       "id": 46,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -11391,6 +11561,7 @@
       "fw_name": "FP-SNS-FLIGHT1",
       "fw_version": "4.2.0",
       "id": 53,
+      "maturity": "release",
       "option_bytes": []
     },
     {
@@ -11477,6 +11648,7 @@
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.3.0",
       "id": 152,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -11526,6 +11698,7 @@
       "fw_name": "FP-SNS-FLIGHT1",
       "fw_version": "5.0.0",
       "id": 155,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -11558,6 +11731,7 @@
       "fw_name": "FP-SNS-FLIGHT1",
       "fw_version": "5.0.2",
       "id": 158,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -11591,6 +11765,7 @@
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "4.3.2",
       "id": 160,
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
