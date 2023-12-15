@@ -1629,12 +1629,12 @@
       ],
       "cloud_apps": [
         {
-          "description": "",
-          "dtmi": "dtmi:ST Default PnP App:FP-SNS-STBOX1_BLESensors;1",
+          "description": "Default IoT Central application for testing different ST sensor board types",
+          "dtmi": "dtmi:stDefaultPnpApp:DEFAULTdraftv1;1",
           "dtmi_type": "iotc",
           "name": "ST Default PnP App",
-          "shareable_link": "",
-          "url": ""
+          "shareable_link": "https://apps.azureiotcentral.com/build/new/2e076a73-7fb9-46c4-b024-27f26d34ff84",
+          "url": "https://st-default-pnp-app.azureiotcentral.com"
         }
       ],
       "fota": {
@@ -4441,12 +4441,12 @@
       ],
       "cloud_apps": [
         {
-          "description": "",
-          "dtmi": "dtmi:ST Default PnP App:FP-SNS-STBOX1_BLESensors;1",
+          "description": "Default IoT Central application for testing different ST sensor board types",
+          "dtmi": "dtmi:stDefaultPnpApp:DEFAULTdraftv1;1",
           "dtmi_type": "iotc",
           "name": "ST Default PnP App",
-          "shareable_link": "",
-          "url": ""
+          "shareable_link": "https://apps.azureiotcentral.com/build/new/2e076a73-7fb9-46c4-b024-27f26d34ff84",
+          "url": "https://st-default-pnp-app.azureiotcentral.com"
         }
       ],
       "fota": {
@@ -7580,12 +7580,12 @@
       ],
       "cloud_apps": [
         {
-          "description": "",
-          "dtmi": "dtmi:ST Default PnP App:FP-SNS-STBOX1_BLEDefaultFw;1",
+          "description": "Default IoT Central application for testing different ST sensor board types",
+          "dtmi": "dtmi:stDefaultPnpApp:DEFAULTdraftv1;1",
           "dtmi_type": "iotc",
           "name": "ST Default PnP App",
-          "shareable_link": "",
-          "url": ""
+          "shareable_link": "https://apps.azureiotcentral.com/build/new/2e076a73-7fb9-46c4-b024-27f26d34ff84",
+          "url": "https://st-default-pnp-app.azureiotcentral.com"
         }
       ],
       "fota": {
@@ -7740,12 +7740,12 @@
       ],
       "cloud_apps": [
         {
-          "description": "",
-          "dtmi": "dtmi:ST Default PnP App:FP-SNS-STBOX1_BLESensors;1",
+          "description": "Default IoT Central application for testing different ST sensor board types",
+          "dtmi": "dtmi:stDefaultPnpApp:DEFAULTdraftv1;1",
           "dtmi_type": "iotc",
           "name": "ST Default PnP App",
-          "shareable_link": "",
-          "url": ""
+          "shareable_link": "https://apps.azureiotcentral.com/build/new/2e076a73-7fb9-46c4-b024-27f26d34ff84",
+          "url": "https://st-default-pnp-app.azureiotcentral.com"
         }
       ],
       "fota": {
@@ -9154,12 +9154,12 @@
       "characteristics": [],
       "cloud_apps": [
         {
-          "description": "",
-          "dtmi": "dtmi:ST Default PnP App:FP-SNS-STBOX1_BLESensors;1",
+          "description": "Default IoT Central application for testing different ST sensor board types",
+          "dtmi": "dtmi:stDefaultPnpApp:DEFAULTdraftv1;1",
           "dtmi_type": "iotc",
           "name": "ST Default PnP App",
-          "shareable_link": "",
-          "url": ""
+          "shareable_link": "https://apps.azureiotcentral.com/build/new/2e076a73-7fb9-46c4-b024-27f26d34ff84",
+          "url": "https://st-default-pnp-app.azureiotcentral.com"
         }
       ],
       "fota": {
@@ -14438,7 +14438,7 @@
       }
     }
   ],
-  "checksum": "4571e0f8a8f5a7ade763a023baa8d2d1",
-  "date": "2023-12-14T13:12:07.495702Z",
+  "checksum": "4971e0f8a8f5a7ade763a023baa8d2d1",
+  "date": "2023-12-15T13:12:07.495702Z",
   "version": "0.5.12"
 }
