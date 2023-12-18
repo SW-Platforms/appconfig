@@ -14370,9 +14370,10 @@
       "bleMaxOdr": 52,
       "configuration": {
         "powerMode": "LOW_POWER",
-        "odr": 52
-      },
-      "fullScale": 32
+        "odr": 52,
+        "fullScale": 32,
+        "acquisitionTime": 0
+      }
     },
     {
       "unique_id": 4,
