@@ -14241,7 +14241,10 @@
       "description": "Temperature sensor",
       "icon": "ic_termometer",
       "model": "SHT40AD1B",
-      "board_compatibility": [],
+      "board_compatibility": [
+        "SENSOR_TILE_BOX_PRO",
+        "SENSOR_TILE_BOX_PROB"
+      ],
       "output": "Temperature",
       "outputs": [
         "O1",
@@ -14279,7 +14282,10 @@
       "description": "TMOS IR presence motion sensor",
       "icon": "ic_infrared",
       "model": "STHS34PF80",
-      "board_compatibility": [],
+      "board_compatibility": [
+        "SENSOR_TILE_BOX_PRO",
+        "SENSOR_TILE_BOX_PROB"
+      ],
       "output": "TMOS output",
       "outputs": [
         "O1",
@@ -14325,7 +14331,10 @@
         "O3"
       ],
       "model": "LSM6DSO32",
-      "board_compatibility": [],
+      "board_compatibility": [
+        "SENSOR_TILE_BOX_PRO",
+        "SENSOR_TILE_BOX_PROB"
+      ],
       "um": "mg",
       "fullScaleUm": "g",
       "datasheetLink": "https://www.st.com/resource/en/datasheet/lsm6dso32.pdf",
@@ -14388,7 +14397,8 @@
       "icon": "ic_inemo",
       "model": "LSM6DSO32",
       "board_compatibility": [
-        "SENSOR_TILE_BOX"
+        "SENSOR_TILE_BOX_PRO",
+        "SENSOR_TILE_BOX_PROB"
       ],
       "um": "mdps",
       "fullScaleUm": "dps",
@@ -14434,6 +14444,140 @@
       "configuration": {
         "powerMode": "LOW_POWER",
         "odr": 52,
+        "fullScale": 2000,
+        "acquisitionTime": 0
+      }
+    },
+    {
+      "unique_id": 5,
+      "id": "D5",
+      "description": "IMU Accelerometer sensor",
+      "icon": "ic_inemo",
+      "output": "Acceleration",
+      "outputs": [
+        "O1",
+        "O2",
+        "O3"
+      ],
+      "model": "LSM6DSV16BX",
+      "board_compatibility": [
+        "SENSOR_TILE_BOX_PRO",
+        "SENSOR_TILE_BOX_PROB"
+      ],
+      "um": "mg",
+      "fullScaleUm": "g",
+      "datasheetLink": "https://www.st.com/resource/en/datasheet/lsm6dsv16bx.pdf",
+      "dataType": "Float vector x3",
+      "fullScales": [
+        2,
+        4,
+        8,
+        16
+      ],
+      "powerModes": [
+        {
+          "mode": "LOW_POWER",
+          "label": "Low power",
+          "odrs": [
+            1.875,
+            15,
+            30,
+            60,
+            120,
+            240
+          ]
+        },
+        {
+          "mode": "HIGH_PERFORMANCE",
+          "label": "High performance",
+          "odrs": [
+            7.5,
+            15,
+            30,
+            60,
+            120,
+            240,
+            480,
+            960,
+            1920,
+            3840,
+            7680
+          ]
+        }
+      ],
+      "acquisitionTime": 0,
+      "bleMaxOdr": 60,
+      "configuration": {
+        "powerMode": "LOW_POWER",
+        "odr": 60,
+        "fullScale": 4,
+        "acquisitionTime": 0
+      }
+    },
+    {
+      "unique_id": 6,
+      "id": "D6",
+      "description": "IMU Gyroscope sensor",
+      "output": "Angular rate",
+      "outputs": [
+        "O1",
+        "O2",
+        "O3"
+      ],
+      "icon": "ic_inemo",
+      "model": "LSM6DSV16BX",
+      "board_compatibility": [
+        "SENSOR_TILE_BOX_PRO",
+        "SENSOR_TILE_BOX_PROB"
+      ],
+      "um": "mdps",
+      "fullScaleUm": "dps",
+      "datasheetLink": "https://www.st.com/resource/en/datasheet/lsm6dsv16bx.pdf",
+      "dataType": "Float vector x3",
+      "fullScales": [
+        125,
+        250,
+        500,
+        1000,
+        2000,
+        4000
+      ],
+      "powerModes": [
+        {
+          "mode": "LOW_POWER",
+          "label": "Low power",
+          "odrs": [
+            1.875,
+            15,
+            30,
+            60,
+            120,
+            240
+          ]
+        },
+        {
+          "mode": "HIGH_PERFORMANCE",
+          "label": "High performance",
+          "odrs": [
+            7.5,
+            15,
+            30,
+            60,
+            120,
+            240,
+            480,
+            960,
+            1920,
+            3840,
+            7680
+          ]
+        }
+      ],
+      "acquisitionTime": 0,
+      "bleMaxOdr": 60,
+      "configuration": {
+        "powerMode": "LOW_POWER",
+        "odr": 60,
         "fullScale": 2000,
         "acquisitionTime": 0
       }
