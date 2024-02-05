@@ -1,7 +1,7 @@
 {
-    "date": "2024-02-05 09:19:30.308425",
+    "date": "2024-02-05 16:17:25.974489",
     "version": "0.6.6",
-    "checksum": "1ec7bc1798b23f553bccd12ed4a4fe03",
+    "checksum": "0b1d9853d99f8ac5725cb98cbb621290",
     "bluestsdk_v2": [
         {
             "ble_dev_id": "0x7F",
@@ -417,6 +417,13 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "New version and old board compatibility",
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2;4",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2"
+                ],
+                "rename": []
+            },
             "id": 178,
             "fota": {
                 "type": "fast",
@@ -2220,6 +2227,13 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Patch release",
             "dtmi": "dtmi:appconfig:steval_stwinbx1b:FP_SNS_DATALOG2_Datalog2;4",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2"
+                ],
+                "rename": []
+            },
             "id": 207,
             "fota": {
                 "type": "fast",
@@ -2918,7 +2932,7 @@
                 "add": [],
                 "remove": [
                     "Raw PnPL Controlled",
-                    "FP-IND-DATALOGMC"
+                    "FP-IND-DATALOGMC_DatalogMC"
                 ],
                 "rename": []
             },
@@ -3648,6 +3662,7 @@
             "option_bytes": [
                 {
                     "name": "Memory Usage (of 255 MB): ",
+                    "type": " MB",
                     "format": "int",
                     "escape_value": 255,
                     "scale_factor": 1,
@@ -4206,6 +4221,13 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "New RPN for MKBOXPRO",
             "dtmi": "dtmi:appconfig:steval_mkboxpro:FP_SNS_DATALOG2_Datalog2;1",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2"
+                ],
+                "rename": []
+            },
             "id": 145,
             "fota": {
                 "type": "fast",
@@ -4770,13 +4792,20 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "New RPN",
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2;1",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2"
+                ],
+                "rename": []
+            },
             "id": 90,
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 0,
-                "fw_url": null,
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_Datalog2_1_0_0.bin",
                 "partial_fota": 0
             },
             "cloud_apps": [],
@@ -5450,6 +5479,13 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors plus external ISPU expansion board",
             "changelog": "New RPN",
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2_ISPU;1",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2-ISPU"
+                ],
+                "rename": []
+            },
             "id": 91,
             "fota": {
                 "type": "fast",
@@ -6008,6 +6044,13 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "New version and old board compatibility",
             "dtmi": "dtmi:appconfig:steval_mkboxpro:FP_SNS_DATALOG2_Datalog2;3",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2"
+                ],
+                "rename": []
+            },
             "id": 176,
             "fota": {
                 "type": "fast",
@@ -6097,6 +6140,13 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Maintenance release and bug fixes, BLE, USB and SD class redesign, automode redesign, DTMI and app_model update",
             "dtmi": "dtmi:appconfig:steval_mkboxpro:FP_SNS_DATALOG2_Datalog2;2",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2"
+                ],
+                "rename": []
+            },
             "id": 164,
             "fota": {
                 "type": "fast",
@@ -6585,10 +6635,6 @@
                     "uuid": "00000010-0002-11e1-ac36-0002a5d5c51b"
                 },
                 {
-                    "name": "UNUSED",
-                    "uuid": "00000012-0002-11e1-ac36-0002a5d5c51b"
-                },
-                {
                     "name": "Switch",
                     "uuid": "20000000-0001-11e1-ac36-0002a5d5c51b"
                 },
@@ -6715,6 +6761,13 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Bugfix",
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2;1",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2"
+                ],
+                "rename": []
+            },
             "id": 121,
             "fota": {
                 "type": "fast",
@@ -6804,6 +6857,13 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Patch release",
             "dtmi": "dtmi:appconfig:steval_mkboxpro:FP_SNS_DATALOG2_Datalog2;2",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2"
+                ],
+                "rename": []
+            },
             "id": 171,
             "fota": {
                 "type": "fast",
@@ -7074,6 +7134,13 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Patch release",
             "dtmi": "dtmi:appconfig:steval_mkboxprob:FP_SNS_DATALOG2_Datalog2;3",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2"
+                ],
+                "rename": []
+            },
             "id": 209,
             "fota": {
                 "type": "fast",
@@ -7216,6 +7283,13 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors plus external ISPU expansion board",
             "changelog": "Bugfix",
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2_ISPU;1",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2-ISPU"
+                ],
+                "rename": []
+            },
             "id": 122,
             "fota": {
                 "type": "fast",
@@ -7305,6 +7379,13 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "New version and old board compatibility",
             "dtmi": "dtmi:appconfig:steval_mkboxpro:FP_SNS_DATALOG2_Datalog2;3",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2"
+                ],
+                "rename": []
+            },
             "id": 175,
             "fota": {
                 "type": "fast",
@@ -7394,6 +7475,13 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "New version and old board compatibility",
             "dtmi": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2;1",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2"
+                ],
+                "rename": []
+            },
             "id": 174,
             "fota": {
                 "type": "fast",
@@ -7958,6 +8046,13 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Patch release",
             "dtmi": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2;1",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2"
+                ],
+                "rename": []
+            },
             "id": 210,
             "fota": {
                 "type": "fast",
@@ -9346,6 +9441,13 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "USB optimization, bugfixes, BLE manager update",
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2;2",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2"
+                ],
+                "rename": []
+            },
             "id": 142,
             "fota": {
                 "type": "fast",
@@ -9630,10 +9732,6 @@
                     "uuid": "00000010-0002-11e1-ac36-0002a5d5c51b"
                 },
                 {
-                    "name": "UNUSED",
-                    "uuid": "00000012-0002-11e1-ac36-0002a5d5c51b"
-                },
-                {
                     "name": "Switch",
                     "uuid": "20000000-0001-11e1-ac36-0002a5d5c51b"
                 },
@@ -9831,6 +9929,13 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors plus external ISPU expansion board",
             "changelog": "USB optimization, bugfixes, BLE manager update",
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2_ISPU;2",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2-ISPU"
+                ],
+                "rename": []
+            },
             "id": 143,
             "fota": {
                 "type": "fast",
@@ -9920,6 +10025,13 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Patch release",
             "dtmi": "dtmi:appconfig:steval_mkboxpro:FP_SNS_DATALOG2_Datalog2;3",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2"
+                ],
+                "rename": []
+            },
             "id": 208,
             "fota": {
                 "type": "fast",
@@ -10376,6 +10488,13 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Maintenance release and bug fixes, BLE, USB and SD class redesign, automode redesign, DTMI and app_model update",
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2;3",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2"
+                ],
+                "rename": []
+            },
             "id": 163,
             "fota": {
                 "type": "fast",
@@ -10803,6 +10922,13 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors plus external ISPU expansion board",
             "changelog": "Maintenance release and bug fixes, fixed SPI issue while using external add-on, BLE, USB and SD class redesign, automode redesign, DTMI and app_model update",
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2_ISPU;3",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2-ISPU"
+                ],
+                "rename": []
+            },
             "id": 165,
             "fota": {
                 "type": "fast",
@@ -10945,6 +11071,13 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Patch release",
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2;3",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2"
+                ],
+                "rename": []
+            },
             "id": 172,
             "fota": {
                 "type": "fast",
@@ -11087,6 +11220,13 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors plus external ISPU expansion board",
             "changelog": "Patch release",
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2_ISPU;3",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2-ISPU"
+                ],
+                "rename": []
+            },
             "id": 173,
             "fota": {
                 "type": "fast",
@@ -11229,6 +11369,13 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "New version and old board compatibility",
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2;4",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2"
+                ],
+                "rename": []
+            },
             "id": 177,
             "fota": {
                 "type": "fast",
@@ -11878,6 +12025,13 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Patch release",
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2;4",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2"
+                ],
+                "rename": []
+            },
             "id": 206,
             "fota": {
                 "type": "fast",
@@ -11966,12 +12120,12 @@
             "fw_version": "1.0.0",
             "fw_desc": "High-speed datalogging of sensors data and motor control telemetries",
             "changelog": "First release",
-            "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_IND_DATALOGMC_DatalogMC;1",
+            "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_IND_DATALOGMC;1",
             "demo_decorator": {
                 "add": [],
                 "remove": [
                     "Raw PnPL Controlled",
-                    "FP-IND-DATALOGMC"
+                    "FP-IND-DATALOGMC_DatalogMC"
                 ],
                 "rename": []
             },
@@ -13724,7 +13878,7 @@
         },
         {
             "name": "MEMS Normalization",
-            "description": "AKA Normalization",
+            "description": null,
             "uuid": "00000021-0002-11e1-ac36-0002a5d5c51b",
             "dtmi_name": null,
             "format_notify": [
