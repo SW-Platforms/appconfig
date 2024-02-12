@@ -12260,6 +12260,40 @@
       "usb_dev_id": null,
       "video_url": "https://www.youtube.com/watch?v=m94CCYyX5DM",
       "release_date": "2014_Q2"
+    },
+    {
+      "ble_dev_id": "0x7B",
+      "brd_name": "NUCLEO-U575ZI-Q",
+      "components": [
+        "STM32U575ZI"
+      ],
+      "description": "STM32 Nucleo-144 development board with STM32U575ZIT6Q MCU, SMPS, supports Arduino, ST Zio and morpho connectivity",
+      "documentation_url": "https://www.st.com/en/evaluation-tools/nucleo-u575zi-q.html#documentation",
+      "friendly_name": "Nucleo U575ZI-Q",
+      "nfc_dev_id": null,
+      "order_url": "https://estore.st.com/en/nucleo-u575zi-q-cpn.html",
+      "status": "ACTIVE",
+      "unique_dev_id": 21,
+      "usb_dev_id": null,
+      "video_url": "https://www.youtube.com/watch?v=m94CCYyX5DM",
+      "release_date": "2023_Q4"
+    },
+    {
+      "ble_dev_id": "0x7A",
+      "brd_name": "NUCLEO-U5A5ZJ-Q",
+      "components": [
+        "STM32U5A5ZJ"
+      ],
+      "description": "STM32 Nucleo-144 development board with STM32U5A5ZJ MCU, SMPS, supports Arduino, ST Zio and morpho connectivity",
+      "documentation_url": "https://www.st.com/en/evaluation-tools/nucleo-u5a5zj-q.html#documentation",
+      "friendly_name": "Nucleo U5A5ZJ-Q",
+      "nfc_dev_id": null,
+      "order_url": "hhttps://estore.st.com/en/nucleo-u5a5zj-q-cpn.html",
+      "status": "ACTIVE",
+      "unique_dev_id": 22,
+      "usb_dev_id": null,
+      "video_url": "https://www.youtube.com/watch?v=m94CCYyX5DM",
+      "release_date": "2024_Q4"
     }
   ],
   "characteristics": [
@@ -14773,11 +14807,25 @@
       "fullScaleUm": "",
       "datasheetLink": "https://www.st.com/resource/en/datasheet/lsm6dso16is.pdf",
       "dataType": "",
-      "fullScales": [],
-      "powerModes": [],
+      "fullScales": [
+        0
+      ],
+      "powerModes": [
+        {
+          "mode": "NONE",
+          "label": "Power Mode",
+          "odrs": [
+            1
+          ]
+        }
+      ],
       "acquisitionTime": 0,
       "bleMaxOdr": 52,
-      "configuration": {}
+      "configuration": {
+        "powerMode": "NONE",
+        "odr": 1,
+        "acquisitionTime": 0
+      }
     }
   ],
   "checksum": "4971e0f8a8f5a7ade763a023baa8d2d1",
