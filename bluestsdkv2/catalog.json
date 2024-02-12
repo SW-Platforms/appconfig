@@ -14581,6 +14581,203 @@
         "fullScale": 2000,
         "acquisitionTime": 0
       }
+    },
+    {
+      "unique_id": 10,
+      "id": "D10",
+      "description": "Humidity Sensor",
+      "icon": "ic_humidity",
+      "output": "Humidity",
+      "outputs": [
+        "O1",
+        "O2",
+        "O3"
+      ],
+      "model": "SHT40AD1B",
+      "board_compatibility": [
+        "SENSOR_TILE_BOX_PRO",
+        "SENSOR_TILE_BOX_PROB"
+      ],
+      "um": "% RH",
+      "datasheetLink": "https://sensirion.com/media/documents/33FD6951/6555C40E/Sensirion_Datasheet_SHT4x.pdf",
+      "notes": "The sensor works only with single reads, the odr is managed by the firmware",
+      "dataType": "Float scalar",
+      "powerModes": [
+        {
+          "mode": "NONE",
+          "label": "Power Mode",
+          "odrs": [
+            0.25,
+            0.5,
+            1,
+            2,
+            4
+          ],
+          "minCustomOdr": 10
+        }
+      ],
+      "acquisitionTime": 0,
+      "configuration": {
+        "powerMode": "NONE",
+        "odr": 1,
+        "acquisitionTime": 0
+      }
+    },
+    {
+      "unique_id": 11,
+      "id": "D11",
+      "description": "IMU Accelerometer sensor",
+      "icon": "ic_inemo",
+      "output": "Acceleration",
+      "outputs": [
+        "O1",
+        "O2",
+        "O3"
+      ],
+      "model": "LSM6DSO16IS",
+      "board_compatibility": [
+        "SENSOR_TILE_BOX_PRO",
+        "SENSOR_TILE_BOX_PROB"
+      ],
+      "um": "mg",
+      "fullScaleUm": "g",
+      "datasheetLink": "https://www.st.com/resource/en/datasheet/lsm6dso16is.pdf",
+      "dataType": "Float vector x3",
+      "fullScales": [
+        2,
+        4,
+        8,
+        16
+      ],
+      "powerModes": [
+        {
+          "mode": "LOW_POWER",
+          "label": "Low power",
+          "odrs": [
+            1.6,
+            12.5,
+            26,
+            52,
+            104,
+            208
+          ]
+        },
+        {
+          "mode": "HIGH_PERFORMANCE",
+          "label": "High performance",
+          "odrs": [
+            12.5,
+            26,
+            52,
+            104,
+            208,
+            416,
+            833,
+            1667,
+            3333,
+            6667
+          ]
+        }
+      ],
+      "acquisitionTime": 0,
+      "bleMaxOdr": 52,
+      "configuration": {
+        "powerMode": "LOW_POWER",
+        "odr": 52,
+        "fullScale": 16,
+        "acquisitionTime": 0
+      }
+    },
+    {
+      "unique_id": 12,
+      "id": "D12",
+      "description": "IMU Gyroscope sensor",
+      "output": "Angular rate",
+      "outputs": [
+        "O1",
+        "O2",
+        "O3"
+      ],
+      "icon": "ic_inemo",
+      "model": "LSM6DSO16IS",
+      "board_compatibility": [
+        "SENSOR_TILE_BOX_PRO",
+        "SENSOR_TILE_BOX_PROB"
+      ],
+      "um": "mdps",
+      "fullScaleUm": "dps",
+      "datasheetLink": "https://www.st.com/resource/en/datasheet/lsm6dso16is.pdf",
+      "dataType": "Float vector x3",
+      "fullScales": [
+        125,
+        250,
+        500,
+        1000,
+        2000
+      ],
+      "powerModes": [
+        {
+          "mode": "LOW_POWER",
+          "label": "Low power",
+          "odrs": [
+            12.5,
+            26,
+            52,
+            104,
+            208
+          ]
+        },
+        {
+          "mode": "HIGH_PERFORMANCE",
+          "label": "High performance",
+          "odrs": [
+            12.5,
+            26,
+            52,
+            104,
+            208,
+            416,
+            833,
+            1667,
+            3333,
+            6667
+          ]
+        }
+      ],
+      "acquisitionTime": 0,
+      "bleMaxOdr": 52,
+      "configuration": {
+        "powerMode": "LOW_POWER",
+        "odr": 52,
+        "fullScale": 2000,
+        "acquisitionTime": 0
+      }
+    },
+    {
+      "unique_id": 13,
+      "id": "D13",
+      "description": "IMU with ISPU Functionalities",
+      "output": "ISPU Output",
+      "outputs": [
+        "O1",
+        "O2",
+        "O3"
+      ],
+      "icon": "ic_inemo",
+      "model": "LSM6DSO16IS",
+      "board_compatibility": [
+        "SENSOR_TILE_BOX_PRO",
+        "SENSOR_TILE_BOX_PROB"
+      ],
+      "um": "",
+      "fullScaleUm": "",
+      "datasheetLink": "https://www.st.com/resource/en/datasheet/lsm6dso16is.pdf",
+      "dataType": "",
+      "fullScales": [],
+      "powerModes": [],
+      "acquisitionTime": 0,
+      "bleMaxOdr": 52,
+      "configuration": {}
     }
   ],
   "checksum": "4971e0f8a8f5a7ade763a023baa8d2d1",
