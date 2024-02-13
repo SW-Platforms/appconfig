@@ -8,7 +8,7 @@
             "fw_name": "FP-SNS-ALLMEMS1",
             "fw_version": "4.1.0",
             "fw_desc": "",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {},
             "cloud_apps": [
                 {
@@ -91,7 +91,7 @@
             "fw_name": "FP-SNS-ALLMEMS1",
             "fw_version": "4.1.0",
             "fw_desc": "",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {},
             "cloud_apps": [
                 {
@@ -174,7 +174,7 @@
             "fw_name": "FP-AI-CTXAWARE1",
             "fw_version": "1.0.0",
             "fw_desc": "New RPN (Link) - STM32Cube function pack for ultra-low power context awareness with distributed artificial intelligence (AI): acoustic analysis with NN on MCU and motion analysis with ML on IMU",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {},
             "cloud_apps": [
                 {
@@ -241,7 +241,7 @@
             "fw_name": "FP-IND-PREDMNT1",
             "fw_version": "2.4.0",
             "fw_desc": "Acc FFT, Acc time stats (RMS, peaks) streaming over Wi-Fi",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {},
             "cloud_apps": [
                 {
@@ -323,7 +323,7 @@
             "fw_version": "4.2.0",
             "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
             "changelog": "ATTENTION: firmware update for Nucleo boards is only available when using expansion IKS01A3.\r\n\r\nSource Code Refactoring according to STM32CubeMX code generation using .ioc file; Added header license neutral; Added license files; Updated X-CUBE-MEMS1 Firmware Package",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "yes",
                 "bootloader_type": "custom",
@@ -425,7 +425,7 @@
             "fw_version": "4.2.0",
             "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
             "changelog": "ATTENTION: firmware update for Nucleo boards is only available when using expansion IKS01A3.\r\n\r\nSource Code Refactoring according to STM32CubeMX code generation using .ioc file; Added header license neutral; Added license files; Updated X-CUBE-MEMS1 Firmware Package",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "yes",
                 "bootloader_type": "custom",
@@ -495,7 +495,7 @@
             "fw_version": "4.3.0",
             "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
             "changelog": "Support for IKS4A1, deprecated STEVAL-STLKT01V1 and NUCLEO-STM32F401RE, update option bytes",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "yes",
                 "bootloader_type": "custom",
@@ -565,7 +565,7 @@
             "fw_version": "4.2.0",
             "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
             "changelog": "ATTENTION: firmware update for Nucleo boards is only available when using expansion IKS01A3.\r\n\r\nSource Code Refactoring according to STM32CubeMX code generation using .ioc file; Added header license neutral; Added license files; Updated X-CUBE-MEMS1 Firmware Package",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "custom",
@@ -752,7 +752,7 @@
             "fw_version": "1.4.0",
             "fw_desc": "STM32Cube High Speed Datalog function pack for STWIN evaluation kits",
             "changelog": "Maintenance release; Added support to SensorTile.box; Code cleaning and alignment to the latest sensors drivers; Added header license neutral; Added licence files; Updated STWIN BSP, component drivers and HAL",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -806,7 +806,7 @@
             "fw_version": "1.4.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "This is an initial draft release",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -848,7 +848,7 @@
             "fw_version": "1.4.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "This is an initial draft release",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -910,7 +910,7 @@
             "fw_version": "1.4.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "This is an initial draft release",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -964,7 +964,7 @@
             "fw_version": "1.4.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "This is an initial draft release",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -1042,7 +1042,7 @@
             "fw_version": "1.5.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Driver update",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -1084,7 +1084,7 @@
             "fw_version": "1.5.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Driver update",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -1146,7 +1146,7 @@
             "fw_version": "1.5.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Driver update",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -1200,7 +1200,7 @@
             "fw_version": "1.5.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Driver update",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -1356,7 +1356,7 @@
             "fw_version": "1.5.0",
             "fw_desc": "STM32Cube High Speed Datalog function pack for STWIN evaluation kits",
             "changelog": "Maintenance release: code cleaning, alignment to the latest sensors drivers and added automatic usbDataPacketSize calculation",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -1410,7 +1410,7 @@
             "fw_version": "1.6.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Drivers and HAL update",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -1452,7 +1452,7 @@
             "fw_version": "1.6.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Drivers and HAL update",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -1514,7 +1514,7 @@
             "fw_version": "1.6.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Drivers and HAL update",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -1568,7 +1568,7 @@
             "fw_version": "1.6.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Drivers and HAL update",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -1724,7 +1724,7 @@
             "fw_version": "1.5.1",
             "fw_desc": "STM32Cube High Speed Datalog function pack for STWIN evaluation kits",
             "changelog": "Patch release",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -1762,7 +1762,7 @@
             "fw_version": "4.3.0",
             "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
             "changelog": "Support for IKS4A1, deprecated STEVAL-STLKT01V1 and NUCLEO-STM32F401RE, update option bytes",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "custom",
@@ -1863,7 +1863,7 @@
             "fw_name": "FP-SNS-DATALOG1",
             "fw_version": "1.2.0-vespucci",
             "fw_desc": "HSD with STREDL support",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {},
             "cloud_apps": [
                 {
@@ -1987,7 +1987,7 @@
             "fw_name": "FP-SNS-DATALOG1",
             "fw_version": "1.3.0",
             "fw_desc": "fast fota\r\nbluest sdkv2 support\r\nFOTA size limitation 1MB",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -2034,7 +2034,7 @@
             "fw_version": "1.0.0",
             "fw_desc": "low power firmware for Quasar demo; uses STREDL and sends events on BLE advertisements",
             "changelog": "Dec 2021 demo",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {},
             "cloud_apps": [
                 {
@@ -2142,7 +2142,7 @@
             "fw_version": "1.4.0",
             "fw_desc": "STM32Cube High Speed Datalog function pack for STWIN evaluation kits",
             "changelog": "Maintenance release; Added support to SensorTile.box; Code cleaning and alignment to the latest sensors drivers; Added header license neutral; Added licence files; Updated STWIN BSP, component drivers and HAL",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -2276,7 +2276,7 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Maintenance and product update",
             "dtmi": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2;2",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -2407,7 +2407,7 @@
             "fw_version": "1.5.0",
             "fw_desc": "STM32Cube High Speed Datalog function pack for STWIN evaluation kits",
             "changelog": "Maintenance release: code cleaning, alignment to the latest sensors drivers and added automatic usbDataPacketSize calculation",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -2495,7 +2495,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -2644,7 +2644,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -2775,7 +2775,7 @@
             "fw_version": "1.5.1",
             "fw_desc": "STM32Cube High Speed Datalog function pack for STWIN evaluation kits",
             "changelog": "Patch release",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -2890,7 +2890,7 @@
             "fw_version": "1.0.0",
             "fw_desc": "STM32Cube function pack for the STEVAL-ASTRA1B multi-connectivity asset tracking reference design",
             "changelog": "New RPN",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "wb_mode",
                 "bootloader_type": "wb",
@@ -3029,7 +3029,7 @@
             "fw_version": "1.1.0",
             "fw_desc": "STM32Cube function pack for the STEVAL-ASTRA1B multi-connectivity asset tracking reference design",
             "changelog": "V1.1.0 / 03-Jun-2022 -> Firmware package compatible with CubeMX CMSIS pack structure\r\nV1.0.1 / 09-May-2022 -> Bugfix on temperature reading, GNSS and power management data acquisition and LoRa configuration",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "wb_mode",
                 "bootloader_type": "wb",
@@ -3168,7 +3168,7 @@
             "fw_version": "2.0.0",
             "fw_desc": "STM32Cube function pack for the STEVAL-ASTRA1B multi-connectivity asset tracking reference design",
             "changelog": "V2.0.0 / 07-Mar-2023 -> NFC communication management for provisioning and datalogging; low power strategies implementation; state machine update; in-application bootloader upgrade; bugfix on application examples\nV1.1.0 / 03-Jun-2022 -> Firmware package compatible with CubeMX CMSIS pack structure\nV1.0.1 / 09-May-2022 -> Bugfix on temperature reading, GNSS and power management data acquisition and LoRa configuration",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "wb_mode",
                 "bootloader_type": "wb",
@@ -3229,7 +3229,7 @@
             "fw_name": "FOTA-mode",
             "fw_version": "1.0.0",
             "fw_desc": "STM32WB temporary stub to enable firmware update ",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "wb_ready",
                 "bootloader_type": "wb",
@@ -3332,7 +3332,7 @@
             "fw_name": "Astra1 - Asset tracking",
             "fw_version": "0.1.0",
             "fw_desc": "Polaris firmware (testing one)",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {},
             "cloud_apps": [],
             "characteristics": [
@@ -3403,7 +3403,7 @@
             "fw_version": "1.5.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "This is an initial draft release",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -3477,7 +3477,7 @@
             "fw_version": "1.5.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "This is an initial draft release",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -3560,7 +3560,7 @@
             "fw_version": "1.5.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "This is an initial draft release",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -3614,7 +3614,7 @@
             "fw_version": "1.5.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "This is an initial draft release",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -3665,7 +3665,7 @@
             "fw_desc": "Firmware for all box boards",
             "changelog": "This is an initial draft release",
             "dtmi": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STBOX1_BLESensorPnPL;1",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -3773,7 +3773,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -3856,7 +3856,7 @@
             "fw_desc": "Asset tracking using BLE/NFC connectivity",
             "changelog": "Added support for SensorTile.box PRO evaluation board; Removed support for SensorTile.box evaluation board; Added the capability to control the Tracking using NFC connectivity; Added the capability to read the Maximum&Minium samples values; Added the capability to make Firmware Over the Air Update (FoTA)",
             "dtmi": "dtmi:appconfig:steval_mkboxpro:fp_atr_ble1;1",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -3958,7 +3958,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -4134,7 +4134,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -4230,7 +4230,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -4326,7 +4326,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -4409,7 +4409,7 @@
             "fw_desc": "Asset tracking using BLE/NFC connectivity",
             "changelog": "Added support for SensorTile.box PRO$B evaluation board; Driver update.",
             "dtmi": "dtmi:appconfig:steval_mkboxpro:fp_atr_ble1;2",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -4463,7 +4463,7 @@
             "fw_version": "1.6.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Add Support to ST25KC, Drivers and HAL update",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -4537,7 +4537,7 @@
             "fw_version": "1.6.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Add Support to ST25KC, Drivers and HAL update",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -4620,7 +4620,7 @@
             "fw_version": "1.6.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Add Support to ST25KC, Drivers and HAL update",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -4674,7 +4674,7 @@
             "fw_version": "1.6.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Add Support to ST25KC, Drivers and HAL update",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -4725,7 +4725,7 @@
             "fw_desc": "Firmware for all box boards",
             "changelog": "Add Support to ST25KC, Drivers and HAL update",
             "dtmi": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STBOX1_BLESensorPnPL;1",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -4941,7 +4941,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -5101,7 +5101,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -5190,7 +5190,7 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Maintenance and product update",
             "dtmi": "dtmi:appconfig:steval_mkboxpro:FP_SNS_DATALOG2_Datalog2;4",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -5407,7 +5407,7 @@
             "fw_desc": "Fw supporting app creation with ST BLE Sensor app",
             "changelog": "added some adapter support + Bugs Fixing",
             "dtmi": "dtmi:appconfig:steval_mkboxpro:STSW_MKBOXPRO_Entry/Expert_Mode;1",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -5537,7 +5537,7 @@
             "fw_version": "1.4.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "This is an initial draft release",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -5611,7 +5611,7 @@
             "fw_version": "1.4.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "This is an initial draft release",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -5685,7 +5685,7 @@
             "fw_version": "1.4.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "This is an initial draft release",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -5743,7 +5743,7 @@
             "fw_version": "1.4.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "This is an initial draft release",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -5814,7 +5814,7 @@
             "fw_desc": "Firmware for all box boards",
             "changelog": "This is an initial draft release",
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_STBOX1_BLESensorPnPL;1",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -5979,7 +5979,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -6128,7 +6128,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -6277,7 +6277,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -6426,7 +6426,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -6488,7 +6488,7 @@
             "fw_version": "1.5.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Driver update",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -6562,7 +6562,7 @@
             "fw_version": "1.5.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Driver update",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -6645,7 +6645,7 @@
             "fw_version": "1.5.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Driver update",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -6703,7 +6703,7 @@
             "fw_version": "1.5.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Driver update",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -6779,7 +6779,7 @@
             "fw_desc": "Firmware for all box boards",
             "changelog": "Driver update",
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_STBOX1_BLESensorPnPL;1",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -6940,7 +6940,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -7089,7 +7089,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -7238,7 +7238,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -7387,7 +7387,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -7536,7 +7536,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -7685,7 +7685,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -7834,7 +7834,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -7896,7 +7896,7 @@
             "fw_version": "1.6.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Drivers and HAL update",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -7970,7 +7970,7 @@
             "fw_version": "1.6.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Drivers and HAL update",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -8028,7 +8028,7 @@
             "fw_version": "1.6.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Drivers and HAL update",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -8104,7 +8104,7 @@
             "fw_desc": "Firmware for all box boards",
             "changelog": "Drivers and HAL update",
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_STBOX1_BLESensorPnPL;1",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -8178,7 +8178,7 @@
             "fw_version": "1.6.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Drivers and HAL update",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -8341,7 +8341,7 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Maintenance and product update",
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2;5",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -8490,7 +8490,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -8587,7 +8587,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -8725,7 +8725,7 @@
             "fw_desc": "Comprehensive solution for saving data for presence detection via STEVAL-PDETECT1 expansion board",
             "changelog": "New application",
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_PDetect;1",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -8825,7 +8825,7 @@
             "fw_name": "STSW-PROTEUS",
             "fw_version": "1.0.0",
             "fw_desc": "STM32WB predictive maintenance applications",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "wb_mode",
                 "bootloader_type": "wb",
@@ -8970,7 +8970,7 @@
             "fw_name": "FP-AI-PDMWBSOC",
             "fw_version": "1.0.0",
             "fw_desc": "Anomaly detection by NanoEdge AI",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "wb_mode",
                 "bootloader_type": "wb",
@@ -9068,7 +9068,7 @@
             "fw_desc": "Anomaly detection and Classification by NEAI",
             "changelog": "NanoEdgeAI N-Class Classification, new setting pages, Azure IoT cloud demo",
             "dtmi": "dtmi:appconfig:steval_proteus1:fp_ai_pdmwbsoc;1",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "wb_mode",
                 "bootloader_type": "wb",
@@ -9183,7 +9183,7 @@
             "fw_desc": "Anomaly detection and Classification by NEAI based on ThreadX OS",
             "changelog": "New RPN",
             "dtmi": "dtmi:appconfig:steval_proteus1:fp_ai_pdmwbsoc2;1",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "wb_mode",
                 "bootloader_type": "wb",
@@ -9317,7 +9317,7 @@
                     }
                 ]
             },
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "wb_mode",
                 "bootloader_type": "wb",
@@ -9444,7 +9444,7 @@
             "fw_desc": "Comprehensive solution for sensor data logging and file transfer over BLE and USB",
             "changelog": "Added: Auto mode, stop logging if FatF volume is full. Bug fixes.",
             "dtmi": "dtmi:appconfig:steval_proteus1:FP_SNS_DATAPRO1;2",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "wb_mode",
                 "bootloader_type": "wb",
@@ -9497,7 +9497,7 @@
             "fw_name": "FOTA-mode",
             "fw_version": "1.0.0",
             "fw_desc": "STM32WB temporary stub to enable firmware update ",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "wb_ready",
                 "bootloader_type": "wb",
@@ -9583,7 +9583,7 @@
             "fw_version": "1.0.0",
             "fw_desc": "Predictive Maintenance over LoRa",
             "changelog": "Initial version",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "wb_mode",
                 "bootloader_type": "wb",
@@ -9690,7 +9690,7 @@
             "fw_desc": "Asset tracking using BLE/NFC connectivity",
             "changelog": "Added support for SensorTile.box PRO$B evaluation board; Driver update.",
             "dtmi": "dtmi:appconfig:steval_mkboxpro:fp_atr_ble1;2",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -9745,7 +9745,7 @@
             "fw_desc": "Firmware for all box boards",
             "changelog": "Add Support to ST25KC, Drivers and HAL update",
             "dtmi": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STBOX1_BLESensorPnPL;1",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -9782,7 +9782,7 @@
             "fw_version": "1.6.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Add Support to ST25KC, Drivers and HAL update",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -9819,7 +9819,7 @@
             "fw_version": "1.6.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Add Support to ST25KC, Drivers and HAL update",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -9856,7 +9856,7 @@
             "fw_version": "1.6.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Add Support to ST25KC, Drivers and HAL update",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -9902,7 +9902,7 @@
             "fw_version": "1.6.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Add Support to ST25KC, Drivers and HAL update",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -9966,7 +9966,7 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Maintenance and product update",
             "dtmi": "dtmi:appconfig:steval_mkboxprob:FP_SNS_DATALOG2_Datalog2;4",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -10076,7 +10076,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -10252,7 +10252,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -10456,7 +10456,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -10616,7 +10616,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -10833,7 +10833,7 @@
             "fw_desc": "Fw supporting app creation with ST BLE Sensor app",
             "changelog": "added some adapter support + Bugs Fixing",
             "dtmi": "dtmi:appconfig:steval_mkboxprob:STSW_MKBOXPRO_Entry/Expert_Mode;1",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -11050,7 +11050,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -11192,7 +11192,7 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Maintenance and product update",
             "dtmi": "dtmi:appconfig:steval_stwinbx1b:FP_SNS_DATALOG2_Datalog2;5",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -11341,7 +11341,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -11438,7 +11438,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -11576,7 +11576,7 @@
             "fw_desc": "Comprehensive solution for saving data for presence detection via STEVAL-PDETECT1 expansion board",
             "changelog": "New application",
             "dtmi": "dtmi:appconfig:steval_stwinbx1b:FP_SNS_DATALOG2_PDetect;1",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -11634,7 +11634,7 @@
             "fw_version": "5.0.0",
             "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
             "changelog": "Removed MetaDataManager middleware",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -11751,7 +11751,7 @@
             "fw_version": "4.2.0",
             "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
             "changelog": "ATTENTION: firmware update for Nucleo boards is only available when using expansion IKS01A3.\r\n\r\nSource Code Refactoring according to STM32CubeMX code generation using .ioc file; Added header license neutral; Added license files; Updated X-CUBE-MEMS1 Firmware Package",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "custom",
@@ -11841,7 +11841,7 @@
             "fw_version": "4.3.0",
             "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
             "changelog": "Support for IKS4A1, deprecated STEVAL-STLKT01V1 and NUCLEO-STM32F401RE, update option bytes",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "custom",
@@ -11914,7 +11914,7 @@
             "fw_name": "FP-SNS-MOTENV1",
             "fw_version": "4.2.0",
             "fw_desc": "Fast FOTA, BlueST SDK v2",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {},
             "cloud_apps": [],
             "characteristics": [
@@ -11980,7 +11980,7 @@
             "fw_version": "4.3.0",
             "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
             "changelog": "BlueST SDK v2",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {},
             "cloud_apps": [],
             "characteristics": [
@@ -12047,7 +12047,7 @@
             "fw_version": "4.3.2",
             "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
             "changelog": "Documentation files update",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {},
             "cloud_apps": [],
             "characteristics": []
@@ -12077,7 +12077,7 @@
             "fw_version": "5.0.0",
             "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
             "changelog": "Removed MetaDataManager middleware",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {},
             "cloud_apps": [],
             "characteristics": [
@@ -12139,7 +12139,7 @@
             "fw_name": "FP-SNS-MOTENV1",
             "fw_version": "4.2.0",
             "fw_desc": "Fast FOTA, BlueST SDK v2",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "custom",
@@ -12240,7 +12240,7 @@
             "fw_version": "4.2.0",
             "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
             "changelog": "ATTENTION: firmware update for Nucleo boards is only available when using expansion IKS01A3.\r\n\r\nSource Code Refactoring according to STM32CubeMX code generation using .ioc file; Added header license neutral; Added license files; Updated X-CUBE-MEMS1 Firmware Package",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "custom",
@@ -12342,7 +12342,7 @@
             "fw_version": "4.2.0",
             "fw_desc": "candidate release",
             "changelog": "Maintenance release; STM32Cube middleware and HAL drivers update; code rebasing on latest available X-CUBEs; IDEs update; ",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "yes",
                 "bootloader_type": "custom",
@@ -12391,7 +12391,7 @@
             "fw_version": "4.3.0",
             "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
             "changelog": "BlueST SDK v2",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "custom",
@@ -12488,7 +12488,7 @@
             "fw_version": "5.0.0",
             "fw_desc": "The FP-SNS-FLIGHT1 is an STM32Cube function pack, which lets your IoT node connect to a smartphone via BLE and uses a suitable Android\u2122 or iOS\u2122 application like the STBLESensor app to view real-time object distance data read by the Time-of-Flight sensor.",
             "changelog": "Bugfixes",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "yes",
                 "bootloader_type": "custom",
@@ -12534,7 +12534,7 @@
             "fw_version": "5.0.2",
             "fw_desc": "The FP-SNS-FLIGHT1 is an STM32Cube function pack, which lets your IoT node connect to a smartphone via BLE and uses a suitable Android\u2122 or iOS\u2122 application like the STBLESensor app to view real-time object distance data read by the Time-of-Flight sensor.",
             "changelog": "Added some parameters setting for STM32CubeMX",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "custom",
@@ -12571,7 +12571,7 @@
             "fw_version": "4.3.2",
             "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
             "changelog": "Documentation files update",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "custom",
@@ -12608,7 +12608,7 @@
             "fw_version": "4.3.0",
             "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
             "changelog": "Support for IKS4A1, deprecated STEVAL-STLKT01V1 and NUCLEO-STM32F401RE, update option bytes",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "custom",
@@ -12726,7 +12726,7 @@
             "fw_version": "5.0.0",
             "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
             "changelog": "Removed MetaDataManager middleware",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "custom",
@@ -12827,7 +12827,7 @@
             "fw_name": "FP-SNS-MOTENV1",
             "fw_version": "4.2.0",
             "fw_desc": "Fast FOTA, BlueST SDK v2",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "custom",
@@ -12928,7 +12928,7 @@
             "fw_version": "4.2.0",
             "fw_desc": "STM32 ODE function pack for IoT node with BLE connectivity, digital microphone, environmental and motion sensors",
             "changelog": "ATTENTION: firmware update for Nucleo boards is only available when using expansion IKS01A3.\r\n\r\nSource Code Refactoring according to STM32CubeMX code generation using .ioc file; Added header license neutral; Added license files; Updated X-CUBE-MEMS1 Firmware Package",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "custom",
@@ -13002,7 +13002,7 @@
             "fw_version": "4.2.0",
             "fw_desc": "candidate release",
             "changelog": "Maintenance release; STM32Cube middleware and HAL drivers update; code rebasing on latest available X-CUBEs; IDEs update; ",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "yes",
                 "bootloader_type": "custom",
@@ -13051,7 +13051,7 @@
             "fw_version": "4.3.0",
             "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
             "changelog": "BlueST SDK v2",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "custom",
@@ -13148,7 +13148,7 @@
             "fw_version": "5.0.0",
             "fw_desc": "The FP-SNS-FLIGHT1 is an STM32Cube function pack, which lets your IoT node connect to a smartphone via BLE and uses a suitable Android\u2122 or iOS\u2122 application like the STBLESensor app to view real-time object distance data read by the Time-of-Flight sensor.",
             "changelog": "Bugfixes",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "yes",
                 "bootloader_type": "custom",
@@ -13194,7 +13194,7 @@
             "fw_version": "5.0.2",
             "fw_desc": "The FP-SNS-FLIGHT1 is an STM32Cube function pack, which lets your IoT node connect to a smartphone via BLE and uses a suitable Android\u2122 or iOS\u2122 application like the STBLESensor app to view real-time object distance data read by the Time-of-Flight sensor.",
             "changelog": "Added some parameters setting for STM32CubeMX",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "custom",
@@ -13231,7 +13231,7 @@
             "fw_version": "4.3.2",
             "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
             "changelog": "Documentation files update",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "custom",
@@ -13268,7 +13268,7 @@
             "fw_version": "5.0.0",
             "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
             "changelog": "Removed MetaDataManager middleware",
-            "maturity": "Release",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "custom",
@@ -15977,7 +15977,7 @@
             "format_notify": null
         }
     ],
-    "date": "2024-02-13 14:10:18.181803",
+    "date": "2024-02-13 14:12:56.114644",
     "version": "0.7.1",
-    "checksum": "86856dd33fc975fcfc61ce735d2aeaf5"
+    "checksum": "e1da6a97b8327f1b65f454ceafa939fd"
 }
