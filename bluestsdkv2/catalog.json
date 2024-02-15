@@ -1863,7 +1863,7 @@
             "fw_name": "FP-SNS-DATALOG1",
             "fw_version": "1.2.0-vespucci",
             "fw_desc": "HSD with STREDL support",
-            "maturity": "release",
+            "maturity": "demo",
             "fota": {},
             "cloud_apps": [
                 {
@@ -1987,7 +1987,7 @@
             "fw_name": "FP-SNS-DATALOG1",
             "fw_version": "1.3.0",
             "fw_desc": "fast fota\r\nbluest sdkv2 support\r\nFOTA size limitation 1MB",
-            "maturity": "release",
+            "maturity": "demo",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -2034,7 +2034,7 @@
             "fw_version": "1.0.0",
             "fw_desc": "low power firmware for Quasar demo; uses STREDL and sends events on BLE advertisements",
             "changelog": "Dec 2021 demo",
-            "maturity": "release",
+            "maturity": "demo",
             "fota": {},
             "cloud_apps": [
                 {
@@ -5407,7 +5407,7 @@
             "fw_desc": "Fw supporting app creation with ST BLE Sensor app",
             "changelog": "added some adapter support + Bugs Fixing",
             "dtmi": "dtmi:appconfig:steval_mkboxpro:STSW_MKBOXPRO_Entry/Expert_Mode;1",
-            "maturity": "release",
+            "maturity": "draft",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -6134,7 +6134,7 @@
                 "bootloader_type": "none",
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 0,
-                "fw_url": null,
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_Datalog2-ISPU_1_0_0.bin",
                 "partial_fota": 0
             },
             "cloud_apps": [],
@@ -9444,7 +9444,21 @@
             "fw_desc": "Comprehensive solution for sensor data logging and file transfer over BLE and USB",
             "changelog": "Added: Auto mode, stop logging if FatF volume is full. Bug fixes.",
             "dtmi": "dtmi:appconfig:steval_proteus1:FP_SNS_DATAPRO1;2",
-            "maturity": "release",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATAPRO1",
+                    "Textual Monitor",
+                    "Cloud MQTT"
+                ],
+                "rename": [
+                    {
+                        "new": "Proteus Data Logging",
+                        "old": "HighSpeed DataLog2"
+                    }
+                ]
+            },
+            "maturity": "draft",
             "fota": {
                 "type": "wb_mode",
                 "bootloader_type": "wb",
@@ -10833,7 +10847,7 @@
             "fw_desc": "Fw supporting app creation with ST BLE Sensor app",
             "changelog": "added some adapter support + Bugs Fixing",
             "dtmi": "dtmi:appconfig:steval_mkboxprob:STSW_MKBOXPRO_Entry/Expert_Mode;1",
-            "maturity": "release",
+            "maturity": "draft",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -11634,7 +11648,7 @@
             "fw_version": "5.0.0",
             "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
             "changelog": "Removed MetaDataManager middleware",
-            "maturity": "release",
+            "maturity": "draft",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -12077,7 +12091,7 @@
             "fw_version": "5.0.0",
             "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
             "changelog": "Removed MetaDataManager middleware",
-            "maturity": "release",
+            "maturity": "draft",
             "fota": {},
             "cloud_apps": [],
             "characteristics": [
@@ -12726,7 +12740,7 @@
             "fw_version": "5.0.0",
             "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
             "changelog": "Removed MetaDataManager middleware",
-            "maturity": "release",
+            "maturity": "draft",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "custom",
@@ -13268,7 +13282,7 @@
             "fw_version": "5.0.0",
             "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
             "changelog": "Removed MetaDataManager middleware",
-            "maturity": "release",
+            "maturity": "draft",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "custom",
@@ -15977,7 +15991,7 @@
             "format_notify": null
         }
     ],
-    "date": "2024-02-14 14:11:58.984668",
+    "date": "2024-02-15 12:41:54.521108",
     "version": "0.7.1",
-    "checksum": "e1da6a97b8327f1b65f454ceafa939fd"
+    "checksum": "744fd2e5a561416b39e49fe9aa49048d"
 }
