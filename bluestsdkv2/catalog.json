@@ -2276,7 +2276,7 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Maintenance and product update",
             "dtmi": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2;2",
-            "maturity": "release",
+            "maturity": "beta",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -8341,7 +8341,7 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Maintenance and product update",
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2;5",
-            "maturity": "release",
+            "maturity": "beta",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -8725,7 +8725,7 @@
             "fw_desc": "Comprehensive solution for saving data for presence detection via STEVAL-PDETECT1 expansion board",
             "changelog": "New application",
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_PDetect;1",
-            "maturity": "release",
+            "maturity": "beta",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -9980,7 +9980,7 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Maintenance and product update",
             "dtmi": "dtmi:appconfig:steval_mkboxprob:FP_SNS_DATALOG2_Datalog2;4",
-            "maturity": "release",
+            "maturity": "beta",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -11590,7 +11590,7 @@
             "fw_desc": "Comprehensive solution for saving data for presence detection via STEVAL-PDETECT1 expansion board",
             "changelog": "New application",
             "dtmi": "dtmi:appconfig:steval_stwinbx1b:FP_SNS_DATALOG2_PDetect;1",
-            "maturity": "release",
+            "maturity": "beta",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -15991,7 +15991,7 @@
             "format_notify": null
         }
     ],
-    "date": "2024-02-16 08:40:48.103095",
+    "date": "2024-02-16 11:05:58.327527",
     "version": "0.7.1",
-    "checksum": "782d2e41e57a2bb19c2743f051b70aa8"
+    "checksum": "5876c0ee73446bf7c862e7f5026610a9"
 }
