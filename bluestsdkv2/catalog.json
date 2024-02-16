@@ -11443,7 +11443,7 @@
             "fw_version": "1.0.0",
             "fw_desc": "High-speed datalogging of sensors data and motor control telemetries",
             "changelog": "First release",
-            "dtmi": "dtmi:appconfig:steval_stwinbx1b:FP_IND_DATALOGMC_DatalogMC ;1",
+            "dtmi": "dtmi:appconfig:steval_stwinbx1b:FP_IND_DATALOGMC_DatalogMC;1",
             "demo_decorator": {
                 "add": [],
                 "remove": [
@@ -15991,7 +15991,7 @@
             "format_notify": null
         }
     ],
-    "date": "2024-02-15 14:29:23.427966",
+    "date": "2024-02-16 08:40:48.103095",
     "version": "0.7.1",
-    "checksum": "f3ce6a7206238ab5b6bb9245b7ff0382"
+    "checksum": "782d2e41e57a2bb19c2743f051b70aa8"
 }
