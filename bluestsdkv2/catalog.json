@@ -14826,6 +14826,211 @@
         "odr": 1,
         "acquisitionTime": 0
       }
+    },
+    {
+      "unique_id": 14,
+      "id": "D14",
+      "description": "IMU Accelerometer sensor",
+      "icon": "ic_inemo",
+      "output": "Acceleration",
+      "outputs": [
+        "O1",
+        "O2",
+        "O3"
+      ],
+      "model": "LSM6DSV32X",
+      "board_compatibility": [
+        "SENSOR_TILE_BOX_PRO",
+        "SENSOR_TILE_BOX_PROB"
+      ],
+      "um": "mg",
+      "fullScaleUm": "g",
+      "datasheetLink": "https://www.st.com/resource/en/data_brief/lsm6dsv32x.pdf",
+      "dataType": "Float vector x3",
+      "fullScales": [
+        4,
+        8,
+        16,
+        32
+      ],
+      "powerModes": [
+        {
+          "mode": "LOW_POWER_2",
+          "label": "Low power 1",
+          "odrs": [
+            1.875,
+            15,
+            30,
+            60,
+            120,
+            240
+          ]
+        },
+        {
+          "mode": "LOW_POWER_3",
+          "label": "Low power 2",
+          "odrs": [
+            1.875,
+            15,
+            30,
+            60,
+            120,
+            240
+          ]
+        },
+        {
+          "mode": "LOW_POWER_4",
+          "label": "Low power 3",
+          "odrs": [
+            1.875,
+            15,
+            30,
+            60,
+            120,
+            240
+          ]
+        },
+        {
+          "mode": "NORMAL_MODE",
+          "label": "Normal mode",
+          "odrs": [
+            7.5,
+            15,
+            30,
+            60,
+            120,
+            240,
+            480,
+            960,
+            1920
+          ]
+        },
+        {
+          "mode": "NONE",
+          "label": "High performance",
+          "odrs": [
+            7.5,
+            15,
+            30,
+            60,
+            120,
+            240,
+            480,
+            960,
+            1920,
+            3840,
+            7680
+          ]
+        },
+        {
+          "mode": "LOW_NOISE",
+          "label": "High accuracy",
+          "odrs": [
+            15,
+            30,
+            60,
+            120,
+            240,
+            480,
+            960,
+            1920,
+            3840,
+            7680
+          ]
+        }
+      ],
+      "acquisitionTime": 0,
+      "bleMaxOdr": 52,
+      "configuration": {
+        "powerMode": "NONE",
+        "odr": 30,
+        "fullScale": 32,
+        "acquisitionTime": 0
+      }
+    },
+    {
+      "unique_id": 15,
+      "id": "D15",
+      "description": "IMU Gyroscope sensor",
+      "output": "Angular rate",
+      "outputs": [
+        "O1",
+        "O2",
+        "O3"
+      ],
+      "icon": "ic_inemo",
+      "model": "LSM6DSV32X",
+      "board_compatibility": [
+        "SENSOR_TILE_BOX_PRO",
+        "SENSOR_TILE_BOX_PROB"
+      ],
+      "um": "mdps",
+      "fullScaleUm": "dps",
+      "datasheetLink": "https://www.st.com/resource/en/data_brief/lsm6dsv32x.pdf",
+      "dataType": "Float vector x3",
+      "fullScales": [
+        125,
+        250,
+        500,
+        1000,
+        2000,
+        4000
+      ],
+      "powerModes": [
+        {
+          "mode": "LOW_POWER_3",
+          "label": "Low power",
+          "odrs": [
+            7.5,
+            15,
+            30,
+            60,
+            120,
+            240
+          ]
+        },
+        {
+          "mode": "NONE",
+          "label": "High performance",
+          "odrs": [
+            7.5,
+            15,
+            30,
+            60,
+            120,
+            240,
+            480,
+            960,
+            1920,
+            3840,
+            7680
+          ]
+        },
+        {
+          "mode": "LOW_NOISE",
+          "label": "High accuracy",
+          "odrs": [
+            15,
+            30,
+            60,
+            120,
+            240,
+            480,
+            960,
+            1920,
+            3840,
+            7680
+          ]
+        }
+      ],
+      "acquisitionTime": 0,
+      "bleMaxOdr": 52,
+      "configuration": {
+        "powerMode": "NONE",
+        "odr": 30,
+        "fullScale": 4000,
+        "acquisitionTime": 0
+      }
     }
   ],
   "checksum": "4971e0f8a8f5a7ade763a023baa8d2d1",
