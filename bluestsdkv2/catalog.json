@@ -8578,7 +8578,7 @@
             "fw_version": "1.0.0",
             "fw_desc": "High-speed datalogging of sensors data and motor control telemetries",
             "changelog": "First release",
-            "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_IND_DATALOGMC;1",
+            "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_IND_DATALOGMC_DatalogMC;1",
             "demo_decorator": {
                 "add": [],
                 "remove": [
@@ -8831,7 +8831,7 @@
                 "bootloader_type": "wb",
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 0,
-                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-proteus1/stsw_proteus_1_0_0.bin",
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-proteus1/STSW-PROTEUS_1_0_0.bin",
                 "partial_fota": 0
             },
             "cloud_apps": [
@@ -15991,7 +15991,7 @@
             "format_notify": null
         }
     ],
-    "date": "2024-02-16 11:05:58.327527",
+    "date": "2024-02-16 14:51:22.209584",
     "version": "0.7.1",
-    "checksum": "5876c0ee73446bf7c862e7f5026610a9"
+    "checksum": "a7ba1195734431c1de94a8814caa1b13"
 }
