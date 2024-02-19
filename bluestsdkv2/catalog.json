@@ -5190,7 +5190,7 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Maintenance and product update",
             "dtmi": "dtmi:appconfig:steval_mkboxpro:FP_SNS_DATALOG2_Datalog2;4",
-            "maturity": "release",
+            "maturity": "beta",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -11206,7 +11206,7 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Maintenance and product update",
             "dtmi": "dtmi:appconfig:steval_stwinbx1b:FP_SNS_DATALOG2_Datalog2;5",
-            "maturity": "release",
+            "maturity": "beta",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -15991,7 +15991,7 @@
             "format_notify": null
         }
     ],
-    "date": "2024-02-19 09:10:46.270646",
+    "date": "2024-02-19 09:27:26.120386",
     "version": "0.7.1",
-    "checksum": "a7ba1195734431c1de94a8814caa1b13"
+    "checksum": "75dcf6f4481c764e0546f2d763ccacdd"
 }
