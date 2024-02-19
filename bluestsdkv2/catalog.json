@@ -5210,20 +5210,8 @@
             "option_bytes": [
                 {
                     "name": "adapter mounted: ",
-                    "type": "icon",
+                    "type": "string",
                     "format": "enum_string",
-                    "icon_values": [
-                        {
-                            "value": 1,
-                            "comment": "SD present",
-                            "icon_code": 10
-                        },
-                        {
-                            "value": 0,
-                            "comment": "SD not present",
-                            "icon_code": 255
-                        }
-                    ],
                     "string_values": [
                         {
                             "value": 1,
@@ -5242,6 +5230,14 @@
                             "display_name": "LSM6DSV16BX"
                         },
                         {
+                            "value": 5,
+                            "display_name": "LSM6DSO16IS"
+                        },
+                        {
+                            "value": 6,
+                            "display_name": "LSM6DSV32X"
+                        },
+                        {
                             "value": 254,
                             "display_name": "no supported adapter detected"
                         }
@@ -5249,7 +5245,9 @@
                 },
                 {
                     "name": "loaded app: ",
+                    "type": "string",
                     "format": "enum_string",
+                    "escape_value": 255,
                     "string_values": [
                         {
                             "value": 0,
@@ -5261,7 +5259,7 @@
                         },
                         {
                             "value": 2,
-                            "display_name": "Free-Fall Detection"
+                            "display_name": "FreeFall Detection"
                         },
                         {
                             "value": 3,
@@ -5273,7 +5271,7 @@
                         },
                         {
                             "value": 5,
-                            "display_name": "Sensor Fusion - Quaternion"
+                            "display_name": "Sensor Fusion Quaternion"
                         },
                         {
                             "value": 6,
@@ -5293,11 +5291,11 @@
                         },
                         {
                             "value": 10,
-                            "display_name": "In-Vehicle Baby Alarm"
+                            "display_name": "InVehicle Baby Alarm"
                         },
                         {
                             "value": 11,
-                            "display_name": "Q-Touch"
+                            "display_name": "Q Touch"
                         },
                         {
                             "value": 12,
@@ -5337,12 +5335,14 @@
                         },
                         {
                             "value": 255,
-                            "display_name": "_"
+                            "display_name": "no flow in memory"
                         }
-                    ]
+                    ],
+                    "escape_message": ""
                 },
                 {
-                    "name": "Battery Status",
+                    "name": "battery_status",
+                    "type": "icon",
                     "format": "enum_icon",
                     "icon_values": [
                         {
@@ -5384,6 +5384,15 @@
             "fw_desc": "Fw supporting app creation with ST BLE Sensor app",
             "changelog": "added some adapter support + Bugs Fixing",
             "dtmi": "dtmi:appconfig:steval_mkboxpro:STSW_MKBOXPRO_Entry_Expert_Mode;1",
+            "demo_decorator": {
+                "add": [
+                    "Flow"
+                ],
+                "remove": [
+                    "STSW-MKBOXPRO Entry/Expert Mode"
+                ],
+                "rename": []
+            },
             "maturity": "draft",
             "fota": {
                 "type": "fast",
@@ -5444,8 +5453,20 @@
                     "uuid": "00000016-0002-11e1-ac36-0002a5d5c51b"
                 },
                 {
+                    "name": "Piano",
+                    "uuid": "0000001c-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
                     "name": "Event Counter",
                     "uuid": "0000001d-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "name": "Gesture Navigation",
+                    "uuid": "0000001f-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "name": "JSON NFC",
+                    "uuid": "00000020-0002-11e1-ac36-0002a5d5c51b"
                 },
                 {
                     "name": "Compass",
@@ -5454,6 +5475,10 @@
                 {
                     "name": "MEMS Sensor Fusion Compact",
                     "uuid": "00000100-0001-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "name": "SD Logging",
+                    "uuid": "00001000-0001-11e1-ac36-0002a5d5c51b"
                 },
                 {
                     "name": "Temperature",
@@ -10650,20 +10675,8 @@
             "option_bytes": [
                 {
                     "name": "adapter mounted: ",
-                    "type": "icon",
+                    "type": "string",
                     "format": "enum_string",
-                    "icon_values": [
-                        {
-                            "value": 1,
-                            "comment": "SD present",
-                            "icon_code": 10
-                        },
-                        {
-                            "value": 0,
-                            "comment": "SD not present",
-                            "icon_code": 255
-                        }
-                    ],
                     "string_values": [
                         {
                             "value": 1,
@@ -10682,6 +10695,14 @@
                             "display_name": "LSM6DSV16BX"
                         },
                         {
+                            "value": 5,
+                            "display_name": "LSM6DSO16IS"
+                        },
+                        {
+                            "value": 6,
+                            "display_name": "LSM6DSV32X"
+                        },
+                        {
                             "value": 254,
                             "display_name": "no supported adapter detected"
                         }
@@ -10689,7 +10710,9 @@
                 },
                 {
                     "name": "loaded app: ",
+                    "type": "string",
                     "format": "enum_string",
+                    "escape_value": 255,
                     "string_values": [
                         {
                             "value": 0,
@@ -10701,7 +10724,7 @@
                         },
                         {
                             "value": 2,
-                            "display_name": "Free-Fall Detection"
+                            "display_name": "FreeFall Detection"
                         },
                         {
                             "value": 3,
@@ -10713,7 +10736,7 @@
                         },
                         {
                             "value": 5,
-                            "display_name": "Sensor Fusion - Quaternion"
+                            "display_name": "Sensor Fusion Quaternion"
                         },
                         {
                             "value": 6,
@@ -10733,11 +10756,11 @@
                         },
                         {
                             "value": 10,
-                            "display_name": "In-Vehicle Baby Alarm"
+                            "display_name": "InVehicle Baby Alarm"
                         },
                         {
                             "value": 11,
-                            "display_name": "Q-Touch"
+                            "display_name": "Q Touch"
                         },
                         {
                             "value": 12,
@@ -10777,12 +10800,14 @@
                         },
                         {
                             "value": 255,
-                            "display_name": "_"
+                            "display_name": "no flow in memory"
                         }
-                    ]
+                    ],
+                    "escape_message": ""
                 },
                 {
-                    "name": "Battery Status",
+                    "name": "battery_status",
+                    "type": "icon",
                     "format": "enum_icon",
                     "icon_values": [
                         {
@@ -10824,6 +10849,15 @@
             "fw_desc": "Fw supporting app creation with ST BLE Sensor app",
             "changelog": "added some adapter support + Bugs Fixing",
             "dtmi": "dtmi:appconfig:steval_mkboxprob:STSW_MKBOXPRO_Entry_Expert_Mode;1",
+            "demo_decorator": {
+                "add": [
+                    "Flow"
+                ],
+                "remove": [
+                    "STSW-MKBOXPRO Entry/Expert Mode"
+                ],
+                "rename": []
+            },
             "maturity": "draft",
             "fota": {
                 "type": "fast",
@@ -10884,8 +10918,24 @@
                     "uuid": "00000016-0002-11e1-ac36-0002a5d5c51b"
                 },
                 {
+                    "name": "Piano",
+                    "uuid": "0000001c-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
                     "name": "Event Counter",
                     "uuid": "0000001d-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "name": "Gesture Navigation",
+                    "uuid": "0000001f-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "name": "JSON NFC",
+                    "uuid": "00000020-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "name": "MEMS Normalization",
+                    "uuid": "00000021-0002-11e1-ac36-0002a5d5c51b"
                 },
                 {
                     "name": "Compass",
@@ -10894,6 +10944,10 @@
                 {
                     "name": "MEMS Sensor Fusion Compact",
                     "uuid": "00000100-0001-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "name": "SD Logging",
+                    "uuid": "00001000-0001-11e1-ac36-0002a5d5c51b"
                 },
                 {
                     "name": "Temperature",
@@ -15968,7 +16022,7 @@
             "format_notify": null
         }
     ],
-    "date": "2024-02-19 15:18:22.214065",
+    "date": "2024-02-19 16:52:28.925105",
     "version": "0.7.1",
-    "checksum": "c1c53218e2edfcd848b6b81415a9e1e5"
+    "checksum": "242cdea918ac6b50db9244969dadaad7"
 }
