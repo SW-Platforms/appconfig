@@ -2027,29 +2027,6 @@
         },
         {
             "ble_dev_id": "0x09",
-            "ble_fw_id": "0x07",
-            "option_bytes": [],
-            "brd_name": "STEVAL-STWINKT1",
-            "fw_name": "quasar",
-            "fw_version": "1.0.0",
-            "fw_desc": "low power firmware for Quasar demo; uses STREDL and sends events on BLE advertisements",
-            "changelog": "Dec 2021 demo",
-            "maturity": "demo",
-            "fota": {},
-            "cloud_apps": [
-                {
-                    "name": "quasar",
-                    "description": "Show digital twin usage; support for gateways; export data to 3D viz service",
-                    "url": "https://quasar.azureiotcentral.com/",
-                    "shareable_link": null,
-                    "dtmi": "dtmi:quasar:...",
-                    "dtmi_type": "iotc"
-                }
-            ],
-            "characteristics": []
-        },
-        {
-            "ble_dev_id": "0x09",
             "ble_fw_id": "0x08",
             "option_bytes": [
                 {
@@ -5406,7 +5383,7 @@
             "fw_version": "1.1.0",
             "fw_desc": "Fw supporting app creation with ST BLE Sensor app",
             "changelog": "added some adapter support + Bugs Fixing",
-            "dtmi": "dtmi:appconfig:steval_mkboxpro:STSW_MKBOXPRO_Entry/Expert_Mode;1",
+            "dtmi": "dtmi:appconfig:steval_mkboxpro:STSW_MKBOXPRO_Entry_Expert_Mode;1",
             "maturity": "draft",
             "fota": {
                 "type": "fast",
@@ -10846,7 +10823,7 @@
             "fw_version": "1.1.0",
             "fw_desc": "Fw supporting app creation with ST BLE Sensor app",
             "changelog": "added some adapter support + Bugs Fixing",
-            "dtmi": "dtmi:appconfig:steval_mkboxprob:STSW_MKBOXPRO_Entry/Expert_Mode;1",
+            "dtmi": "dtmi:appconfig:steval_mkboxprob:STSW_MKBOXPRO_Entry_Expert_Mode;1",
             "maturity": "draft",
             "fota": {
                 "type": "fast",
@@ -15991,7 +15968,7 @@
             "format_notify": null
         }
     ],
-    "date": "2024-02-19 09:27:26.120386",
+    "date": "2024-02-19 14:57:09.592874",
     "version": "0.7.1",
-    "checksum": "75dcf6f4481c764e0546f2d763ccacdd"
+    "checksum": "c1c53218e2edfcd848b6b81415a9e1e5"
 }

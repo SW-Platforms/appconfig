@@ -1,25 +1,25 @@
 [
   {
-    "@id": "dtmi:appconfig:steval_mkboxpro:STSW_MKBOXPRO_Entry_Expert_Mode;1",
+    "@id": "dtmi:appconfig:steval_mkboxprob:STSW_MKBOXPRO_Entry_Expert_Mode;1",
     "@type": "Interface",
     "contents": [
 	  {
-        "@id": "dtmi:appconfig:steval_mkboxpro:STSW_MKBOXPRO_Entry_Expert_Mode:SD_Log;1",
+        "@id": "dtmi:appconfig:steval_mkboxprob:STSW_MKBOXPRO_Entry_Expert_Mode:SD_Log;1",
         "@type": "Component",
         "displayName": {
           "en": "SD_Log"
         },
         "name": "sd_log",
-        "schema": "dtmi:appconfig:steval_mkboxpro:STSW_MKBOXPRO_Entry_Expert_Mode:other:SD_Log:SD_Log;1"
+        "schema": "dtmi:appconfig:steval_mkboxprob:STSW_MKBOXPRO_Entry_Expert_Mode:other:SD_Log:SD_Log;1"
       },
       {
-        "@id": "dtmi:appconfig:steval_mkboxpro:STSW_MKBOXPRO_Entry_Expert_Mode:applications_stblesensor;1",
+        "@id": "dtmi:appconfig:steval_mkboxprob:STSW_MKBOXPRO_Entry_Expert_Mode:applications_stblesensor;1",
         "@type": "Component",
         "displayName": {
           "en": "Applications ST BLE Sensor"
         },
         "name": "applications_stblesensor",
-        "schema": "dtmi:appconfig:steval_mkboxpro:STSW_MKBOXPRO_Entry_Expert_Mode:other:applications_stblesensor;1"
+        "schema": "dtmi:appconfig:steval_mkboxprob:STSW_MKBOXPRO_Entry_Expert_Mode:other:applications_stblesensor;1"
       }
     ],
     "displayName": {
@@ -35,25 +35,25 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_mkboxpro:STSW_MKBOXPRO_Entry_Expert_Mode:other:applications_stblesensor;1",
+    "@id": "dtmi:appconfig:steval_mkboxprob:STSW_MKBOXPRO_Entry_Expert_Mode:other:applications_stblesensor;1",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_mkboxpro:STSW_MKBOXPRO_Entry_Expert_Mode:other:applications_stblesensor:flow;1",
+        "@id": "dtmi:appconfig:steval_mkboxprob:STSW_MKBOXPRO_Entry_Expert_Mode:other:applications_stblesensor:flow;1",
         "@type": "Property",
         "displayName": {
           "en": "Flow"
         },
         "name": "flow",
         "schema": {
-          "@id": "dtmi:appconfig:steval_mkboxpro:STSW_MKBOXPRO_Entry_Expert_Mode:other:applications_stblesensor:flow:schema;1",
+          "@id": "dtmi:appconfig:steval_mkboxprob:STSW_MKBOXPRO_Entry_Expert_Mode:other:applications_stblesensor:flow:schema;1",
           "@type": "Object",
           "displayName": {
             "en": "Object"
           },
           "fields": [
             {
-              "@id": "dtmi:appconfig:steval_mkboxpro:STSW_MKBOXPRO_Entry_Expert_Mode:other:applications_stblesensor:flow:schema:SD_Log;1",
+              "@id": "dtmi:appconfig:steval_mkboxprob:STSW_MKBOXPRO_Entry_Expert_Mode:other:applications_stblesensor:flow:schema:SD_Log;1",
               "displayName": {
                 "en": "SD_Log"
               },
@@ -71,11 +71,11 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_mkboxpro:STSW_MKBOXPRO_Entry_Expert_Mode:other:SD_Log:SD_Log;1",
+    "@id": "dtmi:appconfig:steval_mkboxprob:STSW_MKBOXPRO_Entry_Expert_Mode:other:SD_Log:SD_Log;1",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_mkboxpro:STSW_MKBOXPRO_Entry_Expert_Mode:other:SD_Log:SD_Log:start_stop;1",
+        "@id": "dtmi:appconfig:steval_mkboxprob:STSW_MKBOXPRO_Entry_Expert_Mode:other:SD_Log:SD_Log:start_stop;1",
         "@type": "Command",
         "commandType": "synchronous",
         "displayName": {
@@ -84,7 +84,7 @@
         "name": "start_stop"
       },
 	  {
-        "@id": "dtmi:appconfig:steval_mkboxpro:STSW_MKBOXPRO_Entry_Expert_Mode:other:SD_Log:SD_Log:log_status;1",
+        "@id": "dtmi:appconfig:steval_mkboxprob:STSW_MKBOXPRO_Entry_Expert_Mode:other:SD_Log:SD_Log:log_status;1",
         "@type": [
           "Property",
           "StringValue"
@@ -97,7 +97,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_mkboxpro:STSW_MKBOXPRO_Entry_Expert_Mode:other:SD_Log:SD_Log:file_name;1",
+        "@id": "dtmi:appconfig:steval_mkboxprob:STSW_MKBOXPRO_Entry_Expert_Mode:other:SD_Log:SD_Log:file_name;1",
         "@type": [
           "Property",
           "StringValue"
