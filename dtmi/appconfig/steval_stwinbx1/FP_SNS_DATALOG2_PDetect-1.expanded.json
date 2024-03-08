@@ -178,24 +178,6 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_PDetect:sensors:vl53l8cx_tof:odr;1",
-        "@type": [
-          "Property",
-          "NumberValue",
-          "Initialized"
-        ],
-        "displayName": {
-          "en": "ODR"
-        },
-        "name": "odr",
-        "schema": "integer",
-        "unit": "hertz",
-        "writable": true,
-        "initialValue": 10,
-        "maxValue": 60,
-        "minValue": 1
-      },
-      {
         "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_PDetect:sensors:vl53l8cx_tof:resolution;1",
         "@type": [
           "Property",
@@ -217,7 +199,7 @@
               "displayName": {
                 "en": "4x4"
               },
-              "enumValue": "0",
+              "enumValue": 0,
               "name": "n4x4"
             },
             {
@@ -225,14 +207,35 @@
               "displayName": {
                 "en": "8x8"
               },
-              "enumValue": "1",
+              "enumValue": 1,
               "name": "n8x8"
             }
           ],
-          "valueSchema": "string"
+          "valueSchema": "integer"
         },
         "writable": true,
-        "initialValue": "1"
+        "initialValue": 1
+      },
+      {
+        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_PDetect:sensors:vl53l8cx_tof:odr;1",
+        "@type": [
+          "Property",
+          "NumberValue",
+          "Initialized"
+        ],
+        "description": {
+          "en": "Minimum of 1 and maximum of 15 (for 8x8 zones) or 60 (for 4x4 zones)"
+        },
+        "displayName": {
+          "en": "ODR"
+        },
+        "name": "odr",
+        "schema": "integer",
+        "unit": "hertz",
+        "writable": true,
+        "initialValue": 10,
+        "maxValue": 60,
+        "minValue": 1
       },
       {
         "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_PDetect:sensors:vl53l8cx_tof:ranging_mode;1",
@@ -256,7 +259,7 @@
               "displayName": {
                 "en": "Continuous"
               },
-              "enumValue": "0",
+              "enumValue": 0,
               "name": "continuous"
             },
             {
@@ -264,14 +267,14 @@
               "displayName": {
                 "en": "Autonomous"
               },
-              "enumValue": "1",
+              "enumValue": 1,
               "name": "autonomous"
             }
           ],
-          "valueSchema": "string"
+          "valueSchema": "integer"
         },
         "writable": true,
-        "initialValue": "0"
+        "initialValue": 0
       },
       {
         "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_PDetect:sensors:vl53l8cx_tof:integration_time;1",
@@ -281,7 +284,7 @@
           "Initialized"
         ],
         "description": {
-          "en": "{\"step\":2}"
+          "en": "time < ranging period for 4x4 mode or (4*time + 1) < ranging period for 8x8 mode. Valid only for autonomous mode"
         },
         "displayName": {
           "en": "Integration Time"
@@ -292,7 +295,7 @@
         "writable": true,
         "initialValue": 10,
         "maxValue": 1000,
-        "minValue": 0
+        "minValue": 2
       },
       {
         "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_PDetect:sensors:vl53l8cx_tof:samples_per_ts;1",
@@ -434,12 +437,37 @@
         "writable": true
       },
       {
+        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_PDetect:sensors:vd6283tx_als:exposure_time;1",
+        "@type": [
+          "Property",
+          "Initialized",
+          "NumberValue"
+        ],
+        "description": {
+          "en": "{\"step\":1600}"
+        },
+        "displayName": {
+          "en": "Exposure Time"
+        },
+        "name": "exposure_time",
+        "schema": "integer",
+        "unit": "microsecond",
+        "writable": true,
+        "decimalPlaces": 1,
+        "initialValue": 99200,
+        "maxValue": 1600000,
+        "minValue": 0
+      },
+      {
         "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_PDetect:sensors:vd6283tx_als:intermeasurement_time;1",
         "@type": [
           "Property",
           "NumberValue",
           "Initialized"
         ],
+        "description": {
+          "en": "{\"step\":20}"
+        },
         "displayName": {
           "en": "Intermeasurement Time"
         },
@@ -452,35 +480,13 @@
         "minValue": 0
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_PDetect:sensors:vd6283tx_als:exposure_time;1",
-        "@type": [
-          "Property",
-          "Initialized",
-          "NumberValue"
-        ],
-        "description": {
-          "en": "{\"step\":1.6}"
-        },
-        "displayName": {
-          "en": "Exposure Time"
-        },
-        "name": "exposure_time",
-        "schema": "double",
-        "unit": "millisecond",
-        "writable": true,
-        "decimalPlaces": 1,
-        "initialValue": 99.2,
-        "maxValue": 1600,
-        "minValue": 0
-      },
-      {
         "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_PDetect:sensors:vd6283tx_als:channel1_gain;1",
         "@type": [
           "Property",
           "Initialized"
         ],
         "displayName": {
-          "en": "Channel 1 Gain"
+          "en": "Channel 1 (Red) Gain"
         },
         "name": "channel1_gain",
         "schema": {
@@ -623,7 +629,7 @@
           "Initialized"
         ],
         "displayName": {
-          "en": "Channel 2 Gain"
+          "en": "Channel 2 (Visible) Gain"
         },
         "name": "channel2_gain",
         "schema": {
@@ -766,7 +772,7 @@
           "Initialized"
         ],
         "displayName": {
-          "en": "Channel 3 Gain"
+          "en": "Channel 3 (Blue) Gain"
         },
         "name": "channel3_gain",
         "schema": {
@@ -909,7 +915,7 @@
           "Initialized"
         ],
         "displayName": {
-          "en": "Channel 4 Gain"
+          "en": "Channel 4 (Green) Gain"
         },
         "name": "channel4_gain",
         "schema": {
@@ -1052,7 +1058,7 @@
           "Initialized"
         ],
         "displayName": {
-          "en": "Channel 5 Gain"
+          "en": "Channel 5 (IR) Gain"
         },
         "name": "channel5_gain",
         "schema": {
@@ -1195,7 +1201,7 @@
           "Initialized"
         ],
         "displayName": {
-          "en": "Channel 6 Gain"
+          "en": "Channel 6 (Clear) Gain"
         },
         "name": "channel6_gain",
         "schema": {
@@ -2093,7 +2099,7 @@
               "displayName": {
                 "en": "IPD_COMP_NONE"
               },
-              "enumValue": "0",
+              "enumValue": 0,
               "name": "ipd_comp_none"
             },
             {
@@ -2101,7 +2107,7 @@
               "displayName": {
                 "en": "IPD_COMP_LIN"
               },
-              "enumValue": "1",
+              "enumValue": 1,
               "name": "ipd_comp_lin"
             },
             {
@@ -2109,14 +2115,14 @@
               "displayName": {
                 "en": "IPD_COMP_NONLIN"
               },
-              "enumValue": "2",
+              "enumValue": 2,
               "name": "ipd_comp_nonlin"
             }
           ],
-          "valueSchema": "string"
+          "valueSchema": "integer"
         },
         "writable": true,
-        "initialValue": "2"
+        "initialValue": 2
       },
       {
         "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_PDetect:sensors:sths34pf80_tmos:sw_presence_threshold;1",

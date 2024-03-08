@@ -3596,7 +3596,10 @@
     "contents": [
       {
         "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:stts22h_temp_ext:odr;1",
-        "@type": "Property",
+        "@type": [
+          "Property",
+          "Initialized"
+        ],
         "displayName": {
           "en": "ODR"
         },
@@ -3652,7 +3655,8 @@
           "valueSchema": "integer"
         },
         "unit": "hertz",
-        "writable": true
+        "writable": true,
+        "initialValue": 4
       },
       {
         "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:stts22h_temp_ext:fs;1",
@@ -4159,7 +4163,10 @@
     "contents": [
       {
         "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:imp34dt05_mic:odr;1",
-        "@type": "Property",
+        "@type": [
+          "Property",
+          "Initialized"
+        ],
         "displayName": {
           "en": "ODR"
         },
@@ -4199,7 +4206,8 @@
           "valueSchema": "integer"
         },
         "unit": "hertz",
-        "writable": true
+        "writable": true,
+        "initialValue": 2
       },
       {
         "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:imp34dt05_mic:aop;1",
