@@ -8729,7 +8729,7 @@
                 "bootloader_type": "none",
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 0,
-                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP_SNS_DATALOG2_PDetect_2_1_0.bin",
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_PDetect_2_1_0.bin",
                 "partial_fota": 0
             },
             "cloud_apps": [],
@@ -11619,7 +11619,7 @@
                 "bootloader_type": "none",
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 0,
-                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1b/FP_SNS_DATALOG2_PDetect_2_1_0.bin",
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1b/FP-SNS-DATALOG2_PDetect_2_1_0.bin",
                 "partial_fota": 0
             },
             "cloud_apps": [],
@@ -16007,7 +16007,7 @@
             "format_notify": null
         }
     ],
-    "date": "2024-03-08 10:13:36.336481",
+    "date": "2024-03-08 13:43:26.011290",
     "version": "0.7.1",
-    "checksum": "f6bf5e8493e1a2c6a7017f305fb64ae2"
+    "checksum": "f3bd1afb345cc385b3aa31dabcb03994"
 }
