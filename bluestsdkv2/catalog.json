@@ -5441,10 +5441,6 @@
                     "uuid": "00000010-0002-11e1-ac36-0002a5d5c51b"
                 },
                 {
-                    "name": "UNUSED",
-                    "uuid": "00000012-0002-11e1-ac36-0002a5d5c51b"
-                },
-                {
                     "name": "Ext Configuration",
                     "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
                 },
@@ -10906,10 +10902,6 @@
                     "uuid": "00000010-0002-11e1-ac36-0002a5d5c51b"
                 },
                 {
-                    "name": "UNUSED",
-                    "uuid": "00000012-0002-11e1-ac36-0002a5d5c51b"
-                },
-                {
                     "name": "Ext Configuration",
                     "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
                 },
@@ -14781,13 +14773,6 @@
             "format_notify": null
         },
         {
-            "name": "UNUSED",
-            "description": "",
-            "uuid": "00000012-0002-11e1-ac36-0002a5d5c51b",
-            "dtmi_name": null,
-            "format_notify": null
-        },
-        {
             "name": "ToF Multiobject",
             "description": "Time Of Flight Multi Objects Detection",
             "uuid": "00000013-0002-11e1-ac36-0002a5d5c51b",
@@ -16022,7 +16007,7 @@
             "format_notify": null
         }
     ],
-    "date": "2024-03-08 10:02:01.786675",
+    "date": "2024-03-08 10:13:36.336481",
     "version": "0.7.1",
-    "checksum": "242cdea918ac6b50db9244969dadaad7"
+    "checksum": "f6bf5e8493e1a2c6a7017f305fb64ae2"
 }
