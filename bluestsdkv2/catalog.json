@@ -16996,8 +16996,6 @@
       "description": "IMU with ISPU Functionalities",
       "output": "ISPU Output",
       "outputs": [
-        "O1",
-        "O2",
         "O3"
       ],
       "icon": "ic_inemo",
