@@ -2199,7 +2199,7 @@
       "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
       "fw_name": "FP-SNS-DATALOG2_Datalog2",
       "fw_version": "2.1.0",
-      "maturity": "beta",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "int",
@@ -5173,7 +5173,7 @@
       "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
       "fw_name": "FP-SNS-DATALOG2_Datalog2",
       "fw_version": "2.1.0",
-      "maturity": "beta",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -8505,7 +8505,7 @@
       "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
       "fw_name": "FP-SNS-DATALOG2_Datalog2",
       "fw_version": "2.1.0",
-      "maturity": "beta",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "int",
@@ -8892,7 +8892,7 @@
       "fw_desc": "Comprehensive solution for saving data for presence detection via STEVAL-PDETECT1 expansion board",
       "fw_name": "FP-SNS-DATALOG2_PDetect",
       "fw_version": "2.1.0",
-      "maturity": "beta",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "int",
@@ -10211,7 +10211,7 @@
       "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
       "fw_name": "FP-SNS-DATALOG2_Datalog2",
       "fw_version": "2.1.0",
-      "maturity": "beta",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -11618,7 +11618,7 @@
       "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
       "fw_name": "FP-SNS-DATALOG2_Datalog2",
       "fw_version": "2.1.0",
-      "maturity": "beta",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "int",
@@ -12005,7 +12005,7 @@
       "fw_desc": "Comprehensive solution for saving data for presence detection via STEVAL-PDETECT1 expansion board",
       "fw_name": "FP-SNS-DATALOG2_PDetect",
       "fw_version": "2.1.0",
-      "maturity": "beta",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "int",
@@ -17236,7 +17236,7 @@
       }
     }
   ],
-  "checksum": "75dcf6f4481c764e0546f2d763ccacdd",
-  "date": "2024-02-19 09:27:26.120386",
+  "checksum": "5bc26db4cc8ead41db016cceb0ec200c",
+  "date": "2024-03-12 10:37:52.928752",
   "version": "0.7.1"
 }
