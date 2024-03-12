@@ -2253,7 +2253,14 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Maintenance and product update",
             "dtmi": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2;2",
-            "maturity": "beta",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2"
+                ],
+                "rename": []
+            },
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -5167,7 +5174,14 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Maintenance and product update",
             "dtmi": "dtmi:appconfig:steval_mkboxpro:FP_SNS_DATALOG2_Datalog2;4",
-            "maturity": "beta",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2"
+                ],
+                "rename": []
+            },
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -8339,6 +8353,13 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Maintenance and product update",
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2;5",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2"
+                ],
+                "rename": []
+            },
             "maturity": "beta",
             "fota": {
                 "type": "fast",
@@ -8723,7 +8744,14 @@
             "fw_desc": "Comprehensive solution for saving data for presence detection via STEVAL-PDETECT1 expansion board",
             "changelog": "New application",
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_PDetect;1",
-            "maturity": "beta",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_PDetect"
+                ],
+                "rename": []
+            },
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -9978,7 +10006,14 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Maintenance and product update",
             "dtmi": "dtmi:appconfig:steval_mkboxprob:FP_SNS_DATALOG2_Datalog2;4",
-            "maturity": "beta",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2"
+                ],
+                "rename": []
+            },
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -11229,7 +11264,14 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Maintenance and product update",
             "dtmi": "dtmi:appconfig:steval_stwinbx1b:FP_SNS_DATALOG2_Datalog2;5",
-            "maturity": "beta",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2"
+                ],
+                "rename": []
+            },
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -11613,7 +11655,14 @@
             "fw_desc": "Comprehensive solution for saving data for presence detection via STEVAL-PDETECT1 expansion board",
             "changelog": "New application",
             "dtmi": "dtmi:appconfig:steval_stwinbx1b:FP_SNS_DATALOG2_PDetect;1",
-            "maturity": "beta",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_PDetect"
+                ],
+                "rename": []
+            },
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -16007,7 +16056,7 @@
             "format_notify": null
         }
     ],
-    "date": "2024-03-11 09:36:56.259756",
+    "date": "2024-03-12 10:37:52.928752",
     "version": "0.7.1",
-    "checksum": "f3bd1afb345cc385b3aa31dabcb03994"
+    "checksum": "5bc26db4cc8ead41db016cceb0ec200c"
 }
