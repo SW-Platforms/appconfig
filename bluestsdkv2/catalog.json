@@ -15614,11 +15614,11 @@
       "uuid": "00000023-0002-11e1-ac36-0002a5d5c51b"
     },
     {
-    "name": "NEAI Extrapolation",
-    "description": "NanoEdge AI Extrapolation",
-    "uuid": "00000024-0002-11e1-ac36-0002a5d5c51b",
-    "dtmi_name": null,
-    "format_notify": null
+      "name": "NEAI Extrapolation",
+      "description": "NanoEdge AI Extrapolation",
+      "uuid": "00000024-0002-11e1-ac36-0002a5d5c51b",
+      "dtmi_name": null,
+      "format_notify": null
     },
     {
       "description": "Compass",
@@ -17239,6 +17239,31 @@
         "fullScale": 4000,
         "acquisitionTime": 0
       }
+    },
+    {
+      "unique_id": 16,
+      "id": "D16",
+      "description": "IMU with MLC",
+      "output": "MLC Output",
+      "outputs": [
+        "O1",
+        "O2",
+        "O3"
+      ],
+      "configuration": {
+        "regConfig": "",
+        "mlcLabels": "",
+        "ucfFilename": ""
+      },
+      "icon": "ic_inemo",
+      "dataType": "uint8_t vector x8",
+      "model": "LSM6DSV32X",
+      "board_compatibility": [
+        "SENSOR_TILE_BOX_PRO",
+        "SENSOR_TILE_BOX_PROB"
+      ],
+      "datasheetLink": "https://www.st.com/resource/en/data_brief/lsm6dsv32x.pdf",
+      "um": ""
     }
   ],
   "checksum": "dfbe5e69e763f60990e21ae02e368069",
