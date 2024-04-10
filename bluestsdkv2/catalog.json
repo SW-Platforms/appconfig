@@ -2130,7 +2130,7 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Patch release: fixed spts update in load_ucf",
             "dtmi": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2;2",
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -5549,7 +5549,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -5718,7 +5718,7 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Patch release: fixed spts update in load_ucf",
             "dtmi": "dtmi:appconfig:steval_mkboxpro:FP_SNS_DATALOG2_Datalog2;4",
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -6136,7 +6136,7 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Patch release: fixed spts update in load_ucf",
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2;5",
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -6655,7 +6655,7 @@
             "fw_desc": "Comprehensive solution for saving data for presence detection via STEVAL-PDETECT1 expansion board",
             "changelog": "Patch release: reshaped ToF and TMOS sensor init, TMOS sw library init and fixed odr/TObj dependency",
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_PDetect;1",
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -10169,7 +10169,7 @@
                     }
                 ]
             },
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "wb_mode",
                 "bootloader_type": "wb",
@@ -11574,7 +11574,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -11747,7 +11747,7 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Patch release: fixed spts update in load_ucf",
             "dtmi": "dtmi:appconfig:steval_mkboxprob:FP_SNS_DATALOG2_Datalog2;4",
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -12574,7 +12574,7 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Patch release: fixed spts update in load_ucf",
             "dtmi": "dtmi:appconfig:steval_stwinbx1b:FP_SNS_DATALOG2_Datalog2;5",
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -12716,7 +12716,7 @@
             "fw_desc": "Comprehensive solution for saving data for presence detection via STEVAL-PDETECT1 expansion board",
             "changelog": "Patch release: reshaped ToF and TMOS sensor init, TMOS sw library init and fixed odr/TObj dependency",
             "dtmi": "dtmi:appconfig:steval_stwinbx1b:FP_SNS_DATALOG2_PDetect;1",
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -17117,7 +17117,7 @@
             "format_notify": null
         }
     ],
-    "date": "2024-04-10 12:48:23.133683",
+    "date": "2024-04-10 13:45:33.424584",
     "version": "0.7.1",
-    "checksum": "03f98637e66c866c2f7080faf74410ed"
+    "checksum": "03730dfe7436e672ca81438026b01544"
 }
