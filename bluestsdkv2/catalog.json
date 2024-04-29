@@ -6179,7 +6179,7 @@
         "rename": []
       },
       "dtmi": "dtmi:appconfig:steval_mkboxpro:STSW_MKBOXPRO_Entry_Expert_Mode;1",
-      "maturity": "draft",
+      "maturity": "release",
       "fota": {
         "type": "fast",
         "bootloader_type": "none",
@@ -12752,7 +12752,7 @@
         "rename": []
       },
       "dtmi": "dtmi:appconfig:steval_mkboxprob:STSW_MKBOXPRO_Entry_Expert_Mode;1",
-      "maturity": "draft",
+      "maturity": "release",
       "fota": {
         "type": "fast",
         "bootloader_type": "none",
