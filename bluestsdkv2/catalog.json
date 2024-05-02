@@ -5949,7 +5949,7 @@
             "fw_desc": "Fw supporting app creation with ST BLE Sensor app",
             "changelog": "Support for MLC on 32x + bug fixes",
             "dtmi": "dtmi:appconfig:steval_mkboxpro:STSW_MKBOXPRO_Entry_Expert_Mode;1",
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -11899,7 +11899,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -17764,7 +17764,7 @@
             "format_notify": null
         }
     ],
-    "date": "2024-04-29 14:01:35.328369",
+    "date": "2024-05-02 07:33:17.598419",
     "version": "0.7.1",
-    "checksum": "56b2aaeaa3736a71c97e5bf3f81304cb"
+    "checksum": "90d3662ea1910270ed792d1436594ff0"
 }
