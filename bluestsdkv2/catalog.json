@@ -15783,6 +15783,23 @@
             "description": "Discovery Kit WBA",
             "documentation_url": null,
             "components": []
+        },
+        {
+            "release_date": null,
+            "brd_variant": "STM32WB09",
+            "brd_part": "STM32WB09",
+            "brd_name": "STM32WB09",
+            "friendly_name": "WB09 Ultra-Low-Power",
+            "ble_dev_id": "0x8D",
+            "nfc_dev_id": null,
+            "usb_dev_id": null,
+            "video_url": null,
+            "order_url": null,
+            "unique_dev_id": 37,
+            "status": "ACTIVE",
+            "description": "Ultra-low-power, Arm Cortex-M0+ MCU 64 MHz with 512 Kbytes of Flash memory, Bluetooth LE 5.3",
+            "documentation_url": "https://www.st.com/en/microcontrollers-microprocessors/stm32wb0-series.html",
+            "components": []
         }
     ],
     "characteristics": [
@@ -17764,7 +17781,7 @@
             "format_notify": null
         }
     ],
-    "date": "2024-05-03 10:03:27.202635",
-    "version": "0.7.1",
-    "checksum": "fdcfb83e62840417c015e14b5806f64c"
+    "date": "2024-05-08 07:15:50.441616",
+    "version": "0.7.2",
+    "checksum": "ccf036ee0a62f12cbd8d35660851d322"
 }
