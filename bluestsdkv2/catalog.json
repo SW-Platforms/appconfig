@@ -16235,6 +16235,23 @@
       "unique_dev_id": 28,
       "usb_dev_id": null,
       "video_url": "https://www.youtube.com/watch?v=2RmIAYp0obw"
+    },
+    {
+      "release_date": null,
+      "brd_variant": "STM32WB09",
+      "brd_part": "STM32WB09",
+      "brd_name": "STM32WB09",
+      "friendly_name": "WB09 Ultra-Low-Power",
+      "ble_dev_id": "0x8D",
+      "nfc_dev_id": null,
+      "usb_dev_id": null,
+      "video_url": null,
+      "order_url": null,
+      "unique_dev_id": 37,
+      "status": "ACTIVE",
+      "description": "Ultra-low-power, Arm Cortex-M0+ MCU 64 MHz with 512 Kbytes of Flash memory, Bluetooth LE 5.3",
+      "documentation_url": "https://www.st.com/en/microcontrollers-microprocessors/stm32wb0-series.html",
+      "components": []
     }
   ],
   "characteristics": [
