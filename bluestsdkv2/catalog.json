@@ -10612,6 +10612,7 @@
             "fw_desc": "Anomaly Detection, Classification and Extrapolation by NEAI based on ThreadX OS.",
             "changelog": "Added NEAI Extrapolation libraries support.",
             "dtmi": "dtmi:appconfig:steval_proteus1:FP_AI_PDMWBSOC2;2",
+            "maturity": "draft",
             "fota": {
                 "type": "wb_mode",
                 "bootloader_type": "wb",
@@ -10620,7 +10621,16 @@
                 "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-proteus1/FP-AI-PDMWBSOC2_2_0_0.bin",
                 "partial_fota": 0
             },
-            "cloud_apps": [],
+            "cloud_apps": [
+                {
+                    "name": "Proteus development",
+                    "description": "PROTEUS-POC2",
+                    "url": "https://proteus-poc2.azureiotcentral.com",
+                    "shareable_link": "https://apps.azureiotcentral.com/build/new/963412e1-0394-4a6b-b22e-b266dcb9e4cc",
+                    "dtmi": "dtmi:proteusPoc2:pdmwbsoc2_cloud;1",
+                    "dtmi_type": "iotc"
+                }
+            ],
             "characteristics": [
                 {
                     "name": "Ext Configuration",
@@ -10725,6 +10735,7 @@
             "fw_desc": "Anomaly Detection, Classification and Extrapolation by NEAI based on ThreadX OS.",
             "changelog": "Added NEAI Extrapolation libraries support.",
             "dtmi": "dtmi:appconfig:steval_proteus1:FP_AI_PDMWBSOC2;2",
+            "maturity": "draft",
             "fota": {
                 "type": "wb_mode",
                 "bootloader_type": "wb",
@@ -10733,7 +10744,262 @@
                 "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-proteus1/FP-AI-PDMWBSOC2_2_0_0.bin",
                 "partial_fota": 0
             },
-            "cloud_apps": [],
+            "cloud_apps": [
+                {
+                    "name": "Proteus development",
+                    "description": "PROTEUS-POC2",
+                    "url": "https://proteus-poc2.azureiotcentral.com",
+                    "shareable_link": "https://apps.azureiotcentral.com/build/new/963412e1-0394-4a6b-b22e-b266dcb9e4cc",
+                    "dtmi": "dtmi:proteusPoc2:pdmwbsoc2_cloud;1",
+                    "dtmi_type": "iotc"
+                }
+            ],
+            "characteristics": [
+                {
+                    "name": "Ext Configuration",
+                    "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "name": "NEAI AD",
+                    "uuid": "00000019-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "name": "NEAI Classification",
+                    "uuid": "0000001a-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "name": "PnPLike",
+                    "uuid": "0000001b-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "name": "NEAI Extrapolation",
+                    "uuid": "00000024-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "name": "RebootOTAModeFeature",
+                    "uuid": "0000fe11-8e22-4541-9d4c-21edae82ed19"
+                },
+                {
+                    "name": "Battery",
+                    "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b"
+                }
+            ]
+        },
+        {
+            "ble_dev_id": "0x0F",
+            "ble_fw_id": "0x09",
+            "option_bytes": [
+                {
+                    "name": "Neai Phase  :",
+                    "type": "string",
+                    "format": "enum_string",
+                    "string_values": [
+                        {
+                            "value": 0,
+                            "display_name": "Idle"
+                        },
+                        {
+                            "value": 1,
+                            "display_name": "Learning"
+                        },
+                        {
+                            "value": 2,
+                            "display_name": "Detecting"
+                        },
+                        {
+                            "value": 3,
+                            "display_name": "Idle Trained"
+                        },
+                        {
+                            "value": 4,
+                            "display_name": "Classifying"
+                        },
+                        {
+                            "value": 5,
+                            "display_name": "Extrapolating"
+                        }
+                    ]
+                },
+                {
+                    "name": "Neai Status",
+                    "type": "icon",
+                    "format": "enum_icon",
+                    "icon_values": [
+                        {
+                            "value": 0,
+                            "comment": "Normal",
+                            "icon_code": 7
+                        },
+                        {
+                            "value": 1,
+                            "comment": "Anomaly",
+                            "icon_code": 5
+                        },
+                        {
+                            "value": 255,
+                            "comment": "Hidden",
+                            "icon_code": 255
+                        }
+                    ]
+                },
+                {
+                    "name": "Battery Level: ",
+                    "type": "%",
+                    "format": "int",
+                    "escape_value": 255,
+                    "scale_factor": 1,
+                    "escape_message": "",
+                    "negative_offset": 0
+                }
+            ],
+            "brd_name": "STEVAL-PROTEUS1",
+            "fw_name": "FP-AI-PDMWBSOC2",
+            "fw_version": "2.0.0",
+            "fw_desc": "Anomaly Detection, Classification and Extrapolation by NEAI based on ThreadX OS.",
+            "changelog": "Added NEAI Extrapolation libraries support.",
+            "dtmi": "dtmi:appconfig:steval_proteus1:FP_AI_PDMWBSOC2;2",
+            "maturity": "draft",
+            "fota": {
+                "type": "wb_mode",
+                "bootloader_type": "wb",
+                "max_chunk_length": 0,
+                "max_divisor_constraint": 0,
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-proteus1/FP-AI-PDMWBSOC2_2_0_0.bin",
+                "partial_fota": 0
+            },
+            "cloud_apps": [
+                {
+                    "name": "Proteus development",
+                    "description": "PROTEUS-POC2",
+                    "url": "https://proteus-poc2.azureiotcentral.com",
+                    "shareable_link": "https://apps.azureiotcentral.com/build/new/963412e1-0394-4a6b-b22e-b266dcb9e4cc",
+                    "dtmi": "dtmi:proteusPoc2:pdmwbsoc2_cloud;1",
+                    "dtmi_type": "iotc"
+                }
+            ],
+            "characteristics": [
+                {
+                    "name": "Ext Configuration",
+                    "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "name": "NEAI AD",
+                    "uuid": "00000019-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "name": "NEAI Classification",
+                    "uuid": "0000001a-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "name": "PnPLike",
+                    "uuid": "0000001b-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "name": "NEAI Extrapolation",
+                    "uuid": "00000024-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "name": "RebootOTAModeFeature",
+                    "uuid": "0000fe11-8e22-4541-9d4c-21edae82ed19"
+                },
+                {
+                    "name": "Battery",
+                    "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b"
+                }
+            ]
+        },
+        {
+            "ble_dev_id": "0x0F",
+            "ble_fw_id": "0x0A",
+            "option_bytes": [
+                {
+                    "name": "Neai Phase:",
+                    "type": "string",
+                    "format": "enum_string",
+                    "string_values": [
+                        {
+                            "value": 0,
+                            "display_name": "Idle"
+                        },
+                        {
+                            "value": 1,
+                            "display_name": "Learning"
+                        },
+                        {
+                            "value": 2,
+                            "display_name": "Detecting"
+                        },
+                        {
+                            "value": 3,
+                            "display_name": "Idle Trained"
+                        },
+                        {
+                            "value": 4,
+                            "display_name": "Classifying"
+                        },
+                        {
+                            "value": 5,
+                            "display_name": "Extrapolating"
+                        }
+                    ]
+                },
+                {
+                    "name": "Neai Status",
+                    "type": "icon",
+                    "format": "enum_icon",
+                    "icon_values": [
+                        {
+                            "value": 0,
+                            "comment": "Normal",
+                            "icon_code": 7
+                        },
+                        {
+                            "value": 1,
+                            "comment": "Anomaly",
+                            "icon_code": 5
+                        },
+                        {
+                            "value": 255,
+                            "comment": "Hidden",
+                            "icon_code": 255
+                        }
+                    ]
+                },
+                {
+                    "name": "Battery Level: ",
+                    "type": "%",
+                    "format": "int",
+                    "escape_value": 255,
+                    "scale_factor": 1,
+                    "escape_message": "",
+                    "negative_offset": 0
+                }
+            ],
+            "brd_name": "STEVAL-PROTEUS1",
+            "fw_name": "FP-AI-PDMWBSOC2",
+            "fw_version": "2.0.0",
+            "fw_desc": "Anomaly Detection, Classification and Extrapolation by NEAI based on ThreadX OS.",
+            "changelog": "Added NEAI Extrapolation libraries support.",
+            "dtmi": "dtmi:appconfig:steval_proteus1:FP_AI_PDMWBSOC2;2",
+            "maturity": "draft",
+            "fota": {
+                "type": "wb_mode",
+                "bootloader_type": "wb",
+                "max_chunk_length": 0,
+                "max_divisor_constraint": 0,
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-proteus1/FP-AI-PDMWBSOC2_2_0_0.bin",
+                "partial_fota": 0
+            },
+            "cloud_apps": [
+                {
+                    "name": "Proteus development",
+                    "description": "PROTEUS-POC2",
+                    "url": "https://proteus-poc2.azureiotcentral.com",
+                    "shareable_link": "https://apps.azureiotcentral.com/build/new/963412e1-0394-4a6b-b22e-b266dcb9e4cc",
+                    "dtmi": "dtmi:proteusPoc2:pdmwbsoc2_cloud;1",
+                    "dtmi_type": "iotc"
+                }
+            ],
             "characteristics": [
                 {
                     "name": "Ext Configuration",
@@ -18007,7 +18273,7 @@
             "format_notify": null
         }
     ],
-    "date": "2024-05-08 15:02:10.766849",
-    "version": "0.7.1",
-    "checksum": "fd2920fc913e209e1929a4d494bc1644"
+    "date": "2024-05-10 13:10:34.494906",
+    "version": "0.7.2",
+    "checksum": "cfbbecc1de8eb3bfa55193d5071ba190"
 }
