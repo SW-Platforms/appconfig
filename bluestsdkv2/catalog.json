@@ -2938,6 +2938,148 @@
             ]
         },
         {
+            "ble_dev_id": "0x09",
+            "ble_fw_id": "0x0E",
+            "option_bytes": [
+                {
+                    "name": "battery:",
+                    "type": "%",
+                    "format": "int",
+                    "scale_factor": 1,
+                    "negative_offset": 0
+                },
+                {
+                    "name": "alarm:",
+                    "type": "string",
+                    "format": "enum_string",
+                    "string_values": [
+                        {
+                            "value": 0,
+                            "display_name": "No Alarm"
+                        },
+                        {
+                            "value": 1,
+                            "display_name": "Battery Charging"
+                        },
+                        {
+                            "value": 2,
+                            "display_name": "No Battery"
+                        },
+                        {
+                            "value": 3,
+                            "display_name": "Logging Ongoing"
+                        },
+                        {
+                            "value": 4,
+                            "display_name": "Low Battery"
+                        },
+                        {
+                            "value": 5,
+                            "display_name": "Missing SD Card"
+                        },
+                        {
+                            "value": 6,
+                            "display_name": "SD Card Full"
+                        }
+                    ]
+                },
+                {
+                    "name": "status",
+                    "type": "icon",
+                    "format": "enum_icon",
+                    "icon_values": [
+                        {
+                            "value": 0,
+                            "comment": "USB Plug, No Battery",
+                            "icon_code": 18
+                        },
+                        {
+                            "value": 1,
+                            "comment": "USB Plug, Battery in charge",
+                            "icon_code": 3
+                        },
+                        {
+                            "value": 2,
+                            "comment": "Battery",
+                            "icon_code": 1
+                        },
+                        {
+                            "value": 3,
+                            "comment": "icon for Log ongoing",
+                            "icon_code": 10
+                        },
+                        {
+                            "value": 4,
+                            "comment": "icon for low battery",
+                            "icon_code": 0
+                        },
+                        {
+                            "value": 5,
+                            "comment": "icon for Missing SD Card",
+                            "icon_code": 5
+                        },
+                        {
+                            "value": 6,
+                            "comment": "icon for SD Card full",
+                            "icon_code": 11
+                        },
+                        {
+                            "value": 7,
+                            "comment": "icon for full battery",
+                            "icon_code": 2
+                        },
+                        {
+                            "value": 8,
+                            "comment": "icon for error",
+                            "icon_code": 6
+                        }
+                    ]
+                }
+            ],
+            "brd_name": "STEVAL-STWINKT1",
+            "fw_name": "FP-SNS-DATALOG2_Datalog2",
+            "fw_version": "2.2.0",
+            "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
+            "changelog": "Improved sensor_manager and PnPL, code cleaning and fix",
+            "dtmi": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2;2",
+            "maturity": "draft",
+            "fota": {
+                "type": "fast",
+                "bootloader_type": "none",
+                "max_chunk_length": 0,
+                "max_divisor_constraint": 8,
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinkt1b/FP-SNS-DATALOG2_Datalog2_2_2_0.bin",
+                "partial_fota": 0
+            },
+            "cloud_apps": [],
+            "characteristics": [
+                {
+                    "name": "Debug Console stdin/stdout",
+                    "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
+                },
+                {
+                    "name": "Debug Console stderr",
+                    "uuid": "00000002-000E-11e1-9ab4-0002a5d5c51b"
+                },
+                {
+                    "name": "Machine Learning Core",
+                    "uuid": "0000000f-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "name": "HS Datalog Config",
+                    "uuid": "00000011-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "name": "Ext Configuration",
+                    "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "name": "PnPLike",
+                    "uuid": "0000001b-0002-11e1-ac36-0002a5d5c51b"
+                }
+            ]
+        },
+        {
             "ble_dev_id": "0x0C",
             "ble_fw_id": "0x01",
             "option_bytes": [
@@ -6063,6 +6205,95 @@
                 {
                     "name": "Switch",
                     "uuid": "20000000-0001-11e1-ac36-0002a5d5c51b"
+                }
+            ]
+        },
+        {
+            "ble_dev_id": "0x0D",
+            "ble_fw_id": "0x18",
+            "option_bytes": [
+                {
+                    "name": "alarm:",
+                    "type": "string",
+                    "format": "enum_string",
+                    "string_values": [
+                        {
+                            "value": 0,
+                            "display_name": "No Alarm"
+                        },
+                        {
+                            "value": 1,
+                            "display_name": "Missing SD Card"
+                        },
+                        {
+                            "value": 2,
+                            "display_name": "Logging Ongoing"
+                        }
+                    ]
+                },
+                {
+                    "name": "status",
+                    "type": "icon",
+                    "format": "enum_icon",
+                    "icon_values": [
+                        {
+                            "value": 0,
+                            "comment": "No Alarm",
+                            "icon_code": 7
+                        },
+                        {
+                            "value": 1,
+                            "comment": "icon for Missing SD Card",
+                            "icon_code": 5
+                        },
+                        {
+                            "value": 2,
+                            "comment": "icon for Log ongoing",
+                            "icon_code": 10
+                        }
+                    ]
+                }
+            ],
+            "brd_name": "STEVAL-MKBOXPRO",
+            "fw_name": "FP-SNS-DATALOG2_Datalog2",
+            "fw_version": "2.2.0",
+            "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
+            "changelog": "Improved sensor_manager and PnPL, code cleaning and fix",
+            "dtmi": "dtmi:appconfig:steval_mkboxpro:FP_SNS_DATALOG2_Datalog2;5",
+            "maturity": "draft",
+            "fota": {
+                "type": "fast",
+                "bootloader_type": "none",
+                "max_chunk_length": 0,
+                "max_divisor_constraint": 0,
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-DATALOG2_Datalog2_2_2_0.bin",
+                "partial_fota": 0
+            },
+            "cloud_apps": [],
+            "characteristics": [
+                {
+                    "name": "Debug Console stdin/stdout",
+                    "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
+                },
+                {
+                    "name": "Debug Console stderr",
+                    "uuid": "00000002-000E-11e1-9ab4-0002a5d5c51b"
+                },
+                {
+                    "name": "Machine Learning Core",
+                    "uuid": "0000000f-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "name": "HS Datalog Config",
+                    "uuid": "00000011-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "name": "Ext Configuration",
+                    "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "name": "PnPLike",
+                    "uuid": "0000001b-0002-11e1-ac36-0002a5d5c51b"
                 }
             ]
         },
@@ -9795,6 +10026,286 @@
             ]
         },
         {
+            "ble_dev_id": "0x0E",
+            "ble_fw_id": "0x23",
+            "option_bytes": [
+                {
+                    "name": "battery:",
+                    "type": "%",
+                    "format": "int",
+                    "scale_factor": 1,
+                    "negative_offset": 0
+                },
+                {
+                    "name": "alarm:",
+                    "type": "string",
+                    "format": "enum_string",
+                    "string_values": [
+                        {
+                            "value": 0,
+                            "display_name": "No Alarm"
+                        },
+                        {
+                            "value": 1,
+                            "display_name": "Battery Charging"
+                        },
+                        {
+                            "value": 2,
+                            "display_name": "No Battery"
+                        },
+                        {
+                            "value": 3,
+                            "display_name": "Logging Ongoing"
+                        },
+                        {
+                            "value": 4,
+                            "display_name": "Low Battery"
+                        },
+                        {
+                            "value": 5,
+                            "display_name": "Missing SD Card"
+                        },
+                        {
+                            "value": 6,
+                            "display_name": "SD Card Full"
+                        }
+                    ]
+                },
+                {
+                    "name": "status",
+                    "type": "icon",
+                    "format": "enum_icon",
+                    "icon_values": [
+                        {
+                            "value": 0,
+                            "comment": "USB Plug, No Battery",
+                            "icon_code": 18
+                        },
+                        {
+                            "value": 1,
+                            "comment": "USB Plug, Battery in charge",
+                            "icon_code": 3
+                        },
+                        {
+                            "value": 2,
+                            "comment": "Battery",
+                            "icon_code": 1
+                        },
+                        {
+                            "value": 3,
+                            "comment": "icon for Log ongoing",
+                            "icon_code": 10
+                        },
+                        {
+                            "value": 4,
+                            "comment": "icon for low battery",
+                            "icon_code": 0
+                        },
+                        {
+                            "value": 5,
+                            "comment": "icon for Missing SD Card",
+                            "icon_code": 5
+                        },
+                        {
+                            "value": 6,
+                            "comment": "icon for SD Card full",
+                            "icon_code": 11
+                        },
+                        {
+                            "value": 7,
+                            "comment": "icon for full battery",
+                            "icon_code": 2
+                        },
+                        {
+                            "value": 8,
+                            "comment": "icon for error",
+                            "icon_code": 6
+                        }
+                    ]
+                }
+            ],
+            "brd_name": "STEVAL-STWINBX1",
+            "fw_name": "FP-SNS-DATALOG2_Datalog2",
+            "fw_version": "2.2.0",
+            "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
+            "changelog": "Improved sensor_manager and PnPL, code cleaning and fix",
+            "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2;6",
+            "maturity": "draft",
+            "fota": {
+                "type": "fast",
+                "bootloader_type": "none",
+                "max_chunk_length": 0,
+                "max_divisor_constraint": 0,
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_Datalog2_2_2_0.bin",
+                "partial_fota": 0
+            },
+            "cloud_apps": [],
+            "characteristics": [
+                {
+                    "name": "Debug Console stdin/stdout",
+                    "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
+                },
+                {
+                    "name": "Debug Console stderr",
+                    "uuid": "00000002-000E-11e1-9ab4-0002a5d5c51b"
+                },
+                {
+                    "name": "Machine Learning Core",
+                    "uuid": "0000000f-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "name": "HS Datalog Config",
+                    "uuid": "00000011-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "name": "Ext Configuration",
+                    "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "name": "PnPLike",
+                    "uuid": "0000001b-0002-11e1-ac36-0002a5d5c51b"
+                }
+            ]
+        },
+        {
+            "ble_dev_id": "0x0E",
+            "ble_fw_id": "0x24",
+            "option_bytes": [
+                {
+                    "name": "battery:",
+                    "type": "%",
+                    "format": "int",
+                    "scale_factor": 1,
+                    "negative_offset": 0
+                },
+                {
+                    "name": "alarm:",
+                    "type": "string",
+                    "format": "enum_string",
+                    "string_values": [
+                        {
+                            "value": 0,
+                            "display_name": "No Alarm"
+                        },
+                        {
+                            "value": 1,
+                            "display_name": "Battery Charging"
+                        },
+                        {
+                            "value": 2,
+                            "display_name": "No Battery"
+                        },
+                        {
+                            "value": 3,
+                            "display_name": "Logging Ongoing"
+                        },
+                        {
+                            "value": 4,
+                            "display_name": "Low Battery"
+                        },
+                        {
+                            "value": 5,
+                            "display_name": "Missing SD Card"
+                        },
+                        {
+                            "value": 6,
+                            "display_name": "SD Card Full"
+                        }
+                    ]
+                },
+                {
+                    "name": "status",
+                    "type": "icon",
+                    "format": "enum_icon",
+                    "icon_values": [
+                        {
+                            "value": 0,
+                            "comment": "USB Plug, No Battery",
+                            "icon_code": 18
+                        },
+                        {
+                            "value": 1,
+                            "comment": "USB Plug, Battery in charge",
+                            "icon_code": 3
+                        },
+                        {
+                            "value": 2,
+                            "comment": "Battery",
+                            "icon_code": 1
+                        },
+                        {
+                            "value": 3,
+                            "comment": "icon for Log ongoing",
+                            "icon_code": 10
+                        },
+                        {
+                            "value": 4,
+                            "comment": "icon for low battery",
+                            "icon_code": 0
+                        },
+                        {
+                            "value": 5,
+                            "comment": "icon for Missing SD Card",
+                            "icon_code": 5
+                        },
+                        {
+                            "value": 6,
+                            "comment": "icon for SD Card full",
+                            "icon_code": 11
+                        },
+                        {
+                            "value": 7,
+                            "comment": "icon for full battery",
+                            "icon_code": 2
+                        },
+                        {
+                            "value": 8,
+                            "comment": "icon for error",
+                            "icon_code": 6
+                        }
+                    ]
+                }
+            ],
+            "brd_name": "STEVAL-STWINBX1",
+            "fw_name": "FP-SNS-DATALOG2_PDetect",
+            "fw_version": "2.2.0",
+            "fw_desc": "Comprehensive solution for saving data for presence detection via STEVAL-PDETECT1 expansion board",
+            "changelog": "Allow data saving from up to 3 PDETECT boards. Improved sensor_manager and PnPL, code cleaning and fix",
+            "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_PDetect;2",
+            "maturity": "draft",
+            "fota": {
+                "type": "fast",
+                "bootloader_type": "none",
+                "max_chunk_length": 0,
+                "max_divisor_constraint": 0,
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_PDetect_2_2_0.bin",
+                "partial_fota": 0
+            },
+            "cloud_apps": [],
+            "characteristics": [
+                {
+                    "name": "Debug Console stdin/stdout",
+                    "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
+                },
+                {
+                    "name": "Debug Console stderr",
+                    "uuid": "00000002-000E-11e1-9ab4-0002a5d5c51b"
+                },
+                {
+                    "name": "HS Datalog Config",
+                    "uuid": "00000011-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "name": "Ext Configuration",
+                    "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "name": "PnPLike",
+                    "uuid": "0000001b-0002-11e1-ac36-0002a5d5c51b"
+                }
+            ]
+        },
+        {
             "ble_dev_id": "0x0F",
             "ble_fw_id": "0x01",
             "option_bytes": [
@@ -12537,6 +13048,95 @@
                 {
                     "name": "Switch",
                     "uuid": "20000000-0001-11e1-ac36-0002a5d5c51b"
+                }
+            ]
+        },
+        {
+            "ble_dev_id": "0x11",
+            "ble_fw_id": "0x0F",
+            "option_bytes": [
+                {
+                    "name": "alarm:",
+                    "type": "string",
+                    "format": "enum_string",
+                    "string_values": [
+                        {
+                            "value": 0,
+                            "display_name": "No Alarm"
+                        },
+                        {
+                            "value": 1,
+                            "display_name": "Missing SD Card"
+                        },
+                        {
+                            "value": 2,
+                            "display_name": "Logging Ongoing"
+                        }
+                    ]
+                },
+                {
+                    "name": "status",
+                    "type": "icon",
+                    "format": "enum_icon",
+                    "icon_values": [
+                        {
+                            "value": 0,
+                            "comment": "No Alarm",
+                            "icon_code": 7
+                        },
+                        {
+                            "value": 1,
+                            "comment": "icon for Missing SD Card",
+                            "icon_code": 5
+                        },
+                        {
+                            "value": 2,
+                            "comment": "icon for Log ongoing",
+                            "icon_code": 10
+                        }
+                    ]
+                }
+            ],
+            "brd_name": "STEVAL-MKBOXPRO",
+            "fw_name": "FP-SNS-DATALOG2_Datalog2",
+            "fw_version": "2.2.0",
+            "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
+            "changelog": "Improved sensor_manager and PnPL, code cleaning and fix",
+            "dtmi": "dtmi:appconfig:steval_mkboxprob:FP_SNS_DATALOG2_Datalog2;5",
+            "maturity": "draft",
+            "fota": {
+                "type": "fast",
+                "bootloader_type": "none",
+                "max_chunk_length": 0,
+                "max_divisor_constraint": 0,
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-DATALOG2_Datalog2_2_2_0.bin",
+                "partial_fota": 0
+            },
+            "cloud_apps": [],
+            "characteristics": [
+                {
+                    "name": "Debug Console stdin/stdout",
+                    "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
+                },
+                {
+                    "name": "Debug Console stderr",
+                    "uuid": "00000002-000E-11e1-9ab4-0002a5d5c51b"
+                },
+                {
+                    "name": "Machine Learning Core",
+                    "uuid": "0000000f-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "name": "HS Datalog Config",
+                    "uuid": "00000011-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "name": "Ext Configuration",
+                    "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "name": "PnPLike",
+                    "uuid": "0000001b-0002-11e1-ac36-0002a5d5c51b"
                 }
             ]
         },
@@ -17904,7 +18504,7 @@
             "format_notify": null
         }
     ],
-    "date": "2024-05-10 13:42:24.688162",
+    "date": "2024-05-17 04:16:35.309687",
     "version": "0.7.2",
-    "checksum": "a3f9e50ffde4296d4a822c5265586f81"
+    "checksum": "3ee65787ad9cb1e2f51e595b63489ec9"
 }
