@@ -3048,7 +3048,6 @@
         "bootloader_type": "none",
         "max_chunk_length": 0,
         "max_divisor_constraint": 8,
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinkt1b/FP-SNS-DATALOG2_Datalog2_2_2_0.bin",
         "partial_fota": 0
       },
       "cloud_apps": [],
@@ -6692,7 +6691,6 @@
         "bootloader_type": "none",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-DATALOG2_Datalog2_2_2_0.bin",
         "partial_fota": 0
       },
       "cloud_apps": [],
@@ -10570,7 +10568,6 @@
         "bootloader_type": "none",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_Datalog2_2_2_0.bin",
         "partial_fota": 0
       },
       "cloud_apps": [],
@@ -10719,7 +10716,6 @@
         "bootloader_type": "none",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_PDetect_2_2_0.bin",
         "partial_fota": 0
       },
       "cloud_apps": [],
@@ -13967,7 +13963,6 @@
         "bootloader_type": "none",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-DATALOG2_Datalog2_2_2_0.bin",
         "partial_fota": 0
       },
       "cloud_apps": [],
