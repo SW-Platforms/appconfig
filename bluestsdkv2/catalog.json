@@ -19821,6 +19821,20 @@
             "name": "NEAI Extrapolation",
             "description": "NanoEdge AI Extrapolation",
             "uuid": "00000024-0002-11e1-ac36-0002a5d5c51b",
+            "dtmi_name": "neai_extrapolation",
+            "format_notify": null
+        },
+        {
+            "name": "Medical Signal 16",
+            "description": "16-bit data for medical devices",
+            "uuid": "00000026-0002-11e1-ac36-0002a5d5c51b",
+            "dtmi_name": null,
+            "format_notify": null
+        },
+        {
+            "name": "Medical Signal 24",
+            "description": "24-bit data for medical devices",
+            "uuid": "00000027-0002-11e1-ac36-0002a5d5c51b",
             "dtmi_name": null,
             "format_notify": null
         },
@@ -20682,7 +20696,7 @@
             "format_notify": null
         }
     ],
-    "date": "2024-06-25 12:47:17.436342",
+    "date": "2024-07-04 14:01:58.317180",
     "version": "0.7.3",
     "checksum": "717bc689277c178d07e8cc37a2bdbadd"
 }
