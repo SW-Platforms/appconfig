@@ -3401,7 +3401,10 @@
             "demo_decorator": {
                 "add": [],
                 "remove": [
-                    "FP-SNS-DATALOG2_Datalog2"
+                    "FP-SNS-DATALOG2_Datalog2",
+                    "Smart Motor Control",
+                    "Raw PnPL Controlled",
+                    "Textual Monitor"
                 ],
                 "rename": []
             },
@@ -3444,7 +3447,7 @@
                 {
                     "name": "PnPLike",
                     "uuid": "0000001b-0002-11e1-ac36-0002a5d5c51b",
-                    "max_write_length": 20
+                    "max_write_length": 217
                 }
             ]
         },
@@ -6357,6 +6360,11 @@
                     "max_write_length": 20
                 },
                 {
+                    "name": "MEMS Normalization",
+                    "uuid": "00000021-0002-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
                     "name": "Compass",
                     "uuid": "00000040-0001-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
@@ -6695,6 +6703,15 @@
             "fw_desc": "Fw supporting app creation with ST BLE Sensor app",
             "changelog": "Support for MLC on 32x + bug fixes",
             "dtmi": "dtmi:appconfig:steval_mkboxpro:STSW_MKBOXPRO_Entry_Expert_Mode;1",
+            "demo_decorator": {
+                "add": [
+                    "Flow"
+                ],
+                "remove": [
+                    "STSW-MKBOXPRO Entry/Expert Mode"
+                ],
+                "rename": []
+            },
             "maturity": "release",
             "fota": {
                 "type": "fast",
@@ -6893,7 +6910,10 @@
             "demo_decorator": {
                 "add": [],
                 "remove": [
-                    "FP-SNS-DATALOG2_Datalog2"
+                    "FP-SNS-DATALOG2_Datalog2",
+                    "Smart Motor Control",
+                    "Raw PnPL Controlled",
+                    "Textual Monitor"
                 ],
                 "rename": []
             },
@@ -6936,7 +6956,7 @@
                 {
                     "name": "PnPLike",
                     "uuid": "0000001b-0002-11e1-ac36-0002a5d5c51b",
-                    "max_write_length": 20
+                    "max_write_length": 244
                 }
             ]
         },
@@ -11283,7 +11303,10 @@
             "demo_decorator": {
                 "add": [],
                 "remove": [
-                    "FP-SNS-DATALOG2_Datalog2"
+                    "FP-SNS-DATALOG2_Datalog2",
+                    "Smart Motor Control",
+                    "Raw PnPL Controlled",
+                    "Textual Monitor"
                 ],
                 "rename": []
             },
@@ -11326,7 +11349,7 @@
                 {
                     "name": "PnPLike",
                     "uuid": "0000001b-0002-11e1-ac36-0002a5d5c51b",
-                    "max_write_length": 20
+                    "max_write_length": 217
                 }
             ]
         },
@@ -11438,7 +11461,10 @@
             "demo_decorator": {
                 "add": [],
                 "remove": [
-                    "FP-SNS-DATALOG2_PDetect"
+                    "FP-SNS-DATALOG2_PDetect",
+                    "Smart Motor Control",
+                    "Raw PnPL Controlled",
+                    "Textual Monitor"
                 ],
                 "rename": []
             },
@@ -11476,7 +11502,7 @@
                 {
                     "name": "PnPLike",
                     "uuid": "0000001b-0002-11e1-ac36-0002a5d5c51b",
-                    "max_write_length": 20
+                    "max_write_length": 217
                 }
             ]
         },
@@ -14506,6 +14532,15 @@
             "fw_desc": "Fw supporting app creation with ST BLE Sensor app",
             "changelog": "Support for MLC on 32x + bug fixes",
             "dtmi": "dtmi:appconfig:steval_mkboxprob:STSW_MKBOXPRO_Entry_Expert_Mode;1",
+            "demo_decorator": {
+                "add": [
+                    "Flow"
+                ],
+                "remove": [
+                    "STSW-MKBOXPRO Entry/Expert Mode"
+                ],
+                "rename": []
+            },
             "maturity": "release",
             "fota": {
                 "type": "fast",
@@ -14709,7 +14744,10 @@
             "demo_decorator": {
                 "add": [],
                 "remove": [
-                    "FP-SNS-DATALOG2_Datalog2"
+                    "FP-SNS-DATALOG2_Datalog2",
+                    "Smart Motor Control",
+                    "Raw PnPL Controlled",
+                    "Textual Monitor"
                 ],
                 "rename": []
             },
@@ -14752,7 +14790,7 @@
                 {
                     "name": "PnPLike",
                     "uuid": "0000001b-0002-11e1-ac36-0002a5d5c51b",
-                    "max_write_length": 20
+                    "max_write_length": 244
                 }
             ]
         },
@@ -18690,7 +18728,7 @@
             "brd_variant": "NUCLEO$WB0X",
             "brd_part": "NUCLEO-WB0X",
             "brd_name": "NUCLEO-WB0X",
-            "friendly_name": "WB0X Ultra-Low-Power",
+            "friendly_name": "NUCLEO-WB0X Ultra-Low-Power",
             "ble_dev_id": "0x8D",
             "nfc_dev_id": null,
             "usb_dev_id": null,
@@ -20696,7 +20734,7 @@
             "format_notify": null
         }
     ],
-    "date": "2024-07-16 15:42:06.198718",
+    "date": "2024-07-17 11:56:00.725796",
     "version": "0.7.3",
-    "checksum": "717bc689277c178d07e8cc37a2bdbadd"
+    "checksum": "b390de76fb1d5c3855b9a6e0eef316c3"
 }
