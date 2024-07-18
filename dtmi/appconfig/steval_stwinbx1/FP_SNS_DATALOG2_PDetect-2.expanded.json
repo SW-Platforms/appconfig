@@ -8634,10 +8634,8 @@
           ],
           "valueSchema": "integer"
         },
+        "unit": "degreePerSecond",
         "writable": true,
-        "displayUnit": {
-          "en": "mdps"
-        },
         "initialValue": 5
       },
       {

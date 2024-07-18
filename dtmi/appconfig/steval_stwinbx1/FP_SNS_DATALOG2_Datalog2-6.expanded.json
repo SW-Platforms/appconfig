@@ -64,7 +64,7 @@
           "en": "ISM330DHCX_MLC"
         },
         "name": "ism330dhcx_mlc",
-        "schema": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc;4"
+        "schema": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc;5"
       },
       {
         "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:ism330is_acc;5",
@@ -199,7 +199,7 @@
           "en": "Log Controller"
         },
         "name": "log_controller",
-        "schema": "dtmi:appconfig:other:log_controller;2"
+        "schema": "dtmi:appconfig:other:log_controller;3"
       },
       {
         "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:wifi_config;5",
@@ -226,7 +226,7 @@
           "en": "Acquisition Information"
         },
         "name": "acquisition_info",
-        "schema": "dtmi:appconfig:other:acquisition_info;1"
+        "schema": "dtmi:appconfig:other:acquisition_info;2"
       },
       {
         "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:firmware_info;5",
@@ -527,14 +527,6 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:st_ble_stream:schema:telemetry_odr;3",
-              "displayName": {
-                "en": "Telemetry ODR"
-              },
-              "name": "telemetry_odr",
-              "schema": "integer"
-            },
-            {
               "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:st_ble_stream:schema:acc;3",
               "displayName": {
                 "en": "Acc"
@@ -577,6 +569,30 @@
                       "en": "elements"
                     },
                     "name": "elements",
+                    "schema": "integer"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:st_ble_stream:schema:acc:schema:channels;3",
+                    "displayName": {
+                      "en": "channels"
+                    },
+                    "name": "channels",
+                    "schema": "integer"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:st_ble_stream:schema:acc:schema:multiply_factor;3",
+                    "displayName": {
+                      "en": "multiply_factor"
+                    },
+                    "name": "multiply_factor",
+                    "schema": "double"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:st_ble_stream:schema:acc:schema:odr;3",
+                    "displayName": {
+                      "en": "odr"
+                    },
+                    "name": "odr",
                     "schema": "integer"
                   }
                 ]
@@ -869,14 +885,6 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_ext_acc:st_ble_stream:schema:telemetry_odr;3",
-              "displayName": {
-                "en": "Telemetry ODR"
-              },
-              "name": "telemetry_odr",
-              "schema": "integer"
-            },
-            {
               "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_ext_acc:st_ble_stream:schema:acc;3",
               "displayName": {
                 "en": "Acc"
@@ -919,6 +927,30 @@
                       "en": "elements"
                     },
                     "name": "elements",
+                    "schema": "integer"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_ext_acc:st_ble_stream:schema:acc:schema:channels;3",
+                    "displayName": {
+                      "en": "channels"
+                    },
+                    "name": "channels",
+                    "schema": "integer"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_ext_acc:st_ble_stream:schema:acc:schema:multiply_factor;3",
+                    "displayName": {
+                      "en": "multiply_factor"
+                    },
+                    "name": "multiply_factor",
+                    "schema": "double"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_ext_acc:st_ble_stream:schema:acc:schema:odr;3",
+                    "displayName": {
+                      "en": "odr"
+                    },
+                    "name": "odr",
                     "schema": "integer"
                   }
                 ]
@@ -1204,14 +1236,6 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:st_ble_stream:schema:telemetry_odr;5",
-              "displayName": {
-                "en": "Telemetry ODR"
-              },
-              "name": "telemetry_odr",
-              "schema": "integer"
-            },
-            {
               "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:st_ble_stream:schema:mag;5",
               "displayName": {
                 "en": "Mag"
@@ -1254,6 +1278,30 @@
                       "en": "elements"
                     },
                     "name": "elements",
+                    "schema": "integer"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:st_ble_stream:schema:mag:schema:channels;5",
+                    "displayName": {
+                      "en": "channels"
+                    },
+                    "name": "channels",
+                    "schema": "integer"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:st_ble_stream:schema:mag:schema:multiply_factor;5",
+                    "displayName": {
+                      "en": "multiply_factor"
+                    },
+                    "name": "multiply_factor",
+                    "schema": "double"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:st_ble_stream:schema:mag:schema:odr;5",
+                    "displayName": {
+                      "en": "odr"
+                    },
+                    "name": "odr",
                     "schema": "integer"
                   }
                 ]
@@ -1900,14 +1948,6 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:st_ble_stream:schema:telemetry_odr;4",
-              "displayName": {
-                "en": "Telemetry ODR"
-              },
-              "name": "telemetry_odr",
-              "schema": "integer"
-            },
-            {
               "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:st_ble_stream:schema:acc;4",
               "displayName": {
                 "en": "Acc"
@@ -1950,6 +1990,30 @@
                       "en": "elements"
                     },
                     "name": "elements",
+                    "schema": "integer"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:st_ble_stream:schema:acc:schema:channels;4",
+                    "displayName": {
+                      "en": "channels"
+                    },
+                    "name": "channels",
+                    "schema": "integer"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:st_ble_stream:schema:acc:schema:multiply_factor;4",
+                    "displayName": {
+                      "en": "multiply_factor"
+                    },
+                    "name": "multiply_factor",
+                    "schema": "double"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:st_ble_stream:schema:acc:schema:odr;4",
+                    "displayName": {
+                      "en": "odr"
+                    },
+                    "name": "odr",
                     "schema": "integer"
                   }
                 ]
@@ -2144,10 +2208,8 @@
           ],
           "valueSchema": "integer"
         },
+        "unit": "degreePerSecond",
         "writable": true,
-        "displayUnit": {
-          "en": "mdps"
-        },
         "initialValue": 5
       },
       {
@@ -2327,14 +2389,6 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:st_ble_stream:schema:telemetry_odr;5",
-              "displayName": {
-                "en": "Telemetry ODR"
-              },
-              "name": "telemetry_odr",
-              "schema": "integer"
-            },
-            {
               "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:st_ble_stream:schema:gyro;5",
               "displayName": {
                 "en": "Gyro"
@@ -2378,6 +2432,30 @@
                     },
                     "name": "elements",
                     "schema": "integer"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:st_ble_stream:schema:gyro:schema:channels;5",
+                    "displayName": {
+                      "en": "channels"
+                    },
+                    "name": "channels",
+                    "schema": "integer"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:st_ble_stream:schema:gyro:schema:multiply_factor;5",
+                    "displayName": {
+                      "en": "multiply_factor"
+                    },
+                    "name": "multiply_factor",
+                    "schema": "double"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:st_ble_stream:schema:gyro:schema:odr;5",
+                    "displayName": {
+                      "en": "odr"
+                    },
+                    "name": "odr",
+                    "schema": "integer"
                   }
                 ]
               }
@@ -2396,11 +2474,11 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc;4",
+    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc;5",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:enable;1",
+        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:enable;5",
         "@type": [
           "Property",
           "BooleanValue"
@@ -2413,7 +2491,7 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:samples_per_ts;1",
+        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:samples_per_ts;5",
         "@type": [
           "Property",
           "NumberValue"
@@ -2428,7 +2506,7 @@
         "minValue": 1
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:load_file;1",
+        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:load_file;5",
         "@type": "Command",
         "commandType": "synchronous",
         "displayName": {
@@ -2474,7 +2552,7 @@
         }
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:ucf_status;1",
+        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:ucf_status;5",
         "@type": [
           "Property",
           "BooleanValue"
@@ -2487,7 +2565,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:dim;1",
+        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:dim;5",
         "@type": [
           "Property",
           "NumberValue"
@@ -2500,7 +2578,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:ioffset;1",
+        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:ioffset;5",
         "@type": [
           "Property",
           "NumberValue"
@@ -2514,7 +2592,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:data_type;1",
+        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:data_type;5",
         "@type": [
           "Property",
           "StringValue"
@@ -2527,7 +2605,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:usb_dps;1",
+        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:usb_dps;5",
         "@type": [
           "Property",
           "NumberValue"
@@ -2540,7 +2618,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:sd_dps;1",
+        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:sd_dps;5",
         "@type": [
           "Property",
           "NumberValue"
@@ -2553,7 +2631,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:sensor_annotation;1",
+        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:sensor_annotation;5",
         "@type": [
           "Property",
           "StringValue"
@@ -2566,7 +2644,7 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:sensor_category;3",
+        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:sensor_category;5",
         "@type": [
           "Property",
           "NumberValue"
@@ -2580,6 +2658,104 @@
         "name": "sensor_category",
         "schema": "integer",
         "writable": false
+      },
+      {
+        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:st_ble_stream;5",
+        "@type": "Property",
+        "displayName": {
+          "en": "BLE Telemetry"
+        },
+        "name": "st_ble_stream",
+        "schema": {
+          "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:st_ble_stream:schema;5",
+          "@type": "Object",
+          "displayName": {
+            "en": "Object"
+          },
+          "fields": [
+            {
+              "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:st_ble_stream:schema:id;5",
+              "displayName": {
+                "en": "id"
+              },
+              "name": "id",
+              "schema": "integer"
+            },
+            {
+              "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:st_ble_stream:schema:mlc;5",
+              "displayName": {
+                "en": "MLC"
+              },
+              "name": "mlc",
+              "schema": {
+                "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:st_ble_stream:schema:mlc:schema;5",
+                "@type": "Object",
+                "displayName": {
+                  "en": "Object"
+                },
+                "fields": [
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:st_ble_stream:schema:mlc:schema:enable;5",
+                    "displayName": {
+                      "en": "enable"
+                    },
+                    "name": "enable",
+                    "schema": "boolean"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:st_ble_stream:schema:mlc:schema:unit;5",
+                    "displayName": {
+                      "en": "unit"
+                    },
+                    "name": "unit",
+                    "schema": "string"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:st_ble_stream:schema:mlc:schema:format;5",
+                    "displayName": {
+                      "en": "format"
+                    },
+                    "name": "format",
+                    "schema": "string"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:st_ble_stream:schema:mlc:schema:elements;5",
+                    "displayName": {
+                      "en": "elements"
+                    },
+                    "name": "elements",
+                    "schema": "integer"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:st_ble_stream:schema:mlc:schema:channels;5",
+                    "displayName": {
+                      "en": "channels"
+                    },
+                    "name": "channels",
+                    "schema": "integer"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:st_ble_stream:schema:mlc:schema:multiply_factor;5",
+                    "displayName": {
+                      "en": "multiply_factor"
+                    },
+                    "name": "multiply_factor",
+                    "schema": "double"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:st_ble_stream:schema:mlc:schema:odr;5",
+                    "displayName": {
+                      "en": "odr"
+                    },
+                    "name": "odr",
+                    "schema": "integer"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "writable": true
       }
     ],
     "displayName": {
@@ -2936,14 +3112,6 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330is_acc:st_ble_stream:schema:telemetry_odr;5",
-              "displayName": {
-                "en": "Telemetry ODR"
-              },
-              "name": "telemetry_odr",
-              "schema": "integer"
-            },
-            {
               "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330is_acc:st_ble_stream:schema:acc;5",
               "displayName": {
                 "en": "Acc"
@@ -2986,6 +3154,30 @@
                       "en": "elements"
                     },
                     "name": "elements",
+                    "schema": "integer"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330is_acc:st_ble_stream:schema:acc:schema:channels;5",
+                    "displayName": {
+                      "en": "channels"
+                    },
+                    "name": "channels",
+                    "schema": "integer"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330is_acc:st_ble_stream:schema:acc:schema:multiply_factor;5",
+                    "displayName": {
+                      "en": "multiply_factor"
+                    },
+                    "name": "multiply_factor",
+                    "schema": "double"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330is_acc:st_ble_stream:schema:acc:schema:odr;5",
+                    "displayName": {
+                      "en": "odr"
+                    },
+                    "name": "odr",
                     "schema": "integer"
                   }
                 ]
@@ -3168,10 +3360,8 @@
           ],
           "valueSchema": "integer"
         },
+        "unit": "degreePerSecond",
         "writable": true,
-        "displayUnit": {
-          "en": "mdps"
-        },
         "initialValue": 4
       },
       {
@@ -3364,14 +3554,6 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330is_gyro:st_ble_stream:schema:telemetry_odr;5",
-              "displayName": {
-                "en": "Telemetry ODR"
-              },
-              "name": "telemetry_odr",
-              "schema": "integer"
-            },
-            {
               "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330is_gyro:st_ble_stream:schema:gyro;5",
               "displayName": {
                 "en": "Gyro"
@@ -3414,6 +3596,30 @@
                       "en": "elements"
                     },
                     "name": "elements",
+                    "schema": "integer"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330is_gyro:st_ble_stream:schema:gyro:schema:channels;5",
+                    "displayName": {
+                      "en": "channels"
+                    },
+                    "name": "channels",
+                    "schema": "integer"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330is_gyro:st_ble_stream:schema:gyro:schema:multiply_factor;5",
+                    "displayName": {
+                      "en": "multiply_factor"
+                    },
+                    "name": "multiply_factor",
+                    "schema": "double"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330is_gyro:st_ble_stream:schema:gyro:schema:odr;5",
+                    "displayName": {
+                      "en": "odr"
+                    },
+                    "name": "odr",
                     "schema": "integer"
                   }
                 ]
@@ -3981,14 +4187,6 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:iis2dlpc_acc:st_ble_stream:schema:telemetry_odr;5",
-              "displayName": {
-                "en": "Telemetry ODR"
-              },
-              "name": "telemetry_odr",
-              "schema": "integer"
-            },
-            {
               "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:iis2dlpc_acc:st_ble_stream:schema:acc;5",
               "displayName": {
                 "en": "Acc"
@@ -4031,6 +4229,30 @@
                       "en": "elements"
                     },
                     "name": "elements",
+                    "schema": "integer"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:iis2dlpc_acc:st_ble_stream:schema:acc:schema:channels;5",
+                    "displayName": {
+                      "en": "channels"
+                    },
+                    "name": "channels",
+                    "schema": "integer"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:iis2dlpc_acc:st_ble_stream:schema:acc:schema:multiply_factor;5",
+                    "displayName": {
+                      "en": "multiply_factor"
+                    },
+                    "name": "multiply_factor",
+                    "schema": "double"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:iis2dlpc_acc:st_ble_stream:schema:acc:schema:odr;5",
+                    "displayName": {
+                      "en": "odr"
+                    },
+                    "name": "odr",
                     "schema": "integer"
                   }
                 ]
@@ -4322,14 +4544,6 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:stts22h_temp:st_ble_stream:schema:telemetry_odr;5",
-              "displayName": {
-                "en": "Telemetry ODR"
-              },
-              "name": "telemetry_odr",
-              "schema": "integer"
-            },
-            {
               "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:stts22h_temp:st_ble_stream:schema:temp;5",
               "displayName": {
                 "en": "Temp"
@@ -4372,6 +4586,30 @@
                       "en": "elements"
                     },
                     "name": "elements",
+                    "schema": "integer"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:stts22h_temp:st_ble_stream:schema:temp:schema:channels;5",
+                    "displayName": {
+                      "en": "channels"
+                    },
+                    "name": "channels",
+                    "schema": "integer"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:stts22h_temp:st_ble_stream:schema:temp:schema:multiply_factor;5",
+                    "displayName": {
+                      "en": "multiply_factor"
+                    },
+                    "name": "multiply_factor",
+                    "schema": "double"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:stts22h_temp:st_ble_stream:schema:temp:schema:odr;5",
+                    "displayName": {
+                      "en": "odr"
+                    },
+                    "name": "odr",
                     "schema": "integer"
                   }
                 ]
@@ -4676,14 +4914,6 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:stts22h_temp_ext:st_ble_stream:schema:telemetry_odr;5",
-              "displayName": {
-                "en": "Telemetry ODR"
-              },
-              "name": "telemetry_odr",
-              "schema": "integer"
-            },
-            {
               "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:stts22h_temp_ext:st_ble_stream:schema:temp;5",
               "displayName": {
                 "en": "Temp"
@@ -4726,6 +4956,30 @@
                       "en": "elements"
                     },
                     "name": "elements",
+                    "schema": "integer"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:stts22h_temp_ext:st_ble_stream:schema:temp:schema:channels;5",
+                    "displayName": {
+                      "en": "channels"
+                    },
+                    "name": "channels",
+                    "schema": "integer"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:stts22h_temp_ext:st_ble_stream:schema:temp:schema:multiply_factor;5",
+                    "displayName": {
+                      "en": "multiply_factor"
+                    },
+                    "name": "multiply_factor",
+                    "schema": "double"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:stts22h_temp_ext:st_ble_stream:schema:temp:schema:odr;5",
+                    "displayName": {
+                      "en": "odr"
+                    },
+                    "name": "odr",
                     "schema": "integer"
                   }
                 ]
@@ -5055,14 +5309,6 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ilps22qs_press:st_ble_stream:schema:telemetry_odr;5",
-              "displayName": {
-                "en": "Telemetry ODR"
-              },
-              "name": "telemetry_odr",
-              "schema": "integer"
-            },
-            {
               "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ilps22qs_press:st_ble_stream:schema:press;5",
               "displayName": {
                 "en": "Press"
@@ -5105,6 +5351,30 @@
                       "en": "elements"
                     },
                     "name": "elements",
+                    "schema": "integer"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ilps22qs_press:st_ble_stream:schema:press:schema:channels;5",
+                    "displayName": {
+                      "en": "channels"
+                    },
+                    "name": "channels",
+                    "schema": "integer"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ilps22qs_press:st_ble_stream:schema:press:schema:multiply_factor;5",
+                    "displayName": {
+                      "en": "multiply_factor"
+                    },
+                    "name": "multiply_factor",
+                    "schema": "double"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ilps22qs_press:st_ble_stream:schema:press:schema:odr;5",
+                    "displayName": {
+                      "en": "odr"
+                    },
+                    "name": "odr",
                     "schema": "integer"
                   }
                 ]
@@ -5715,14 +5985,6 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:iis2iclx_acc:st_ble_stream:schema:telemetry_odr;5",
-              "displayName": {
-                "en": "Telemetry ODR"
-              },
-              "name": "telemetry_odr",
-              "schema": "integer"
-            },
-            {
               "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:iis2iclx_acc:st_ble_stream:schema:acc;5",
               "displayName": {
                 "en": "Acc"
@@ -5765,6 +6027,30 @@
                       "en": "elements"
                     },
                     "name": "elements",
+                    "schema": "integer"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:iis2iclx_acc:st_ble_stream:schema:acc:schema:channels;5",
+                    "displayName": {
+                      "en": "channels"
+                    },
+                    "name": "channels",
+                    "schema": "integer"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:iis2iclx_acc:st_ble_stream:schema:acc:schema:multiply_factor;5",
+                    "displayName": {
+                      "en": "multiply_factor"
+                    },
+                    "name": "multiply_factor",
+                    "schema": "double"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:iis2iclx_acc:st_ble_stream:schema:acc:schema:odr;5",
+                    "displayName": {
+                      "en": "odr"
+                    },
+                    "name": "odr",
                     "schema": "integer"
                   }
                 ]
@@ -6110,6 +6396,117 @@
         "name": "sensor_category",
         "schema": "integer",
         "writable": false
+      },
+      {
+        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_acc:mounted;1",
+        "@type": [
+          "Property",
+          "BooleanValue"
+        ],
+        "displayName": {
+          "en": "Mounted"
+        },
+        "name": "mounted",
+        "schema": "boolean",
+        "writable": false
+      },
+      {
+        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_acc:st_ble_stream;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "BLE Telemetry"
+        },
+        "name": "st_ble_stream",
+        "schema": {
+          "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_acc:st_ble_stream:schema;1",
+          "@type": "Object",
+          "displayName": {
+            "en": "Object"
+          },
+          "fields": [
+            {
+              "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_acc:st_ble_stream:schema:id;1",
+              "displayName": {
+                "en": "id"
+              },
+              "name": "id",
+              "schema": "integer"
+            },
+            {
+              "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_acc:st_ble_stream:schema:acc;1",
+              "displayName": {
+                "en": "Acc"
+              },
+              "name": "acc",
+              "schema": {
+                "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_acc:st_ble_stream:schema:acc:schema;1",
+                "@type": "Object",
+                "displayName": {
+                  "en": "Object"
+                },
+                "fields": [
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_acc:st_ble_stream:schema:acc:schema:enable;1",
+                    "displayName": {
+                      "en": "enable"
+                    },
+                    "name": "enable",
+                    "schema": "boolean"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_acc:st_ble_stream:schema:acc:schema:unit;1",
+                    "displayName": {
+                      "en": "unit"
+                    },
+                    "name": "unit",
+                    "schema": "string"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_acc:st_ble_stream:schema:acc:schema:format;1",
+                    "displayName": {
+                      "en": "format"
+                    },
+                    "name": "format",
+                    "schema": "string"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_acc:st_ble_stream:schema:acc:schema:elements;1",
+                    "displayName": {
+                      "en": "elements"
+                    },
+                    "name": "elements",
+                    "schema": "integer"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_acc:st_ble_stream:schema:acc:schema:channels;1",
+                    "displayName": {
+                      "en": "channels"
+                    },
+                    "name": "channels",
+                    "schema": "integer"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_acc:st_ble_stream:schema:acc:schema:multiply_factor;1",
+                    "displayName": {
+                      "en": "multiply_factor"
+                    },
+                    "name": "multiply_factor",
+                    "schema": "double"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_acc:st_ble_stream:schema:acc:schema:odr;1",
+                    "displayName": {
+                      "en": "odr"
+                    },
+                    "name": "odr",
+                    "schema": "integer"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "writable": true
       }
     ],
     "displayName": {
@@ -6304,10 +6701,8 @@
           ],
           "valueSchema": "integer"
         },
+        "unit": "degreePerSecond",
         "writable": true,
-        "displayUnit": {
-          "en": "mdps"
-        },
         "initialValue": 5
       },
       {
@@ -6465,6 +6860,117 @@
         "name": "sensor_category",
         "schema": "integer",
         "writable": false
+      },
+      {
+        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_gyro:mounted;1",
+        "@type": [
+          "Property",
+          "BooleanValue"
+        ],
+        "displayName": {
+          "en": "Mounted"
+        },
+        "name": "mounted",
+        "schema": "boolean",
+        "writable": false
+      },
+      {
+        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_gyro:st_ble_stream;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "BLE Telemetry"
+        },
+        "name": "st_ble_stream",
+        "schema": {
+          "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_gyro:st_ble_stream:schema;1",
+          "@type": "Object",
+          "displayName": {
+            "en": "Object"
+          },
+          "fields": [
+            {
+              "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_gyro:st_ble_stream:schema:id;1",
+              "displayName": {
+                "en": "id"
+              },
+              "name": "id",
+              "schema": "integer"
+            },
+            {
+              "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_gyro:st_ble_stream:schema:gyro;1",
+              "displayName": {
+                "en": "Gyro"
+              },
+              "name": "gyro",
+              "schema": {
+                "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_gyro:st_ble_stream:schema:gyro:schema;1",
+                "@type": "Object",
+                "displayName": {
+                  "en": "Object"
+                },
+                "fields": [
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_gyro:st_ble_stream:schema:gyro:schema:enable;1",
+                    "displayName": {
+                      "en": "enable"
+                    },
+                    "name": "enable",
+                    "schema": "boolean"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_gyro:st_ble_stream:schema:gyro:schema:unit;1",
+                    "displayName": {
+                      "en": "unit"
+                    },
+                    "name": "unit",
+                    "schema": "string"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_gyro:st_ble_stream:schema:gyro:schema:format;1",
+                    "displayName": {
+                      "en": "format"
+                    },
+                    "name": "format",
+                    "schema": "string"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_gyro:st_ble_stream:schema:gyro:schema:elements;1",
+                    "displayName": {
+                      "en": "elements"
+                    },
+                    "name": "elements",
+                    "schema": "integer"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_gyro:st_ble_stream:schema:gyro:schema:channels;1",
+                    "displayName": {
+                      "en": "channels"
+                    },
+                    "name": "channels",
+                    "schema": "integer"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_gyro:st_ble_stream:schema:gyro:schema:multiply_factor;1",
+                    "displayName": {
+                      "en": "multiply_factor"
+                    },
+                    "name": "multiply_factor",
+                    "schema": "double"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_gyro:st_ble_stream:schema:gyro:schema:odr;1",
+                    "displayName": {
+                      "en": "odr"
+                    },
+                    "name": "odr",
+                    "schema": "integer"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "writable": true
       }
     ],
     "displayName": {
@@ -6662,6 +7168,117 @@
         "name": "sensor_category",
         "schema": "integer",
         "writable": false
+      },
+      {
+        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_mlc:mounted;1",
+        "@type": [
+          "Property",
+          "BooleanValue"
+        ],
+        "displayName": {
+          "en": "Mounted"
+        },
+        "name": "mounted",
+        "schema": "boolean",
+        "writable": false
+      },
+      {
+        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_mlc:st_ble_stream;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "BLE Telemetry"
+        },
+        "name": "st_ble_stream",
+        "schema": {
+          "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_mlc:st_ble_stream:schema;1",
+          "@type": "Object",
+          "displayName": {
+            "en": "Object"
+          },
+          "fields": [
+            {
+              "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_mlc:st_ble_stream:schema:id;1",
+              "displayName": {
+                "en": "id"
+              },
+              "name": "id",
+              "schema": "integer"
+            },
+            {
+              "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_mlc:st_ble_stream:schema:mlc;1",
+              "displayName": {
+                "en": "MLC"
+              },
+              "name": "mlc",
+              "schema": {
+                "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_mlc:st_ble_stream:schema:mlc:schema;1",
+                "@type": "Object",
+                "displayName": {
+                  "en": "Object"
+                },
+                "fields": [
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_mlc:st_ble_stream:schema:mlc:schema:enable;1",
+                    "displayName": {
+                      "en": "enable"
+                    },
+                    "name": "enable",
+                    "schema": "boolean"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_mlc:st_ble_stream:schema:mlc:schema:unit;1",
+                    "displayName": {
+                      "en": "unit"
+                    },
+                    "name": "unit",
+                    "schema": "string"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_mlc:st_ble_stream:schema:mlc:schema:format;1",
+                    "displayName": {
+                      "en": "format"
+                    },
+                    "name": "format",
+                    "schema": "string"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_mlc:st_ble_stream:schema:mlc:schema:elements;1",
+                    "displayName": {
+                      "en": "elements"
+                    },
+                    "name": "elements",
+                    "schema": "integer"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_mlc:st_ble_stream:schema:mlc:schema:channels;1",
+                    "displayName": {
+                      "en": "channels"
+                    },
+                    "name": "channels",
+                    "schema": "integer"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_mlc:st_ble_stream:schema:mlc:schema:multiply_factor;1",
+                    "displayName": {
+                      "en": "multiply_factor"
+                    },
+                    "name": "multiply_factor",
+                    "schema": "double"
+                  },
+                  {
+                    "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:ism330bx_mlc:st_ble_stream:schema:mlc:schema:odr;1",
+                    "displayName": {
+                      "en": "odr"
+                    },
+                    "name": "odr",
+                    "schema": "integer"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "writable": true
       }
     ],
     "displayName": {
@@ -6915,6 +7532,19 @@
         "name": "sensor_category",
         "schema": "integer",
         "writable": false
+      },
+      {
+        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:tsc1641_pow:mounted;1",
+        "@type": [
+          "Property",
+          "BooleanValue"
+        ],
+        "displayName": {
+          "en": "Mounted"
+        },
+        "name": "mounted",
+        "schema": "boolean",
+        "writable": false
       }
     ],
     "displayName": {
@@ -7022,7 +7652,7 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:other:log_controller;2",
+    "@id": "dtmi:appconfig:other:log_controller;3",
     "@type": "Interface",
     "contents": [
       {
@@ -7057,6 +7687,19 @@
           "en": "SD Card Mounted"
         },
         "name": "sd_mounted",
+        "schema": "boolean",
+        "writable": false
+      },
+      {
+        "@id": "dtmi:appconfig:other:log_controller:sd_failed;3",
+        "@type": [
+          "Property",
+          "BooleanValue"
+        ],
+        "displayName": {
+          "en": "SD Card Failed"
+        },
+        "name": "sd_failed",
         "schema": "boolean",
         "writable": false
       },
@@ -7158,6 +7801,23 @@
           "en": "Set DFU Mode"
         },
         "name": "set_dfu_mode"
+      },
+      {
+        "@id": "dtmi:appconfig:other:log_controller:enable_all;3",
+        "@type": "Command",
+        "commandType": "synchronous",
+        "displayName": {
+          "en": "Enable/Disable All"
+        },
+        "name": "enable_all",
+        "request": {
+          "@type": "CommandPayload",
+          "displayName": {
+            "en": "Status"
+          },
+          "name": "status",
+          "schema": "boolean"
+        }
       }
     ],
     "displayName": {
@@ -7962,7 +8622,7 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:other:acquisition_info;1",
+    "@id": "dtmi:appconfig:other:acquisition_info;2",
     "@type": "Interface",
     "contents": [
       {
@@ -8096,6 +8756,22 @@
               },
               "enumValue": "1",
               "name": "usb"
+            },
+            {
+              "@id": "dtmi:appconfig:other:acquisition_info:interface:schema:ble;1",
+              "displayName": {
+                "en": "BLE"
+              },
+              "enumValue": "2",
+              "name": "ble"
+            },
+            {
+              "@id": "dtmi:appconfig:other:acquisition_info:interface:schema:serial;1",
+              "displayName": {
+                "en": "Serial"
+              },
+              "enumValue": "3",
+              "name": "serial"
             }
           ],
           "valueSchema": "string"
