@@ -8512,11 +8512,11 @@
                         },
                         {
                             "value": 1,
-                            "display_name": "Logging Ongoing"
+                            "display_name": "Missing SD Card"
                         },
                         {
                             "value": 2,
-                            "display_name": "Missing SD Card"
+                            "display_name": "Logging Ongoing"
                         }
                     ]
                 },
@@ -9316,11 +9316,11 @@
                         },
                         {
                             "value": 1,
-                            "display_name": "Logging Ongoing"
+                            "display_name": "Missing SD Card"
                         },
                         {
                             "value": 2,
-                            "display_name": "Missing SD Card"
+                            "display_name": "Logging Ongoing"
                         }
                     ]
                 },
@@ -20672,7 +20672,7 @@
             "format_notify": null
         }
     ],
-    "date": "2024-07-18 08:51:27.492715",
+    "date": "2024-07-19 07:35:23.590279",
     "version": "0.7.3",
-    "checksum": "150dd7e4882429f8f0d6f77261d04323"
+    "checksum": "34d8d7dcd8bfe42a0f474cf4e1a7fc5d"
 }
