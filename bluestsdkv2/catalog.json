@@ -3291,7 +3291,7 @@
       "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
       "fw_name": "FP-SNS-DATALOG2_Datalog2",
       "fw_version": "2.2.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "int",
@@ -7258,7 +7258,7 @@
       "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
       "fw_name": "FP-SNS-DATALOG2_Datalog2",
       "fw_version": "2.2.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -7367,7 +7367,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "FP-SNS-STBOX1_BleDualProgram",
       "fw_version": "2.0.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -7425,7 +7425,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "FP-SNS-STBOX1_BLEMLC",
       "fw_version": "2.0.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -7478,7 +7478,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "FP-SNS-STBOX1_BLEPiano",
       "fw_version": "2.0.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -7562,7 +7562,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "FP-SNS-STBOX1_BLESensorsPnPL",
       "fw_version": "2.0.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -8947,7 +8947,7 @@
       "fw_desc": "High-speed datalogging of sensors data and motor control telemetries",
       "fw_name": "FP-IND-DATALOGMC_DatalogMC",
       "fw_version": "1.1.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -9756,7 +9756,7 @@
       "fw_desc": "Motor fault classification with NanoEdge AI Studio",
       "fw_name": "FP-IND-DATALOGMC_DatalogMCNEAI",
       "fw_version": "1.1.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -11598,7 +11598,7 @@
       "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
       "fw_name": "FP-SNS-DATALOG2_Datalog2",
       "fw_version": "2.2.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "int",
@@ -11751,7 +11751,7 @@
       "fw_desc": "Comprehensive solution for saving data for presence detection via STEVAL-PDETECT1 expansion board",
       "fw_name": "FP-SNS-DATALOG2_PDetect",
       "fw_version": "2.2.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "int",
@@ -11914,7 +11914,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "FP-SNS-STBOX1_BLESensorsPnPL",
       "fw_version": "2.0.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -11996,7 +11996,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "FP-SNS-STBOX1_BLEDefaultFw",
       "fw_version": "2.0.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -12059,7 +12059,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "FP-SNS-STBOX1_BLEMLC",
       "fw_version": "2.0.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -15497,7 +15497,7 @@
       "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
       "fw_name": "FP-SNS-DATALOG2_Datalog2",
       "fw_version": "2.2.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -15581,7 +15581,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "FP-SNS-STBOX1_BLEMLC",
       "fw_version": "2.0.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -15634,7 +15634,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "FP-SNS-STBOX1_BLEPiano",
       "fw_version": "2.0.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -15718,7 +15718,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "FP-SNS-STBOX1_BLESensorsPnPL",
       "fw_version": "2.0.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -15801,7 +15801,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "FP-SNS-STBOX1_BleDualProgram",
       "fw_version": "2.0.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -22277,7 +22277,7 @@
       "um": ""
     }
   ],
-  "date": "2024-07-19 07:35:24.711071",
+  "date": "2024-07-31 12:36:48.526627",
   "version": "0.7.3",
   "checksum": "34d8d7dcd8bfe42a0f474cf4e1a7fc5d"
 }
