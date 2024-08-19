@@ -22275,6 +22275,31 @@
       ],
       "datasheetLink": "https://www.st.com/resource/en/data_brief/lsm6dsv32x.pdf",
       "um": ""
+    },
+    {
+      "unique_id": 17,
+      "id": "D17",
+      "description": "ECG with vAFE",
+      "output": "Voltage",
+      "outputs": [
+        "O1",
+        "O2",
+        "O3"
+      ],
+      "configuration": {
+        "regConfig": "",
+        "mlcLabels": "",
+        "ucfFilename": ""
+      },
+      "icon": "ic_inemo",
+      "dataType": "Float vector x1",
+      "model": "ST1VAFE6AX ",
+      "board_compatibility": [
+        "SENSOR_TILE_BOX_PRO",
+        "SENSOR_TILE_BOX_PROB"
+      ],
+      "datasheetLink": "https://www.st.com/resource/en/datasheet/st1vafe6ax.pdf",
+      "um": ""
     }
   ],
   "date": "2024-07-31 12:36:48.526627",
