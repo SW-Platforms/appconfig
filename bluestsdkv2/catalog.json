@@ -22286,11 +22286,6 @@
         "O2",
         "O3"
       ],
-      "configuration": {
-        "regConfig": "",
-        "mlcLabels": "",
-        "ucfFilename": ""
-      },
       "icon": "ic_inemo",
       "dataType": "Float vector x1",
       "model": "ST1VAFE6AX ",
