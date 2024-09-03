@@ -12934,7 +12934,7 @@
       "fw_desc": "Anomaly Detection, Classification and Extrapolation by NEAI based on ThreadX OS.",
       "fw_name": "FP-AI-PDMWBSOC2",
       "fw_version": "2.0.0",
-      "maturity": "release",
+      "maturity": "draft",
       "option_bytes": [
         {
           "format": "enum_string",
