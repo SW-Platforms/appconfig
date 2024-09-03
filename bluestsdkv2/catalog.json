@@ -12138,7 +12138,7 @@
                     "description": "PROTEUS-POC2",
                     "url": "https://proteus-poc2.azureiotcentral.com",
                     "shareable_link": "https://apps.azureiotcentral.com/build/new/0d15956b-85a8-4593-99e6-ff8e9a7ea7f0",
-                    "dtmi": "dtmi:proteusPoc2:pdmwbsoc2_cloud;2",
+                    "dtmi": "dtmi:proteusPoc2:pdmwbsoc2_cloud;1",
                     "dtmi_type": "iotc"
                 }
             ],
@@ -20672,7 +20672,7 @@
             "format_notify": null
         }
     ],
-    "date": "2024-09-03 11:45:53.210925",
+    "date": "2024-09-03 11:53:42.277469",
     "version": "0.7.4",
-    "checksum": "1aeed545f9593bdf39ee1625525fff1b"
+    "checksum": "7e33704a56dae8f312b745d984ffa527"
 }
