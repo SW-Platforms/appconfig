@@ -3346,7 +3346,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -6855,7 +6855,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -6923,7 +6923,7 @@
             "fw_version": "2.0.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Add Support to ST25KC, Drivers and HAL update",
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -7006,7 +7006,7 @@
             "fw_version": "2.0.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Add Support to ST25KC, Drivers and HAL update",
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -7064,7 +7064,7 @@
             "fw_version": "2.0.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Add Support to ST25KC, Drivers and HAL update",
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -7118,7 +7118,7 @@
             "fw_desc": "Firmware for all box boards",
             "changelog": "Add Support to ST25KC, Drivers and HAL update",
             "dtmi": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STBOX1_BLESensorsPnPL;1",
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -8549,7 +8549,7 @@
             "fw_desc": "High-speed datalogging of sensors data and motor control telemetries",
             "changelog": "Maintenance release",
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_IND_DATALOGMC_DatalogMC;1",
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -9353,7 +9353,7 @@
             "fw_desc": "Motor fault classification with NanoEdge AI Studio",
             "changelog": "New application: first release",
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_IND_DATALOGMC_DatalogMCNEAI;1",
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -11248,7 +11248,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -11406,7 +11406,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -11470,7 +11470,7 @@
             "fw_desc": "Firmware for all box boards",
             "changelog": "Add Support to ST25KC, Drivers and HAL update",
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_STBOX1_BLESensorsPnPL;1",
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -11553,7 +11553,7 @@
             "fw_version": "2.0.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Drivers and HAL update",
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -11635,7 +11635,7 @@
             "fw_version": "2.0.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Add Support to ST25KC, Drivers and HAL update",
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -12016,7 +12016,7 @@
                     "name": "Proteus development",
                     "description": "PROTEUS-POC2",
                     "url": "https://proteus-poc2.azureiotcentral.com",
-                    "shareable_link": "https://apps.azureiotcentral.com/build/new/963412e1-0394-4a6b-b22e-b266dcb9e4cc",
+                    "shareable_link": "https://apps.azureiotcentral.com/build/new/0d15956b-85a8-4593-99e6-ff8e9a7ea7f0",
                     "dtmi": "dtmi:proteusPoc2:pdmwbsoc_cloud;1",
                     "dtmi_type": "iotc"
                 }
@@ -12137,8 +12137,8 @@
                     "name": "Proteus development",
                     "description": "PROTEUS-POC2",
                     "url": "https://proteus-poc2.azureiotcentral.com",
-                    "shareable_link": "https://apps.azureiotcentral.com/build/new/963412e1-0394-4a6b-b22e-b266dcb9e4cc",
-                    "dtmi": "dtmi:proteusPoc2:pdmwbsoc2_cloud;1",
+                    "shareable_link": "https://apps.azureiotcentral.com/build/new/0d15956b-85a8-4593-99e6-ff8e9a7ea7f0",
+                    "dtmi": "dtmi:proteusPoc2:pdmwbsoc2_cloud;2",
                     "dtmi_type": "iotc"
                 }
             ],
@@ -12538,7 +12538,7 @@
             "fw_desc": "Anomaly Detection, Classification and Extrapolation by NEAI based on ThreadX OS.",
             "changelog": "Added NEAI Extrapolation libraries support.",
             "dtmi": "dtmi:appconfig:steval_proteus1:FP_AI_PDMWBSOC2;2",
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "wb_mode",
                 "bootloader_type": "wb",
@@ -12552,8 +12552,8 @@
                     "name": "Proteus development",
                     "description": "PROTEUS-POC2",
                     "url": "https://proteus-poc2.azureiotcentral.com",
-                    "shareable_link": "https://apps.azureiotcentral.com/build/new/963412e1-0394-4a6b-b22e-b266dcb9e4cc",
-                    "dtmi": "dtmi:proteusPoc2:pdmwbsoc2_cloud;1",
+                    "shareable_link": "https://apps.azureiotcentral.com/build/new/0d15956b-85a8-4593-99e6-ff8e9a7ea7f0",
+                    "dtmi": "dtmi:proteusPoc2:pdmwbsoc2_cloud;2",
                     "dtmi_type": "iotc"
                 }
             ],
@@ -14689,7 +14689,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -14757,7 +14757,7 @@
             "fw_version": "2.0.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Add Support to ST25KC, Drivers and HAL update",
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -14815,7 +14815,7 @@
             "fw_version": "2.0.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Add Support to ST25KC, Drivers and HAL update",
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -14869,7 +14869,7 @@
             "fw_desc": "Firmware for all box boards",
             "changelog": "Add Support to ST25KC, Drivers and HAL update",
             "dtmi": "dtmi:appconfig:steval_mkboxprob:FP_SNS_STBOX1_BLESensorsPnPL;1",
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -14952,7 +14952,7 @@
             "fw_version": "2.0.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Add Support to ST25KC, Drivers and HAL update",
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -20672,7 +20672,7 @@
             "format_notify": null
         }
     ],
-    "date": "2024-07-31 12:36:47.707652",
-    "version": "0.7.3",
-    "checksum": "34d8d7dcd8bfe42a0f474cf4e1a7fc5d"
+    "date": "2024-09-03 11:45:53.210925",
+    "version": "0.7.4",
+    "checksum": "1aeed545f9593bdf39ee1625525fff1b"
 }
