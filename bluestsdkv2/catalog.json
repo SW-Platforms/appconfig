@@ -12381,7 +12381,7 @@
           "dtmi": "dtmi:proteusPoc2:pdmwbsoc_cloud;1",
           "dtmi_type": "iotc",
           "name": "Proteus development",
-          "shareable_link": "https://apps.azureiotcentral.com/build/new/963412e1-0394-4a6b-b22e-b266dcb9e4cc",
+          "shareable_link": "https://apps.azureiotcentral.com/build/new/0d15956b-85a8-4593-99e6-ff8e9a7ea7f0",
           "url": "https://proteus-poc2.azureiotcentral.com"
         }
       ],
@@ -12502,7 +12502,7 @@
           "dtmi": "dtmi:proteusPoc2:pdmwbsoc2_cloud;1",
           "dtmi_type": "iotc",
           "name": "Proteus development",
-          "shareable_link": "https://apps.azureiotcentral.com/build/new/963412e1-0394-4a6b-b22e-b266dcb9e4cc",
+          "shareable_link": "https://apps.azureiotcentral.com/build/new/0d15956b-85a8-4593-99e6-ff8e9a7ea7f0",
           "url": "https://proteus-poc2.azureiotcentral.com"
         }
       ],
@@ -12915,10 +12915,10 @@
       "cloud_apps": [
         {
           "description": "PROTEUS-POC2",
-          "dtmi": "dtmi:proteusPoc2:pdmwbsoc2_cloud;1",
+          "dtmi": "dtmi:proteusPoc2:pdmwbsoc2_cloud;2",
           "dtmi_type": "iotc",
           "name": "Proteus development",
-          "shareable_link": "https://apps.azureiotcentral.com/build/new/963412e1-0394-4a6b-b22e-b266dcb9e4cc",
+          "shareable_link": "https://apps.azureiotcentral.com/build/new/0d15956b-85a8-4593-99e6-ff8e9a7ea7f0",
           "url": "https://proteus-poc2.azureiotcentral.com"
         }
       ],
@@ -12934,7 +12934,7 @@
       "fw_desc": "Anomaly Detection, Classification and Extrapolation by NEAI based on ThreadX OS.",
       "fw_name": "FP-AI-PDMWBSOC2",
       "fw_version": "2.0.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -22297,7 +22297,7 @@
       "um": ""
     }
   ],
-  "date": "2024-07-31 12:36:48.526627",
+  "date": "2024-09-03 11:27:48.526627",
   "version": "0.7.3",
-  "checksum": "34d8d7dcd8bfe42a0f474cf4e1a7fc5d"
+  "checksum": "ddd8d7dcd8bfe42a0f474cf4e1a7fc5d"
 }
