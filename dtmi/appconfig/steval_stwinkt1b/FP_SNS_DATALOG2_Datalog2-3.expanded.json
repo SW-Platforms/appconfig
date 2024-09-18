@@ -3822,10 +3822,8 @@
           ],
           "valueSchema": "integer"
         },
-        "writable": false,
-        "displayUnit": {
-          "en": "hPa"
-        }
+        "unit": "degreeCelsius",
+        "writable": false
       },
       {
         "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp:enable;1",
