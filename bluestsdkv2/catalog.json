@@ -13072,7 +13072,7 @@
             "fw_desc": "Anomaly Detection, Classification and Extrapolation by NEAI based on ThreadX OS.",
             "changelog": "Added NEAI Extrapolation libraries support.",
             "dtmi": "dtmi:appconfig:steval_proteus1:FP_AI_PDMWBSOC2;2",
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "wb_mode",
                 "bootloader_type": "wb",
@@ -21446,7 +21446,7 @@
             "format_notify": null
         }
     ],
-    "date": "2024-09-23 12:48:22.576078",
+    "date": "2024-09-24 13:46:20.379415",
     "version": "0.7.4",
-    "checksum": "732ddd8f68d3d7d09323619d85d10596"
+    "checksum": "d6f7b201d52a18418a89ce7f4f486c29"
 }
