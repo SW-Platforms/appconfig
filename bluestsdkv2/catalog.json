@@ -3504,6 +3504,16 @@
         "partial_fota": 0
       },
       "cloud_apps": [],
+      "demo_decorator": {
+        "add": [],
+        "remove": [
+          "FP-SNS-DATALOG2_Datalog2",
+          "Smart Motor Control",
+          "Raw PnPL Controlled",
+          "Textual Monitor"
+        ],
+        "rename": []
+      },
       "characteristics": [
         {
           "name": "Debug Console stdin/stdout",
@@ -7513,6 +7523,16 @@
         "partial_fota": 0
       },
       "cloud_apps": [],
+      "demo_decorator": {
+        "add": [],
+        "remove": [
+          "FP-SNS-DATALOG2_Datalog2",
+          "Smart Motor Control",
+          "Raw PnPL Controlled",
+          "Textual Monitor"
+        ],
+        "rename": []
+      },
       "characteristics": [
         {
           "name": "Debug Console stdin/stdout",
@@ -12207,6 +12227,16 @@
         "partial_fota": 0
       },
       "cloud_apps": [],
+      "demo_decorator": {
+        "add": [],
+        "remove": [
+          "FP-SNS-DATALOG2_Datalog2",
+          "Smart Motor Control",
+          "Raw PnPL Controlled",
+          "Textual Monitor"
+        ],
+        "rename": []
+      },
       "characteristics": [
         {
           "name": "Debug Console stdin/stdout",
@@ -12584,6 +12614,16 @@
         "partial_fota": 0
       },
       "cloud_apps": [],
+      "demo_decorator": {
+        "add": [],
+        "remove": [
+          "FP-SNS-DATALOG2_PDetect",
+          "Smart Motor Control",
+          "Raw PnPL Controlled",
+          "Textual Monitor"
+        ],
+        "rename": []
+      },
       "characteristics": [
         {
           "name": "Debug Console stdin/stdout",
@@ -16561,6 +16601,16 @@
         "partial_fota": 0
       },
       "cloud_apps": [],
+      "demo_decorator": {
+        "add": [],
+        "remove": [
+          "FP-SNS-DATALOG2_Datalog2",
+          "Smart Motor Control",
+          "Raw PnPL Controlled",
+          "Textual Monitor"
+        ],
+        "rename": []
+      },
       "characteristics": [
         {
           "name": "Debug Console stdin/stdout",
