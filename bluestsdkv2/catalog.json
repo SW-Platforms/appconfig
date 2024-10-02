@@ -23110,14 +23110,34 @@
         "O2",
         "O3"
       ],
-      "icon": "ic_inemo",
+      "icon": "ic_qvar_sensor",
       "dataType": "Float vector x1",
-      "model": "ST1VAFE6AX ",
+      "model": "ST1VAFE6AX",
       "board_compatibility": [
         "SENSOR_TILE_BOX_PRO",
         "SENSOR_TILE_BOX_PROB"
       ],
       "datasheetLink": "https://www.st.com/resource/en/datasheet/st1vafe6ax.pdf",
+      "um": ""
+    },
+    {
+      "unique_id": 18,
+      "id": "D18",
+      "description": "ECG with vAFE",
+      "output": "Voltage",
+      "outputs": [
+        "O1",
+        "O2",
+        "O3"
+      ],
+      "icon": "ic_qvar_sensor",
+      "dataType": "Float vector x1",
+      "model": "ST1VAFE3BX",
+      "board_compatibility": [
+        "SENSOR_TILE_BOX_PRO",
+        "SENSOR_TILE_BOX_PROB"
+      ],
+      "datasheetLink": "https://www.st.com/resource/en/datasheet/st1vafe3bx.pdf",
       "um": ""
     }
   ],
