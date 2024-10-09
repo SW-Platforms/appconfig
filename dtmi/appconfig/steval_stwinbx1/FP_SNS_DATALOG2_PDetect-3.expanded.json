@@ -7079,7 +7079,10 @@
           "valueSchema": "integer"
         },
         "unit": "degreeCelsius",
-        "writable": false
+        "writable": false,
+        "displayUnit": {
+          "en": "C"
+        }
       },
       {
         "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_PDetect:sensors:sht40_temp:enable;1",
@@ -7314,7 +7317,10 @@
           "valueSchema": "integer"
         },
         "unit": "percent",
-        "writable": false
+        "writable": false,
+        "displayUnit": {
+          "en": "%"
+        }
       },
       {
         "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_PDetect:sensors:sht40_hum:enable;1",
@@ -8462,6 +8468,9 @@
         },
         "unit": "gForce",
         "writable": true,
+        "displayUnit": {
+          "en": "g"
+        },
         "initialValue": 3
       },
       {
@@ -8805,6 +8814,9 @@
         },
         "unit": "degreePerSecond",
         "writable": true,
+        "displayUnit": {
+          "en": "dps"
+        },
         "initialValue": 5
       },
       {
@@ -9108,6 +9120,9 @@
         },
         "unit": "gForce",
         "writable": true,
+        "displayUnit": {
+          "en": "g"
+        },
         "initialValue": 3
       },
       {
@@ -9620,7 +9635,10 @@
           "valueSchema": "integer"
         },
         "unit": "degreeCelsius",
-        "writable": false
+        "writable": false,
+        "displayUnit": {
+          "en": "C"
+        }
       },
       {
         "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_PDetect1:sensors:stts22h_temp:enable;1",
