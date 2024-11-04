@@ -3494,7 +3494,7 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Added hw tags, fixed ioffset and PnPL init",
             "dtmi": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2;3",
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -7098,7 +7098,7 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Added hw tags, fixed ioffset and PnPL init",
             "dtmi": "dtmi:appconfig:steval_mkboxpro:FP_SNS_DATALOG2_Datalog2;5",
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -11792,7 +11792,7 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Added hw tags, fixed ioffset and PnPL init",
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2;7",
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -12169,7 +12169,7 @@
             "fw_desc": "Comprehensive solution for saving data for presence detection via STEVAL-PDETECT1 expansion board",
             "changelog": "Upgraded ALS management, fixed ioffset and PnPL init",
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_PDetect;3",
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -13343,7 +13343,16 @@
                 "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-proteus1/STSW-PROTEUS_1_1_1.bin",
                 "partial_fota": 0
             },
-            "cloud_apps": [],
+            "cloud_apps": [
+                {
+                    "name": "Proteus PoC",
+                    "description": "PoC",
+                    "url": "https://proteus-poc.azureiotcentral.com",
+                    "shareable_link": "https://apps.azureiotcentral.com/build/new/833f2c88-b5c5-402d-adfd-b81ed5dfed05",
+                    "dtmi": "dtmi:proteusPoc:PROTEUSdraftv254f;1",
+                    "dtmi_type": "iotc"
+                }
+            ],
             "characteristics": [
                 {
                     "name": "FFT Amplitude",
@@ -15889,7 +15898,7 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Added hw tags, fixed ioffset and PnPL init",
             "dtmi": "dtmi:appconfig:steval_mkboxprob:FP_SNS_DATALOG2_Datalog2;5",
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -19599,6 +19608,23 @@
             "description": "Ultra-low-power, Arm Cortex-M0+ MCU 64 MHz with 512 Kbytes of Flash memory, Bluetooth LE 5.3",
             "documentation_url": "https://www.st.com/en/microcontrollers-microprocessors/stm32wb0-series.html",
             "components": []
+        },
+        {
+            "release_date": null,
+            "brd_variant": "NUCLEO$WBA6",
+            "brd_part": "NUCLEO-WBA6",
+            "brd_name": "NUCLEO-WBA6",
+            "friendly_name": "NUCLEO-WBA6",
+            "ble_dev_id": "0x8E",
+            "nfc_dev_id": null,
+            "usb_dev_id": null,
+            "video_url": null,
+            "order_url": null,
+            "unique_dev_id": 38,
+            "status": "ACTIVE",
+            "description": "NUCLEO-WBA6",
+            "documentation_url": null,
+            "components": []
         }
     ],
     "characteristics": [
@@ -21594,7 +21620,7 @@
             "format_notify": null
         }
     ],
-    "date": "2024-11-04 10:03:45.376092",
+    "date": "2024-11-04 17:18:04.994697",
     "version": "0.7.4",
-    "checksum": "0ea5d5387737f1868746126c6c3753ed"
+    "checksum": "a14fc6ba9404df33e31f791f009a81bb"
 }
