@@ -20468,6 +20468,23 @@
       "description": "Ultra-low-power, Arm Cortex-M0+ MCU 64 MHz with 512 Kbytes of Flash memory, Bluetooth LE 5.3",
       "documentation_url": "https://www.st.com/en/microcontrollers-microprocessors/stm32wb0-series.html",
       "components": []
+    },
+    {
+      "release_date": null,
+      "brd_variant": "NUCLEO-WBA6",
+      "brd_part": "NUCLEO-WBA6",
+      "brd_name": "NUCLEO-WBA6",
+      "friendly_name": "NUCLEO-WBA6",
+      "ble_dev_id": "0x8E",
+      "nfc_dev_id": null,
+      "usb_dev_id": null,
+      "video_url": null,
+      "order_url": null,
+      "unique_dev_id": 37,
+      "status": "ACTIVE",
+      "description": "NUCLEO-WBA6",
+      "documentation_url": null,
+      "components": []
     }
   ],
   "characteristics": [
