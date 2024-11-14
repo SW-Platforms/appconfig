@@ -13779,7 +13779,7 @@
       "fw_version": "1.1.1",
       "fw_desc": "Predictive maintenance applications based on STM32WB.",
       "changelog": "Fixed the issue related the application crash when a BLE stack version lower than v1.19.0 was installed. Other minor bug fixes.",
-      "maturity": "draft",
+      "maturity": "release",
       "fota": {
         "type": "wb_mode",
         "bootloader_type": "wb",
