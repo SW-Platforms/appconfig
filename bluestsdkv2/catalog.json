@@ -12742,6 +12742,96 @@
             ]
         },
         {
+            "ble_dev_id": "0x0E",
+            "ble_fw_id": "0x2C",
+            "option_bytes": [
+                {
+                    "name": "alarm:",
+                    "type": "string",
+                    "format": "enum_string",
+                    "string_values": [
+                        {
+                            "value": 0,
+                            "display_name": "No Alarm"
+                        },
+                        {
+                            "value": 1,
+                            "display_name": "Missing SD Card"
+                        },
+                        {
+                            "value": 2,
+                            "display_name": "Logging Ongoing"
+                        }
+                    ]
+                },
+                {
+                    "name": "status",
+                    "type": "icon",
+                    "format": "enum_icon",
+                    "icon_values": [
+                        {
+                            "value": 0,
+                            "comment": "No Alarm",
+                            "icon_code": 7
+                        },
+                        {
+                            "value": 1,
+                            "comment": "icon for Missing SD Card",
+                            "icon_code": 5
+                        },
+                        {
+                            "value": 2,
+                            "comment": "icon for Log ongoing",
+                            "icon_code": 10
+                        }
+                    ]
+                }
+            ],
+            "brd_name": "STEVAL-STWINBX1",
+            "fw_name": "FP-IND-DATALOGMC_DatalogMC",
+            "fw_version": "2.0.0",
+            "fw_desc": "High-speed datalogging of sensors data and motor control telemetries",
+            "changelog": "Maintenance + scaling factor + moving Python SDK in dedicated package",
+            "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_IND_DATALOGMC_DatalogMC;2",
+            "maturity": "draft",
+            "fota": {
+                "type": "fast",
+                "bootloader_type": "none",
+                "max_chunk_length": 0,
+                "max_divisor_constraint": 0,
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-IND-DATALOGMC_DatalogMC_2_0_0.bin",
+                "partial_fota": 0
+            },
+            "cloud_apps": [],
+            "characteristics": [
+                {
+                    "name": "Debug Console stdin/stdout",
+                    "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Debug Console stderr",
+                    "uuid": "00000002-000E-11e1-9ab4-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Ext Configuration",
+                    "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "PnPLike",
+                    "uuid": "0000001b-0002-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "RawPnPL",
+                    "uuid": "00000023-0002-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                }
+            ]
+        },
+        {
             "ble_dev_id": "0x0F",
             "ble_fw_id": "0x01",
             "option_bytes": [
@@ -13868,7 +13958,7 @@
             "fw_version": "1.1.1",
             "fw_desc": "Predictive maintenance applications based on STM32WB.",
             "changelog": "Fixed the issue related the application crash when a BLE stack version lower than v1.19.0 was installed. Other minor bug fixes.",
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "wb_mode",
                 "bootloader_type": "wb",
@@ -22249,7 +22339,772 @@
             "format_notify": null
         }
     ],
-    "date": "2024-11-14 13:55:27.532756",
-    "version": "0.7.4",
-    "checksum": "9cc97c4bc65d30ff28b2ca23e2671bc9"
+    "sensor_adapters": [
+        {
+            "unique_id": 1,
+            "id": "D1",
+            "description": "Temperature sensor",
+            "icon": "ic_termometer",
+            "model": "SHT40AD1B",
+            "board_compatibility": [
+                "SENSOR_TILE_BOX_PRO",
+                "SENSOR_TILE_BOX_PROB"
+            ],
+            "output": "Temperature",
+            "outputs": [
+                "O1",
+                "O2",
+                "O3"
+            ],
+            "um": "degC",
+            "datasheetLink": "https://sensirion.com/media/documents/33FD6951/63E1087C/Datasheet_SHT4x_1.pdf",
+            "notes": "the sensor works only with single reads, the odr is managed by the firmware",
+            "dataType": "Float scalar",
+            "powerModes": [
+                {
+                    "mode": "NONE",
+                    "label": "Power Mode",
+                    "odrs": [
+                        0.25,
+                        0.5,
+                        1,
+                        2,
+                        4
+                    ],
+                    "minCustomOdr": 10
+                }
+            ],
+            "acquisitionTime": 0,
+            "configuration": {
+                "powerMode": "NONE",
+                "odr": 1,
+                "acquisitionTime": 0
+            }
+        },
+        {
+            "unique_id": 2,
+            "id": "D2",
+            "description": "TMOS IR presence motion sensor",
+            "icon": "ic_infrared",
+            "model": "STHS34PF80",
+            "board_compatibility": [
+                "SENSOR_TILE_BOX_PRO",
+                "SENSOR_TILE_BOX_PROB"
+            ],
+            "output": "TMOS output",
+            "outputs": [
+                "O1",
+                "O2",
+                "O3"
+            ],
+            "dataType": "int scalar",
+            "um": "[LSB]",
+            "datasheetLink": "https://www.st.com/resource/en/datasheet/sths34pf80.pdf",
+            "powerModes": [
+                {
+                    "mode": "NONE",
+                    "label": "Power Mode",
+                    "odrs": [
+                        0.25,
+                        0.5,
+                        1,
+                        2,
+                        4,
+                        8,
+                        15,
+                        30
+                    ],
+                    "minCustomOdr": 0.2
+                }
+            ],
+            "acquisitionTime": 0,
+            "configuration": {
+                "powerMode": "NONE",
+                "odr": 8,
+                "acquisitionTime": 0
+            }
+        },
+        {
+            "unique_id": 3,
+            "id": "D3",
+            "description": "IMU Accelerometer sensor",
+            "icon": "ic_inemo",
+            "output": "Acceleration",
+            "outputs": [
+                "O1",
+                "O2",
+                "O3"
+            ],
+            "model": "LSM6DSO32",
+            "board_compatibility": [
+                "SENSOR_TILE_BOX_PRO",
+                "SENSOR_TILE_BOX_PROB"
+            ],
+            "um": "mg",
+            "fullScaleUm": "g",
+            "datasheetLink": "https://www.st.com/resource/en/datasheet/lsm6dso32.pdf",
+            "dataType": "Float vector x3",
+            "fullScales": [
+                4,
+                8,
+                16,
+                32
+            ],
+            "powerModes": [
+                {
+                    "mode": "LOW_POWER",
+                    "label": "Low power",
+                    "odrs": [
+                        1.6,
+                        12.5,
+                        26,
+                        52,
+                        104,
+                        208
+                    ]
+                },
+                {
+                    "mode": "HIGH_PERFORMANCE",
+                    "label": "High performance",
+                    "odrs": [
+                        12.5,
+                        26,
+                        52,
+                        104,
+                        208,
+                        416,
+                        833,
+                        1666,
+                        3333,
+                        6666
+                    ]
+                }
+            ],
+            "acquisitionTime": 0,
+            "bleMaxOdr": 52,
+            "configuration": {
+                "powerMode": "LOW_POWER",
+                "odr": 52,
+                "fullScale": 32,
+                "acquisitionTime": 0
+            }
+        },
+        {
+            "unique_id": 4,
+            "id": "D4",
+            "description": "IMU Gyroscope sensor",
+            "output": "Angular rate",
+            "outputs": [
+                "O1",
+                "O2",
+                "O3"
+            ],
+            "icon": "ic_inemo",
+            "model": "LSM6DSO32",
+            "board_compatibility": [
+                "SENSOR_TILE_BOX_PRO",
+                "SENSOR_TILE_BOX_PROB"
+            ],
+            "um": "mdps",
+            "fullScaleUm": "dps",
+            "datasheetLink": "https://www.st.com/resource/en/datasheet/lsm6dso32.pdf",
+            "dataType": "Float vector x3",
+            "fullScales": [
+                250,
+                500,
+                1000,
+                2000
+            ],
+            "powerModes": [
+                {
+                    "mode": "LOW_POWER",
+                    "label": "Low power",
+                    "odrs": [
+                        12.5,
+                        26,
+                        52,
+                        104,
+                        208
+                    ]
+                },
+                {
+                    "mode": "HIGH_PERFORMANCE",
+                    "label": "High performance",
+                    "odrs": [
+                        12.5,
+                        26,
+                        52,
+                        104,
+                        208,
+                        416,
+                        833,
+                        1666,
+                        3333,
+                        6666
+                    ]
+                }
+            ],
+            "acquisitionTime": 0,
+            "bleMaxOdr": 52,
+            "configuration": {
+                "powerMode": "LOW_POWER",
+                "odr": 52,
+                "fullScale": 2000,
+                "acquisitionTime": 0
+            }
+        },
+        {
+            "unique_id": 5,
+            "id": "D5",
+            "description": "IMU Accelerometer sensor",
+            "icon": "ic_inemo",
+            "output": "Acceleration",
+            "outputs": [
+                "O1",
+                "O2",
+                "O3"
+            ],
+            "model": "LSM6DSV16BX",
+            "board_compatibility": [
+                "SENSOR_TILE_BOX_PRO",
+                "SENSOR_TILE_BOX_PROB"
+            ],
+            "um": "mg",
+            "fullScaleUm": "g",
+            "datasheetLink": "https://www.st.com/resource/en/datasheet/lsm6dsv16bx.pdf",
+            "dataType": "Float vector x3",
+            "fullScales": [
+                2,
+                4,
+                8,
+                16
+            ],
+            "powerModes": [
+                {
+                    "mode": "LOW_POWER",
+                    "label": "Low power",
+                    "odrs": [
+                        1.875,
+                        15,
+                        30,
+                        60,
+                        120,
+                        240
+                    ]
+                },
+                {
+                    "mode": "HIGH_PERFORMANCE",
+                    "label": "High performance",
+                    "odrs": [
+                        7.5,
+                        15,
+                        30,
+                        60,
+                        120,
+                        240,
+                        480,
+                        960,
+                        1920,
+                        3840,
+                        7680
+                    ]
+                }
+            ],
+            "acquisitionTime": 0,
+            "bleMaxOdr": 60,
+            "configuration": {
+                "powerMode": "LOW_POWER",
+                "odr": 60,
+                "fullScale": 4,
+                "acquisitionTime": 0
+            }
+        },
+        {
+            "unique_id": 6,
+            "id": "D6",
+            "description": "IMU Gyroscope sensor",
+            "output": "Angular rate",
+            "outputs": [
+                "O1",
+                "O2",
+                "O3"
+            ],
+            "icon": "ic_inemo",
+            "model": "LSM6DSV16BX",
+            "board_compatibility": [
+                "SENSOR_TILE_BOX_PRO",
+                "SENSOR_TILE_BOX_PROB"
+            ],
+            "um": "mdps",
+            "fullScaleUm": "dps",
+            "datasheetLink": "https://www.st.com/resource/en/datasheet/lsm6dsv16bx.pdf",
+            "dataType": "Float vector x3",
+            "fullScales": [
+                125,
+                250,
+                500,
+                1000,
+                2000,
+                4000
+            ],
+            "powerModes": [
+                {
+                    "mode": "LOW_POWER",
+                    "label": "Low power",
+                    "odrs": [
+                        1.875,
+                        15,
+                        30,
+                        60,
+                        120,
+                        240
+                    ]
+                },
+                {
+                    "mode": "HIGH_PERFORMANCE",
+                    "label": "High performance",
+                    "odrs": [
+                        7.5,
+                        15,
+                        30,
+                        60,
+                        120,
+                        240,
+                        480,
+                        960,
+                        1920,
+                        3840,
+                        7680
+                    ]
+                }
+            ],
+            "acquisitionTime": 0,
+            "bleMaxOdr": 60,
+            "configuration": {
+                "powerMode": "LOW_POWER",
+                "odr": 60,
+                "fullScale": 2000,
+                "acquisitionTime": 0
+            }
+        },
+        {
+            "unique_id": 10,
+            "id": "D10",
+            "description": "Humidity Sensor",
+            "icon": "ic_humidity",
+            "output": "Humidity",
+            "outputs": [
+                "O1",
+                "O2",
+                "O3"
+            ],
+            "model": "SHT40AD1B",
+            "board_compatibility": [
+                "SENSOR_TILE_BOX_PRO",
+                "SENSOR_TILE_BOX_PROB"
+            ],
+            "um": "% RH",
+            "datasheetLink": "https://sensirion.com/media/documents/33FD6951/6555C40E/Sensirion_Datasheet_SHT4x.pdf",
+            "notes": "The sensor works only with single reads, the odr is managed by the firmware",
+            "dataType": "Float scalar",
+            "powerModes": [
+                {
+                    "mode": "NONE",
+                    "label": "Power Mode",
+                    "odrs": [
+                        0.25,
+                        0.5,
+                        1,
+                        2,
+                        4
+                    ],
+                    "minCustomOdr": 10
+                }
+            ],
+            "acquisitionTime": 0,
+            "configuration": {
+                "powerMode": "NONE",
+                "odr": 1,
+                "acquisitionTime": 0
+            }
+        },
+        {
+            "unique_id": 11,
+            "id": "D11",
+            "description": "IMU Accelerometer sensor",
+            "icon": "ic_inemo",
+            "output": "Acceleration",
+            "outputs": [
+                "O1",
+                "O2",
+                "O3"
+            ],
+            "model": "LSM6DSO16IS",
+            "board_compatibility": [
+                "SENSOR_TILE_BOX_PRO",
+                "SENSOR_TILE_BOX_PROB"
+            ],
+            "um": "mg",
+            "fullScaleUm": "g",
+            "datasheetLink": "https://www.st.com/resource/en/datasheet/lsm6dso16is.pdf",
+            "dataType": "Float vector x3",
+            "fullScales": [
+                2,
+                4,
+                8,
+                16
+            ],
+            "powerModes": [
+                {
+                    "mode": "LOW_POWER",
+                    "label": "Low power",
+                    "odrs": [
+                        1.6,
+                        12.5,
+                        26,
+                        52,
+                        104,
+                        208
+                    ]
+                },
+                {
+                    "mode": "HIGH_PERFORMANCE",
+                    "label": "High performance",
+                    "odrs": [
+                        12.5,
+                        26,
+                        52,
+                        104,
+                        208,
+                        416,
+                        833,
+                        1667,
+                        3333,
+                        6667
+                    ]
+                }
+            ],
+            "acquisitionTime": 0,
+            "bleMaxOdr": 52,
+            "configuration": {
+                "powerMode": "LOW_POWER",
+                "odr": 52,
+                "fullScale": 16,
+                "acquisitionTime": 0
+            }
+        },
+        {
+            "unique_id": 12,
+            "id": "D12",
+            "description": "IMU Gyroscope sensor",
+            "output": "Angular rate",
+            "outputs": [
+                "O1",
+                "O2",
+                "O3"
+            ],
+            "icon": "ic_inemo",
+            "model": "LSM6DSO16IS",
+            "board_compatibility": [
+                "SENSOR_TILE_BOX_PRO",
+                "SENSOR_TILE_BOX_PROB"
+            ],
+            "um": "mdps",
+            "fullScaleUm": "dps",
+            "datasheetLink": "https://www.st.com/resource/en/datasheet/lsm6dso16is.pdf",
+            "dataType": "Float vector x3",
+            "fullScales": [
+                125,
+                250,
+                500,
+                1000,
+                2000
+            ],
+            "powerModes": [
+                {
+                    "mode": "LOW_POWER",
+                    "label": "Low power",
+                    "odrs": [
+                        12.5,
+                        26,
+                        52,
+                        104,
+                        208
+                    ]
+                },
+                {
+                    "mode": "HIGH_PERFORMANCE",
+                    "label": "High performance",
+                    "odrs": [
+                        12.5,
+                        26,
+                        52,
+                        104,
+                        208,
+                        416,
+                        833,
+                        1667,
+                        3333,
+                        6667
+                    ]
+                }
+            ],
+            "acquisitionTime": 0,
+            "bleMaxOdr": 52,
+            "configuration": {
+                "powerMode": "LOW_POWER",
+                "odr": 52,
+                "fullScale": 2000,
+                "acquisitionTime": 0
+            }
+        },
+        {
+            "unique_id": 13,
+            "id": "D13",
+            "description": "IMU with ISPU Functionalities",
+            "output": "ISPU Output",
+            "outputs": [
+                "O1",
+                "O2",
+                "O3"
+            ],
+            "icon": "ic_inemo",
+            "model": "LSM6DSO16IS",
+            "board_compatibility": [
+                "SENSOR_TILE_BOX_PRO",
+                "SENSOR_TILE_BOX_PROB"
+            ],
+            "um": "",
+            "fullScaleUm": "",
+            "datasheetLink": "https://www.st.com/resource/en/datasheet/lsm6dso16is.pdf",
+            "dataType": "",
+            "fullScales": [
+                0
+            ],
+            "powerModes": [
+                {
+                    "mode": "NONE",
+                    "label": "Power Mode",
+                    "odrs": [
+                        1
+                    ]
+                }
+            ],
+            "acquisitionTime": 0,
+            "bleMaxOdr": 52,
+            "configuration": {
+                "powerMode": "NONE",
+                "odr": 1,
+                "acquisitionTime": 0
+            }
+        },
+        {
+            "unique_id": 14,
+            "id": "D14",
+            "description": "IMU Accelerometer sensor",
+            "icon": "ic_inemo",
+            "output": "Acceleration",
+            "outputs": [
+                "O1",
+                "O2",
+                "O3"
+            ],
+            "model": "LSM6DSV32X",
+            "board_compatibility": [
+                "SENSOR_TILE_BOX_PRO",
+                "SENSOR_TILE_BOX_PROB"
+            ],
+            "um": "mg",
+            "fullScaleUm": "g",
+            "datasheetLink": "https://www.st.com/resource/en/data_brief/lsm6dsv32x.pdf",
+            "dataType": "Float vector x3",
+            "fullScales": [
+                4,
+                8,
+                16,
+                32
+            ],
+            "powerModes": [
+                {
+                    "mode": "LOW_POWER_2",
+                    "label": "Low power 1",
+                    "odrs": [
+                        1.875,
+                        15,
+                        30,
+                        60,
+                        120,
+                        240
+                    ]
+                },
+                {
+                    "mode": "LOW_POWER_3",
+                    "label": "Low power 2",
+                    "odrs": [
+                        1.875,
+                        15,
+                        30,
+                        60,
+                        120,
+                        240
+                    ]
+                },
+                {
+                    "mode": "LOW_POWER_4",
+                    "label": "Low power 3",
+                    "odrs": [
+                        1.875,
+                        15,
+                        30,
+                        60,
+                        120,
+                        240
+                    ]
+                },
+                {
+                    "mode": "NORMAL_MODE",
+                    "label": "Normal mode",
+                    "odrs": [
+                        7.5,
+                        15,
+                        30,
+                        60,
+                        120,
+                        240,
+                        480,
+                        960,
+                        1920
+                    ]
+                },
+                {
+                    "mode": "NONE",
+                    "label": "High performance",
+                    "odrs": [
+                        7.5,
+                        15,
+                        30,
+                        60,
+                        120,
+                        240,
+                        480,
+                        960,
+                        1920,
+                        3840,
+                        7680
+                    ]
+                },
+                {
+                    "mode": "LOW_NOISE",
+                    "label": "High accuracy",
+                    "odrs": [
+                        15,
+                        30,
+                        60,
+                        120,
+                        240,
+                        480,
+                        960,
+                        1920,
+                        3840,
+                        7680
+                    ]
+                }
+            ],
+            "acquisitionTime": 0,
+            "bleMaxOdr": 52,
+            "configuration": {
+                "powerMode": "NONE",
+                "odr": 30,
+                "fullScale": 32,
+                "acquisitionTime": 0
+            }
+        },
+        {
+            "unique_id": 15,
+            "id": "D15",
+            "description": "IMU Gyroscope sensor",
+            "output": "Angular rate",
+            "outputs": [
+                "O1",
+                "O2",
+                "O3"
+            ],
+            "icon": "ic_inemo",
+            "model": "LSM6DSV32X",
+            "board_compatibility": [
+                "SENSOR_TILE_BOX_PRO",
+                "SENSOR_TILE_BOX_PROB"
+            ],
+            "um": "mdps",
+            "fullScaleUm": "dps",
+            "datasheetLink": "https://www.st.com/resource/en/data_brief/lsm6dsv32x.pdf",
+            "dataType": "Float vector x3",
+            "fullScales": [
+                125,
+                250,
+                500,
+                1000,
+                2000,
+                4000
+            ],
+            "powerModes": [
+                {
+                    "mode": "LOW_POWER_3",
+                    "label": "Low power",
+                    "odrs": [
+                        7.5,
+                        15,
+                        30,
+                        60,
+                        120,
+                        240
+                    ]
+                },
+                {
+                    "mode": "NONE",
+                    "label": "High performance",
+                    "odrs": [
+                        7.5,
+                        15,
+                        30,
+                        60,
+                        120,
+                        240,
+                        480,
+                        960,
+                        1920,
+                        3840,
+                        7680
+                    ]
+                },
+                {
+                    "mode": "LOW_NOISE",
+                    "label": "High accuracy",
+                    "odrs": [
+                        15,
+                        30,
+                        60,
+                        120,
+                        240,
+                        480,
+                        960,
+                        1920,
+                        3840,
+                        7680
+                    ]
+                }
+            ],
+            "acquisitionTime": 0,
+            "bleMaxOdr": 52,
+            "configuration": {
+                "powerMode": "NONE",
+                "odr": 30,
+                "fullScale": 4000,
+                "acquisitionTime": 0
+            }
+        }
+    ],
+    "date": "2024-11-21 12:45:39.586071",
+    "version": "0.7.6",
+    "checksum": "60c96dd08814c3bb57529df4bddf3429"
 }
