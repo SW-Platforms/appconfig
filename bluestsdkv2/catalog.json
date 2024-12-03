@@ -3641,7 +3641,7 @@
             "fw_version": "3.0.0",
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Moved Python SDK in stdatalog-pysdk, upgraded PnPL files, added new sensors",
-            "dtmi": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2;3",
+            "dtmi": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2;4",
             "maturity": "draft",
             "fota": {
                 "type": "fast",
@@ -12702,7 +12702,7 @@
             "fw_version": "3.0.0",
             "fw_desc": "Comprehensive solution for saving data for presence detection via STEVAL-PDETECT1 expansion board",
             "changelog": "Moved Python SDK in stdatalog-pysdk, upgraded PnPL files, added new sensors",
-            "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_PDetect;3",
+            "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_PDetect;4",
             "maturity": "draft",
             "fota": {
                 "type": "fast",
@@ -12817,6 +12817,101 @@
                 {
                     "name": "Ext Configuration",
                     "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "PnPLike",
+                    "uuid": "0000001b-0002-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "RawPnPL",
+                    "uuid": "00000023-0002-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                }
+            ]
+        },
+        {
+            "ble_dev_id": "0x0E",
+            "ble_fw_id": "0x2D",
+            "option_bytes": [
+                {
+                    "name": "alarm:",
+                    "type": "string",
+                    "format": "enum_string",
+                    "string_values": [
+                        {
+                            "value": 0,
+                            "display_name": "No Alarm"
+                        },
+                        {
+                            "value": 1,
+                            "display_name": "Missing SD Card"
+                        },
+                        {
+                            "value": 2,
+                            "display_name": "Logging Ongoing"
+                        }
+                    ]
+                },
+                {
+                    "name": "status",
+                    "type": "icon",
+                    "format": "enum_icon",
+                    "icon_values": [
+                        {
+                            "value": 0,
+                            "comment": "No Alarm",
+                            "icon_code": 7
+                        },
+                        {
+                            "value": 1,
+                            "comment": "icon for Missing SD Card",
+                            "icon_code": 5
+                        },
+                        {
+                            "value": 2,
+                            "comment": "icon for Log ongoing",
+                            "icon_code": 10
+                        }
+                    ]
+                }
+            ],
+            "brd_name": "STEVAL-STWINBX1",
+            "fw_name": "FP-IND-DATALOGMC_DatalogMCNEAI",
+            "fw_version": "2.0.0",
+            "fw_desc": "Motor fault classification with NanoEdge AI Studio",
+            "changelog": "Bug fix + New dtmi (sensitivity) + moved Python SDK",
+            "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_IND_DATALOGMC_DatalogMCNEAI;2",
+            "maturity": "draft",
+            "fota": {
+                "type": "fast",
+                "bootloader_type": "none",
+                "max_chunk_length": 0,
+                "max_divisor_constraint": 0,
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-IND-DATALOGMC_DatalogMCNEAI_2_0_0.bin",
+                "partial_fota": 0
+            },
+            "cloud_apps": [],
+            "characteristics": [
+                {
+                    "name": "Debug Console stdin/stdout",
+                    "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Debug Console stderr",
+                    "uuid": "00000002-000E-11e1-9ab4-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Ext Configuration",
+                    "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "NEAI Classification",
+                    "uuid": "0000001a-0002-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
                 },
                 {
@@ -23104,7 +23199,7 @@
             }
         }
     ],
-    "date": "2024-11-21 12:45:39.586071",
+    "date": "2024-12-03 15:02:25.857887",
     "version": "0.7.6",
-    "checksum": "60c96dd08814c3bb57529df4bddf3429"
+    "checksum": "c3c50b6a67a4d08aa97a6fe3248d3449"
 }
