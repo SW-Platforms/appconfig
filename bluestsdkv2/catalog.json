@@ -3642,6 +3642,16 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Moved Python SDK in stdatalog-pysdk, upgraded PnPL files, added new sensors",
             "dtmi": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2;4",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2",
+                    "Smart Motor Control",
+                    "Raw PnPL Controlled",
+                    "Textual Monitor"
+                ],
+                "rename": []
+            },
             "maturity": "draft",
             "fota": {
                 "type": "fast",
@@ -7246,6 +7256,16 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Added hw tags, fixed ioffset and PnPL init",
             "dtmi": "dtmi:appconfig:steval_mkboxpro:FP_SNS_DATALOG2_Datalog2;5",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2",
+                    "Smart Motor Control",
+                    "Raw PnPL Controlled",
+                    "Textual Monitor"
+                ],
+                "rename": []
+            },
             "maturity": "release",
             "fota": {
                 "type": "fast",
@@ -7341,6 +7361,13 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Moved Python SDK in stdatalog-pysdk, upgraded PnPL files, added new sensors",
             "dtmi": "dtmi:appconfig:steval_mkboxpro:FP_SNS_DATALOG2_Datalog2;6",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2"
+                ],
+                "rename": []
+            },
             "maturity": "draft",
             "fota": {
                 "type": "fast",
@@ -9839,6 +9866,14 @@
             "fw_desc": "Motor fault classification with NanoEdge AI Studio",
             "changelog": "New application: first release",
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_IND_DATALOGMC_DatalogMCNEAI;1",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "Raw PnPL Controlled",
+                    "FP_IND_DATALOGMC_DatalogMCNEAI"
+                ],
+                "rename": []
+            },
             "maturity": "release",
             "fota": {
                 "type": "fast",
@@ -12035,6 +12070,16 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Added hw tags, fixed ioffset and PnPL init",
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2;7",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2",
+                    "Smart Motor Control",
+                    "Raw PnPL Controlled",
+                    "Textual Monitor"
+                ],
+                "rename": []
+            },
             "maturity": "release",
             "fota": {
                 "type": "fast",
@@ -12412,6 +12457,16 @@
             "fw_desc": "Comprehensive solution for saving data for presence detection via STEVAL-PDETECT1 expansion board",
             "changelog": "Upgraded ALS management, fixed ioffset and PnPL init",
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_PDetect;3",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_PDetect",
+                    "Smart Motor Control",
+                    "Raw PnPL Controlled",
+                    "Textual Monitor"
+                ],
+                "rename": []
+            },
             "maturity": "release",
             "fota": {
                 "type": "fast",
@@ -12555,6 +12610,16 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Moved Python SDK in stdatalog-pysdk, upgraded PnPL files, added new sensors",
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2;8",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2",
+                    "Smart Motor Control",
+                    "Raw PnPL Controlled",
+                    "Textual Monitor"
+                ],
+                "rename": []
+            },
             "maturity": "draft",
             "fota": {
                 "type": "fast",
@@ -12703,6 +12768,16 @@
             "fw_desc": "Comprehensive solution for saving data for presence detection via STEVAL-PDETECT1 expansion board",
             "changelog": "Moved Python SDK in stdatalog-pysdk, upgraded PnPL files, added new sensors",
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_PDetect;4",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2",
+                    "Smart Motor Control",
+                    "Raw PnPL Controlled",
+                    "Textual Monitor"
+                ],
+                "rename": []
+            },
             "maturity": "draft",
             "fota": {
                 "type": "fast",
@@ -12793,6 +12868,14 @@
             "fw_desc": "High-speed datalogging of sensors data and motor control telemetries",
             "changelog": "Maintenance + scaling factor + moving Python SDK in dedicated package",
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_IND_DATALOGMC_DatalogMC;2",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "Raw PnPL Controlled",
+                    "FP-IND-DATALOGMC_DatalogMC"
+                ],
+                "rename": []
+            },
             "maturity": "draft",
             "fota": {
                 "type": "fast",
@@ -12883,6 +12966,14 @@
             "fw_desc": "Motor fault classification with NanoEdge AI Studio",
             "changelog": "Bug fix + New dtmi (sensitivity) + moved Python SDK",
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_IND_DATALOGMC_DatalogMCNEAI;2",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "Raw PnPL Controlled",
+                    "FP_IND_DATALOGMC_DatalogMCNEAI"
+                ],
+                "rename": []
+            },
             "maturity": "draft",
             "fota": {
                 "type": "fast",
@@ -16712,6 +16803,16 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Moved Python SDK in stdatalog-pysdk, upgraded PnPL files, added new sensors",
             "dtmi": "dtmi:appconfig:steval_mkboxprob:FP_SNS_DATALOG2_Datalog2;6",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2",
+                    "Smart Motor Control",
+                    "Raw PnPL Controlled",
+                    "Textual Monitor"
+                ],
+                "rename": []
+            },
             "maturity": "draft",
             "fota": {
                 "type": "fast",
@@ -23199,7 +23300,7 @@
             }
         }
     ],
-    "date": "2024-12-04 10:18:34.535893",
+    "date": "2024-12-04 10:50:01.144495",
     "version": "0.7.7",
-    "checksum": "c3c50b6a67a4d08aa97a6fe3248d3449"
+    "checksum": "031b539f865b11e3c20927c02c0b84a7"
 }
