@@ -3494,6 +3494,16 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Added hw tags, fixed ioffset and PnPL init",
             "dtmi": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2;3",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2",
+                    "Smart Motor Control",
+                    "Raw PnPL Controlled",
+                    "Textual Monitor"
+                ],
+                "rename": []
+            },
             "maturity": "release",
             "fota": {
                 "type": "fast",
@@ -7364,7 +7374,10 @@
             "demo_decorator": {
                 "add": [],
                 "remove": [
-                    "FP-SNS-DATALOG2_Datalog2"
+                    "FP-SNS-DATALOG2_Datalog2",
+                    "Smart Motor Control",
+                    "Raw PnPL Controlled",
+                    "Textual Monitor"
                 ],
                 "rename": []
             },
@@ -12771,7 +12784,7 @@
             "demo_decorator": {
                 "add": [],
                 "remove": [
-                    "FP-SNS-DATALOG2_Datalog2",
+                    "FP-SNS-DATALOG2_PDetect",
                     "Smart Motor Control",
                     "Raw PnPL Controlled",
                     "Textual Monitor"
@@ -16708,6 +16721,16 @@
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "changelog": "Added hw tags, fixed ioffset and PnPL init",
             "dtmi": "dtmi:appconfig:steval_mkboxprob:FP_SNS_DATALOG2_Datalog2;5",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "FP-SNS-DATALOG2_Datalog2",
+                    "Smart Motor Control",
+                    "Raw PnPL Controlled",
+                    "Textual Monitor"
+                ],
+                "rename": []
+            },
             "maturity": "release",
             "fota": {
                 "type": "fast",
@@ -23300,7 +23323,7 @@
             }
         }
     ],
-    "date": "2024-12-04 10:50:01.144495",
+    "date": "2024-12-04 11:05:14.883067",
     "version": "0.7.7",
-    "checksum": "031b539f865b11e3c20927c02c0b84a7"
+    "checksum": "d75c87c106d029610efca4c8cccfa47a"
 }
