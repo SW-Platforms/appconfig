@@ -17649,7 +17649,10 @@
       "demo_decorator": {
         "add": [],
         "remove": [
-          "FP-SNS-DATALOG2_Datalog2"
+          "FP-SNS-DATALOG2_Datalog2",
+          "Smart Motor Control",
+          "Raw PnPL Controlled",
+          "Textual Monitor"
         ],
         "rename": []
       },
