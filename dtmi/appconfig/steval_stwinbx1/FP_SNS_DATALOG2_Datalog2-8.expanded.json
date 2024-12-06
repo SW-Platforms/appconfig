@@ -5155,7 +5155,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:iis2dulpx_mlc:monted;1",
+        "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:sensors:iis2dulpx_mlc:mounted;1",
         "@type": [
           "Property",
           "BooleanValue"
@@ -5163,7 +5163,7 @@
         "displayName": {
           "en": "Mounted"
         },
-        "name": "monted",
+        "name": "mounted",
         "schema": "boolean",
         "writable": false
       }

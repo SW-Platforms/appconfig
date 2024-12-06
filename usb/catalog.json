@@ -398,7 +398,7 @@
             "package_id": 326,
             "binary_id": 224,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2;5",
-            "dwn_url": ""
+            "dwn_url": null
         },
         {
             "protocol": "libusb",
@@ -1329,7 +1329,7 @@
             "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-IND-DATALOGMC_DatalogMCNEAI_2_0_0.bin"
         }
     ],
-    "date": "2024-12-04 11:05:03.401673",
+    "date": "2024-12-06 12:16:52.655905",
     "version": "0.7.7",
-    "checksum": "1655bd37c53611e135cfdb959d9e3298"
+    "checksum": "27592bbd747c33e0fffb6e9ef40df107"
 }
