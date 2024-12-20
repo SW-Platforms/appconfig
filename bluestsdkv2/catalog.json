@@ -3662,7 +3662,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "draft",
+            "maturity": "beta",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -7381,7 +7381,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "draft",
+            "maturity": "beta",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -12633,7 +12633,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "draft",
+            "maturity": "beta",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -12791,7 +12791,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "draft",
+            "maturity": "beta",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -12889,7 +12889,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "draft",
+            "maturity": "beta",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -16836,7 +16836,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "draft",
+            "maturity": "beta",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -23323,7 +23323,7 @@
             }
         }
     ],
-    "date": "2024-12-18 16:00:27.983232",
+    "date": "2024-12-20 14:38:54.927596",
     "version": "0.7.7",
-    "checksum": "d75c87c106d029610efca4c8cccfa47a"
+    "checksum": "e3062edb436fcaee0304fac453430511"
 }
