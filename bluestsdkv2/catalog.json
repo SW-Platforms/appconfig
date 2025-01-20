@@ -7607,7 +7607,7 @@
             "fw_version": "1.2.0",
             "fw_desc": "Fw supporting app creation with ST BLE Sensor app",
             "changelog": "Support for Biosensor (STVAFE3AX) with Medical Signal Demo and HRM<. General Bug fixes related with SD Log. ",
-            "dtmi": "dtmi:appconfig:steval_mkboxpro:STSW_MKBOXPRO_Entry_Expert_Mode;1",
+            "dtmi": "dtmi:appconfig:steval_mkboxpro:STSW_MKBOXPRO_Entry_Expert_Mode;2",
             "demo_decorator": {
                 "add": [
                     "Flow"
@@ -17407,7 +17407,7 @@
             "fw_version": "1.2.0",
             "fw_desc": "Fw supporting app creation with ST BLE Sensor app",
             "changelog": "Support for Biosensor (STVAFE3AX) with Medical Signal Demo and HRM<. General Bug fixes related with SD Log. ",
-            "dtmi": "dtmi:appconfig:steval_mkboxprob:STSW_MKBOXPRO_Entry_Expert_Mode;1",
+            "dtmi": "dtmi:appconfig:steval_mkboxprob:STSW_MKBOXPRO_Entry_Expert_Mode;2",
             "demo_decorator": {
                 "add": [
                     "Flow"
@@ -24017,7 +24017,7 @@
             }
         }
     ],
-    "date": "2025-01-17 15:59:32.387595",
+    "date": "2025-01-20 16:02:29.334184",
     "version": "0.7.7",
-    "checksum": "5b1eb5464345401eb4e8a6d53e683bd2"
+    "checksum": "01cb21bdba055f1a25d1b196ac93889f"
 }
