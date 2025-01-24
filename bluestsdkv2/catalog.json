@@ -8011,7 +8011,7 @@
       "fw_name": "STSW-MKBOXPRO Entry/Expert Mode",
       "fw_version": "1.2.0",
       "fw_desc": "Fw supporting app creation with ST BLE Sensor app",
-      "changelog": "Support for Biosensor (STVAFE3AX) with Medical Signal Demo and HRM<. General Bug fixes related with SD Log. ",
+      "changelog": "Support for Biosensor (ST1VAFE3BX) with Medical Signal Demo and HRM. General bug fixes related with SD Log.",
       "dtmi": "dtmi:appconfig:steval_mkboxpro:STSW_MKBOXPRO_Entry_Expert_Mode;2",
       "demo_decorator": {
         "add": [
@@ -18393,7 +18393,7 @@
       "fw_name": "STSW-MKBOXPRO Entry/Expert Mode",
       "fw_version": "1.2.0",
       "fw_desc": "Fw supporting app creation with ST BLE Sensor app",
-      "changelog": "Support for Biosensor (STVAFE3AX) with Medical Signal Demo and HRM<. General Bug fixes related with SD Log. ",
+      "changelog": "Support for Biosensor (ST1VAFE3BX) with Medical Signal Demo and HRM. General bug fixes related with SD Log.",
       "dtmi": "dtmi:appconfig:steval_mkboxprob:STSW_MKBOXPRO_Entry_Expert_Mode;2",
       "demo_decorator": {
         "add": [
