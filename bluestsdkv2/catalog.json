@@ -8026,7 +8026,7 @@
         ],
         "rename": []
       },
-      "maturity": "draft",
+      "maturity": "release",
       "fota": {
         "type": "fast",
         "bootloader_type": "none",
@@ -18408,7 +18408,7 @@
         ],
         "rename": []
       },
-      "maturity": "draft",
+      "maturity": "release",
       "fota": {
         "type": "fast",
         "bootloader_type": "none",
