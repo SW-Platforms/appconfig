@@ -13332,7 +13332,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -24387,7 +24387,7 @@
             }
         }
     ],
-    "date": "2025-01-27 13:34:33.319125",
+    "date": "2025-01-27 15:14:03.749334",
     "version": "0.7.7",
-    "checksum": "be1bcd70228a61d1201cc9c1f08304af"
+    "checksum": "b79a3475bcbcd8bfc5a15d51315e716b"
 }
