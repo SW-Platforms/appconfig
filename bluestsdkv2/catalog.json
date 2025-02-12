@@ -21449,7 +21449,7 @@
             "friendly_name": "Nucleo L476RG",
             "ble_dev_id": "0x7E",
             "nfc_dev_id": null,
-            "usb_dev_id": null,
+            "usb_dev_id": "0x7E",
             "video_url": "https://www.youtube.com/watch?v=m94CCYyX5DM",
             "order_url": "https://estore.st.com/en/nucleo-l476rg-cpn.html",
             "unique_dev_id": 19,
@@ -21466,7 +21466,7 @@
             "friendly_name": "Nucleo F401RE",
             "ble_dev_id": "0x7F",
             "nfc_dev_id": null,
-            "usb_dev_id": null,
+            "usb_dev_id": "0x7F",
             "video_url": "https://www.youtube.com/watch?v=m94CCYyX5DM",
             "order_url": "https://estore.st.com/en/nucleo-f401re-cpn.html",
             "unique_dev_id": 20,
@@ -24387,7 +24387,7 @@
             }
         }
     ],
-    "date": "2025-01-29 10:20:56.349468",
+    "date": "2025-02-12 16:08:38.681830",
     "version": "0.7.7",
-    "checksum": "21ef527e88eef0a65b367616335a3005"
+    "checksum": "7326cb7f593060951ff560cfe32c749b"
 }
