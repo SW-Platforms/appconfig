@@ -1182,7 +1182,7 @@
             "package_id": 383,
             "binary_id": 342,
             "dtmi": "dtmi:appconfig:steval_mkboxprob:FP_SNS_DATALOG2_Datalog2;6",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-DATALOG2_Datalog2_3_0_0.bin"
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxprob/FP-SNS-DATALOG2_Datalog2_3_0_0.bin"
         },
         {
             "protocol": "libusb",
@@ -1537,7 +1537,7 @@
             "dwn_url": null
         }
     ],
-    "date": "2025-02-12 16:08:27.195812",
+    "date": "2025-02-13 09:14:53.330117",
     "version": "0.7.7",
-    "checksum": "56ca5563461884089e449b1f44e31e0e"
+    "checksum": "78af5e426e25fd3f9a1379332f52b5a6"
 }

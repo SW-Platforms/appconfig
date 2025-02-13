@@ -17187,7 +17187,7 @@
                 "bootloader_type": "none",
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 0,
-                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-DATALOG2_Datalog2_3_0_0.bin",
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxprob/FP-SNS-DATALOG2_Datalog2_3_0_0.bin",
                 "partial_fota": 0
             },
             "cloud_apps": [],
@@ -24387,7 +24387,7 @@
             }
         }
     ],
-    "date": "2025-02-12 16:08:38.681830",
+    "date": "2025-02-13 09:15:04.879676",
     "version": "0.7.7",
-    "checksum": "7326cb7f593060951ff560cfe32c749b"
+    "checksum": "2f2eac6188624403f43e39f41e8dd504"
 }
