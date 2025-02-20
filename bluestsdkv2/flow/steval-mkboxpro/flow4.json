@@ -1,6 +1,6 @@
 {
   "description": "Extra Flow 4",
-  "category": "Extra for SHT40AD1B",
+  "category": "Extra for ST1VAFE3BX",
   "ex_app" : 9,
   "board_compatibility": [
     "SENSOR_TILE_BOX_PRO",
