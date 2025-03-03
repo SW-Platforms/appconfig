@@ -21627,6 +21627,23 @@
             "description": "NUCLEO-WBA6",
             "documentation_url": null,
             "components": []
+        },
+        {
+            "release_date": "2025_Q1",
+            "brd_variant": "NUCLEO$WB05KN1",
+            "brd_part": "NUCLEO-WB05KN1",
+            "brd_name": "NUCLEO-WB05KN1",
+            "friendly_name": "NUCLEO-WB05KN1",
+            "ble_dev_id": "0x8F",
+            "nfc_dev_id": null,
+            "usb_dev_id": null,
+            "video_url": null,
+            "order_url": null,
+            "unique_dev_id": 39,
+            "status": "ACTIVE",
+            "description": "Ultra-low-power, 2.4 GHz network processor, Bluetooth LE 5.4 certified",
+            "documentation_url": null,
+            "components": []
         }
     ],
     "characteristics": [
@@ -24387,7 +24404,7 @@
             }
         }
     ],
-    "date": "2025-02-17 10:15:58.816653",
+    "date": "2025-03-03 09:52:41.750059",
     "version": "0.7.7",
-    "checksum": "2f2eac6188624403f43e39f41e8dd504"
+    "checksum": "8b5ca96ffe9fbfa7274d78ea5c26d5a1"
 }
