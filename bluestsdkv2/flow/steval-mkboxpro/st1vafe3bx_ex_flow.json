@@ -1,11 +1,11 @@
 {
   "description": "ECG Demo",
-  "category": "ST1VAFE3BX Examples",
-  "ex_app" : 16,
+  "category": "ST1VAFE3BX Demos",
+  "ex_app" : 20,
   "board_compatibility": [
     "SENSOR_TILE_BOX_PRO"
   ],
-  "notes": "This app enables the Sensor Tile.boxPRO to measure ECG signals using the DIL24 biosensor evaluation kit STEVAL-MKI250KA (ST1VAFE3BX). By activating this Flow, you can view the ECG signal and key parameters with the Medical Signal Demo, as well as the time progression of the heartbeat with the Heart Rate Demo.\nnTo obtain valid data, place two fingers from different hands on the exposed electrodes, ensuring the loop is closed around the heart to read its electrical potential. Make sure your hands do not touch each other and avoid applying excessive pressure on the electrodes, as muscle shaking can interfere with accurate measurements. For optimal results, unplug the board to minimize power line interference. The electrodes are made of tinned copper, and continuous usage can create a dirty film. Be sure to clean the electrodes before demonstration testing, preferably with an alcohol solution.\nnThe measured data is processed using the BioVSM library embedded in the Sensor Tile.box MCU, which detects peaks and computes key parameters such as average, maximum, and minimum heart rate. Check the library documentation for more details.",
+  "notes": "This app allows the Sensor Tile.boxPRO to capture ECG signals using the DIL24 biosensor evaluation kit STEVAL-MKI250KA (ST1VAFE3BX). By activating this feature, you can view ECG signals and key parameters with the Medical Signal Demo and the heartbeat progression with the Heart Rate Demo.\n\nTo obtain valid data, place two fingers from different hands on the exposed electrodes, ensuring they do not touch each other. Avoid excessive pressure to prevent muscle interference and unplug the board to minimize power line interference. If there are issues with the signal, lift your hands and place them back on the electrodes, or clean them with an alcohol solution as continuous usage can create a dirty film. \n\nThe BioVSM library embedded in the Sensor Tile.box MCU processes the data, detecting peaks and computing parameters like average, maximum, and minimum heart rate. Check the library documentation for specific details.",
   "flows": [],
   "functions": [],
   "id": "84c70105-52a7-49ec-b84c-5d9e3b2ecd56",
