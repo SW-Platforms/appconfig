@@ -1,11 +1,11 @@
 {
   "description": "ECG Demo",
-  "category": "ST1VAFE3BX Demos",
+  "category": "ST1VAFE3BX",
   "ex_app" : 20,
   "board_compatibility": [
     "SENSOR_TILE_BOX_PRO"
   ],
-  "notes": "This app allows the Sensor Tile.boxPRO to capture ECG signals using the DIL24 biosensor evaluation kit STEVAL-MKI250KA (ST1VAFE3BX). By activating this feature, you can view ECG signals and key parameters with the Medical Signal Demo and the heartbeat progression with the Heart Rate Demo.\n\nTo obtain valid data, place two fingers from different hands on the exposed electrodes, ensuring they do not touch each other. Avoid excessive pressure to prevent muscle interference and unplug the board to minimize power line interference. If there are issues with the signal, lift your hands and place them back on the electrodes, or clean them with an alcohol solution as continuous usage can create a dirty film. \n\nThe BioVSM library embedded in the Sensor Tile.box MCU processes the data, detecting peaks and computing parameters like average, maximum, and minimum heart rate. Check the library documentation for specific details.",
+  "notes": "This app allows the Sensor Tile.boxPRO to capture ECG signals using the biosensor evaluation kit STEVAL-MKI250KA (ST1VAFE3BX). By activating it, you can view ECG signals and key parameters with the Medical Signal Demo and the heartbeat rate overtime with the Heart Rate Demo.\n\nTo obtain valid data, place one finger from each hand on the electrodes, ensuring they do not touch each other. Avoid excessive pressure to prevent muscle interference and unplug the board to minimize power line interference. If the ECG signal it not clear, lift your hands and place them back on the electrodes, or clean them with an alcohol solution as continuous usage can create a dirty film. \n\nThe BioVSM library embedded in the Sensor Tile.boxPRO MCU processes the data, detecting peaks and computing parameters like average, maximum, and minimum heart rate. Check the library documentation for specific details.",
   "flows": [],
   "functions": [],
   "id": "84c70105-52a7-49ec-b84c-5d9e3b2ecd56",
