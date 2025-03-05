@@ -8547,6 +8547,14 @@
       "fw_desc": "Fw supporting app creation with ST BLE Sensor app",
       "changelog": "Support for High-G sensor (LSM6DSV80X). General Bug fixes related with ECG demo and SD Log.",
       "dtmi": "dtmi:appconfig:steval_mkboxpro:STSW_MKBOXPRO_Entry_Expert_Mode;2",
+      "extra_examples_flow": [
+        {
+          "model": "ST1VAFE3BX",
+          "examples_flow": [
+            "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/flow/steval-mkboxpro/st1vafe3bx_ex_flow.json"
+          ]
+        }
+      ],
       "demo_decorator": {
         "add": [
           "Flow"
@@ -19466,6 +19474,14 @@
       "fw_desc": "Fw supporting app creation with ST BLE Sensor app",
       "changelog": "Support for High-G sensor (LSM6DSV80X). General Bug fixes related with ECG demo and SD Log.",
       "dtmi": "dtmi:appconfig:steval_mkboxprob:STSW_MKBOXPRO_Entry_Expert_Mode;2",
+      "extra_examples_flow": [
+        {
+          "model": "ST1VAFE3BX",
+          "examples_flow": [
+            "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/flow/steval-mkboxpro/st1vafe3bx_ex_flow.json"
+          ]
+        }
+      ],
       "demo_decorator": {
         "add": [
           "Flow"
