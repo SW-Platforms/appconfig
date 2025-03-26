@@ -925,7 +925,7 @@
                 }
             ],
             "brd_name": "STEVAL-MKSBOX1V1",
-            "fw_name": "FP-SNS-STBOX1_BleDualProgram",
+            "fw_name": "FP-SNS-STBOX1_BLEDualProgram",
             "fw_version": "1.4.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "This is an initial draft release",
@@ -1194,7 +1194,7 @@
                 }
             ],
             "brd_name": "STEVAL-MKSBOX1V1",
-            "fw_name": "FP-SNS-STBOX1_BleDualProgram",
+            "fw_name": "FP-SNS-STBOX1_BLEDualProgram",
             "fw_version": "1.5.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Driver update",
@@ -1599,7 +1599,7 @@
                 }
             ],
             "brd_name": "STEVAL-MKSBOX1V1",
-            "fw_name": "FP-SNS-STBOX1_BleDualProgram",
+            "fw_name": "FP-SNS-STBOX1_BLEDualProgram",
             "fw_version": "1.6.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Drivers and HAL update",
@@ -4343,7 +4343,7 @@
                 }
             ],
             "brd_name": "STEVAL-MKBOXPRO",
-            "fw_name": "FP-SNS-STBOX1_BleDualProgram",
+            "fw_name": "FP-SNS-STBOX1_BLEDualProgram",
             "fw_version": "1.5.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "This is an initial draft release",
@@ -5495,7 +5495,7 @@
                 }
             ],
             "brd_name": "STEVAL-MKBOXPRO",
-            "fw_name": "FP-SNS-STBOX1_BleDualProgram",
+            "fw_name": "FP-SNS-STBOX1_BLEDualProgram",
             "fw_version": "1.6.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Add Support to ST25KC, Drivers and HAL update",
@@ -7974,7 +7974,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -8143,7 +8143,7 @@
                 }
             ],
             "brd_name": "STEVAL-MKBOXPRO",
-            "fw_name": "FP-SNS-STBOX1_BleDualProgram",
+            "fw_name": "FP-SNS-STBOX1_BLEDualProgram",
             "fw_version": "2.0.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Add Support to ST25KC, Drivers and HAL update",
@@ -8421,7 +8421,7 @@
                 }
             ],
             "brd_name": "STEVAL-STWINBX1",
-            "fw_name": "FP-SNS-STBOX1_BleDualProgram",
+            "fw_name": "FP-SNS-STBOX1_BLEDualProgram",
             "fw_version": "1.4.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "This is an initial draft release",
@@ -9832,7 +9832,7 @@
                 }
             ],
             "brd_name": "STEVAL-STWINBX1",
-            "fw_name": "FP-SNS-STBOX1_BleDualProgram",
+            "fw_name": "FP-SNS-STBOX1_BLEDualProgram",
             "fw_version": "1.5.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Driver update",
@@ -11424,7 +11424,7 @@
                 }
             ],
             "brd_name": "STEVAL-STWINBX1",
-            "fw_name": "FP-SNS-STBOX1_BleDualProgram",
+            "fw_name": "FP-SNS-STBOX1_BLEDualProgram",
             "fw_version": "1.6.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Drivers and HAL update",
@@ -15380,7 +15380,7 @@
                 }
             ],
             "brd_name": "STEVAL-MKBOXPRO",
-            "fw_name": "FP-SNS-STBOX1_BleDualProgram",
+            "fw_name": "FP-SNS-STBOX1_BLEDualProgram",
             "fw_version": "1.6.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Add Support to ST25KC, Drivers and HAL update",
@@ -17305,7 +17305,7 @@
                 }
             ],
             "brd_name": "STEVAL-MKBOXPRO",
-            "fw_name": "FP-SNS-STBOX1_BleDualProgram",
+            "fw_name": "FP-SNS-STBOX1_BLEDualProgram",
             "fw_version": "2.0.0",
             "fw_desc": "Firmware for all box boards",
             "changelog": "Add Support to ST25KC, Drivers and HAL update",
@@ -17315,7 +17315,7 @@
                 "bootloader_type": "none",
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 0,
-                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-STBOX1_BLEDualProgram_2_0_0.bin",
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxprob/FP-SNS-STBOX1_BLEDualProgram_2_0_0.bin",
                 "partial_fota": 0
             },
             "cloud_apps": [],
@@ -18132,7 +18132,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -25115,7 +25115,7 @@
             }
         }
     ],
-    "date": "2025-03-07 12:21:09.712233",
+    "date": "2025-03-26 09:34:19.305219",
     "version": "0.7.7",
-    "checksum": "0eae427a1a4aec666c9b53dd02731f7a"
+    "checksum": "cf5c50f0bc8c896b4e6f29a964a2614b"
 }
