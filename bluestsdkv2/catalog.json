@@ -25569,7 +25569,8 @@
       "model": "SHT40AD1B",
       "board_compatibility": [
         "SENSOR_TILE_BOX_PRO",
-        "SENSOR_TILE_BOX_PROB"
+        "SENSOR_TILE_BOX_PROB",
+        "SENSOR_TILE_BOX_PROC"
       ],
       "output": "Temperature",
       "outputs": [
@@ -25610,7 +25611,8 @@
       "model": "STHS34PF80",
       "board_compatibility": [
         "SENSOR_TILE_BOX_PRO",
-        "SENSOR_TILE_BOX_PROB"
+        "SENSOR_TILE_BOX_PROB",
+        "SENSOR_TILE_BOX_PROC"
       ],
       "output": "TMOS output",
       "outputs": [
@@ -25659,7 +25661,8 @@
       "model": "LSM6DSO32",
       "board_compatibility": [
         "SENSOR_TILE_BOX_PRO",
-        "SENSOR_TILE_BOX_PROB"
+        "SENSOR_TILE_BOX_PROB",
+        "SENSOR_TILE_BOX_PROC"
       ],
       "um": "mg",
       "fullScaleUm": "g",
@@ -25724,7 +25727,8 @@
       "model": "LSM6DSO32",
       "board_compatibility": [
         "SENSOR_TILE_BOX_PRO",
-        "SENSOR_TILE_BOX_PROB"
+        "SENSOR_TILE_BOX_PROB",
+        "SENSOR_TILE_BOX_PROC"
       ],
       "um": "mdps",
       "fullScaleUm": "dps",
@@ -25788,7 +25792,8 @@
       "model": "LSM6DSV16BX",
       "board_compatibility": [
         "SENSOR_TILE_BOX_PRO",
-        "SENSOR_TILE_BOX_PROB"
+        "SENSOR_TILE_BOX_PROB",
+        "SENSOR_TILE_BOX_PROC"
       ],
       "um": "mg",
       "fullScaleUm": "g",
@@ -25854,7 +25859,8 @@
       "model": "LSM6DSV16BX",
       "board_compatibility": [
         "SENSOR_TILE_BOX_PRO",
-        "SENSOR_TILE_BOX_PROB"
+        "SENSOR_TILE_BOX_PROB",
+        "SENSOR_TILE_BOX_PROC"
       ],
       "um": "mdps",
       "fullScaleUm": "dps",
@@ -25922,7 +25928,8 @@
       "model": "SHT40AD1B",
       "board_compatibility": [
         "SENSOR_TILE_BOX_PRO",
-        "SENSOR_TILE_BOX_PROB"
+        "SENSOR_TILE_BOX_PROB",
+        "SENSOR_TILE_BOX_PROC"
       ],
       "um": "% RH",
       "datasheetLink": "https://sensirion.com/media/documents/33FD6951/6555C40E/Sensirion_Datasheet_SHT4x.pdf",
@@ -25963,7 +25970,8 @@
       "model": "LSM6DSO16IS",
       "board_compatibility": [
         "SENSOR_TILE_BOX_PRO",
-        "SENSOR_TILE_BOX_PROB"
+        "SENSOR_TILE_BOX_PROB",
+        "SENSOR_TILE_BOX_PROC"
       ],
       "um": "mg",
       "fullScaleUm": "g",
@@ -26028,7 +26036,8 @@
       "model": "LSM6DSO16IS",
       "board_compatibility": [
         "SENSOR_TILE_BOX_PRO",
-        "SENSOR_TILE_BOX_PROB"
+        "SENSOR_TILE_BOX_PROB",
+        "SENSOR_TILE_BOX_PROC"
       ],
       "um": "mdps",
       "fullScaleUm": "dps",
@@ -26091,7 +26100,8 @@
       "model": "LSM6DSO16IS",
       "board_compatibility": [
         "SENSOR_TILE_BOX_PRO",
-        "SENSOR_TILE_BOX_PROB"
+        "SENSOR_TILE_BOX_PROB",
+        "SENSOR_TILE_BOX_PROC"
       ],
       "um": "",
       "fullScaleUm": "",
@@ -26131,7 +26141,8 @@
       "model": "LSM6DSV32X",
       "board_compatibility": [
         "SENSOR_TILE_BOX_PRO",
-        "SENSOR_TILE_BOX_PROB"
+        "SENSOR_TILE_BOX_PROB",
+        "SENSOR_TILE_BOX_PROC"
       ],
       "um": "mg",
       "fullScaleUm": "g",
@@ -26252,7 +26263,8 @@
       "model": "LSM6DSV32X",
       "board_compatibility": [
         "SENSOR_TILE_BOX_PRO",
-        "SENSOR_TILE_BOX_PROB"
+        "SENSOR_TILE_BOX_PROB",
+        "SENSOR_TILE_BOX_PROC"
       ],
       "um": "mdps",
       "fullScaleUm": "dps",
@@ -26342,7 +26354,8 @@
       "model": "LSM6DSV32X",
       "board_compatibility": [
         "SENSOR_TILE_BOX_PRO",
-        "SENSOR_TILE_BOX_PROB"
+        "SENSOR_TILE_BOX_PROB",
+        "SENSOR_TILE_BOX_PROC"
       ],
       "datasheetLink": "https://www.st.com/resource/en/data_brief/lsm6dsv32x.pdf",
       "um": ""
@@ -26362,7 +26375,8 @@
       "model": "ST1VAFE6AX",
       "board_compatibility": [
         "SENSOR_TILE_BOX_PRO",
-        "SENSOR_TILE_BOX_PROB"
+        "SENSOR_TILE_BOX_PROB",
+        "SENSOR_TILE_BOX_PROC"
       ],
       "datasheetLink": "https://www.st.com/resource/en/datasheet/st1vafe6ax.pdf",
       "um": ""
@@ -26382,7 +26396,8 @@
       "model": "ST1VAFE3BX",
       "board_compatibility": [
         "SENSOR_TILE_BOX_PRO",
-        "SENSOR_TILE_BOX_PROB"
+        "SENSOR_TILE_BOX_PROB",
+        "SENSOR_TILE_BOX_PROC"
       ],
       "datasheetLink": "https://www.st.com/resource/en/datasheet/st1vafe3bx.pdf",
       "um": ""
@@ -26401,7 +26416,8 @@
       "model": "LSM6DSV80X",
       "board_compatibility": [
         "SENSOR_TILE_BOX_PRO",
-        "SENSOR_TILE_BOX_PROB"
+        "SENSOR_TILE_BOX_PROB",
+        "SENSOR_TILE_BOX_PROC"
       ],
       "um": "mg",
       "fullScaleUm": "g",
@@ -26498,7 +26514,8 @@
       "model": "LSM6DSV80X",
       "board_compatibility": [
         "SENSOR_TILE_BOX_PRO",
-        "SENSOR_TILE_BOX_PROB"
+        "SENSOR_TILE_BOX_PROB",
+        "SENSOR_TILE_BOX_PROC"
       ],
       "um": "mdps",
       "fullScaleUm": "dps",
@@ -26581,7 +26598,8 @@
       "model": "LSM6DSV80X",
       "board_compatibility": [
         "SENSOR_TILE_BOX_PRO",
-        "SENSOR_TILE_BOX_PROB"
+        "SENSOR_TILE_BOX_PROB",
+        "SENSOR_TILE_BOX_PROC"
       ],
       "um": "mg",
       "fullScaleUm": "g",
@@ -26635,7 +26653,8 @@
       "model": "LPS28DFW",
       "board_compatibility": [
         "SENSOR_TILE_BOX_PRO",
-        "SENSOR_TILE_BOX_PROB"
+        "SENSOR_TILE_BOX_PROB",
+        "SENSOR_TILE_BOX_PROC"
       ],
       "output": "Pressure",
       "outputs": [
@@ -26685,7 +26704,8 @@
       "model": "LPS28DFW",
       "board_compatibility": [
         "SENSOR_TILE_BOX_PRO",
-        "SENSOR_TILE_BOX_PROB"
+        "SENSOR_TILE_BOX_PROB",
+        "SENSOR_TILE_BOX_PROC"
       ],
       "output": "Temperature",
       "outputs": [
@@ -26735,7 +26755,8 @@
       "model": "LSM6DSV320X",
       "board_compatibility": [
         "SENSOR_TILE_BOX_PRO",
-        "SENSOR_TILE_BOX_PROB"
+        "SENSOR_TILE_BOX_PROB",
+        "SENSOR_TILE_BOX_PROC"
       ],
       "um": "mg",
       "fullScaleUm": "g",
@@ -26832,7 +26853,8 @@
       "model": "LSM6DSV320X",
       "board_compatibility": [
         "SENSOR_TILE_BOX_PRO",
-        "SENSOR_TILE_BOX_PROB"
+        "SENSOR_TILE_BOX_PROB",
+        "SENSOR_TILE_BOX_PROC"
       ],
       "um": "mdps",
       "fullScaleUm": "dps",
@@ -26915,7 +26937,8 @@
       "model": "LSM6DSV320X",
       "board_compatibility": [
         "SENSOR_TILE_BOX_PRO",
-        "SENSOR_TILE_BOX_PROB"
+        "SENSOR_TILE_BOX_PROB",
+        "SENSOR_TILE_BOX_PROC"
       ],
       "um": "mg",
       "fullScaleUm": "g",
@@ -26948,7 +26971,7 @@
       "configuration": {
         "powerMode": "NONE",
         "odr": 100,
-        "fullScale": 80,
+        "fullScale": 320,
         "acquisitionTime": 0
       }
     }
