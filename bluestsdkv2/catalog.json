@@ -22611,6 +22611,27 @@
                     "type": "inertial",
                     "description": null,
                     "ai_sensor": "MLCv2"
+                },
+                {
+                    "id": 32,
+                    "component": "LSM6DSV16BX",
+                    "type": "inertial",
+                    "description": null,
+                    "ai_sensor": "MLCv2"
+                },
+                {
+                    "id": 33,
+                    "component": "LSM6DSV80X",
+                    "type": "inertial",
+                    "description": null,
+                    "ai_sensor": "MLCv2"
+                },
+                {
+                    "id": 34,
+                    "component": "LSM6DSV320X",
+                    "type": "inertial",
+                    "description": null,
+                    "ai_sensor": "MLCv2"
                 }
             ]
         },
@@ -22768,6 +22789,23 @@
             "status": "ACTIVE",
             "description": "SensorTile Wireless Industrial Node Development Kit",
             "documentation_url": "https://www.st.com/en/evaluation-tools/steval-stwinbx1.html#documentation",
+            "components": []
+        },
+        {
+            "release_date": "2025_Q2",
+            "brd_variant": "STEVAL$MKBOXPROC",
+            "brd_part": "STEVAL-MKBOXPRO",
+            "brd_name": "STEVAL-MKBOXPROC",
+            "friendly_name": "SensorTile.box PRO",
+            "ble_dev_id": "0x13",
+            "nfc_dev_id": null,
+            "usb_dev_id": "0x13",
+            "video_url": "https://www.youtube.com/watch?v=F4c9V1791Vw",
+            "order_url": "https://www.st.com/en/evaluation-tools/steval-mkboxpro.html#sample-buy",
+            "unique_dev_id": 42,
+            "status": "ACTIVE",
+            "description": "multi-sensors and wireless connectivity for any intelligent IoT node",
+            "documentation_url": "https://www.st.com/en/evaluation-tools/steval-mkboxpro.html#documentation",
             "components": []
         },
         {
@@ -25818,7 +25856,7 @@
             }
         }
     ],
-    "date": "2025-04-16 13:06:22.094313",
+    "date": "2025-05-05 08:19:28.441078",
     "version": "0.7.7",
-    "checksum": "df1d4f8696a8c41a65b742fbed6dd6f8"
+    "checksum": "9968639c932ee68d462d3723cd164b95"
 }
