@@ -23254,6 +23254,23 @@
       "video_url": "https://www.youtube.com/watch?v=GGRZAxo2P88"
     },
     {
+      "release_date": "2025_Q2",
+      "brd_variant": "STEVAL$MKBOXPROC",
+      "brd_part": "STEVAL-MKBOXPRO",
+      "brd_name": "STEVAL-MKBOXPROC",
+      "friendly_name": "SensorTile.box PRO",
+      "ble_dev_id": "0x13",
+      "nfc_dev_id": null,
+      "usb_dev_id": "0x13",
+      "video_url": "https://www.youtube.com/watch?v=F4c9V1791Vw",
+      "order_url": "https://www.st.com/en/evaluation-tools/steval-mkboxpro.html#sample-buy",
+      "unique_dev_id": 42,
+      "status": "ACTIVE",
+      "description": "multi-sensors and wireless connectivity for any intelligent IoT node",
+      "documentation_url": "https://www.st.com/en/evaluation-tools/steval-mkboxpro.html#documentation",
+      "components": []
+    },
+    {
       "ble_dev_id": "0x7A",
       "brd_name": "NUCLEO-U5A5ZJ-Q",
       "brd_part": "NUCLEO-U5A5ZJ-Q",
@@ -26609,9 +26626,334 @@
         "fullScale": 80,
         "acquisitionTime": 0
       }
+    },
+    {
+      "unique_id": 22,
+      "id": "D22",
+      "description": "Pressure sensor",
+      "icon": "ic_pressure",
+      "model": "LPS28DFW",
+      "board_compatibility": [
+        "SENSOR_TILE_BOX_PRO",
+        "SENSOR_TILE_BOX_PROB"
+      ],
+      "output": "Pressure",
+      "outputs": [
+        "O1",
+        "O2",
+        "O3"
+      ],
+      "um": "hPa",
+      "datasheetLink": "https://www.st.com/resource/en/datasheet/LPS28DFW.pdf",
+      "dataType": "Float scalar",
+      "powerModes": [
+        {
+          "mode": "LOW_POWER",
+          "label": "Low power",
+          "odrs": [
+            1,
+            4,
+            10,
+            25,
+            50,
+            75,
+            100,
+            200
+          ],
+          "minCustomOdr": 2
+        }
+      ],
+      "acquisitionTime": 0,
+      "bleMaxOdr": 75,
+      "configuration": {
+        "powerMode": "LOW_POWER",
+        "odr": 1,
+        "filters": {
+          "lowPass": {
+            "label": "ODR/9",
+            "value": 3
+          }
+        },
+        "acquisitionTime": 0
+      }
+    },
+    {
+      "unique_id": 23,
+      "id": "D23",
+      "description": "Temperature Sensor",
+      "icon": "ic_termometer",
+      "model": "LPS28DFW",
+      "board_compatibility": [
+        "SENSOR_TILE_BOX_PRO",
+        "SENSOR_TILE_BOX_PROB"
+      ],
+      "output": "Temperature",
+      "outputs": [
+        "O1",
+        "O2",
+        "O3"
+      ],
+      "dataType": "Float scalar",
+      "um": "degC",
+      "datasheetLink": "https://www.st.com/resource/en/datasheet/LPS28DFW.pdf",
+      "powerModes": [
+        {
+          "mode": "LOW_POWER",
+          "label": "Low power",
+          "odrs": [
+            1,
+            4,
+            10,
+            25,
+            50,
+            75,
+            100,
+            200
+          ],
+          "minCustomOdr": 0.2
+        }
+      ],
+      "acquisitionTime": 0,
+      "bleMaxOdr": 75,
+      "configuration": {
+        "powerMode": "NONE",
+        "odr": 1,
+        "acquisitionTime": 0
+      }
+    },
+    {
+      "unique_id": 24,
+      "id": "D24",
+      "description": "IMU Accelerometer sensor",
+      "icon": "ic_inemo",
+      "output": "Acceleration",
+      "outputs": [
+        "O1",
+        "O2",
+        "O3"
+      ],
+      "model": "LSM6DSV320X",
+      "board_compatibility": [
+        "SENSOR_TILE_BOX_PRO",
+        "SENSOR_TILE_BOX_PROB"
+      ],
+      "um": "mg",
+      "fullScaleUm": "g",
+      "datasheetLink": "https://www.st.com/resource/en/datasheet/lsm6dsv320x.pdf",
+      "dataType": "Float vector x3",
+      "fullScales": [
+        2,
+        4,
+        8,
+        16
+      ],
+      "powerModes": [
+        {
+          "mode": "LOW_POWER",
+          "label": "Low power",
+          "odrs": [
+            1.875,
+            15,
+            30,
+            60,
+            120,
+            240
+          ]
+        },
+        {
+          "mode": "NORMAL_MODE",
+          "label": "Normal mode",
+          "odrs": [
+            7.5,
+            15,
+            30,
+            60,
+            120,
+            240,
+            480,
+            960,
+            1920
+          ]
+        },
+        {
+          "mode": "NONE",
+          "label": "High performance",
+          "odrs": [
+            7.5,
+            15,
+            30,
+            60,
+            120,
+            240,
+            480,
+            960,
+            1920,
+            3840,
+            7680
+          ]
+        },
+        {
+          "mode": "LOW_NOISE",
+          "label": "High accuracy",
+          "odrs": [
+            15,
+            30,
+            60,
+            120,
+            240,
+            480,
+            960,
+            1920,
+            3840,
+            7680
+          ]
+        }
+      ],
+      "acquisitionTime": 0,
+      "bleMaxOdr": 100,
+      "configuration": {
+        "powerMode": "NONE",
+        "odr": 30,
+        "fullScale": 16,
+        "acquisitionTime": 0
+      }
+    },
+    {
+      "unique_id": 25,
+      "id": "D25",
+      "description": "IMU Gyroscope sensor",
+      "output": "Angular rate",
+      "outputs": [
+        "O1",
+        "O2",
+        "O3"
+      ],
+      "icon": "ic_inemo",
+      "model": "LSM6DSV320X",
+      "board_compatibility": [
+        "SENSOR_TILE_BOX_PRO",
+        "SENSOR_TILE_BOX_PROB"
+      ],
+      "um": "mdps",
+      "fullScaleUm": "dps",
+      "datasheetLink": "https://www.st.com/resource/en/datasheet/lsm6dsv320x.pdf",
+      "dataType": "Float vector x3",
+      "fullScales": [
+        250,
+        500,
+        1000,
+        2000,
+        4000
+      ],
+      "powerModes": [
+        {
+          "mode": "LOW_POWER",
+          "label": "Low power",
+          "odrs": [
+            7.5,
+            15,
+            30,
+            60,
+            120,
+            240
+          ]
+        },
+        {
+          "mode": "NONE",
+          "label": "High performance",
+          "odrs": [
+            7.5,
+            15,
+            30,
+            60,
+            120,
+            240,
+            480,
+            960,
+            1920,
+            3840,
+            7680
+          ]
+        },
+        {
+          "mode": "LOW_NOISE",
+          "label": "High accuracy",
+          "odrs": [
+            15,
+            30,
+            60,
+            120,
+            240,
+            480,
+            960,
+            1920,
+            3840,
+            7680
+          ]
+        }
+      ],
+      "acquisitionTime": 0,
+      "bleMaxOdr": 100,
+      "configuration": {
+        "powerMode": "NONE",
+        "odr": 30,
+        "fullScale": 4000,
+        "acquisitionTime": 0
+      }
+    },
+    {
+      "unique_id": 26,
+      "id": "D26",
+      "description": "IMU High G Accelerometer sensor",
+      "icon": "ic_inemo",
+      "output": "Acceleration",
+      "outputs": [
+        "O1",
+        "O2",
+        "O3"
+      ],
+      "model": "LSM6DSV320X",
+      "board_compatibility": [
+        "SENSOR_TILE_BOX_PRO",
+        "SENSOR_TILE_BOX_PROB"
+      ],
+      "um": "mg",
+      "fullScaleUm": "g",
+      "datasheetLink": "https://www.st.com/resource/en/datasheet/lsm6dsv320x.pdf",
+      "dataType": "Float vector x3",
+      "fullScales": [
+        32,
+        64,
+        80,
+        128,
+        256,
+        320
+      ],
+      "powerModes": [
+        {
+          "mode": "NONE",
+          "label": "High performance",
+          "odrs": [
+            100,
+            480,
+            960,
+            1920,
+            3840,
+            7680
+          ]
+        }
+      ],
+      "acquisitionTime": 0,
+      "bleMaxOdr": 100,
+      "configuration": {
+        "powerMode": "NONE",
+        "odr": 100,
+        "fullScale": 80,
+        "acquisitionTime": 0
+      }
     }
   ],
-  "date": "2025-03-07 12:20:57.309941",
+  "date": "2025-05-05 08:19:28.441078",
   "version": "0.7.7",
-  "checksum": "0eae427a1a4aec666c9b53dd02731f7a"
+  "checksum": "9968639c932ee68d462d3723cd164b95"
 }
