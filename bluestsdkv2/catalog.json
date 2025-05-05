@@ -26736,7 +26736,7 @@
       "acquisitionTime": 0,
       "bleMaxOdr": 75,
       "configuration": {
-        "powerMode": "NONE",
+        "powerMode": "LOW_POWER",
         "odr": 1,
         "acquisitionTime": 0
       }
