@@ -14303,6 +14303,207 @@
             ]
         },
         {
+            "ble_dev_id": "0x0E",
+            "ble_fw_id": "0x30",
+            "option_bytes": [
+                {
+                    "name": "alarm:",
+                    "type": "string",
+                    "format": "enum_string",
+                    "string_values": [
+                        {
+                            "value": 0,
+                            "display_name": "No Alarm"
+                        },
+                        {
+                            "value": 1,
+                            "display_name": "Missing SD Card"
+                        },
+                        {
+                            "value": 2,
+                            "display_name": "Logging Ongoing"
+                        }
+                    ]
+                },
+                {
+                    "name": "status",
+                    "type": "icon",
+                    "format": "enum_icon",
+                    "icon_values": [
+                        {
+                            "value": 0,
+                            "comment": "No Alarm",
+                            "icon_code": 7
+                        },
+                        {
+                            "value": 1,
+                            "comment": "icon for Missing SD Card",
+                            "icon_code": 5
+                        },
+                        {
+                            "value": 2,
+                            "comment": "icon for Log ongoing",
+                            "icon_code": 10
+                        }
+                    ]
+                }
+            ],
+            "brd_name": "STEVAL-STWINBX1",
+            "fw_name": "FP-IND-DATALOGMC_DatalogMC",
+            "fw_version": "2.1.0",
+            "fw_desc": "High-speed datalogging of sensors data and motor control telemetries",
+            "changelog": "Maintenance release",
+            "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_IND_DATALOGMC_DatalogMC;3",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "Raw PnPL Controlled",
+                    "FP-IND-DATALOGMC_DatalogMC"
+                ],
+                "rename": []
+            },
+            "maturity": "draft",
+            "fota": {
+                "type": "fast",
+                "bootloader_type": "none",
+                "max_chunk_length": 0,
+                "max_divisor_constraint": 0,
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-IND-DATALOGMC_DatalogMC_2_1_0.bin",
+                "partial_fota": 0
+            },
+            "cloud_apps": [],
+            "characteristics": [
+                {
+                    "name": "Debug Console stdin/stdout",
+                    "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Debug Console stderr",
+                    "uuid": "00000002-000E-11e1-9ab4-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Ext Configuration",
+                    "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "PnPLike",
+                    "uuid": "0000001b-0002-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "RawPnPL",
+                    "uuid": "00000023-0002-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                }
+            ]
+        },
+        {
+            "ble_dev_id": "0x0E",
+            "ble_fw_id": "0x31",
+            "option_bytes": [
+                {
+                    "name": "alarm:",
+                    "type": "string",
+                    "format": "enum_string",
+                    "string_values": [
+                        {
+                            "value": 0,
+                            "display_name": "No Alarm"
+                        },
+                        {
+                            "value": 1,
+                            "display_name": "Missing SD Card"
+                        },
+                        {
+                            "value": 2,
+                            "display_name": "Logging Ongoing"
+                        }
+                    ]
+                },
+                {
+                    "name": "status",
+                    "type": "icon",
+                    "format": "enum_icon",
+                    "icon_values": [
+                        {
+                            "value": 0,
+                            "comment": "No Alarm",
+                            "icon_code": 7
+                        },
+                        {
+                            "value": 1,
+                            "comment": "icon for Missing SD Card",
+                            "icon_code": 5
+                        },
+                        {
+                            "value": 2,
+                            "comment": "icon for Log ongoing",
+                            "icon_code": 10
+                        }
+                    ]
+                }
+            ],
+            "brd_name": "STEVAL-STWINBX1",
+            "fw_name": "FP-IND-DATALOGMC_DatalogMCNEAI",
+            "fw_version": "2.1.0",
+            "fw_desc": "Motor fault classification with NanoEdge AI Studio",
+            "changelog": "Maintenance release",
+            "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_IND_DATALOGMC_DatalogMCNEAI;3",
+            "demo_decorator": {
+                "add": [],
+                "remove": [
+                    "Raw PnPL Controlled",
+                    "FP_IND_DATALOGMC_DatalogMCNEAI"
+                ],
+                "rename": []
+            },
+            "maturity": "draft",
+            "fota": {
+                "type": "fast",
+                "bootloader_type": "none",
+                "max_chunk_length": 0,
+                "max_divisor_constraint": 0,
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-IND-DATALOGMC_DatalogMCNEAI_2_1_0.bin",
+                "partial_fota": 0
+            },
+            "cloud_apps": [],
+            "characteristics": [
+                {
+                    "name": "Debug Console stdin/stdout",
+                    "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Debug Console stderr",
+                    "uuid": "00000002-000E-11e1-9ab4-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Ext Configuration",
+                    "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "NEAI Classification",
+                    "uuid": "0000001a-0002-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "PnPLike",
+                    "uuid": "0000001b-0002-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "RawPnPL",
+                    "uuid": "00000023-0002-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                }
+            ]
+        },
+        {
             "ble_dev_id": "0x0F",
             "ble_fw_id": "0x01",
             "option_bytes": [
@@ -22912,9 +23113,9 @@
         },
         {
             "release_date": "2018_Q2",
-            "brd_variant": "P$NUCLEO$WB55",
-            "brd_part": "P-NUCLEO-WB55",
-            "brd_name": "P-NUCLEO-WB55",
+            "brd_variant": "NUCLEO$WB55",
+            "brd_part": "NUCLEO-WB55",
+            "brd_name": "NUCLEO-WB55",
             "friendly_name": "Nucleo-WB55",
             "ble_dev_id": "0x81",
             "nfc_dev_id": null,
@@ -22929,9 +23130,9 @@
         },
         {
             "release_date": "2018_Q2",
-            "brd_variant": "DiscoveryKit$WB5M",
-            "brd_part": "DiscoveryKit-WB5M",
-            "brd_name": "DiscoveryKit-WB5M",
+            "brd_variant": "STM32WB5MM$DK",
+            "brd_part": "STM32WB5MM-DK",
+            "brd_name": "STM32WB5MM-DK",
             "friendly_name": "WB5M",
             "ble_dev_id": "0x82",
             "nfc_dev_id": null,
@@ -22963,9 +23164,9 @@
         },
         {
             "release_date": "2021_Q1",
-            "brd_variant": "NUCLEO$WB15",
-            "brd_part": "NUCLEO-WB15",
-            "brd_name": "NUCLEO-WB15",
+            "brd_variant": "NUCLEO$WB15CC",
+            "brd_part": "NUCLEO-WB15CC",
+            "brd_name": "NUCLEO-WB15CC",
             "friendly_name": "Nucleo-WB15",
             "ble_dev_id": "0x84",
             "nfc_dev_id": null,
@@ -22980,9 +23181,9 @@
         },
         {
             "release_date": "2021_Q1",
-            "brd_variant": "DiscoveryKit$WB1M",
-            "brd_part": "DiscoveryKit-WB1M",
-            "brd_name": "DiscoveryKit-WB1M",
+            "brd_variant": "B$WB1M$WPAN1",
+            "brd_part": "B-WB1M-WPAN1",
+            "brd_name": "B-WB1M-WPAN1",
             "friendly_name": "WB1M",
             "ble_dev_id": "0x85",
             "nfc_dev_id": null,
@@ -22997,9 +23198,9 @@
         },
         {
             "release_date": "2023_Q1",
-            "brd_variant": "NUCLEO$WBA5x",
-            "brd_part": "NUCLEO-WBA5x",
-            "brd_name": "NUCLEO-WBA5x",
+            "brd_variant": "NUCLEO$WBA55CG",
+            "brd_part": "NUCLEO-WBA55CG",
+            "brd_name": "NUCLEO-WBA55CG",
             "friendly_name": "Nucleo-WBA5x",
             "ble_dev_id": "0x8B",
             "nfc_dev_id": null,
@@ -23014,9 +23215,9 @@
         },
         {
             "release_date": "2024_Q1",
-            "brd_variant": "DiscoveryKit$WBA",
-            "brd_part": "DiscoveryKit-WBA",
-            "brd_name": "DiscoveryKit-WBA",
+            "brd_variant": "STM32WBA55G$DK1",
+            "brd_part": "STM32WBA55G-DK1",
+            "brd_name": "STM32WBA55G-DK1",
             "friendly_name": "WBA",
             "ble_dev_id": "0x8C",
             "nfc_dev_id": null,
@@ -23048,9 +23249,9 @@
         },
         {
             "release_date": null,
-            "brd_variant": "NUCLEO$WBA6",
-            "brd_part": "NUCLEO-WBA6",
-            "brd_name": "NUCLEO-WBA6",
+            "brd_variant": "NUCLEO$WBA65RI",
+            "brd_part": "NUCLEO-WBA65RI",
+            "brd_name": "NUCLEO-WBA65RI",
             "friendly_name": "NUCLEO-WBA6",
             "ble_dev_id": "0x8E",
             "nfc_dev_id": null,
@@ -23077,6 +23278,74 @@
             "unique_dev_id": 39,
             "status": "ACTIVE",
             "description": "Ultra-low-power, 2.4 GHz network processor, Bluetooth LE 5.4 certified",
+            "documentation_url": null,
+            "components": []
+        },
+        {
+            "release_date": null,
+            "brd_variant": "NUCLEO$WBA2",
+            "brd_part": "NUCLEO-WBA2",
+            "brd_name": "NUCLEO-WBA2",
+            "friendly_name": "NUCLEO-WBA2",
+            "ble_dev_id": "0x90",
+            "nfc_dev_id": null,
+            "usb_dev_id": null,
+            "video_url": null,
+            "order_url": null,
+            "unique_dev_id": 43,
+            "status": "ACTIVE",
+            "description": "NUCLEO-WBA2",
+            "documentation_url": null,
+            "components": []
+        },
+        {
+            "release_date": null,
+            "brd_variant": "B$WBA5M$WPAN",
+            "brd_part": "B-WBA5M-WPAN",
+            "brd_name": "B-WBA5M-WPAN",
+            "friendly_name": "B-WBA5M-WPAN",
+            "ble_dev_id": "0x91",
+            "nfc_dev_id": null,
+            "usb_dev_id": null,
+            "video_url": null,
+            "order_url": null,
+            "unique_dev_id": 44,
+            "status": "ACTIVE",
+            "description": "B-WBA5M-WPAN",
+            "documentation_url": null,
+            "components": []
+        },
+        {
+            "release_date": null,
+            "brd_variant": "STM32WBA65I$DK1",
+            "brd_part": "STM32WBA65I-DK1",
+            "brd_name": "STM32WBA65I-DK1",
+            "friendly_name": "STM32WBA65I-DK1",
+            "ble_dev_id": "0x92",
+            "nfc_dev_id": null,
+            "usb_dev_id": null,
+            "video_url": null,
+            "order_url": null,
+            "unique_dev_id": 45,
+            "status": "ACTIVE",
+            "description": "STM32WBA65I-DK1",
+            "documentation_url": null,
+            "components": []
+        },
+        {
+            "release_date": null,
+            "brd_variant": "ST67W611",
+            "brd_part": "ST67W611",
+            "brd_name": "ST67W611",
+            "friendly_name": "ST67W611",
+            "ble_dev_id": "0x9A",
+            "nfc_dev_id": null,
+            "usb_dev_id": null,
+            "video_url": null,
+            "order_url": null,
+            "unique_dev_id": 46,
+            "status": "ACTIVE",
+            "description": "ST67W611",
             "documentation_url": null,
             "components": []
         },
@@ -24230,6 +24499,20 @@
             "name": "Medical Signal 24",
             "description": "24-bit data for medical devices",
             "uuid": "00000027-0002-11e1-ac36-0002a5d5c51b",
+            "dtmi_name": null,
+            "format_notify": null
+        },
+        {
+            "name": "RoboticsMovement",
+            "description": "Movement commands for ROBKIT",
+            "uuid": "00000028-0002-11e1-ac36-0002a5d5c51b",
+            "dtmi_name": null,
+            "format_notify": null
+        },
+        {
+            "name": "SceneDescription",
+            "description": "Scene description feature for ROBKIT",
+            "uuid": "00000029-0002-11e1-ac36-0002a5d5c51b",
             "dtmi_name": null,
             "format_notify": null
         },
@@ -25856,7 +26139,7 @@
             }
         }
     ],
-    "date": "2025-05-05 08:19:28.441078",
+    "date": "2025-05-08 15:42:52.811181",
     "version": "0.7.7",
-    "checksum": "9968639c932ee68d462d3723cd164b95"
+    "checksum": "0f0d063542435a7f4f14fadf5c6d127b"
 }
