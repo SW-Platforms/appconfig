@@ -24885,7 +24885,7 @@
       "status": "ACTIVE",
       "description": "WiFi6/Bluetooth ® LE/Thread ST67W611M1 module",
       "documentation_url": "https://www.st.com/content/st_com/en/campaigns/st67w-wifi6-bluetooth-thread-module-z13.html",
-      "wiki_url": "Introduction to Wi-Fi® - stm32mcuConnectivity:Wifi X-NUCLEO-67W61M - stm32mcu",
+      "wiki_url": "https://wiki.st.com/stm32mcu/wiki/Connectivity:Introduction_to_Wifi",
       "components": []
     },
     {
