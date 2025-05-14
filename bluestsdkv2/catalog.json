@@ -23282,7 +23282,7 @@
             "components": []
         },
         {
-            "release_date": null,
+            "release_date": "2025_Q2",
             "brd_variant": "NUCLEO$WBA2",
             "brd_part": "NUCLEO-WBA2",
             "brd_name": "NUCLEO-WBA2",
@@ -23290,16 +23290,16 @@
             "ble_dev_id": "0x90",
             "nfc_dev_id": null,
             "usb_dev_id": null,
-            "video_url": null,
+            "video_url": "https://www.youtube.com/watch?v=cKpc2Byyq20",
             "order_url": null,
             "unique_dev_id": 43,
             "status": "ACTIVE",
-            "description": "NUCLEO-WBA2",
-            "documentation_url": null,
+            "description": "Bluetooth\u00ae LE and 802.15.4 Discovery Kit with STM32WBACU",
+            "documentation_url": "https://www.st.com/en/evaluation-tools/b-wba5m-wpan.html",
             "components": []
         },
         {
-            "release_date": null,
+            "release_date": "2025_Q2",
             "brd_variant": "B$WBA5M$WPAN",
             "brd_part": "B-WBA5M-WPAN",
             "brd_name": "B-WBA5M-WPAN",
@@ -23307,16 +23307,16 @@
             "ble_dev_id": "0x91",
             "nfc_dev_id": null,
             "usb_dev_id": null,
-            "video_url": null,
-            "order_url": null,
+            "video_url": "https://www.youtube.com/watch?v=cKpc2Byyq20",
+            "order_url": "https://estore.st.com/en/b-wba5m-wpan-cpn.html",
             "unique_dev_id": 44,
             "status": "ACTIVE",
-            "description": "B-WBA5M-WPAN",
-            "documentation_url": null,
+            "description": "Bluetooth\u00ae LE and 802.15.4 Discovery Kit with STM32WBA5MCU",
+            "documentation_url": "https://www.st.com/en/evaluation-tools/b-wba5m-wpan.html",
             "components": []
         },
         {
-            "release_date": null,
+            "release_date": "2025_Q1",
             "brd_variant": "STM32WBA65I$DK1",
             "brd_part": "STM32WBA65I-DK1",
             "brd_name": "STM32WBA65I-DK1",
@@ -23324,20 +23324,20 @@
             "ble_dev_id": "0x92",
             "nfc_dev_id": null,
             "usb_dev_id": null,
-            "video_url": null,
-            "order_url": null,
+            "video_url": "https://www.youtube.com/watch?v=cKpc2Byyq20",
+            "order_url": "https://estore.st.com/en/stm32wba65i-dk1-cpn.html",
             "unique_dev_id": 45,
             "status": "ACTIVE",
-            "description": "STM32WBA65I-DK1",
-            "documentation_url": null,
+            "description": "Bluetooth\u00ae LE and 802.15.4 Discovery Kit with STM32WBA65RI MCU",
+            "documentation_url": "https://www.st.com/en/evaluation-tools/stm32wba65i-dk1.html",
             "components": []
         },
         {
-            "release_date": null,
-            "brd_variant": "ST67W611",
-            "brd_part": "ST67W611",
-            "brd_name": "ST67W611",
-            "friendly_name": "ST67W611",
+            "release_date": "2025_Q2",
+            "brd_variant": "X$NUCLEO$67W61M",
+            "brd_part": "X-NUCLEO-67W61M",
+            "brd_name": "X-NUCLEO-67W61M",
+            "friendly_name": "X-NUCLEO-67W61M",
             "ble_dev_id": "0x9A",
             "nfc_dev_id": null,
             "usb_dev_id": null,
@@ -23345,8 +23345,8 @@
             "order_url": null,
             "unique_dev_id": 46,
             "status": "ACTIVE",
-            "description": "ST67W611",
-            "documentation_url": null,
+            "description": "WiFi6/Bluetooth \u00ae LE/Thread ST67W611M1 module",
+            "documentation_url": "https://www.st.com/content/st_com/en/campaigns/st67w-wifi6-bluetooth-thread-module-z13.html",
             "components": []
         },
         {
@@ -24513,6 +24513,13 @@
             "name": "SceneDescription",
             "description": "Scene description feature for ROBKIT",
             "uuid": "00000029-0002-11e1-ac36-0002a5d5c51b",
+            "dtmi_name": null,
+            "format_notify": null
+        },
+        {
+            "name": "Asset Tracking Event",
+            "description": "Event information for Asset Tracking",
+            "uuid": "00000030-0002-11e1-ac36-0002a5d5c51b",
             "dtmi_name": null,
             "format_notify": null
         },
@@ -26139,7 +26146,7 @@
             }
         }
     ],
-    "date": "2025-05-12 11:42:19.631795",
+    "date": "2025-05-14 11:48:44.294007",
     "version": "0.7.7",
-    "checksum": "0f0d063542435a7f4f14fadf5c6d127b"
+    "checksum": "2d99ac02404a2c5834c5709227805903"
 }
