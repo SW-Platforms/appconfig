@@ -24722,7 +24722,7 @@
       "usb_dev_id": null,
       "video_url": null,
       "order_url": null,
-      "wiki_url" : "https://wiki.st.com/stm32mcu/wiki/STM32StepByStep:STM32WB1M_Discovery_Kit_Out_Of_Box_Demonstration"
+      "wiki_url" : "https://wiki.st.com/stm32mcu/wiki/STM32StepByStep:STM32WB1M_Discovery_Kit_Out_Of_Box_Demonstration",
       "unique_dev_id": 26,
       "status": "ACTIVE",
       "description": "Discovery Kit WB1M",
