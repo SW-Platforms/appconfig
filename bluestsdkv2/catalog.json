@@ -24687,7 +24687,14 @@
             "fw_desc": "Firmware for STEVAL-ROBKIT1 evaluation board for Robotics applications",
             "changelog": "",
             "maturity": "draft",
-            "fota": {},
+            "fota": {
+                "type": "fast",
+                "bootloader_type": "none",
+                "max_chunk_length": 0,
+                "max_divisor_constraint": 0,
+                "fw_url": null,
+                "partial_fota": 0
+            },
             "cloud_apps": [],
             "characteristics": [
                 {
@@ -24703,67 +24710,6 @@
                 {
                     "name": "Ext Configuration",
                     "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b",
-                    "max_write_length": 251
-                },
-                {
-                    "name": "Battery",
-                    "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b",
-                    "max_write_length": 20
-                },
-                {
-                    "name": "Magnetometer",
-                    "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b",
-                    "max_write_length": 20
-                },
-                {
-                    "name": "Gyroscope",
-                    "uuid": "00400000-0001-11e1-ac36-0002a5d5c51b",
-                    "max_write_length": 20
-                },
-                {
-                    "name": "Accelerometer",
-                    "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b",
-                    "max_write_length": 20
-                }
-            ]
-        },
-        {
-            "ble_dev_id": "0xC3",
-            "ble_fw_id": "0x02",
-            "option_bytes": [],
-            "brd_name": "STEVAL-ROBKIT1",
-            "fw_name": "STSW-ROBKIT1",
-            "fw_version": "1.0.0",
-            "fw_desc": "Firmware for STEVAL-ROBKIT1 evaluation board for Robotics applications",
-            "changelog": "",
-            "dtmi": "dtmi:appconfig:steval_robkit1:STSW_ROBKIT1;1",
-            "maturity": "draft",
-            "fota": {},
-            "cloud_apps": [],
-            "characteristics": [
-                {
-                    "name": "Debug Console stdin/stdout",
-                    "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b",
-                    "max_write_length": 20
-                },
-                {
-                    "name": "Debug Console stderr",
-                    "uuid": "00000002-000E-11e1-9ab4-0002a5d5c51b",
-                    "max_write_length": 20
-                },
-                {
-                    "name": "Ext Configuration",
-                    "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b",
-                    "max_write_length": 251
-                },
-                {
-                    "name": "RoboticsMovement",
-                    "uuid": "00000028-0002-11e1-ac36-0002a5d5c51b",
-                    "max_write_length": 20
-                },
-                {
-                    "name": "SceneDescription",
-                    "uuid": "00000029-0002-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 251
                 },
                 {
@@ -28385,7 +28331,7 @@
             }
         }
     ],
-    "date": "2025-05-28 15:16:45.781436",
+    "date": "2025-05-29 09:25:22.583307",
     "version": "0.7.7",
-    "checksum": "1200e3647dfac99987fb65a354f202f4"
+    "checksum": "25e540ac52cb44e18ad42231fd395133"
 }
