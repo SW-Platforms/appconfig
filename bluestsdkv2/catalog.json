@@ -9441,7 +9441,7 @@
       "ble_dev_id": "0x0D",
       "ble_fw_id": "0x22",
       "brd_name": "STEVAL-MKBOXPRO",
-      "changelog": "new BLE manager support for stm32wb07_06",
+      "changelog": "Support for LSM6DSV320X and LPS28DFW.",
       "characteristics": [
         {
           "max_write_length": 20,
@@ -22244,7 +22244,7 @@
       "ble_dev_id": "0x11",
       "ble_fw_id": "0x1D",
       "brd_name": "STEVAL-MKBOXPRO",
-      "changelog": "Support for LSM6DSV320X and LPS28DFW.",
+      "changelog": "New BLE manager support for stm32wb07_06. Support for LSM6DSV320X and LPS28DFW.",
       "characteristics": [
         {
           "max_write_length": 20,
