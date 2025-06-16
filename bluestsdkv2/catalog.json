@@ -9816,7 +9816,7 @@
       "dtmi": "dtmi:appconfig:steval_mkboxpro:STSW_MKBOXPRO_Entry_Expert_Mode;2",
       "fota": {
         "bootloader_type": "none",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/STSW-MKBOXPRO_1_3_0.bin",
+        "fw_url": null,
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -22619,7 +22619,7 @@
       "dtmi": "dtmi:appconfig:steval_mkboxprob:STSW_MKBOXPRO_Entry_Expert_Mode;2",
       "fota": {
         "bootloader_type": "none",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxprob/STSW-MKBOXPRO_1_3_0.bin",
+        "fw_url": null,
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -24214,7 +24214,7 @@
       "dtmi": "dtmi:appconfig:steval_mkboxproc:STSW_MKBOXPRO_Entry_Expert_Mode;2",
       "fota": {
         "bootloader_type": "none",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxproc/STSW-MKBOXPRO_1_3_0.bin",
+        "fw_url": null,
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
