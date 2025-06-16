@@ -8878,7 +8878,7 @@
                 "bootloader_type": "none",
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 0,
-                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/STSW-MKBOXPRO_1_3_0.bin",
+                "fw_url": null,
                 "partial_fota": 0
             },
             "cloud_apps": [],
@@ -20522,7 +20522,7 @@
                 "bootloader_type": "none",
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 0,
-                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxprob/STSW-MKBOXPRO_1_3_0.bin",
+                "fw_url": null,
                 "partial_fota": 0
             },
             "cloud_apps": [],
@@ -21897,7 +21897,7 @@
                 "bootloader_type": "none",
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 0,
-                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxproc/STSW-MKBOXPRO_1_3_0.bin",
+                "fw_url": null,
                 "partial_fota": 0
             },
             "cloud_apps": [],
@@ -28331,7 +28331,7 @@
             }
         }
     ],
-    "date": "2025-06-11 13:43:52.324085",
+    "date": "2025-06-16 11:06:44.310102",
     "version": "0.7.8",
-    "checksum": "cfeb0447dde672ad8d5cb5c37faaa630"
+    "checksum": "44ee4c21659cc32b9b6069ae41e73e02"
 }
