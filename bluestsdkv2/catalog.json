@@ -3820,7 +3820,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "draft",
+            "maturity": "beta",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -8342,7 +8342,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "draft",
+            "maturity": "beta",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -8872,7 +8872,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -14741,7 +14741,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "draft",
+            "maturity": "beta",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -14894,7 +14894,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "draft",
+            "maturity": "beta",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -19986,7 +19986,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "draft",
+            "maturity": "beta",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -20516,7 +20516,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -21891,7 +21891,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -28331,7 +28331,7 @@
             }
         }
     ],
-    "date": "2025-06-16 11:06:44.310102",
+    "date": "2025-06-18 08:51:02.535328",
     "version": "0.7.8",
-    "checksum": "44ee4c21659cc32b9b6069ae41e73e02"
+    "checksum": "be71280b9669d1fcb96b514ee5ab97e8"
 }
