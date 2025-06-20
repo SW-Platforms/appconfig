@@ -3820,7 +3820,7 @@
         ],
         "rename": []
       },
-      "maturity": "draft",
+      "maturity": "beta",
       "fota": {
         "type": "fast",
         "bootloader_type": "none",
@@ -9116,7 +9116,7 @@
         ],
         "rename": []
       },
-      "maturity": "draft",
+      "maturity": "beta",
       "fota": {
         "type": "fast",
         "bootloader_type": "none",
@@ -10011,6 +10011,40 @@
           ],
           "name": "battery_status",
           "type": "icon"
+        }
+      ]
+    },
+    {
+      "ble_dev_id": "0x0D",
+      "ble_fw_id": "0x23",
+      "option_bytes": [],
+      "brd_name": "STEVAL-MKBOXPRO",
+      "fw_name": "STBP-ASSET-TRACKING",
+      "fw_version": "1.0.0",
+      "fw_desc": "Standalone firmware for Asset Tracking demo",
+      "changelog": "",
+      "demo_decorator": {
+        "add": [],
+        "remove": [
+          "Cloud MQTT"
+        ],
+        "rename": []
+      },
+      "maturity": "draft",
+      "fota": {
+        "bootloader_type": "none",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/STBP-ASSET-TRACKING_1_0_0.bin",
+        "max_chunk_length": 0,
+        "max_divisor_constraint": 0,
+        "partial_fota": 0,
+        "type": "fast"
+      },
+      "cloud_apps": [],
+      "characteristics": [
+        {
+          "name": "Asset Tracking Event",
+          "uuid": "00000030-0002-11e1-ac36-0002a5d5c51b",
+          "max_write_length": 20
         }
       ]
     },
@@ -15735,7 +15769,7 @@
         ],
         "rename": []
       },
-      "maturity": "draft",
+      "maturity": "beta",
       "fota": {
         "type": "fast",
         "bootloader_type": "none",
@@ -15888,7 +15922,7 @@
         ],
         "rename": []
       },
-      "maturity": "draft",
+      "maturity": "beta",
       "fota": {
         "type": "fast",
         "bootloader_type": "none",
@@ -21919,7 +21953,7 @@
         ],
         "rename": []
       },
-      "maturity": "draft",
+      "maturity": "beta",
       "fota": {
         "type": "fast",
         "bootloader_type": "none",
@@ -22814,6 +22848,40 @@
           ],
           "name": "battery_status",
           "type": "icon"
+        }
+      ]
+    },
+    {
+      "ble_dev_id": "0x11",
+      "ble_fw_id": "0x1E",
+      "option_bytes": [],
+      "brd_name": "STEVAL-MKBOXPRO",
+      "fw_name": "STBP-ASSET-TRACKING",
+      "fw_version": "1.0.0",
+      "fw_desc": "Standalone firmware for Asset Tracking demo",
+      "changelog": "",
+      "demo_decorator": {
+        "add": [],
+        "remove": [
+          "Cloud MQTT"
+        ],
+        "rename": []
+      },
+      "maturity": "draft",
+      "fota": {
+        "bootloader_type": "none",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxprob/STBP-ASSET-TRACKING_1_0_0.bin",
+        "max_chunk_length": 0,
+        "max_divisor_constraint": 0,
+        "partial_fota": 0,
+        "type": "fast"
+      },
+      "cloud_apps": [],
+      "characteristics": [
+        {
+          "name": "Asset Tracking Event",
+          "uuid": "00000030-0002-11e1-ac36-0002a5d5c51b",
+          "max_write_length": 20
         }
       ]
     },
@@ -31367,7 +31435,7 @@
       }
     }
   ],
-  "checksum": "1200e3647dfac99987fb65a354f202f4",
-  "date": "2025-05-28 15:16:45.781436",
-  "version": "0.7.7"
+  "date": "2025-06-20 09:23:23.216361",
+  "version": "0.7.8",
+  "checksum": "5ebfcfe85a54797f81be0be194b1350e"
 }
