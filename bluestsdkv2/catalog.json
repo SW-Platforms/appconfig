@@ -10030,7 +10030,7 @@
         ],
         "rename": []
       },
-      "maturity": "draft",
+      "maturity": "release",
       "fota": {
         "bootloader_type": "none",
         "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/STBP-ASSET-TRACKING_1_0_0.bin",
@@ -10257,7 +10257,7 @@
         ],
         "rename": []
       },
-      "maturity": "draft",
+      "maturity": "release",
       "fota": {
         "type": "fast",
         "bootloader_type": "none",
@@ -23417,7 +23417,7 @@
         ],
         "rename": []
       },
-      "maturity": "draft",
+      "maturity": "release",
       "fota": {
         "bootloader_type": "none",
         "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxprob/STBP-ASSET-TRACKING_1_0_0.bin",
@@ -23644,7 +23644,7 @@
         ],
         "rename": []
       },
-      "maturity": "draft",
+      "maturity": "release",
       "fota": {
         "type": "fast",
         "bootloader_type": "none",
@@ -25789,7 +25789,7 @@
         ],
         "rename": []
       },
-      "maturity": "draft",
+      "maturity": "release",
       "fota": {
         "type": "fast",
         "bootloader_type": "none",
