@@ -3820,7 +3820,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "beta",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -8342,7 +8342,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "beta",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -15125,7 +15125,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "beta",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -15278,7 +15278,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "beta",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -20370,7 +20370,7 @@
                 ],
                 "rename": []
             },
-            "maturity": "beta",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -29456,7 +29456,7 @@
             }
         }
     ],
-    "date": "2025-07-11 08:43:07.952909",
+    "date": "2025-07-11 09:51:23.358140",
     "version": "0.7.9",
-    "checksum": "2d9e06f687d5c67c1bf4ad919348fa38"
+    "checksum": "fbf4905e7513bd7e379f9747065387e2"
 }
