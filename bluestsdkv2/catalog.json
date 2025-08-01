@@ -9223,7 +9223,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "FP-SNS-STBOX1_BLEDualProgram",
       "fw_version": "2.1.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -9281,7 +9281,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "FP-SNS-STBOX1_BLEMLC",
       "fw_version": "2.1.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -9334,7 +9334,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "FP-SNS-STBOX1_BLEPiano",
       "fw_version": "2.1.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -9418,7 +9418,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "FP-SNS-STBOX1_BLESensorsPnPL",
       "fw_version": "2.1.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -16779,7 +16779,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "FP-SNS-STBOX1_BLEDefaultFw",
       "fw_version": "2.1.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -16842,7 +16842,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "FP-SNS-STBOX1_BLEMLC",
       "fw_version": "2.1.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -16926,7 +16926,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "FP-SNS-STBOX1_BLESensorsPnPL",
       "fw_version": "2.1.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -22610,7 +22610,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "FP-SNS-STBOX1_BLEDualProgram",
       "fw_version": "2.1.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -22668,7 +22668,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "FP-SNS-STBOX1_BLEMLC",
       "fw_version": "2.1.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -22721,7 +22721,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "FP-SNS-STBOX1_BLEPiano",
       "fw_version": "2.1.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -22805,7 +22805,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "FP-SNS-STBOX1_BLESensorsPnPL",
       "fw_version": "2.1.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -26194,7 +26194,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "FP-SNS-STBOX1_BLEDualProgram",
       "fw_version": "2.1.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -26252,7 +26252,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "FP-SNS-STBOX1_BLEMLC",
       "fw_version": "2.1.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -26305,7 +26305,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "FP-SNS-STBOX1_BLEPiano",
       "fw_version": "2.1.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -26389,7 +26389,7 @@
       "fw_desc": "Firmware for all box boards",
       "fw_name": "FP-SNS-STBOX1_BLESensorsPnPL",
       "fw_version": "2.1.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -33085,7 +33085,7 @@
       }
     }
   ],
-  "date": "2025-07-11 08:42:53.719014",
-  "version": "0.7.9",
-  "checksum": "2d9e06f687d5c67c1bf4ad919348fa38"
+  "date": "2025-08-01 13:13:26.993512",
+  "version": "0.9.0",
+  "checksum": "1a2350beb7e1d3f9e33aa3e428ee9493"
 }
