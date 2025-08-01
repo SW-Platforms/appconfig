@@ -26573,7 +26573,7 @@
         "bootloader_type": "none",
         "max_chunk_length": 220,
         "max_divisor_constraint": 0,
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-stm32u575zi-q/FP-SNS-FLIGHT1_53L3A2_5_1_0.bin",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-u575zi-q/FP-SNS-FLIGHT1_53L3A2_5_1_0.bin",
         "partial_fota": 0
       },
       "cloud_apps": [],
