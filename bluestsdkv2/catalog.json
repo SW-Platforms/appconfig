@@ -26567,7 +26567,7 @@
       "fw_version": "5.1.0",
       "fw_desc": "The FP-SNS-FLIGHT1 is an STM32Cube function pack, which lets your IoT node connect to a smartphone via BLE and uses a suitable Android™ or iOS™ application like the STBLESensor app to view real-time object distance data read by the Time-of-Flight sensor.",
       "changelog": "Added support for NUCLEO-U575ZI-Q and CUSTOM application for VL53L3CX-SATEL Breakout board",
-      "maturity": "draft",
+      "maturity": "release",
       "fota": {
         "type": "fast",
         "bootloader_type": "none",
@@ -26631,7 +26631,7 @@
       "fw_version": "5.1.0",
       "fw_desc": "The FP-SNS-FLIGHT1 is an STM32Cube function pack, which lets your IoT node connect to a smartphone via BLE and uses a suitable Android™ or iOS™ application like the STBLESensor app to view real-time object distance data read by the Time-of-Flight sensor.",
       "changelog": "Added support for NUCLEO-U575ZI-Q and CUSTOM application for VL53L3CX-SATEL Breakout board",
-      "maturity": "draft",
+      "maturity": "release",
       "fota": {},
       "cloud_apps": [],
       "characteristics": [
@@ -27934,7 +27934,7 @@
       "fw_version": "5.1.0",
       "fw_desc": "The FP-SNS-FLIGHT1 is an STM32Cube function pack, which lets your IoT node connect to a smartphone via BLE and uses a suitable Android™ or iOS™ application like the STBLESensor app to view real-time object distance data read by the Time-of-Flight sensor.",
       "changelog": "Added support for NUCLEO-U575ZI-Q and CUSTOM application for VL53L3CX-SATEL Breakout board",
-      "maturity": "draft",
+      "maturity": "release",
       "fota": {
         "type": "fast",
         "bootloader_type": "custom",
@@ -27998,7 +27998,7 @@
       "fw_version": "5.1.0",
       "fw_desc": "The FP-SNS-FLIGHT1 is an STM32Cube function pack, which lets your IoT node connect to a smartphone via BLE and uses a suitable Android™ or iOS™ application like the STBLESensor app to view real-time object distance data read by the Time-of-Flight sensor.",
       "changelog": "Added support for NUCLEO-U575ZI-Q and CUSTOM application for VL53L3CX-SATEL Breakout board",
-      "maturity": "draft",
+      "maturity": "release",
       "fota": {},
       "cloud_apps": [],
       "characteristics": [
@@ -28668,7 +28668,7 @@
       "fw_version": "5.1.0",
       "fw_desc": "The FP-SNS-FLIGHT1 is an STM32Cube function pack, which lets your IoT node connect to a smartphone via BLE and uses a suitable Android™ or iOS™ application like the STBLESensor app to view real-time object distance data read by the Time-of-Flight sensor.",
       "changelog": "Added support for NUCLEO-U575ZI-Q and CUSTOM application for VL53L3CX-SATEL Breakout board",
-      "maturity": "draft",
+      "maturity": "release",
       "fota": {
         "type": "fast",
         "bootloader_type": "custom",
@@ -28732,7 +28732,7 @@
       "fw_version": "5.1.0",
       "fw_desc": "The FP-SNS-FLIGHT1 is an STM32Cube function pack, which lets your IoT node connect to a smartphone via BLE and uses a suitable Android™ or iOS™ application like the STBLESensor app to view real-time object distance data read by the Time-of-Flight sensor.",
       "changelog": "Added support for NUCLEO-U575ZI-Q and CUSTOM application for VL53L3CX-SATEL Breakout board",
-      "maturity": "draft",
+      "maturity": "release",
       "fota": {},
       "cloud_apps": [],
       "characteristics": [
