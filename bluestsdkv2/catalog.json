@@ -6797,9 +6797,197 @@
                     "max_write_length": 20
                 },
                 {
+                    "name": "Norm",
+                    "uuid": "00010000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc norm",
+                            "type": "Float",
+                            "unit": "LSB",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        }
+                    ]
+                },
+                {
                     "name": "Battery",
                     "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
+                },
+                {
+                    "name": "Wirst Tilt",
+                    "uuid": "00020000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Wrist up",
+                            "type": "UInt8",
+                            "unit": "#",
+                            "length": 1,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Wrist down",
+                            "type": "UInt8",
+                            "unit": "#",
+                            "length": 1,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        }
+                    ]
+                },
+                {
+                    "name": "Pedometer",
+                    "uuid": "00030000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Steps",
+                            "type": "UInt16",
+                            "unit": "#",
+                            "length": 2,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        }
+                    ]
+                },
+                {
+                    "name": "Activity Recognition",
+                    "uuid": "00040000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Activity",
+                            "type": "UInt8",
+                            "unit": "",
+                            "length": 1,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Confidence",
+                            "type": "UInt8",
+                            "unit": "",
+                            "length": 1,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        }
+                    ]
                 },
                 {
                     "name": "Pressure",
@@ -7231,9 +7419,197 @@
                     "max_write_length": 20
                 },
                 {
+                    "name": "Norm",
+                    "uuid": "00010000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc norm",
+                            "type": "Float",
+                            "unit": "LSB",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        }
+                    ]
+                },
+                {
                     "name": "Battery",
                     "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
+                },
+                {
+                    "name": "Wirst Tilt",
+                    "uuid": "00020000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Wrist up",
+                            "type": "UInt8",
+                            "unit": "#",
+                            "length": 1,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Wrist down",
+                            "type": "UInt8",
+                            "unit": "#",
+                            "length": 1,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        }
+                    ]
+                },
+                {
+                    "name": "Pedometer",
+                    "uuid": "00030000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Steps",
+                            "type": "UInt16",
+                            "unit": "#",
+                            "length": 2,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        }
+                    ]
+                },
+                {
+                    "name": "Activity Recognition",
+                    "uuid": "00040000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Activity",
+                            "type": "UInt8",
+                            "unit": "",
+                            "length": 1,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Confidence",
+                            "type": "UInt8",
+                            "unit": "",
+                            "length": 1,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        }
+                    ]
                 },
                 {
                     "name": "Pressure",
@@ -7891,9 +8267,197 @@
                     "max_write_length": 20
                 },
                 {
+                    "name": "Norm",
+                    "uuid": "00010000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc norm",
+                            "type": "Float",
+                            "unit": "LSB",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        }
+                    ]
+                },
+                {
                     "name": "Battery",
                     "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
+                },
+                {
+                    "name": "Wirst Tilt",
+                    "uuid": "00020000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Wrist up",
+                            "type": "UInt8",
+                            "unit": "#",
+                            "length": 1,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Wrist down",
+                            "type": "UInt8",
+                            "unit": "#",
+                            "length": 1,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        }
+                    ]
+                },
+                {
+                    "name": "Pedometer",
+                    "uuid": "00030000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Steps",
+                            "type": "UInt16",
+                            "unit": "#",
+                            "length": 2,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        }
+                    ]
+                },
+                {
+                    "name": "Activity Recognition",
+                    "uuid": "00040000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Activity",
+                            "type": "UInt8",
+                            "unit": "",
+                            "length": 1,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Confidence",
+                            "type": "UInt8",
+                            "unit": "",
+                            "length": 1,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        }
+                    ]
                 },
                 {
                     "name": "Pressure",
@@ -8244,9 +8808,197 @@
                     "max_write_length": 20
                 },
                 {
+                    "name": "Norm",
+                    "uuid": "00010000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc norm",
+                            "type": "Float",
+                            "unit": "LSB",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        }
+                    ]
+                },
+                {
                     "name": "Battery",
                     "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
+                },
+                {
+                    "name": "Wirst Tilt",
+                    "uuid": "00020000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Wrist up",
+                            "type": "UInt8",
+                            "unit": "#",
+                            "length": 1,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Wrist down",
+                            "type": "UInt8",
+                            "unit": "#",
+                            "length": 1,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        }
+                    ]
+                },
+                {
+                    "name": "Pedometer",
+                    "uuid": "00030000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Steps",
+                            "type": "UInt16",
+                            "unit": "#",
+                            "length": 2,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        }
+                    ]
+                },
+                {
+                    "name": "Activity Recognition",
+                    "uuid": "00040000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Activity",
+                            "type": "UInt8",
+                            "unit": "",
+                            "length": 1,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Confidence",
+                            "type": "UInt8",
+                            "unit": "",
+                            "length": 1,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        }
+                    ]
                 },
                 {
                     "name": "Pressure",
@@ -8984,9 +9736,197 @@
                     "max_write_length": 20
                 },
                 {
+                    "name": "Norm",
+                    "uuid": "00010000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc norm",
+                            "type": "Float",
+                            "unit": "LSB",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        }
+                    ]
+                },
+                {
                     "name": "Battery",
                     "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
+                },
+                {
+                    "name": "Wirst Tilt",
+                    "uuid": "00020000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Wrist up",
+                            "type": "UInt8",
+                            "unit": "#",
+                            "length": 1,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Wrist down",
+                            "type": "UInt8",
+                            "unit": "#",
+                            "length": 1,
+                            "offset": 0,
+                            "scalefactor": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Pedometer",
+                    "uuid": "00030000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Steps",
+                            "type": "UInt16",
+                            "unit": "#",
+                            "length": 2,
+                            "offset": 0,
+                            "scalefactor": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Activity Recognition",
+                    "uuid": "00040000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Activity",
+                            "type": "UInt8",
+                            "unit": "",
+                            "length": 1,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Confidence",
+                            "type": "UInt8",
+                            "unit": "",
+                            "length": 1,
+                            "offset": 0,
+                            "scalefactor": 1
+                        }
+                    ]
                 },
                 {
                     "name": "Pressure",
@@ -9392,9 +10332,197 @@
                     "max_write_length": 20
                 },
                 {
+                    "name": "Norm",
+                    "uuid": "00010000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc norm",
+                            "type": "Float",
+                            "unit": "LSB",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        }
+                    ]
+                },
+                {
                     "name": "Battery",
                     "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
+                },
+                {
+                    "name": "Wirst Tilt",
+                    "uuid": "00020000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Wrist up",
+                            "type": "UInt8",
+                            "unit": "#",
+                            "length": 1,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Wrist down",
+                            "type": "UInt8",
+                            "unit": "#",
+                            "length": 1,
+                            "offset": 0,
+                            "scalefactor": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Pedometer",
+                    "uuid": "00030000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Steps",
+                            "type": "UInt16",
+                            "unit": "#",
+                            "length": 2,
+                            "offset": 0,
+                            "scalefactor": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Activity Recognition",
+                    "uuid": "00040000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Activity",
+                            "type": "UInt8",
+                            "unit": "",
+                            "length": 1,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Confidence",
+                            "type": "UInt8",
+                            "unit": "",
+                            "length": 1,
+                            "offset": 0,
+                            "scalefactor": 1
+                        }
+                    ]
                 },
                 {
                     "name": "Pressure",
@@ -18556,9 +19684,197 @@
                     "max_write_length": 20
                 },
                 {
+                    "name": "Norm",
+                    "uuid": "00010000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc norm",
+                            "type": "Float",
+                            "unit": "LSB",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        }
+                    ]
+                },
+                {
                     "name": "Battery",
                     "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
+                },
+                {
+                    "name": "Wirst Tilt",
+                    "uuid": "00020000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Wrist up",
+                            "type": "UInt8",
+                            "unit": "#",
+                            "length": 1,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Wrist down",
+                            "type": "UInt8",
+                            "unit": "#",
+                            "length": 1,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        }
+                    ]
+                },
+                {
+                    "name": "Pedometer",
+                    "uuid": "00030000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Steps",
+                            "type": "UInt16",
+                            "unit": "#",
+                            "length": 2,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        }
+                    ]
+                },
+                {
+                    "name": "Activity Recognition",
+                    "uuid": "00040000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Activity",
+                            "type": "UInt8",
+                            "unit": "",
+                            "length": 1,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Confidence",
+                            "type": "UInt8",
+                            "unit": "",
+                            "length": 1,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        }
+                    ]
                 },
                 {
                     "name": "Pressure",
@@ -18995,9 +20311,197 @@
                     "max_write_length": 20
                 },
                 {
+                    "name": "Norm",
+                    "uuid": "00010000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc norm",
+                            "type": "Float",
+                            "unit": "LSB",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        }
+                    ]
+                },
+                {
                     "name": "Battery",
                     "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
+                },
+                {
+                    "name": "Wirst Tilt",
+                    "uuid": "00020000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Wrist up",
+                            "type": "UInt8",
+                            "unit": "#",
+                            "length": 1,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Wrist down",
+                            "type": "UInt8",
+                            "unit": "#",
+                            "length": 1,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        }
+                    ]
+                },
+                {
+                    "name": "Pedometer",
+                    "uuid": "00030000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Steps",
+                            "type": "UInt16",
+                            "unit": "#",
+                            "length": 2,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        }
+                    ]
+                },
+                {
+                    "name": "Activity Recognition",
+                    "uuid": "00040000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Activity",
+                            "type": "UInt8",
+                            "unit": "",
+                            "length": 1,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Confidence",
+                            "type": "UInt8",
+                            "unit": "",
+                            "length": 1,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        }
+                    ]
                 },
                 {
                     "name": "Pressure",
@@ -19938,9 +21442,197 @@
                     "max_write_length": 20
                 },
                 {
+                    "name": "Norm",
+                    "uuid": "00010000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc norm",
+                            "type": "Float",
+                            "unit": "LSB",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        }
+                    ]
+                },
+                {
                     "name": "Battery",
                     "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
+                },
+                {
+                    "name": "Wirst Tilt",
+                    "uuid": "00020000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Wrist up",
+                            "type": "UInt8",
+                            "unit": "#",
+                            "length": 1,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Wrist down",
+                            "type": "UInt8",
+                            "unit": "#",
+                            "length": 1,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        }
+                    ]
+                },
+                {
+                    "name": "Pedometer",
+                    "uuid": "00030000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Steps",
+                            "type": "UInt16",
+                            "unit": "#",
+                            "length": 2,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        }
+                    ]
+                },
+                {
+                    "name": "Activity Recognition",
+                    "uuid": "00040000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Activity",
+                            "type": "UInt8",
+                            "unit": "",
+                            "length": 1,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Confidence",
+                            "type": "UInt8",
+                            "unit": "",
+                            "length": 1,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        }
+                    ]
                 },
                 {
                     "name": "Pressure",
@@ -20296,9 +21988,197 @@
                     "max_write_length": 20
                 },
                 {
+                    "name": "Norm",
+                    "uuid": "00010000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc norm",
+                            "type": "Float",
+                            "unit": "LSB",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        }
+                    ]
+                },
+                {
                     "name": "Battery",
                     "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
+                },
+                {
+                    "name": "Wirst Tilt",
+                    "uuid": "00020000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Wrist up",
+                            "type": "UInt8",
+                            "unit": "#",
+                            "length": 1,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Wrist down",
+                            "type": "UInt8",
+                            "unit": "#",
+                            "length": 1,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        }
+                    ]
+                },
+                {
+                    "name": "Pedometer",
+                    "uuid": "00030000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Steps",
+                            "type": "UInt16",
+                            "unit": "#",
+                            "length": 2,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        }
+                    ]
+                },
+                {
+                    "name": "Activity Recognition",
+                    "uuid": "00040000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Activity",
+                            "type": "UInt8",
+                            "unit": "",
+                            "length": 1,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        },
+                        {
+                            "name": "Confidence",
+                            "type": "UInt8",
+                            "unit": "",
+                            "length": 1,
+                            "offset": 0.0,
+                            "scalefactor": 1.0
+                        }
+                    ]
                 },
                 {
                     "name": "Pressure",
@@ -21036,9 +22916,197 @@
                     "max_write_length": 20
                 },
                 {
+                    "name": "Norm",
+                    "uuid": "00010000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc norm",
+                            "type": "Float",
+                            "unit": "LSB",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        }
+                    ]
+                },
+                {
                     "name": "Battery",
                     "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
+                },
+                {
+                    "name": "Wirst Tilt",
+                    "uuid": "00020000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Wrist up",
+                            "type": "UInt8",
+                            "unit": "#",
+                            "length": 1,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Wrist down",
+                            "type": "UInt8",
+                            "unit": "#",
+                            "length": 1,
+                            "offset": 0,
+                            "scalefactor": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Pedometer",
+                    "uuid": "00030000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Steps",
+                            "type": "UInt16",
+                            "unit": "#",
+                            "length": 2,
+                            "offset": 0,
+                            "scalefactor": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Activity Recognition",
+                    "uuid": "00040000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Activity",
+                            "type": "UInt8",
+                            "unit": "",
+                            "length": 1,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Confidence",
+                            "type": "UInt8",
+                            "unit": "",
+                            "length": 1,
+                            "offset": 0,
+                            "scalefactor": 1
+                        }
+                    ]
                 },
                 {
                     "name": "Pressure",
@@ -21420,9 +23488,197 @@
                     "max_write_length": 20
                 },
                 {
+                    "name": "Norm",
+                    "uuid": "00010000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc norm",
+                            "type": "Float",
+                            "unit": "LSB",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        }
+                    ]
+                },
+                {
                     "name": "Battery",
                     "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
+                },
+                {
+                    "name": "Wirst Tilt",
+                    "uuid": "00020000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Wrist up",
+                            "type": "UInt8",
+                            "unit": "#",
+                            "length": 1,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Wrist down",
+                            "type": "UInt8",
+                            "unit": "#",
+                            "length": 1,
+                            "offset": 0,
+                            "scalefactor": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Pedometer",
+                    "uuid": "00030000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Steps",
+                            "type": "UInt16",
+                            "unit": "#",
+                            "length": 2,
+                            "offset": 0,
+                            "scalefactor": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Activity Recognition",
+                    "uuid": "00040000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Activity",
+                            "type": "UInt8",
+                            "unit": "",
+                            "length": 1,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Confidence",
+                            "type": "UInt8",
+                            "unit": "",
+                            "length": 1,
+                            "offset": 0,
+                            "scalefactor": 1
+                        }
+                    ]
                 },
                 {
                     "name": "Pressure",
@@ -22795,9 +25051,197 @@
                     "max_write_length": 20
                 },
                 {
+                    "name": "Norm",
+                    "uuid": "00010000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc norm",
+                            "type": "Float",
+                            "unit": "LSB",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        }
+                    ]
+                },
+                {
                     "name": "Battery",
                     "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
+                },
+                {
+                    "name": "Wirst Tilt",
+                    "uuid": "00020000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Wrist up",
+                            "type": "UInt8",
+                            "unit": "#",
+                            "length": 1,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Wrist down",
+                            "type": "UInt8",
+                            "unit": "#",
+                            "length": 1,
+                            "offset": 0,
+                            "scalefactor": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Pedometer",
+                    "uuid": "00030000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Steps",
+                            "type": "UInt16",
+                            "unit": "#",
+                            "length": 2,
+                            "offset": 0,
+                            "scalefactor": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Activity Recognition",
+                    "uuid": "00040000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Activity",
+                            "type": "UInt8",
+                            "unit": "",
+                            "length": 1,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Confidence",
+                            "type": "UInt8",
+                            "unit": "",
+                            "length": 1,
+                            "offset": 0,
+                            "scalefactor": 1
+                        }
+                    ]
                 },
                 {
                     "name": "Pressure",
@@ -23152,9 +25596,197 @@
                     "max_write_length": 20
                 },
                 {
+                    "name": "Norm",
+                    "uuid": "00010000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Int16",
+                            "unit": "LSB",
+                            "length": 2,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc norm",
+                            "type": "Float",
+                            "unit": "LSB",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        }
+                    ]
+                },
+                {
                     "name": "Battery",
                     "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
+                },
+                {
+                    "name": "Wirst Tilt",
+                    "uuid": "00020000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Wrist up",
+                            "type": "UInt8",
+                            "unit": "#",
+                            "length": 1,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Wrist down",
+                            "type": "UInt8",
+                            "unit": "#",
+                            "length": 1,
+                            "offset": 0,
+                            "scalefactor": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Pedometer",
+                    "uuid": "00030000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Steps",
+                            "type": "UInt16",
+                            "unit": "#",
+                            "length": 2,
+                            "offset": 0,
+                            "scalefactor": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Activity Recognition",
+                    "uuid": "00040000-0003-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20,
+                    "format_notify": [
+                        {
+                            "name": "timestamp",
+                            "length": 2
+                        },
+                        {
+                            "name": "Acc x",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc y",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Acc z",
+                            "type": "Float",
+                            "unit": "g",
+                            "length": 4,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Activity",
+                            "type": "UInt8",
+                            "unit": "",
+                            "length": 1,
+                            "offset": 0,
+                            "scalefactor": 1
+                        },
+                        {
+                            "name": "Confidence",
+                            "type": "UInt8",
+                            "unit": "",
+                            "length": 1,
+                            "offset": 0,
+                            "scalefactor": 1
+                        }
+                    ]
                 },
                 {
                     "name": "Pressure",
@@ -23726,6 +26358,144 @@
             ]
         },
         {
+            "ble_dev_id": "0x7B",
+            "ble_fw_id": "0x04",
+            "option_bytes": [
+                {
+                    "name": "Expansion Board",
+                    "type": "string",
+                    "format": "enum_string",
+                    "string_values": [
+                        {
+                            "value": 0,
+                            "display_name": "X-NUCLEO-IKS4A1"
+                        },
+                        {
+                            "value": 1,
+                            "display_name": "X-NUCLEO-IKS01A3"
+                        }
+                    ]
+                }
+            ],
+            "brd_name": "NUCLEO-U575ZI-Q",
+            "fw_name": "FP-SNS-MOTENV1",
+            "fw_version": "5.1.0",
+            "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
+            "changelog": "Removed IKS01A3",
+            "maturity": "draft",
+            "fota": {
+                "type": "fast",
+                "bootloader_type": "none",
+                "max_chunk_length": 220,
+                "max_divisor_constraint": 0,
+                "fw_url": null,
+                "partial_fota": 0
+            },
+            "cloud_apps": [],
+            "characteristics": [
+                {
+                    "name": "Debug console",
+                    "uuid": "00000000-000E-11e1-9ab4-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Pedometer",
+                    "uuid": "00000001-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Debug Console stdin/stdout",
+                    "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "MEMS Gesture",
+                    "uuid": "00000002-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Debug Console stderr",
+                    "uuid": "00000002-000E-11e1-9ab4-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Carry Position",
+                    "uuid": "00000008-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Activity Detection",
+                    "uuid": "00000010-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Ext Configuration",
+                    "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Motion Intensity",
+                    "uuid": "00000020-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Compass",
+                    "uuid": "00000040-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "MEMS Sensor Fusion",
+                    "uuid": "00000080-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Acceleration Event",
+                    "uuid": "00000400-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Temperature",
+                    "uuid": "00010000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Temperature(2)",
+                    "uuid": "00040000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Humidity",
+                    "uuid": "00080000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Pressure",
+                    "uuid": "00100000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Magnetometer",
+                    "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Gyroscope",
+                    "uuid": "00400000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Accelerometer",
+                    "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Switch",
+                    "uuid": "20000000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                }
+            ]
+        },
+        {
             "ble_dev_id": "0x7C",
             "ble_fw_id": "0x01",
             "option_bytes": [
@@ -24119,6 +26889,97 @@
             "fw_version": "5.0.0",
             "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
             "changelog": "Removed MetaDataManager middleware",
+            "maturity": "draft",
+            "fota": {},
+            "cloud_apps": [],
+            "characteristics": [
+                {
+                    "name": "Debug console",
+                    "uuid": "00000000-000E-11e1-9ab4-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Debug Console stdin/stdout",
+                    "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Debug Console stderr",
+                    "uuid": "00000002-000E-11e1-9ab4-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Acceleration Event",
+                    "uuid": "00000400-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Temperature",
+                    "uuid": "00010000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Temperature(2)",
+                    "uuid": "00040000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Humidity",
+                    "uuid": "00080000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Pressure",
+                    "uuid": "00100000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Magnetometer",
+                    "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Gyroscope",
+                    "uuid": "00400000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Accelerometer",
+                    "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Switch",
+                    "uuid": "20000000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                }
+            ]
+        },
+        {
+            "ble_dev_id": "0x7D",
+            "ble_fw_id": "0x05",
+            "option_bytes": [
+                {
+                    "name": "Expansion Board",
+                    "type": "string",
+                    "format": "enum_string",
+                    "string_values": [
+                        {
+                            "value": 0,
+                            "display_name": "X-NUCLEO-IKS4A1"
+                        },
+                        {
+                            "value": 1,
+                            "display_name": "X-NUCLEO-IKS01A3"
+                        }
+                    ]
+                }
+            ],
+            "brd_name": "NUCLEO-STM32L053R8",
+            "fw_name": "FP-SNS-MOTENV1",
+            "fw_version": "5.1.0",
+            "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
+            "changelog": "Removed IKS01A3",
             "maturity": "draft",
             "fota": {},
             "cloud_apps": [],
@@ -25093,6 +27954,420 @@
             ]
         },
         {
+            "ble_dev_id": "0x7E",
+            "ble_fw_id": "0x0C",
+            "option_bytes": [
+                {
+                    "name": "Expansion Board",
+                    "type": "string",
+                    "format": "enum_string",
+                    "string_values": [
+                        {
+                            "value": 0,
+                            "display_name": "X-NUCLEO-IKS4A1"
+                        },
+                        {
+                            "value": 1,
+                            "display_name": "X-NUCLEO-IKS01A3"
+                        }
+                    ]
+                }
+            ],
+            "brd_name": "NUCLEO-STM32L476RG",
+            "fw_name": "FP-SNS-MOTENV1",
+            "fw_version": "5.1.0",
+            "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
+            "changelog": "Removed IKS01A3",
+            "maturity": "draft",
+            "fota": {
+                "type": "fast",
+                "bootloader_type": "custom",
+                "max_chunk_length": 220,
+                "max_divisor_constraint": 0,
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-stm32l476rg/FP-SNS-MOTENV1_iks4a1_5_1_0.bin",
+                "partial_fota": 0
+            },
+            "cloud_apps": [],
+            "characteristics": [
+                {
+                    "name": "Debug console",
+                    "uuid": "00000000-000E-11e1-9ab4-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Pedometer",
+                    "uuid": "00000001-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Debug Console stdin/stdout",
+                    "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "MEMS Gesture",
+                    "uuid": "00000002-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Debug Console stderr",
+                    "uuid": "00000002-000E-11e1-9ab4-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Carry Position",
+                    "uuid": "00000008-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Activity Detection",
+                    "uuid": "00000010-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Ext Configuration",
+                    "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Motion Intensity",
+                    "uuid": "00000020-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Compass",
+                    "uuid": "00000040-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "MEMS Sensor Fusion",
+                    "uuid": "00000080-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Acceleration Event",
+                    "uuid": "00000400-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Temperature",
+                    "uuid": "00010000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Temperature(2)",
+                    "uuid": "00040000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Humidity",
+                    "uuid": "00080000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Pressure",
+                    "uuid": "00100000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Magnetometer",
+                    "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Gyroscope",
+                    "uuid": "00400000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Accelerometer",
+                    "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Switch",
+                    "uuid": "20000000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                }
+            ]
+        },
+        {
+            "ble_dev_id": "0x7E",
+            "ble_fw_id": "0x0D",
+            "option_bytes": [
+                {
+                    "name": "Expansion Board",
+                    "type": "string",
+                    "format": "enum_string",
+                    "string_values": [
+                        {
+                            "value": 0,
+                            "display_name": "X-NUCLEO-IKS4A1"
+                        },
+                        {
+                            "value": 1,
+                            "display_name": "X-NUCLEO-IKS01A3"
+                        }
+                    ]
+                }
+            ],
+            "brd_name": "NUCLEO-STM32L476RG",
+            "fw_name": "FP-SNS-MOTENV1",
+            "fw_version": "5.1.0",
+            "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
+            "changelog": "Removed IKS01A3",
+            "maturity": "draft",
+            "fota": {
+                "type": "fast",
+                "bootloader_type": "custom",
+                "max_chunk_length": 220,
+                "max_divisor_constraint": 0,
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-stm32l476rg/FP-SNS-MOTENV1_iks01a3_5_1_0.bin",
+                "partial_fota": 0
+            },
+            "cloud_apps": [],
+            "characteristics": [
+                {
+                    "name": "Debug console",
+                    "uuid": "00000000-000E-11e1-9ab4-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Pedometer",
+                    "uuid": "00000001-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Debug Console stdin/stdout",
+                    "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "MEMS Gesture",
+                    "uuid": "00000002-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Debug Console stderr",
+                    "uuid": "00000002-000E-11e1-9ab4-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Carry Position",
+                    "uuid": "00000008-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Activity Detection",
+                    "uuid": "00000010-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Ext Configuration",
+                    "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Motion Intensity",
+                    "uuid": "00000020-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Compass",
+                    "uuid": "00000040-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "MEMS Sensor Fusion",
+                    "uuid": "00000080-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Acceleration Event",
+                    "uuid": "00000400-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Temperature",
+                    "uuid": "00010000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Temperature(2)",
+                    "uuid": "00040000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Humidity",
+                    "uuid": "00080000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Pressure",
+                    "uuid": "00100000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Magnetometer",
+                    "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Gyroscope",
+                    "uuid": "00400000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Accelerometer",
+                    "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Switch",
+                    "uuid": "20000000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                }
+            ]
+        },
+        {
+            "ble_dev_id": "0x7E",
+            "ble_fw_id": "0x0E",
+            "option_bytes": [
+                {
+                    "name": "Expansion Board",
+                    "type": "string",
+                    "format": "enum_string",
+                    "string_values": [
+                        {
+                            "value": 0,
+                            "display_name": "X-NUCLEO-IKS4A1"
+                        },
+                        {
+                            "value": 1,
+                            "display_name": "X-NUCLEO-IKS01A3"
+                        }
+                    ]
+                }
+            ],
+            "brd_name": "NUCLEO-STM32L476RG",
+            "fw_name": "FP-SNS-MOTENV1",
+            "fw_version": "5.1.0",
+            "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
+            "changelog": "Removed IKS01A3",
+            "maturity": "draft",
+            "fota": {
+                "type": "fast",
+                "bootloader_type": "custom",
+                "max_chunk_length": 220,
+                "max_divisor_constraint": 0,
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-stm32l476rg/FP-SNS-MOTENV1_iks4a1_5_1_0.bin",
+                "partial_fota": 0
+            },
+            "cloud_apps": [],
+            "characteristics": [
+                {
+                    "name": "Debug console",
+                    "uuid": "00000000-000E-11e1-9ab4-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Pedometer",
+                    "uuid": "00000001-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Debug Console stdin/stdout",
+                    "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "MEMS Gesture",
+                    "uuid": "00000002-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Debug Console stderr",
+                    "uuid": "00000002-000E-11e1-9ab4-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Carry Position",
+                    "uuid": "00000008-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Activity Detection",
+                    "uuid": "00000010-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Ext Configuration",
+                    "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Motion Intensity",
+                    "uuid": "00000020-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Compass",
+                    "uuid": "00000040-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "MEMS Sensor Fusion",
+                    "uuid": "00000080-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Acceleration Event",
+                    "uuid": "00000400-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Temperature",
+                    "uuid": "00010000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Temperature(2)",
+                    "uuid": "00040000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Humidity",
+                    "uuid": "00080000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Pressure",
+                    "uuid": "00100000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Magnetometer",
+                    "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Gyroscope",
+                    "uuid": "00400000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Accelerometer",
+                    "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Switch",
+                    "uuid": "20000000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                }
+            ]
+        },
+        {
             "ble_dev_id": "0x7F",
             "ble_fw_id": "0x01",
             "option_bytes": [],
@@ -25817,6 +29092,144 @@
                 {
                     "name": "Ext Configuration",
                     "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Switch",
+                    "uuid": "20000000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                }
+            ]
+        },
+        {
+            "ble_dev_id": "0x7F",
+            "ble_fw_id": "0x0B",
+            "option_bytes": [
+                {
+                    "name": "Expansion Board",
+                    "type": "string",
+                    "format": "enum_string",
+                    "string_values": [
+                        {
+                            "value": 0,
+                            "display_name": "X-NUCLEO-IKS4A1"
+                        },
+                        {
+                            "value": 1,
+                            "display_name": "X-NUCLEO-IKS01A3"
+                        }
+                    ]
+                }
+            ],
+            "brd_name": "NUCLEO-STM32F401RE",
+            "fw_name": "FP-SNS-MOTENV1",
+            "fw_version": "5.1.0",
+            "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
+            "changelog": "Removed IKS01A3",
+            "maturity": "draft",
+            "fota": {
+                "type": "fast",
+                "bootloader_type": "custom",
+                "max_chunk_length": 220,
+                "max_divisor_constraint": 0,
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-stm32f401re/FP-SNS-MOTENV1_iks4a1_5_1_0.bin",
+                "partial_fota": 0
+            },
+            "cloud_apps": [],
+            "characteristics": [
+                {
+                    "name": "Debug console",
+                    "uuid": "00000000-000E-11e1-9ab4-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Pedometer",
+                    "uuid": "00000001-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Debug Console stdin/stdout",
+                    "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "MEMS Gesture",
+                    "uuid": "00000002-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Debug Console stderr",
+                    "uuid": "00000002-000E-11e1-9ab4-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Carry Position",
+                    "uuid": "00000008-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Activity Detection",
+                    "uuid": "00000010-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Ext Configuration",
+                    "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Motion Intensity",
+                    "uuid": "00000020-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Compass",
+                    "uuid": "00000040-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "MEMS Sensor Fusion",
+                    "uuid": "00000080-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Acceleration Event",
+                    "uuid": "00000400-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Temperature",
+                    "uuid": "00010000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Temperature(2)",
+                    "uuid": "00040000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Humidity",
+                    "uuid": "00080000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Pressure",
+                    "uuid": "00100000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Magnetometer",
+                    "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Gyroscope",
+                    "uuid": "00400000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Accelerometer",
+                    "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
                 },
                 {
@@ -29480,7 +32893,7 @@
             }
         }
     ],
-    "date": "2025-08-01 13:56:23.019823",
-    "version": "0.9.0",
-    "checksum": "1a2350beb7e1d3f9e33aa3e428ee9493"
+    "date": "2025-09-19 11:10:56.397958",
+    "version": "0.10.0",
+    "checksum": "7e9974b5af27eb4188287dae953d3d03"
 }
