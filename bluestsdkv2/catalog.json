@@ -7019,6 +7019,20 @@
                     "uuid": "20000000-0001-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
                 }
+            ],
+            "compatible_sensor_adapters": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
             ]
         },
         {
@@ -7641,6 +7655,21 @@
                     "uuid": "20000000-0001-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
                 }
+            ],
+            "compatible_sensor_adapters": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
             ]
         },
         {
@@ -8140,7 +8169,7 @@
             "fw_name": "STSW-MKBOXPRO Entry/Expert Mode",
             "fw_version": "1.2.0",
             "fw_desc": "Fw supporting app creation with ST BLE Sensor app",
-            "changelog": "Support for Biosensor (ST1VAFE3BX) with Medical Signal Demo and HRM<. General Bug fixes related with SD Log. ",
+            "changelog": "Support for Biosensor (ST1VAFE3BX) with Medical Signal Demo and HRM. General bug fixes related with SD Log.",
             "dtmi": "dtmi:appconfig:steval_mkboxpro:STSW_MKBOXPRO_Entry_Expert_Mode;2",
             "demo_decorator": {
                 "add": [
@@ -8239,6 +8268,11 @@
                 {
                     "name": "JSON NFC",
                     "uuid": "00000020-0002-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "MEMS Normalization",
+                    "uuid": "00000021-0002-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
                 },
                 {
@@ -8489,6 +8523,22 @@
                     "uuid": "20000000-0001-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
                 }
+            ],
+            "compatible_sensor_adapters": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                18
             ]
         },
         {
@@ -8681,7 +8731,7 @@
             "fw_name": "STSW-MKBOXPRO Entry/Expert Mode",
             "fw_version": "1.2.1",
             "fw_desc": "Fw supporting app creation with ST BLE Sensor app",
-            "changelog": "Support for High-G sensor (LSM6DSV80X). General Bug fixes related with ECG demo and SD Log. ",
+            "changelog": "Support for High-G sensor (LSM6DSV80X). General Bug fixes related with ECG demo and SD Log.",
             "dtmi": "dtmi:appconfig:steval_mkboxpro:STSW_MKBOXPRO_Entry_Expert_Mode;2",
             "demo_decorator": {
                 "add": [
@@ -8783,8 +8833,8 @@
                     "max_write_length": 20
                 },
                 {
-                    "name": "Medical Signal 16",
-                    "uuid": "00000026-0002-11e1-ac36-0002a5d5c51b",
+                    "name": "MEMS Normalization",
+                    "uuid": "00000021-0002-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
                 },
                 {
@@ -9030,6 +9080,33 @@
                     "uuid": "20000000-0001-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
                 }
+            ],
+            "extra_examples_flow": [
+                {
+                    "model": "ST1VAFE3BX",
+                    "examples_flow": [
+                        "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/flow/steval-mkboxpro/st1vafe3bx_ex_flow.json"
+                    ]
+                }
+            ],
+            "compatible_sensor_adapters": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                18,
+                19,
+                20,
+                21
             ]
         },
         {
@@ -9609,7 +9686,7 @@
             "fw_name": "STSW-MKBOXPRO Entry/Expert Mode",
             "fw_version": "1.3.0",
             "fw_desc": "Fw supporting app creation with ST BLE Sensor app",
-            "changelog": "New BLE manager support for stm32wb07_06. Support for LSM6DSV320X and LPS28DFW.",
+            "changelog": "Support for LSM6DSV320X and LPS28DFW.",
             "dtmi": "dtmi:appconfig:steval_mkboxpro:STSW_MKBOXPRO_Entry_Expert_Mode;2",
             "demo_decorator": {
                 "add": [
@@ -9959,6 +10036,14 @@
                     "max_write_length": 20
                 }
             ],
+            "extra_examples_flow": [
+                {
+                    "model": "ST1VAFE3BX",
+                    "examples_flow": [
+                        "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/flow/steval-mkboxpro/st1vafe3bx_ex_flow.json"
+                    ]
+                }
+            ],
             "compatible_sensor_adapters": [
                 1,
                 2,
@@ -10001,11 +10086,18 @@
                 "rename": []
             },
             "maturity": "release",
-            "fota": {},
+            "fota": {
+                "type": "fast",
+                "bootloader_type": "none",
+                "max_chunk_length": 0,
+                "max_divisor_constraint": 0,
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/STBP-ASSET-TRACKING_1_0_0.bin",
+                "partial_fota": 0
+            },
             "cloud_apps": [],
             "characteristics": [
                 {
-                    "name": "Asset Tracking Event",
+                    "name": "AssetTrackingEvent",
                     "uuid": "00000030-0002-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
                 }
@@ -10307,8 +10399,8 @@
                     "max_write_length": 20
                 },
                 {
-                    "name": "Medical Signal 16",
-                    "uuid": "00000026-0002-11e1-ac36-0002a5d5c51b",
+                    "name": "MEMS Normalization",
+                    "uuid": "00000021-0002-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
                 },
                 {
@@ -10554,6 +10646,38 @@
                     "uuid": "20000000-0001-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
                 }
+            ],
+            "extra_examples_flow": [
+                {
+                    "model": "ST1VAFE3BX",
+                    "examples_flow": [
+                        "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/flow/steval-mkboxpro/st1vafe3bx_ex_flow.json"
+                    ]
+                }
+            ],
+            "compatible_sensor_adapters": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26
             ]
         },
         {
@@ -18408,11 +18532,57 @@
                 "bootloader_type": "none",
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 0,
-                "fw_url": null,
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-STBOX1_BLESensorsPnPL_1_6_0.bin",
                 "partial_fota": 0
             },
             "cloud_apps": [],
-            "characteristics": []
+            "characteristics": [
+                {
+                    "name": "Debug Console stdin/stdout",
+                    "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Ext Configuration",
+                    "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "PnPLike",
+                    "uuid": "0000001b-0002-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Temperature",
+                    "uuid": "00010000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Battery",
+                    "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Pressure",
+                    "uuid": "00100000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Magnetometer",
+                    "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Gyroscope",
+                    "uuid": "00400000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Accelerometer",
+                    "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                }
+            ]
         },
         {
             "ble_dev_id": "0x11",
@@ -18449,7 +18619,23 @@
                 "partial_fota": 0
             },
             "cloud_apps": [],
-            "characteristics": []
+            "characteristics": [
+                {
+                    "name": "Debug Console stdin/stdout",
+                    "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Ext Configuration",
+                    "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Piano",
+                    "uuid": "0000001c-0002-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                }
+            ]
         },
         {
             "ble_dev_id": "0x11",
@@ -18486,7 +18672,28 @@
                 "partial_fota": 0
             },
             "cloud_apps": [],
-            "characteristics": []
+            "characteristics": [
+                {
+                    "name": "Debug console stdin/stdout",
+                    "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Machine Learning Core",
+                    "uuid": "0000000f-0002-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Finite State Machine",
+                    "uuid": "00000010-0002-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Ext Configuration",
+                    "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                }
+            ]
         },
         {
             "ble_dev_id": "0x11",
@@ -18519,7 +18726,7 @@
                 "bootloader_type": "none",
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 0,
-                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-STBOX1_BLESensors_1_6_0.bin",
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-STBOX1_BLESensors_1_6_0.bin",
                 "partial_fota": 0
             },
             "cloud_apps": [
@@ -18532,7 +18739,53 @@
                     "dtmi_type": "iotc"
                 }
             ],
-            "characteristics": []
+            "characteristics": [
+                {
+                    "name": "Debug Console stdin/stdout",
+                    "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Ext Configuration",
+                    "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Temperature",
+                    "uuid": "00010000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Battery",
+                    "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Humidity",
+                    "uuid": "00080000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Pressure",
+                    "uuid": "00100000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Magnetometer",
+                    "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Gyroscope",
+                    "uuid": "00400000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Accelerometer",
+                    "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                }
+            ]
         },
         {
             "ble_dev_id": "0x11",
@@ -18565,11 +18818,57 @@
                 "bootloader_type": "none",
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 0,
-                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-STBOX1_BLEDualProgram_1_6_0.bin",
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-STBOX1_BLEDualProgram_1_6_0.bin",
                 "partial_fota": 0
             },
             "cloud_apps": [],
-            "characteristics": []
+            "characteristics": [
+                {
+                    "name": "Debug Console stdin/stdout",
+                    "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Ext Configuration",
+                    "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "MEMS Sensor Fusion Compact",
+                    "uuid": "00000100-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Temperature",
+                    "uuid": "00010000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Humidity",
+                    "uuid": "00080000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Pressure",
+                    "uuid": "00100000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Magnetometer",
+                    "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Gyroscope",
+                    "uuid": "00400000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                },
+                {
+                    "name": "Accelerometer",
+                    "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b",
+                    "max_write_length": 20
+                }
+            ]
         },
         {
             "ble_dev_id": "0x11",
@@ -19906,6 +20205,20 @@
                     "uuid": "20000000-0001-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
                 }
+            ],
+            "compatible_sensor_adapters": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
             ]
         },
         {
@@ -20533,6 +20846,21 @@
                     "uuid": "20000000-0001-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
                 }
+            ],
+            "compatible_sensor_adapters": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
             ]
         },
         {
@@ -20866,7 +21194,7 @@
                 "bootloader_type": "none",
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 0,
-                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxprob/FP-SNS-STBOX1_BLEDualProgram_2_0_0.bin",
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-STBOX1_BLEDualProgram_2_0_0.bin",
                 "partial_fota": 0
             },
             "cloud_apps": [],
@@ -21310,7 +21638,7 @@
             "fw_name": "STSW-MKBOXPRO Entry/Expert Mode",
             "fw_version": "1.2.0",
             "fw_desc": "Fw supporting app creation with ST BLE Sensor app",
-            "changelog": "Support for Biosensor (ST1VAFE3BX) with Medical Signal Demo and HRM<. General Bug fixes related with SD Log. ",
+            "changelog": "Support for Biosensor (ST1VAFE3BX) with Medical Signal Demo and HRM. General bug fixes related with SD Log.",
             "dtmi": "dtmi:appconfig:steval_mkboxprob:STSW_MKBOXPRO_Entry_Expert_Mode;2",
             "demo_decorator": {
                 "add": [
@@ -21664,6 +21992,22 @@
                     "uuid": "20000000-0001-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
                 }
+            ],
+            "compatible_sensor_adapters": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                18
             ]
         },
         {
@@ -21856,7 +22200,7 @@
             "fw_name": "STSW-MKBOXPRO Entry/Expert Mode",
             "fw_version": "1.2.1",
             "fw_desc": "Fw supporting app creation with ST BLE Sensor app",
-            "changelog": "Support for High-G sensor (LSM6DSV80X). General Bug fixes related with ECG demo and SD Log. ",
+            "changelog": "Support for High-G sensor (LSM6DSV80X). General Bug fixes related with ECG demo and SD Log.",
             "dtmi": "dtmi:appconfig:steval_mkboxprob:STSW_MKBOXPRO_Entry_Expert_Mode;2",
             "demo_decorator": {
                 "add": [
@@ -21960,11 +22304,6 @@
                 {
                     "name": "MEMS Normalization",
                     "uuid": "00000021-0002-11e1-ac36-0002a5d5c51b",
-                    "max_write_length": 20
-                },
-                {
-                    "name": "Medical Signal 16",
-                    "uuid": "00000026-0002-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
                 },
                 {
@@ -22210,6 +22549,33 @@
                     "uuid": "20000000-0001-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
                 }
+            ],
+            "extra_examples_flow": [
+                {
+                    "model": "ST1VAFE3BX",
+                    "examples_flow": [
+                        "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/flow/steval-mkboxpro/st1vafe3bx_ex_flow.json"
+                    ]
+                }
+            ],
+            "compatible_sensor_adapters": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                18,
+                19,
+                20,
+                21
             ]
         },
         {
@@ -22789,7 +23155,7 @@
             "fw_name": "STSW-MKBOXPRO Entry/Expert Mode",
             "fw_version": "1.3.0",
             "fw_desc": "Fw supporting app creation with ST BLE Sensor app",
-            "changelog": "New BLE manager support for stm32wb07_06. Support for LSM6DSV320X and LPS28DFW.",
+            "changelog": "Support for LSM6DSV320X and LPS28DFW.",
             "dtmi": "dtmi:appconfig:steval_mkboxprob:STSW_MKBOXPRO_Entry_Expert_Mode;2",
             "demo_decorator": {
                 "add": [
@@ -23138,6 +23504,38 @@
                     "uuid": "20000000-0001-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
                 }
+            ],
+            "extra_examples_flow": [
+                {
+                    "model": "ST1VAFE3BX",
+                    "examples_flow": [
+                        "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/flow/steval-mkboxpro/st1vafe3bx_ex_flow.json"
+                    ]
+                }
+            ],
+            "compatible_sensor_adapters": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26
             ]
         },
         {
@@ -23157,11 +23555,18 @@
                 "rename": []
             },
             "maturity": "release",
-            "fota": {},
+            "fota": {
+                "type": "fast",
+                "bootloader_type": "none",
+                "max_chunk_length": 0,
+                "max_divisor_constraint": 0,
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxprob/STBP-ASSET-TRACKING_1_0_0.bin",
+                "partial_fota": 0
+            },
             "cloud_apps": [],
             "characteristics": [
                 {
-                    "name": "Asset Tracking Event",
+                    "name": "AssetTrackingEvent",
                     "uuid": "00000030-0002-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
                 }
@@ -23463,8 +23868,8 @@
                     "max_write_length": 20
                 },
                 {
-                    "name": "Medical Signal 16",
-                    "uuid": "00000026-0002-11e1-ac36-0002a5d5c51b",
+                    "name": "MEMS Normalization",
+                    "uuid": "00000021-0002-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
                 },
                 {
@@ -23710,6 +24115,38 @@
                     "uuid": "20000000-0001-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
                 }
+            ],
+            "extra_examples_flow": [
+                {
+                    "model": "ST1VAFE3BX",
+                    "examples_flow": [
+                        "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/flow/steval-mkboxpro/st1vafe3bx_ex_flow.json"
+                    ]
+                }
+            ],
+            "compatible_sensor_adapters": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26
             ]
         },
         {
@@ -24924,7 +25361,7 @@
             "fw_name": "STSW-MKBOXPRO Entry/Expert Mode",
             "fw_version": "1.3.0",
             "fw_desc": "Fw supporting app creation with ST BLE Sensor app",
-            "changelog": "New BLE manager support for stm32wb07_06. Support for LSM6DSV320X and LPS28DFW.",
+            "changelog": "Support for LSM6DSV320X and LPS28DFW.",
             "dtmi": "dtmi:appconfig:steval_mkboxproc:STSW_MKBOXPRO_Entry_Expert_Mode;2",
             "demo_decorator": {
                 "add": [
@@ -25273,6 +25710,38 @@
                     "uuid": "20000000-0001-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
                 }
+            ],
+            "extra_examples_flow": [
+                {
+                    "model": "ST1VAFE3BX",
+                    "examples_flow": [
+                        "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/flow/steval-mkboxpro/st1vafe3bx_ex_flow.json"
+                    ]
+                }
+            ],
+            "compatible_sensor_adapters": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26
             ]
         },
         {
@@ -25571,8 +26040,8 @@
                     "max_write_length": 20
                 },
                 {
-                    "name": "Medical Signal 16",
-                    "uuid": "00000026-0002-11e1-ac36-0002a5d5c51b",
+                    "name": "MEMS Normalization",
+                    "uuid": "00000021-0002-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
                 },
                 {
@@ -25818,6 +26287,38 @@
                     "uuid": "20000000-0001-11e1-ac36-0002a5d5c51b",
                     "max_write_length": 20
                 }
+            ],
+            "extra_examples_flow": [
+                {
+                    "model": "ST1VAFE3BX",
+                    "examples_flow": [
+                        "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/flow/steval-mkboxpro/st1vafe3bx_ex_flow.json"
+                    ]
+                }
+            ],
+            "compatible_sensor_adapters": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26
             ]
         },
         {
@@ -26263,7 +26764,7 @@
                 "bootloader_type": "none",
                 "max_chunk_length": 220,
                 "max_divisor_constraint": 0,
-                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-stm32u575zi-q/FP-SNS-FLIGHT1_53L3A2_5_1_0.bin",
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-u575zi-q/FP-SNS-FLIGHT1_53L3A2_5_1_0.bin",
                 "partial_fota": 0
             },
             "cloud_apps": [],
@@ -27060,7 +27561,7 @@
                 "bootloader_type": "custom",
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 8,
-                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-stm32l476rg/FP-SNS-MOTENV1_iks01a3_4_2_0.bin",
+                "fw_url": null,
                 "partial_fota": 0
             },
             "cloud_apps": [],
@@ -27725,7 +28226,7 @@
                 "bootloader_type": "custom",
                 "max_chunk_length": 220,
                 "max_divisor_constraint": 0,
-                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-stm32l476rg/FP-SNS-MOTENV1_iks01a3_5_0_0.bin",
+                "fw_url": null,
                 "partial_fota": 0
             },
             "cloud_apps": [],
@@ -28381,7 +28882,7 @@
                 "bootloader_type": "custom",
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 8,
-                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-stm32f401re/FP-SNS-MOTENV1_iks01a3_4_2_0.bin",
+                "fw_url": null,
                 "partial_fota": 0
             },
             "cloud_apps": [],
@@ -28873,7 +29374,7 @@
                 "bootloader_type": "custom",
                 "max_chunk_length": 220,
                 "max_divisor_constraint": 0,
-                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-stm32f401re/FP-SNS-MOTENV1_iks01a3_5_0_0.bin",
+                "fw_url": null,
                 "partial_fota": 0
             },
             "cloud_apps": [],
@@ -30852,6 +31353,13 @@
             "format_notify": null
         },
         {
+            "name": "UNUSED",
+            "description": "",
+            "uuid": "00000012-0002-11e1-ac36-0002a5d5c51b",
+            "dtmi_name": null,
+            "format_notify": null
+        },
+        {
             "name": "ToF Multiobject",
             "description": "Time Of Flight Multi Objects Detection",
             "uuid": "00000013-0002-11e1-ac36-0002a5d5c51b",
@@ -31264,8 +31772,8 @@
             "format_notify": null
         },
         {
-            "name": "Asset Tracking Event",
-            "description": "Event information for Asset Tracking",
+            "name": "AssetTrackingEvent",
+            "description": "Asset Tracking Event",
             "uuid": "00000030-0002-11e1-ac36-0002a5d5c51b",
             "dtmi_name": null,
             "format_notify": null
@@ -32893,7 +33401,7 @@
             }
         }
     ],
-    "date": "2025-09-19 11:10:56.397958",
+    "date": "2025-09-22 15:58:56.826715",
     "version": "0.10.0",
-    "checksum": "7e9974b5af27eb4188287dae953d3d03"
+    "checksum": "a881613be493018fc3512caecf6b90c2"
 }
