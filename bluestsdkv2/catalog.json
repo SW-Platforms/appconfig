@@ -26988,7 +26988,7 @@
               "value": 0
             },
             {
-              "display_name": "This expansion board is not supported by the firmware",
+              "display_name": "NOT SUPPORTED",
               "value": 255
             }
           ],
@@ -27539,7 +27539,7 @@
               "value": 0
             },
             {
-              "display_name": "This expansion board is not supported by the firmware",
+              "display_name": "NOT SUPPORTED",
               "value": 255
             }
           ],
@@ -28584,7 +28584,7 @@
               "value": 0
             },
             {
-              "display_name": "This expansion board is not supported by the firmware",
+              "display_name": "NOT SUPPORTED",
               "value": 255
             }
           ],
@@ -29456,7 +29456,7 @@
               "value": 0
             },
             {
-              "display_name": "This expansion board is not supported by the firmware",
+              "display_name": "NOT SUPPORTED",
               "value": 255
             }
           ],
