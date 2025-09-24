@@ -26624,7 +26624,7 @@
             "fw_version": "5.0.0",
             "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
             "changelog": "Removed MetaDataManager middleware",
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "none",
@@ -26889,7 +26889,7 @@
                 "bootloader_type": "none",
                 "max_chunk_length": 220,
                 "max_divisor_constraint": 0,
-                "fw_url": null,
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-u575zi-q/FP-SNS-MOTENV1_5_1_0.bin",
                 "partial_fota": 0
             },
             "cloud_apps": [],
@@ -27390,7 +27390,7 @@
             "fw_version": "5.0.0",
             "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
             "changelog": "Removed MetaDataManager middleware",
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {},
             "cloud_apps": [],
             "characteristics": [
@@ -28220,7 +28220,7 @@
             "fw_version": "5.0.0",
             "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
             "changelog": "Removed MetaDataManager middleware",
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "custom",
@@ -28485,7 +28485,7 @@
                 "bootloader_type": "custom",
                 "max_chunk_length": 220,
                 "max_divisor_constraint": 0,
-                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-stm32l476rg/FP-SNS-MOTENV1_iks4a1_5_1_0.bin",
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-stm32l476rg/FP-SNS-MOTENV1_5_1_0.bin.bin",
                 "partial_fota": 0
             },
             "cloud_apps": [],
@@ -29092,7 +29092,7 @@
             "fw_version": "5.0.0",
             "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
             "changelog": "Removed MetaDataManager middleware",
-            "maturity": "draft",
+            "maturity": "release",
             "fota": {
                 "type": "fast",
                 "bootloader_type": "custom",
@@ -29357,7 +29357,7 @@
                 "bootloader_type": "custom",
                 "max_chunk_length": 220,
                 "max_divisor_constraint": 0,
-                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-stm32f401re/FP-SNS-MOTENV1_iks4a1_5_1_0.bin",
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-stm32f401re/FP-SNS-MOTENV1_5_1_0.bin.bin",
                 "partial_fota": 0
             },
             "cloud_apps": [],
@@ -33125,7 +33125,7 @@
             }
         }
     ],
-    "date": "2025-09-24 12:35:50.524686",
+    "date": "2025-09-24 13:04:32.333506",
     "version": "0.10.0",
-    "checksum": "827f56ddf2dba346188e0800d6d1b6e3"
+    "checksum": "41fba7287459d48a11f38c47cd848200"
 }
