@@ -26718,7 +26718,7 @@
       "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "5.0.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -27437,7 +27437,7 @@
       "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "5.0.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -28314,7 +28314,7 @@
       "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "5.0.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
@@ -29186,7 +29186,7 @@
       "fw_desc": "Example on how to send Sensors values and Motion Libraries output to ST BLE Sensor Application ",
       "fw_name": "FP-SNS-MOTENV1",
       "fw_version": "5.0.0",
-      "maturity": "draft",
+      "maturity": "release",
       "option_bytes": [
         {
           "format": "enum_string",
