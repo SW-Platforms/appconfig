@@ -33781,6 +33781,7 @@
       }
     }
   ],
+  "stable_release" : false,
   "checksum": "827f56ddf2dba346188e0800d6d1b6e3",
   "date": "2025-09-24 12:35:50.524686",
   "version": "0.10.0"
