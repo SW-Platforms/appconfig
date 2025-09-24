@@ -162,22 +162,6 @@
               },
               "enumValue": 8,
               "name": "hz1920"
-            },
-            {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:VDATALOG_LSM6DSV16X:sensors:lsm6dsv16x_acc:odr:schema:hz3840;1",
-              "displayName": {
-                "en": "3840"
-              },
-              "enumValue": 9,
-              "name": "hz3840"
-            },
-            {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:VDATALOG_LSM6DSV16X:sensors:lsm6dsv16x_acc:odr:schema:hz7680;1",
-              "displayName": {
-                "en": "7680"
-              },
-              "enumValue": 10,
-              "name": "hz7680"
             }
           ],
           "valueSchema": "integer"
@@ -454,22 +438,6 @@
               },
               "enumValue": 8,
               "name": "hz1920"
-            },
-            {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:VDATALOG_LSM6DSV16X:sensors:lsm6dsv16x_gyro:odr:schema:hz3840;1",
-              "displayName": {
-                "en": "3840"
-              },
-              "enumValue": 9,
-              "name": "hz3840"
-            },
-            {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:VDATALOG_LSM6DSV16X:sensors:lsm6dsv16x_gyro:odr:schema:hz7680;1",
-              "displayName": {
-                "en": "7680"
-              },
-              "enumValue": 10,
-              "name": "hz7680"
             }
           ],
           "valueSchema": "integer"
