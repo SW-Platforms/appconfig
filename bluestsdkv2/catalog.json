@@ -10682,6 +10682,59 @@
     },
     {
       "ble_dev_id": "0x0D",
+      "ble_fw_id": "0x25",
+      "option_bytes": [
+        {
+          "name": "Running on:",
+          "format": "enum_string",
+          "string_values": [
+            {
+              "value": 1,
+              "display_name": "Bank 1"
+            },
+            {
+              "value": 2,
+              "display_name": "Bank 2"
+            }
+          ]
+        }
+      ],
+      "brd_name": "STEVAL-MKBOXPRO",
+      "fw_name": "AI-SSM",
+      "fw_version": "1.0.0",
+      "fw_desc": "AI Smart Sensor Monitoring with BLE support",
+      "changelog": "",
+      "dtmi": "dtmi:appconfig:steval_mkboxpro:AI_SSM;1",
+      "maturity": "draft",
+      "fota": {
+        "bootloader_type": "none",
+        "fw_url": null,
+        "max_chunk_length": 0,
+        "max_divisor_constraint": 0,
+        "partial_fota": 0,
+        "type": "fast"
+      },
+      "cloud_apps": [],
+      "characteristics": [
+        {
+          "name": "Debug console",
+          "uuid": "00000000-000E-11e1-9ab4-0002a5d5c51b",
+          "max_write_length": 244
+        },
+        {
+          "name": "Ext Configuration",
+          "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b",
+          "max_write_length": 20
+        },
+        {
+          "name": "PnPLike",
+          "uuid": "0000001b-0002-11e1-ac36-0002a5d5c51b",
+          "max_write_length": 20
+        }
+      ]
+    },
+    {
+      "ble_dev_id": "0x0D",
       "ble_fw_id": "0x2F",
       "brd_name": "STEVAL-MKBOXPRO",
       "changelog": "Add Support to ST25KC, Drivers and HAL update",
@@ -33781,7 +33834,7 @@
       }
     }
   ],
-  "stable_release" : false,
+  "stable_release": false,
   "checksum": "827f56ddf2dba346188e0800d6d1b6e3",
   "date": "2025-09-24 12:35:50.524686",
   "version": "0.10.0"
