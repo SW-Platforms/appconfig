@@ -1,55 +1,55 @@
 [
   {
-    "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM;1",
+    "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM;1",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:lsm6dsv16x_acc;1",
+        "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:lsm6dsv16x_acc;1",
         "@type": "Component",
         "displayName": {
           "en": "LSM6DSV16X_ACC"
         },
         "name": "lsm6dsv16x_acc",
-        "schema": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_acc;1"
+        "schema": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_acc;1"
       },
       {
-        "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:lsm6dsv16x_gyro;1",
+        "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:lsm6dsv16x_gyro;1",
         "@type": "Component",
         "displayName": {
           "en": "LSM6DSV16X_GYRO"
         },
         "name": "lsm6dsv16x_gyro",
-        "schema": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_gyro;1"
+        "schema": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_gyro;1"
       },
       {
-        "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:lsm6dsv16x_mlc;1",
+        "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:lsm6dsv16x_mlc;1",
         "@type": "Component",
         "displayName": {
           "en": "LSM6DSV16X_MLC"
         },
         "name": "lsm6dsv16x_mlc",
-        "schema": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_mlc;1"
+        "schema": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_mlc;1"
       },
       {
-        "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:ism330is_ispu;1",
+        "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:ism330is_ispu;1",
         "@type": "Component",
         "displayName": {
           "en": "ISM330IS_ISPU"
         },
         "name": "ism330is_ispu",
-        "schema": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:ism330is_ispu;1"
+        "schema": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:ism330is_ispu;1"
       },
       {
-        "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:controller;1",
+        "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:controller;1",
         "@type": "Component",
         "displayName": {
           "en": "Controller"
         },
         "name": "controller",
-        "schema": "dtmi:appconfig:steval_mkboxpro:AI_SSM:applications:controller;1"
+        "schema": "dtmi:appconfig:steval_mkboxproc:AI_SSM:applications:controller;1"
       },
       {
-        "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:device_information;1",
+        "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:device_information;1",
         "@type": "Component",
         "displayName": {
           "en": "Device Information"
@@ -58,7 +58,7 @@
         "schema": "dtmi:azure:DeviceManagement:DeviceInformation;1"
       },
       {
-        "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:firmware_information;1",
+        "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:firmware_information;1",
         "@type": "Component",
         "displayName": {
           "en": "Firmware Information"
@@ -80,11 +80,11 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_acc;1",
+    "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_acc;1",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_acc:odr;1",
+        "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_acc:odr;1",
         "@type": [
           "Property",
           "Initialized"
@@ -94,14 +94,14 @@
         },
         "name": "odr",
         "schema": {
-          "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_acc:odr:schema;1",
+          "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_acc:odr:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_acc:odr:schema:hz7_5;1",
+              "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_acc:odr:schema:hz7_5;1",
               "displayName": {
                 "en": "7.5"
               },
@@ -109,7 +109,7 @@
               "name": "hz7_5"
             },
             {
-              "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_acc:odr:schema:hz15;1",
+              "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_acc:odr:schema:hz15;1",
               "displayName": {
                 "en": "15"
               },
@@ -117,7 +117,7 @@
               "name": "hz15"
             },
             {
-              "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_acc:odr:schema:hz30;1",
+              "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_acc:odr:schema:hz30;1",
               "displayName": {
                 "en": "30"
               },
@@ -125,7 +125,7 @@
               "name": "hz30"
             },
             {
-              "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_acc:odr:schema:hz60;1",
+              "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_acc:odr:schema:hz60;1",
               "displayName": {
                 "en": "60"
               },
@@ -133,7 +133,7 @@
               "name": "hz60"
             },
             {
-              "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_acc:odr:schema:hz120;1",
+              "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_acc:odr:schema:hz120;1",
               "displayName": {
                 "en": "120"
               },
@@ -141,7 +141,7 @@
               "name": "hz120"
             },
             {
-              "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_acc:odr:schema:hz240;1",
+              "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_acc:odr:schema:hz240;1",
               "displayName": {
                 "en": "240"
               },
@@ -149,7 +149,7 @@
               "name": "hz240"
             },
             {
-              "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_acc:odr:schema:hz480;1",
+              "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_acc:odr:schema:hz480;1",
               "displayName": {
                 "en": "480"
               },
@@ -157,7 +157,7 @@
               "name": "hz480"
             },
             {
-              "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_acc:odr:schema:hz960;1",
+              "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_acc:odr:schema:hz960;1",
               "displayName": {
                 "en": "960"
               },
@@ -165,7 +165,7 @@
               "name": "hz960"
             },
             {
-              "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_acc:odr:schema:hz1920;1",
+              "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_acc:odr:schema:hz1920;1",
               "displayName": {
                 "en": "1920"
               },
@@ -173,7 +173,7 @@
               "name": "hz1920"
             },
             {
-              "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_acc:odr:schema:hz3840;1",
+              "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_acc:odr:schema:hz3840;1",
               "displayName": {
                 "en": "3840"
               },
@@ -181,7 +181,7 @@
               "name": "hz3840"
             },
             {
-              "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_acc:odr:schema:hz7680;1",
+              "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_acc:odr:schema:hz7680;1",
               "displayName": {
                 "en": "7680"
               },
@@ -199,7 +199,7 @@
         "initialValue": 10
       },
       {
-        "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_acc:fs;1",
+        "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_acc:fs;1",
         "@type": [
           "Property",
           "Initialized"
@@ -209,14 +209,14 @@
         },
         "name": "fs",
         "schema": {
-          "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_acc:fs:schema;1",
+          "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_acc:fs:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_acc:fs:schema:g2;1",
+              "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_acc:fs:schema:g2;1",
               "displayName": {
                 "en": "2"
               },
@@ -224,7 +224,7 @@
               "name": "g2"
             },
             {
-              "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_acc:fs:schema:g4;1",
+              "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_acc:fs:schema:g4;1",
               "displayName": {
                 "en": "4"
               },
@@ -232,7 +232,7 @@
               "name": "g4"
             },
             {
-              "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_acc:fs:schema:g8;1",
+              "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_acc:fs:schema:g8;1",
               "displayName": {
                 "en": "8"
               },
@@ -240,7 +240,7 @@
               "name": "g8"
             },
             {
-              "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_acc:fs:schema:g16;1",
+              "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_acc:fs:schema:g16;1",
               "displayName": {
                 "en": "16"
               },
@@ -267,11 +267,11 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_gyro;1",
+    "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_gyro;1",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_gyro:odr;1",
+        "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_gyro:odr;1",
         "@type": [
           "Property",
           "Initialized"
@@ -281,14 +281,14 @@
         },
         "name": "odr",
         "schema": {
-          "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_gyro:odr:schema;1",
+          "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_gyro:odr:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_gyro:odr:schema:hz7_5;1",
+              "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_gyro:odr:schema:hz7_5;1",
               "displayName": {
                 "en": "7.5"
               },
@@ -296,7 +296,7 @@
               "name": "hz7_5"
             },
             {
-              "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_gyro:odr:schema:hz15;1",
+              "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_gyro:odr:schema:hz15;1",
               "displayName": {
                 "en": "15"
               },
@@ -304,7 +304,7 @@
               "name": "hz15"
             },
             {
-              "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_gyro:odr:schema:hz30;1",
+              "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_gyro:odr:schema:hz30;1",
               "displayName": {
                 "en": "30"
               },
@@ -312,7 +312,7 @@
               "name": "hz30"
             },
             {
-              "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_gyro:odr:schema:hz60;1",
+              "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_gyro:odr:schema:hz60;1",
               "displayName": {
                 "en": "60"
               },
@@ -320,7 +320,7 @@
               "name": "hz60"
             },
             {
-              "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_gyro:odr:schema:hz120;1",
+              "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_gyro:odr:schema:hz120;1",
               "displayName": {
                 "en": "120"
               },
@@ -328,7 +328,7 @@
               "name": "hz120"
             },
             {
-              "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_gyro:odr:schema:hz240;1",
+              "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_gyro:odr:schema:hz240;1",
               "displayName": {
                 "en": "240"
               },
@@ -336,7 +336,7 @@
               "name": "hz240"
             },
             {
-              "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_gyro:odr:schema:hz480;1",
+              "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_gyro:odr:schema:hz480;1",
               "displayName": {
                 "en": "480"
               },
@@ -344,7 +344,7 @@
               "name": "hz480"
             },
             {
-              "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_gyro:odr:schema:hz960;1",
+              "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_gyro:odr:schema:hz960;1",
               "displayName": {
                 "en": "960"
               },
@@ -352,7 +352,7 @@
               "name": "hz960"
             },
             {
-              "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_gyro:odr:schema:hz1920;1",
+              "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_gyro:odr:schema:hz1920;1",
               "displayName": {
                 "en": "1920"
               },
@@ -360,7 +360,7 @@
               "name": "hz1920"
             },
             {
-              "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_gyro:odr:schema:hz3840;1",
+              "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_gyro:odr:schema:hz3840;1",
               "displayName": {
                 "en": "3840"
               },
@@ -368,7 +368,7 @@
               "name": "hz3840"
             },
             {
-              "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_gyro:odr:schema:hz7680;1",
+              "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_gyro:odr:schema:hz7680;1",
               "displayName": {
                 "en": "7680"
               },
@@ -386,7 +386,7 @@
         "initialValue": 10
       },
       {
-        "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_gyro:fs;1",
+        "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_gyro:fs;1",
         "@type": [
           "Property",
           "Initialized"
@@ -396,14 +396,14 @@
         },
         "name": "fs",
         "schema": {
-          "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_gyro:fs:schema;1",
+          "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_gyro:fs:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_gyro:fs:schema:dps125;1",
+              "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_gyro:fs:schema:dps125;1",
               "displayName": {
                 "en": "125"
               },
@@ -411,7 +411,7 @@
               "name": "dps125"
             },
             {
-              "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_gyro:fs:schema:dps250;1",
+              "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_gyro:fs:schema:dps250;1",
               "displayName": {
                 "en": "250"
               },
@@ -419,7 +419,7 @@
               "name": "dps250"
             },
             {
-              "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_gyro:fs:schema:dps500;1",
+              "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_gyro:fs:schema:dps500;1",
               "displayName": {
                 "en": "500"
               },
@@ -427,7 +427,7 @@
               "name": "dps500"
             },
             {
-              "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_gyro:fs:schema:dps1000;1",
+              "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_gyro:fs:schema:dps1000;1",
               "displayName": {
                 "en": "1000"
               },
@@ -435,7 +435,7 @@
               "name": "dps1000"
             },
             {
-              "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_gyro:fs:schema:dps2000;1",
+              "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_gyro:fs:schema:dps2000;1",
               "displayName": {
                 "en": "2000"
               },
@@ -443,7 +443,7 @@
               "name": "dps2000"
             },
             {
-              "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_gyro:fs:schema:dps4000;1",
+              "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_gyro:fs:schema:dps4000;1",
               "displayName": {
                 "en": "4000"
               },
@@ -470,11 +470,11 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_mlc;1",
+    "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_mlc;1",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_mlc:enable;1",
+        "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_mlc:enable;1",
         "@type": [
           "Property",
           "BooleanValue"
@@ -487,7 +487,7 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_mlc:model_filename;1",
+        "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_mlc:model_filename;1",
         "@type": [
           "Property",
           "StringValue"
@@ -500,7 +500,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:lsm6dsv16x_mlc:load_model;1",
+        "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:lsm6dsv16x_mlc:load_model;1",
         "@type": "Command",
         "commandType": "synchronous",
         "displayName": {
@@ -554,11 +554,11 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:ism330is_ispu;1",
+    "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:ism330is_ispu;1",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:ism330is_ispu:enable;1",
+        "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:ism330is_ispu:enable;1",
         "@type": [
           "Property",
           "BooleanValue"
@@ -571,7 +571,7 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:ism330is_ispu:mounted;1",
+        "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:ism330is_ispu:mounted;1",
         "@type": [
           "Property",
           "BooleanValue"
@@ -584,7 +584,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:ism330is_ispu:model_filename;1",
+        "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:ism330is_ispu:model_filename;1",
         "@type": [
           "Property",
           "StringValue"
@@ -597,7 +597,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:sensors:ism330is_ispu:load_model;1",
+        "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:sensors:ism330is_ispu:load_model;1",
         "@type": "Command",
         "commandType": "synchronous",
         "displayName": {
@@ -651,11 +651,11 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:applications:controller;1",
+    "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:applications:controller;1",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:applications:controller:set_dfu_mode;1",
+        "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:applications:controller:set_dfu_mode;1",
         "@type": "Command",
         "commandType": "synchronous",
         "displayName": {
@@ -664,7 +664,7 @@
         "name": "set_dfu_mode"
       },
       {
-        "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:applications:controller:switch_bank;1",
+        "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:applications:controller:switch_bank;1",
         "@type": "Command",
         "commandType": "synchronous",
         "displayName": {
@@ -673,7 +673,7 @@
         "name": "switch_bank"
       },
       {
-        "@id": "dtmi:appconfig:steval_mkboxpro:AI_SSM:applications:controller:set_name;1",
+        "@id": "dtmi:appconfig:steval_mkboxproc:AI_SSM:applications:controller:set_name;1",
         "@type": "Command",
         "commandType": "synchronous",
         "displayName": {

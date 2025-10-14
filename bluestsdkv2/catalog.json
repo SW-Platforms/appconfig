@@ -10708,7 +10708,7 @@
       "maturity": "draft",
       "fota": {
         "bootloader_type": "none",
-        "fw_url": null,
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/AI-SSM_1_0_0.bin",
         "max_chunk_length": 0,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -26653,6 +26653,59 @@
       ]
     },
     {
+      "ble_dev_id": "0x13",
+      "ble_fw_id": "0x07",
+      "brd_name": "STEVAL-MKBOXPRO",
+      "changelog": "",
+      "characteristics": [
+        {
+          "name": "Debug console",
+          "uuid": "00000000-000E-11e1-9ab4-0002a5d5c51b",
+          "max_write_length": 244
+        },
+        {
+          "name": "Ext Configuration",
+          "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b",
+          "max_write_length": 20
+        },
+        {
+          "name": "PnPLike",
+          "uuid": "0000001b-0002-11e1-ac36-0002a5d5c51b",
+          "max_write_length": 20
+        }
+      ],
+      "cloud_apps": [],
+      "dtmi": "dtmi:appconfig:steval_mkboxproc:AI_SSM;1",
+      "fota": {
+        "bootloader_type": "none",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxproc/AI-SSM_1_0_0.bin",
+        "max_chunk_length": 0,
+        "max_divisor_constraint": 0,
+        "partial_fota": 0,
+        "type": "fast"
+      },
+      "fw_desc": "AI Smart Sensor Monitoring with BLE support",
+      "fw_name": "AI-SSM",
+      "fw_version": "1.0.0",
+      "maturity": "draft",
+      "option_bytes": [
+        {
+          "name": "Running on:",
+          "format": "enum_string",
+          "string_values": [
+            {
+              "value": 1,
+              "display_name": "Bank 1"
+            },
+            {
+              "value": 2,
+              "display_name": "Bank 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "ble_dev_id": "0x7B",
       "ble_fw_id": "0x01",
       "brd_name": "NUCLEO-U575ZI-Q",
@@ -27021,7 +27074,7 @@
       "cloud_apps": [],
       "fota": {
         "bootloader_type": "none",
-        "fw_url": null,
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-u575zi-q/FP-SNS-MOTENV1_5_1_0.bin",
         "max_chunk_length": 220,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -28617,7 +28670,7 @@
       "cloud_apps": [],
       "fota": {
         "bootloader_type": "custom",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-stm32l476rg/FP-SNS-MOTENV1_iks4a1_5_1_0.bin",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-stm32l476rg/FP-SNS-MOTENV1_5_1_0.bin",
         "max_chunk_length": 220,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -29489,7 +29542,7 @@
       "cloud_apps": [],
       "fota": {
         "bootloader_type": "custom",
-        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-stm32f401re/FP-SNS-MOTENV1_iks4a1_5_1_0.bin",
+        "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-stm32f401re/FP-SNS-MOTENV1_5_1_0.bin",
         "max_chunk_length": 220,
         "max_divisor_constraint": 0,
         "partial_fota": 0,
@@ -29586,6 +29639,7 @@
       "nfc_dev_id": null,
       "usb_dev_id": null,
       "video_url": null,
+      "wiki_url": null,
       "order_url": null,
       "unique_dev_id": 4,
       "status": "NRND",
@@ -29603,6 +29657,7 @@
       "nfc_dev_id": null,
       "usb_dev_id": null,
       "video_url": "https://www.youtube.com/watch?v=C9cuRzYCiAs",
+      "wiki_url": null,
       "order_url": "https://estore.st.com/en/steval-stlkt01v1-cpn.html",
       "unique_dev_id": 5,
       "status": "ACTIVE",
@@ -29620,6 +29675,7 @@
       "nfc_dev_id": null,
       "usb_dev_id": null,
       "video_url": "https://www.youtube.com/watch?v=JJOvbyOZarg",
+      "wiki_url": null,
       "order_url": "https://estore.st.com/en/steval-bcnkt01v1-cpn.html",
       "unique_dev_id": 6,
       "status": "ACTIVE",
@@ -29637,6 +29693,7 @@
       "nfc_dev_id": null,
       "usb_dev_id": "0x01",
       "video_url": "https://www.youtube.com/watch?v=jJZNMsNRG1U",
+      "wiki_url": null,
       "order_url": "https://estore.st.com/en/steval-mksbox1v1-cpn.html",
       "unique_dev_id": 7,
       "status": "ACTIVE",
@@ -29654,6 +29711,7 @@
       "nfc_dev_id": null,
       "usb_dev_id": null,
       "video_url": "https://www.youtube.com/watch?v=J3M0_9EdOqU",
+      "wiki_url": null,
       "order_url": null,
       "unique_dev_id": 8,
       "status": "NRND",
@@ -29671,6 +29729,7 @@
       "nfc_dev_id": null,
       "usb_dev_id": "0x09",
       "video_url": "https://www.youtube.com/watch?v=J3M0_9EdOqU",
+      "wiki_url": null,
       "order_url": "https://estore.st.com/en/steval-stwinkt1b-cpn.html",
       "unique_dev_id": 1,
       "status": "ACTIVE",
@@ -29759,6 +29818,7 @@
       "nfc_dev_id": "0x02",
       "usb_dev_id": "0x0C",
       "video_url": "https://www.youtube.com/watch?v=ZUi4LOi2gic",
+      "wiki_url": null,
       "order_url": "https://estore.st.com/en/steval-astra1b-cpn.html",
       "unique_dev_id": 10,
       "status": "ACTIVE",
@@ -29776,6 +29836,7 @@
       "nfc_dev_id": "0x03",
       "usb_dev_id": "0x0D",
       "video_url": "https://www.youtube.com/watch?v=F4c9V1791Vw",
+      "wiki_url": null,
       "order_url": "https://www.st.com/en/evaluation-tools/steval-mkboxpro.html#sample-buy",
       "unique_dev_id": 3,
       "status": "ACTIVE",
@@ -29871,6 +29932,7 @@
       "nfc_dev_id": null,
       "usb_dev_id": "0x0E",
       "video_url": "https://www.youtube.com/watch?v=GGRZAxo2P88",
+      "wiki_url": null,
       "order_url": "https://estore.st.com/en/steval-stwinbx1-cpn.html",
       "unique_dev_id": 2,
       "status": "ACTIVE",
@@ -29959,6 +30021,7 @@
       "nfc_dev_id": null,
       "usb_dev_id": "0x02",
       "video_url": "https://www.youtube.com/watch?v=FKKic867pRM",
+      "wiki_url": null,
       "order_url": "https://estore.st.com/en/steval-proteus1-cpn.html",
       "unique_dev_id": 13,
       "status": "ACTIVE",
@@ -29976,6 +30039,7 @@
       "nfc_dev_id": null,
       "usb_dev_id": null,
       "video_url": null,
+      "wiki_url": null,
       "order_url": null,
       "unique_dev_id": 14,
       "status": "ACTIVE",
@@ -29993,6 +30057,7 @@
       "nfc_dev_id": null,
       "usb_dev_id": "0x11",
       "video_url": "https://www.youtube.com/watch?v=F4c9V1791Vw",
+      "wiki_url": null,
       "order_url": "https://www.st.com/en/evaluation-tools/steval-mkboxpro.html#sample-buy",
       "unique_dev_id": 15,
       "status": "ACTIVE",
@@ -30010,6 +30075,7 @@
       "nfc_dev_id": null,
       "usb_dev_id": "0x12",
       "video_url": "https://www.youtube.com/watch?v=GGRZAxo2P88",
+      "wiki_url": null,
       "order_url": "https://www.st.com/en/evaluation-tools/steval-stwinbx1.html#sample-buy",
       "unique_dev_id": 16,
       "status": "ACTIVE",
@@ -30027,6 +30093,7 @@
       "nfc_dev_id": null,
       "usb_dev_id": "0x13",
       "video_url": "https://www.youtube.com/watch?v=F4c9V1791Vw",
+      "wiki_url": null,
       "order_url": "https://www.st.com/en/evaluation-tools/steval-mkboxpro.html#sample-buy",
       "unique_dev_id": 42,
       "status": "ACTIVE",
@@ -30044,6 +30111,7 @@
       "nfc_dev_id": null,
       "usb_dev_id": null,
       "video_url": "https://www.youtube.com/watch?v=m94CCYyX5DM",
+      "wiki_url": null,
       "order_url": "https://estore.st.com/en/nucleo-u5a5zj-q-cpn.html",
       "unique_dev_id": 33,
       "status": "ACTIVE",
@@ -30061,6 +30129,7 @@
       "nfc_dev_id": null,
       "usb_dev_id": "0x10",
       "video_url": "https://www.youtube.com/watch?v=m94CCYyX5DM",
+      "wiki_url": null,
       "order_url": "https://estore.st.com/en/nucleo-u575zi-q-cpn.html",
       "unique_dev_id": 32,
       "status": "ACTIVE",
@@ -30078,6 +30147,7 @@
       "nfc_dev_id": null,
       "usb_dev_id": null,
       "video_url": "https://www.youtube.com/watch?v=m94CCYyX5DM",
+      "wiki_url": null,
       "order_url": "https://www.st.com/en/evaluation-tools/nucleo-f446re.html#sample-buy",
       "unique_dev_id": 17,
       "status": "ACTIVE",
@@ -30095,6 +30165,7 @@
       "nfc_dev_id": null,
       "usb_dev_id": null,
       "video_url": "https://www.youtube.com/watch?v=m94CCYyX5DM",
+      "wiki_url": null,
       "order_url": "https://estore.st.com/en/nucleo-l053r8-cpn.html",
       "unique_dev_id": 18,
       "status": "ACTIVE",
@@ -30112,6 +30183,7 @@
       "nfc_dev_id": null,
       "usb_dev_id": "0x7E",
       "video_url": "https://www.youtube.com/watch?v=m94CCYyX5DM",
+      "wiki_url": null,
       "order_url": "https://estore.st.com/en/nucleo-l476rg-cpn.html",
       "unique_dev_id": 19,
       "status": "ACTIVE",
@@ -30129,6 +30201,7 @@
       "nfc_dev_id": null,
       "usb_dev_id": "0x7F",
       "video_url": "https://www.youtube.com/watch?v=m94CCYyX5DM",
+      "wiki_url": null,
       "order_url": "https://estore.st.com/en/nucleo-f401re-cpn.html",
       "unique_dev_id": 20,
       "status": "ACTIVE",
@@ -30146,6 +30219,7 @@
       "nfc_dev_id": null,
       "usb_dev_id": null,
       "video_url": "https://www.youtube.com/watch?v=2RmIAYp0obw",
+      "wiki_url": null,
       "order_url": "https://estore.st.com/en/p-nucleo-wb55-cpn.html",
       "unique_dev_id": 22,
       "status": "ACTIVE",
@@ -30163,6 +30237,7 @@
       "nfc_dev_id": null,
       "usb_dev_id": null,
       "video_url": "https://www.youtube.com/watch?v=2RmIAYp0obw",
+      "wiki_url": null,
       "order_url": "https://estore.st.com/en/stm32wb5mm-dk-cpn.html",
       "unique_dev_id": 23,
       "status": "ACTIVE",
@@ -30180,6 +30255,7 @@
       "nfc_dev_id": null,
       "usb_dev_id": null,
       "video_url": "https://www.youtube.com/watch?v=2RmIAYp0obw",
+      "wiki_url": null,
       "order_url": "https://estore.st.com/en/p-nucleo-wb55-cpn.html",
       "unique_dev_id": 24,
       "status": "ACTIVE",
@@ -30197,6 +30273,7 @@
       "nfc_dev_id": null,
       "usb_dev_id": null,
       "video_url": "https://www.youtube.com/watch?v=2RmIAYp0obw",
+      "wiki_url": null,
       "order_url": "https://estore.st.com/en/nucleo-wb15cc-cpn.html",
       "unique_dev_id": 25,
       "status": "ACTIVE",
@@ -30268,6 +30345,7 @@
       "nfc_dev_id": null,
       "usb_dev_id": null,
       "video_url": null,
+      "wiki_url": null,
       "order_url": null,
       "unique_dev_id": 37,
       "status": "ACTIVE",
@@ -30285,6 +30363,7 @@
       "nfc_dev_id": null,
       "usb_dev_id": null,
       "video_url": null,
+      "wiki_url": null,
       "order_url": null,
       "unique_dev_id": 38,
       "status": "ACTIVE",
@@ -30302,6 +30381,7 @@
       "nfc_dev_id": null,
       "usb_dev_id": null,
       "video_url": null,
+      "wiki_url": null,
       "order_url": null,
       "unique_dev_id": 39,
       "status": "ACTIVE",
@@ -30319,6 +30399,7 @@
       "nfc_dev_id": null,
       "usb_dev_id": null,
       "video_url": "https://www.youtube.com/watch?v=cKpc2Byyq20",
+      "wiki_url": null,
       "order_url": null,
       "unique_dev_id": 43,
       "status": "ACTIVE",
@@ -30336,6 +30417,7 @@
       "nfc_dev_id": null,
       "usb_dev_id": null,
       "video_url": "https://www.youtube.com/watch?v=cKpc2Byyq20",
+      "wiki_url": null,
       "order_url": "https://estore.st.com/en/b-wba5m-wpan-cpn.html",
       "unique_dev_id": 44,
       "status": "ACTIVE",
@@ -30389,6 +30471,7 @@
       "nfc_dev_id": null,
       "usb_dev_id": null,
       "video_url": null,
+      "wiki_url": null,
       "order_url": "https://estore.st.com/en/steval-robkit1-cpn.html",
       "unique_dev_id": 40,
       "status": "ACTIVE",
@@ -33834,8 +33917,8 @@
       }
     }
   ],
+  "date": "2025-10-14 05:44:57.515192",
+  "version": "0.10.0",
   "stable_release": false,
-  "checksum": "827f56ddf2dba346188e0800d6d1b6e3",
-  "date": "2025-09-24 12:35:50.524686",
-  "version": "0.10.0"
+  "checksum": "f3a2f5f7260f44cbc1b6e45014f6ed5b"
 }

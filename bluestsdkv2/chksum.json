@@ -1,5 +1,6 @@
 {
-  "checksum": "827f56ddf2dba346188e0800d6d1b6e3",
-  "date": "2025-09-24 12:35:50.524686",
-  "version": "0.10.0"
+    "date": "2025-10-14 05:44:43.228895",
+    "version": "0.10.0",
+    "stable_release": false,
+    "checksum": "f3a2f5f7260f44cbc1b6e45014f6ed5b"
 }
