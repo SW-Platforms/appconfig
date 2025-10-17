@@ -10714,6 +10714,11 @@
         "partial_fota": 0,
         "type": "fast"
       },
+      "demo_decorator": {
+        "add": ["ST AIoT Craft"],
+        "remove": [],
+        "rename": []
+      },
       "cloud_apps": [],
       "characteristics": [
         {
@@ -26684,6 +26689,11 @@
         "partial_fota": 0,
         "type": "fast"
       },
+      "demo_decorator": {
+        "add": ["ST AIoT Craft"],
+        "remove": [],
+        "rename": []
+      },
       "fw_desc": "AI Smart Sensor Monitoring with BLE support",
       "fw_name": "AI-SSM",
       "fw_version": "1.0.0",
@@ -29625,6 +29635,11 @@
       "fw_name": "STSW-ROBKIT1",
       "fw_version": "1.1.0",
       "maturity": "draft",
+      "demo_decorator": {
+        "add": ["ST Robotics"],
+        "remove": [],
+        "rename": []
+      },
       "option_bytes": []
     }
   ],
