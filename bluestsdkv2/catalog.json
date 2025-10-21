@@ -18239,9 +18239,9 @@
           "description": "PoC",
           "dtmi": "dtmi:stDefaultPnpApp:DEFAULTdraftv1;1",
           "dtmi_type": "iotc",
-          "name": "Proteus PoC",
+          "name": "Proteus development",
           "shareable_link": "https://apps.azureiotcentral.com/build/new/833f2c88-b5c5-402d-adfd-b81ed5dfed05",
-          "url": "https://proteus-poc2.azureiotcentral.com/devices"
+          "url": "https://proteus-poc2.azureiotcentral.com"
         }
       ],
       "fota": {
