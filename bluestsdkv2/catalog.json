@@ -30475,7 +30475,7 @@
             "usb_dev_id": null,
             "video_url": null,
             "order_url": null,
-            "wiki_url": "https://wiki.st.com/stm32mcu/wiki/Connectivity:Wifi_X-NUCLEO-67W61M",
+            "wiki_url": "https://wiki.st.com/stm32mcu/wiki/Connectivity:Introduction_to_Wi-Fi",
             "unique_dev_id": 46,
             "status": "ACTIVE",
             "description": "WiFi6/Bluetooth \u00ae LE/Thread ST67W611M1 module",
@@ -33287,8 +33287,8 @@
             }
         }
     ],
-    "date": "2025-10-21 13:50:04.297068",
+    "date": "2025-10-23 13:47:54.680051",
     "version": "0.10.0",
     "stable_release": false,
-    "checksum": "0957eee5ff796296cec631efd50d346c"
+    "checksum": "2cd3c2e41f601511666e6b7d66b95c53"
 }
