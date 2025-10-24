@@ -17173,8 +17173,8 @@
                     "name": "Proteus PoC",
                     "description": "PoC",
                     "url": "https://proteus-poc.azureiotcentral.com",
-                    "shareable_link": "https://apps.azureiotcentral.com/build/new/833f2c88-b5c5-402d-adfd-b81ed5dfed05",
-                    "dtmi": "dtmi:proteusPoc:PROTEUSdraftv254f;1",
+                    "shareable_link": "https://apps.azureiotcentral.com/build/new/5a26d322-f0e0-49ba-ba20-ba6701f608bf",
+                    "dtmi": "dtmi:stDefaultPnpApp:STSWProteus;1",
                     "dtmi_type": "iotc"
                 }
             ],
@@ -18241,8 +18241,8 @@
                     "name": "Proteus PoC",
                     "description": "PoC",
                     "url": "https://proteus-poc.azureiotcentral.com",
-                    "shareable_link": "https://apps.azureiotcentral.com/build/new/833f2c88-b5c5-402d-adfd-b81ed5dfed05",
-                    "dtmi": "dtmi:proteusPoc:PROTEUSdraftv254f;1",
+                    "shareable_link": "https://apps.azureiotcentral.com/build/new/5a26d322-f0e0-49ba-ba20-ba6701f608bf",
+                    "dtmi": "dtmi:stDefaultPnpApp:STSWProteus;1",
                     "dtmi_type": "iotc"
                 }
             ],
@@ -33287,8 +33287,8 @@
             }
         }
     ],
-    "date": "2025-10-23 13:47:54.680051",
+    "date": "2025-10-24 11:46:08.983399",
     "version": "0.10.0",
     "stable_release": false,
-    "checksum": "2cd3c2e41f601511666e6b7d66b95c53"
+    "checksum": "5eb9b371ead5f31701e83965f1d0d832"
 }
