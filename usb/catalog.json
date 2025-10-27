@@ -2019,7 +2019,7 @@
             "usb_fw_id": "0x07",
             "package_id": 338,
             "binary_id": 427,
-            "dtmi": "dtmi:appconfig:nucleo_u575zi_q:FP_IND_DATALOGMC_DatalogMC;3",
+            "dtmi": "dtmi:appconfig:nucleo_u575zi_q:FP_IND_DATALOGMC_DatalogMC;1",
             "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-IND-DATALOGMC_DatalogMC_2_1_0.bin",
             "fw_page_url": null
         },
@@ -2087,7 +2087,7 @@
             "usb_fw_id": "0x01",
             "package_id": 338,
             "binary_id": 431,
-            "dtmi": "dtmi:appconfig:nucleo_u545re_q:FP_IND_DATALOGMC_DatalogMC;3",
+            "dtmi": "dtmi:appconfig:nucleo_u545re_q:FP_IND_DATALOGMC_DatalogMC;1",
             "dwn_url": null,
             "fw_page_url": null
         },
@@ -2126,7 +2126,7 @@
             "fw_page_url": null
         }
     ],
-    "date": "2025-10-24 11:45:54.505979",
+    "date": "2025-10-27 09:24:25.122612",
     "version": "0.10.0",
-    "checksum": "b0087b47ca7407b1a46a3aebc4fd37ff"
+    "checksum": "94cd9f19c936d2e8096357fd2071d7d9"
 }
