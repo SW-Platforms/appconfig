@@ -2020,7 +2020,7 @@
             "package_id": 338,
             "binary_id": 427,
             "dtmi": "dtmi:appconfig:nucleo_u575zi_q:FP_IND_DATALOGMC_DatalogMC;1",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-IND-DATALOGMC_DatalogMC_2_1_0.bin",
+            "dwn_url": null,
             "fw_page_url": null
         },
         {
@@ -2126,7 +2126,7 @@
             "fw_page_url": null
         }
     ],
-    "date": "2025-10-27 09:24:25.122612",
+    "date": "2025-10-27 15:39:57.607530",
     "version": "0.10.0",
-    "checksum": "94cd9f19c936d2e8096357fd2071d7d9"
+    "checksum": "b0c47b44edc61b9d90a6dbe63a889d34"
 }
