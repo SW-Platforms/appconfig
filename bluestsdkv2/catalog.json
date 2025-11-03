@@ -10705,7 +10705,7 @@
       "fw_desc": "AI Smart Sensor Monitoring with BLE support",
       "changelog": "",
       "dtmi": "dtmi:appconfig:steval_mkboxpro:AI_SSM;1",
-      "maturity": "draft",
+      "maturity": "demo",
       "fota": {
         "bootloader_type": "none",
         "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/AI-SSM_1_0_0.bin",
@@ -26697,7 +26697,7 @@
       "fw_desc": "AI Smart Sensor Monitoring with BLE support",
       "fw_name": "AI-SSM",
       "fw_version": "1.0.0",
-      "maturity": "draft",
+      "maturity": "demo",
       "option_bytes": [
         {
           "name": "Running on:",
