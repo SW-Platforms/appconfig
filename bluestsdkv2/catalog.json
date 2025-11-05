@@ -29714,10 +29714,10 @@
             "nfc_dev_id": null,
             "usb_dev_id": "0x01",
             "video_url": "https://www.youtube.com/watch?v=jJZNMsNRG1U",
-            "order_url": "https://estore.st.com/en/steval-mksbox1v1-cpn.html",
+            "order_url": null,
             "wiki_url": null,
             "unique_dev_id": 7,
-            "status": "ACTIVE",
+            "status": "NRND",
             "description": "SensorTile.box wireless multi sensor development kit with user friendly app for IoT and wearable sensor applications",
             "documentation_url": "https://www.st.com/en/evaluation-tools/steval-mksbox1v1.html#documentation",
             "components": []
@@ -33287,8 +33287,8 @@
             }
         }
     ],
-    "date": "2025-11-03 14:06:17.116003",
+    "date": "2025-11-05 09:05:39.088273",
     "version": "0.10.0",
     "stable_release": false,
-    "checksum": "5eb9b371ead5f31701e83965f1d0d832"
+    "checksum": "430efa4cc4c871c590a17aba6998ae08"
 }

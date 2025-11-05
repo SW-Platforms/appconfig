@@ -506,7 +506,7 @@
             "usb_fw_id": "0x02",
             "package_id": 308,
             "binary_id": 241,
-            "dtmi": "dtmi:appconfig:nucleo_u575zi_q:x_nucleo_iks02a1:fpSnsDatalog2_datalog2;1",
+            "dtmi": "dtmi:appconfig:nucleo_u575zi_q:FP_SNS_DATALOG2_Datalog2;1",
             "dwn_url": null,
             "fw_page_url": null
         },
@@ -540,7 +540,7 @@
             "usb_fw_id": "0x02",
             "package_id": 308,
             "binary_id": 243,
-            "dtmi": "dtmi:appconfig:nucleo_h7a3zi_q:x_nucleo_iks02a1:fpSnsDatalog2_datalog2;1",
+            "dtmi": "dtmi:appconfig:nucleo_h7a3zi_q:FP_SNS_DATALOG2_Datalog2;1",
             "dwn_url": null,
             "fw_page_url": null
         },
@@ -2126,7 +2126,7 @@
             "fw_page_url": null
         }
     ],
-    "date": "2025-11-03 14:06:05.329916",
+    "date": "2025-11-05 09:05:27.109207",
     "version": "0.10.0",
-    "checksum": "b0c47b44edc61b9d90a6dbe63a889d34"
+    "checksum": "f56565806715505b47a41118af72fd07"
 }
