@@ -14,8 +14,7 @@
             "package_id": 331,
             "binary_id": 107,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2;4",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_Datalog2_2_0_1.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_Datalog2_2_0_1.bin"
         },
         {
             "protocol": "libusb",
@@ -31,8 +30,7 @@
             "package_id": 332,
             "binary_id": 108,
             "dtmi": "dtmi:appconfig:steval_stwinbx1b:FP_SNS_DATALOG2_Datalog2;4",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_Datalog2_2_0_1.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_Datalog2_2_0_1.bin"
         },
         {
             "protocol": "libusb",
@@ -48,8 +46,7 @@
             "package_id": 333,
             "binary_id": 109,
             "dtmi": "dtmi:appconfig:steval_mkboxpro:FP_SNS_DATALOG2_Datalog2;3",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-DATALOG2_Datalog2_2_0_1.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-DATALOG2_Datalog2_2_0_1.bin"
         },
         {
             "protocol": "libusb",
@@ -65,8 +62,7 @@
             "package_id": 334,
             "binary_id": 110,
             "dtmi": "dtmi:appconfig:steval_mkboxprob:FP_SNS_DATALOG2_Datalog2;3",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-DATALOG2_Datalog2_2_0_1.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-DATALOG2_Datalog2_2_0_1.bin"
         },
         {
             "protocol": "libusb",
@@ -82,8 +78,7 @@
             "package_id": 335,
             "binary_id": 111,
             "dtmi": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2;1",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinkt1b/FP-SNS-DATALOG2_Datalog2_2_0_1.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinkt1b/FP-SNS-DATALOG2_Datalog2_2_0_1.bin"
         },
         {
             "protocol": "libusb",
@@ -99,8 +94,7 @@
             "package_id": 336,
             "binary_id": 112,
             "dtmi": null,
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinkt1b/FP-SNS-DATALOG1_1_5_1.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinkt1b/FP-SNS-DATALOG1_1_5_1.bin"
         },
         {
             "protocol": "libusb",
@@ -116,8 +110,7 @@
             "package_id": 337,
             "binary_id": 113,
             "dtmi": null,
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mksbox1v1/FP-SNS-DATALOG1_1_5_1.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mksbox1v1/FP-SNS-DATALOG1_1_5_1.bin"
         },
         {
             "protocol": "libusb",
@@ -133,8 +126,7 @@
             "package_id": 338,
             "binary_id": 114,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_IND_DATALOGMC_DatalogMC;1",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-IND-DATALOGMC_DatalogMC_1_0_0.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-IND-DATALOGMC_DatalogMC_1_0_0.bin"
         },
         {
             "protocol": "libusb",
@@ -150,8 +142,7 @@
             "package_id": 339,
             "binary_id": 115,
             "dtmi": "dtmi:appconfig:steval_stwinbx1b:FP_IND_DATALOGMC_DatalogMC;1",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-IND-DATALOGMC_DatalogMC_1_0_0.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-IND-DATALOGMC_DatalogMC_1_0_0.bin"
         },
         {
             "protocol": "libusb",
@@ -167,8 +158,7 @@
             "package_id": 340,
             "binary_id": 116,
             "dtmi": "dtmi:appconfig:steval_stwinbx1b:FP_SNS_DATALOG2_PDetect;1",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1b/FP_SNS_DATALOG2_PDetect_2_1_0.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1b/FP-SNS-DATALOG2_PDetect_2_1_0.bin"
         },
         {
             "protocol": "libusb",
@@ -184,8 +174,7 @@
             "package_id": 341,
             "binary_id": 117,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_PDetect;1",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP_SNS_DATALOG2_PDetect_2_1_0.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_PDetect_2_1_0.bin"
         },
         {
             "protocol": "libusb",
@@ -201,8 +190,7 @@
             "package_id": 346,
             "binary_id": 122,
             "dtmi": "dtmi:appconfig:steval_proteus1:FP_SNS_DATAPRO1;1",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-proteus1/FP-SNS-DATAPRO1_1_0_0.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-proteus1/FP-SNS-DATAPRO1_1_0_0.bin"
         },
         {
             "protocol": "libusb",
@@ -218,8 +206,7 @@
             "package_id": 326,
             "binary_id": 124,
             "dtmi": "dtmi:appconfig:steval_mkboxpro:FP_SNS_DATALOG2_Datalog2;4",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-DATALOG2_Datalog2_2_0_1.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-DATALOG2_Datalog2_2_1_0.bin"
         },
         {
             "protocol": "libusb",
@@ -235,8 +222,7 @@
             "package_id": 326,
             "binary_id": 125,
             "dtmi": "dtmi:appconfig:steval_mkboxprob:FP_SNS_DATALOG2_Datalog2;4",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-DATALOG2_Datalog2_2_1_0.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-DATALOG2_Datalog2_2_1_0.bin"
         },
         {
             "protocol": "libusb",
@@ -252,8 +238,7 @@
             "package_id": 326,
             "binary_id": 126,
             "dtmi": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2;2",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinkt1b/FP-SNS-DATALOG2_Datalog2_2_1_0.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinkt1b/FP-SNS-DATALOG2_Datalog2_2_1_0.bin"
         },
         {
             "protocol": "libusb",
@@ -269,8 +254,7 @@
             "package_id": 350,
             "binary_id": 133,
             "dtmi": "dtmi:appconfig:steval_proteus1:FP_SNS_DATAPRO1;2",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-proteus1/FP-SNS-DATAPRO1_1_1_0.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-proteus1/FP-SNS-DATAPRO1_1_1_0.bin"
         },
         {
             "protocol": "libusb",
@@ -286,8 +270,7 @@
             "package_id": 290,
             "binary_id": 206,
             "dtmi": null,
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "libusb",
@@ -303,8 +286,7 @@
             "package_id": 290,
             "binary_id": 207,
             "dtmi": null,
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "libusb",
@@ -320,8 +302,7 @@
             "package_id": 291,
             "binary_id": 208,
             "dtmi": null,
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "libusb",
@@ -337,8 +318,7 @@
             "package_id": 308,
             "binary_id": 213,
             "dtmi": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "libusb",
@@ -354,8 +334,7 @@
             "package_id": 308,
             "binary_id": 214,
             "dtmi": "dtmi:appconfig:steval_mkboxpro:FP_SNS_DATALOG2_Datalog2;3",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "libusb",
@@ -371,8 +350,7 @@
             "package_id": 308,
             "binary_id": 215,
             "dtmi": "dtmi:appconfig:steval_mkboxpro:FP_SNS_DATALOG2_Datalog2;3",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "libusb",
@@ -388,8 +366,7 @@
             "package_id": 308,
             "binary_id": 216,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2;4",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "libusb",
@@ -405,8 +382,7 @@
             "package_id": 308,
             "binary_id": 217,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2;4",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "libusb",
@@ -422,8 +398,7 @@
             "package_id": 326,
             "binary_id": 224,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2;5",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "libusb",
@@ -439,8 +414,7 @@
             "package_id": 326,
             "binary_id": 225,
             "dtmi": "dtmi:appconfig:steval_stwinbx1b:FP_SNS_DATALOG2_Datalog2;5",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -456,8 +430,7 @@
             "package_id": 122,
             "binary_id": 226,
             "dtmi": null,
-            "dwn_url": null,
-            "fw_page_url": "https://www.st.com/content/st_com/en/products/embedded-software/mcu-mpu-embedded-software/stm32-embedded-software/stm32cube-expansion-packages/fp-ai-monitor1.html"
+            "dwn_url": null
         },
         {
             "protocol": "libusb",
@@ -473,8 +446,7 @@
             "package_id": 308,
             "binary_id": 239,
             "dtmi": "dtmi:appconfig:b_u585i_iot02a:fpSnsDatalog2_datalog2;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "libusb",
@@ -490,8 +462,7 @@
             "package_id": 290,
             "binary_id": 240,
             "dtmi": null,
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "libusb",
@@ -507,8 +478,7 @@
             "package_id": 308,
             "binary_id": 241,
             "dtmi": "dtmi:appconfig:nucleo_u575zi_q:FP_SNS_DATALOG2_Datalog2;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "libusb",
@@ -524,8 +494,7 @@
             "package_id": 309,
             "binary_id": 242,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:fpSnsDatalog2_ultrasoundFft;3",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "libusb",
@@ -541,8 +510,7 @@
             "package_id": 308,
             "binary_id": 243,
             "dtmi": "dtmi:appconfig:nucleo_h7a3zi_q:FP_SNS_DATALOG2_Datalog2;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "libusb",
@@ -558,8 +526,7 @@
             "package_id": 290,
             "binary_id": 244,
             "dtmi": null,
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "libusb",
@@ -575,8 +542,7 @@
             "package_id": 290,
             "binary_id": 245,
             "dtmi": null,
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "libusb",
@@ -592,8 +558,7 @@
             "package_id": 309,
             "binary_id": 246,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:fpSnsDatalog2_ultrasoundFft;3",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "libusb",
@@ -609,8 +574,7 @@
             "package_id": 326,
             "binary_id": 261,
             "dtmi": "dtmi:appconfig:b_u585i_iot02a:FP_SNS_DATALOG2_Datalog2;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "libusb",
@@ -626,8 +590,7 @@
             "package_id": 326,
             "binary_id": 262,
             "dtmi": "dtmi:appconfig:nucleo_h7a3zi_q:FP_SNS_DATALOG2_Datalog2;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "libusb",
@@ -643,8 +606,7 @@
             "package_id": 326,
             "binary_id": 263,
             "dtmi": "dtmi:appconfig:nucleo_u575zi_q:FP_SNS_DATALOG2_Datalog2;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -660,8 +622,7 @@
             "package_id": 359,
             "binary_id": 266,
             "dtmi": null,
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "libusb",
@@ -677,8 +638,7 @@
             "package_id": 360,
             "binary_id": 267,
             "dtmi": "dtmi:appconfig:steval_stwinbx1b:FP_SNS_DATALOG2_Datalog2;5",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_Datalog2_2_1_1.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_Datalog2_2_1_1.bin"
         },
         {
             "protocol": "libusb",
@@ -694,8 +654,7 @@
             "package_id": 360,
             "binary_id": 268,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2;5",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_Datalog2_2_1_1.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_Datalog2_2_1_1.bin"
         },
         {
             "protocol": "libusb",
@@ -711,8 +670,7 @@
             "package_id": 360,
             "binary_id": 269,
             "dtmi": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2;2",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinkt1b/FP-SNS-DATALOG2_Datalog2_2_1_1.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinkt1b/FP-SNS-DATALOG2_Datalog2_2_1_1.bin"
         },
         {
             "protocol": "libusb",
@@ -728,8 +686,7 @@
             "package_id": 360,
             "binary_id": 270,
             "dtmi": "dtmi:appconfig:steval_mkboxprob:FP_SNS_DATALOG2_Datalog2;4",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-DATALOG2_Datalog2_2_1_1.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-DATALOG2_Datalog2_2_1_1.bin"
         },
         {
             "protocol": "libusb",
@@ -745,8 +702,7 @@
             "package_id": 360,
             "binary_id": 271,
             "dtmi": "dtmi:appconfig:steval_mkboxpro:FP_SNS_DATALOG2_Datalog2;4",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-DATALOG2_Datalog2_2_1_1.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-DATALOG2_Datalog2_2_1_1.bin"
         },
         {
             "protocol": "libusb",
@@ -762,8 +718,7 @@
             "package_id": 361,
             "binary_id": 272,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_PDetect;1",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_PDetect_2_1_1.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_PDetect_2_1_1.bin"
         },
         {
             "protocol": "libusb",
@@ -779,8 +734,7 @@
             "package_id": 361,
             "binary_id": 273,
             "dtmi": "dtmi:appconfig:steval_stwinbx1b:FP_SNS_DATALOG2_PDetect;1",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1b/FP-SNS-DATALOG2_PDetect_2_1_1.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1b/FP-SNS-DATALOG2_PDetect_2_1_1.bin"
         },
         {
             "protocol": "libusb",
@@ -796,8 +750,7 @@
             "package_id": 362,
             "binary_id": 274,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_IND_DATALOGMC_DatalogMC;1",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-IND-DATALOGMC_DatalogMC_1_1_0.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-IND-DATALOGMC_DatalogMC_1_1_0.bin"
         },
         {
             "protocol": "libusb",
@@ -813,8 +766,7 @@
             "package_id": 363,
             "binary_id": 275,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_IND_DATALOGMC_DatalogMCNEAI;1",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-IND-DATALOGMC_DatalogMCNEAI_1_1_0.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-IND-DATALOGMC_DatalogMCNEAI_1_1_0.bin"
         },
         {
             "protocol": "libusb",
@@ -830,8 +782,7 @@
             "package_id": 367,
             "binary_id": 279,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2;6",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_Datalog2_2_2_0.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_Datalog2_2_2_0.bin"
         },
         {
             "protocol": "libusb",
@@ -847,8 +798,7 @@
             "package_id": 367,
             "binary_id": 280,
             "dtmi": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2;3",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinkt1b/FP-SNS-DATALOG2_Datalog2_2_2_0.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinkt1b/FP-SNS-DATALOG2_Datalog2_2_2_0.bin"
         },
         {
             "protocol": "libusb",
@@ -864,8 +814,7 @@
             "package_id": 367,
             "binary_id": 281,
             "dtmi": "dtmi:appconfig:steval_mkboxpro:FP_SNS_DATALOG2_Datalog2;5",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-DATALOG2_Datalog2_2_2_0.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-DATALOG2_Datalog2_2_2_0.bin"
         },
         {
             "protocol": "libusb",
@@ -881,8 +830,7 @@
             "package_id": 367,
             "binary_id": 282,
             "dtmi": "dtmi:appconfig:steval_mkboxprob:FP_SNS_DATALOG2_Datalog2;5",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-DATALOG2_Datalog2_2_2_0.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-DATALOG2_Datalog2_2_2_0.bin"
         },
         {
             "protocol": "libusb",
@@ -898,8 +846,7 @@
             "package_id": 368,
             "binary_id": 283,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_PDetect;2",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_PDetect_2_2_0.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_PDetect_2_2_0.bin"
         },
         {
             "protocol": "libusb",
@@ -915,8 +862,7 @@
             "package_id": 367,
             "binary_id": 284,
             "dtmi": "dtmi:appconfig:b_u585i_iot02a:FP_SNS_DATALOG2_Datalog2;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "libusb",
@@ -932,8 +878,7 @@
             "package_id": 367,
             "binary_id": 285,
             "dtmi": "dtmi:appconfig:nucleo_h7a3zi_q:FP_SNS_DATALOG2_Datalog2;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "libusb",
@@ -949,8 +894,7 @@
             "package_id": 367,
             "binary_id": 286,
             "dtmi": "dtmi:appconfig:nucleo_u575zi_q:FP_SNS_DATALOG2_Datalog2;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "libusb",
@@ -966,8 +910,7 @@
             "package_id": 374,
             "binary_id": 322,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2;7",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_Datalog2_2_3_0.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_Datalog2_2_3_0.bin"
         },
         {
             "protocol": "libusb",
@@ -983,8 +926,7 @@
             "package_id": 374,
             "binary_id": 323,
             "dtmi": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2;3",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinkt1b/FP-SNS-DATALOG2_Datalog2_2_3_0.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinkt1b/FP-SNS-DATALOG2_Datalog2_2_3_0.bin"
         },
         {
             "protocol": "libusb",
@@ -1000,8 +942,7 @@
             "package_id": 374,
             "binary_id": 324,
             "dtmi": "dtmi:appconfig:steval_mkboxpro:FP_SNS_DATALOG2_Datalog2;5",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-DATALOG2_Datalog2_2_3_0.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-DATALOG2_Datalog2_2_3_0.bin"
         },
         {
             "protocol": "libusb",
@@ -1017,8 +958,7 @@
             "package_id": 374,
             "binary_id": 325,
             "dtmi": "dtmi:appconfig:steval_mkboxprob:FP_SNS_DATALOG2_Datalog2;5",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-DATALOG2_Datalog2_2_3_0.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-DATALOG2_Datalog2_2_3_0.bin"
         },
         {
             "protocol": "libusb",
@@ -1034,8 +974,7 @@
             "package_id": 375,
             "binary_id": 326,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_PDetect;3",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_PDetect_2_3_0.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_PDetect_2_3_0.bin"
         },
         {
             "protocol": "serial",
@@ -1051,8 +990,7 @@
             "package_id": 377,
             "binary_id": 329,
             "dtmi": "dtmi:appconfig:steval_stwinkt1b:AI_INERTIAL;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -1068,8 +1006,7 @@
             "package_id": 378,
             "binary_id": 330,
             "dtmi": "dtmi:appconfig:steval_stwinkt1b:AI_INERTIAL;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -1085,8 +1022,7 @@
             "package_id": 377,
             "binary_id": 331,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:AI_INERTIAL;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -1102,8 +1038,7 @@
             "package_id": 378,
             "binary_id": 332,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:AI_INERTIAL;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -1119,8 +1054,7 @@
             "package_id": 379,
             "binary_id": 333,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:AI_INERTIAL;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -1136,8 +1070,7 @@
             "package_id": 380,
             "binary_id": 334,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:AI_INERTIAL;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -1153,8 +1086,7 @@
             "package_id": 377,
             "binary_id": 335,
             "dtmi": "dtmi:appconfig:steval_mkboxpro:AI_INERTIAL;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -1170,8 +1102,7 @@
             "package_id": 381,
             "binary_id": 336,
             "dtmi": "dtmi:appconfig:steval_mkboxpro:AI_INERTIAL;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -1187,8 +1118,7 @@
             "package_id": 380,
             "binary_id": 337,
             "dtmi": "dtmi:appconfig:steval_mkboxpro:AI_INERTIAL;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "libusb",
@@ -1204,8 +1134,7 @@
             "package_id": 383,
             "binary_id": 339,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2;8",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_Datalog2_3_0_0.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_Datalog2_3_0_0.bin"
         },
         {
             "protocol": "libusb",
@@ -1221,8 +1150,7 @@
             "package_id": 383,
             "binary_id": 340,
             "dtmi": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2;4",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinkt1b/FP-SNS-DATALOG2_Datalog2_3_0_0.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinkt1b/FP-SNS-DATALOG2_Datalog2_3_0_0.bin"
         },
         {
             "protocol": "libusb",
@@ -1238,8 +1166,7 @@
             "package_id": 383,
             "binary_id": 341,
             "dtmi": "dtmi:appconfig:steval_mkboxpro:FP_SNS_DATALOG2_Datalog2;6",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-DATALOG2_Datalog2_3_0_0.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-DATALOG2_Datalog2_3_0_0.bin"
         },
         {
             "protocol": "libusb",
@@ -1255,8 +1182,7 @@
             "package_id": 383,
             "binary_id": 342,
             "dtmi": "dtmi:appconfig:steval_mkboxprob:FP_SNS_DATALOG2_Datalog2;6",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxprob/FP-SNS-DATALOG2_Datalog2_3_0_0.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxprob/FP-SNS-DATALOG2_Datalog2_3_0_0.bin"
         },
         {
             "protocol": "libusb",
@@ -1272,8 +1198,7 @@
             "package_id": 384,
             "binary_id": 343,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_PDetect;4",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_PDetect_3_0_0.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_PDetect_3_0_0.bin"
         },
         {
             "protocol": "libusb",
@@ -1289,8 +1214,7 @@
             "package_id": 385,
             "binary_id": 344,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_IND_DATALOGMC_DatalogMC;2",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-IND-DATALOGMC_DatalogMC_2_0_0.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-IND-DATALOGMC_DatalogMC_2_0_0.bin"
         },
         {
             "protocol": "serial",
@@ -1306,8 +1230,7 @@
             "package_id": 386,
             "binary_id": 346,
             "dtmi": "dtmi:appconfig:steval_stwinkt1b:AI_INERTIAL;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -1323,8 +1246,7 @@
             "package_id": 387,
             "binary_id": 347,
             "dtmi": "dtmi:appconfig:steval_stwinkt1b:AI_INERTIAL;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -1340,8 +1262,7 @@
             "package_id": 386,
             "binary_id": 348,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:AI_INERTIAL;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -1357,8 +1278,7 @@
             "package_id": 387,
             "binary_id": 349,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:AI_INERTIAL;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -1374,8 +1294,7 @@
             "package_id": 388,
             "binary_id": 350,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:AI_INERTIAL;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -1391,8 +1310,7 @@
             "package_id": 389,
             "binary_id": 351,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:AI_INERTIAL;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "libusb",
@@ -1408,8 +1326,7 @@
             "package_id": 390,
             "binary_id": 352,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_IND_DATALOGMC_DatalogMCNEAI;2",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-IND-DATALOGMC_DatalogMCNEAI_2_0_0.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-IND-DATALOGMC_DatalogMCNEAI_2_0_0.bin"
         },
         {
             "protocol": "serial",
@@ -1425,8 +1342,7 @@
             "package_id": 391,
             "binary_id": 353,
             "dtmi": "dtmi:appconfig:steval_mkboxpro:AI_INERTIAL_AssetTrackingOnMLC;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -1442,8 +1358,7 @@
             "package_id": 392,
             "binary_id": 354,
             "dtmi": "dtmi:appconfig:steval_mkboxpro:AI_INERTIAL_PedometerOnISPU;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -1459,8 +1374,7 @@
             "package_id": 393,
             "binary_id": 355,
             "dtmi": "dtmi:appconfig:steval_mkboxpro:AI_INERTIAL_VibrationMonitoringOnMCU;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -1476,8 +1390,7 @@
             "package_id": 392,
             "binary_id": 356,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:AI_INERTIAL_PedometerOnISPU;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -1493,8 +1406,7 @@
             "package_id": 394,
             "binary_id": 357,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:AI_INERTIAL_TiltAngleOnMLC;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -1510,8 +1422,7 @@
             "package_id": 393,
             "binary_id": 358,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:AI_INERTIAL_VibrationMonitoringOnMCU;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -1527,8 +1438,7 @@
             "package_id": 395,
             "binary_id": 359,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:AI_INERTIAL_VibrationMonitoringOnMLC;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -1544,8 +1454,7 @@
             "package_id": 393,
             "binary_id": 360,
             "dtmi": "dtmi:appconfig:steval_stwinkt1b:AI_INERTIAL_VibrationMonitoringOnMCU;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -1561,8 +1470,7 @@
             "package_id": 395,
             "binary_id": 361,
             "dtmi": "dtmi:appconfig:steval_stwinkt1b:AI_INERTIAL_VibrationMonitoringOnMLC;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -1578,8 +1486,7 @@
             "package_id": 401,
             "binary_id": 372,
             "dtmi": "dtmi:appconfig:nucleo_stm32f401re:VDATALOG_LIS2DUXS12;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -1595,8 +1502,7 @@
             "package_id": 401,
             "binary_id": 373,
             "dtmi": "dtmi:appconfig:nucleo_stm32l476rg:VDATALOG_LIS2DUXS12;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -1612,8 +1518,7 @@
             "package_id": 402,
             "binary_id": 374,
             "dtmi": "dtmi:appconfig:nucleo_stm32f401re:VDATALOG_LSM6DSV16X;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -1629,8 +1534,7 @@
             "package_id": 402,
             "binary_id": 375,
             "dtmi": "dtmi:appconfig:nucleo_stm32l476rg:VDATALOG_LSM6DSV16X;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "libusb",
@@ -1646,8 +1550,7 @@
             "package_id": 404,
             "binary_id": 378,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_PDetect;4",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_PDetect_3_1_0.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_PDetect_3_1_0.bin"
         },
         {
             "protocol": "libusb",
@@ -1663,8 +1566,7 @@
             "package_id": 405,
             "binary_id": 379,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2;9",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_Datalog2_3_1_0.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_Datalog2_3_1_0.bin"
         },
         {
             "protocol": "libusb",
@@ -1680,8 +1582,7 @@
             "package_id": 405,
             "binary_id": 380,
             "dtmi": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2;4",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinkt1b/FP-SNS-DATALOG2_Datalog2_3_1_0.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinkt1b/FP-SNS-DATALOG2_Datalog2_3_1_0.bin"
         },
         {
             "protocol": "libusb",
@@ -1697,8 +1598,7 @@
             "package_id": 405,
             "binary_id": 381,
             "dtmi": "dtmi:appconfig:steval_mkboxpro:FP_SNS_DATALOG2_Datalog2;7",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-DATALOG2_Datalog2_3_1_0.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-DATALOG2_Datalog2_3_1_0.bin"
         },
         {
             "protocol": "libusb",
@@ -1714,8 +1614,7 @@
             "package_id": 405,
             "binary_id": 382,
             "dtmi": "dtmi:appconfig:steval_mkboxprob:FP_SNS_DATALOG2_Datalog2;7",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxprob/FP-SNS-DATALOG2_Datalog2_3_1_0.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxprob/FP-SNS-DATALOG2_Datalog2_3_1_0.bin"
         },
         {
             "protocol": "libusb",
@@ -1731,8 +1630,7 @@
             "package_id": 405,
             "binary_id": 383,
             "dtmi": "dtmi:appconfig:b_u585i_iot02a:FP_SNS_DATALOG2_Datalog2;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "libusb",
@@ -1748,8 +1646,7 @@
             "package_id": 405,
             "binary_id": 384,
             "dtmi": "dtmi:appconfig:nucleo_u575zi_q:FP_SNS_DATALOG2_Datalog2;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "libusb",
@@ -1765,8 +1662,7 @@
             "package_id": 405,
             "binary_id": 385,
             "dtmi": "dtmi:appconfig:nucleo_h7a3zi_q:FP_SNS_DATALOG2_Datalog2;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "libusb",
@@ -1782,8 +1678,7 @@
             "package_id": 406,
             "binary_id": 386,
             "dtmi": "dtmi:appconfig:nucleo_u575zi_q:FP_SNS_DATALOG2_Datalog2_IKS4A1;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "libusb",
@@ -1799,8 +1694,7 @@
             "package_id": 406,
             "binary_id": 387,
             "dtmi": "dtmi:appconfig:nucleo_h7a3zi_q:FP_SNS_DATALOG2_Datalog2_IKS4A1;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "libusb",
@@ -1816,8 +1710,7 @@
             "package_id": 405,
             "binary_id": 388,
             "dtmi": "dtmi:appconfig:steval_afci1:FP_SNS_DATALOG2_Datalog2;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "libusb",
@@ -1833,8 +1726,7 @@
             "package_id": 407,
             "binary_id": 389,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_IND_DATALOGMC_DatalogMC;3",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-IND-DATALOGMC_DatalogMC_2_1_0.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-IND-DATALOGMC_DatalogMC_2_1_0.bin"
         },
         {
             "protocol": "libusb",
@@ -1850,8 +1742,7 @@
             "package_id": 408,
             "binary_id": 390,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_IND_DATALOGMC_DatalogMCNEAI;3",
-            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-IND-DATALOGMC_DatalogMCNEAI_2_1_0.bin",
-            "fw_page_url": null
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-IND-DATALOGMC_DatalogMCNEAI_2_1_0.bin"
         },
         {
             "protocol": "serial",
@@ -1867,8 +1758,7 @@
             "package_id": 418,
             "binary_id": 418,
             "dtmi": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -1884,8 +1774,7 @@
             "package_id": 419,
             "binary_id": 419,
             "dtmi": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -1901,8 +1790,7 @@
             "package_id": 420,
             "binary_id": 420,
             "dtmi": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -1918,8 +1806,7 @@
             "package_id": 419,
             "binary_id": 421,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_STAIOTCFT_AI_Inertial;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -1935,8 +1822,7 @@
             "package_id": 421,
             "binary_id": 422,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_STAIOTCFT_AI_Inertial;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -1952,8 +1838,7 @@
             "package_id": 420,
             "binary_id": 423,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_STAIOTCFT_AI_Inertial;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -1969,8 +1854,7 @@
             "package_id": 422,
             "binary_id": 424,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_STAIOTCFT_AI_Inertial;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -1986,8 +1870,7 @@
             "package_id": 420,
             "binary_id": 425,
             "dtmi": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_STAIOTCFT_AI_Inertial;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -2003,8 +1886,7 @@
             "package_id": 422,
             "binary_id": 426,
             "dtmi": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_STAIOTCFT_AI_Inertial;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "libusb",
@@ -2020,8 +1902,7 @@
             "package_id": 338,
             "binary_id": 427,
             "dtmi": "dtmi:appconfig:nucleo_u575zi_q:FP_IND_DATALOGMC_DatalogMC;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -2037,8 +1918,7 @@
             "package_id": 402,
             "binary_id": 428,
             "dtmi": "dtmi:appconfig:steval_mkboxpro:VDATALOG_LSM6DSV16X;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -2054,8 +1934,7 @@
             "package_id": 401,
             "binary_id": 429,
             "dtmi": "dtmi:appconfig:nucleo_u575zi_q:VDATALOG_LIS2DUXS12;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -2071,8 +1950,7 @@
             "package_id": 401,
             "binary_id": 430,
             "dtmi": "dtmi:appconfig:nucleo_h7a3zi_q:VDATALOG_LIS2DUXS12;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "libusb",
@@ -2088,8 +1966,7 @@
             "package_id": 338,
             "binary_id": 431,
             "dtmi": "dtmi:appconfig:nucleo_u545re_q:FP_IND_DATALOGMC_DatalogMC;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -2105,8 +1982,7 @@
             "package_id": 402,
             "binary_id": 432,
             "dtmi": "dtmi:appconfig:nucleo_h503rb:VDATALOG_LSM6DSV16X;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         },
         {
             "protocol": "serial",
@@ -2122,11 +1998,10 @@
             "package_id": 401,
             "binary_id": 433,
             "dtmi": "dtmi:appconfig:nucleo_u083rc:VDATALOG_LIS2DUXS12;1",
-            "dwn_url": null,
-            "fw_page_url": null
+            "dwn_url": null
         }
     ],
-    "date": "2025-11-05 09:05:27.109207",
-    "version": "0.10.0",
-    "checksum": "f56565806715505b47a41118af72fd07"
+    "date": "2025-11-06 10:38:12.624933",
+    "version": "0.7.8",
+    "checksum": "7bc9f84efef93a73eacfd63dbd49ce81"
 }
