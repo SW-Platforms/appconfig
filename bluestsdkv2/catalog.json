@@ -3759,7 +3759,7 @@
                 "bootloader_type": "none",
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 8,
-                "fw_url": null,
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/usb/bin/steval-afci1/FP-SNS-DATALOG2_Datalog2_3_1_0.bin",
                 "partial_fota": 0
             },
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
@@ -16816,7 +16816,7 @@
                 "bootloader_type": "none",
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 0,
-                "fw_url": null,
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/usb/bin/b-u585i-iot02a/FP-SNS-DATALOG2_Datalog2_3_1_0.bin",
                 "partial_fota": 0
             },
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
@@ -34375,8 +34375,8 @@
             }
         }
     ],
-    "date": "2025-11-07 14:35:24.793583",
-    "version": "0.11.0",
+    "date": "2025-11-07 15:47:04.058329",
+    "version": "0.11.1",
     "stable_release": false,
-    "checksum": "9a9d8cfdc7b8c095c9287cff768364bb"
+    "checksum": "a1f1d33c28cba9d8780ff9f8ede99550"
 }
