@@ -11085,7 +11085,7 @@
             "fw_name": "AI-SSM",
             "fw_desc": "AI Smart Sensor Monitoring with BLE support",
             "fw_version": "1.1.0",
-            "maturity": "demo",
+            "maturity": "draft",
             "option_bytes": [
                 {
                     "name": "Running on:",
@@ -27992,7 +27992,7 @@
             "fw_name": "AI-SSM",
             "fw_desc": "AI Smart Sensor Monitoring with BLE support",
             "fw_version": "1.1.0",
-            "maturity": "demo",
+            "maturity": "draft",
             "option_bytes": [
                 {
                     "name": "Running on:",
@@ -34616,8 +34616,8 @@
             }
         }
     ],
-    "date": "2025-11-11 14:49:21.236410",
+    "date": "2025-11-12 08:11:00.413389",
     "version": "0.11.2",
     "stable_release": false,
-    "checksum": "2e4157ac5527ed5eeeaedd65c3851a53"
+    "checksum": "37ef0c2ef8f03fe53c2a133a815c6199"
 }
