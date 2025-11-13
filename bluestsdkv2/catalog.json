@@ -3934,7 +3934,7 @@
             "dtmi": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2;4",
             "fota": {
                 "bootloader_type": "none",
-                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinkt1b/FP-SNS-DATALOG2_Datalog2_3_2_0.bin",
+                "fw_url": null,
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 8,
                 "partial_fota": 0,
@@ -10989,7 +10989,7 @@
             "dtmi": "dtmi:appconfig:steval_mkboxpro:FP_SNS_DATALOG2_Datalog2;7",
             "fota": {
                 "bootloader_type": "none",
-                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-DATALOG2_Datalog2_3_2_0.bin",
+                "fw_url": null,
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 0,
                 "partial_fota": 0,
@@ -17513,7 +17513,7 @@
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_IND_DATALOGMC_DatalogMC;3",
             "fota": {
                 "bootloader_type": "none",
-                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-IND-DATALOGMC_DatalogMC_2_2_0.bin",
+                "fw_url": null,
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 0,
                 "partial_fota": 0,
@@ -17616,7 +17616,7 @@
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_IND_DATALOGMC_DatalogMCNEAI;3",
             "fota": {
                 "bootloader_type": "none",
-                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-IND-DATALOGMC_DatalogMCNEAI_2_2_0.bin",
+                "fw_url": null,
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 0,
                 "partial_fota": 0,
@@ -17719,7 +17719,7 @@
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_IND_DATALOGMC_DatalogMCCubeAI;1",
             "fota": {
                 "bootloader_type": "none",
-                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-IND-DATALOGMC_DatalogMCCubeAI_2_2_0.bin",
+                "fw_url": null,
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 0,
                 "partial_fota": 0,
@@ -17824,7 +17824,7 @@
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2;9",
             "fota": {
                 "bootloader_type": "none",
-                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_Datalog2_3_2_0.bin",
+                "fw_url": null,
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 0,
                 "partial_fota": 0,
@@ -17977,7 +17977,7 @@
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_PDetect;4",
             "fota": {
                 "bootloader_type": "none",
-                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_PDetect_3_2_0.bin",
+                "fw_url": null,
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 0,
                 "partial_fota": 0,
@@ -25278,7 +25278,7 @@
             "dtmi": "dtmi:appconfig:steval_mkboxprob:FP_SNS_DATALOG2_Datalog2;7",
             "fota": {
                 "bootloader_type": "none",
-                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxprob/FP-SNS-DATALOG2_Datalog2_3_2_0.bin",
+                "fw_url": null,
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 0,
                 "partial_fota": 0,
@@ -27896,7 +27896,7 @@
             "dtmi": "dtmi:appconfig:steval_mkboxproc:FP_SNS_DATALOG2_Datalog2;7",
             "fota": {
                 "bootloader_type": "none",
-                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxproc/FP-SNS-DATALOG2_Datalog2_3_2_0.bin",
+                "fw_url": null,
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 0,
                 "partial_fota": 0,
@@ -34616,8 +34616,8 @@
             }
         }
     ],
-    "date": "2025-11-12 15:09:21.467607",
+    "date": "2025-11-13 10:31:24.941668",
     "version": "0.11.2",
     "stable_release": false,
-    "checksum": "37ef0c2ef8f03fe53c2a133a815c6199"
+    "checksum": "f6969856899d00551121c6ac7cc9115f"
 }
