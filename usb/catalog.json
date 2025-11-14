@@ -2049,9 +2049,9 @@
             "board_id": "0x30",
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "fw_name": "FP-SNS-DATALOG2_Datalog2-IKS02A1",
-            "fw_version": "3.1.0",
+            "fw_version": "3.2.0",
             "usb_fw_id": "0x08",
-            "package_id": 439,
+            "package_id": 440,
             "binary_id": 445,
             "dtmi": "dtmi:appconfig:nucleo_h7a3zi_q:FP_SNS_DATALOG2_Datalog2;1",
             "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-h7a3zi-q/FP-SNS-DATALOG2_Datalog2_3_2_0.bin",
@@ -2100,9 +2100,9 @@
             "board_id": "0x10",
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "fw_name": "FP-SNS-DATALOG2_Datalog2-IKS02A1",
-            "fw_version": "3.1.0",
+            "fw_version": "3.2.0",
             "usb_fw_id": "0x09",
-            "package_id": 439,
+            "package_id": 440,
             "binary_id": 448,
             "dtmi": "dtmi:appconfig:nucleo_u575zi_q:FP_SNS_DATALOG2_Datalog2;1",
             "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-u575zi-q/FP-SNS-DATALOG2_Datalog2_3_2_0.bin",
@@ -2551,7 +2551,7 @@
             "fw_page_url": "https://www.st.com/en/embedded-software/stsw-sdatalog.html"
         }
     ],
-    "date": "2025-11-13 15:54:46.691433",
+    "date": "2025-11-14 09:26:31.075386",
     "version": "0.11.2",
-    "checksum": "412b8047d2357df59672d8ade796bbcd"
+    "checksum": "b3c02354b32ec119242a802e1756ccf5"
 }
