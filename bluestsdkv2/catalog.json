@@ -17513,7 +17513,7 @@
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_IND_DATALOGMC_DatalogMC;3",
             "fota": {
                 "bootloader_type": "none",
-                "fw_url": null,
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-IND-DATALOGMC_DatalogMC_2_2_0.bin",
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 0,
                 "partial_fota": 0,
@@ -17616,7 +17616,7 @@
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_IND_DATALOGMC_DatalogMCNEAI;3",
             "fota": {
                 "bootloader_type": "none",
-                "fw_url": null,
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-IND-DATALOGMC_DatalogMCNEAI_2_2_0.bin",
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 0,
                 "partial_fota": 0,
@@ -17719,7 +17719,7 @@
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_IND_DATALOGMC_DatalogMCCubeAI;1",
             "fota": {
                 "bootloader_type": "none",
-                "fw_url": null,
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-IND-DATALOGMC_DatalogMCCubeAI_2_2_0.bin",
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 0,
                 "partial_fota": 0,
@@ -34616,8 +34616,8 @@
             }
         }
     ],
-    "date": "2025-11-14 09:26:46.051361",
+    "date": "2025-11-20 10:11:26.338629",
     "version": "0.11.2",
     "stable_release": false,
-    "checksum": "930aff4f81e0a785d02ab4361d9521fb"
+    "checksum": "37ef0c2ef8f03fe53c2a133a815c6199"
 }
