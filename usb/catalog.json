@@ -2549,9 +2549,26 @@
             "dtmi": "dtmi:appconfig:nucleo_stm32f401re:STSW_SDATALOG_IIS2MDC;1",
             "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-stm32f401re/STSW-SDATALOG_IIS2MDC_1_0_0.bin",
             "fw_page_url": "https://www.st.com/en/embedded-software/stsw-sdatalog.html"
+        },
+        {
+            "protocol": "serial",
+            "usb_vendor_id": "0x0483",
+            "usb_product_id": "0x5744",
+            "baudrate": 4608000,
+            "brd_name": "B-U585I-IOT02A",
+            "board_id": "0x20",
+            "fw_desc": "Bare-metal firmware examples designed to stream sensor data via serial port compliant with the FP-SNS-DATALOG2 data format",
+            "fw_name": "STSW-SDATALOG_OV5640",
+            "fw_version": "0.0.1",
+            "usb_fw_id": "0x07",
+            "package_id": 441,
+            "binary_id": 477,
+            "dtmi": "dtmi:appconfig:b_u585i_iot02a:STSW_SDATALOG_OV5640;1",
+            "dwn_url": null,
+            "fw_page_url": "https://www.st.com/en/embedded-software/stsw-sdatalog.html"
         }
     ],
-    "date": "2025-12-04 16:06:25.991668",
+    "date": "2025-12-15 13:35:33.908302",
     "version": "0.11.2",
-    "checksum": "6861b604d8f5e3062c33f17671df6dc9"
+    "checksum": "47b2a4936fae11b4570c9100c79e755b"
 }
