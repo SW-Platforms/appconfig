@@ -3943,7 +3943,7 @@
             "fw_name": "FP-SNS-DATALOG2_Datalog2",
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "fw_version": "3.2.0",
-            "maturity": "draft",
+            "maturity": "release",
             "option_bytes": [
                 {
                     "name": "battery:",
@@ -10998,7 +10998,7 @@
             "fw_name": "FP-SNS-DATALOG2_Datalog2",
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "fw_version": "3.2.0",
-            "maturity": "draft",
+            "maturity": "release",
             "option_bytes": [
                 {
                     "name": "alarm:",
@@ -17833,7 +17833,7 @@
             "fw_name": "FP-SNS-DATALOG2_Datalog2",
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "fw_version": "3.2.0",
-            "maturity": "draft",
+            "maturity": "release",
             "option_bytes": [
                 {
                     "name": "battery:",
@@ -17986,7 +17986,7 @@
             "fw_name": "FP-SNS-DATALOG2_PDetect",
             "fw_desc": "Comprehensive solution for saving data for presence detection via STEVAL-PDETECT1 expansion board",
             "fw_version": "3.2.0",
-            "maturity": "draft",
+            "maturity": "release",
             "option_bytes": [
                 {
                     "name": "battery:",
@@ -25287,7 +25287,7 @@
             "fw_name": "FP-SNS-DATALOG2_Datalog2",
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "fw_version": "3.2.0",
-            "maturity": "draft",
+            "maturity": "release",
             "option_bytes": [
                 {
                     "name": "alarm:",
@@ -27905,7 +27905,7 @@
             "fw_name": "FP-SNS-DATALOG2_Datalog2",
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "fw_version": "3.2.0",
-            "maturity": "draft",
+            "maturity": "release",
             "option_bytes": [
                 {
                     "name": "alarm:",
@@ -34616,8 +34616,8 @@
             }
         }
     ],
-    "date": "2025-12-15 13:35:50.635438",
+    "date": "2025-12-19 15:56:22.338635",
     "version": "0.11.2",
     "stable_release": false,
-    "checksum": "37ef0c2ef8f03fe53c2a133a815c6199"
+    "checksum": "a7bde6b237ab210566bcf293e3001bba"
 }
