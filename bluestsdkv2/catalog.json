@@ -31485,7 +31485,43 @@
             "status": "ACTIVE",
             "description": "STM32 Nucleo-144 development board with STM32U575ZIT6Q MCU, SMPS, supports Arduino, ST Zio and morpho connectivity",
             "documentation_url": "https://www.st.com/en/evaluation-tools/nucleo-u575zi-q.html#documentation",
-            "components": []
+            "components": [
+                {
+                    "id": 35,
+                    "component": "ISM6HG256X",
+                    "type": "inertial",
+                    "description": null,
+                    "ai_sensor": "MLCv2"
+                },
+                {
+                    "id": 36,
+                    "component": "ISM330IS",
+                    "type": "inertial",
+                    "description": null,
+                    "ai_sensor": "none"
+                },
+                {
+                    "id": 37,
+                    "component": "IIS2DULPX",
+                    "type": "accelerometer",
+                    "description": null,
+                    "ai_sensor": "MLCv2"
+                },
+                {
+                    "id": 38,
+                    "component": "ILPS22QS",
+                    "type": "pressure",
+                    "description": null,
+                    "ai_sensor": "none"
+                },
+                {
+                    "id": 39,
+                    "component": "IIS2MDC",
+                    "type": "magnetometer",
+                    "description": null,
+                    "ai_sensor": "none"
+                }
+            ]
         },
         {
             "release_date": "2015_Q2",
@@ -31827,7 +31863,15 @@
             "status": "ACTIVE",
             "description": "Evaluation kit for Robotics applications",
             "documentation_url": "https://www.st.com/en/evaluation-tools/steval-robkit1.html",
-            "components": []
+            "components": [
+                {
+                    "id": 45,
+                    "component": "LSM6DSV16BX",
+                    "type": "inertial",
+                    "description": null,
+                    "ai_sensor": "MLCv2"
+                }
+            ]
         }
     ],
     "characteristics": [
@@ -32990,6 +33034,13 @@
             "name": "AssetTrackingEvent",
             "description": "Asset Tracking Event",
             "uuid": "00000030-0002-11e1-ac36-0002a5d5c51b",
+            "dtmi_name": null,
+            "format_notify": null
+        },
+        {
+            "name": "Odometry",
+            "description": "Odometer for ROBKIT",
+            "uuid": "00000031-0002-11e1-ac36-0002a5d5c51b",
             "dtmi_name": null,
             "format_notify": null
         },
@@ -34616,8 +34667,8 @@
             }
         }
     ],
-    "date": "2026-01-05 05:33:47.434004",
-    "version": "0.11.2",
+    "date": "2026-03-03 09:00:54.814851",
+    "version": "0.11.4",
     "stable_release": false,
-    "checksum": "a7bde6b237ab210566bcf293e3001bba"
+    "checksum": "be22fa5e2680d84a6a4575b579e76adb"
 }
