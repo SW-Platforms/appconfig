@@ -30974,7 +30974,7 @@
             "fw_name": "STSW-ROBKIT1",
             "fw_desc": "Firmware for STEVAL-ROBKIT1 evaluation board for Robotics applications",
             "fw_version": "1.1.0",
-            "maturity": "draft",
+            "maturity": "release",
             "option_bytes": []
         },
         {
@@ -31055,7 +31055,7 @@
             "fw_name": "STSW-ROBKIT1",
             "fw_desc": "Firmware for STEVAL-ROBKIT1 evaluation board for Robotics applications",
             "fw_version": "2.1.0",
-            "maturity": "draft",
+            "maturity": "release",
             "option_bytes": [
                 {}
             ]
@@ -34768,8 +34768,8 @@
             }
         }
     ],
-    "date": "2026-03-12 11:02:26.436071",
+    "date": "2026-03-12 11:08:39.097900",
     "version": "0.11.4",
     "stable_release": false,
-    "checksum": "6593affe959fe1488a3f04e1654b9d08"
+    "checksum": "03c561011911deba8f30070655eee56e"
 }
