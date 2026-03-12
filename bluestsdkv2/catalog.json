@@ -17522,7 +17522,7 @@
             "fw_name": "FP-IND-DATALOGMC_DatalogMC",
             "fw_desc": "High-speed datalogging of sensors data and motor control telemetries",
             "fw_version": "2.2.0",
-            "maturity": "draft",
+            "maturity": "release",
             "option_bytes": [
                 {
                     "name": "alarm:",
@@ -17625,7 +17625,7 @@
             "fw_name": "FP-IND-DATALOGMC_DatalogMCNEAI",
             "fw_desc": "Motor fault classification with NanoEdge AI Studio",
             "fw_version": "2.2.0",
-            "maturity": "draft",
+            "maturity": "release",
             "option_bytes": [
                 {
                     "name": "alarm:",
@@ -17728,7 +17728,7 @@
             "fw_name": "FP-IND-DATALOGMC_DatalogMCCubeAI",
             "fw_desc": "Motor fault classification with CubeAI",
             "fw_version": "2.2.0",
-            "maturity": "draft",
+            "maturity": "release",
             "option_bytes": [
                 {
                     "name": "alarm:",
@@ -30985,8 +30985,23 @@
             "characteristics": [
                 {
                     "max_write_length": 20,
+                    "name": "Debug Console stdin/stdout",
+                    "uuid": "00000001-000E-11e1-9ab4-0002a5d5c51b"
+                },
+                {
+                    "max_write_length": 20,
+                    "name": "Debug Console stderr",
+                    "uuid": "00000002-000E-11e1-9ab4-0002a5d5c51b"
+                },
+                {
+                    "max_write_length": 20,
                     "name": "Machine Learning Core",
                     "uuid": "0000000f-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "max_write_length": 20,
+                    "name": "Ext Configuration",
+                    "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
                 },
                 {
                     "max_write_length": 20,
@@ -30994,7 +31009,7 @@
                     "uuid": "0000001b-0002-11e1-ac36-0002a5d5c51b"
                 },
                 {
-                    "max_write_length": 20,
+                    "max_write_length": 220,
                     "name": "RawPnPL",
                     "uuid": "00000023-0002-11e1-ac36-0002a5d5c51b"
                 },
@@ -31017,6 +31032,21 @@
                     "max_write_length": 20,
                     "name": "Battery",
                     "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "max_write_length": 20,
+                    "name": "Magnetometer",
+                    "uuid": "00200000-0001-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "max_write_length": 20,
+                    "name": "Gyroscope",
+                    "uuid": "00400000-0001-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "max_write_length": 20,
+                    "name": "Accelerometer",
+                    "uuid": "00800000-0001-11e1-ac36-0002a5d5c51b"
                 }
             ],
             "cloud_apps": [],
@@ -31925,6 +31955,24 @@
                     "ai_sensor": "MLCv2"
                 }
             ]
+        },
+        {
+            "release_date": "2026_Q2",
+            "brd_variant": "DEMO$MEMSTWS2V0",
+            "brd_part": "DEMO-MEMSTWS2V0",
+            "brd_name": "DEMO-MEMSTWS2V0",
+            "friendly_name": "TWS.Box",
+            "ble_dev_id": "0xD1",
+            "nfc_dev_id": null,
+            "usb_dev_id": null,
+            "video_url": null,
+            "order_url": null,
+            "wiki_url": null,
+            "unique_dev_id": 52,
+            "status": "ACTIVE",
+            "description": "Wireless Earbud development kit with Bone Conduction and head tracking capabilities",
+            "documentation_url": null,
+            "components": []
         }
     ],
     "characteristics": [
@@ -34720,8 +34768,8 @@
             }
         }
     ],
-    "date": "2026-03-12 09:34:44.604261",
+    "date": "2026-03-12 11:02:26.436071",
     "version": "0.11.4",
     "stable_release": false,
-    "checksum": "807998dc8deca79920edd7003cd271c5"
+    "checksum": "6593affe959fe1488a3f04e1654b9d08"
 }
