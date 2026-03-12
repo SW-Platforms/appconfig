@@ -30976,6 +30976,59 @@
             "fw_version": "1.1.0",
             "maturity": "draft",
             "option_bytes": []
+        },
+        {
+            "ble_dev_id": "0xC3",
+            "ble_fw_id": "0xD0",
+            "brd_name": "STEVAL-ROBKIT1",
+            "changelog": "",
+            "characteristics": [
+                {
+                    "max_write_length": 20,
+                    "name": "Machine Learning Core",
+                    "uuid": "0000000f-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "max_write_length": 20,
+                    "name": "PnPLike",
+                    "uuid": "0000001b-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "max_write_length": 20,
+                    "name": "RawPnPL",
+                    "uuid": "00000023-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "max_write_length": 20,
+                    "name": "RoboticsMovement",
+                    "uuid": "00000028-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "max_write_length": 220,
+                    "name": "SceneDescription",
+                    "uuid": "00000029-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "max_write_length": 20,
+                    "name": "Odometry",
+                    "uuid": "00000031-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "max_write_length": 20,
+                    "name": "Battery",
+                    "uuid": "00020000-0001-11e1-ac36-0002a5d5c51b"
+                }
+            ],
+            "cloud_apps": [],
+            "dtmi": null,
+            "fota": {},
+            "fw_name": "STSW-ROBKIT1",
+            "fw_desc": "Firmware for STEVAL-ROBKIT1 evaluation board for Robotics applications",
+            "fw_version": "2.1.0",
+            "maturity": "draft",
+            "option_bytes": [
+                {}
+            ]
         }
     ],
     "boards": [
@@ -34667,8 +34720,8 @@
             }
         }
     ],
-    "date": "2026-03-03 09:17:35.088801",
+    "date": "2026-03-12 09:34:44.604261",
     "version": "0.11.4",
     "stable_release": false,
-    "checksum": "be22fa5e2680d84a6a4575b579e76adb"
+    "checksum": "807998dc8deca79920edd7003cd271c5"
 }
