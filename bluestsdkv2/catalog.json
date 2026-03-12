@@ -31056,9 +31056,7 @@
             "fw_desc": "Firmware for STEVAL-ROBKIT1 evaluation board for Robotics applications",
             "fw_version": "2.1.0",
             "maturity": "release",
-            "option_bytes": [
-                {}
-            ]
+            "option_bytes": []
         }
     ],
     "boards": [
@@ -34768,8 +34766,8 @@
             }
         }
     ],
-    "date": "2026-03-12 11:08:39.097900",
+    "date": "2026-03-12 11:19:05.399586",
     "version": "0.11.4",
     "stable_release": false,
-    "checksum": "03c561011911deba8f30070655eee56e"
+    "checksum": "e899238c025013e74aea8fc6890180eb"
 }
