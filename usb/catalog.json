@@ -2564,7 +2564,7 @@
             "package_id": 450,
             "binary_id": 491,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_STAIOTCFT_AI_Inertial_PedometerOnISPU;1",
-            "dwn_url": null,
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-STAIOTCFT_AI_Inertial_PedometerOnISPU_1_1_0.bin",
             "fw_page_url": ""
         },
         {
@@ -2581,7 +2581,7 @@
             "package_id": 452,
             "binary_id": 492,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_STAIOTCFT_AI_Inertial_TiltAngleOnMLC;1",
-            "dwn_url": null,
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-STAIOTCFT_AI_Inertial_TiltAngleOnMLC_1_1_0.bin",
             "fw_page_url": ""
         },
         {
@@ -2598,7 +2598,7 @@
             "package_id": 451,
             "binary_id": 493,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_STAIOTCFT_AI_Inertial_VibrationMonitoringOnMCU;1",
-            "dwn_url": null,
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-STAIOTCFT_AI_Inertial_VibrationMonitoringOnMCU_1_1_0.bin",
             "fw_page_url": ""
         },
         {
@@ -2615,7 +2615,7 @@
             "package_id": 453,
             "binary_id": 494,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_STAIOTCFT_AI_Inertial_VibrationMonitoringOnMLC;1",
-            "dwn_url": null,
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-STAIOTCFT_AI_Inertial_VibrationMonitoringOnMLC_1_1_0.bin",
             "fw_page_url": ""
         },
         {
@@ -2632,7 +2632,7 @@
             "package_id": 451,
             "binary_id": 495,
             "dtmi": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_STAIOTCFT_AI_Inertial_VibrationMonitoringOnMCU;1",
-            "dwn_url": null,
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinkt1b/FP-SNS-STAIOTCFT_AI_Inertial_VibrationMonitoringOnMCU_1_1_0.bin",
             "fw_page_url": ""
         },
         {
@@ -2649,11 +2649,11 @@
             "package_id": 453,
             "binary_id": 496,
             "dtmi": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_STAIOTCFT_AI_Inertial_VibrationMonitoringOnMLC;1",
-            "dwn_url": null,
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinkt1b/FP-SNS-STAIOTCFT_AI_Inertial_VibrationMonitoringOnMLC_1_1_0.bin",
             "fw_page_url": ""
         }
     ],
-    "date": "2026-04-03 11:37:22.131721",
+    "date": "2026-04-03 12:42:22.943752",
     "version": "0.11.4",
-    "checksum": "7bcd7ce8b9ec69c8d7aa787f55282905"
+    "checksum": "b77b7c450586215aae177a68c0ca2fed"
 }
