@@ -994,7 +994,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_f401re:VanillaDL_LSM6D1SV16X_MLC:sensors:ism6hg256x_gyro:dimensions;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:VanillaDL_LSM6D1SV16X_MLC:sensors:ism6hg256x_gyro:dimensions;1",
         "@type": [
           "Property",
           "NumberValue"
