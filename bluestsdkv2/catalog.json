@@ -32508,6 +32508,24 @@
             "description": "Wireless Earbud development kit with Bone Conduction and head tracking capabilities",
             "documentation_url": null,
             "components": []
+        },
+        {
+            "release_date": "2026_Q2",
+            "brd_variant": "DEMO$MEMSNDSG",
+            "brd_part": "DEMO-MEMSNDSG",
+            "brd_name": "DEMO-MEMSNDSG",
+            "friendly_name": "nanoDEV.SmartGlasses",
+            "ble_dev_id": "0xD2",
+            "nfc_dev_id": null,
+            "usb_dev_id": null,
+            "video_url": null,
+            "order_url": null,
+            "wiki_url": null,
+            "unique_dev_id": 56,
+            "status": "ACTIVE",
+            "description": "Wireless smart glasses development kit with MEMS sensors for head tracking capabilities",
+            "documentation_url": null,
+            "components": []
         }
     ],
     "characteristics": [
@@ -35303,8 +35321,8 @@
             }
         }
     ],
-    "date": "2026-04-15 09:44:29.164279",
+    "date": "2026-04-15 11:24:46.347171",
     "version": "0.11.4",
     "stable_release": false,
-    "checksum": "2dbfce7ff38e76304ee86f03fbc4a611"
+    "checksum": "9726df862013f1d9cac659ff2fa92d9d"
 }
