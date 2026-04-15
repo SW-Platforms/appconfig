@@ -59,7 +59,7 @@
       }
     ],
     "displayName": {
-      "en": "STAIOTCRAFT_SDATALOG-1"
+      "en": "STAIOTCRAFT_SDATALOG"
     },
     "@context": [
       "dtmi:iotcentral:context;2",
@@ -874,7 +874,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_mkboxpro:VanillaDL_LSM6D1SV16X_MLC:sensors:lsm6dsv16x_gyro:dimensions;1",
+        "@id": "dtmi:appconfig:steval_mkboxpro:SDATALOG_LSM6D1SV16X_MLC:sensors:lsm6dsv16x_gyro:dimensions;1",
         "@type": [
           "Property",
           "NumberValue"
