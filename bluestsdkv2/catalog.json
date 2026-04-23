@@ -11234,7 +11234,7 @@
             "dtmi": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_SSM;1",
             "fota": {
                 "bootloader_type": "none",
-                "fw_url": null,
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-STAIOTCFT_AI_SSM_1_0_0.bin",
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 0,
                 "partial_fota": 0,
@@ -11243,7 +11243,7 @@
             "fw_name": "FP-SNS-STAIOTCFT_AI_SSM",
             "fw_desc": "STM32Cube function pack for ST AIoT craft application using IoT systems, via BLE",
             "fw_version": "1.0.0",
-            "maturity": "draft",
+            "maturity": "release",
             "option_bytes": [
                 {
                     "name": "Running on:",
@@ -11399,7 +11399,7 @@
             "dtmi": "dtmi:appconfig:steval_mkboxpro:STAIOTCRAFT_AI_SSM;1",
             "fota": {
                 "bootloader_type": "none",
-                "fw_url": null,
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/STAIOTCRAFT_AI_SSM_1_0_0.bin",
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 0,
                 "partial_fota": 0,
@@ -28617,7 +28617,7 @@
             "dtmi": "dtmi:appconfig:steval_mkboxproc:FP_SNS_STAIOTCFT_AI_SSM;1",
             "fota": {
                 "bootloader_type": "none",
-                "fw_url": null,
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxproc/FP-SNS-STAIOTCFT_AI_SSM_1_0_0.bin",
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 0,
                 "partial_fota": 0,
@@ -28626,7 +28626,7 @@
             "fw_name": "FP-SNS-STAIOTCFT_AI_SSM",
             "fw_desc": "STM32Cube function pack for ST AIoT craft application using IoT systems, via BLE",
             "fw_version": "1.0.0",
-            "maturity": "draft",
+            "maturity": "release",
             "option_bytes": [
                 {
                     "name": "Running on:",
@@ -28782,7 +28782,7 @@
             "dtmi": "dtmi:appconfig:steval_mkboxproc:STAIOTCRAFT_AI_SSM;1",
             "fota": {
                 "bootloader_type": "none",
-                "fw_url": null,
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxproc/STAIOTCRAFT_AI_SSM_1_0_0.bin",
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 0,
                 "partial_fota": 0,
@@ -35619,8 +35619,8 @@
             }
         }
     ],
-    "date": "2026-04-23 08:03:46.310799",
+    "date": "2026-04-23 09:28:37.858245",
     "version": "0.11.4",
     "stable_release": false,
-    "checksum": "aa59a8f8450c8e8c074d49ab81ef66da"
+    "checksum": "99961d11c89ecf5727115589c00433b3"
 }
