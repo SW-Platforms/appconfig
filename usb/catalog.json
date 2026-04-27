@@ -2632,7 +2632,7 @@
             "package_id": 455,
             "binary_id": 499,
             "dtmi": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2;4",
-            "dwn_url": null,
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinkt1b/FP-SNS-DATALOG2_Datalog2_3_3_0.bin",
             "fw_page_url": "https://www.st.com/en/embedded-software/fp-sns-datalog2.html"
         },
         {
@@ -2649,7 +2649,7 @@
             "package_id": 456,
             "binary_id": 500,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_PDetect;4",
-            "dwn_url": null,
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_PDetect_3_3_0.bin",
             "fw_page_url": "https://www.st.com/en/embedded-software/fp-sns-datalog2.html"
         },
         {
@@ -2666,7 +2666,7 @@
             "package_id": 455,
             "binary_id": 501,
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2;10",
-            "dwn_url": null,
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_Datalog2_3_3_0.bin",
             "fw_page_url": "https://www.st.com/en/embedded-software/fp-sns-datalog2.html"
         },
         {
@@ -2683,7 +2683,7 @@
             "package_id": 455,
             "binary_id": 502,
             "dtmi": "dtmi:appconfig:steval_mkboxproc:FP_SNS_DATALOG2_Datalog2;8",
-            "dwn_url": null,
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxproc/FP-SNS-DATALOG2_Datalog2_3_3_0.bin",
             "fw_page_url": "https://www.st.com/en/embedded-software/fp-sns-datalog2.html"
         },
         {
@@ -2700,7 +2700,7 @@
             "package_id": 455,
             "binary_id": 503,
             "dtmi": "dtmi:appconfig:steval_mkboxpro:FP_SNS_DATALOG2_Datalog2;8",
-            "dwn_url": null,
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-DATALOG2_Datalog2_3_3_0.bin",
             "fw_page_url": "https://www.st.com/en/embedded-software/fp-sns-datalog2.html"
         },
         {
@@ -2717,7 +2717,7 @@
             "package_id": 457,
             "binary_id": 504,
             "dtmi": "dtmi:appconfig:nucleo_u575zi_q:FP_SNS_DATALOG2_Datalog2_IKS5A1;2",
-            "dwn_url": null,
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-u575zi-q/FP-SNS-DATALOG2_Datalog2-IKS5A1_3_3_0.bin",
             "fw_page_url": "https://www.st.com/en/embedded-software/fp-sns-datalog2.html"
         },
         {
@@ -2734,7 +2734,7 @@
             "package_id": 458,
             "binary_id": 505,
             "dtmi": "dtmi:appconfig:nucleo_u575zi_q:FP_SNS_DATALOG2_Datalog2_IKS4A1;1",
-            "dwn_url": null,
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-u575zi-q/FP-SNS-DATALOG2_Datalog2-IKS4A1_3_3_0.bin",
             "fw_page_url": "https://www.st.com/en/embedded-software/fp-sns-datalog2.html"
         },
         {
@@ -2751,7 +2751,7 @@
             "package_id": 459,
             "binary_id": 506,
             "dtmi": "dtmi:appconfig:nucleo_u575zi_q:FP_SNS_DATALOG2_Datalog2_IKS02A1;1",
-            "dwn_url": null,
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-u575zi-q/FP-SNS-DATALOG2_Datalog2-IKS02A1_3_3_0.bin",
             "fw_page_url": "https://www.st.com/en/embedded-software/fp-sns-datalog2.html"
         },
         {
@@ -2768,7 +2768,7 @@
             "package_id": 457,
             "binary_id": 507,
             "dtmi": "dtmi:appconfig:nucleo_h7a3zi_q:FP_SNS_DATALOG2_Datalog2_IKS5A1;2",
-            "dwn_url": null,
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-h7a3zi-q/FP-SNS-DATALOG2_Datalog2-IKS5A1_3_3_0.bin",
             "fw_page_url": "https://www.st.com/en/embedded-software/fp-sns-datalog2.html"
         },
         {
@@ -2785,7 +2785,7 @@
             "package_id": 458,
             "binary_id": 508,
             "dtmi": "dtmi:appconfig:nucleo_h7a3zi_q:FP_SNS_DATALOG2_Datalog2_IKS4A1;1",
-            "dwn_url": null,
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-h7a3zi-q/FP-SNS-DATALOG2_Datalog2-IKS4A1_3_3_0.bin",
             "fw_page_url": "https://www.st.com/en/embedded-software/fp-sns-datalog2.html"
         },
         {
@@ -2802,7 +2802,7 @@
             "package_id": 459,
             "binary_id": 509,
             "dtmi": "dtmi:appconfig:nucleo_h7a3zi_q:FP_SNS_DATALOG2_Datalog2_IKS02A1;1",
-            "dwn_url": null,
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-h7a3zi-q/FP-SNS-DATALOG2_Datalog2-IKS02A1_3_3_0.bin",
             "fw_page_url": "https://www.st.com/en/embedded-software/fp-sns-datalog2.html"
         },
         {
@@ -2819,7 +2819,7 @@
             "package_id": 455,
             "binary_id": 510,
             "dtmi": "dtmi:appconfig:b_u585i_iot02a:FP_SNS_DATALOG2_Datalog2;1",
-            "dwn_url": null,
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/b-u585i-iot02a/FP-SNS-DATALOG2_Datalog2_3_3_0.bin",
             "fw_page_url": "https://www.st.com/en/embedded-software/fp-sns-datalog2.html"
         },
         {
@@ -2836,7 +2836,7 @@
             "package_id": 455,
             "binary_id": 511,
             "dtmi": "dtmi:appconfig:steval_nbiotv1:FP_SNS_DATALOG2_Datalog2;1",
-            "dwn_url": null,
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-nbiotv1/FP-SNS-DATALOG2_Datalog2_3_3_0.bin",
             "fw_page_url": "https://www.st.com/en/embedded-software/fp-sns-datalog2.html"
         },
         {
@@ -2853,7 +2853,7 @@
             "package_id": 455,
             "binary_id": 512,
             "dtmi": "dtmi:appconfig:steval_afci1:FP_SNS_DATALOG2_Datalog2;1",
-            "dwn_url": null,
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-afci1/FP-SNS-DATALOG2_Datalog2_3_3_0.bin",
             "fw_page_url": "https://www.st.com/en/embedded-software/fp-sns-datalog2.html"
         },
         {
@@ -2870,7 +2870,7 @@
             "package_id": 458,
             "binary_id": 513,
             "dtmi": "dtmi:appconfig:nucleo_h563zi:FP_SNS_DATALOG2_Datalog2_IKS4A1;1",
-            "dwn_url": null,
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-h563zi/FP-SNS-DATALOG2_Datalog2-IKS4A1_3_3_0.bin",
             "fw_page_url": "https://www.st.com/en/embedded-software/fp-sns-datalog2.html"
         },
         {
@@ -2887,7 +2887,7 @@
             "package_id": 457,
             "binary_id": 514,
             "dtmi": "dtmi:appconfig:nucleo_h563zi:FP_SNS_DATALOG2_Datalog2_IKS5A1;1",
-            "dwn_url": null,
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-h563zi/FP-SNS-DATALOG2_Datalog2-IKS5A1_3_3_0.bin",
             "fw_page_url": "https://www.st.com/en/embedded-software/fp-sns-datalog2.html"
         },
         {
@@ -3044,7 +3044,7 @@
             "fw_page_url": ""
         }
     ],
-    "date": "2026-04-24 11:20:06.580628",
+    "date": "2026-04-27 14:31:24.424624",
     "version": "0.11.4",
-    "checksum": "f2d5ded4d9620681266e8d214c9ac1d6"
+    "checksum": "4317ba08a788d37018498234115a27a4"
 }
