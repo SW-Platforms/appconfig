@@ -309,7 +309,7 @@
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr_t:schema:hz7_5;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr_t:schema:hz12_5;1",
               "displayName": {
                 "en": "12.5"
               },
@@ -317,7 +317,7 @@
               "name": "hz12_5"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr_t:schema:hz15;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr_t:schema:hz25;1",
               "displayName": {
                 "en": "25"
               },
@@ -325,7 +325,7 @@
               "name": "hz25"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr_t:schema:hz30;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr_t:schema:hz50;1",
               "displayName": {
                 "en": "50"
               },
@@ -333,7 +333,7 @@
               "name": "hz50"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr_t:schema:hz60;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr_t:schema:hz100;1",
               "displayName": {
                 "en": "100"
               },
@@ -341,7 +341,7 @@
               "name": "hz100"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr_t:schema:hz120;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr_t:schema:hz200;1",
               "displayName": {
                 "en": "200"
               },
@@ -349,7 +349,7 @@
               "name": "hz200"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr_t:schema:hz240;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr_t:schema:hz400;1",
               "displayName": {
                 "en": "400"
               },
@@ -357,7 +357,7 @@
               "name": "hz400"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr_t:schema:hz480;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr_t:schema:hz800;1",
               "displayName": {
                 "en": "800"
               },
@@ -365,7 +365,7 @@
               "name": "hz800"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr_t:schema:hz960;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr_t:schema:hz1600;1",
               "displayName": {
                 "en": "1600"
               },
@@ -373,7 +373,7 @@
               "name": "hz1600"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr_t:schema:hz1920;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr_t:schema:hz3200;1",
               "displayName": {
                 "en": "3200"
               },
@@ -1174,7 +1174,7 @@
         "displayUnit": {
           "en": "Hz"
         },
-        "initialValue": 10
+        "initialValue": 5
       },
       {
         "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr_t;1",
@@ -1194,7 +1194,7 @@
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr_t:schema:hz7_5;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr_t:schema:hz12_5;1",
               "displayName": {
                 "en": "12.5"
               },
@@ -1202,7 +1202,7 @@
               "name": "hz12_5"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr_t:schema:hz15;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr_t:schema:hz25;1",
               "displayName": {
                 "en": "25"
               },
@@ -1210,7 +1210,7 @@
               "name": "hz25"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr_t:schema:hz30;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr_t:schema:hz50;1",
               "displayName": {
                 "en": "50"
               },
@@ -1218,7 +1218,7 @@
               "name": "hz50"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr_t:schema:hz60;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr_t:schema:hz100;1",
               "displayName": {
                 "en": "100"
               },
@@ -1226,7 +1226,7 @@
               "name": "hz100"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr_t:schema:hz120;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr_t:schema:hz200;1",
               "displayName": {
                 "en": "200"
               },
@@ -1234,7 +1234,7 @@
               "name": "hz200"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr_t:schema:hz240;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr_t:schema:hz400;1",
               "displayName": {
                 "en": "400"
               },
@@ -1242,7 +1242,7 @@
               "name": "hz400"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr_t:schema:hz480;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr_t:schema:hz800;1",
               "displayName": {
                 "en": "800"
               },
@@ -1250,7 +1250,7 @@
               "name": "hz800"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr_t:schema:hz960;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr_t:schema:hz1600;1",
               "displayName": {
                 "en": "1600"
               },
@@ -1258,7 +1258,7 @@
               "name": "hz1600"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr_t:schema:hz1920;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr_t:schema:hz3200;1",
               "displayName": {
                 "en": "3200"
               },

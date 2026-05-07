@@ -482,7 +482,7 @@
                     }
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_mkboxpro:STAIOTCRAFT_SDATALOG:sensors:lsm6dsv16x_acc:output_st_stream:schema:channel_specification:schema:protocol;1",
+                    "@id": "dtmi:appconfig:steval_mkboxpro:STAIOTCRAFT_SDATALOG:sensors:lsm6dsv16x_acc:output_st_stream:schema:channel_specification:schema:protocol_type;1",
                     "displayName": {
                       "en": "Protocol Type"
                     },
@@ -572,7 +572,7 @@
                     }
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_mkboxpro:STAIOTCRAFT_SDATALOG:sensors:lsm6dsv16x_acc:output_st_stream:schema:channel_specification:schema:payload:schema:payload_version;1",
+                    "@id": "dtmi:appconfig:steval_mkboxpro:STAIOTCRAFT_SDATALOG:sensors:lsm6dsv16x_acc:output_st_stream:schema:channel_specification:schema:payload_version;1",
                     "displayName": {
                       "en": "Payload Version"
                     },
@@ -874,7 +874,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_mkboxpro:SDATALOG_LSM6D1SV16X_MLC:sensors:lsm6dsv16x_gyro:dimensions;1",
+        "@id": "dtmi:appconfig:steval_mkboxpro:STAIOTCRAFT_SDATALOG:sensors:lsm6dsv16x_gyro:dimensions;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -1041,7 +1041,7 @@
         "displayUnit": {
           "en": "Hz"
         },
-        "initialValue": 10
+        "initialValue": 5
       },
       {
         "@id": "dtmi:appconfig:steval_mkboxpro:STAIOTCRAFT_SDATALOG:sensors:lsm6dsv16x_gyro:fs;1",
@@ -1271,7 +1271,7 @@
                     }
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_mkboxpro:STAIOTCRAFT_SDATALOG:sensors:lsm6dsv16x_gyro:output_st_stream:schema:channel_specification:schema:protocol;1",
+                    "@id": "dtmi:appconfig:steval_mkboxpro:STAIOTCRAFT_SDATALOG:sensors:lsm6dsv16x_gyro:output_st_stream:schema:channel_specification:schema:protocol_type;1",
                     "displayName": {
                       "en": "Protocol Type"
                     },
@@ -1361,7 +1361,7 @@
                     }
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_mkboxpro:STAIOTCRAFT_SDATALOG:sensors:lsm6dsv16x_gyro:output_st_stream:schema:channel_specification:schema:payload:schema:payload_version;1",
+                    "@id": "dtmi:appconfig:steval_mkboxpro:STAIOTCRAFT_SDATALOG:sensors:lsm6dsv16x_gyro:output_st_stream:schema:channel_specification:schema:payload_version;1",
                     "displayName": {
                       "en": "Payload Version"
                     },
