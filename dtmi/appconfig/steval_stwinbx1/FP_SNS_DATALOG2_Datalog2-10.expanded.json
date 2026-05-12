@@ -199,7 +199,7 @@
           "en": "ISM330BX_ACC"
         },
         "name": "ism330bx_acc",
-        "schema": "dtmi:appconfig:steval_stwinbx1:fpSnsDatalog2_datalog2:sensors:ism330bx_acc;2"
+        "schema": "dtmi:appconfig:steval_stwinbx1:fpSnsDatalog2_datalog2:sensors:ism330bx_acc;3"
       },
       {
         "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:ism330bx_gyro;1",
@@ -208,7 +208,7 @@
           "en": "ISM330BX_GYRO"
         },
         "name": "ism330bx_gyro",
-        "schema": "dtmi:appconfig:steval_stwinbx1:fpSnsDatalog2_datalog2:sensors:ism330bx_gyro;2"
+        "schema": "dtmi:appconfig:steval_stwinbx1:fpSnsDatalog2_datalog2:sensors:ism330bx_gyro;3"
       },
       {
         "@id": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2:ism330bx_mlc;1",
@@ -4362,7 +4362,7 @@
         "unit": "degreeCelsius",
         "writable": false,
         "displayUnit": {
-          "en": "°C"
+                    "en": "\u00b0C"
         }
       },
       {
@@ -7889,7 +7889,7 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinbx1:fpSnsDatalog2_datalog2:sensors:ism330bx_acc;2",
+    "@id": "dtmi:appconfig:steval_stwinbx1:fpSnsDatalog2_datalog2:sensors:ism330bx_acc;3",
     "@type": "Interface",
     "contents": [
       {
@@ -7988,14 +7988,6 @@
               },
               "enumValue": 9,
               "name": "hz3840"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fpSnsDatalog2_datalog2:sensors:ism330bx_acc:odr:schema:hz7680;1",
-              "displayName": {
-                "en": "7680"
-              },
-              "enumValue": 10,
-              "name": "hz7680"
             }
           ],
           "valueSchema": "integer"
@@ -8005,7 +7997,7 @@
         "displayUnit": {
           "en": "Hz"
         },
-        "initialValue": 10
+        "initialValue": 9
       },
       {
         "@id": "dtmi:appconfig:steval_stwinbx1:fpSnsDatalog2_datalog2:sensors:ism330bx_acc:fs;1",
@@ -8335,7 +8327,7 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinbx1:fpSnsDatalog2_datalog2:sensors:ism330bx_gyro;2",
+    "@id": "dtmi:appconfig:steval_stwinbx1:fpSnsDatalog2_datalog2:sensors:ism330bx_gyro;3",
     "@type": "Interface",
     "contents": [
       {
@@ -8434,14 +8426,6 @@
               },
               "enumValue": 9,
               "name": "hz3840"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:fpSnsDatalog2_datalog2:sensors:ism330bx_gyro:odr:schema:hz7680;1",
-              "displayName": {
-                "en": "7680"
-              },
-              "enumValue": 10,
-              "name": "hz7680"
             }
           ],
           "valueSchema": "integer"
@@ -8451,7 +8435,7 @@
         "displayUnit": {
           "en": "Hz"
         },
-        "initialValue": 10
+        "initialValue": 9
       },
       {
         "@id": "dtmi:appconfig:steval_stwinbx1:fpSnsDatalog2_datalog2:sensors:ism330bx_gyro:fs;1",
@@ -12009,7 +11993,7 @@
         "unit": "degreeCelsius",
         "writable": false,
         "displayUnit": {
-          "en": "°C"
+                    "en": "\u00b0C"
         }
       },
       {
@@ -12385,7 +12369,7 @@
         "unit": "microsecond",
         "writable": true,
         "displayUnit": {
-          "en": "µs"
+                    "en": "\u00b5s"
         },
         "initialValue": 6
       },
