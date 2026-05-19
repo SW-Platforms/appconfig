@@ -596,37 +596,6 @@
             ]
           }
         }
-      },
-      {
-        "@id": "dtmi:appconfig:steval_mkboxproc:STAIOTCRAFT_AI_SSM:applications:controller:set_heartbeat_timeout;1",
-        "@type": "Command",
-        "commandType": "synchronous",
-        "displayName": {
-          "en": "Set Heartbeat Timeout"
-        },
-        "name": "set_heartbeat_timeout",
-        "request": {
-          "@type": "CommandPayload",
-          "displayName": {
-            "en": "Arguments"
-          },
-          "name": "arguments",
-          "schema": {
-            "@type": "Object",
-            "displayName": {
-              "en": "Object"
-            },
-            "fields": [
-              {
-                "displayName": {
-                  "en": "Timeout S."
-                },
-                "name": "timeout_s",
-                "schema": "integer"
-              }
-            ]
-          }
-        }
       }
     ],
     "displayName": {
