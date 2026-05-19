@@ -1041,7 +1041,7 @@
         "displayUnit": {
           "en": "Hz"
         },
-        "initialValue": 10
+        "initialValue": 5
       },
       {
         "@id": "dtmi:appconfig:steval_mkboxproc:STAIOTCRAFT_SDATALOG:sensors:lsm6dsv16x_gyro:fs;1",

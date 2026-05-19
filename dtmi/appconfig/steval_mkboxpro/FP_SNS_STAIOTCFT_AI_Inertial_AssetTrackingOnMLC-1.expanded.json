@@ -1,82 +1,64 @@
 [
   {
-    "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial;1",
+    "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC;1",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:ism330dhcx_acc;1",
+        "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:lsm6dsv16x_acc;1",
         "@type": "Component",
         "displayName": {
-          "en": "ISM330DHCX_ACC"
+          "en": "LSM6DSV16X_ACC"
         },
-        "name": "ism330dhcx_acc",
-        "schema": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_acc;1"
+        "name": "lsm6dsv16x_acc",
+        "schema": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_acc;1"
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:ism330dhcx_gyro;1",
+        "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:lsm6dsv16x_gyro;1",
         "@type": "Component",
         "displayName": {
-          "en": "ISM330DHCX_GYRO"
+          "en": "LSM6DSV16X_GYRO"
         },
-        "name": "ism330dhcx_gyro",
-        "schema": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_gyro;1"
+        "name": "lsm6dsv16x_gyro",
+        "schema": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_gyro;1"
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:iis2iclx_acc;1",
+        "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:lsm6dsv16x_mlc;1",
         "@type": "Component",
         "displayName": {
-          "en": "IIS2ICLX_ACC"
+          "en": "LSM6DSV16X_MLC"
         },
-        "name": "iis2iclx_acc",
-        "schema": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:iis2iclx_acc;1"
+        "name": "lsm6dsv16x_mlc",
+        "schema": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_mlc;1"
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:ism330dhcx_mlc;1",
-        "@type": "Component",
-        "displayName": {
-          "en": "ISM330DHCX_MLC"
-        },
-        "name": "ism330dhcx_mlc",
-        "schema": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_mlc;1"
-      },
-      {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:iis2iclx_mlc;1",
-        "@type": "Component",
-        "displayName": {
-          "en": "IIS2ICLX_MLC"
-        },
-        "name": "iis2iclx_mlc",
-        "schema": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:iis2iclx_mlc;1"
-      },
-      {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:ism330is_ispu;1",
+        "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:ism330is_ispu;1",
         "@type": "Component",
         "displayName": {
           "en": "ISM330IS_ISPU"
         },
         "name": "ism330is_ispu",
-        "schema": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330is_ispu;1"
+        "schema": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:ism330is_ispu;1"
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:inference_mcu;1",
+        "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:inference_mcu;1",
         "@type": "Component",
         "displayName": {
           "en": "Inference_MCU"
         },
         "name": "inference_mcu",
-        "schema": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:custom:inference_mcu;1"
+        "schema": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:custom:inference_mcu;1"
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:controller;1",
+        "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:controller;1",
         "@type": "Component",
         "displayName": {
           "en": "Controller"
         },
         "name": "controller",
-        "schema": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:applications:controller;1"
+        "schema": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:applications:controller;1"
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:device_information;1",
+        "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:device_information;1",
         "@type": "Component",
         "displayName": {
           "en": "Device Information"
@@ -85,7 +67,7 @@
         "schema": "dtmi:azure:DeviceManagement:DeviceInformation;1"
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:firmware_information;1",
+        "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:firmware_information;1",
         "@type": "Component",
         "displayName": {
           "en": "Firmware Information"
@@ -95,7 +77,7 @@
       }
     ],
     "displayName": {
-      "en": "STAIOTCRAFT_AI_Inertial"
+      "en": "FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC"
     },
     "@context": [
       "dtmi:iotcentral:context;2",
@@ -107,11 +89,11 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_acc;1",
+    "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_acc;1",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_acc:odr;1",
+        "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_acc:odr;1",
         "@type": [
           "Property",
           "Initialized"
@@ -121,91 +103,99 @@
         },
         "name": "odr",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_acc:odr:schema;1",
+          "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_acc:odr:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_acc:odr:schema:hz12_5;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_acc:odr:schema:hz7_5;1",
               "displayName": {
-                "en": "12.5"
+                "en": "7.5"
               },
               "enumValue": 0,
-              "name": "hz12_5"
+              "name": "hz7_5"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_acc:odr:schema:hz26;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_acc:odr:schema:hz15;1",
               "displayName": {
-                "en": "26"
+                "en": "15"
               },
               "enumValue": 1,
-              "name": "hz26"
+              "name": "hz15"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_acc:odr:schema:hz52;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_acc:odr:schema:hz30;1",
               "displayName": {
-                "en": "52"
+                "en": "30"
               },
               "enumValue": 2,
-              "name": "hz52"
+              "name": "hz30"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_acc:odr:schema:hz104;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_acc:odr:schema:hz60;1",
               "displayName": {
-                "en": "104"
+                "en": "60"
               },
               "enumValue": 3,
-              "name": "hz104"
+              "name": "hz60"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_acc:odr:schema:hz208;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_acc:odr:schema:hz120;1",
               "displayName": {
-                "en": "208"
+                "en": "120"
               },
               "enumValue": 4,
-              "name": "hz208"
+              "name": "hz120"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_acc:odr:schema:hz416;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_acc:odr:schema:hz240;1",
               "displayName": {
-                "en": "416"
+                "en": "240"
               },
               "enumValue": 5,
-              "name": "hz416"
+              "name": "hz240"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_acc:odr:schema:hz833;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_acc:odr:schema:hz480;1",
               "displayName": {
-                "en": "833"
+                "en": "480"
               },
               "enumValue": 6,
-              "name": "hz833"
+              "name": "hz480"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_acc:odr:schema:hz1666;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_acc:odr:schema:hz960;1",
               "displayName": {
-                "en": "1666"
+                "en": "960"
               },
               "enumValue": 7,
-              "name": "hz1666"
+              "name": "hz960"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_acc:odr:schema:hz3332;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_acc:odr:schema:hz1920;1",
               "displayName": {
-                "en": "3332"
+                "en": "1920"
               },
               "enumValue": 8,
-              "name": "hz3332"
+              "name": "hz1920"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_acc:odr:schema:hz6667;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_acc:odr:schema:hz3840;1",
               "displayName": {
-                "en": "6667"
+                "en": "3840"
               },
               "enumValue": 9,
-              "name": "hz6667"
+              "name": "hz3840"
+            },
+            {
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_acc:odr:schema:hz7680;1",
+              "displayName": {
+                "en": "7680"
+              },
+              "enumValue": 10,
+              "name": "hz7680"
             }
           ],
           "valueSchema": "integer"
@@ -215,10 +205,10 @@
         "displayUnit": {
           "en": "Hz"
         },
-        "initialValue": 9
+        "initialValue": 10
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_acc:fs;1",
+        "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_acc:fs;1",
         "@type": [
           "Property",
           "Initialized"
@@ -228,14 +218,14 @@
         },
         "name": "fs",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_acc:fs:schema;1",
+          "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_acc:fs:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_acc:fs:schema:g2;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_acc:fs:schema:g2;1",
               "displayName": {
                 "en": "2"
               },
@@ -243,7 +233,7 @@
               "name": "g2"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_acc:fs:schema:g4;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_acc:fs:schema:g4;1",
               "displayName": {
                 "en": "4"
               },
@@ -251,7 +241,7 @@
               "name": "g4"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_acc:fs:schema:g8;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_acc:fs:schema:g8;1",
               "displayName": {
                 "en": "8"
               },
@@ -259,7 +249,7 @@
               "name": "g8"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_acc:fs:schema:g16;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_acc:fs:schema:g16;1",
               "displayName": {
                 "en": "16"
               },
@@ -278,7 +268,7 @@
       }
     ],
     "displayName": {
-      "en": "ISM330DHCX_ACC"
+      "en": "LSM6DSV16X_ACC"
     }
   },
   {
@@ -286,11 +276,11 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_gyro;1",
+    "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_gyro;1",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_gyro:odr;1",
+        "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_gyro:odr;1",
         "@type": [
           "Property",
           "Initialized"
@@ -300,91 +290,99 @@
         },
         "name": "odr",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_gyro:odr:schema;1",
+          "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_gyro:odr:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_gyro:odr:schema:hz12_5;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_gyro:odr:schema:hz7_5;1",
               "displayName": {
-                "en": "12.5"
+                "en": "7.5"
               },
               "enumValue": 0,
-              "name": "hz12_5"
+              "name": "hz7_5"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_gyro:odr:schema:hz26;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_gyro:odr:schema:hz15;1",
               "displayName": {
-                "en": "26"
+                "en": "15"
               },
               "enumValue": 1,
-              "name": "hz26"
+              "name": "hz15"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_gyro:odr:schema:hz52;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_gyro:odr:schema:hz30;1",
               "displayName": {
-                "en": "52"
+                "en": "30"
               },
               "enumValue": 2,
-              "name": "hz52"
+              "name": "hz30"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_gyro:odr:schema:hz104;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_gyro:odr:schema:hz60;1",
               "displayName": {
-                "en": "104"
+                "en": "60"
               },
               "enumValue": 3,
-              "name": "hz104"
+              "name": "hz60"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_gyro:odr:schema:hz208;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_gyro:odr:schema:hz120;1",
               "displayName": {
-                "en": "208"
+                "en": "120"
               },
               "enumValue": 4,
-              "name": "hz208"
+              "name": "hz120"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_gyro:odr:schema:hz416;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_gyro:odr:schema:hz240;1",
               "displayName": {
-                "en": "416"
+                "en": "240"
               },
               "enumValue": 5,
-              "name": "hz416"
+              "name": "hz240"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_gyro:odr:schema:hz833;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_gyro:odr:schema:hz480;1",
               "displayName": {
-                "en": "833"
+                "en": "480"
               },
               "enumValue": 6,
-              "name": "hz833"
+              "name": "hz480"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_gyro:odr:schema:hz1666;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_gyro:odr:schema:hz960;1",
               "displayName": {
-                "en": "1666"
+                "en": "960"
               },
               "enumValue": 7,
-              "name": "hz1666"
+              "name": "hz960"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_gyro:odr:schema:hz3332;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_gyro:odr:schema:hz1920;1",
               "displayName": {
-                "en": "3332"
+                "en": "1920"
               },
               "enumValue": 8,
-              "name": "hz3332"
+              "name": "hz1920"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_gyro:odr:schema:hz6667;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_gyro:odr:schema:hz3840;1",
               "displayName": {
-                "en": "6667"
+                "en": "3840"
               },
               "enumValue": 9,
-              "name": "hz6667"
+              "name": "hz3840"
+            },
+            {
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_gyro:odr:schema:hz7680;1",
+              "displayName": {
+                "en": "7680"
+              },
+              "enumValue": 10,
+              "name": "hz7680"
             }
           ],
           "valueSchema": "integer"
@@ -394,10 +392,10 @@
         "displayUnit": {
           "en": "Hz"
         },
-        "initialValue": 9
+        "initialValue": 10
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_gyro:fs;1",
+        "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_gyro:fs;1",
         "@type": [
           "Property",
           "Initialized"
@@ -407,14 +405,14 @@
         },
         "name": "fs",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_gyro:fs:schema;1",
+          "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_gyro:fs:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_gyro:fs:schema:dps125;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_gyro:fs:schema:dps125;1",
               "displayName": {
                 "en": "125"
               },
@@ -422,7 +420,7 @@
               "name": "dps125"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_gyro:fs:schema:dps250;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_gyro:fs:schema:dps250;1",
               "displayName": {
                 "en": "250"
               },
@@ -430,7 +428,7 @@
               "name": "dps250"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_gyro:fs:schema:dps500;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_gyro:fs:schema:dps500;1",
               "displayName": {
                 "en": "500"
               },
@@ -438,7 +436,7 @@
               "name": "dps500"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_gyro:fs:schema:dps1000;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_gyro:fs:schema:dps1000;1",
               "displayName": {
                 "en": "1000"
               },
@@ -446,7 +444,7 @@
               "name": "dps1000"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_gyro:fs:schema:dps2000;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_gyro:fs:schema:dps2000;1",
               "displayName": {
                 "en": "2000"
               },
@@ -454,7 +452,7 @@
               "name": "dps2000"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_gyro:fs:schema:dps4000;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_gyro:fs:schema:dps4000;1",
               "displayName": {
                 "en": "4000"
               },
@@ -473,7 +471,7 @@
       }
     ],
     "displayName": {
-      "en": "ISM330DHCX_GYRO"
+      "en": "LSM6DSV16X_GYRO"
     }
   },
   {
@@ -481,166 +479,11 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:iis2iclx_acc;1",
+    "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_mlc;1",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:iis2iclx_acc:odr;1",
-        "@type": [
-          "Property",
-          "Initialized"
-        ],
-        "displayName": {
-          "en": "ODR"
-        },
-        "name": "odr",
-        "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:iis2iclx_acc:odr:schema;1",
-          "@type": "Enum",
-          "displayName": {
-            "en": "Enum"
-          },
-          "enumValues": [
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:iis2iclx_acc:odr:schema:hz12_5;1",
-              "displayName": {
-                "en": "12.5"
-              },
-              "enumValue": 0,
-              "name": "hz12_5"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:iis2iclx_acc:odr:schema:hz26;1",
-              "displayName": {
-                "en": "26"
-              },
-              "enumValue": 1,
-              "name": "hz26"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:iis2iclx_acc:odr:schema:hz52;1",
-              "displayName": {
-                "en": "52"
-              },
-              "enumValue": 2,
-              "name": "hz52"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:iis2iclx_acc:odr:schema:hz104;1",
-              "displayName": {
-                "en": "104"
-              },
-              "enumValue": 3,
-              "name": "hz104"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:iis2iclx_acc:odr:schema:hz208;1",
-              "displayName": {
-                "en": "208"
-              },
-              "enumValue": 4,
-              "name": "hz208"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:iis2iclx_acc:odr:schema:hz416;1",
-              "displayName": {
-                "en": "416"
-              },
-              "enumValue": 5,
-              "name": "hz416"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:iis2iclx_acc:odr:schema:hz833;1",
-              "displayName": {
-                "en": "833"
-              },
-              "enumValue": 6,
-              "name": "hz833"
-            }
-          ],
-          "valueSchema": "integer"
-        },
-        "unit": "hertz",
-        "writable": false,
-        "displayUnit": {
-          "en": "Hz"
-        },
-        "initialValue": 6
-      },
-      {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:iis2iclx_acc:fs;1",
-        "@type": [
-          "Property",
-          "Initialized"
-        ],
-        "displayName": {
-          "en": "FS"
-        },
-        "name": "fs",
-        "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:iis2iclx_acc:fs:schema;1",
-          "@type": "Enum",
-          "displayName": {
-            "en": "Enum"
-          },
-          "enumValues": [
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:iis2iclx_acc:fs:schema:g0_5;1",
-              "displayName": {
-                "en": "0.5"
-              },
-              "enumValue": 0,
-              "name": "g0_5"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:iis2iclx_acc:fs:schema:g1;1",
-              "displayName": {
-                "en": "1"
-              },
-              "enumValue": 1,
-              "name": "g1"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:iis2iclx_acc:fs:schema:g2;1",
-              "displayName": {
-                "en": "2"
-              },
-              "enumValue": 2,
-              "name": "g2"
-            },
-            {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:iis2iclx_acc:fs:schema:g3;1",
-              "displayName": {
-                "en": "3"
-              },
-              "enumValue": 3,
-              "name": "g3"
-            }
-          ],
-          "valueSchema": "integer"
-        },
-        "unit": "gForce",
-        "writable": false,
-        "displayUnit": {
-          "en": "g"
-        },
-        "initialValue": 3
-      }
-    ],
-    "displayName": {
-      "en": "IIS2ICLX_ACC"
-    }
-  },
-  {
-    "@context": [
-      "dtmi:iotcentral:context;2",
-      "dtmi:dtdl:context;2"
-    ],
-    "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_mlc;1",
-    "@type": "Interface",
-    "contents": [
-      {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_mlc:enable;1",
+        "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_mlc:enable;1",
         "@type": [
           "Property",
           "BooleanValue"
@@ -653,7 +496,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_mlc:model_filename;1",
+        "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_mlc:model_filename;1",
         "@type": [
           "Property",
           "StringValue"
@@ -666,7 +509,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_mlc:label_id;1",
+        "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_mlc:label_id;1",
         "@type": [
           "Telemetry",
           "State"
@@ -680,11 +523,11 @@
         },
         "name": "label_id",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_mlc:label_id:schema;1",
+          "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_mlc:label_id:schema;1",
           "@type": "Enum",
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_mlc:label_id:schema:stationary_upright;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_mlc:label_id:schema:stationary_upright;1",
               "displayName": {
                 "en": "Stationary Upright"
               },
@@ -692,7 +535,7 @@
               "name": "stationary_upright"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_mlc:label_id:schema:stationary_not_upright;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_mlc:label_id:schema:stationary_not_upright;1",
               "displayName": {
                 "en": "Stationary Not upright"
               },
@@ -700,7 +543,7 @@
               "name": "stationary_not_upright"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_mlc:label_id:schema:motion;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_mlc:label_id:schema:motion;1",
               "displayName": {
                 "en": "Motion"
               },
@@ -708,7 +551,7 @@
               "name": "motion"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_mlc:label_id:schema:shaken;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_mlc:label_id:schema:shaken;1",
               "displayName": {
                 "en": "Shaken"
               },
@@ -720,7 +563,7 @@
         }
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_mlc:load_model;1",
+        "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_mlc:load_model;1",
         "@type": "Command",
         "commandType": "synchronous",
         "displayName": {
@@ -765,7 +608,7 @@
         }
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_mlc:start_inference;1",
+        "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_mlc:start_inference;1",
         "@type": "Command",
         "commandType": "synchronous",
         "displayName": {
@@ -774,7 +617,7 @@
         "name": "start_inference"
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330dhcx_mlc:stop_inference;1",
+        "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:lsm6dsv16x_mlc:stop_inference;1",
         "@type": "Command",
         "commandType": "synchronous",
         "displayName": {
@@ -784,7 +627,7 @@
       }
     ],
     "displayName": {
-      "en": "ISM330DHCX_MLC"
+      "en": "LSM6DSV16X_MLC"
     }
   },
   {
@@ -792,11 +635,11 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:iis2iclx_mlc;1",
+    "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:ism330is_ispu;1",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:iis2iclx_mlc:enable;1",
+        "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:ism330is_ispu:enable;1",
         "@type": [
           "Property",
           "BooleanValue"
@@ -809,125 +652,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:iis2iclx_mlc:model_filename;1",
-        "@type": [
-          "Property",
-          "StringValue"
-        ],
-        "displayName": {
-          "en": "Model Filename"
-        },
-        "name": "model_filename",
-        "schema": "string",
-        "writable": false
-      },
-      {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:iis2iclx_mlc:label_id;1",
-        "@type": [
-          "Telemetry",
-          "State"
-        ],
-        "comment": "TEXT",
-        "description": {
-          "en": "Tilt Angle"
-        },
-        "displayName": {
-          "en": "Label ID"
-        },
-        "name": "label_id",
-        "schema": "integer"
-      },
-      {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:iis2iclx_mlc:load_model;1",
-        "@type": "Command",
-        "commandType": "synchronous",
-        "displayName": {
-          "en": "Load Model"
-        },
-        "name": "load_model",
-        "request": {
-          "@type": "CommandPayload",
-          "displayName": {
-            "en": "Arguments"
-          },
-          "name": "arguments",
-          "schema": {
-            "@type": "Object",
-            "displayName": {
-              "en": "Object"
-            },
-            "fields": [
-              {
-                "displayName": {
-                  "en": "Filename"
-                },
-                "name": "filename",
-                "schema": "string"
-              },
-              {
-                "displayName": {
-                  "en": "Size"
-                },
-                "name": "size",
-                "schema": "integer"
-              },
-              {
-                "displayName": {
-                  "en": "Content "
-                },
-                "name": "content",
-                "schema": "string"
-              }
-            ]
-          }
-        }
-      },
-      {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:iis2iclx_mlc:start_inference;1",
-        "@type": "Command",
-        "commandType": "synchronous",
-        "displayName": {
-          "en": "Start Inference"
-        },
-        "name": "start_inference"
-      },
-      {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:iis2iclx_mlc:stop_inference;1",
-        "@type": "Command",
-        "commandType": "synchronous",
-        "displayName": {
-          "en": "Stop Inference"
-        },
-        "name": "stop_inference"
-      }
-    ],
-    "displayName": {
-      "en": "IIS2ICLX_MLC"
-    }
-  },
-  {
-    "@context": [
-      "dtmi:iotcentral:context;2",
-      "dtmi:dtdl:context;2"
-    ],
-    "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330is_ispu;1",
-    "@type": "Interface",
-    "contents": [
-      {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330is_ispu:enable;1",
-        "@type": [
-          "Property",
-          "BooleanValue"
-        ],
-        "displayName": {
-          "en": "Enable"
-        },
-        "name": "enable",
-        "schema": "boolean",
-        "writable": false
-      },
-      {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330is_ispu:mounted;1",
+        "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:ism330is_ispu:mounted;1",
         "@type": [
           "Property",
           "BooleanValue"
@@ -940,7 +665,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330is_ispu:model_filename;1",
+        "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:ism330is_ispu:model_filename;1",
         "@type": [
           "Property",
           "StringValue"
@@ -953,7 +678,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330is_ispu:label_id;1",
+        "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:ism330is_ispu:label_id;1",
         "@type": [
           "Telemetry",
           "State"
@@ -967,11 +692,11 @@
         },
         "name": "label_id",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330is_ispu:label_id:schema;1",
+          "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:ism330is_ispu:label_id:schema;1",
           "@type": "Enum",
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330is_ispu:label_id:schema:still;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:ism330is_ispu:label_id:schema:still;1",
               "displayName": {
                 "en": "Still"
               },
@@ -979,7 +704,7 @@
               "name": "still"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330is_ispu:label_id:schema:walk;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:ism330is_ispu:label_id:schema:walk;1",
               "displayName": {
                 "en": "Walk"
               },
@@ -987,7 +712,7 @@
               "name": "walk"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330is_ispu:label_id:schema:fastwalk;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:ism330is_ispu:label_id:schema:fastwalk;1",
               "displayName": {
                 "en": "Fastwalk"
               },
@@ -999,7 +724,7 @@
         }
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330is_ispu:load_model;1",
+        "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:ism330is_ispu:load_model;1",
         "@type": "Command",
         "commandType": "synchronous",
         "displayName": {
@@ -1044,7 +769,7 @@
         }
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330is_ispu:start_inference;1",
+        "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:ism330is_ispu:start_inference;1",
         "@type": "Command",
         "commandType": "synchronous",
         "displayName": {
@@ -1053,7 +778,7 @@
         "name": "start_inference"
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:sensors:ism330is_ispu:stop_inference;1",
+        "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:sensors:ism330is_ispu:stop_inference;1",
         "@type": "Command",
         "commandType": "synchronous",
         "displayName": {
@@ -1063,7 +788,7 @@
       }
     ],
     "displayName": {
-      "en": "ISM330IS_ISPU"
+      "en": "ISM330IS ISPU"
     }
   },
   {
@@ -1071,11 +796,11 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:custom:inference_mcu;1",
+    "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:custom:inference_mcu;1",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:custom:inference_mcu:enable;1",
+        "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:custom:inference_mcu:enable;1",
         "@type": [
           "Property",
           "BooleanValue"
@@ -1088,7 +813,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:custom:inference_mcu:model_filename;1",
+        "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:custom:inference_mcu:model_filename;1",
         "@type": [
           "Property",
           "StringValue"
@@ -1101,7 +826,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:custom:inference_mcu:label_id;1",
+        "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:custom:inference_mcu:label_id;1",
         "@type": [
           "Telemetry",
           "State"
@@ -1115,14 +840,14 @@
         },
         "name": "label_id",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:custom:inference_mcu:label_id:schema;1",
+          "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:custom:inference_mcu:label_id:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:custom:inference_mcu:label_id:schema:slow;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:custom:inference_mcu:label_id:schema:slow;1",
               "displayName": {
                 "en": "Slow"
               },
@@ -1130,7 +855,7 @@
               "name": "slow"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:custom:inference_mcu:label_id:schema:fast;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:custom:inference_mcu:label_id:schema:fast;1",
               "displayName": {
                 "en": "Fast"
               },
@@ -1138,7 +863,7 @@
               "name": "fast"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:custom:inference_mcu:label_id:schema:slow_with_disturbance;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:custom:inference_mcu:label_id:schema:slow_with_disturbance;1",
               "displayName": {
                 "en": "Slow with disturbance"
               },
@@ -1146,7 +871,7 @@
               "name": "slow_with_disturbance"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:custom:inference_mcu:label_id:schema:fast_with_disturbance;1",
+              "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:custom:inference_mcu:label_id:schema:fast_with_disturbance;1",
               "displayName": {
                 "en": "Fast with disturbance"
               },
@@ -1158,7 +883,7 @@
         }
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:custom:inference_mcu:accuracy;1",
+        "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:custom:inference_mcu:accuracy;1",
         "@type": [
           "Telemetry",
           "NumberValue"
@@ -1172,7 +897,7 @@
         "unit": "percent"
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:custom:inference_mcu:start_inference;1",
+        "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:custom:inference_mcu:start_inference;1",
         "@type": "Command",
         "commandType": "synchronous",
         "displayName": {
@@ -1181,7 +906,7 @@
         "name": "start_inference"
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:custom:inference_mcu:stop_inference;1",
+        "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:custom:inference_mcu:stop_inference;1",
         "@type": "Command",
         "commandType": "synchronous",
         "displayName": {
@@ -1199,11 +924,11 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:applications:controller;1",
+    "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:applications:controller;1",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:applications:controller:set_dfu_mode;1",
+        "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:applications:controller:set_dfu_mode;1",
         "@type": "Command",
         "commandType": "synchronous",
         "displayName": {
@@ -1212,7 +937,7 @@
         "name": "set_dfu_mode"
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinbx1:STAIOTCRAFT_AI_Inertial:applications:controller:switch_bank;1",
+        "@id": "dtmi:appconfig:steval_mkboxpro:FP_SNS_STAIOTCFT_AI_Inertial_AssetTrackingOnMLC:applications:controller:switch_bank;1",
         "@type": "Command",
         "commandType": "synchronous",
         "displayName": {
