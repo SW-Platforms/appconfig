@@ -3057,7 +3057,7 @@
             "package_id": 466,
             "binary_id": 531,
             "dtmi": "dtmi:appconfig:nucleo_u575zi_q:STAIOTCRAFT_AI_Inertial;1",
-            "dwn_url": null,
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-u575zi-q/STAIOTCRAFT_AI_Inertial_1_0_0.bin",
             "fw_page_url": ""
         },
         {
@@ -3112,7 +3112,7 @@
             "fw_page_url": ""
         }
     ],
-    "date": "2026-05-19 14:58:26.130637",
+    "date": "2026-05-20 12:24:13.374759",
     "version": "0.11.4",
-    "checksum": "4c42d115b97f55b197652fbb253f3993"
+    "checksum": "001e5e92ac0a2a1f731e94da556a2c6e"
 }
