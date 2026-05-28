@@ -33554,6 +33554,13 @@
                     "type": "magnetometer",
                     "description": null,
                     "ai_sensor": "none"
+                },
+                {
+                    "id": 52,
+                    "component": "LIS2DUX12",
+                    "type": "accelerometer",
+                    "description": "Ultralow-power 3-axis smart accelerometer with AI",
+                    "ai_sensor": "MLCv2"
                 }
             ]
         },
@@ -36773,8 +36780,8 @@
             }
         }
     ],
-    "date": "2026-05-20 12:24:30.353485",
-    "version": "0.11.4",
+    "date": "2026-05-28 10:12:16.437796",
+    "version": "0.12.7",
     "stable_release": false,
-    "checksum": "b09ec538645a42de5db130d4f27aba43"
+    "checksum": "8c79714350aa56fd147bbdb3feccc0b8"
 }
