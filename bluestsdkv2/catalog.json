@@ -11408,7 +11408,7 @@
             "fw_name": "STAIOTCRAFT_AI_SSM",
             "fw_desc": "Smart Sensor Monitoring for STAIOTCRAFT",
             "fw_version": "1.0.0",
-            "maturity": "draft",
+            "maturity": "release",
             "option_bytes": [
                 {
                     "name": "Running on:",
@@ -11782,7 +11782,7 @@
             "fw_name": "STSW-MKBOXPRO Entry/Expert Mode",
             "fw_desc": "Fw supporting app creation with ST BLE Sensor app",
             "fw_version": "1.4.1",
-            "maturity": "draft",
+            "maturity": "release",
             "option_bytes": [
                 {
                     "name": "adapter mounted: ",
@@ -29368,7 +29368,7 @@
             "fw_name": "STAIOTCRAFT_AI_SSM",
             "fw_desc": "Smart Sensor Monitoring for STAIOTCRAFT",
             "fw_version": "1.0.0",
-            "maturity": "draft",
+            "maturity": "release",
             "option_bytes": [
                 {
                     "name": "Running on:",
@@ -29742,7 +29742,7 @@
             "fw_name": "STSW-MKBOXPRO Entry/Expert Mode",
             "fw_desc": "Fw supporting app creation with ST BLE Sensor app",
             "fw_version": "1.4.1",
-            "maturity": "draft",
+            "maturity": "release",
             "option_bytes": [
                 {
                     "name": "adapter mounted: ",
@@ -33554,6 +33554,13 @@
                     "type": "magnetometer",
                     "description": null,
                     "ai_sensor": "none"
+                },
+                {
+                    "id": 52,
+                    "component": "LIS2DUX12",
+                    "type": "accelerometer",
+                    "description": "Ultralow-power 3-axis smart accelerometer with AI",
+                    "ai_sensor": "MLCv2"
                 }
             ]
         },
@@ -36773,8 +36780,8 @@
             }
         }
     ],
-    "date": "2026-05-19 08:58:48.484874",
-    "version": "0.11.4",
+    "date": "2026-05-29 09:54:24.233379",
+    "version": "0.12.8",
     "stable_release": false,
-    "checksum": "b09ec538645a42de5db130d4f27aba43"
+    "checksum": "18600de9688471b03a1de4e627c50362"
 }
