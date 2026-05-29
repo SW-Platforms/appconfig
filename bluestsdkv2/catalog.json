@@ -11078,7 +11078,7 @@
             "fw_name": "AI-SSM",
             "fw_desc": "AI Smart Sensor Monitoring with BLE support",
             "fw_version": "1.0.0",
-            "maturity": "demo",
+            "maturity": "release",
             "option_bytes": [
                 {
                     "name": "Running on:",
@@ -11408,7 +11408,7 @@
             "fw_name": "STAIOTCRAFT_AI_SSM",
             "fw_desc": "Smart Sensor Monitoring for STAIOTCRAFT",
             "fw_version": "1.0.0",
-            "maturity": "draft",
+            "maturity": "release",
             "option_bytes": [
                 {
                     "name": "Running on:",
@@ -29038,7 +29038,7 @@
             "fw_name": "AI-SSM",
             "fw_desc": "AI Smart Sensor Monitoring with BLE support",
             "fw_version": "1.0.0",
-            "maturity": "demo",
+            "maturity": "release",
             "option_bytes": [
                 {
                     "name": "Running on:",
@@ -29368,7 +29368,7 @@
             "fw_name": "STAIOTCRAFT_AI_SSM",
             "fw_desc": "Smart Sensor Monitoring for STAIOTCRAFT",
             "fw_version": "1.0.0",
-            "maturity": "draft",
+            "maturity": "release",
             "option_bytes": [
                 {
                     "name": "Running on:",
@@ -36780,8 +36780,8 @@
             }
         }
     ],
-    "date": "2026-05-29 09:30:30.564997",
+    "date": "2026-05-29 09:54:24.233379",
     "version": "0.12.8",
     "stable_release": false,
-    "checksum": "8c79714350aa56fd147bbdb3feccc0b8"
+    "checksum": "18600de9688471b03a1de4e627c50362"
 }
