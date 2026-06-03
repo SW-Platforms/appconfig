@@ -11078,7 +11078,7 @@
             "fw_name": "AI-SSM",
             "fw_desc": "AI Smart Sensor Monitoring with BLE support",
             "fw_version": "1.0.0",
-            "maturity": "release",
+            "maturity": "demo",
             "option_bytes": [
                 {
                     "name": "Running on:",
@@ -11782,7 +11782,7 @@
             "fw_name": "STSW-MKBOXPRO Entry/Expert Mode",
             "fw_desc": "Fw supporting app creation with ST BLE Sensor app",
             "fw_version": "1.4.1",
-            "maturity": "draft",
+            "maturity": "release",
             "option_bytes": [
                 {
                     "name": "adapter mounted: ",
@@ -29038,7 +29038,7 @@
             "fw_name": "AI-SSM",
             "fw_desc": "AI Smart Sensor Monitoring with BLE support",
             "fw_version": "1.0.0",
-            "maturity": "release",
+            "maturity": "demo",
             "option_bytes": [
                 {
                     "name": "Running on:",
@@ -29742,7 +29742,7 @@
             "fw_name": "STSW-MKBOXPRO Entry/Expert Mode",
             "fw_desc": "Fw supporting app creation with ST BLE Sensor app",
             "fw_version": "1.4.1",
-            "maturity": "draft",
+            "maturity": "release",
             "option_bytes": [
                 {
                     "name": "adapter mounted: ",
@@ -36780,8 +36780,8 @@
             }
         }
     ],
-    "date": "2026-05-29 09:54:24.233379",
+    "date": "2026-06-03 08:42:16.334193",
     "version": "0.12.8",
     "stable_release": false,
-    "checksum": "18600de9688471b03a1de4e627c50362"
+    "checksum": "61b9ee2c6080c08871c27c310dee06cb"
 }
