@@ -1,0 +1,192 @@
+[
+    {
+        "description":"Quasar Environmental Monitor",
+        "device_id": "0x0d",
+        "fw_id": "0x01",
+        "payload_id": "0x00",
+        "decoding_schema": [
+            {
+                "telemetry": "temperature",
+                "type": "float"
+            },
+            {
+                "telemetry": "temperature_aux",
+                "type": "float"
+            },
+            {
+                "telemetry": "humidity",
+                "type": "float"
+            },
+            {
+                "telemetry": "pressure",
+                "type": "float"
+            }
+        ]
+    },
+    {
+        "description":"Quasar People Counter",
+        "device_id": "0x0d",
+        "fw_id": "0x02",
+        "payload_id": "0x01",
+        "decoding_schema": [
+            {
+                "telemetry": "people_counter",
+                "type": "int8"
+            },
+            {
+                "telemetry": "total_count",
+                "type": "int8"
+            }
+        ]
+    },
+    {
+        "description":"Quasar Seat Monitor",
+        "device_id": "0x09",
+        "fw_id": "0x09",
+        "payload_id": "0x00",
+        "decoding_schema": [
+            {
+                "telemetry": "battery",
+                "type": "uint8"
+            },
+            {
+                "telemetry": "presence",
+                "type": "uint8"
+            }
+        ]
+    },
+    {
+        "description":"Quasar BLE TEST Beacon",
+        "device_id": "0x09",
+        "fw_id": "0x09",
+        "payload_id": "0x01",
+        "decoding_schema": [
+            {
+                "telemetry": "counter",
+                "type": "uint16"
+            },
+            {
+                "telemetry": "battery",
+                "type": "uint8"
+            }
+        ]
+    },
+    {
+        "description":"Quasar Desk Monitor",
+        "device_id": "0x09",
+        "fw_id": "0x010",
+        "payload_id": "0x00",
+        "decoding_schema": [
+            {
+                "telemetry": "battery",
+                "type": "uint8"
+            },
+            {
+                "telemetry": "activity",
+                "type": "uint8"
+            }
+        ]
+    },
+    {
+        "description":"Quasar Speech Monitor",
+        "device_id": "0x0d",
+        "fw_id": "0x03",
+        "payload_id": "0x00",
+        "decoding_schema": [
+            {
+                "telemetry": "battery",
+                "type": "uint8"
+            },
+            {
+                "telemetry": "audio_classification",
+                "type": "int8"
+            }
+        ]
+    },
+    {
+        "description":"Quasar FAN Monitor",
+        "device_id": "0x09",
+        "fw_id": "0x11",
+        "payload_id": "0x00",
+        "decoding_schema": [
+            {
+                "telemetry": "battery",
+                "type": "uint8"
+            },
+            {
+                "telemetry": "activity",
+                "type": "uint8"
+            }
+        ]
+    },
+    {
+        "description":"Quasar TILT Monitor",
+        "device_id": "0x09",
+        "fw_id": "0x0c",
+        "payload_id": "0x00",
+        "decoding_schema": [
+            {
+                "telemetry": "battery",
+                "type": "uint8"
+            },
+            {
+                "telemetry": "tilt",
+                "type": "uint8"
+            }
+        ]
+    },
+    {
+        "description":"Sample Environmental Monitor",
+        "device_id": "0x0C",
+        "fw_id": "0xFE",
+        "payload_id": "0x00",
+        "component":"environmental",
+        "decoding_schema": [
+            {
+                "telemetry": "temperature",
+                "type": "float"
+            },
+            {
+                "telemetry": "humidity",
+                "type": "float"
+            },
+            {
+                "telemetry": "pressure",
+                "type": "float"
+            }
+        ]
+    },
+    {
+        "description":"MLC Human Activity Recognition (HAR)",
+        "device_id": "0x09",
+        "fw_id": "0xFF",
+        "payload_id": "0xFF",
+        "decoding_schema": [
+            {
+                "telemetry": "battery",
+                "type": "uint8"
+            },
+            {
+                "telemetry": "activity",
+                "type": "uint8"
+            }
+        ]
+    },
+    {
+        "description":"Quasar Sample Monitor Node",
+        "device_id": "0x0C",
+        "fw_id": "0xFE",
+        "payload_id": "0x01",
+        "decoding_schema": [
+            {
+                "telemetry": "a_string_telemetry",
+                "type": "string",
+                "length": 5
+            },
+            {
+                "telemetry": "an_int8_telemetry",
+                "type": "uint8"
+            }
+        ]
+    }
+]
