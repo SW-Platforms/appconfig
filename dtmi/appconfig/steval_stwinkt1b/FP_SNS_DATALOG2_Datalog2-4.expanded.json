@@ -10,7 +10,7 @@
           "en": "IIS3DWB_ACC"
         },
         "name": "iis3dwb_acc",
-        "schema": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc;2"
+        "schema": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis3dwb_acc;2"
       },
       {
         "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:iis2mdc_mag;2",
@@ -19,7 +19,7 @@
           "en": "IIS2MDC_MAG"
         },
         "name": "iis2mdc_mag",
-        "schema": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag;3"
+        "schema": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2mdc_mag;3"
       },
       {
         "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:imp23absu_mic;2",
@@ -28,7 +28,7 @@
           "en": "IMP23ABSU_MIC"
         },
         "name": "imp23absu_mic",
-        "schema": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp23absu_mic;3"
+        "schema": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp23absu_mic;3"
       },
       {
         "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:ism330dhcx_acc;2",
@@ -37,7 +37,7 @@
           "en": "ISM330DHCX_ACC"
         },
         "name": "ism330dhcx_acc",
-        "schema": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc;2"
+        "schema": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc;2"
       },
       {
         "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:ism330dhcx_gyro;1",
@@ -46,7 +46,7 @@
           "en": "ISM330DHCX_GYRO"
         },
         "name": "ism330dhcx_gyro",
-        "schema": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro;2"
+        "schema": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro;2"
       },
       {
         "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:ism330dhcx_mlc;2",
@@ -55,7 +55,7 @@
           "en": "ISM330DHCX_MLC"
         },
         "name": "ism330dhcx_mlc",
-        "schema": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc;1"
+        "schema": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_mlc;1"
       },
       {
         "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:imp34dt05_mic;2",
@@ -64,7 +64,7 @@
           "en": "IMP34DT05_MIC"
         },
         "name": "imp34dt05_mic",
-        "schema": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp34dt05_mic;3"
+        "schema": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp34dt05_mic;3"
       },
       {
         "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:iis2dh_acc;2",
@@ -73,7 +73,7 @@
           "en": "IIS2DH_ACC"
         },
         "name": "iis2dh_acc",
-        "schema": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc;2"
+        "schema": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc;2"
       },
       {
         "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:stts751_temp;2",
@@ -82,7 +82,7 @@
           "en": "STTS751_TEMP"
         },
         "name": "stts751_temp",
-        "schema": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:stts751_temp;3"
+        "schema": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:stts751_temp;3"
       },
       {
         "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:lps22hh_press;2",
@@ -91,7 +91,7 @@
           "en": "LPS22HH_PRESS"
         },
         "name": "lps22hh_press",
-        "schema": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press;2"
+        "schema": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press;2"
       },
       {
         "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:lps22hh_temp;2",
@@ -100,7 +100,7 @@
           "en": "LPS22HH_TEMP"
         },
         "name": "lps22hh_temp",
-        "schema": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp;3"
+        "schema": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp;3"
       },
       {
         "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:automode;2",
@@ -170,25 +170,25 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc;2",
+    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis3dwb_acc;2",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:odr;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis3dwb_acc:odr;1",
         "@type": "Property",
         "displayName": {
           "en": "ODR"
         },
         "name": "odr",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:odr:schema;1",
+          "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis3dwb_acc:odr:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:odr:schema:hz26667;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis3dwb_acc:odr:schema:hz26667;1",
               "displayName": {
                 "en": "26667"
               },
@@ -205,7 +205,7 @@
         }
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:fs;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis3dwb_acc:fs;1",
         "@type": [
           "Property",
           "Initialized"
@@ -215,14 +215,14 @@
         },
         "name": "fs",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:fs:schema;1",
+          "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis3dwb_acc:fs:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:fs:schema:g2;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis3dwb_acc:fs:schema:g2;1",
               "displayName": {
                 "en": "2"
               },
@@ -230,7 +230,7 @@
               "name": "g2"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:fs:schema:g4;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis3dwb_acc:fs:schema:g4;1",
               "displayName": {
                 "en": "4"
               },
@@ -238,7 +238,7 @@
               "name": "g4"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:fs:schema:g8;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis3dwb_acc:fs:schema:g8;1",
               "displayName": {
                 "en": "8"
               },
@@ -246,7 +246,7 @@
               "name": "g8"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:fs:schema:g16;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis3dwb_acc:fs:schema:g16;1",
               "displayName": {
                 "en": "16"
               },
@@ -264,7 +264,7 @@
         "initialValue": 3
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:enable;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis3dwb_acc:enable;1",
         "@type": [
           "Property",
           "BooleanValue"
@@ -277,7 +277,7 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:samples_per_ts;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis3dwb_acc:samples_per_ts;1",
         "@type": [
           "Property",
           "Initialized",
@@ -294,7 +294,7 @@
         "minValue": 0
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:dim;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis3dwb_acc:dim;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -307,7 +307,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:ioffset;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis3dwb_acc:ioffset;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -321,7 +321,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:measodr;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis3dwb_acc:measodr;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -335,7 +335,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:usb_dps;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis3dwb_acc:usb_dps;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -348,7 +348,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:sd_dps;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis3dwb_acc:sd_dps;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -361,7 +361,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:sensitivity;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis3dwb_acc:sensitivity;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -374,7 +374,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:data_type;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis3dwb_acc:data_type;1",
         "@type": [
           "Property",
           "StringValue"
@@ -387,7 +387,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:sensor_annotation;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis3dwb_acc:sensor_annotation;1",
         "@type": [
           "Property",
           "StringValue"
@@ -400,7 +400,7 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:sensor_category;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis3dwb_acc:sensor_category;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -416,21 +416,21 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:st_ble_stream;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis3dwb_acc:st_ble_stream;1",
         "@type": "Property",
         "displayName": {
           "en": "BLE Telemetry"
         },
         "name": "st_ble_stream",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:st_ble_stream:schema;1",
+          "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis3dwb_acc:st_ble_stream:schema;1",
           "@type": "Object",
           "displayName": {
             "en": "Object"
           },
           "fields": [
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:st_ble_stream:schema:id;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis3dwb_acc:st_ble_stream:schema:id;1",
               "displayName": {
                 "en": "id"
               },
@@ -438,20 +438,20 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:st_ble_stream:schema:acc;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis3dwb_acc:st_ble_stream:schema:acc;1",
               "displayName": {
                 "en": "Acc"
               },
               "name": "acc",
               "schema": {
-                "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:st_ble_stream:schema:acc:schema;1",
+                "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis3dwb_acc:st_ble_stream:schema:acc:schema;1",
                 "@type": "Object",
                 "displayName": {
                   "en": "Object"
                 },
                 "fields": [
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:st_ble_stream:schema:acc:schema:enable;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis3dwb_acc:st_ble_stream:schema:acc:schema:enable;1",
                     "displayName": {
                       "en": "enable"
                     },
@@ -459,7 +459,7 @@
                     "schema": "boolean"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:st_ble_stream:schema:acc:schema:unit;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis3dwb_acc:st_ble_stream:schema:acc:schema:unit;1",
                     "displayName": {
                       "en": "unit"
                     },
@@ -467,7 +467,7 @@
                     "schema": "string"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:st_ble_stream:schema:acc:schema:format;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis3dwb_acc:st_ble_stream:schema:acc:schema:format;1",
                     "displayName": {
                       "en": "format"
                     },
@@ -475,7 +475,7 @@
                     "schema": "string"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:st_ble_stream:schema:acc:schema:elements;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis3dwb_acc:st_ble_stream:schema:acc:schema:elements;1",
                     "displayName": {
                       "en": "elements"
                     },
@@ -483,7 +483,7 @@
                     "schema": "integer"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:st_ble_stream:schema:acc:schema:channels;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis3dwb_acc:st_ble_stream:schema:acc:schema:channels;1",
                     "displayName": {
                       "en": "channels"
                     },
@@ -491,7 +491,7 @@
                     "schema": "integer"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:st_ble_stream:schema:acc:schema:multiply_factor;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis3dwb_acc:st_ble_stream:schema:acc:schema:multiply_factor;1",
                     "displayName": {
                       "en": "multiply_factor"
                     },
@@ -499,7 +499,7 @@
                     "schema": "double"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis3dwb_acc:st_ble_stream:schema:acc:schema:odr;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis3dwb_acc:st_ble_stream:schema:acc:schema:odr;1",
                     "displayName": {
                       "en": "odr"
                     },
@@ -523,11 +523,11 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag;3",
+    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2mdc_mag;3",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:odr;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2mdc_mag:odr;1",
         "@type": [
           "Property",
           "Initialized"
@@ -537,14 +537,14 @@
         },
         "name": "odr",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:odr:schema;1",
+          "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2mdc_mag:odr:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:odr:schema:hz10;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2mdc_mag:odr:schema:hz10;1",
               "displayName": {
                 "en": "10"
               },
@@ -552,7 +552,7 @@
               "name": "hz10"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:odr:schema:hz20;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2mdc_mag:odr:schema:hz20;1",
               "displayName": {
                 "en": "20"
               },
@@ -560,7 +560,7 @@
               "name": "hz20"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:odr:schema:hz50;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2mdc_mag:odr:schema:hz50;1",
               "displayName": {
                 "en": "50"
               },
@@ -568,7 +568,7 @@
               "name": "hz50"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:odr:schema:hz100;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2mdc_mag:odr:schema:hz100;1",
               "displayName": {
                 "en": "100"
               },
@@ -586,21 +586,21 @@
         "initialValue": 3
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:fs;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2mdc_mag:fs;1",
         "@type": "Property",
         "displayName": {
           "en": "FS"
         },
         "name": "fs",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:fs:schema;1",
+          "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2mdc_mag:fs:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:fs:schema:g50;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2mdc_mag:fs:schema:g50;1",
               "displayName": {
                 "en": "50"
               },
@@ -616,7 +616,7 @@
         }
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:enable;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2mdc_mag:enable;1",
         "@type": [
           "Property",
           "BooleanValue"
@@ -629,7 +629,7 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:samples_per_ts;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2mdc_mag:samples_per_ts;1",
         "@type": [
           "Property",
           "Initialized",
@@ -646,7 +646,7 @@
         "minValue": 0
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:dim;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2mdc_mag:dim;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -659,7 +659,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:ioffset;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2mdc_mag:ioffset;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -673,7 +673,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:measodr;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2mdc_mag:measodr;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -687,7 +687,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:usb_dps;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2mdc_mag:usb_dps;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -700,7 +700,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:sd_dps;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2mdc_mag:sd_dps;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -713,7 +713,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:sensitivity;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2mdc_mag:sensitivity;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -726,7 +726,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:data_type;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2mdc_mag:data_type;1",
         "@type": [
           "Property",
           "StringValue"
@@ -739,7 +739,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:sensor_annotation;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2mdc_mag:sensor_annotation;1",
         "@type": [
           "Property",
           "StringValue"
@@ -752,7 +752,7 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:sensor_category;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2mdc_mag:sensor_category;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -768,21 +768,21 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:st_ble_stream;2",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2mdc_mag:st_ble_stream;2",
         "@type": "Property",
         "displayName": {
           "en": "BLE Telemetry"
         },
         "name": "st_ble_stream",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:st_ble_stream:schema;2",
+          "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2mdc_mag:st_ble_stream:schema;2",
           "@type": "Object",
           "displayName": {
             "en": "Object"
           },
           "fields": [
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:st_ble_stream:schema:id;2",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2mdc_mag:st_ble_stream:schema:id;2",
               "displayName": {
                 "en": "id"
               },
@@ -790,20 +790,20 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:st_ble_stream:schema:mag;2",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2mdc_mag:st_ble_stream:schema:mag;2",
               "displayName": {
                 "en": "Mag"
               },
               "name": "mag",
               "schema": {
-                "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:st_ble_stream:schema:mag:schema;2",
+                "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2mdc_mag:st_ble_stream:schema:mag:schema;2",
                 "@type": "Object",
                 "displayName": {
                   "en": "Object"
                 },
                 "fields": [
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:st_ble_stream:schema:mag:schema:enable;2",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2mdc_mag:st_ble_stream:schema:mag:schema:enable;2",
                     "displayName": {
                       "en": "enable"
                     },
@@ -811,7 +811,7 @@
                     "schema": "boolean"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:st_ble_stream:schema:mag:schema:unit;2",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2mdc_mag:st_ble_stream:schema:mag:schema:unit;2",
                     "displayName": {
                       "en": "unit"
                     },
@@ -819,7 +819,7 @@
                     "schema": "string"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:st_ble_stream:schema:mag:schema:format;2",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2mdc_mag:st_ble_stream:schema:mag:schema:format;2",
                     "displayName": {
                       "en": "format"
                     },
@@ -827,7 +827,7 @@
                     "schema": "string"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:st_ble_stream:schema:mag:schema:elements;2",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2mdc_mag:st_ble_stream:schema:mag:schema:elements;2",
                     "displayName": {
                       "en": "elements"
                     },
@@ -835,7 +835,7 @@
                     "schema": "integer"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:st_ble_stream:schema:mag:schema:channels;2",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2mdc_mag:st_ble_stream:schema:mag:schema:channels;2",
                     "displayName": {
                       "en": "channels"
                     },
@@ -843,7 +843,7 @@
                     "schema": "integer"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:st_ble_stream:schema:mag:schema:multiply_factor;2",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2mdc_mag:st_ble_stream:schema:mag:schema:multiply_factor;2",
                     "displayName": {
                       "en": "multiply_factor"
                     },
@@ -851,7 +851,7 @@
                     "schema": "double"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2mdc_mag:st_ble_stream:schema:mag:schema:odr;2",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2mdc_mag:st_ble_stream:schema:mag:schema:odr;2",
                     "displayName": {
                       "en": "odr"
                     },
@@ -875,11 +875,11 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp23absu_mic;3",
+    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp23absu_mic;3",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp23absu_mic:odr;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp23absu_mic:odr;1",
         "@type": [
           "Property",
           "Initialized"
@@ -889,14 +889,14 @@
         },
         "name": "odr",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp23absu_mic:odr:schema;1",
+          "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp23absu_mic:odr:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp23absu_mic:odr:schema:hz16000;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp23absu_mic:odr:schema:hz16000;1",
               "displayName": {
                 "en": "16000"
               },
@@ -904,7 +904,7 @@
               "name": "hz16000"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp23absu_mic:odr:schema:hz32000;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp23absu_mic:odr:schema:hz32000;1",
               "displayName": {
                 "en": "32000"
               },
@@ -912,7 +912,7 @@
               "name": "hz32000"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp23absu_mic:odr:schema:hz48000;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp23absu_mic:odr:schema:hz48000;1",
               "displayName": {
                 "en": "48000"
               },
@@ -920,7 +920,7 @@
               "name": "hz48000"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp23absu_mic:odr:schema:hz96000;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp23absu_mic:odr:schema:hz96000;1",
               "displayName": {
                 "en": "96000"
               },
@@ -928,7 +928,7 @@
               "name": "hz96000"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp23absu_mic:odr:schema:hz192000;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp23absu_mic:odr:schema:hz192000;1",
               "displayName": {
                 "en": "192000"
               },
@@ -946,21 +946,21 @@
         "initialValue": 4
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp23absu_mic:aop;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp23absu_mic:aop;1",
         "@type": "Property",
         "displayName": {
           "en": "AOP"
         },
         "name": "aop",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp23absu_mic:aop:schema;1",
+          "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp23absu_mic:aop:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp23absu_mic:aop:schema:dbspl130;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp23absu_mic:aop:schema:dbspl130;1",
               "displayName": {
                 "en": "130"
               },
@@ -976,7 +976,7 @@
         }
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp23absu_mic:enable;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp23absu_mic:enable;1",
         "@type": [
           "Property",
           "BooleanValue"
@@ -989,7 +989,7 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp23absu_mic:volume;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp23absu_mic:volume;1",
         "@type": [
           "Property",
           "Initialized",
@@ -1007,21 +1007,21 @@
         "minValue": 0
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp23absu_mic:resolution;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp23absu_mic:resolution;1",
         "@type": "Property",
         "displayName": {
           "en": "Resolution"
         },
         "name": "resolution",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp23absu_mic:resolution:schema;1",
+          "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp23absu_mic:resolution:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp23absu_mic:resolution:schema:bit16;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp23absu_mic:resolution:schema:bit16;1",
               "displayName": {
                 "en": "16"
               },
@@ -1035,7 +1035,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp23absu_mic:samples_per_ts;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp23absu_mic:samples_per_ts;1",
         "@type": [
           "Property",
           "Initialized",
@@ -1052,7 +1052,7 @@
         "minValue": 0
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp23absu_mic:dim;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp23absu_mic:dim;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -1065,7 +1065,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp23absu_mic:ioffset;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp23absu_mic:ioffset;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -1079,7 +1079,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp23absu_mic:usb_dps;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp23absu_mic:usb_dps;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -1092,7 +1092,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp23absu_mic:sd_dps;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp23absu_mic:sd_dps;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -1105,7 +1105,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp23absu_mic:sensitivity;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp23absu_mic:sensitivity;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -1118,7 +1118,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp23absu_mic:data_type;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp23absu_mic:data_type;1",
         "@type": [
           "Property",
           "StringValue"
@@ -1131,7 +1131,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp23absu_mic:sensor_annotation;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp23absu_mic:sensor_annotation;1",
         "@type": [
           "Property",
           "StringValue"
@@ -1144,7 +1144,7 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp23absu_mic:sensor_category;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp23absu_mic:sensor_category;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -1169,11 +1169,11 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc;2",
+    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc;2",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:odr;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:odr;1",
         "@type": [
           "Property",
           "Initialized"
@@ -1183,14 +1183,14 @@
         },
         "name": "odr",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:odr:schema;1",
+          "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:odr:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:odr:schema:hz12_5;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:odr:schema:hz12_5;1",
               "displayName": {
                 "en": "12.5"
               },
@@ -1198,7 +1198,7 @@
               "name": "hz12_5"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:odr:schema:hz26;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:odr:schema:hz26;1",
               "displayName": {
                 "en": "26"
               },
@@ -1206,7 +1206,7 @@
               "name": "hz26"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:odr:schema:hz52;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:odr:schema:hz52;1",
               "displayName": {
                 "en": "52"
               },
@@ -1214,7 +1214,7 @@
               "name": "hz52"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:odr:schema:hz104;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:odr:schema:hz104;1",
               "displayName": {
                 "en": "104"
               },
@@ -1222,7 +1222,7 @@
               "name": "hz104"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:odr:schema:hz208;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:odr:schema:hz208;1",
               "displayName": {
                 "en": "208"
               },
@@ -1230,7 +1230,7 @@
               "name": "hz208"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:odr:schema:hz416;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:odr:schema:hz416;1",
               "displayName": {
                 "en": "416"
               },
@@ -1238,7 +1238,7 @@
               "name": "hz416"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:odr:schema:hz833;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:odr:schema:hz833;1",
               "displayName": {
                 "en": "833"
               },
@@ -1246,7 +1246,7 @@
               "name": "hz833"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:odr:schema:hz1666;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:odr:schema:hz1666;1",
               "displayName": {
                 "en": "1666"
               },
@@ -1254,7 +1254,7 @@
               "name": "hz1666"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:odr:schema:hz3332;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:odr:schema:hz3332;1",
               "displayName": {
                 "en": "3332"
               },
@@ -1262,7 +1262,7 @@
               "name": "hz3332"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:odr:schema:hz6667;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:odr:schema:hz6667;1",
               "displayName": {
                 "en": "6667"
               },
@@ -1280,7 +1280,7 @@
         "initialValue": 9
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:fs;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:fs;1",
         "@type": [
           "Property",
           "Initialized"
@@ -1290,14 +1290,14 @@
         },
         "name": "fs",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:fs:schema;1",
+          "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:fs:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:fs:schema:g2;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:fs:schema:g2;1",
               "displayName": {
                 "en": "2"
               },
@@ -1305,7 +1305,7 @@
               "name": "g2"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:fs:schema:g4;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:fs:schema:g4;1",
               "displayName": {
                 "en": "4"
               },
@@ -1313,7 +1313,7 @@
               "name": "g4"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:fs:schema:g8;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:fs:schema:g8;1",
               "displayName": {
                 "en": "8"
               },
@@ -1321,7 +1321,7 @@
               "name": "g8"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:fs:schema:g16;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:fs:schema:g16;1",
               "displayName": {
                 "en": "16"
               },
@@ -1339,7 +1339,7 @@
         "initialValue": 3
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:enable;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:enable;1",
         "@type": [
           "Property",
           "BooleanValue"
@@ -1352,7 +1352,7 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:samples_per_ts;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:samples_per_ts;1",
         "@type": [
           "Property",
           "Initialized",
@@ -1369,7 +1369,7 @@
         "minValue": 0
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:dim;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:dim;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -1382,7 +1382,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:ioffset;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:ioffset;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -1396,7 +1396,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:measodr;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:measodr;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -1410,7 +1410,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:usb_dps;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:usb_dps;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -1423,7 +1423,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:sd_dps;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:sd_dps;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -1436,7 +1436,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:sensitivity;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:sensitivity;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -1449,7 +1449,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:data_type;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:data_type;1",
         "@type": [
           "Property",
           "StringValue"
@@ -1462,7 +1462,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:sensor_annotation;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:sensor_annotation;1",
         "@type": [
           "Property",
           "StringValue"
@@ -1475,7 +1475,7 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:sensor_category;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:sensor_category;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -1491,21 +1491,21 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:st_ble_stream;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:st_ble_stream;1",
         "@type": "Property",
         "displayName": {
           "en": "BLE Telemetry"
         },
         "name": "st_ble_stream",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:st_ble_stream:schema;1",
+          "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:st_ble_stream:schema;1",
           "@type": "Object",
           "displayName": {
             "en": "Object"
           },
           "fields": [
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:st_ble_stream:schema:id;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:st_ble_stream:schema:id;1",
               "displayName": {
                 "en": "id"
               },
@@ -1513,20 +1513,20 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:st_ble_stream:schema:acc;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:st_ble_stream:schema:acc;1",
               "displayName": {
                 "en": "Acc"
               },
               "name": "acc",
               "schema": {
-                "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:st_ble_stream:schema:acc:schema;1",
+                "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:st_ble_stream:schema:acc:schema;1",
                 "@type": "Object",
                 "displayName": {
                   "en": "Object"
                 },
                 "fields": [
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:st_ble_stream:schema:acc:schema:enable;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:st_ble_stream:schema:acc:schema:enable;1",
                     "displayName": {
                       "en": "enable"
                     },
@@ -1534,7 +1534,7 @@
                     "schema": "boolean"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:st_ble_stream:schema:acc:schema:unit;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:st_ble_stream:schema:acc:schema:unit;1",
                     "displayName": {
                       "en": "unit"
                     },
@@ -1542,7 +1542,7 @@
                     "schema": "string"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:st_ble_stream:schema:acc:schema:format;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:st_ble_stream:schema:acc:schema:format;1",
                     "displayName": {
                       "en": "format"
                     },
@@ -1550,7 +1550,7 @@
                     "schema": "string"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:st_ble_stream:schema:acc:schema:elements;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:st_ble_stream:schema:acc:schema:elements;1",
                     "displayName": {
                       "en": "elements"
                     },
@@ -1558,7 +1558,7 @@
                     "schema": "integer"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:st_ble_stream:schema:acc:schema:channels;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:st_ble_stream:schema:acc:schema:channels;1",
                     "displayName": {
                       "en": "channels"
                     },
@@ -1566,7 +1566,7 @@
                     "schema": "integer"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:st_ble_stream:schema:acc:schema:multiply_factor;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:st_ble_stream:schema:acc:schema:multiply_factor;1",
                     "displayName": {
                       "en": "multiply_factor"
                     },
@@ -1574,7 +1574,7 @@
                     "schema": "double"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_acc:st_ble_stream:schema:acc:schema:odr;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_acc:st_ble_stream:schema:acc:schema:odr;1",
                     "displayName": {
                       "en": "odr"
                     },
@@ -1598,11 +1598,11 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro;2",
+    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro;2",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:odr;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:odr;1",
         "@type": [
           "Property",
           "Initialized"
@@ -1612,14 +1612,14 @@
         },
         "name": "odr",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:odr:schema;1",
+          "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:odr:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:odr:schema:hz12_5;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:odr:schema:hz12_5;1",
               "displayName": {
                 "en": "12.5"
               },
@@ -1627,7 +1627,7 @@
               "name": "hz12_5"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:odr:schema:hz26;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:odr:schema:hz26;1",
               "displayName": {
                 "en": "26"
               },
@@ -1635,7 +1635,7 @@
               "name": "hz26"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:odr:schema:hz52;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:odr:schema:hz52;1",
               "displayName": {
                 "en": "52"
               },
@@ -1643,7 +1643,7 @@
               "name": "hz52"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:odr:schema:hz104;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:odr:schema:hz104;1",
               "displayName": {
                 "en": "104"
               },
@@ -1651,7 +1651,7 @@
               "name": "hz104"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:odr:schema:hz208;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:odr:schema:hz208;1",
               "displayName": {
                 "en": "208"
               },
@@ -1659,7 +1659,7 @@
               "name": "hz208"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:odr:schema:hz416;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:odr:schema:hz416;1",
               "displayName": {
                 "en": "416"
               },
@@ -1667,7 +1667,7 @@
               "name": "hz416"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:odr:schema:hz833;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:odr:schema:hz833;1",
               "displayName": {
                 "en": "833"
               },
@@ -1675,7 +1675,7 @@
               "name": "hz833"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:odr:schema:hz1666;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:odr:schema:hz1666;1",
               "displayName": {
                 "en": "1666"
               },
@@ -1683,7 +1683,7 @@
               "name": "hz1666"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:odr:schema:hz3332;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:odr:schema:hz3332;1",
               "displayName": {
                 "en": "3332"
               },
@@ -1691,7 +1691,7 @@
               "name": "hz3332"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:odr:schema:hz6667;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:odr:schema:hz6667;1",
               "displayName": {
                 "en": "6667"
               },
@@ -1709,7 +1709,7 @@
         "initialValue": 9
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:fs;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:fs;1",
         "@type": [
           "Property",
           "Initialized"
@@ -1719,14 +1719,14 @@
         },
         "name": "fs",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:fs:schema;1",
+          "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:fs:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:fs:schema:dps125;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:fs:schema:dps125;1",
               "displayName": {
                 "en": "125"
               },
@@ -1734,7 +1734,7 @@
               "name": "dps125"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:fs:schema:dps250;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:fs:schema:dps250;1",
               "displayName": {
                 "en": "250"
               },
@@ -1742,7 +1742,7 @@
               "name": "dps250"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:fs:schema:dps500;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:fs:schema:dps500;1",
               "displayName": {
                 "en": "500"
               },
@@ -1750,7 +1750,7 @@
               "name": "dps500"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:fs:schema:dps1000;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:fs:schema:dps1000;1",
               "displayName": {
                 "en": "1000"
               },
@@ -1758,7 +1758,7 @@
               "name": "dps1000"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:fs:schema:dps2000;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:fs:schema:dps2000;1",
               "displayName": {
                 "en": "2000"
               },
@@ -1766,7 +1766,7 @@
               "name": "dps2000"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:fs:schema:dps4000;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:fs:schema:dps4000;1",
               "displayName": {
                 "en": "4000"
               },
@@ -1784,7 +1784,7 @@
         "initialValue": 5
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:enable;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:enable;1",
         "@type": [
           "Property",
           "BooleanValue"
@@ -1797,7 +1797,7 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:samples_per_ts;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:samples_per_ts;1",
         "@type": [
           "Property",
           "Initialized",
@@ -1814,7 +1814,7 @@
         "minValue": 0
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:dim;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:dim;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -1827,7 +1827,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:ioffset;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:ioffset;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -1841,7 +1841,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:measodr;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:measodr;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -1855,7 +1855,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:usb_dps;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:usb_dps;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -1868,7 +1868,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:sd_dps;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:sd_dps;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -1881,7 +1881,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:sensitivity;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:sensitivity;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -1894,7 +1894,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:data_type;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:data_type;1",
         "@type": [
           "Property",
           "StringValue"
@@ -1907,7 +1907,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:sensor_annotation;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:sensor_annotation;1",
         "@type": [
           "Property",
           "StringValue"
@@ -1920,7 +1920,7 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:sensor_category;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:sensor_category;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -1936,21 +1936,21 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:st_ble_stream;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:st_ble_stream;1",
         "@type": "Property",
         "displayName": {
           "en": "BLE Telemetry"
         },
         "name": "st_ble_stream",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:st_ble_stream:schema;1",
+          "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:st_ble_stream:schema;1",
           "@type": "Object",
           "displayName": {
             "en": "Object"
           },
           "fields": [
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:st_ble_stream:schema:id;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:st_ble_stream:schema:id;1",
               "displayName": {
                 "en": "id"
               },
@@ -1958,20 +1958,20 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:st_ble_stream:schema:gyro;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:st_ble_stream:schema:gyro;1",
               "displayName": {
                 "en": "Gyro"
               },
               "name": "gyro",
               "schema": {
-                "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:st_ble_stream:schema:gyro:schema;1",
+                "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:st_ble_stream:schema:gyro:schema;1",
                 "@type": "Object",
                 "displayName": {
                   "en": "Object"
                 },
                 "fields": [
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:st_ble_stream:schema:gyro:schema:enable;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:st_ble_stream:schema:gyro:schema:enable;1",
                     "displayName": {
                       "en": "enable"
                     },
@@ -1979,7 +1979,7 @@
                     "schema": "boolean"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:st_ble_stream:schema:gyro:schema:unit;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:st_ble_stream:schema:gyro:schema:unit;1",
                     "displayName": {
                       "en": "unit"
                     },
@@ -1987,7 +1987,7 @@
                     "schema": "string"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:st_ble_stream:schema:gyro:schema:format;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:st_ble_stream:schema:gyro:schema:format;1",
                     "displayName": {
                       "en": "format"
                     },
@@ -1995,7 +1995,7 @@
                     "schema": "string"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:st_ble_stream:schema:gyro:schema:elements;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:st_ble_stream:schema:gyro:schema:elements;1",
                     "displayName": {
                       "en": "elements"
                     },
@@ -2003,7 +2003,7 @@
                     "schema": "integer"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:st_ble_stream:schema:gyro:schema:channels;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:st_ble_stream:schema:gyro:schema:channels;1",
                     "displayName": {
                       "en": "channels"
                     },
@@ -2011,7 +2011,7 @@
                     "schema": "integer"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:st_ble_stream:schema:gyro:schema:multiply_factor;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:st_ble_stream:schema:gyro:schema:multiply_factor;1",
                     "displayName": {
                       "en": "multiply_factor"
                     },
@@ -2019,7 +2019,7 @@
                     "schema": "double"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_gyro:st_ble_stream:schema:gyro:schema:odr;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_gyro:st_ble_stream:schema:gyro:schema:odr;1",
                     "displayName": {
                       "en": "odr"
                     },
@@ -2043,11 +2043,11 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc;1",
+    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_mlc;1",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:enable;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_mlc:enable;1",
         "@type": [
           "Property",
           "BooleanValue"
@@ -2060,7 +2060,7 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:samples_per_ts;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_mlc:samples_per_ts;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -2075,7 +2075,7 @@
         "minValue": 1
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:load_file;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_mlc:load_file;1",
         "@type": "Command",
         "commandType": "synchronous",
         "displayName": {
@@ -2121,7 +2121,7 @@
         }
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:ucf_status;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_mlc:ucf_status;1",
         "@type": [
           "Property",
           "BooleanValue"
@@ -2134,7 +2134,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:dim;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_mlc:dim;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -2147,7 +2147,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:ioffset;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_mlc:ioffset;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -2161,7 +2161,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:data_type;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_mlc:data_type;1",
         "@type": [
           "Property",
           "StringValue"
@@ -2174,7 +2174,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:usb_dps;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_mlc:usb_dps;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -2187,7 +2187,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:sd_dps;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_mlc:sd_dps;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -2200,7 +2200,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:sensor_annotation;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_mlc:sensor_annotation;1",
         "@type": [
           "Property",
           "StringValue"
@@ -2213,7 +2213,7 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:sensor_category;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_mlc:sensor_category;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -2229,21 +2229,21 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:st_ble_stream;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_mlc:st_ble_stream;1",
         "@type": "Property",
         "displayName": {
           "en": "BLE Telemetry"
         },
         "name": "st_ble_stream",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:st_ble_stream:schema;1",
+          "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_mlc:st_ble_stream:schema;1",
           "@type": "Object",
           "displayName": {
             "en": "Object"
           },
           "fields": [
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:st_ble_stream:schema:id;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_mlc:st_ble_stream:schema:id;1",
               "displayName": {
                 "en": "id"
               },
@@ -2251,20 +2251,20 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:st_ble_stream:schema:mlc;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_mlc:st_ble_stream:schema:mlc;1",
               "displayName": {
                 "en": "MLC"
               },
               "name": "mlc",
               "schema": {
-                "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:st_ble_stream:schema:mlc:schema;1",
+                "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_mlc:st_ble_stream:schema:mlc:schema;1",
                 "@type": "Object",
                 "displayName": {
                   "en": "Object"
                 },
                 "fields": [
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:st_ble_stream:schema:mlc:schema:enable;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_mlc:st_ble_stream:schema:mlc:schema:enable;1",
                     "displayName": {
                       "en": "enable"
                     },
@@ -2272,7 +2272,7 @@
                     "schema": "boolean"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:st_ble_stream:schema:mlc:schema:unit;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_mlc:st_ble_stream:schema:mlc:schema:unit;1",
                     "displayName": {
                       "en": "unit"
                     },
@@ -2280,7 +2280,7 @@
                     "schema": "string"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:st_ble_stream:schema:mlc:schema:format;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_mlc:st_ble_stream:schema:mlc:schema:format;1",
                     "displayName": {
                       "en": "format"
                     },
@@ -2288,7 +2288,7 @@
                     "schema": "string"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:st_ble_stream:schema:mlc:schema:elements;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_mlc:st_ble_stream:schema:mlc:schema:elements;1",
                     "displayName": {
                       "en": "elements"
                     },
@@ -2296,7 +2296,7 @@
                     "schema": "integer"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:st_ble_stream:schema:mlc:schema:channels;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_mlc:st_ble_stream:schema:mlc:schema:channels;1",
                     "displayName": {
                       "en": "channels"
                     },
@@ -2304,7 +2304,7 @@
                     "schema": "integer"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:st_ble_stream:schema:mlc:schema:multiply_factor;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_mlc:st_ble_stream:schema:mlc:schema:multiply_factor;1",
                     "displayName": {
                       "en": "multiply_factor"
                     },
@@ -2312,7 +2312,7 @@
                     "schema": "integer"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:ism330dhcx_mlc:st_ble_stream:schema:mlc:schema:odr;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:ism330dhcx_mlc:st_ble_stream:schema:mlc:schema:odr;1",
                     "displayName": {
                       "en": "odr"
                     },
@@ -2336,11 +2336,11 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp34dt05_mic;3",
+    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp34dt05_mic;3",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp34dt05_mic:odr;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp34dt05_mic:odr;1",
         "@type": [
           "Property",
           "Initialized"
@@ -2350,14 +2350,14 @@
         },
         "name": "odr",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp34dt05_mic:odr:schema;1",
+          "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp34dt05_mic:odr:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp34dt05_mic:odr:schema:hz16000;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp34dt05_mic:odr:schema:hz16000;1",
               "displayName": {
                 "en": "16000"
               },
@@ -2365,7 +2365,7 @@
               "name": "hz16000"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp34dt05_mic:odr:schema:hz32000;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp34dt05_mic:odr:schema:hz32000;1",
               "displayName": {
                 "en": "32000"
               },
@@ -2373,7 +2373,7 @@
               "name": "hz32000"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp34dt05_mic:odr:schema:hz48000;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp34dt05_mic:odr:schema:hz48000;1",
               "displayName": {
                 "en": "48000"
               },
@@ -2391,21 +2391,21 @@
         "initialValue": 2
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp34dt05_mic:aop;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp34dt05_mic:aop;1",
         "@type": "Property",
         "displayName": {
           "en": "AOP"
         },
         "name": "aop",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp34dt05_mic:aop:schema;1",
+          "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp34dt05_mic:aop:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp34dt05_mic:aop:schema:dbspl122;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp34dt05_mic:aop:schema:dbspl122;1",
               "displayName": {
                 "en": "122"
               },
@@ -2421,7 +2421,7 @@
         }
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp34dt05_mic:enable;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp34dt05_mic:enable;1",
         "@type": [
           "Property",
           "BooleanValue"
@@ -2434,7 +2434,7 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp34dt05_mic:volume;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp34dt05_mic:volume;1",
         "@type": [
           "Property",
           "Initialized",
@@ -2452,21 +2452,21 @@
         "minValue": 0
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp34dt05_mic:resolution;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp34dt05_mic:resolution;1",
         "@type": "Property",
         "displayName": {
           "en": "Resolution"
         },
         "name": "resolution",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp34dt05_mic:resolution:schema;1",
+          "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp34dt05_mic:resolution:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp34dt05_mic:resolution:schema:bit16;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp34dt05_mic:resolution:schema:bit16;1",
               "displayName": {
                 "en": "16"
               },
@@ -2480,7 +2480,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp34dt05_mic:samples_per_ts;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp34dt05_mic:samples_per_ts;1",
         "@type": [
           "Property",
           "Initialized",
@@ -2497,7 +2497,7 @@
         "minValue": 0
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp34dt05_mic:dim;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp34dt05_mic:dim;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -2510,7 +2510,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp34dt05_mic:ioffset;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp34dt05_mic:ioffset;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -2524,7 +2524,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp34dt05_mic:usb_dps;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp34dt05_mic:usb_dps;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -2537,7 +2537,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp34dt05_mic:sd_dps;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp34dt05_mic:sd_dps;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -2550,7 +2550,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp34dt05_mic:sensitivity;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp34dt05_mic:sensitivity;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -2563,7 +2563,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp34dt05_mic:data_type;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp34dt05_mic:data_type;1",
         "@type": [
           "Property",
           "StringValue"
@@ -2576,7 +2576,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp34dt05_mic:sensor_annotation;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp34dt05_mic:sensor_annotation;1",
         "@type": [
           "Property",
           "StringValue"
@@ -2589,7 +2589,7 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:imp34dt05_mic:sensor_category;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:imp34dt05_mic:sensor_category;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -2614,11 +2614,11 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc;2",
+    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc;2",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:odr;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:odr;1",
         "@type": [
           "Property",
           "Initialized"
@@ -2628,14 +2628,14 @@
         },
         "name": "odr",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:odr:schema;1",
+          "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:odr:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:odr:schema:hz1;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:odr:schema:hz1;1",
               "displayName": {
                 "en": "1"
               },
@@ -2643,7 +2643,7 @@
               "name": "hz1"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:odr:schema:hz10;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:odr:schema:hz10;1",
               "displayName": {
                 "en": "10"
               },
@@ -2651,7 +2651,7 @@
               "name": "hz10"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:odr:schema:hz25;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:odr:schema:hz25;1",
               "displayName": {
                 "en": "25"
               },
@@ -2659,7 +2659,7 @@
               "name": "hz25"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:odr:schema:hz50;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:odr:schema:hz50;1",
               "displayName": {
                 "en": "50"
               },
@@ -2667,7 +2667,7 @@
               "name": "hz50"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:odr:schema:hz100;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:odr:schema:hz100;1",
               "displayName": {
                 "en": "100"
               },
@@ -2675,7 +2675,7 @@
               "name": "hz100"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:odr:schema:hz200;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:odr:schema:hz200;1",
               "displayName": {
                 "en": "200"
               },
@@ -2683,7 +2683,7 @@
               "name": "hz200"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:odr:schema:hz400;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:odr:schema:hz400;1",
               "displayName": {
                 "en": "400"
               },
@@ -2691,7 +2691,7 @@
               "name": "hz400"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:odr:schema:hz1344;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:odr:schema:hz1344;1",
               "displayName": {
                 "en": "1344"
               },
@@ -2709,7 +2709,7 @@
         "initialValue": 7
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:fs;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:fs;1",
         "@type": [
           "Property",
           "Initialized"
@@ -2719,14 +2719,14 @@
         },
         "name": "fs",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:fs:schema;1",
+          "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:fs:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:fs:schema:g2;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:fs:schema:g2;1",
               "displayName": {
                 "en": "2"
               },
@@ -2734,7 +2734,7 @@
               "name": "g2"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:fs:schema:g4;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:fs:schema:g4;1",
               "displayName": {
                 "en": "4"
               },
@@ -2742,7 +2742,7 @@
               "name": "g4"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:fs:schema:g8;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:fs:schema:g8;1",
               "displayName": {
                 "en": "8"
               },
@@ -2750,7 +2750,7 @@
               "name": "g8"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:fs:schema:g16;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:fs:schema:g16;1",
               "displayName": {
                 "en": "16"
               },
@@ -2768,7 +2768,7 @@
         "initialValue": 3
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:enable;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:enable;1",
         "@type": [
           "Property",
           "BooleanValue"
@@ -2781,7 +2781,7 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:samples_per_ts;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:samples_per_ts;1",
         "@type": [
           "Property",
           "Initialized",
@@ -2798,7 +2798,7 @@
         "minValue": 0
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:dim;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:dim;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -2811,7 +2811,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:ioffset;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:ioffset;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -2825,7 +2825,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:measodr;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:measodr;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -2839,7 +2839,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:usb_dps;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:usb_dps;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -2852,7 +2852,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:sd_dps;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:sd_dps;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -2865,7 +2865,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:sensitivity;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:sensitivity;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -2878,7 +2878,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:data_type;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:data_type;1",
         "@type": [
           "Property",
           "StringValue"
@@ -2891,7 +2891,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:sensor_annotation;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:sensor_annotation;1",
         "@type": [
           "Property",
           "StringValue"
@@ -2904,7 +2904,7 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:sensor_category;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:sensor_category;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -2920,21 +2920,21 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:st_ble_stream;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:st_ble_stream;1",
         "@type": "Property",
         "displayName": {
           "en": "BLE Telemetry"
         },
         "name": "st_ble_stream",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:st_ble_stream:schema;1",
+          "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:st_ble_stream:schema;1",
           "@type": "Object",
           "displayName": {
             "en": "Object"
           },
           "fields": [
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:st_ble_stream:schema:id;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:st_ble_stream:schema:id;1",
               "displayName": {
                 "en": "id"
               },
@@ -2942,20 +2942,20 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:st_ble_stream:schema:acc;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:st_ble_stream:schema:acc;1",
               "displayName": {
                 "en": "Acc"
               },
               "name": "acc",
               "schema": {
-                "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:st_ble_stream:schema:acc:schema;1",
+                "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:st_ble_stream:schema:acc:schema;1",
                 "@type": "Object",
                 "displayName": {
                   "en": "Object"
                 },
                 "fields": [
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:st_ble_stream:schema:acc:schema:enable;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:st_ble_stream:schema:acc:schema:enable;1",
                     "displayName": {
                       "en": "enable"
                     },
@@ -2963,7 +2963,7 @@
                     "schema": "boolean"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:st_ble_stream:schema:acc:schema:unit;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:st_ble_stream:schema:acc:schema:unit;1",
                     "displayName": {
                       "en": "unit"
                     },
@@ -2971,7 +2971,7 @@
                     "schema": "string"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:st_ble_stream:schema:acc:schema:format;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:st_ble_stream:schema:acc:schema:format;1",
                     "displayName": {
                       "en": "format"
                     },
@@ -2979,7 +2979,7 @@
                     "schema": "string"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:st_ble_stream:schema:acc:schema:elements;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:st_ble_stream:schema:acc:schema:elements;1",
                     "displayName": {
                       "en": "elements"
                     },
@@ -2987,7 +2987,7 @@
                     "schema": "integer"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:st_ble_stream:schema:acc:schema:channels;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:st_ble_stream:schema:acc:schema:channels;1",
                     "displayName": {
                       "en": "channels"
                     },
@@ -2995,7 +2995,7 @@
                     "schema": "integer"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:st_ble_stream:schema:acc:schema:multiply_factor;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:st_ble_stream:schema:acc:schema:multiply_factor;1",
                     "displayName": {
                       "en": "multiply_factor"
                     },
@@ -3003,7 +3003,7 @@
                     "schema": "double"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:iis2dh_acc:st_ble_stream:schema:acc:schema:odr;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:iis2dh_acc:st_ble_stream:schema:acc:schema:odr;1",
                     "displayName": {
                       "en": "odr"
                     },
@@ -3027,11 +3027,11 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:stts751_temp;3",
+    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:stts751_temp;3",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:stts751_temp:odr;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:stts751_temp:odr;1",
         "@type": [
           "Property",
           "Initialized"
@@ -3041,14 +3041,14 @@
         },
         "name": "odr",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:stts751_temp:odr:schema;1",
+          "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:stts751_temp:odr:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:stts751_temp:odr:schema:hz1;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:stts751_temp:odr:schema:hz1;1",
               "displayName": {
                 "en": "1"
               },
@@ -3056,7 +3056,7 @@
               "name": "hz1"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:stts751_temp:odr:schema:hz2;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:stts751_temp:odr:schema:hz2;1",
               "displayName": {
                 "en": "2"
               },
@@ -3064,7 +3064,7 @@
               "name": "hz2"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:stts751_temp:odr:schema:hz4;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:stts751_temp:odr:schema:hz4;1",
               "displayName": {
                 "en": "4"
               },
@@ -3072,7 +3072,7 @@
               "name": "hz4"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:stts751_temp:odr:schema:hz8;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:stts751_temp:odr:schema:hz8;1",
               "displayName": {
                 "en": "8"
               },
@@ -3090,21 +3090,21 @@
         "initialValue": 3
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:stts751_temp:fs;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:stts751_temp:fs;1",
         "@type": "Property",
         "displayName": {
           "en": "FS"
         },
         "name": "fs",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:stts751_temp:fs:schema;1",
+          "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:stts751_temp:fs:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:stts751_temp:fs:schema:cdeg100;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:stts751_temp:fs:schema:cdeg100;1",
               "displayName": {
                 "en": "100"
               },
@@ -3121,7 +3121,7 @@
         }
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:stts751_temp:enable;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:stts751_temp:enable;1",
         "@type": [
           "Property",
           "BooleanValue"
@@ -3134,7 +3134,7 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:stts751_temp:samples_per_ts;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:stts751_temp:samples_per_ts;1",
         "@type": [
           "Property",
           "Initialized",
@@ -3151,7 +3151,7 @@
         "minValue": 0
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:stts751_temp:dim;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:stts751_temp:dim;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -3164,7 +3164,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:stts751_temp:ioffset;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:stts751_temp:ioffset;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -3178,7 +3178,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:stts751_temp:measodr;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:stts751_temp:measodr;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -3192,7 +3192,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:stts751_temp:usb_dps;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:stts751_temp:usb_dps;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -3205,7 +3205,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:stts751_temp:sd_dps;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:stts751_temp:sd_dps;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -3218,7 +3218,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:stts751_temp:sensitivity;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:stts751_temp:sensitivity;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -3231,7 +3231,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:stts751_temp:data_type;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:stts751_temp:data_type;1",
         "@type": [
           "Property",
           "StringValue"
@@ -3244,7 +3244,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:stts751_temp:sensor_annotation;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:stts751_temp:sensor_annotation;1",
         "@type": [
           "Property",
           "StringValue"
@@ -3257,7 +3257,7 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:stts751_temp:sensor_category;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:stts751_temp:sensor_category;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -3273,21 +3273,21 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:stts751_temp:st_ble_stream;2",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:stts751_temp:st_ble_stream;2",
         "@type": "Property",
         "displayName": {
           "en": "BLE Telemetry"
         },
         "name": "st_ble_stream",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:stts751_temp:st_ble_stream:schema;2",
+          "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:stts751_temp:st_ble_stream:schema;2",
           "@type": "Object",
           "displayName": {
             "en": "Object"
           },
           "fields": [
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:stts751_temp:st_ble_stream:schema:id;2",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:stts751_temp:st_ble_stream:schema:id;2",
               "displayName": {
                 "en": "id"
               },
@@ -3295,20 +3295,20 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:stts751_temp:st_ble_stream:schema:temp;2",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:stts751_temp:st_ble_stream:schema:temp;2",
               "displayName": {
                 "en": "Temp"
               },
               "name": "temp",
               "schema": {
-                "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:stts751_temp:st_ble_stream:schema:temp:schema;2",
+                "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:stts751_temp:st_ble_stream:schema:temp:schema;2",
                 "@type": "Object",
                 "displayName": {
                   "en": "Object"
                 },
                 "fields": [
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:stts751_temp:st_ble_stream:schema:temp:schema:enable;2",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:stts751_temp:st_ble_stream:schema:temp:schema:enable;2",
                     "displayName": {
                       "en": "enable"
                     },
@@ -3316,7 +3316,7 @@
                     "schema": "boolean"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:stts751_temp:st_ble_stream:schema:temp:schema:unit;2",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:stts751_temp:st_ble_stream:schema:temp:schema:unit;2",
                     "displayName": {
                       "en": "unit"
                     },
@@ -3324,7 +3324,7 @@
                     "schema": "string"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:stts751_temp:st_ble_stream:schema:temp:schema:format;2",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:stts751_temp:st_ble_stream:schema:temp:schema:format;2",
                     "displayName": {
                       "en": "format"
                     },
@@ -3332,7 +3332,7 @@
                     "schema": "string"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:stts751_temp:st_ble_stream:schema:temp:schema:elements;2",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:stts751_temp:st_ble_stream:schema:temp:schema:elements;2",
                     "displayName": {
                       "en": "elements"
                     },
@@ -3340,7 +3340,7 @@
                     "schema": "integer"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:stts751_temp:st_ble_stream:schema:temp:schema:channels;2",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:stts751_temp:st_ble_stream:schema:temp:schema:channels;2",
                     "displayName": {
                       "en": "channels"
                     },
@@ -3348,7 +3348,7 @@
                     "schema": "integer"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:stts751_temp:st_ble_stream:schema:temp:schema:multiply_factor;2",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:stts751_temp:st_ble_stream:schema:temp:schema:multiply_factor;2",
                     "displayName": {
                       "en": "multiply_factor"
                     },
@@ -3356,7 +3356,7 @@
                     "schema": "double"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:stts751_temp:st_ble_stream:schema:temp:schema:odr;2",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:stts751_temp:st_ble_stream:schema:temp:schema:odr;2",
                     "displayName": {
                       "en": "odr"
                     },
@@ -3380,11 +3380,11 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press;2",
+    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press;2",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press:odr;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press:odr;1",
         "@type": [
           "Property",
           "Initialized"
@@ -3394,14 +3394,14 @@
         },
         "name": "odr",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press:odr:schema;1",
+          "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press:odr:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press:odr:schema:hz1;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press:odr:schema:hz1;1",
               "displayName": {
                 "en": "1"
               },
@@ -3409,7 +3409,7 @@
               "name": "hz1"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press:odr:schema:hz10;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press:odr:schema:hz10;1",
               "displayName": {
                 "en": "10"
               },
@@ -3417,7 +3417,7 @@
               "name": "hz10"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press:odr:schema:hz25;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press:odr:schema:hz25;1",
               "displayName": {
                 "en": "25"
               },
@@ -3425,7 +3425,7 @@
               "name": "hz25"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press:odr:schema:hz50;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press:odr:schema:hz50;1",
               "displayName": {
                 "en": "50"
               },
@@ -3433,7 +3433,7 @@
               "name": "hz50"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press:odr:schema:hz75;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press:odr:schema:hz75;1",
               "displayName": {
                 "en": "75"
               },
@@ -3441,7 +3441,7 @@
               "name": "hz75"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press:odr:schema:hz100;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press:odr:schema:hz100;1",
               "displayName": {
                 "en": "100"
               },
@@ -3449,7 +3449,7 @@
               "name": "hz100"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press:odr:schema:hz200;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press:odr:schema:hz200;1",
               "displayName": {
                 "en": "200"
               },
@@ -3467,21 +3467,21 @@
         "initialValue": 6
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press:fs;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press:fs;1",
         "@type": "Property",
         "displayName": {
           "en": "FS"
         },
         "name": "fs",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press:fs:schema;1",
+          "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press:fs:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press:fs:schema:hpa1260;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press:fs:schema:hpa1260;1",
               "displayName": {
                 "en": "1260"
               },
@@ -3497,7 +3497,7 @@
         }
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press:enable;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press:enable;1",
         "@type": [
           "Property",
           "BooleanValue"
@@ -3510,7 +3510,7 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press:samples_per_ts;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press:samples_per_ts;1",
         "@type": [
           "Property",
           "Initialized",
@@ -3527,7 +3527,7 @@
         "minValue": 0
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press:dim;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press:dim;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -3540,7 +3540,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press:ioffset;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press:ioffset;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -3554,7 +3554,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press:measodr;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press:measodr;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -3568,7 +3568,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press:usb_dps;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press:usb_dps;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -3581,7 +3581,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press:sd_dps;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press:sd_dps;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -3594,7 +3594,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press:sensitivity;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press:sensitivity;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -3607,7 +3607,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press:data_type;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press:data_type;1",
         "@type": [
           "Property",
           "StringValue"
@@ -3620,7 +3620,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press:sensor_annotation;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press:sensor_annotation;1",
         "@type": [
           "Property",
           "StringValue"
@@ -3633,7 +3633,7 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press:sensor_category;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press:sensor_category;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -3649,21 +3649,21 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press:st_ble_stream;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press:st_ble_stream;1",
         "@type": "Property",
         "displayName": {
           "en": "BLE Telemetry"
         },
         "name": "st_ble_stream",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press:st_ble_stream:schema;1",
+          "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press:st_ble_stream:schema;1",
           "@type": "Object",
           "displayName": {
             "en": "Object"
           },
           "fields": [
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press:st_ble_stream:schema:id;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press:st_ble_stream:schema:id;1",
               "displayName": {
                 "en": "id"
               },
@@ -3671,20 +3671,20 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press:st_ble_stream:schema:press;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press:st_ble_stream:schema:press;1",
               "displayName": {
                 "en": "Press"
               },
               "name": "press",
               "schema": {
-                "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press:st_ble_stream:schema:press:schema;1",
+                "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press:st_ble_stream:schema:press:schema;1",
                 "@type": "Object",
                 "displayName": {
                   "en": "Object"
                 },
                 "fields": [
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press:st_ble_stream:schema:press:schema:enable;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press:st_ble_stream:schema:press:schema:enable;1",
                     "displayName": {
                       "en": "enable"
                     },
@@ -3692,7 +3692,7 @@
                     "schema": "boolean"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press:st_ble_stream:schema:press:schema:unit;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press:st_ble_stream:schema:press:schema:unit;1",
                     "displayName": {
                       "en": "unit"
                     },
@@ -3700,7 +3700,7 @@
                     "schema": "string"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press:st_ble_stream:schema:press:schema:format;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press:st_ble_stream:schema:press:schema:format;1",
                     "displayName": {
                       "en": "format"
                     },
@@ -3708,7 +3708,7 @@
                     "schema": "string"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press:st_ble_stream:schema:press:schema:elements;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press:st_ble_stream:schema:press:schema:elements;1",
                     "displayName": {
                       "en": "elements"
                     },
@@ -3716,7 +3716,7 @@
                     "schema": "integer"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press:st_ble_stream:schema:press:schema:channels;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press:st_ble_stream:schema:press:schema:channels;1",
                     "displayName": {
                       "en": "channels"
                     },
@@ -3724,7 +3724,7 @@
                     "schema": "integer"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press:st_ble_stream:schema:press:schema:multiply_factor;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press:st_ble_stream:schema:press:schema:multiply_factor;1",
                     "displayName": {
                       "en": "multiply_factor"
                     },
@@ -3732,7 +3732,7 @@
                     "schema": "double"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_press:st_ble_stream:schema:press:schema:odr;1",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_press:st_ble_stream:schema:press:schema:odr;1",
                     "displayName": {
                       "en": "odr"
                     },
@@ -3756,11 +3756,11 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp;3",
+    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp;3",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp:odr;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp:odr;1",
         "@type": [
           "Property",
           "Initialized"
@@ -3770,14 +3770,14 @@
         },
         "name": "odr",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp:odr:schema;1",
+          "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp:odr:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp:odr:schema:hz1;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp:odr:schema:hz1;1",
               "displayName": {
                 "en": "1"
               },
@@ -3785,7 +3785,7 @@
               "name": "hz1"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp:odr:schema:hz10;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp:odr:schema:hz10;1",
               "displayName": {
                 "en": "10"
               },
@@ -3793,7 +3793,7 @@
               "name": "hz10"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp:odr:schema:hz25;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp:odr:schema:hz25;1",
               "displayName": {
                 "en": "25"
               },
@@ -3801,7 +3801,7 @@
               "name": "hz25"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp:odr:schema:hz50;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp:odr:schema:hz50;1",
               "displayName": {
                 "en": "50"
               },
@@ -3809,7 +3809,7 @@
               "name": "hz50"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp:odr:schema:hz75;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp:odr:schema:hz75;1",
               "displayName": {
                 "en": "75"
               },
@@ -3817,7 +3817,7 @@
               "name": "hz75"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp:odr:schema:hz100;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp:odr:schema:hz100;1",
               "displayName": {
                 "en": "100"
               },
@@ -3825,7 +3825,7 @@
               "name": "hz100"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp:odr:schema:hz200;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp:odr:schema:hz200;1",
               "displayName": {
                 "en": "200"
               },
@@ -3843,21 +3843,21 @@
         "initialValue": 6
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp:fs;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp:fs;1",
         "@type": "Property",
         "displayName": {
           "en": "FS"
         },
         "name": "fs",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp:fs:schema;1",
+          "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp:fs:schema;1",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp:fs:schema:cdeg85;1",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp:fs:schema:cdeg85;1",
               "displayName": {
                 "en": "85"
               },
@@ -3874,7 +3874,7 @@
         }
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp:enable;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp:enable;1",
         "@type": [
           "Property",
           "BooleanValue"
@@ -3887,7 +3887,7 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp:samples_per_ts;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp:samples_per_ts;1",
         "@type": [
           "Property",
           "Initialized",
@@ -3904,7 +3904,7 @@
         "minValue": 0
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp:dim;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp:dim;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -3917,7 +3917,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp:ioffset;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp:ioffset;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -3931,7 +3931,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp:measodr;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp:measodr;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -3945,7 +3945,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp:usb_dps;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp:usb_dps;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -3958,7 +3958,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp:sd_dps;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp:sd_dps;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -3971,7 +3971,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp:sensitivity;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp:sensitivity;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -3984,7 +3984,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp:data_type;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp:data_type;1",
         "@type": [
           "Property",
           "StringValue"
@@ -3997,7 +3997,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp:sensor_annotation;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp:sensor_annotation;1",
         "@type": [
           "Property",
           "StringValue"
@@ -4010,7 +4010,7 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp:sensor_category;1",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp:sensor_category;1",
         "@type": [
           "Property",
           "NumberValue"
@@ -4026,21 +4026,21 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp:st_ble_stream;2",
+        "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp:st_ble_stream;2",
         "@type": "Property",
         "displayName": {
           "en": "BLE Telemetry"
         },
         "name": "st_ble_stream",
         "schema": {
-          "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp:st_ble_stream:schema;2",
+          "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp:st_ble_stream:schema;2",
           "@type": "Object",
           "displayName": {
             "en": "Object"
           },
           "fields": [
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp:st_ble_stream:schema:id;2",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp:st_ble_stream:schema:id;2",
               "displayName": {
                 "en": "id"
               },
@@ -4048,20 +4048,20 @@
               "schema": "integer"
             },
             {
-              "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp:st_ble_stream:schema:temp;2",
+              "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp:st_ble_stream:schema:temp;2",
               "displayName": {
                 "en": "Temp"
               },
               "name": "temp",
               "schema": {
-                "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp:st_ble_stream:schema:temp:schema;2",
+                "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp:st_ble_stream:schema:temp:schema;2",
                 "@type": "Object",
                 "displayName": {
                   "en": "Object"
                 },
                 "fields": [
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp:st_ble_stream:schema:temp:schema:enable;2",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp:st_ble_stream:schema:temp:schema:enable;2",
                     "displayName": {
                       "en": "enable"
                     },
@@ -4069,7 +4069,7 @@
                     "schema": "boolean"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp:st_ble_stream:schema:temp:schema:unit;2",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp:st_ble_stream:schema:temp:schema:unit;2",
                     "displayName": {
                       "en": "unit"
                     },
@@ -4077,7 +4077,7 @@
                     "schema": "string"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp:st_ble_stream:schema:temp:schema:format;2",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp:st_ble_stream:schema:temp:schema:format;2",
                     "displayName": {
                       "en": "format"
                     },
@@ -4085,7 +4085,7 @@
                     "schema": "string"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp:st_ble_stream:schema:temp:schema:elements;2",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp:st_ble_stream:schema:temp:schema:elements;2",
                     "displayName": {
                       "en": "elements"
                     },
@@ -4093,7 +4093,7 @@
                     "schema": "integer"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp:st_ble_stream:schema:temp:schema:channels;2",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp:st_ble_stream:schema:temp:schema:channels;2",
                     "displayName": {
                       "en": "channels"
                     },
@@ -4101,7 +4101,7 @@
                     "schema": "integer"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp:st_ble_stream:schema:temp:schema:multiply_factor;2",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp:st_ble_stream:schema:temp:schema:multiply_factor;2",
                     "displayName": {
                       "en": "multiply_factor"
                     },
@@ -4109,7 +4109,7 @@
                     "schema": "double"
                   },
                   {
-                    "@id": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2:sensors:lps22hh_temp:st_ble_stream:schema:temp:schema:odr;2",
+                    "@id": "dtmi:appconfig:steval_stwinkt1b:fpSnsDatalog2_datalog2:sensors:lps22hh_temp:st_ble_stream:schema:temp:schema:odr;2",
                     "displayName": {
                       "en": "odr"
                     },
