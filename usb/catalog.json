@@ -3091,7 +3091,7 @@
             "package_id": 466,
             "binary_id": 533,
             "dtmi": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_AI_Inertial;1",
-            "dwn_url": null,
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-stm32f401re/STAIOTCRAFT_AI_Inertial_1_0_0.bin",
             "fw_page_url": ""
         },
         {
@@ -3129,7 +3129,7 @@
             "fw_page_url": ""
         }
     ],
-    "date": "2026-06-26 08:09:29.509075",
-    "version": "0.13.0",
-    "checksum": "275294e5e14dd62d8d1dc612599108db"
+    "date": "2026-07-08 08:57:05.608356",
+    "version": "0.13.1",
+    "checksum": "be43236d387d0abb4acc6abfc6e192f6"
 }
