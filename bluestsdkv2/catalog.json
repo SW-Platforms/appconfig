@@ -11408,7 +11408,7 @@
             "fw_name": "STAIOTCRAFT_AI_SSM",
             "fw_desc": "Smart Sensor Monitoring for STAIOTCRAFT",
             "fw_version": "1.0.0",
-            "maturity": "release",
+            "maturity": "demo",
             "option_bytes": [
                 {
                     "name": "Running on:",
@@ -29471,7 +29471,7 @@
             "fw_name": "STAIOTCRAFT_AI_SSM",
             "fw_desc": "Smart Sensor Monitoring for STAIOTCRAFT",
             "fw_version": "1.0.0",
-            "maturity": "release",
+            "maturity": "demo",
             "option_bytes": [
                 {
                     "name": "Running on:",
@@ -37534,8 +37534,8 @@
             }
         }
     ],
-    "date": "2026-07-17 10:02:24.260927",
-    "version": "0.13.1",
+    "date": "2026-07-22 07:30:18.464962",
+    "version": "0.14.0",
     "stable_release": false,
-    "checksum": "bf06cebe7a82bbbef1fec8502e8d7e46"
+    "checksum": "dbfde28263cc1efab11e5e970789fb18"
 }
