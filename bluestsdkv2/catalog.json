@@ -12054,7 +12054,7 @@
             "dtmi": "dtmi:appconfig:steval_mkboxpro:FP_SNS_DATALOG2_Datalog2;9",
             "fota": {
                 "bootloader_type": "none",
-                "fw_url": null,
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/FP-SNS-DATALOG2_Datalog2_3_4_0.bin",
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 0,
                 "partial_fota": 0,
@@ -19549,7 +19549,7 @@
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_PDetect;5",
             "fota": {
                 "bootloader_type": "none",
-                "fw_url": null,
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_PDetect_3_4_0.bin",
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 0,
                 "partial_fota": 0,
@@ -19707,7 +19707,7 @@
             "dtmi": "dtmi:appconfig:steval_stwinbx1:FP_SNS_DATALOG2_Datalog2;11",
             "fota": {
                 "bootloader_type": "none",
-                "fw_url": null,
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinbx1/FP-SNS-DATALOG2_Datalog2_3_4_0.bin",
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 0,
                 "partial_fota": 0,
@@ -30533,7 +30533,7 @@
             "dtmi": "dtmi:appconfig:steval_mkboxproc:FP_SNS_DATALOG2_Datalog2;9",
             "fota": {
                 "bootloader_type": "none",
-                "fw_url": null,
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxproc/FP-SNS-DATALOG2_Datalog2_3_4_0.bin",
                 "max_chunk_length": 0,
                 "max_divisor_constraint": 0,
                 "partial_fota": 0,
@@ -38055,8 +38055,8 @@
             }
         }
     ],
-    "date": "2026-08-06 09:49:59.969434",
+    "date": "2026-08-18 09:31:48.873146",
     "version": "0.16.1",
     "stable_release": false,
-    "checksum": "bb89e84404d4c05af2cb4104751c078d"
+    "checksum": "3a12304eda24f847029f44f6abdad9f6"
 }
