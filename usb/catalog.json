@@ -4113,9 +4113,26 @@
             "dtmi": "dtmi:appconfig:steval_mkboxproc:FP_SNS_DATALOG2_Datalog2;9",
             "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxproc/FP-SNS-DATALOG2_Datalog2_3_4_0.bin",
             "fw_page_url": "https://www.st.com/en/embedded-software/fp-sns-datalog2.html"
+        },
+        {
+            "protocol": "libusb",
+            "usb_vendor_id": "0x0483",
+            "usb_product_id": "0x5744",
+            "baudrate": 0,
+            "brd_name": "STEVAL-STWINKT1B",
+            "board_id": "0x09",
+            "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
+            "fw_name": "FP-SNS-DATALOG2_Datalog2",
+            "fw_version": "3.4.0",
+            "usb_fw_id": "0x15",
+            "package_id": 483,
+            "binary_id": 596,
+            "dtmi": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2;4",
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinkt1b/FP-SNS-DATALOG2_Datalog2_3_4_0.bin",
+            "fw_page_url": "https://www.st.com/en/embedded-software/fp-sns-datalog2.html"
         }
     ],
-    "date": "2026-08-18 09:31:22.354178",
+    "date": "2026-08-26 09:26:47.034044",
     "version": "0.16.1",
-    "checksum": "9d2797386c0453aae2d3f00463e4bf37"
+    "checksum": "6261baddfef91a118da5b1ecef3ddc6f"
 }
