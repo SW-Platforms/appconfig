@@ -4130,9 +4130,26 @@
             "dtmi": "dtmi:appconfig:steval_stwinkt1b:FP_SNS_DATALOG2_Datalog2;4",
             "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-stwinkt1b/FP-SNS-DATALOG2_Datalog2_3_4_0.bin",
             "fw_page_url": "https://www.st.com/en/embedded-software/fp-sns-datalog2.html"
+        },
+        {
+            "protocol": "libusb",
+            "usb_vendor_id": "0x0483",
+            "usb_product_id": "0x5744",
+            "baudrate": 0,
+            "brd_name": "NUCLEO-U575ZI-Q",
+            "board_id": "0x10",
+            "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
+            "fw_name": "FP-SNS-DATALOG2_Datalog2-IKS5A1",
+            "fw_version": "3.4.0",
+            "usb_fw_id": "0x10",
+            "package_id": 482,
+            "binary_id": 597,
+            "dtmi": "dtmi:appconfig:nucleo_u575zi_q:FP_SNS_DATALOG2_Datalog2_IKS5A1;2",
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-u575zi-q/FP-SNS-DATALOG2_Datalog2-IKS5A1_3_4_0.bin",
+            "fw_page_url": "https://www.st.com/en/embedded-software/fp-sns-datalog2.html"
         }
     ],
-    "date": "2026-08-26 09:26:47.034044",
+    "date": "2026-08-27 13:01:54.570216",
     "version": "0.16.1",
-    "checksum": "6261baddfef91a118da5b1ecef3ddc6f"
+    "checksum": "3008c5d7e4e6670636008aede43c7c12"
 }
