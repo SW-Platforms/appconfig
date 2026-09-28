@@ -34455,6 +34455,24 @@
             ]
         },
         {
+            "release_date": "2020_Q1",
+            "brd_variant": "GENERIC$NUCLEO",
+            "brd_part": "GENERIC-NUCLEO",
+            "brd_name": "GENERIC-NUCLEO",
+            "friendly_name": "Generic Nucleo",
+            "ble_dev_id": "0x80",
+            "nfc_dev_id": null,
+            "usb_dev_id": null,
+            "video_url": null,
+            "order_url": null,
+            "wiki_url": null,
+            "unique_dev_id": 59,
+            "status": "ACTIVE",
+            "description": "Special ID reserved for development of Nucleo-related items",
+            "documentation_url": null,
+            "components": []
+        },
+        {
             "release_date": "2018_Q2",
             "brd_variant": "NUCLEO$WB55",
             "brd_part": "NUCLEO-WB55",
@@ -34541,6 +34559,24 @@
             "unique_dev_id": 26,
             "status": "ACTIVE",
             "description": "Discovery Kit WB1M",
+            "documentation_url": null,
+            "components": []
+        },
+        {
+            "release_date": "2026_Q4",
+            "brd_variant": "STEVAL$BCNWBCB",
+            "brd_part": "STEVAL-BCNWBCB",
+            "brd_name": "STEVAL-BCNWBCB",
+            "friendly_name": "BLE Sensor Tag",
+            "ble_dev_id": "0x86",
+            "nfc_dev_id": null,
+            "usb_dev_id": null,
+            "video_url": null,
+            "order_url": null,
+            "wiki_url": null,
+            "unique_dev_id": 58,
+            "status": "ACTIVE",
+            "description": "BLE sensor node for automotive and home automation application",
             "documentation_url": null,
             "components": []
         },
@@ -38213,8 +38249,8 @@
             }
         }
     ],
-    "date": "2026-09-23 12:07:55.885895",
+    "date": "2026-09-28 13:38:25.604426",
     "version": "0.16.1",
     "stable_release": false,
-    "checksum": "eabc37f8cacf07905afb5e004e477a7f"
+    "checksum": "2995a3e009091222fa9e4e5b30a628f0"
 }
