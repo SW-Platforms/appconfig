@@ -4147,9 +4147,26 @@
             "dtmi": "dtmi:appconfig:nucleo_u575zi_q:FP_SNS_DATALOG2_Datalog2_IKS5A1;2",
             "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-u575zi-q/FP-SNS-DATALOG2_Datalog2-IKS5A1_3_4_0.bin",
             "fw_page_url": "https://www.st.com/en/embedded-software/fp-sns-datalog2.html"
+        },
+        {
+            "protocol": "serial",
+            "usb_vendor_id": "0x0483",
+            "usb_product_id": "0x5744",
+            "baudrate": 1843200,
+            "brd_name": "NUCLEO-STM32F401RE",
+            "board_id": "0x7F",
+            "fw_desc": "Simple datalogger over serial",
+            "fw_name": "STAIOTCRAFT_SDATALOG",
+            "fw_version": "1.0.1",
+            "usb_fw_id": "0x11",
+            "package_id": 484,
+            "binary_id": 598,
+            "dtmi": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG;2",
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-stm32f401re/STAIOTCRAFT_SDATALOG_1_0_1.bin",
+            "fw_page_url": ""
         }
     ],
-    "date": "2026-09-28 13:38:00.599430",
+    "date": "2026-09-29 14:24:38.607432",
     "version": "0.16.1",
-    "checksum": "3008c5d7e4e6670636008aede43c7c12"
+    "checksum": "0346de1cecc7724e19fb3f7e673139a1"
 }
