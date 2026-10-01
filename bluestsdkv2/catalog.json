@@ -4259,7 +4259,7 @@
             "fw_name": "FP-SNS-DATALOG2_Datalog2",
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "fw_version": "3.4.0",
-            "maturity": "draft",
+            "maturity": "release",
             "option_bytes": [
                 {
                     "name": "battery:",
@@ -12221,7 +12221,7 @@
             "fw_name": "FP-SNS-DATALOG2_Datalog2",
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "fw_version": "3.4.0",
-            "maturity": "draft",
+            "maturity": "release",
             "option_bytes": [
                 {
                     "name": "alarm:",
@@ -19716,7 +19716,7 @@
             "fw_name": "FP-SNS-DATALOG2_PDetect",
             "fw_desc": "Comprehensive solution for saving data for presence detection via STEVAL-PDETECT1 expansion board",
             "fw_version": "3.4.0",
-            "maturity": "draft",
+            "maturity": "release",
             "option_bytes": [
                 {
                     "name": "battery:",
@@ -19874,7 +19874,7 @@
             "fw_name": "FP-SNS-DATALOG2_Datalog2",
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "fw_version": "3.4.0",
-            "maturity": "draft",
+            "maturity": "release",
             "option_bytes": [
                 {
                     "name": "battery:",
@@ -30700,7 +30700,7 @@
             "fw_name": "FP-SNS-DATALOG2_Datalog2",
             "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
             "fw_version": "3.4.0",
-            "maturity": "draft",
+            "maturity": "release",
             "option_bytes": [
                 {
                     "name": "alarm:",
@@ -38249,8 +38249,8 @@
             }
         }
     ],
-    "date": "2026-10-01 09:08:04.419549",
+    "date": "2026-10-01 12:20:00.554160",
     "version": "0.16.1",
     "stable_release": false,
-    "checksum": "2995a3e009091222fa9e4e5b30a628f0"
+    "checksum": "48c6916306af91e4e92023ec451d2f3d"
 }
