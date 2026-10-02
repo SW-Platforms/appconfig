@@ -243,7 +243,7 @@
                     "Initialized"
                 ],
                 "description": {
-                    "en": "Integration time in ms. Valid range from 1 to 30."
+                    "en": "Integration time in ms. Valid range from 2 to 30."
                 },
                 "displayName": {
                     "en": "Integration Time"
