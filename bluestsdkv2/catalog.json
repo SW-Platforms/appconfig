@@ -12268,6 +12268,66 @@
         },
         {
             "ble_dev_id": "0x0D",
+            "ble_fw_id": "0x2C",
+            "brd_name": "STEVAL-MKBOXPRO",
+            "changelog": "",
+            "characteristics": [
+                {
+                    "max_write_length": 244,
+                    "name": "Debug console",
+                    "uuid": "00000000-000E-11e1-9ab4-0002a5d5c51b"
+                },
+                {
+                    "max_write_length": 20,
+                    "name": "Ext Configuration",
+                    "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "max_write_length": 20,
+                    "name": "PnPLike",
+                    "uuid": "0000001b-0002-11e1-ac36-0002a5d5c51b"
+                }
+            ],
+            "cloud_apps": [],
+            "demo_decorator": {
+                "add": [
+                    "ST AIoT Craft"
+                ],
+                "remove": [],
+                "rename": []
+            },
+            "dtmi": "dtmi:appconfig:steval_mkboxpro:STAIOTCRAFT_AI_SSM;1",
+            "fota": {
+                "bootloader_type": "none",
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxpro/STAIOTCRAFT_AI_SSM_1_1_0.bin",
+                "max_chunk_length": 0,
+                "max_divisor_constraint": 0,
+                "partial_fota": 0,
+                "type": "fast"
+            },
+            "fw_name": "STAIOTCRAFT_AI_SSM",
+            "fw_desc": "Smart Sensor Monitoring for STAIOTCRAFT",
+            "fw_version": "1.1.0",
+            "maturity": "beta",
+            "option_bytes": [
+                {
+                    "name": "Running on:",
+                    "format": "enum_string",
+                    "string_values": [
+                        {
+                            "value": 1,
+                            "display_name": "Bank 1"
+                        },
+                        {
+                            "value": 2,
+                            "display_name": "Bank 2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ble_dev_id": "0x0D",
             "ble_fw_id": "0x2F",
             "brd_name": "STEVAL-MKBOXPRO",
             "changelog": "Add Support to ST25KC, Drivers and HAL update",
@@ -30746,6 +30806,66 @@
             ]
         },
         {
+            "ble_dev_id": "0x13",
+            "ble_fw_id": "0x0E",
+            "brd_name": "STEVAL-MKBOXPRO",
+            "changelog": "",
+            "characteristics": [
+                {
+                    "max_write_length": 244,
+                    "name": "Debug console",
+                    "uuid": "00000000-000E-11e1-9ab4-0002a5d5c51b"
+                },
+                {
+                    "max_write_length": 20,
+                    "name": "Ext Configuration",
+                    "uuid": "00000014-0002-11e1-ac36-0002a5d5c51b"
+                },
+                {
+                    "max_write_length": 20,
+                    "name": "PnPLike",
+                    "uuid": "0000001b-0002-11e1-ac36-0002a5d5c51b"
+                }
+            ],
+            "cloud_apps": [],
+            "demo_decorator": {
+                "add": [
+                    "ST AIoT Craft"
+                ],
+                "remove": [],
+                "rename": []
+            },
+            "dtmi": "dtmi:appconfig:steval_mkboxproc:STAIOTCRAFT_AI_SSM;1",
+            "fota": {
+                "bootloader_type": "none",
+                "fw_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/steval-mkboxproc/STAIOTCRAFT_AI_SSM_1_1_0.bin",
+                "max_chunk_length": 0,
+                "max_divisor_constraint": 0,
+                "partial_fota": 0,
+                "type": "fast"
+            },
+            "fw_name": "STAIOTCRAFT_AI_SSM",
+            "fw_desc": "Smart Sensor Monitoring for STAIOTCRAFT",
+            "fw_version": "1.1.0",
+            "maturity": "beta",
+            "option_bytes": [
+                {
+                    "name": "Running on:",
+                    "format": "enum_string",
+                    "string_values": [
+                        {
+                            "value": 1,
+                            "display_name": "Bank 1"
+                        },
+                        {
+                            "value": 2,
+                            "display_name": "Bank 2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "ble_dev_id": "0x7B",
             "ble_fw_id": "0x01",
             "brd_name": "NUCLEO-U575ZI-Q",
@@ -38249,8 +38369,8 @@
             }
         }
     ],
-    "date": "2026-10-02 12:16:41.919038",
+    "date": "2026-10-12 12:37:49.153859",
     "version": "0.16.1",
     "stable_release": false,
-    "checksum": "a2d2664417472f61ffbd65a4302c666a"
+    "checksum": "16b62df9ddd94d68d9685689b8a6fced"
 }
