@@ -34388,6 +34388,24 @@
             "components": []
         },
         {
+            "release_date": "2026_Q4",
+            "brd_variant": "STEVAL$BCNWBCB",
+            "brd_part": "STEVAL-BCNWBCB",
+            "brd_name": "STEVAL-BCNWBCB",
+            "friendly_name": "BLE Sensor Tag",
+            "ble_dev_id": "0x14",
+            "nfc_dev_id": null,
+            "usb_dev_id": null,
+            "video_url": null,
+            "order_url": null,
+            "wiki_url": null,
+            "unique_dev_id": 58,
+            "status": "ACTIVE",
+            "description": "BLE sensor node for automotive and home automation application",
+            "documentation_url": null,
+            "components": []
+        },
+        {
             "release_date": "2023_Q4",
             "brd_variant": "NUCLEO$U5A5ZJ$Q",
             "brd_part": "NUCLEO-U5A5ZJ-Q",
@@ -34575,7 +34593,7 @@
             ]
         },
         {
-            "release_date": "2020_Q1",
+            "release_date": null,
             "brd_variant": "GENERIC$NUCLEO",
             "brd_part": "GENERIC-NUCLEO",
             "brd_name": "GENERIC-NUCLEO",
@@ -34683,20 +34701,20 @@
             "components": []
         },
         {
-            "release_date": "2026_Q4",
-            "brd_variant": "STEVAL$BCNWBCB",
-            "brd_part": "STEVAL-BCNWBCB",
-            "brd_name": "STEVAL-BCNWBCB",
-            "friendly_name": "BLE Sensor Tag",
+            "release_date": null,
+            "brd_variant": "WB$OTA$MODE",
+            "brd_part": "WB-OTA-MODE",
+            "brd_name": "WB-OTA-MODE",
+            "friendly_name": "Generic WB boards in OTA mode",
             "ble_dev_id": "0x86",
             "nfc_dev_id": null,
             "usb_dev_id": null,
             "video_url": null,
             "order_url": null,
             "wiki_url": null,
-            "unique_dev_id": 58,
+            "unique_dev_id": 60,
             "status": "ACTIVE",
-            "description": "BLE sensor node for automotive and home automation application",
+            "description": "Reserved item for WB boards operating in OTA mode",
             "documentation_url": null,
             "components": []
         },
@@ -38369,8 +38387,8 @@
             }
         }
     ],
-    "date": "2026-10-12 12:37:49.153859",
+    "date": "2026-10-15 08:19:24.558189",
     "version": "0.16.1",
     "stable_release": false,
-    "checksum": "16b62df9ddd94d68d9685689b8a6fced"
+    "checksum": "c420da516d3987d5879df6c1475e180b"
 }
