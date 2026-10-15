@@ -308,6 +308,22 @@
                     "vespucci_application_type": "datalog+inference",
                     "vespucci_data_type": "binary_hsd",
                     "components": null
+                },
+                {
+                    "ble_fw_id": null,
+                    "serial_fw_id": "0x1B",
+                    "serial_vendor_id": "0x0483",
+                    "serial_product_id": "0x5744",
+                    "firmware": 486,
+                    "application_name": "STAIOTCRAFT_SDATALOG_VSM01DIL24",
+                    "fw_version": "1.0.0",
+                    "fw_artifact_uri": null,
+                    "description": "Datalogging of Medical data from the VSM01-DIL24 Board (experimental)",
+                    "dtmi_uri": "dtmi:appconfig:steval_mkboxpro:STAIOTCRAFT_SDATALOG_VSM01DIL24;1",
+                    "vespucci_support": true,
+                    "vespucci_application_type": "datalog+inference",
+                    "vespucci_data_type": "binary_hsd",
+                    "components": null
                 }
             ],
             "components": [
