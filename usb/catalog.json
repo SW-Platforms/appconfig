@@ -4213,11 +4213,11 @@
             "package_id": 487,
             "binary_id": 604,
             "dtmi": "dtmi:appconfig:nucleo_h563zi:FP_SNS_DATALOG2_Datalog2_VL53L9;2",
-            "dwn_url": null,
+            "dwn_url": "https://github.com/STMicroelectronics/appconfig/raw/release/bluestsdkv2/bin/nucleo-h563zi/FP-SNS-DATALOG2_Datalog2-VL53L9_3_4_1.bin",
             "fw_page_url": "https://www.st.com/en/embedded-software/fp-sns-datalog2.html"
         }
     ],
-    "date": "2026-10-16 09:01:01.435651",
+    "date": "2026-10-16 13:41:13.551420",
     "version": "0.16.1",
-    "checksum": "7f72bc5787cd5d20536a8b8f6af94c05"
+    "checksum": "9fed8f16747af85b97e1cac97c986013"
 }
