@@ -3459,9 +3459,30 @@
             "dsf_ready": true,
             "exp_name": ["X-NUCLEO-IKS5A1"],
             "prog_mode": "st-link_dedicated"
+        },
+        {
+            "protocol": "libusb",
+            "usb_vendor_id": "0x0483",
+            "usb_product_id": "0x5744",
+            "baudrate": 0,
+            "brd_name": "NUCLEO-H563ZI",
+            "board_id": "0x32",
+            "fw_desc": "Comprehensive solution for saving data from any combination of sensors",
+            "fw_name": "FP-SNS-DATALOG2_Datalog2-VL53L9",
+            "fw_version": "3.4.1",
+            "usb_fw_id": "0x06",
+            "package_id": 487,
+            "binary_id": 604,
+            "dtmi": "dtmi:appconfig:nucleo_h563zi:FP_SNS_DATALOG2_Datalog2_VL53L9;2",
+            "dwn_url": "https://github.com/SW-Platforms/appconfig/raw/release/bluestsdkv2/bin/nucleo-h563zi/FP-SNS-DATALOG2_Datalog2-VL53L9_3_4_1.bin",
+            "fw_page_url": "https://www.st.com/en/embedded-software/fp-sns-datalog2.html",
+            "dsf_ready": true,
+            "exp_name": ["X-NUCLEO-53L9A1"],
+            "prog_mode": "st-link_dedicated"
         }
     ],
-"date":  "2026-08-27 13:01:54.570216",
+"date": "2026-10-16 13:41:13.551420",
 "version":  "0.16.1",
-"checksum":  "3008c5d7e4e6670636008aede43c7c12"
+"checksum": "9fed8f16747af85b97e1cac97c986013"
+
 }
