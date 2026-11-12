@@ -31052,7 +31052,7 @@
                 "type": "fast"
             },
             "fw_name": "FP-SNS-FLIGHT1_53L3A2",
-            "fw_desc": "The FP-SNS-FLIGHT1 is an STM32Cube function pack, which lets your IoT node connect to a smartphone via BLE and uses a suitable Android\u2122 or iOS\u2122 application like the STBLESensor app to view real-time object distance data read by the Time-of-Flight sensor.",
+            "fw_desc": "The FP-SNS-FLIGHT1 is an STM32Cube function pack, which lets your IoT node connect to a smartphone via BLE and uses a suitable Android™ or iOS™ application like the STBLESensor app to view real-time object distance data read by the Time-of-Flight sensor.",
             "fw_version": "5.1.0",
             "maturity": "release",
             "option_bytes": [
@@ -31110,7 +31110,7 @@
             "dtmi": null,
             "fota": {},
             "fw_name": "FP-SNS-FLIGHT1_Custom",
-            "fw_desc": "The FP-SNS-FLIGHT1 is an STM32Cube function pack, which lets your IoT node connect to a smartphone via BLE and uses a suitable Android\u2122 or iOS\u2122 application like the STBLESensor app to view real-time object distance data read by the Time-of-Flight sensor.",
+            "fw_desc": "The FP-SNS-FLIGHT1 is an STM32Cube function pack, which lets your IoT node connect to a smartphone via BLE and uses a suitable Android™ or iOS™ application like the STBLESensor app to view real-time object distance data read by the Time-of-Flight sensor.",
             "fw_version": "5.1.0",
             "maturity": "release",
             "option_bytes": [
@@ -32255,7 +32255,7 @@
                 "type": "yes"
             },
             "fw_name": "FP-SNS-FLIGHT1",
-            "fw_desc": "The FP-SNS-FLIGHT1 is an STM32Cube function pack, which lets your IoT node connect to a smartphone via BLE and uses a suitable Android\u2122 or iOS\u2122 application like the STBLESensor app to view real-time object distance data read by the Time-of-Flight sensor.",
+            "fw_desc": "The FP-SNS-FLIGHT1 is an STM32Cube function pack, which lets your IoT node connect to a smartphone via BLE and uses a suitable Android™ or iOS™ application like the STBLESensor app to view real-time object distance data read by the Time-of-Flight sensor.",
             "fw_version": "5.0.0",
             "maturity": "release",
             "option_bytes": [
@@ -32288,7 +32288,7 @@
                 "type": "fast"
             },
             "fw_name": "FP-SNS-FLIGHT1",
-            "fw_desc": "The FP-SNS-FLIGHT1 is an STM32Cube function pack, which lets your IoT node connect to a smartphone via BLE and uses a suitable Android\u2122 or iOS\u2122 application like the STBLESensor app to view real-time object distance data read by the Time-of-Flight sensor.",
+            "fw_desc": "The FP-SNS-FLIGHT1 is an STM32Cube function pack, which lets your IoT node connect to a smartphone via BLE and uses a suitable Android™ or iOS™ application like the STBLESensor app to view real-time object distance data read by the Time-of-Flight sensor.",
             "fw_version": "5.0.2",
             "maturity": "release",
             "option_bytes": [
@@ -32669,7 +32669,7 @@
                 "type": "fast"
             },
             "fw_name": "FP-SNS-FLIGHT1_53L3A2",
-            "fw_desc": "The FP-SNS-FLIGHT1 is an STM32Cube function pack, which lets your IoT node connect to a smartphone via BLE and uses a suitable Android\u2122 or iOS\u2122 application like the STBLESensor app to view real-time object distance data read by the Time-of-Flight sensor.",
+            "fw_desc": "The FP-SNS-FLIGHT1 is an STM32Cube function pack, which lets your IoT node connect to a smartphone via BLE and uses a suitable Android™ or iOS™ application like the STBLESensor app to view real-time object distance data read by the Time-of-Flight sensor.",
             "fw_version": "5.1.0",
             "maturity": "release",
             "option_bytes": [
@@ -32727,7 +32727,7 @@
             "dtmi": null,
             "fota": {},
             "fw_name": "FP-SNS-FLIGHT1_Custom",
-            "fw_desc": "The FP-SNS-FLIGHT1 is an STM32Cube function pack, which lets your IoT node connect to a smartphone via BLE and uses a suitable Android\u2122 or iOS\u2122 application like the STBLESensor app to view real-time object distance data read by the Time-of-Flight sensor.",
+            "fw_desc": "The FP-SNS-FLIGHT1 is an STM32Cube function pack, which lets your IoT node connect to a smartphone via BLE and uses a suitable Android™ or iOS™ application like the STBLESensor app to view real-time object distance data read by the Time-of-Flight sensor.",
             "fw_version": "5.1.0",
             "maturity": "release",
             "option_bytes": [
@@ -33278,7 +33278,7 @@
                 "type": "yes"
             },
             "fw_name": "FP-SNS-FLIGHT1",
-            "fw_desc": "The FP-SNS-FLIGHT1 is an STM32Cube function pack, which lets your IoT node connect to a smartphone via BLE and uses a suitable Android\u2122 or iOS\u2122 application like the STBLESensor app to view real-time object distance data read by the Time-of-Flight sensor.",
+            "fw_desc": "The FP-SNS-FLIGHT1 is an STM32Cube function pack, which lets your IoT node connect to a smartphone via BLE and uses a suitable Android™ or iOS™ application like the STBLESensor app to view real-time object distance data read by the Time-of-Flight sensor.",
             "fw_version": "5.0.0",
             "maturity": "release",
             "option_bytes": [
@@ -33311,7 +33311,7 @@
                 "type": "fast"
             },
             "fw_name": "FP-SNS-FLIGHT1",
-            "fw_desc": "The FP-SNS-FLIGHT1 is an STM32Cube function pack, which lets your IoT node connect to a smartphone via BLE and uses a suitable Android\u2122 or iOS\u2122 application like the STBLESensor app to view real-time object distance data read by the Time-of-Flight sensor.",
+            "fw_desc": "The FP-SNS-FLIGHT1 is an STM32Cube function pack, which lets your IoT node connect to a smartphone via BLE and uses a suitable Android™ or iOS™ application like the STBLESensor app to view real-time object distance data read by the Time-of-Flight sensor.",
             "fw_version": "5.0.2",
             "maturity": "release",
             "option_bytes": [
@@ -33553,7 +33553,7 @@
                 "type": "fast"
             },
             "fw_name": "FP-SNS-FLIGHT1_53L3A2",
-            "fw_desc": "The FP-SNS-FLIGHT1 is an STM32Cube function pack, which lets your IoT node connect to a smartphone via BLE and uses a suitable Android\u2122 or iOS\u2122 application like the STBLESensor app to view real-time object distance data read by the Time-of-Flight sensor.",
+            "fw_desc": "The FP-SNS-FLIGHT1 is an STM32Cube function pack, which lets your IoT node connect to a smartphone via BLE and uses a suitable Android™ or iOS™ application like the STBLESensor app to view real-time object distance data read by the Time-of-Flight sensor.",
             "fw_version": "5.1.0",
             "maturity": "release",
             "option_bytes": [
@@ -33611,7 +33611,7 @@
             "dtmi": null,
             "fota": {},
             "fw_name": "FP-SNS-FLIGHT1_Custom",
-            "fw_desc": "The FP-SNS-FLIGHT1 is an STM32Cube function pack, which lets your IoT node connect to a smartphone via BLE and uses a suitable Android\u2122 or iOS\u2122 application like the STBLESensor app to view real-time object distance data read by the Time-of-Flight sensor.",
+            "fw_desc": "The FP-SNS-FLIGHT1 is an STM32Cube function pack, which lets your IoT node connect to a smartphone via BLE and uses a suitable Android™ or iOS™ application like the STBLESensor app to view real-time object distance data read by the Time-of-Flight sensor.",
             "fw_version": "5.1.0",
             "maturity": "release",
             "option_bytes": [
@@ -34822,7 +34822,7 @@
             "wiki_url": "https://wiki.st.com/stm32mcu/wiki/STM32StepByStep:STM32WBA5M_Discovery_Kit_Out_Of_Box_Demonstration",
             "unique_dev_id": 43,
             "status": "ACTIVE",
-            "description": "Bluetooth\u00ae LE and 802.15.4 Discovery Kit with STM32WBACU",
+            "description": "Bluetooth® LE and 802.15.4 Discovery Kit with STM32WBACU",
             "documentation_url": "https://www.st.com/en/evaluation-tools/b-wba5m-wpan.html",
             "components": []
         },
@@ -34840,7 +34840,7 @@
             "wiki_url": "https://wiki.st.com/stm32mcu/wiki/STM32StepByStep:STM32WBA5M_Discovery_Kit_Out_Of_Box_Demonstration",
             "unique_dev_id": 44,
             "status": "ACTIVE",
-            "description": "Bluetooth\u00ae LE and 802.15.4 Discovery Kit with STM32WBA5MCU",
+            "description": "Bluetooth® LE and 802.15.4 Discovery Kit with STM32WBA5MCU",
             "documentation_url": "https://www.st.com/en/evaluation-tools/b-wba5m-wpan.html",
             "components": []
         },
@@ -34858,7 +34858,7 @@
             "wiki_url": "https://wiki.st.com/stm32mcu/wiki/STM32StepByStep:STM32WBA65I_Discovery_Kit_Out_Of_Box_Demonstration",
             "unique_dev_id": 45,
             "status": "ACTIVE",
-            "description": "Bluetooth\u00ae LE and 802.15.4 Discovery Kit with STM32WBA65RI MCU",
+            "description": "Bluetooth® LE and 802.15.4 Discovery Kit with STM32WBA65RI MCU",
             "documentation_url": "https://www.st.com/en/evaluation-tools/stm32wba65i-dk1.html",
             "components": []
         },
@@ -34876,7 +34876,7 @@
             "wiki_url": "https://wiki.st.com/stm32mcu/wiki/Connectivity:Introduction_to_Wi-Fi",
             "unique_dev_id": 46,
             "status": "ACTIVE",
-            "description": "WiFi6/Bluetooth \u00ae LE/Thread ST67W611M1 module",
+            "description": "WiFi6/Bluetooth ® LE/Thread ST67W611M1 module",
             "documentation_url": "https://www.st.com/content/st_com/en/campaigns/st67w-wifi6-bluetooth-thread-module-z13.html",
             "components": []
         },
@@ -36508,7 +36508,7 @@
                     "min": -40,
                     "name": "temperature",
                     "type": "Int16",
-                    "unit": "\u00b0C",
+                    "unit": "°C",
                     "length": 2,
                     "offset": 0,
                     "scalefactor": 0.1
@@ -36568,7 +36568,7 @@
                     "min": -40,
                     "name": "temperature",
                     "type": "Int16",
-                    "unit": "\u00b0C",
+                    "unit": "°C",
                     "length": 2,
                     "offset": 0,
                     "scalefactor": 0.1
@@ -36872,7 +36872,7 @@
                     "min": 0,
                     "name": "Direction",
                     "type": "Int16",
-                    "unit": "\u00b0",
+                    "unit": "°",
                     "length": 2,
                     "offset": 0,
                     "scalefactor": 1
@@ -38387,7 +38387,7 @@
             }
         }
     ],
-    "date": "2026-11-11 08:54:50.322680",
+    "date": "2026-11-12 12:17:38.395128",
     "version": "0.16.1",
     "stable_release": false,
     "checksum": "5be0be0b8a7d0d097f36d41d20f8b722"
